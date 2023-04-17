@@ -28,3 +28,15 @@ newslinkrss \
         --title-regex '(.+) · AeP' \
          'https://www.aconteceempetropolis.com.br/' \
         -o ./feeds/acontece_em_petropolis.xml
+
+LC_ALL=pt_BR.UTF-8 newslinkrss \
+        --follow \
+        -p 'https://www.diariodepetropolis.com.br/integra/.+' \
+        --date-from-xpath '//div[@class="card-body text-center"]/text()' \
+        --xpath-date-regex '.*,\s+(\d.+\d)' \
+        --xpath-date-fmt '%d de %B de %Y' \
+        --with-body \
+        --body-xpath '//h2/..' \
+        -C 'div.row div.card div.card-body.text-center div.row' \
+        'https://www.diariodepetropolis.com.br/' \
+        -o ./feeds/diario_de_petropolis.xml
