@@ -18,3 +18,13 @@ newslinkrss \
         --body-csss '.checkin-info.pad-it' \
         'https://untappd.com/user/gmgall' \
         -o ./feeds/gmgall_untappd.xml
+
+newslinkrss \
+        -p '.+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+' \
+        --follow \
+        --http-timeout 20 \
+        --with-body \
+        --body-csss '.entry-content.entry.clearfix' \
+        --title-regex '(.+) · AeP' \
+         'https://www.aconteceempetropolis.com.br/' \
+        -o ./feeds/acontece_em_petropolis.xml
