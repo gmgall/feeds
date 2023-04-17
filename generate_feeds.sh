@@ -40,3 +40,12 @@ LC_ALL=pt_BR.UTF-8 newslinkrss \
         -C 'div.row div.card div.card-body.text-center div.row' \
         'https://www.diariodepetropolis.com.br/' \
         -o ./feeds/diario_de_petropolis.xml
+
+newslinkrss \
+        -p 'https://www.dannyguo.com/blog/.+' \
+        --follow \
+        --with-body \
+        --body-csss 'article' \
+        --date-from-xpath '//@datetime' \
+        'https://www.dannyguo.com/blog' \
+        -o ./feeds/danny_guo.xml
