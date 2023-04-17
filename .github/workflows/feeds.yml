@@ -1,7 +1,7 @@
 name: Generate and deploy feeds
 on:
   schedule: # Run workflow automatically
-    - cron: '0 */12 * * *' # Runs every hour, on the hour
+    - cron: '0 */6 * * *' # Runs every hour, on the hour
   workflow_dispatch:
 
 jobs:
