@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 19 Apr 2023 06:13:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — website</title><link>https://ctrl-c.club/~gome/journal/spring.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;The spring melt&lt;/h1&gt;
+      &lt;time datetime="Tue, 18 Apr 2023 22:30:00 CDT"&gt;18 Apr 2023, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        A consistent theme in my writing on here has been the winter I’ve been living through, the span of which coincided closely with the 100-day writing challenge I’m doing.
+        I felt a distinct change in the feel of the season about a month ago, close to when the equinox actually occurred.
+        We were still covered in snow, and would continue to get snow for a couple more weeks, but the days were getting longer and brighter, and along with the shift to daylight time, the feeling of spring was already on the way.
+      &lt;/p&gt;&lt;p&gt;
+        Now we’ve actually reached the point where the temperatures are finally overtaking the big backlog of snow to melt.
+        With all the melt draining away, I’m hoping to go see the river sometime near its crest.
+        Everything’s super wet right now, but it’s already getting easier, little by little, to get outside and do things.
+      &lt;/p&gt;&lt;p&gt;
+        As it gets warmer, my favorite thing is to notice the memories of past springs that come back.
+        They’re activated by the particular feeling of the air on a given day, or by smells that get easier to detect in warmer air, especially that of water-logged earth.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/charles_beck_spring_flight.webp" width="654" height="442"&gt;
+        &lt;figcaption&gt;
+          &lt;i&gt;Spring Flight&lt;/i&gt; by Charles Beck (&lt;a href="https://kaddatz-galleries.square.site/product/charles-beck-spring-flight-15-150/2548" target="_blank"&gt;source&lt;/a&gt;)
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        During winter, with these physical memories unavailable, there are certain thoughts you just can’t think, until the spring comes and gently unblocks them.
+        I think of the process as an “inner melt” that accompanies the exterior one.
+        It’s a helpful reminder that you’re not always a unitary “complete self”, necessarily, but that there are aspects of your personality that move and flow with the seasons.
+      &lt;/p&gt;&lt;p&gt;
+        Winter is almost always something of an emotional battle in this climate.
+        But I really do think it makes the arrival of spring feel that much more meaningful.
+        I can’t imagine living somewhere where the seasons don’t really have distinct shapes, as pleasant as that might be.
+      &lt;/p&gt;&lt;p&gt;
+        What is the weather like where you live?
+        When did the spring start for you?
+        Do you notice memories or internal changes that follow with the seasons?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/geese.webp" width="550" height="367"&gt;
+        &lt;figcaption&gt;
+          Bonus image: Basically &lt;i&gt;Spring Flight&lt;/i&gt; but in real life!
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/spring.html</guid><pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — website</title><link>https://ctrl-c.club/~gome/journal/website.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Build your own website&lt;/h1&gt;
+      &lt;time datetime="Mon, 17 Apr 2023 23:30:00 CDT"&gt;17 Apr 2023, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        I was going to start this post by talking about social media, but I think most of us are pretty well aware of the ways social media sucks.
+        I follow some social media, but I don’t really post much on large sites.
+        There’s stuff I would like to share online (hence this blog), but social media feels alienating and vaguely threatening to me.
+      &lt;/p&gt;&lt;p&gt;
+        In contrast, having my own website has been a joy.
+        Building this website and participating on Ctrl-C Club has been a real experience of the magic of the internet for me.
+        It’s so much fun to share things on my site and hear back from readers about their thoughts.
+      &lt;/p&gt;&lt;p&gt;
+        I also love having full creative control over my web presence here.
+        There’s no social media site where I’d be able to have a profile page that looks like &lt;a href="/"&gt;my gomepage&lt;/a&gt;.
+        And no matter how customizable they get, those sites are (of necessity) restricted to specific structures and formats: you can only post videos on YouTube; you can only post tweets on Twitter.*
+        With your own website, the only limits are your imagination and your skills.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/nightdrift.webp" width="660" height="444"&gt;
+        &lt;figcaption&gt;
+          &lt;a href="https://nightdrift.neocities.org/"&gt;Nightdrifter’s Lounge&lt;/a&gt; is just one example of the creative and awesome-looking sites people make on Neocities.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        There’s a higher barrier to entry when making your own website, because it requires you to learn HTML at a bare minimum, probably CSS as well, and eventually, you might want to add Javascript or even server-side code to it.
+        But it’s not hard to grasp the barest basics to get a site started, and once you have a start, you can learn as you go.
+        A site can be updated any time, so your site grows and improves over time as a reflection of your own journey of learning.
+      &lt;/p&gt;&lt;p&gt;
+        You don’t have to pay anything to start a website, either.
+        Gomepage started on &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C Club&lt;/a&gt;, which gives out free user profiles on a shared Linux machine, which include a &lt;code&gt;public_html&lt;/code&gt; directory you can use to publish a user page.
+        There are a &lt;a href="https://tildeverse.org/members/"&gt;number of “tilde” servers&lt;/a&gt; that offer similar things.
+      &lt;/p&gt;&lt;p&gt;
+        If you don’t want to log in through a command line, there are other ways to host a static site for free.
+        &lt;a href="https://neocities.org/"&gt;Neocities&lt;/a&gt; is a great site, inspired by the classic web host GeoCities.
+        This is probably one of the easiest ways out there to get your own website.
+        I love browsing around and seeing the fun, often retro sites people are building on there.
+      &lt;/p&gt;&lt;p&gt;
+        If you are familiar with git, the version control software, &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; and &lt;a href="https://pages.cloudflare.com/"&gt;Cloudflare Pages&lt;/a&gt; both let you deploy a site automatically from files in a git repository, which is convenient.
+        I’m sure there are plenty of other free options for hosting out there, but these are just the ones that come to me from memory.
+      &lt;/p&gt;&lt;p&gt;
+        Home-made personal websites take more time, effort, and attention than social media, and so they will likely never be as popular.
+        But it means they draw a more intentional and engaged community of authors and users.
+        No matter what the majority is doing, fun &amp;amp; interesting alternatives are out there, waiting for us.
+        In the same way &lt;a href="regenerative.html"&gt;regenerative agriculture&lt;/a&gt; eschews raw efficiency for ecological resilience and diversity, having your own website is like building a digital homestead (or be as it may, a “gomestead”) that supports a healthier online ecosystem.
+        Come join us!
+      &lt;/p&gt;&lt;p&gt;
+        Do you have a currently active personal site?
+        Have you tried making a website before?
+        Do you want to try making one?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;&lt;p class="footnote"&gt;
+        * I know neither of these are perfect examples. On YouTube, you can now also make community posts, and Twitter in particular does allow some rudimentary forms of user-created structure with threading and quote-tweeting. But in either case, the format of the content will always be restricted to what features those sites have created.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/website.html</guid><pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate></item></channel></rss>
