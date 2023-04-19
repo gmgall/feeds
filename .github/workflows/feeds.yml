@@ -23,6 +23,9 @@ jobs:
     - name: Instala newslinkrss
       run: pip3 install newslinkrss
 
+    - name: Instala yq
+      run: pip3 install yq
+
     - name: Cria diretório que receberá os feeds
       run: mkdir feeds
 
