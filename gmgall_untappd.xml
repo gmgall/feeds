@@ -4,9 +4,49 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Apr 2023 20:09:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Apr 2023 00:48:26 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Pale Ale by Cervejaria Eisenbahn</title>
+      <link>https://untappd.com/user/gmgall/checkin/1266475047</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/pale-ale-cervejaria-eisenbahn/21522"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-21522_ed62c_sm.jpeg" alt="Pale Ale label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/pale-ale-cervejaria-eisenbahn/21522"&gt;Pale Ale&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/eisenbahn"&gt;Cervejaria Eisenbahn&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1266475047"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 11)"&gt;
+&lt;span&gt;Earned the 99 Bottles (Level 11) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_PaleMoon_sm.jpg" alt="Pale as the Moon (Level 2)"&gt;
+&lt;span&gt;Earned the Pale as the Moon (Level 2) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>The Untappd Team</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266475047</guid>
+      <pubDate>Wed, 19 Apr 2023 22:37:33 GMT</pubDate>
+    </item>
     <item>
       <title>Faxe IPA by Royal Unibrew</title>
       <link>https://untappd.com/user/gmgall/checkin/1266286162</link>
@@ -144,32 +184,6 @@
       <author>The Untappd Team</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1265743676</guid>
       <pubDate>Sun, 16 Apr 2023 08:32:42 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brewpoint American IPA by Cervejaria Brewpoint</title>
-      <link>https://untappd.com/user/gmgall/checkin/1262542087</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1867468_a151c_sm.jpeg" alt="Brewpoint American IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;Brewpoint American IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1262542087"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>The Untappd Team</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1262542087</guid>
-      <pubDate>Fri, 07 Apr 2023 02:58:01 GMT</pubDate>
     </item>
   </channel>
 </rss>
