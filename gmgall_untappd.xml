@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Apr 2023 18:11:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Apr 2023 00:48:24 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Vienna Lager by Cervejaria Eisenbahn</title>
+      <link>https://untappd.com/user/gmgall/checkin/1266651682</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/vienna-lager-cervejaria-eisenbahn/4823616"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4823616_789f3_sm.jpeg" alt="Vienna Lager label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/vienna-lager-cervejaria-eisenbahn/4823616"&gt;Vienna Lager&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/eisenbahn"&gt;Cervejaria Eisenbahn&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1266651682"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_AmazonAndAndes_sm.jpg" alt="Amazons &amp;amp; Andes (Level 34)"&gt;
+&lt;span&gt;Earned the Amazons &amp;amp; Andes (Level 34) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>The Untappd Team</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266651682</guid>
+      <pubDate>Thu, 20 Apr 2023 20:14:01 GMT</pubDate>
+    </item>
     <item>
       <title>Pale Ale by Cervejaria Eisenbahn</title>
       <link>https://untappd.com/user/gmgall/checkin/1266475047</link>
@@ -154,36 +190,6 @@
       <author>The Untappd Team</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1265978925</guid>
       <pubDate>Sun, 16 Apr 2023 22:29:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Hilda Session IPA by Cervejaria Eisenbahn</title>
-      <link>https://untappd.com/user/gmgall/checkin/1265743676</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/hilda-session-ipa-cervejaria-eisenbahn/3420699"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3420699_4d771_sm.jpeg" alt="Hilda Session IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/hilda-session-ipa-cervejaria-eisenbahn/3420699"&gt;Hilda Session IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/eisenbahn"&gt;Cervejaria Eisenbahn&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1265743676"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-50"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>The Untappd Team</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1265743676</guid>
-      <pubDate>Sun, 16 Apr 2023 08:32:42 GMT</pubDate>
     </item>
   </channel>
 </rss>
