@@ -4,9 +4,33 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Apr 2023 18:11:08 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 23 Apr 2023 00:54:16 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Brewpoint German Pilsner by Cervejaria Brewpoint</title>
+      <link>https://untappd.com/user/gmgall/checkin/1267671279</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/brewpoint-german-pilsner-cervejaria-brewpoint/1869681"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1869681_486d2_sm.jpeg" alt="Brewpoint German Pilsner label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/brewpoint-german-pilsner-cervejaria-brewpoint/1869681"&gt;Brewpoint German Pilsner&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="rating-serving floating"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/growler.png?v=1" alt="Growler"&gt;
+&lt;span&gt;Growler &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1267671279"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;/div&gt;</description>
+      <author>The Untappd Team</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1267671279</guid>
+      <pubDate>Sat, 22 Apr 2023 23:04:08 GMT</pubDate>
+    </item>
     <item>
       <title>Black Princess APA-82 by Cervejaria Petrópolis</title>
       <link>https://untappd.com/user/gmgall/checkin/1266743288</link>
@@ -146,36 +170,6 @@
       <author>The Untappd Team</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266286162</guid>
       <pubDate>Tue, 18 Apr 2023 22:23:04 GMT</pubDate>
-    </item>
-    <item>
-      <title>Green Coast by Paradiso Brewing Co.</title>
-      <link>https://untappd.com/user/gmgall/checkin/1266156107</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/green-coast-paradiso-brewing-co/4777176"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4777176_243d1_sm.jpeg" alt="Green Coast label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/green-coast-paradiso-brewing-co/4777176"&gt;Green Coast&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/paradiso-brewing-co/519020"&gt;Paradiso Brewing Co.&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1266156107"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/can@3x.png?v=1" alt="Can"&gt;
-&lt;span&gt;Can &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-30"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>The Untappd Team</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266156107</guid>
-      <pubDate>Tue, 18 Apr 2023 00:28:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
