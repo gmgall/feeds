@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Apr 2023 12:18:12 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Apr 2023 18:12:08 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Brewpoint American IPA by Cervejaria Brewpoint</title>
+      <link>https://untappd.com/user/gmgall/checkin/1268154933</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1867468_a151c_sm.jpeg" alt="Brewpoint American IPA label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;Brewpoint American IPA&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1268154933"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/growler.png?v=1" alt="Growler"&gt;
+&lt;span&gt;Growler &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_growl-the-growler_sm.jpg" alt="Growl the Growler (Level 2)"&gt;
+&lt;span&gt;Earned the Growl the Growler (Level 2) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>The Untappd Team</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1268154933</guid>
+      <pubDate>Mon, 24 Apr 2023 17:36:57 GMT</pubDate>
+    </item>
     <item>
       <title>Brewpoint German Pilsner by Cervejaria Brewpoint</title>
       <link>https://untappd.com/user/gmgall/checkin/1267671279</link>
@@ -136,40 +172,6 @@
       <author>The Untappd Team</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266475047</guid>
       <pubDate>Wed, 19 Apr 2023 22:37:33 GMT</pubDate>
-    </item>
-    <item>
-      <title>Faxe IPA by Royal Unibrew</title>
-      <link>https://untappd.com/user/gmgall/checkin/1266286162</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/faxe-ipa-royal-unibrew/2231881"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2231881_68595_sm.jpeg" alt="Faxe IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/faxe-ipa-royal-unibrew/2231881"&gt;Faxe IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/RoyalUnibrew"&gt;Royal Unibrew&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="rating-serving floating"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/can@3x.png?v=1" alt="Can"&gt;
-&lt;span&gt;Can &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1266286162"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 24)"&gt;
-&lt;span&gt;Earned the Middle of the Road (Level 24) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_DanishDelight_sm.jpg" alt="Danish Delight"&gt;
-&lt;span&gt;Earned the Danish Delight badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>The Untappd Team</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1266286162</guid>
-      <pubDate>Tue, 18 Apr 2023 22:23:04 GMT</pubDate>
     </item>
   </channel>
 </rss>
