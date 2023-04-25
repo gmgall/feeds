@@ -50,6 +50,19 @@ newslinkrss \
         'https://www.dannyguo.com/blog' \
         -o ./feeds/danny_guo.xml
 
+newslinkrss \
+        -p 'https://www.espn.com.br/nfl/artigo/.+' \
+        --follow \
+        --with-body \
+        --body-csss '.article-body' \
+        --body-remove-csss '.inline.float-r.inline-track' \
+        --body-remove-csss 'img' \
+        --body-remove-csss '.inline.editorial.float-r' \
+        --body-remove-csss '.article-social.vertical' \
+        --date-from-xpath '//@data-date' \
+        'https://www.espn.com.br/nfl' \
+        -o ./feeds/espn_nfl.xml
+
 # Folks at ctrl-c.club
 
 newslinkrss \
