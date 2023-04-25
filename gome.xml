@@ -1,12 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 25 Apr 2023 01:05:32 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — incorrect</title><link>https://ctrl-c.club/~gome/journal/incorrect.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 25 Apr 2023 06:13:55 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — git</title><link>https://ctrl-c.club/~gome/journal/git.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;You don’t need GitHub&lt;/h1&gt;
+      &lt;time datetime="Mon, 24 Apr 2023 23:00:00 CDT"&gt;24 Apr 2023, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        Like most programmers, I use git for version control.
+        I’ve been using it since college, where we were introduced to it for working on shared projects as well as a consistent way to turn our code in.
+      &lt;/p&gt;&lt;p&gt;
+        There were a lot of things I didn’t get about git when I first started using it.
+        If I needed to do anything besides simply add commits to a single branch in a linear fashion and push them to a remote, I got confused quickly.
+        I would try to consult a guide or StackOverflow post, typing in commands I didn’t understand and usually I made a mess of things.
+        I remember I would end up force-pushing to remote a lot, which I understood was a no-no, but at the time, the repositories I was working with were mine alone, so it didn’t really matter.
+      &lt;/p&gt;&lt;p&gt;
+        Now that I’ve used it for work and actually had to contend with things like stashes and branches and remotes over &amp;amp; over again, I feel like I’ve got a more stable handle on git than I used to.
+        At the very least, I can do what I need to for work pretty reliably, and I know how to get myself out of the sticky spots well enough.
+      &lt;/p&gt;
+      &lt;img src="img/network.webp" width="355" height="352" class="no-border"&gt;
+      &lt;p&gt;
+        There’s one really interesting thing about git I didn’t understand until recently.
+        When you push to a remote repository, such as those hosted on GitHub, there’s really nothing privileged about it compared to any other repository.
+        The only difference is that it’s what’s called a “bare” repository, which means it doesn’t actually keep a working tree (the instantiation of a repo’s files on a given filesystem).
+      &lt;/p&gt;&lt;p&gt;
+        The upshot of this is that you can actually push &amp;amp; pull repositories from any machine you can SSH to that has git installed.
+        So you don’t need to use a separate hosting service to store your code, especially if you’re mainly pushing it to pull it down onto another machine you have access to.
+      &lt;/p&gt;&lt;p&gt;
+        For example, I use git to &lt;a href="update.html"&gt;deploy my website&lt;/a&gt;.
+        When I wrote that post, I would always push my repository to tildegit, then log into the Ctrl-C server and pull it back down.
+        Since learning this little tidbit, I ended up reworking my setup so that when I do a &lt;code&gt;git push&lt;/code&gt;, it actually goes to tildegit &lt;i&gt;and&lt;/i&gt; the ctrl-c server directly, so no additional pulling is necessary.
+      &lt;/p&gt;&lt;p&gt;
+        To make this work, I had to do two things.
+        The first was to add an additional url to the &lt;code&gt;origin&lt;/code&gt; remote:
+      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;code&gt;
+        git remote set-url --add --push origin ctrl-c:public_html
+      &lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;
+        If you use this command, replace &lt;code&gt;ctrl-c:public_html&lt;/code&gt; with your own hostname and repo path.
+        In my case, I have the &lt;code&gt;ctrl-c&lt;/code&gt; hostname configured to connect to the Ctrl-C server in my &lt;code&gt;~/.ssh/config&lt;/code&gt; file,
+        and &lt;code&gt;public_html&lt;/code&gt; is the directory the actual repository resides in, relative to my home directory on the Ctrl-C server.
+      &lt;/p&gt;&lt;p&gt;
+        The second thing was to update the config of the repository on the Ctrl-C server:
+      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;code&gt;
+        git config receive.denycurrentbranch updateInstead
+      &lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;
+        Above, I mentioned that remote repositories on hosting services are “bare”, that is, they have no working tree.
+        If you have a normal repository with a working tree, and you push an update to the branch it currently has checked out, it would normally deny your update.
+        When you set this setting, it will update the repository instead.
+      &lt;/p&gt;&lt;p&gt;
+        If you use this approach to deploy websites or other files, it’s best to avoid making changes in the remote repository if you can.
+        Also, there are more sophisticated ways to do this kind of thing, so don’t take this as expert advice.
+        But at the very least, it’s a cool trick that suits my needs for deploying a personal site quite well.
+      &lt;/p&gt;&lt;p&gt;
+        Do you use git?
+        Do you feel like you grasp it pretty well?
+        Have you ever discovered a neat trick that helps your workflow?
+        Have you tried managing git repositories in a similar way before?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/git.html</guid><pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — incorrect</title><link>https://ctrl-c.club/~gome/journal/incorrect.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Giving myself permission to be confidently incorrect&lt;/h1&gt;
       &lt;time datetime="Wed, 19 Apr 2023 19:30:00 CDT"&gt;19 Apr 2023, 7:30 PM&lt;/time&gt;
       &lt;div class="note"&gt;
         &lt;p&gt;
           This is my 100&lt;sup&gt;th&lt;/sup&gt; post for the &lt;a href="https://jibran.substack.com/p/100-day-creator-challenge"&gt;100-day writing challenge&lt;/a&gt; I’ve been participating in.
-          As of publication, I have completed the challenge: publishing, without exception, at least 100 words every weekday for 100 days.
+          As of publication, I have completed the challenge: publishing, without exception, at least 100 words every day for 100 weekdays.
           When I started, I never really thought I would ever complete 100 of something so consistently, but here I am.
         &lt;/p&gt;&lt;p&gt;
           If you’ve been reading, thanks for following along on this journey.
