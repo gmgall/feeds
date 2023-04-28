@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 28 Apr 2023 00:52:49 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — git</title><link>https://ctrl-c.club/~gome/journal/git.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 28 Apr 2023 06:13:59 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — writing</title><link>https://ctrl-c.club/~gome/journal/writing.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I miss writing every day&lt;/h1&gt;
+      &lt;time datetime="Tue, 27 Apr 2023 23:00:00 CDT"&gt;27 Apr 2023, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I &lt;a href="incorrect.html"&gt;finished&lt;/a&gt; my 100-day writing challenge, I made a point of stopping the daily writing.
+        I had developed the habit so well by that point that it would have been easy to continue,
+        but I wanted there to be a cutoff that clearly delineated the challenge in my mind.
+      &lt;/p&gt;&lt;p&gt;
+        One of the reasons I was able to commit to the challenge in the first place was that I knew it was a limited scope.
+        It wasn’t like I was committing to daily writing “forever”, which I probably would have failed at much sooner.
+        So I wanted to honor that limited scope by not carrying on indefinitely with it.
+      &lt;/p&gt;&lt;p&gt;
+        I want to keep writing, but at the same time, I think it will be more difficult now that I’m not doing it daily.
+        I decided to commit to two posts a week for now, because I knew if I made no commitments, I would probably let other things get in the way and never finish another post.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/stove.webp" width="550" height="309"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:GasStoveBurner_20220521_181829.jpg#Licensing" target="_blank"&gt;Ka23 13&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        When I did posts daily, it was just a part of my regular routine to get it done.
+        Even if I didn’t feel like writing, I knew on some level that I would have to sit down and work it out until I had a post.
+        Now that I have more space between the posts, it feels like more time is required to get me back into the mindset.
+      &lt;/p&gt;&lt;p&gt;
+        I think there’s a big psychological difference between something you do daily and things you do regularly but less frequently, especially in creative activities.
+        When you do something daily, you keep it “warm”.
+        Every time you sit down to do it, the last time is close in your memory, so you can draw from the prior feeling of momentum more easily.
+        It creates a sense of flow between days you don’t get if you let the activity go cold, even for a single day.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve actually noticed the same thing writing music.
+        I can really only get good ideas for music after thinking about it for a few consecutive days,
+        and I usually do my best work once I’ve sat down and worked at the piano for a few days in a row.
+      &lt;/p&gt;&lt;p&gt;
+        I still have a lot of thoughts in my head I would like to share.
+        Daily posting might make it easier to get more of them out.
+        But the only way I’ll write daily posts is if I commit to daily posting beforehand, because otherwise I will end up doing other things most days.
+        So perhaps I’ll come up with another posting schedule that is more intermittent but lets me reap the benefits of daily posting again.
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever written daily posts?
+        Did you stop intentionally at some point?
+        Do you find that the things you do daily stay warm in your mind?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/writing.html</guid><pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — git</title><link>https://ctrl-c.club/~gome/journal/git.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;You don’t need GitHub&lt;/h1&gt;
       &lt;time datetime="Mon, 24 Apr 2023 23:00:00 CDT"&gt;24 Apr 2023, 11:00 PM&lt;/time&gt;
