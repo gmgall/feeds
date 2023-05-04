@@ -13,9 +13,10 @@ newslinkrss \
         -p '.+/user/gmgall/checkin/[0-9]+' \
         --follow \
         --date-from-csss '.time' \
-        --title-regex 'Guilherme is drinking a (.+) on Untappd' \
+        --title-regex 'Guilherme is drinking an? (.+) on Untappd' \
         --with-body \
         --body-csss '.checkin-info.pad-it' \
+        --author-from-csss '.name p a'
         'https://untappd.com/user/gmgall' | \
         xq --xml-output '.rss.channel.item = .rss.channel.item[4:]' > ./feeds/gmgall_untappd.xml
 
