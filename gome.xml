@@ -1,5 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 05 May 2023 00:46:18 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — writing</title><link>https://ctrl-c.club/~gome/journal/dowsing.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 05 May 2023 03:58:44 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — etiquette</title><link>https://ctrl-c.club/~gome/journal/etiquette.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Why learn etiquette?&lt;/h1&gt;
+      &lt;time datetime="Thu, 4 May 2023 22:30:00 CDT"&gt;4 May 2023, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        I recently found myself thinking that it might be helpful to seek out resources on etiquette.
+        The exact reason I was thinking this escapes me, so this post is an attempt to rebuild that train of thought.
+      &lt;/p&gt;&lt;p&gt;
+        Generally I want to be kind to people.
+        Maybe if I’m in some kind of mean or crabby or otherwise negative mood, I don’t feel like it as much, though I’ll still try.
+        But usually, I do have a genuine desire to be kind &amp;amp; pleasant to people if I can.
+        This includes avoiding awkward situations that would make someone uncomfortable, where it is prudent to do so.
+      &lt;/p&gt;
+      &lt;img src="img/dinner_party.webp" class="no-border" width="475" height="373"&gt;
+      &lt;p&gt;
+        Social interactions are complex, and usually there are more things in the picture than just “be kind”.
+        You always have your own reactions and emotions going on that need to be duly processed &amp;amp; managed.
+        You might have other goals you want to achieve depending on the context, like to look good or have fun.
+        You also have awareness of other people’s emotions and goals, and those in turn might affect yours.
+      &lt;/p&gt;&lt;p&gt;
+        All these factors mean it’s sometimes hard to decide what to do, especially in novel situations with unfamiliar details.
+        Suppose a friend made you a weird necklace or something, and you don’t really like it or it doesn’t go with your clothes, but they’re clearly hoping you’ll wear it at this event.
+        How do you handle it?
+        Obviously it’s okay to not get it right all the time, but there might be a simple, practical solution to a scenario like this you just haven’t considered.
+      &lt;/p&gt;&lt;p&gt;
+        I think a good etiquette book could play a really helpful role here.
+        You could think of it as a stock of these practical solutions, applied to many different scenarios.
+        By reading and understanding these examples, you could build up your own intuition about how to come up with your own solutions on the fly.
+      &lt;/p&gt;&lt;p&gt;
+        So I’m not looking to etiquette for a list of rules that tell me how to act in particular situations.
+        You can’t really expect a rule list to apply very well to the messy realities of real life.
+        Rather, I would like to learn etiquette as a set of templates for considerate behavior that I can adapt and riff on.
+      &lt;/p&gt;&lt;p&gt;
+        Etiquette as an established, agreed-upon set of rules is not especially relevant in my culture.
+        Like anywhere else, there are certainly implicit cultural norms, but many things are much more casual now than they maybe once were.
+        There’s not really a “rulebook for polite society” that everyone’s aware of or anything like that.
+      &lt;/p&gt;&lt;p&gt;
+        Inasmuch as it makes people less constrained &amp;amp; stifled in their behavior, that seems like a good thing.
+        But I think we could use a form of etiquette as positive guidance.
+        Most of us want to be kind, but with such a complex social world, we could sometimes use some help knowing how to do it effectively.
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever studied etiquette?
+        Do you participate in a culture or subculture with an established etiquette?
+        Do you know of any resources for learning about etiquette?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/etiquette.html</guid></item><item><title>gome — dowsing</title><link>https://ctrl-c.club/~gome/journal/dowsing.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;What’s up with dowsing?&lt;/h1&gt;
       &lt;time datetime="Tue, 2 May 2023 22:00:00 CDT"&gt;2 May 2023, 10:00 PM&lt;/time&gt;
@@ -267,7 +315,7 @@
         It’s so much fun to share things on my site and hear back from readers about their thoughts.
       &lt;/p&gt;&lt;p&gt;
         I also love having full creative control over my web presence here.
-        There’s no social media site where I’d be able to have a profile page that looks like &lt;a href="/"&gt;my gomepage&lt;/a&gt;.
+        There’s no social media site where I’d be able to have a profile page that looks like &lt;a href=".."&gt;my gomepage&lt;/a&gt;.
         And no matter how customizable they get, those sites are (of necessity) restricted to specific structures and formats: you can only post videos on YouTube; you can only post tweets on Twitter.*
         With your own website, the only limits are your imagination and your skills.
       &lt;/p&gt;
