@@ -16,7 +16,7 @@ newslinkrss \
         --title-regex 'Guilherme is drinking an? (.+) on Untappd' \
         --with-body \
         --body-csss '.checkin-info.pad-it' \
-        --author-from-csss '.name p a'
+        --author-from-csss '.name p a' \
         'https://untappd.com/user/gmgall' | \
         xq --xml-output '.rss.channel.item = .rss.channel.item[4:]' > ./feeds/gmgall_untappd.xml
 
