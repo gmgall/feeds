@@ -104,19 +104,6 @@ newslinkrss \
          -o ./feeds/gome.xml
 
 newslinkrss \
-         -p '.*/~chiptune/blog/.+' \
-         -i '.*/~chiptune/blog/feed.rss' \
-         --date-from-xpath '//@datetime' \
-         --xpath-date-fmt '%Y-%m-%dT00:00:00+00:00' \
-         --follow \
-         --with-body \
-         --title '~chiptune posts on ctrl-c.club' \
-         --title-regex '.+ - (.*)' \
-         --body-csss 'article' \
-         'https://ctrl-c.club/~chiptune/blog/' \
-         -o ./feeds/chiptune.xml
-
-newslinkrss \
          -p '.+/~nodisc/[0-9]{4}-[0-9]{2}-[0-9]{2}_.+.html' \
          --follow \
          --date-from-text '([0-9]{4}-[0-9]{2}-[0-9]{2})[_ ].*' \
