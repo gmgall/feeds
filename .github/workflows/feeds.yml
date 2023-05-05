@@ -30,7 +30,7 @@ jobs:
       run: mkdir feeds
 
     - name: Executa newslinkrss
-      run: bash generate_feeds.sh
+      run: bash -x generate_feeds.sh
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2
