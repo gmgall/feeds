@@ -184,3 +184,7 @@ newslinkrss \
          --encoding 'utf-8' \
          'https://ctrl-c.club/~beehiveth/' \
          -o ./feeds/beehiveth.xml
+
+for feed in feeds/*; do
+  xq --arg feed_url "https://gmgall.github.io/$feed" '{"title": .rss.channel.title, "link": .rss.channel.link, "description": .rss.channel.description, "feed": $feed_url}' "$feed"
+done | jq -s > ./feeds/feeds.json
