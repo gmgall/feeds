@@ -1,0 +1,104 @@
+[
+  {
+    "title": "~FikaMedHasse posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~FikaMedHasse/blog.html",
+    "description": "Blog!",
+    "feed": "https://gmgall.github.io/feeds/FikaMedHasse.xml"
+  },
+  {
+    "title": "~Triz3n posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~Triz3n/",
+    "description": "Triz3n",
+    "feed": "https://gmgall.github.io/feeds/Triz3n.xml"
+  },
+  {
+    "title": "Acontece em Petrópolis · AeP",
+    "link": "https://www.aconteceempetropolis.com.br/",
+    "description": "O seu Portal de notícias da Cidade Imperial. Fique antenado em tudo o que Acontece em Petrópolis!",
+    "feed": "https://gmgall.github.io/feeds/acontece_em_petropolis.xml"
+  },
+  {
+    "title": "~beehiveth posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~beehiveth/",
+    "description": "A personal website (and Isaac Rodríguez's hastily bound IndieWeb identity.)",
+    "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
+  },
+  {
+    "title": "~captaindrewboy posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~captaindrewboy/",
+    "description": "https://ctrl-c.club/~captaindrewboy/",
+    "feed": "https://gmgall.github.io/feeds/captaindrewboy.xml"
+  },
+  {
+    "title": "~chickfilla posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~chickfilla/",
+    "description": "https://ctrl-c.club/~chickfilla/",
+    "feed": "https://gmgall.github.io/feeds/chickfilla.xml"
+  },
+  {
+    "title": "Danny Guo",
+    "link": "https://www.dannyguo.com/blog",
+    "description": "Danny Guo",
+    "feed": "https://gmgall.github.io/feeds/danny_guo.xml"
+  },
+  {
+    "title": "Diário de Petrópolis",
+    "link": "https://www.diariodepetropolis.com.br/",
+    "description": "(Edição online) Últimas notícias, artigos e classificados da cidade.",
+    "feed": "https://gmgall.github.io/feeds/diario_de_petropolis.xml"
+  },
+  {
+    "title": "NFL na ESPN - Resultados, vídeos e estatísticas",
+    "link": "https://www.espn.com.br/nfl",
+    "description": "Acesse ESPN para placares ao vivo da NFL, melhores momentos e notícias. Assista à NFL pela ESPN no Star+",
+    "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
+  },
+  {
+    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
+    "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
+    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
+    "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
+  },
+  {
+    "title": "Guilherme Gall on Untappd",
+    "link": "https://untappd.com/user/gmgall",
+    "description": "Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.",
+    "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
+  },
+  {
+    "title": "~gome posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~gome/journal/",
+    "description": "gome — journal",
+    "feed": "https://gmgall.github.io/feeds/gome.xml"
+  },
+  {
+    "title": "~i00nsu posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~i00nsu/",
+    "description": "Monkeys Will be Monkeys forever",
+    "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
+  },
+  {
+    "title": "~lettuce posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~lettuce/",
+    "description": "/home/lettuce/public_html/index.html",
+    "feed": "https://gmgall.github.io/feeds/lettuce.xml"
+  },
+  {
+    "title": "\"Artículos\" section of ~nodisc",
+    "link": "https://ctrl-c.club/~nodisc/articulos.html",
+    "description": "Índice",
+    "feed": "https://gmgall.github.io/feeds/nodisc.xml"
+  },
+  {
+    "title": "~sicbail posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~sicbail/",
+    "description": "Thoughts, Ideas and random stuff. An uninteresting read from an uninteresting person.",
+    "feed": "https://gmgall.github.io/feeds/sicbail.xml"
+  },
+  {
+    "title": "~timemachine posts on ctrl-c.club",
+    "link": "https://ctrl-c.club/~timemachine/archives/",
+    "description": "Writing",
+    "feed": "https://gmgall.github.io/feeds/timemachine.xml"
+  }
+]
