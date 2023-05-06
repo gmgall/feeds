@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sat, 06 May 2023 12:16:56 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Forex Trading for Fun and Luckily Profit</title><link>https://www.dannyguo.com/blog/forex-trading-for-fun-and-luckily-profit</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sat, 06 May 2023 18:11:48 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Forex Trading for Fun and Luckily Profit</title><link>https://www.dannyguo.com/blog/forex-trading-for-fun-and-luckily-profit</link><description>&lt;article&gt;
         &lt;h1&gt;Forex Trading for Fun and Luckily Profit&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -6541,12 +6541,17 @@ or in the comments below.&lt;/p&gt;
 
         &lt;div class="subheader"&gt;
             
-            
+                        Updated on &lt;time datetime="2023-05-06"&gt;
+                            May 6, 2023
+                        &lt;/time&gt;
+                         · 
+                    
+            Published on 
             &lt;time datetime="2018-06-13"&gt;
                 June 13, 2018
             &lt;/time&gt;
-             · 
-            227 words  ·  ~2 minutes to read
+            &lt;br&gt;
+            120 words  ·  ~1 minute to read
             
         &lt;/div&gt;
 
@@ -6557,12 +6562,6 @@ using the
 &lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;::selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;white&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;purple&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;/* for Firefox */&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;::-moz-selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;white&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;purple&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Try it out:&lt;/p&gt;
 
@@ -6570,21 +6569,8 @@ using the
 &lt;p&gt;Note that &lt;code&gt;background&lt;/code&gt; is a
 &lt;a href="https://stackoverflow.com/a/10205500/1481479"&gt;shorthand&lt;/a&gt; for multiple
 &lt;code&gt;background-*&lt;/code&gt; properties, with &lt;code&gt;background-color&lt;/code&gt; being the first one.&lt;/p&gt;
-&lt;p&gt;Also keep in mind that you cannot combine the selectors like this:&lt;/p&gt;
-&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;::selection&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;::-moz-selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;white&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;purple&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;This will fail because browsers &lt;a href="https://stackoverflow.com/a/16982510/1481479"&gt;ignore CSS
-rules&lt;/a&gt; that they consider to have
-invalid selectors. Chrome won't recognize the prefixed version, and Firefox
-won't recognize the unprefixed version, so they both reject the rule.&lt;/p&gt;
 &lt;h2 id="browser-support"&gt;Browser Support&lt;a class="anchor" href="#browser-support"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You should include the &lt;code&gt;-moz-&lt;/code&gt; prefixed version for now to support Firefox, but
-be aware that Firefox &lt;a href="https://bugzilla.mozilla.org/show_bug.cgi?id=509958"&gt;won't need the
-prefix&lt;/a&gt; from version 62
-onward.&lt;/p&gt;
-&lt;p&gt;According to &lt;a href="https://caniuse.com/#feat=css-selection"&gt;Can I use&lt;/a&gt;, about 85% of
+&lt;p&gt;According to &lt;a href="https://caniuse.com/#feat=css-selection"&gt;Can I use&lt;/a&gt;, about 83% of
 users are on browsers that support this feature. iOS Safari is the notable
 holdout.&lt;/p&gt;
 &lt;h2 id="specific-styling"&gt;Specific Styling&lt;a class="anchor" href="#specific-styling"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
@@ -6595,27 +6581,12 @@ limit them to specific elements using standard selectors.&lt;/p&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#790d0d&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;.iron-man::-moz-selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#beba46&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#790d0d&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;.incredible-hulk::selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#bf80ff&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#70964b&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;.incredible-hulk::-moz-selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#bf80ff&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#70964b&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;.thor::selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#e63900&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#363636&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;.thor::-moz-selection&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#e63900&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#363636&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
 &lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -6627,7 +6598,7 @@ limit them to specific elements using standard selectors.&lt;/p&gt;
 on
 &lt;a href="https://www.reddit.com/r/css/comments/8r3rtb/custom_website_selection_colors/"&gt;Reddit&lt;/a&gt;,
 or in the comments below.&lt;/p&gt;
-    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/custom-website-selection-colors</guid><pubDate>Wed, 13 Jun 2018 00:00:00 GMT</pubDate></item><item><title>The Decline of the MacBook Pro</title><link>https://www.dannyguo.com/blog/the-decline-of-the-macbook-pro</link><description>&lt;article&gt;
+    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/custom-website-selection-colors</guid><pubDate>Sat, 06 May 2023 00:00:00 GMT</pubDate></item><item><title>The Decline of the MacBook Pro</title><link>https://www.dannyguo.com/blog/the-decline-of-the-macbook-pro</link><description>&lt;article&gt;
         &lt;h1&gt;The Decline of the MacBook Pro&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;

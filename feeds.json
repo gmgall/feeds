@@ -54,16 +54,10 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss -p .+/noticia/[0-9]{4}/[0-9]{2}/.+html -i .+/geral/.+ --with-body --body-csss .article --follow https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/ -o ./feeds/gauchazh.xml",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
-  },
-  {
-    "title": "Guilherme Gall on Untappd",
-    "link": "https://untappd.com/user/gmgall",
-    "description": "Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.",
-    "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
   },
   {
     "title": "~gome posts on ctrl-c.club",
