@@ -4,9 +4,49 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 07 May 2023 06:11:45 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 07 May 2023 12:16:17 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Hop Obsession by Cervejaria Mad Brew</title>
+      <link>https://untappd.com/user/gmgall/checkin/1272194611</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/hop-obsession-cervejaria-mad-brew/2930994"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2930994_59563_sm.jpeg" alt="Hop Obsession label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/hop-obsession-cervejaria-mad-brew/2930994"&gt;Hop Obsession&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaMadBrew"&gt;Cervejaria Mad Brew&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1272194611"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-50"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 12)"&gt;
+&lt;span&gt;Earned the 99 Bottles (Level 12) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 15)"&gt;
+&lt;span&gt;Earned the I Believe in IPA! (Level 15) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1272194611</guid>
+      <pubDate>Sun, 07 May 2023 07:35:32 GMT</pubDate>
+    </item>
     <item>
       <title>Pill Zen by Cervejaria Mad Brew</title>
       <link>https://untappd.com/user/gmgall/checkin/1271876501</link>
@@ -148,30 +188,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1268154933</guid>
       <pubDate>Mon, 24 Apr 2023 17:36:57 GMT</pubDate>
-    </item>
-    <item>
-      <title>Brewpoint German Pilsner by Cervejaria Brewpoint</title>
-      <link>https://untappd.com/user/gmgall/checkin/1267671279</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/brewpoint-german-pilsner-cervejaria-brewpoint/1869681"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1869681_486d2_sm.jpeg" alt="Brewpoint German Pilsner label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/brewpoint-german-pilsner-cervejaria-brewpoint/1869681"&gt;Brewpoint German Pilsner&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;div class="rating-serving floating"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/growler.png?v=1" alt="Growler"&gt;
-&lt;span&gt;Growler &lt;/span&gt;
-&lt;/p&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1267671279"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1267671279</guid>
-      <pubDate>Sat, 22 Apr 2023 23:04:08 GMT</pubDate>
     </item>
   </channel>
 </rss>

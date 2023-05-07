@@ -72,9 +72,9 @@
     "feed": "https://gmgall.github.io/feeds/gome.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss -p .*/post[0-9]+.html --follow --with-body --encoding utf-8 --title ~i00nsu posts on ctrl-c.club https://ctrl-c.club/~i00nsu/ -o ./feeds/i00nsu.xml",
+    "title": "~i00nsu posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~i00nsu/",
-    "description": "Failed to generate feed.",
+    "description": "Monkeys Will be Monkeys forever",
     "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
   },
   {
