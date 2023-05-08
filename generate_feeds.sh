@@ -185,6 +185,20 @@ newslinkrss \
          'https://ctrl-c.club/~beehiveth/' \
          -o ./feeds/beehiveth.xml
 
+newslinkrss \
+         -p 'https?://escrevescreve.wordpress.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+' \
+         -i '.+/\?share=.+' \
+         --follow \
+         --with-body \
+         --body-csss '.entry-content' \
+         --body-remove-csss '#jp-post-flair' \
+         --title-regex '(.+) – escrevescreve' \
+         --date-from-csss 'time' \
+         --csss-date-fmt '%d/%m/%Y' \
+         --author-from-csss '.author.vcard a' \
+         'https://escrevescreve.wordpress.com/' \
+         -o ./feeds/escrevescreve.xml
+
 for feed in feeds/*; do
   xq --arg feed_url "https://gmgall.github.io/$feed" '{"title": .rss.channel.title, "link": .rss.channel.link, "description": .rss.channel.description, "feed": $feed_url}' "$feed"
 done | jq -s > ./feeds/feeds.json
