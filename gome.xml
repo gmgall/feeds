@@ -1,360 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 10 May 2023 00:50:45 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — etiquette</title><link>https://ctrl-c.club/~gome/journal/etiquette.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 10 May 2023 06:13:29 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — health</title><link>https://ctrl-c.club/~gome/journal/health.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1 id="title"&gt;Why learn etiquette?&lt;/h1&gt;
-      &lt;time datetime="Thu, 4 May 2023 22:30:00 CDT"&gt;4 May 2023, 10:30 PM&lt;/time&gt;
+      &lt;h1 id="title"&gt;Basic health stack&lt;/h1&gt;
+      &lt;time datetime="Tue, 9 May 2023 23:00:00 CDT"&gt;9 May 2023, 11:00 PM&lt;/time&gt;
       &lt;p&gt;
-        I recently found myself thinking that it might be helpful to seek out resources on etiquette.
-        The exact reason I was thinking this escapes me, so this post is an attempt to rebuild that train of thought.
+        In programming, a set of interacting components in a software architecture is sometimes called a “stack”.
+        I’ve seen people online use the word to point at a more general version of the same idea.
+        Like a lot of exported software terms, it has kind of a goofy connotation to me, like people are trying to turn our whole conceptual space into cool techy-sounding jargon or something.
       &lt;/p&gt;&lt;p&gt;
-        Generally I want to be kind to people.
-        Maybe if I’m in some kind of mean or crabby or otherwise negative mood, I don’t feel like it as much, though I’ll still try.
-        But usually, I do have a genuine desire to be kind &amp;amp; pleasant to people if I can.
-        This includes avoiding awkward situations that would make someone uncomfortable, where it is prudent to do so.
-      &lt;/p&gt;
-      &lt;img src="img/dinner_party.webp" class="no-border" width="475" height="373"&gt;
-      &lt;p&gt;
-        Social interactions are complex, and usually there are more things in the picture than just “be kind”.
-        You always have your own reactions and emotions going on that need to be duly processed &amp;amp; managed.
-        You might have other goals you want to achieve depending on the context, like to look good or have fun.
-        You also have awareness of other people’s emotions and goals, and those in turn might affect yours.
-      &lt;/p&gt;&lt;p&gt;
-        All these factors mean it’s sometimes hard to decide what to do, especially in novel situations with unfamiliar details.
-        Suppose a friend made you a weird necklace or something, and you don’t really like it or it doesn’t go with your clothes, but they’re clearly hoping you’ll wear it at this event.
-        How do you handle it?
-        Obviously it’s okay to not get it right all the time, but there might be a simple, practical solution to a scenario like this you just haven’t considered.
-      &lt;/p&gt;&lt;p&gt;
-        I think a good etiquette book could play a really helpful role here.
-        You could think of it as a stock of these practical solutions, applied to many different scenarios.
-        By reading and understanding these examples, you could build up your own intuition about how to come up with your own solutions on the fly.
-      &lt;/p&gt;&lt;p&gt;
-        So I’m not looking to etiquette for a list of rules that tell me how to act in particular situations.
-        You can’t really expect a rule list to apply very well to the messy realities of real life.
-        Rather, I would like to learn etiquette as a set of templates for considerate behavior that I can adapt and riff on.
-      &lt;/p&gt;&lt;p&gt;
-        Etiquette as an established, agreed-upon set of rules is not especially relevant in my culture.
-        Like anywhere else, there are certainly implicit cultural norms, but many things are much more casual now than they maybe once were.
-        There’s not really a “rulebook for polite society” that everyone’s aware of or anything like that.
-      &lt;/p&gt;&lt;p&gt;
-        Inasmuch as it makes people less constrained &amp;amp; stifled in their behavior, that seems like a good thing.
-        But I think we could use a form of etiquette as positive guidance.
-        Most of us want to be kind, but with such a complex social world, we could sometimes use some help knowing how to do it effectively.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever studied etiquette?
-        Do you participate in a culture or subculture with an established etiquette?
-        Do you know of any resources for learning about etiquette?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/etiquette.html</guid></item><item><title>gome — dowsing</title><link>https://ctrl-c.club/~gome/journal/dowsing.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;What’s up with dowsing?&lt;/h1&gt;
-      &lt;time datetime="Tue, 2 May 2023 22:00:00 CDT"&gt;2 May 2023, 10:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        Today at dinner my dad was talking about a podcast he had heard where they talked about dowsing.
-        For the unfamiliar, dowsing is a technique used to find hidden things, such as underground water or gravesites.
-        The dowser often uses a rod or pair of rods, which are meant to guide them toward whatever it is they’re looking for.
-      &lt;/p&gt;&lt;p&gt;
-        The episode my dad listened to gave some impressive anectdotal examples of dowsing being used to find things.
-        Obviously these are only examples, and if this were all I had heard, I wouldn’t be that interested.
-        But I actually have a personal connection to the practice in my family history.
-      &lt;/p&gt;&lt;p&gt;
-        I’ve heard a few times from my mom that my grandfather actually had a pair of dowsing rods, and used them with some success.
-        To be clear, my grandpa wasn’t some paranormal enthusiast or pseudoscience quack.
-        He was a farmer of the American heartland, and not prone to eccentricity or superstition.
-        He did dowsing because it produced practical results for him.
-      &lt;/p&gt;
-      &lt;img src="img/dowser.webp" width="490" height="480"&gt;
-      &lt;p&gt;
-        I don’t really have a clear picture of his success rate with it, but I do know that he used his rods to find water and the graves of relatives.
-        And it must have worked well enough for him that he did it regularly; it’s not like he tried it once &amp;amp; gave up.
-        My understanding is that it’s not uncommon for old farmers to have some experience with dowsing, especially for finding water.
-      &lt;/p&gt;&lt;p&gt;
-        So, what exactly is going on with dowsing?
-        I don’t think anyone really knows, but I have a general theory I’ve picked up about things like this.
-        People receive a lot of sensory information that never makes it to their conscious mind, but still gets processed.
-        Some of this sensory information might be conditions in the feel of the ground or the air that give an experienced mind clues to where water might be.
-        Processes like dowsing might give the unconscious a way to pass that information along to the conscious mind, bypassing the layer of filtering that would normally interfere with that intuition.
-      &lt;/p&gt;&lt;p&gt;
-        As I said, it’s just a general theory.
-        Practices like dowsing are still mostly a mystery.
-        But the interesting thing about it is that you can have no clue how it works, and it might still work for you.
-        And if it works, why not use it?
-        There seems to be some variation among people in their aptitude for it, but I’d like to give it a try sometime and see for myself.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever heard stories of dowsing working?
-        Have you ever tried dowsing?
-        Do you think there’s anything to the theory I gave?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/dowsing.html</guid></item><item><title>gome — writing</title><link>https://ctrl-c.club/~gome/journal/writing.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I miss writing every day&lt;/h1&gt;
-      &lt;time datetime="Thu, 27 Apr 2023 21:30:00 CDT"&gt;27 Apr 2023, 9:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        When I &lt;a href="incorrect.html"&gt;finished&lt;/a&gt; my 100-day writing challenge, I made a point of stopping the daily writing.
-        I had developed the habit so well by that point that it would have been easy to continue,
-        but I wanted there to be a cutoff that clearly delineated the challenge in my mind.
-      &lt;/p&gt;&lt;p&gt;
-        One of the reasons I was able to commit to the challenge in the first place was that I knew it was a limited scope.
-        It wasn’t like I was committing to daily writing “forever”, which I probably would have failed at much sooner.
-        So I wanted to honor that limited scope by not carrying on indefinitely with it.
-      &lt;/p&gt;&lt;p&gt;
-        I want to keep writing, but at the same time, I think it will be more difficult now that I’m not doing it daily.
-        I decided to commit to two posts a week for now, because I knew if I made no commitments, I would probably let other things get in the way and never finish another post.
+        On the other hand, “basic health stack” does seem to work well to describe the idea I have in mind today.
+        I try to keep healthy habits, but I struggle to keep them all going all the time.
+        It seems like sometimes I just have to let them go for a bit, and then pick them back up when I’m able.
+        The same goes for refraining for bad habits.
+        Sometimes I’ll fall back into them for a bit, but I think it’s okay as long as I can break them again later.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/stove.webp" width="550" height="309"&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:GasStoveBurner_20220521_181829.jpg#Licensing" target="_blank"&gt;Ka23 13&lt;/a&gt;&lt;/figcaption&gt;
+        &lt;img src="img/sepak_takraw.webp" width="500" height="375"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="http://www.korea.net/" target="_blank"&gt;Korea.net&lt;/a&gt; / Korean Culture and Information Service (Jeon Han)&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
-        When I did posts daily, it was just a part of my regular routine to get it done.
-        Even if I didn’t feel like writing, I knew on some level that I would have to sit down and work it out until I had a post.
-        Now that I have more space between the posts, it feels like more time is required to get me back into the mindset.
+        The tricky part is, these habits build on each other in both directions.
+        When I feel good, I have an easier time doing the things that make me feel good.
+        When I feel bad, I let more healthy habits go, and it creates a vicious cycle.
+        So if I want to continue to feel good, I want my lapses to be somewhat strategic, so I don’t lose a good cycle or start a bad one.
       &lt;/p&gt;&lt;p&gt;
-        I think there’s a big psychological difference between something you do daily and things you do regularly but less frequently, especially in creative activities.
-        When you do something daily, you keep it “warm”.
-        Every time you sit down to do it, the last time is close in your memory, so you can draw from the prior feeling of momentum more easily.
-        It creates a sense of flow between days you don’t get if you let the activity go cold, even for a single day.
+        With all that in mind, I’ve tried to figure out the core set of things I need to do most of the time in order to feel well, that is, my “basic health stack”.
+        Ideally, these would be the last habits I drop, if I need to drop some habits.
+        Not all of them need to be adhered to daily, but the longer I go without them, the more I risk a vicious cycle.
       &lt;/p&gt;&lt;p&gt;
-        I’ve actually noticed the same thing writing music.
-        I can really only get good ideas for music after thinking about it for a few consecutive days,
-        and I usually do my best work once I’ve sat down and worked at the piano for a few days in a row.
+        The list I’ve come up with so far:
+      &lt;/p&gt;&lt;ul&gt;
+        &lt;li&gt;sleep; eight hours a night, with bedtime ideally before 10:30 PM (as I publish this at 11:00 PM, haha)&lt;/li&gt;
+        &lt;li&gt;healthy eating; for me this is basically less sugar &amp;amp; carbs, and then trying to eat whatever I feel like my body is asking for&lt;/li&gt;
+        &lt;li&gt;exercise; aerobic workouts like running &amp;amp; biking make me feel especially good, but if I lift weights with good focus that seems to be just as beneficial&lt;/li&gt;
+        &lt;li&gt;new experiences; I find that getting outside my comfort zone regularly is necessary or else I start to get locked into a single perspective or lose my confidence&lt;/li&gt;
+      &lt;/ul&gt;&lt;p&gt;
+        One more thing I’m considering for the list is something like “committments” or “obligations”.
+        I’m not sure exactly what to call it, but I think it’s important to be needed for things that are bigger than just yourself, that you’re not doing for just yourself.
+        Being in a relatively uncommitted stage of life, I sometimes need to seek these things out more intentionally.
+        They keep me out of just my own little world, and they help me grow as a person.
       &lt;/p&gt;&lt;p&gt;
-        I still have a lot of thoughts in my head I would like to share.
-        Daily posting might make it easier to get more of them out.
-        But the only way I’ll write daily posts is if I commit to daily posting beforehand, because otherwise I will end up doing other things most days.
-        So perhaps I’ll come up with another posting schedule that is more intermittent but lets me reap the benefits of daily posting again.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever written daily posts?
-        Did you stop intentionally at some point?
-        Do you find that the things you do daily stay warm in your mind?
+        Do you have a “basic health stack”?
+        Are the things I listed important for you?
+        Are there any items I’m missing you think most people would need in their stack?
         Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/writing.html</guid><pubDate>Thu, 27 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — git</title><link>https://ctrl-c.club/~gome/journal/git.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;You don’t need GitHub&lt;/h1&gt;
-      &lt;time datetime="Mon, 24 Apr 2023 23:00:00 CDT"&gt;24 Apr 2023, 11:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        Like most programmers, I use git for version control.
-        I’ve been using it since college, where we were introduced to it for working on shared projects as well as a consistent way to turn our code in.
-      &lt;/p&gt;&lt;p&gt;
-        There were a lot of things I didn’t get about git when I first started using it.
-        If I needed to do anything besides simply add commits to a single branch in a linear fashion and push them to a remote, I got confused quickly.
-        I would try to consult a guide or StackOverflow post, typing in commands I didn’t understand and usually I made a mess of things.
-        I remember I would end up force-pushing to remote a lot, which I understood was a no-no, but at the time, the repositories I was working with were mine alone, so it didn’t really matter.
-      &lt;/p&gt;&lt;p&gt;
-        Now that I’ve used it for work and actually had to contend with things like stashes and branches and remotes over &amp;amp; over again, I feel like I’ve got a more stable handle on git than I used to.
-        At the very least, I can do what I need to for work pretty reliably, and I know how to get myself out of the sticky spots well enough.
-      &lt;/p&gt;
-      &lt;img src="img/network.webp" width="355" height="352" class="no-border"&gt;
-      &lt;p&gt;
-        There’s one really interesting thing about git I didn’t understand until recently.
-        When you push to a remote repository, such as those hosted on GitHub, there’s really nothing privileged about it compared to any other repository.
-        The only difference is that it’s what’s called a “bare” repository, which means it doesn’t actually keep a working tree (the instantiation of a repo’s files on a given filesystem).
-      &lt;/p&gt;&lt;p&gt;
-        The upshot of this is that you can actually push &amp;amp; pull repositories from any machine you can SSH to that has git installed.
-        So you don’t need to use a separate hosting service to store your code, especially if you’re mainly pushing it to pull it down onto another machine you have access to.
-      &lt;/p&gt;&lt;p&gt;
-        For example, I use git to &lt;a href="update.html"&gt;deploy my website&lt;/a&gt;.
-        When I wrote that post, I would always push my repository to tildegit, then log into the Ctrl-C server and pull it back down.
-        Since learning this little tidbit, I ended up reworking my setup so that when I do a &lt;code&gt;git push&lt;/code&gt;, it actually goes to tildegit &lt;i&gt;and&lt;/i&gt; the ctrl-c server directly, so no additional pulling is necessary.
-      &lt;/p&gt;&lt;p&gt;
-        To make this work, I had to do two things.
-        The first was to add an additional url to the &lt;code&gt;origin&lt;/code&gt; remote:
-      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;code&gt;
-        git remote set-url --add --push origin ctrl-c:public_html
-      &lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;
-        If you use this command, replace &lt;code&gt;ctrl-c:public_html&lt;/code&gt; with your own hostname and repo path.
-        In my case, I have the &lt;code&gt;ctrl-c&lt;/code&gt; hostname configured to connect to the Ctrl-C server in my &lt;code&gt;~/.ssh/config&lt;/code&gt; file,
-        and &lt;code&gt;public_html&lt;/code&gt; is the directory the actual repository resides in, relative to my home directory on the Ctrl-C server.
-      &lt;/p&gt;&lt;p&gt;
-        The second thing was to update the config of the repository on the Ctrl-C server:
-      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;code&gt;
-        git config receive.denycurrentbranch updateInstead
-      &lt;/code&gt;&lt;/blockquote&gt;&lt;p&gt;
-        Above, I mentioned that remote repositories on hosting services are “bare”, that is, they have no working tree.
-        If you have a normal repository with a working tree, and you push an update to the branch it currently has checked out, it would normally deny your update.
-        When you set this setting, it will update the repository instead.
-      &lt;/p&gt;&lt;p&gt;
-        If you use this approach to deploy websites or other files, it’s best to avoid making changes in the remote repository if you can.
-        Also, there are more sophisticated ways to do this kind of thing, so don’t take this as expert advice.
-        But at the very least, it’s a cool trick that suits my needs for deploying a personal site quite well.
-      &lt;/p&gt;&lt;p&gt;
-        Do you use git?
-        Do you feel like you grasp it pretty well?
-        Have you ever discovered a neat trick that helps your workflow?
-        Have you tried managing git repositories in a similar way before?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/git.html</guid><pubDate>Mon, 24 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — incorrect</title><link>https://ctrl-c.club/~gome/journal/incorrect.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Giving myself permission to be confidently incorrect&lt;/h1&gt;
-      &lt;time datetime="Wed, 19 Apr 2023 19:30:00 CDT"&gt;19 Apr 2023, 7:30 PM&lt;/time&gt;
-      &lt;div class="note"&gt;
-        &lt;p&gt;
-          This is my 100&lt;sup&gt;th&lt;/sup&gt; post for the &lt;a href="https://jibran.substack.com/p/100-day-creator-challenge"&gt;100-day writing challenge&lt;/a&gt; I’ve been participating in.
-          As of publication, I have completed the challenge: publishing, without exception, at least 100 words every day for 100 weekdays.
-          When I started, I never really thought I would ever complete 100 of something so consistently, but here I am.
-        &lt;/p&gt;&lt;p&gt;
-          If you’ve been reading, thanks for following along on this journey.
-          Big thanks to Jibran el Bazi for putting this challenge on!
-          Thanks as well to everyone who participated; it’s been so much fun writing alongside you, and your daily posts kept me motivated to stay committed to my own.
-        &lt;/p&gt;&lt;p&gt;
-          I will continue to publish regularly, but for the next while, I’m going to go down to two posts a week.
-          Daily posting is a big time commitment, and I’d like to put some of that time towards building out other parts of my gomesite, as well as some offline pursuits, especially since it’s &lt;a href="spring.html"&gt;finally warming up here&lt;/a&gt;.
-        &lt;/p&gt;
-      &lt;/div&gt;&lt;p&gt;
-        My little sister just told me how one time, in school, a kid in her class was just talking and kind of unthinkingly said something he probably shouldn’t have.
-        In response, the teacher said something like, “wow, that really tells me a lot about what kind of person you are.”
-        I understand the impulse to try to get the kid to think about what he says, but what a terrible way to do it!
-      &lt;/p&gt;&lt;p&gt;
-        Treating minor mistakes as deep reflections of a kid’s character is not a healthy lesson to teach.
-        It teaches them that their mistakes are a reflection of a bad essential nature.
-        It teaches them that they need to watch everything they say, lest they accidentally reveal themselves to be a stupid or bad person.
-      &lt;/p&gt;&lt;p&gt;
-        I think I was similar to this kid in some ways when I was younger.
-        I’ve always loved to talk a lot and I still do.
-        As a kid, this lead me to regularly say some pretty stupid, wrong, and bad things.
-        At some point, I think I became deeply embarassed of saying wrong things, and tried really hard to avoid it all the time.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/tomatoes.webp" width="550" height="309"&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:20160528_Whitstable_-_Solanum_lycopersicum_1.jpg#Licensing" target="_blank"&gt;Emőke Dénes&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        When you need to avoid being wrong, but you also want to talk all the time, you end up becoming very pedantic.
-        I obsess over endless levels of nuance with almost any idea I have, because I hate the feeling of telling someone something I think and having them poke holes in it easily.
-        In some cases, I’m probably more interested in having ideas that are difficult to refute (i.e., correct-sounding ones) than useful or accurate ones.
-      &lt;/p&gt;&lt;p&gt;
-        The defensive level of nuance is especially present in my writing, which I was trained through school to approach adversarially.
-        Whatever claim you make, think about what a devil’s advocate would say.
-        I’m good at seeking out that extra layer of nuance, so wouldn’t I be remiss if I didn’t include it?
-      &lt;/p&gt;&lt;p&gt;
-        I’ve &lt;a href="funny.html"&gt;written before&lt;/a&gt; about how I show less of my personality in my writing than I’d like.
-        The biggest reason is probably because I get sidetracked with correctness, rather than being true to what I want to say.
-      &lt;/p&gt;&lt;p&gt;
-        This writing challenge has already been a huge help in unblocking ideas that I wanted to talk about, but was hesitant to put into words.
-        Going forward, I’d like to do a better job of feeling free to say things as I really think or feel them at a given moment in time, even if they’re somewhat “wrong” by some standard or another.
-        Perhaps people will correct me with things I was already aware of; isn’t that something I can survive?
-      &lt;/p&gt;&lt;p&gt;
-        Not everything needs to be defended with the maximum level of nuance.
-        Some ideas will only ever be refined if we expose them to the criticism of others.
-        Other ideas, strong and beautiful ones at that, can only ever be expressed through an imperfect vessel of imperfect words.
-        Even something “wrong” can be used to express the truth.
-      &lt;/p&gt;&lt;p&gt;
-        Do you feel like you can be wrong?
-        Have you been pedantic or defensively nuanced?
-        Do you sometimes have to say the wrong thing before you can say the right thing?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/incorrect.html</guid><pubDate>Wed, 19 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — spring</title><link>https://ctrl-c.club/~gome/journal/spring.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;The spring melt&lt;/h1&gt;
-      &lt;time datetime="Tue, 18 Apr 2023 22:30:00 CDT"&gt;18 Apr 2023, 10:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        A consistent theme in my writing on here has been the winter I’ve been living through, the span of which coincided closely with the 100-day writing challenge I’m doing.
-        I felt a distinct change in the feel of the season about a month ago, close to when the equinox actually occurred.
-        We were still covered in snow, and would continue to get snow for a couple more weeks, but the days were getting longer and brighter, and along with the shift to daylight time, the feeling of spring was already on the way.
-      &lt;/p&gt;&lt;p&gt;
-        Now we’ve actually reached the point where the temperatures are finally overtaking the big backlog of snow to melt.
-        With all the melt draining away, I’m hoping to go see the river sometime near its crest.
-        Everything’s super wet right now, but it’s already getting easier, little by little, to get outside and do things.
-      &lt;/p&gt;&lt;p&gt;
-        As it gets warmer, my favorite thing is to notice the memories of past springs that come back.
-        They’re activated by the particular feeling of the air on a given day, or by smells that get easier to detect in warmer air, especially that of water-logged earth.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/charles_beck_spring_flight.webp" width="654" height="442"&gt;
-        &lt;figcaption&gt;
-          &lt;i&gt;Spring Flight&lt;/i&gt; by Charles Beck (&lt;a href="https://kaddatz-galleries.square.site/product/charles-beck-spring-flight-15-150/2548" target="_blank"&gt;source&lt;/a&gt;)
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        During winter, with these physical memories unavailable, there are certain thoughts you just can’t think, until the spring comes and gently unblocks them.
-        I think of the process as an “inner melt” that accompanies the exterior one.
-        It’s a helpful reminder that you’re not always a unitary “complete self”, necessarily, but that there are aspects of your personality that move and flow with the seasons.
-      &lt;/p&gt;&lt;p&gt;
-        Winter is almost always something of an emotional battle in this climate.
-        But I really do think it makes the arrival of spring feel that much more meaningful.
-        I can’t imagine living somewhere where the seasons don’t really have distinct shapes, as pleasant as that might be.
-      &lt;/p&gt;&lt;p&gt;
-        What is the weather like where you live?
-        When did the spring start for you?
-        Do you notice memories or internal changes that follow with the seasons?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/geese.webp" width="550" height="367"&gt;
-        &lt;figcaption&gt;
-          Bonus image: Basically &lt;i&gt;Spring Flight&lt;/i&gt; but in real life!
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/spring.html</guid><pubDate>Tue, 18 Apr 2023 00:00:00 GMT</pubDate></item><item><title>gome — website</title><link>https://ctrl-c.club/~gome/journal/website.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Build your own website&lt;/h1&gt;
-      &lt;time datetime="Mon, 17 Apr 2023 23:30:00 CDT"&gt;17 Apr 2023, 11:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        I was going to start this post by talking about social media, but I think most of us are pretty well aware of the ways social media sucks.
-        I follow some social media, but I don’t really post much on large sites.
-        There’s stuff I would like to share online (hence this blog), but social media feels alienating and vaguely threatening to me.
-      &lt;/p&gt;&lt;p&gt;
-        In contrast, having my own website has been a joy.
-        Building this website and participating on Ctrl-C Club has been a real experience of the magic of the internet for me.
-        It’s so much fun to share things on my site and hear back from readers about their thoughts.
-      &lt;/p&gt;&lt;p&gt;
-        I also love having full creative control over my web presence here.
-        There’s no social media site where I’d be able to have a profile page that looks like &lt;a href=".."&gt;my gomepage&lt;/a&gt;.
-        And no matter how customizable they get, those sites are (of necessity) restricted to specific structures and formats: you can only post videos on YouTube; you can only post tweets on Twitter.*
-        With your own website, the only limits are your imagination and your skills.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/nightdrift.webp" width="660" height="444"&gt;
-        &lt;figcaption&gt;
-          &lt;a href="https://nightdrift.neocities.org/"&gt;Nightdrifter’s Lounge&lt;/a&gt; is just one example of the creative and awesome-looking sites people make on Neocities.
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        There’s a higher barrier to entry when making your own website, because it requires you to learn HTML at a bare minimum, probably CSS as well, and eventually, you might want to add Javascript or even server-side code to it.
-        But it’s not hard to grasp the barest basics to get a site started, and once you have a start, you can learn as you go.
-        A site can be updated any time, so your site grows and improves over time as a reflection of your own journey of learning.
-      &lt;/p&gt;&lt;p&gt;
-        You don’t have to pay anything to start a website, either.
-        Gomepage started on &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C Club&lt;/a&gt;, which gives out free user profiles on a shared Linux machine, which include a &lt;code&gt;public_html&lt;/code&gt; directory you can use to publish a user page.
-        There are a &lt;a href="https://tildeverse.org/members/"&gt;number of “tilde” servers&lt;/a&gt; that offer similar things.
-      &lt;/p&gt;&lt;p&gt;
-        If you don’t want to log in through a command line, there are other ways to host a static site for free.
-        &lt;a href="https://neocities.org/"&gt;Neocities&lt;/a&gt; is a great site, inspired by the classic web host GeoCities.
-        This is probably one of the easiest ways out there to get your own website.
-        I love browsing around and seeing the fun, often retro sites people are building on there.
-      &lt;/p&gt;&lt;p&gt;
-        If you are familiar with git, the version control software, &lt;a href="https://pages.github.com/"&gt;Github Pages&lt;/a&gt; and &lt;a href="https://pages.cloudflare.com/"&gt;Cloudflare Pages&lt;/a&gt; both let you deploy a site automatically from files in a git repository, which is convenient.
-        I’m sure there are plenty of other free options for hosting out there, but these are just the ones that come to me from memory.
-      &lt;/p&gt;&lt;p&gt;
-        Home-made personal websites take more time, effort, and attention than social media, and so they will likely never be as popular.
-        But it means they draw a more intentional and engaged community of authors and users.
-        No matter what the majority is doing, fun &amp;amp; interesting alternatives are out there, waiting for us.
-        In the same way &lt;a href="regenerative.html"&gt;regenerative agriculture&lt;/a&gt; eschews raw efficiency for ecological resilience and diversity, having your own website is like building a digital homestead (or be as it may, a “gomestead”) that supports a healthier online ecosystem.
-        Come join us!
-      &lt;/p&gt;&lt;p&gt;
-        Do you have a currently active personal site?
-        Have you tried making a website before?
-        Do you want to try making one?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;&lt;p class="footnote"&gt;
-        * I know neither of these are perfect examples. On YouTube, you can now also make community posts, and Twitter in particular does allow some rudimentary forms of user-created structure with threading and quote-tweeting. But in either case, the format of the content will always be restricted to what features those sites have created.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/website.html</guid><pubDate>Mon, 17 Apr 2023 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/health.html</guid></item></channel></rss>
