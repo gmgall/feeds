@@ -1,5 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 12 May 2023 00:51:03 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — health</title><link>https://ctrl-c.club/~gome/journal/health.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 12 May 2023 06:13:08 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — ratioscore</title><link>https://ctrl-c.club/~gome/journal/ratioscore.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I just learned about Ratioscore&lt;/h1&gt;
+      &lt;time datetime="Thu, 11 May 2023 18:00:00 CDT"&gt;11 May 2023, 6:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        For a while now, I’ve wanted to use my programming skills and my knowledge of just intonation to build a useful tool for those interested in learning or writing in just intonation.
+        My ideas include:
+      &lt;/p&gt;&lt;ul&gt;
+        &lt;li&gt;a JI piano roll, where clicking on a note shows you its relation to every other note&lt;/li&gt;
+        &lt;li&gt;a matching game where you learn to construct rational intervals with a drag &amp;amp; drop interface&lt;/li&gt;
+        &lt;li&gt;a programming language for notating just intonation scores, which could then generate sheet music or audio/MIDI&lt;/li&gt;
+      &lt;/ul&gt;&lt;p&gt;
+        Until a few days ago, I was unaware of any tools that did these things.
+        But I happened upon &lt;a href="https://ratioscore.humdrum.org/"&gt;Ratioscore&lt;/a&gt;, and it does a lot of the same things I wanted to do with the programming language idea.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/electric_piano.webp" width="450" height="338"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Yamaha_CP-70M_ready_to_play.jpg#Licensing" target="_blank"&gt;Michael Müller-Hillebrand&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        I’ve wanted to get more into just intonation before, but I had limited tools, and I found it prohibitively difficult to produce JI audio.
+        With something like Ratioscore in my toolkit, I’ll be able to learn &amp;amp; experiment more, and practice writing my own music in just intonation.
+      &lt;/p&gt;&lt;p&gt;
+        Ratioscore will be useful for now, but I still haven’t given up on making my own just intonation tools.
+        I think with the right interface, JI could be made a lot more intuitive to the uninitiated.
+        I might even still try to make my own version of a JI language, because I’d like some fancier features than what Ratioscore offers.
+      &lt;/p&gt;&lt;p&gt;
+        Here’s a passage from &lt;a href=".."&gt;gomepage anthem&lt;/a&gt; &lt;i&gt;Orchard Glen&lt;/i&gt; I produced in Ratioscore.
+        It’s mostly 5-limit, with just a little bit of 7 thrown in on one chord.
+        I felt like doing it brushed off my old skills and taught me some new things, and I’m looking forward to doing more.
+      &lt;/p&gt;
+      &lt;div class="music-box"&gt;
+        &lt;audio src="img/orchard_glen_JI_1.mp3"&gt;&lt;/audio&gt;
+        &lt;svg width="20" height="20" class="play"&gt;&lt;/svg&gt;
+        &lt;svg width="20" height="20" class="pause"&gt;&lt;/svg&gt;
+        &lt;span&gt;Orchard Glen, just intonation&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class="music-box"&gt;
+        &lt;audio src="img/orchard_glen_JI_2.mp3"&gt;&lt;/audio&gt;
+        &lt;svg width="20" height="20" class="play"&gt;&lt;/svg&gt;
+        &lt;svg width="20" height="20" class="pause"&gt;&lt;/svg&gt;
+        &lt;span&gt;Orchard Glen, just intonation, zippy version&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;p&gt;
+        Have you used Ratioscore?
+        Do you know of other useful just intonation tools?
+        What do you think of the JI version of Orchard Glen?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/ratioscore.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — health</title><link>https://ctrl-c.club/~gome/journal/health.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Basic health stack&lt;/h1&gt;
       &lt;time datetime="Tue, 9 May 2023 23:00:00 CDT"&gt;9 May 2023, 11:00 PM&lt;/time&gt;
