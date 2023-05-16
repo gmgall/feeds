@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feeds RSS</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>Feeds RSS</h1>
+      <p>Abaixo listo os feeds RSS que gero para sites que não os oferecem.</p>
+    </header>
+    <main>
+      <h2>Uma reclamação</h2>
+      <p>Tudo seria mais simples se os sites simplesmente fornecessem feeds completos, mas sites que fazem isso tornam-se cada vez mais raros. A regra do jogo da web moderna é retenção de tráfego. Os sites precisam que nós não saiamos do feudo internético deles para terem mais oportunidades de nos mostrar anúncios.</p>
+      <p>Eu resisto a isso e consumo a web principalmente por feeds RSS. Os feeds que eu gero para sites que originalmente não têm feeds estão listados abaixo.</p>
+      <h2>A lista de feeds</h2>
+      <table>
+        <thead>
+          <th>Site</th>
+          <th>Descrição</th>
+          <th>Feed RSS</th>
+        </thead>
+        <tbody id="feeds_table">
+        </tbody>
+      </table>
+      <h2>Quer ajuda?</h2>
+      <p>Tem um site que gostaria de acompanhar por um agregador, mas ele não oferece um feed? Entre em <a href="https://www.gmgall.net/contact/">contato</a>. Se eu conseguir criar um feed para ele, listo ele acima :-)</p>
+    </main>
+    <footer>
+      <p>Por <a href="https://www.gmgall.net/">Guilherme Gall</a>.</p>
+    </footer>
+    <script>
+      window.onload = teste
+
+      async function teste(){
+          let tableBody = document.getElementById('feeds_table')
+
+          const response = await fetch('https://gmgall.github.io/feeds/feeds.json')
+          const data = await response.json()
+          for (let feed of data) {
+              let row = document.createElement('tr')
+              let tdTitle = document.createElement('td')
+              let tdDesc = document.createElement('td')
+              let tdFeed = document.createElement('td')
+              tdFeed.style = 'text-align: center;'
+
+              tdTitle.innerHTML = `<a href="${feed.link}">${feed.title}</a>`
+              tdDesc.innerHTML = feed.description
+              tdFeed.innerHTML = `<a href="${feed.feed}"><img src="https://www.gmgall.net/img/rss.svg" width="30" height="30"></a>`
+
+              row.appendChild(tdTitle)
+              row.appendChild(tdDesc)
+              row.appendChild(tdFeed)
+              tableBody.appendChild(row)
+          }
+      }
+    </script>
+  </body>
+</html>
