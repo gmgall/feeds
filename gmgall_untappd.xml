@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 17 May 2023 00:52:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2023 06:12:06 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>IPA by Lagunitas Brewing Company</title>
+      <link>https://untappd.com/user/gmgall/checkin/1274892988</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/ipa-lagunitas-brewing-company/4509"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4509_f2bbf_sm.jpeg" alt="IPA label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/ipa-lagunitas-brewing-company/4509"&gt;IPA&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/LagunitasBrewingCo"&gt;Lagunitas Brewing Company&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1274892988"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/can@3x.png?v=1" alt="Can"&gt;
+&lt;span&gt;Can &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1274892988</guid>
+      <pubDate>Wed, 17 May 2023 01:42:33 GMT</pubDate>
+    </item>
     <item>
       <title>Leffe Blonde / Blond by Abbaye de Leffe</title>
       <link>https://untappd.com/user/gmgall/checkin/1274719899</link>
@@ -156,32 +186,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1270813421</guid>
       <pubDate>Thu, 04 May 2023 01:01:49 GMT</pubDate>
-    </item>
-    <item>
-      <title>IPA by Cervejaria Odin</title>
-      <link>https://untappd.com/user/gmgall/checkin/1270201914</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/ipa-cervejaria-odin/2155932"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2155932_01b2e_sm.jpeg" alt="IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/ipa-cervejaria-odin/2155932"&gt;IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1270201914"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1270201914</guid>
-      <pubDate>Sun, 30 Apr 2023 21:56:56 GMT</pubDate>
     </item>
   </channel>
 </rss>

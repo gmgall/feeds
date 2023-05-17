@@ -1,5 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 17 May 2023 00:54:09 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — ratioscore</title><link>https://ctrl-c.club/~gome/journal/ratioscore.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 17 May 2023 06:13:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — isometric</title><link>https://ctrl-c.club/~gome/journal/isometric.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I love isometric graphics&lt;/h1&gt;
+      &lt;time datetime="Tue, 16 May 2023 22:30:00 CDT"&gt;16 May 2023, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I was a kid, I played Roller Coaster Tycoon (Deluxe).
+        I got back into playing it a bit again in 2020, and one thing I loved about returning to it was the graphics.
+        For those unfamiliar, in order to achieve a 3D-like appearance in the game without a full 3D rendering engine,
+        all the graphics were prerendered in a 3D modeling program, and then in the game, those are layered graphics together to make a 3D-looking world.
+      &lt;/p&gt;&lt;p&gt;
+        In order for this approach to work, the view can’t have any perspective, or else things would have to be different sizes depending on how far from the camera they were, and you’d be back to needing full-blown 3D.
+        So instead, you use an isometric view, where everything is always the same size, or put another way, your camera doesn’t sit at a single point, but instead is equally far from everything in its view.
+      &lt;/p&gt;&lt;p&gt;
+        Roller Coaster Tycoon has a great, unique look, in part due to those techniques, but also just in general.
+        You can see individual pixels, but it’s made of 3D renders, not hand-drawn pixel art.
+        The whole style is covered in dithers and aliases, but for all that, it’s still remarkably legible.
+        There are so many delightful little components, from the park benches &amp;amp; plants to the various buildings &amp;amp; rides.
+        With all these elements packed together on the screen, you get the feeling of a diorama or little toy world, a perfect vibe for a simulator game.
+      &lt;/p&gt;
+      &lt;img src="img/roller_coaster_tycoon.webp" width="576" height="388"&gt;
+      &lt;p&gt;
+        I just love looking at these kind of graphics, and I kind of wish more games looked like this.
+        One video game idea I have to add to the list of ideas I’ll probably never make is a point-and-click game with this visual style, either retelling or inspired by &lt;i&gt;The Name of the Rose&lt;/i&gt; (&lt;i&gt;Il nome della rosa&lt;/i&gt;) by Umberto Eco.
+        &lt;i&gt;The Name of the Rose&lt;/i&gt; is a weird postmodern mystery novel that takes place at a medieval monastery, but there’s all these misdirections and anachronisms and references to other stories in it.
+        The monastery it’s set in would just be a neat setting to explore in a video game.
+        And I think the kind of isometric, pre-rendered graphics RCT uses could give it a displaced-in-time feeling that would fit very well with its postmodern themes.
+      &lt;/p&gt;&lt;p&gt;
+        Have you played Roller Coaster Tycoon or RCT 2?
+        What do you think of its graphics?
+        Have you read &lt;i&gt;The Name of the Rose&lt;/i&gt;?
+        Do you think it would make a good video game?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/isometric.html</guid><pubDate>Tue, 16 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — ratioscore</title><link>https://ctrl-c.club/~gome/journal/ratioscore.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I just learned about Ratioscore&lt;/h1&gt;
       &lt;time datetime="Thu, 11 May 2023 18:00:00 CDT"&gt;11 May 2023, 6:00 PM&lt;/time&gt;
