@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 18 May 2023 18:12:58 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — isometric</title><link>https://ctrl-c.club/~gome/journal/isometric.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 19 May 2023 00:52:10 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — music collection</title><link>https://ctrl-c.club/~gome/journal/music-collection.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Building my music collection&lt;/h1&gt;
+      &lt;time datetime="Thu, 18 May 2023 19:30:00 CDT"&gt;18 May 2023, 7:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I wrote about &lt;a href="hours-were-the-birds.html"&gt;Hours Were the Birds&lt;/a&gt; by Adrianne Lenker, I noted how I missed the track “We Were Young”, which was removed from the re-release of the album and scrubbed from the internet.
+        I had only ever listened to the song on Spotify, which is what I usually use for music listening, so when it got removed, I had no way of recovering the song I had come to love.
+      &lt;/p&gt;&lt;p&gt;
+        I was similarly disappointed when Spotify dropped Joni Mitchell: I couldn’t listen to her music on there or add it to playlists.
+        In that case, at least her music wasn’t gone forever, but when 95% of your music listening is in one place, it’s hard to make a regular place for an artist within that 5%.
+      &lt;/p&gt;&lt;p&gt;
+        I have had Spotify for a long time, so I have a lot of saved albums and playlists and listening history on there that I want to keep.
+        But these and many other things over the years have stacked up to make me want to eventually not have to use it.
+        Maybe one day I’ll migrate everything to a different service.
+        Maybe Spotify will just go out of business eventually.
+      &lt;/p&gt;
+      &lt;img src="img/records.webp" width="550" height="365"&gt;
+      &lt;p&gt;
+        In any case, I’ve thought for a while that the best position for me to be in is to own the music I really love.
+        I don’t care if it’s a digital or physical collection, as long as I have DRM-free sources for my music somewhere I can rely on.
+        Right now, my plan is to buy digital audio or CDs depending on availability, and rip the CDs to a digital music library, which is probably mainly how I’ll listen for the forseeable future.
+      &lt;/p&gt;&lt;p&gt;
+        Once I have a large enough core collection, I’d like to set up some kind of media server, so I can stream my own audio to my phone remotely.
+        I’d also like some way of creating and managing playlists, ideally.
+        Spotify does support local music files on a per-device basis, but their support is pretty meager, and besides, I’m trying to figure out a way to not rely on Spotify.
+      &lt;/p&gt;&lt;p&gt;
+        To buy all the albums I want would cost a lot, so I’m planning to just make it a monthly purchase for a while.
+        Every month I’ll buy a couple of albums from a list of favorites I know for sure I will want in my collection.
+        The list is pretty big and it keeps getting bigger over time, but if I stay consistent with growing my collection, I’ll eventually hit a critical point where I can transition to using my own collection for daily listening.
+      &lt;/p&gt;&lt;p&gt;
+        At that point, I don’t know if I’ll stop using Spotify or keep it around so I can sample new stuff I’m interested in.
+        At a certain scale, managing your own music library gets kind of difficult, and it’s even harder to outdo the convenience and features of a streaming service with your own solution.
+        But at the end of the day, I don’t consider Spotify something I can rely on indefinitely, and I want a solution I know I can rely on, even if it’s imperfect.
+      &lt;/p&gt;&lt;p&gt;
+        How do you listen to music?
+        Do you have your own music collection?
+        Is it difficult to manage?
+        Do you know of good software for managing and streaming your own music library?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/music-collection.html</guid><pubDate>Thu, 18 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — isometric</title><link>https://ctrl-c.club/~gome/journal/isometric.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I love isometric graphics&lt;/h1&gt;
       &lt;time datetime="Tue, 16 May 2023 22:30:00 CDT"&gt;16 May 2023, 10:30 PM&lt;/time&gt;
