@@ -1,13 +1,1882 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml</title><link>https://www.diariodepetropolis.com.br/</link><description>Failed to generate feed.</description><lastBuildDate>Sun, 21 May 2023 00:54:41 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 1666, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 854, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 748, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/</link><description>(Edição online) Últimas notícias, artigos e classificados da cidade.</description><language>pt-BR</language><lastBuildDate>Sun, 21 May 2023 06:12:46 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Campanha Maio Laranja visa o enfrentamento à violência sexual infantojuvenil Ao menos 245 menores de idade foram violentados na cidade nos últimos doi</title><link>https://www.diariodepetropolis.com.br/integra/campanha-maio-laranja-visa-o-enfrentamento-a-violencia-sexual-infantojuvenil-238792</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+
+&lt;br&gt;
+&lt;a href="/Editoria/Crian%C3%A7as/3117-79" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Crianças&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Campanha Maio Laranja visa o enfrentamento à violência sexual infantojuvenil&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Ao menos 245 menores de idade foram violentados na cidade nos últimos dois anos e meio&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0399_20230520135305_ZYA32.jpg" longdesc="79561;214428"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Daniel Xavier - estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com o Instituto de Segurança Pública do Rio de Janeiro (ISP-RJ), 89 crianças e adolescentes foram violentados sexualmente em Petrópolis durante o ano de 2021, seja por abuso (como estupro, assédio, aliciar ou importunar sexualmente), ou por exploração (pornografia e erotização). Já em 2022, foram 103. E agora, em 2023, até o momento, foram 36 estupros consumados e 17 casos de assédio sexual contra menores na cidade, segundo a Secretaria Estadual de Saúde (SES-RJ), com dados do Sistema de Agravos de Notificações (Sinan). A alta nos números chama a atenção para a incidência deste tipo de violação na sociedade petropolitana, além de reforçar a necessidade de se discutir e enfrentar este tipo de crime - justamente, o foco da campanha “Maio Laranja”, que visa debater estratégias e ações efetivas no combate ao abuso e exploração sexual infantil.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Instituído no Calendário Oficial de Petrópolis desde 2021, o “Maio Laranja” é responsável por incentivar, durante todo o mês, a realização de atividades para conscientização, prevenção, orientação e combate ao abuso e exploração sexual da criança e do adolescente. De autoria do vereador Marcelo Chitão, a implantação da campanha no município, para ele, é necessária para que haja uma ampla divulgação sobre o tema, desmistificando o assunto e evitando que ele se torne um tabu. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;“Precisamos debater ao máximo e criar formas para diminuir essas agressões. É todo um trabalho preventivo. Quanto mais conversamos sobre o assunto, mais crianças e adolescentes terão a noção do que pode ou não pode em relação ao seu corpo e saberão distinguir a diferença entre um carinho e um assédio. É muito importante que os adultos expliquem a diferença entre toques carinhosos em lugares permitidos e toques invasivos em locais não permitidos, para que elas aprendam a respeitar o próprio limite e, também, o do outro”, explica o vereador. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Conscientização dos canais de denúncia&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O Disque 100 é um serviço de disseminação de informações sobre direitos de grupos vulneráveis e de denúncias de violações de direitos humanos. O serviço pode ser considerado como “pronto socorro” dos direitos humanos e atende graves situações de violações que acabaram de ocorrer ou que ainda estão em curso, acionando os órgãos competentes e possibilitando o flagrante. O canal é a principal ferramenta de denúncia em casos de abuso sexual contra crianças e adolescentes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;No entanto, a existência do disque denúncia ainda é pouco disseminada e desconhecida pela população geral. Assim, para Carla de Carvalho, coordenadora do Centro de Defesa dos Direitos Humanos (CDDH) de Petrópolis, a primeira ação a se tomar tem de ser, justamente, a da divulgação. “Temos o sonho de que este mês esteja na memória de cada brasileiro não somente em 2023, mas todos os anos. E  acreditamos que para combater qualquer problema, é necessário conhecê-lo. Por isso, a ideia é realizar atividades de mobilização da sociedade com foco na prevenção, que envolvem a divulgação do Disque 100. Com isso, o CDDH  inaugurou uma exposição com algumas informações sobre o tema”, pontua. “Está disponível de segunda a quinta feira de 14h às 17h da tarde, na nossa sede”, informa ela.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Ampliação do sistema de defesa e acolhimento&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para a presidente do Conselho Municipal dos Direitos da Criança e do Adolescente (CMDCA) de Petrópolis, Luciane Bomtempo, a criação de um novo Conselho Tutelar é outro passo importante na ampliação da defesa da criança e do adolescente. “A criação do 3º Conselho Tutelar atende a uma resolução do Conanda (Conselho Nacional dos Direitos da Criança e do Adolescente), que estabelece o mínimo de um Conselho Tutelar para cada 100 mil habitantes. Petrópolis já passou dos 300 mil habitantes. E nossas crianças são frágeis e precisam ser protegidas. Por isso, estamos buscando ampliar o sistema de garantia de direito das crianças e jovens”, declara ela.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Vale lembrar que também foi anunciado, ainda no fim de 2022, a criação de uma nova unidade do Núcleo de Atendimento Psicológico Especializado – Infanto-juvenil (NAPE-IJ), que atende e realiza a escuta qualificada de crianças e adolescentes vítimas de violência sexual. Luciane Bomtempo assegura que a ação é uma garantia ainda maior dos direitos das crianças e dos adolescentes. “Estamos buscando ampliar o sistema de garantia de direito das crianças e jovens, assim como a denúncia contra abuso e à exploração sexual no nosso município, para conseguirmos avançar na política de proteção dos mais vulneráveis”, frisou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Garantia dos direitos reprodutivos&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além de prevenir e acolher, é necessário também orientar as meninas vítimas de violência sexual dos direitos sobre o aborto legal em caso de estupro, de acordo com a vereadora Júlia Casamasso (PSOL). Apesar de garantido por lei, muitas simplesmente não conseguem fazer o aborto legal nas unidades de saúde que deveriam oferecer o serviço, além da dificuldade que encontram para que a lei seja cumprida. Ainda destaca que 90% das crianças e adolescentes vítimas de estupro na cidade são meninas menores de idade e, a maior parte dos agressores, homens, como mostram os dados do ISP-RJ.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Por isso, a vereadora informa que apresentou um projeto que determina ao Poder Executivo a colocação de cartazes informando os direitos da mulher, inclusive sobre o aborto legal em caso de estupro. “É um tema muito sensível e de extrema necessidade. Não podemos deixar que esse direito não seja cumprido, ou que não tenham acesso a esse serviço, seja por falta de informação ou possibilidade de acessar as unidades de saúde. O corpo ainda em formação das meninas não está preparado para receber uma gestação, que coloca a criança, que já foi violentada sexualmente, em mais risco”, ressalta. “Lembrando que também é necessário um amplo debate de cuidado para as nossas meninas, para que elas não sofram abuso, e tenham consciência sobre o tema”, complementa.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/campanha-maio-laranja-visa-o-enfrentamento-a-violencia-sexual-infantojuvenil-238792</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Caso de menina que morreu engasgada completa um ano Audiência de instrução do julgamento está marcada para dia 15 de junho</title><link>https://www.diariodepetropolis.com.br/integra/caso-de-menina-que-morreu-engasgada-completa-um-ano-238787</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Cidade/3117-1" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Cidade&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Caso de menina que morreu engasgada completa um ano &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Audiência de instrução do julgamento está marcada para dia 15 de junho &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0508_x_0600_20230520135314_XKBH1.jpg" longdesc="79565;64584"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Arquivo&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rômulo Barroso - especial para o Diário &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A morte da menina Maria Thereza Vitorino Ribeiro completa um ano nesta segunda-feira (20/05). Maria Thereza tinha apenas um ano e três meses de vida quando engasgou com um pedaço de maçã servido na creche onde ela ficava, o CEI Carolina Amorim. Uma audiência de instrução do caso está marcada para o dia 15 de junho, às 10h, de acordo com o Tribunal de Justiça do Rio de Janeiro. O julgamento por júri popular vai ocorrer na 1ª Vara Criminal, em Itaipava. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Três funcionárias da creche foram indicadas por homicídio culposo, quando não há internação de matar. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Maria Thereza morreu dois dias após receber um pedaço de maçã. Ela engasgou e, de acordo com informações da Polícia Civil logo depois do caso, demorou 14 minutos para ser levada para atendimento na UPA de Cascatinha. A menina chegou a ser entubada e transferida para o Hospital Alcides Carneiro, mas não resistiu. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Após a morte da menina, a Secretaria de Educação abriu uma sindicância para apurar o que ocorreu. Segundo a pasta, essa sindicância "concluiu que as servidoras fizeram tudo o que era possível para evitar o ocorrido". A Secretaria informou ainda que a diretora do Centro de Educação Infantil, atualmente, está em outra unidade escolar, em outra função e as educadoras também foram transferidas para outras unidades.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com o TJRJ, não há previsão para o julgamento do caso. No próximo dia 15 serão ouvidas testemunhas do caso. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Lei Lucas &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O acidente com a menina Maria Thereza demonstrou a necessidade de preparar os profissionais da educação para atuar em situações de emergência, como é previsto na chamada "Lei Lucas". &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Essa é uma legislação federal criada em 2018 depois de um caso similar que vitimou o menino Lucas Begalli, que tinha 10 anos quando engasgou enquanto comia um cachorro-quente durante um passeio da escola em Campinas (SP). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em Petrópolis, a Lei Lucas foi regulamentada em junho do ano passado. Segundo a prefeitura, desde então, 1.439 trabalhadores da educação das 188 unidades escolares, incluindo professores, educadores, pessoal de apoio, entre outros, estão certificados para agirem em momentos de emergência dentro das escolas da rede municipal e os 506 aprovados no concurso que tomaram posse e estão atuando na rede também já passaram pela capacitação em primeiros socorros. "A segunda etapa da capacitação dos profissionais da Educação começa em breve. Com isso, todos os profissionais da rede estarão certificados", afirmou a prefeitura, em nota. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Entre os assuntos abordados no curso estão: como acionar o Samu, obstrução de via aérea por corpo estranho, hemorragias, queimaduras, crise convulsiva, fraturas, entorses e luxações e parada respiratória", explicou a prefeitura. &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/empreendedorismo-gestao-de-pessoas-e-lideranca-238795"&gt;Empreendedorismo, Gestão de Pessoas e Liderança&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/vandalos-destroem-geloteca-no-quitandinha-238796"&gt;Vândalos destroem geloteca no Quitandinha&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/balao-cai-sobre-rede-eletrica-em-bonsucesso-238780"&gt;Balão cai sobre rede elétrica em Bonsucesso&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/caso-de-menina-que-morreu-engasgada-completa-um-ano-238787</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Petrópolis Business será apresentado quinta (25) no Quitandinha Lançamento dá início à venda de stands do maior evento de negócios do interior flumine</title><link>https://www.diariodepetropolis.com.br/integra/petropolis-business-sera-apresentado-quinta-25-no-quitandinha-238790</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Neg%C3%B3cios/3117-124" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Negócios&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Petrópolis Business será apresentado quinta (25) no Quitandinha &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Lançamento dá início à venda de stands do maior evento de negócios do interior fluminense&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0417_20230520135309_H68TN.jpg" longdesc="79563;294649"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dezesseis anos após sua última edição, o maior evento de negócios do interior fluminense está de volta. Sucessor da Expo Petrópolis, o Petrópolis Business será apresentado oficialmente para empresários e autoridades na quinta-feira (25), às 10h30, em cerimônia no Palácio Quitandinha, ocasião que marca o início da comercialização de stands e demais espaços expositivos. O evento de negócios ocorrerá entre 26 e 29 de outubro, também no Quitandinha, com participação de segmentos do comércio, prestação de serviços e da indústria.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Com o lançamento que acontece na quinta, serão apresentadas a formatação e novidades da nova edição do evento empresarial. A expectativa dos organizadores é repetir a experiência bem-sucedida da Expo Petrópolis, realizada entre 2000 e 2007, com resultados significativos para a economia local. Foram 120 mil visitantes e negócios envolvendo quase 800 expositores ao longo de seis edições.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ao todo, o Petrópolis Business contará com 1,7 mil empresas, entre expositores e geradores de conteúdo e participantes das atividades da programação, 230 stands e um público estimado de 25 mil pessoas durante os quatro dias de duração. A meta é fomentar novos negócios e parcerias, apresentar novas soluções tecnológicas, ampliar oportunidades de networking e a base de clientes, além de proporcionar o aumento de vendas. A programação também incluirá palestras e rodadas de negócios.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Um comitê gestor com representantes de 15 instituições organiza a retomada do evento empresarial desde o ano passado. A articulação envolve poder público, diversos segmentos do setor produtivo e instituições acadêmicas, unidos pelo propósito de fortalecer a economia do município, que ainda se recupera das consequências das chuvas de 2022. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“O Petrópolis Business tem a missão de colocar a cidade em evidência, buscando meios de dar mais visibilidade às diversas atividades econômicas, estando também em sintonia com novas tecnologias, oportunidades e desafios”, acrescenta o presidente da Associação Comercial e Empresarial de Petrópolis (ACEP), Paulo Marcos dos Reis. &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/petropolis-business-sera-apresentado-quinta-25-no-quitandinha-238790</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Petrópolis: temperatura baixa a 8°C e cidade fica ainda mais charmosa para os turistas</title><link>https://www.diariodepetropolis.com.br/integra/petropolis-temperatura-baixa-a-8-c-e-cidade-fica-ainda-mais-charmosa-para-os-turistas-238801</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Turismo/3117-28" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Turismo&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Petrópolis: temperatura baixa a 8°C e cidade fica ainda mais charmosa para os turistas&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0400_20230520142941_HM2MV.jpg" longdesc="79572;322969"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação / Katz&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Até o ‘petropolitano-raiz’ que convive com temperaturas mais baixas em mangas de camisa já tirou o casacão do armário e calçou botas. E os turistas que chegam à cidade vem atraídos pela baixa temperatura como a registrada na sexta-feira a 8°C e olha que o inverno só começa em 30 dias.  O mês de maio tem sido marcado para um alta do turismo na cidade mais famosa da serra do Rio com uma queda de temperatura bem antes da estação mais fria e de alta temporada. Com mais dois finais de semana este mês, maio deve fechar com a rede hoteleira aquecida, de acordo com a previsão do Petrópolis Convention &amp;amp; Visitors Bureau. A semana começou com 52% de reservas para o final de semana, mas já aumentou para 70% assim que a temperatura caiu em todo o Estado do Rio.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O dia mais ‘quente’ de maio, em temperatura mínima, em Petrópolis, vai ser de 12°C  no dia 29.  As mínimas vão ficar sempre abaixo de 11°C até o final do mês e as temperaturas máximas em torno de 21°C, de acordo com  o Instituto Nacional de Meteorologia (Inmet).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;É com esse cenário, de muito frio, mas de dias secos, sem chuva, que o setor de gastronomia, além da rede hoteleira, se preparou com cardápios especiais e um ‘aquecimento’ extra, com cobertores e mantas à disposição, além de deliciosas bebidas, como o tradicional chocolate quente, e lareiras acesas, os estabelecimentos criam uma atmosfera aconchegante. Entram nesta pauta o clássico fondue, acompanhado de uma vasta seleção de vinhos. Apesar das temperaturas baixas, também prevalece a tradição cervejeira da cidade e mesmos que os termômetros marquem temperaturas de apenas um dígito, a cerveja gelada continua sendo a pedida, afinal, faz parte das raízes de Petrópolis, com colonização germânica.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;E a rede hoteleira e de gastronomia, está preparada para o frio e para receber o turista. Cobertores e mantinhas, cadeiras encapadas com encostos de pelos (sintéticos) de carneiro, aquele chocolate quente e as lareiras estão a postos, assim como o tradicional fondue que não falta nos bares e restaurantes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"O inverno vem chegando mais cedo.  No ano passado, presenciamos um verdadeiro boom de turistas no início de maio, quando as temperaturas despencaram, e esse movimento intenso persistiu até o final de julho", revela Samir el Ghaoui, presidente do Petrópolis Convention &amp;amp; Visitors Bureau. Este ano, a rede hoteleira, composta por 6,5 mil leitos, já registra uma demanda crescente com ocupação de 80% nos finais de semana. “O desafio agora é manter essa alta taxa também nos dias úteis”, enfatiza Samir.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Cafeterias e delicatessens também têm ficado lotadas em especial nas tardes. É um programa muito acolhedor, muito intimista, ter essa pausa para um café, um chocolate e uma torta.  Na Katz Chocolates, uma das mais tradicionais da cidade, o cardápio de inverno além do fondue, reserva delícias como  o “capuccino da realeza”, com borda de Nutella e o “café serrano” com leite condensado e chantilly.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“O movimento está bem acelerado já. Nosso público é formado por 90% de turistas e o pessoal está vindo curtir o frio e procurando as bebidas e pratos de inverno para aquecer corpo e alma”, afirma Luciana Montesso, gerente da rede.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Comércio prevê vendas 20% maiores este ano&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além das atividades turísticas, o comércio também prevê um incremento nas vendas. À medida que as temperaturas caem, o apetite por compras aumenta, especialmente para os turistas que chegam à cidade desprevenidos, com roupas mais leves.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os polos de moda da cidade já verificam um aumento do fluxo de compradores, como a tradicional e famosa Rua Teresa. “As lojas estão preparadas para atender o público de acordo com a preferência e estilo de cada um. Há peças para todos os corpos e gostos e, claro, facilidades nas compras.”, afirma Denise Fiorini, presidente da ARTE - Associação da Rua Teresa.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Quanto mais frio, mais aquecidas ficam as compras, principalmente para o turista que encontra na cidade uma oferta imensa nos polos de moda de roupas de inverno. “Neste ano, esperamos que a temporada do inverno represente um aumento de pelo menos 20% nas vendas, em comparação com o mesmo período do ano passado", afirma o presidente do Sicomércio Petrópolis, Marcelo Fiorini.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Petrópolis é um charme no inverno, essa é a questão. Os passeios, os museus, as compras e até mesmo os dias mais quentes, que sobressaem nos distritos, fazem a cabeça do turista. A cidade está preparada para oferecer essa experiência acolhedora, afetiva e intimista”, aponta Samir el Ghaoui.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/gastronomia-junina-movimenta-turistas-em-todo-o-pais-238803"&gt;Gastronomia junina movimenta turistas em todo o país&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/petropolis-temperatura-baixa-a-8-c-e-cidade-fica-ainda-mais-charmosa-para-os-turistas-238801</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Dia do Abraço: psicóloga lembra a importância desse gesto</title><link>https://www.diariodepetropolis.com.br/integra/dia-do-abraco-psicologa-lembra-a-importancia-desse-gesto-238791</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Geral/3117-46" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Geral&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Dia do Abraço: psicóloga lembra a importância desse gesto&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0400_20230520135307_WZE5E.jpg" longdesc="79562;63279"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Rhayssa Motta - Especial para o Diário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No dia 22 de maio é celebrado o Dia Nacional do Abraço, uma data que nos convida a refletir sobre o toque e as conexões humanas. Em um mundo tecnológico onde a realidade virtual encurta distâncias, é sempre bom recordar os pontos positivos de estarmos conectados fisicamente. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O abraço é um gesto simples, porém significativo, uma poderosa ferramenta que transcende barreiras culturais, religiosas e linguísticas, promovendo a união e podendo expressar amor, carinho, consolo e solidariedade. Afinal, um dos primeiros contatos humanos é o abraço, desde quando bebê é acalentado pelos pais para ser amamentado. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nos anos anteriores com a pandemia, o distanciamento social e medidas de restrição ao contato físico, barreiras na troca de afeto foram criadas e hoje é mais do que essencial relembrar quão gratificante e necessário é dar ou receber um abraço. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Apesar disso, cada pessoa se expressa de uma forma e nem todas tem afinidade com o ato de abraçar. Segundo a psicóloga Mônica Rezende, “algumas pessoas lidam melhor com o sentimento e conseguem demonstrar bem, conseguem dar e receber com mais facilidade. Outras pessoas não o fazem por não saber, talvez por não ter recebido.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Há também aqueles que amam e não abrem mão de um abraço caloroso, o que psicologicamente se explica pela troca de energia proporcionada. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nas relações é fundamental abraçar porque essa ação fortalece os laços de confiança, promove a sensação de pertencimento e proporciona bem-estar. O toque físico libera endorfinas e neurotransmissores que reduzem o estresse e promovem a sensação de felicidade. Além disso, é uma forma de expressar empatia e apoio emocional, transmitindo a mensagem de que estamos presentes e disponíveis para o outro. Portanto, é essencial valorizar o gesto do abraço e cultivar a sua prática em nossas relações, reforçando os vínculos afetivos e tornando o mundo um lugar mais acolhedor. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nesta data especial, não perca a oportunidade de abraçar.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/casamento-entre-pessoas-do-mesmo-sexo-cresce-em-10-no-estado-238789"&gt;Casamento entre pessoas do mesmo sexo cresce em 10 no estado &lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/dia-do-abraco-psicologa-lembra-a-importancia-desse-gesto-238791</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Onda de crimes e vício perigoso aumentam os alertas com apostas esportivas</title><link>https://www.diariodepetropolis.com.br/integra/onda-de-crimes-e-vicio-perigoso-aumentam-os-alertas-com-apostas-esportivas-238799</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Alerta/3117-155" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Alerta&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Onda de crimes e vício perigoso aumentam os alertas com apostas esportivas&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0612_x_0418_20230520142339_VOQKV.jpg" longdesc="79571;29514"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Gabriel Miranda – estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;As apostas esportivas vêm crescendo muito no mundo todo. Mas, essa explosão de pessoas querendo fazer uma “fézinha”, como dizem os brasileiros, pode trazer problemas, principalmente para aqueles que fazem o jogo online. É preciso ter bastante cautela e cuidado quando se trata de aposta esportiva. Muitas pessoas entram nesse mercado achando que vão conseguir uma grande quantidade de dinheiro do dia para noite, de uma hora para outra, mas, não é assim que funciona. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O advogado criminalista e professor de código penal, Carlos Fernando Maggiolo, citou alguns cuidados que as pessoas devem ter na hora de apostar. “À primeira vista, o ambiente das apostas esportivas é muito saudável, inclusive porque inconscientemente associamos a atmosfera do mundo esportivo com o ar que respiramos nos sites e aplicativos das apostas – como se fossem um “puxadinho” do campo de futebol. Doce ilusão. Na verdade, o mercado de apostas se revelou sombrio, com tentáculos envolvidos em lavagem de dinheiro do crime organizado, inúmeros jogadores suspensos e suspeitos de manipularem resultados e dezenas de processos no STJD (Superior Tribunal de Justiça Desportiva) em franca apuração de irregularidades – sem contar os inquéritos policiais em andamento nas delegacias especializadas. Essa primeira impressão equivocada a respeito do mercado de apostas tem razão de ser, porque estamos falando de apostas produzidas num ambiente virtual – e ainda estamos nos adaptando à vida com a internet – falta maturidade social – daí essa aceitação em massa pelo mundo das apostas”, afirmou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“A dica que eu dou àquele que vai se aventurar no terreno das apostas esportivas, é que procure os sites maiores, tradicionais, que já conquistaram a confiança do rebanho. Nesse mercado, diariamente surgem novos sites e aplicativos de apostas. A maioria é séria, mas os golpes estão aí. Então, siga a massa que já sabe onde apostar o seu precioso dinheiro. Ainda não foi regulamentado o mercado de apostas esportivas. Contudo, mesmo que ocorra a regulamentação como o governo federal vem sugerindo, tenho minhas dúvidas se irão conseguir inibir as manipulações. Os golpes são praticados à revelia dos sites de apostas. Um jogador pode sofrer uma extorsão e ser obrigado a tomar um cartão amarelo, por exemplo, sem que ninguém tome conhecimento do crime, muito menos o aplicativo organizador das apostas”, orienta.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O advogado explica que na maioria dos estados da Federação, como no caso do Rio de Janeiro, a vítima deve procurar a delegacia de polícia da sua região e registar a ocorrência da fraude. “Para tanto, deve estar munida de provas. Aquilo que puder imprimir assim a vítima deve proceder. O que não pode ser impresso, que seja inserido num pen drive a ser entregue à polícia na ocasião do registro. Na capital do Rio temos a Delegacia de Defraudações que será o órgão competente para a apuração da fraude. Em São Paulo, por exemplo, já existe a Delegacia de Repressão aos Delitos de Intolerância Esportiva (Drade), que investiga esses crimes”, relatou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Golpes e crimes cometidos&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O professor de código penal contou ao Diário que os crimes são os mais variados, de acordo com o caso concreto. “Quando estamos tratando de um site falso, que simplesmente enganou a vítima se passando por uma organização idônea e surrupiou o seu dinheiro da aposta, é estelionato, cuja pena varia de um a cinco anos de prisão. No caso daquele jogador que sofreu uma extorsão para receber um cartão amarelo, os agentes criminosos respondem por uma infinidade de delitos – temos aí extorsão, organização criminosa, estelionato, lavagem de dinheiro e por aí vai. Os crimes apresentam penas que somadas em concurso material, ultrapassam os quinze anos de prisão”, completou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O advogado criminalista explicou sobre o crescimento da onda dos golpes nas apostas esportivas. “Por mais que a legislação seja dura, a política criminal adotada pelo nosso Judiciário é muito benevolente com o réu. Os crimes praticados sem violência à vítima perdem espaço no sistema penitenciário para os crimes violentos. Não há vagas para todos no sistema carcerário. Assim, para que os criminosos mais perigosos sejam efetivamente presos, os criminosos que atuam em delitos econômicos se livram soltos - isso estimula a prática do crime. O Poder Executivo Federal nem acena a hipótese de investimento no sistema carcerário – nem mesmo as outras vias de soluções, como a privatização do algumas unidades prisionais, são ventiladas – ou seja, não há perspectiva de mudança de rumo. A implementação dessa perversa política pública criminal, que visa esconder a falência do sistema penitenciário brasileiro, é uma das culpadas por essa sensação de impunidade que vivemos no Brasil. O fato é que esse cenário é um convite para o crime. Além disso, pela natureza dos delitos praticados no ambiente das apostas esportivas, quando bem elaborados e aplicados, são de difícil e trabalhosa detecção, o que é vantajoso para o delinquente”, relatou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Carlos completa dizendo que o jeitinho brasileiro ou o dinheiro fácil podem ser considerados fatores para cometer estes crimes. “Claro que sim. Aliás, nada mais lógico ou científico que isso. A criminalidade caminha para onde está a facilidade, sempre, em qualquer lugar do planeta. No Brasil, ainda esbarramos com essas questões culturais. Quem não se lembra da “máfia do apito”? A CBF tem muita estória pra contar. Há décadas que convivemos com esses golpes e quadrilhas dedicadas à falcatruas. Por ironia do destino, a famosa “Lei de Gerson”, de “querer levar vantagem em tudo”, também vem do futebol”, acrescentou.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/onda-de-crimes-e-vicio-perigoso-aumentam-os-alertas-com-apostas-esportivas-238799</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Empreendedorismo, Gestão de Pessoas e Liderança</title><link>https://www.diariodepetropolis.com.br/integra/empreendedorismo-gestao-de-pessoas-e-lideranca-238795</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Cidade/3117-1" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Cidade&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Empreendedorismo, Gestão de Pessoas e Liderança&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0424_x_0600_20230520135322_SVMI2.jpg" width="360" height="509" longdesc="79568;42702"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Foto: Divulgação&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A Faetec Cascatinha (Fundação de Apoio à Escola Técnica), realizará na manhã de &lt;/span&gt;&lt;span&gt;segunda-feira, dia 22052022, às 0900 horas o evento Qualifica Faetec. Destinado para &lt;/span&gt;&lt;span&gt;empresários da cidade e representantes da sociedade civil, no evento serão abordados diversos temas do setor, dentre eles a importância de qualificar e profissionalizar seus colaboradores, tendo em vista a relevância da qualificação da mão de obra para o mercado de trabalho.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além de palestras e apresentações, o evento contará com a participação de grandes nomes do &lt;/span&gt;&lt;span&gt;setor como Juliano Loureiro, Especialista em Gestão de Pessoas nas Organizações, e do &lt;/span&gt;&lt;span&gt;empresário João Diniz, Presidente do Instituto João Diniz.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Estará presente no evento a Ilustríssima Presidente da Faetec, Sra. Caroline Alves da Costa, &lt;/span&gt;&lt;span&gt;recepcionada pelo Coordenador da Faetec unidade Cascatinha, Gustavo Rezende da Costa e &lt;/span&gt;&lt;span&gt;pelo Representante da Secretaria de Ciência e Tecnologia do Estado na Região Serrana Wesley &lt;/span&gt;&lt;span&gt;Barreto.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Faetec Cascatinha conta com diversos cursos gratuitos de qualificação profissional, são eles &lt;/span&gt;&lt;span&gt;Agente de Apoio à Inclusão Escolar; Agente de Informações Turísticas; Agente de Recepção e &lt;/span&gt;&lt;span&gt;Reservas em meios de Hospedagem; Assistente Administrativo; Assistente de Secretaria Escolar; Condutor de Turismo Esportivo; Empreendedorismo com Propósito; Espanhol básico 1; Garçom; Inglês iniciante; Operador de Computador; e Promotor de Vendas. As inscrições deverão ser feitas através do site &lt;a class="example1" href="http://www.faetec.rj.gov.br/"&gt;WWW.FAETEC.RJ.GOV.BR&lt;/a&gt;, a partir do dia 19062023 às 1100 horas até dia 02/07/2023 às 23h59.  Para mais informações acesse o site &lt;a class="example1" href="http://www.faetec.rj.gov.br/"&gt;WWW.FAETEC.RJ.GOV.BR&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/caso-de-menina-que-morreu-engasgada-completa-um-ano-238787"&gt;Caso de menina que morreu engasgada completa um ano &lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/vandalos-destroem-geloteca-no-quitandinha-238796"&gt;Vândalos destroem geloteca no Quitandinha&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/balao-cai-sobre-rede-eletrica-em-bonsucesso-238780"&gt;Balão cai sobre rede elétrica em Bonsucesso&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/empreendedorismo-gestao-de-pessoas-e-lideranca-238795</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Encontros científicos em Petrópolis abordam novidades sobre tratamento do câncer Última edição ocorreu na quinta-feira (18), com especialistas do CTO </title><link>https://www.diariodepetropolis.com.br/integra/encontros-cientificos-em-petropolis-abordam-novidades-sobre-tratamento-do-cancer-238797</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Sa%C3%BAde/3117-8" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Saúde&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Encontros científicos em Petrópolis abordam novidades sobre tratamento do câncer&lt;br&gt;&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Última edição ocorreu na quinta-feira (18), com especialistas do CTO e de outras instituições de saúde da cidade. O tema abordado foi “Terapia de intensificação no câncer de próstata metastático”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0450_20230520141623_CGY3J.jpg" longdesc="79569;81865"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Pelo menos uma vez por mês, especialistas do Centro de Terapia Oncológica (CTO) e profissionais de diferentes áreas de Petrópolis têm se reunido durante os encontros científicos para abordar diferentes temas com relação ao tratamento do câncer. Nesta quinta-feira (18), o encontro ocorreu na Bordeaux, no Centro, para falar sobre “Terapia de intensificação no câncer de próstata metastático”. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O assunto foi abordado pelos médicos oncologistas do CTO, Pedro Ismael e Vinícius Agibert. Na ocasião, eles expuseram sobre os principais tratamentos disponíveis para homens com câncer de próstata metastático como alternativa para proporcionar melhor qualidade de vida a esses pacientes. “Durante esses encontros podemos discutir as evidências mais recentes que existem na oncologia e que mudam constantemente a conduta e os tratamentos de primeira escolha”, disse Pedro Ismael. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Vinicius Agibert acrescenta que nos últimos dez anos houve mudanças significativas e positivas para o tratamento da doença. “Com tratamentos mais modernos junto a quimioterapia e imunoterapia podemos ver um benefício muito grande para os pacientes, melhorando o tempo de vida deles”, afirma. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Também especialista do CTO, Carla Ismael participou do encontro e destacou a importância de discutir tais assuntos em conjunto com outros profissionais. “É um evento onde se encontram médicos de diferentes áreas, como clínicos e cirurgiões, e acaba aproximando os profissionais em um ambiente onde estão mais à vontade”, comenta. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Neste encontro de quinta, quem também participou foi o urologista Lecio Maciel. “São oportunidades fabulosas até para que a gente melhore a cultura médica para quem não atua na especialidade em si, no caso, a oncologia. Sem contar que é uma maneira de encontrar colegas que não vemos há anos. Sempre que posso, participo”, diz o médico.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O próximo encontro científico já tem data marcada e será às 13h do dia 31 de maio no CTO Petrópolis. Desta vez, o tema será Câncer de mama nas baixas expressões a doença her2low. O CTO fica na Rua Dr. Sá Earp, nº 309, no Centro de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/anvisa-avalia-nova-diretriz-da-oms-sobre-adocantes-238788"&gt;Anvisa avalia nova diretriz da OMS sobre adoçantes&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/encontros-cientificos-em-petropolis-abordam-novidades-sobre-tratamento-do-cancer-238797</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Velozes e Furiosos 10 chega aos cinemas da cidade como uma opção de entretenimento para o fim de semana</title><link>https://www.diariodepetropolis.com.br/integra/velozes-e-furiosos-10-chega-aos-cinemas-da-cidade-como-uma-opcao-de-entretenimento-para-o-fim-de-semana-238802</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Entretenimento/3117-10" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Entretenimento&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Velozes e Furiosos 10 chega aos cinemas da cidade como uma opção de entretenimento para o fim de semana&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0400_20230519202743_HBW3M.jpg" longdesc="79526;30195"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Reprodução / Twitter @Ludmilla&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rhayssa Motta - Especial para o Diário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O décimo filme da franquia Velozes e Furiosos é um dos lançamentos mais aguardados do ano pelos fãs de cinema. Após o sucesso global dos filmes anteriores, as expectativas estão altas para descobrir o que está reservado para os personagens tão queridos pelo público.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O filme estreou ontem nos cinemas e promete atrair um grande público ansioso para acompanhar as icônicas corridas de rua, os vilões da saga e, claro, uma visita ao Rio de Janeiro, que recebeu um papel importante na trama, em referência ao 5º filme Operação Rio. Além disso, a participação da cantora brasileira Ludmilla acrescenta um toque carioca ao longa-metragem.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Outra grande atração é a reunião de praticamente todos os personagens icônicos da franquia, incluindo Dominic Toretto (interpretado por Vin Diesel), Letty (interpretada por Michelle Rodriguez) e Roman (interpretado por Tyrese Gibson), bem como outros membros da família Velozes e Furiosos que conquistaram os corações dos fãs ao longo de todos esses anos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No geral, o filme que conta com Jason Momoa no papel do vilão Dante, é um prelúdio do fim da estrada para a saga, sendo considerado a primeira parte da despedida.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os cinemas da cidade se prepararam para receber esse momento, e todos estão com o filme em cartaz. Uma excelente opção para um fim de semana típico de clima frio na cidade.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/velozes-e-furiosos-10-chega-aos-cinemas-da-cidade-como-uma-opcao-de-entretenimento-para-o-fim-de-semana-238802</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>ARISTÓTELES DRUMMOND</title><link>https://www.diariodepetropolis.com.br/integra/aristoteles-drummond-238776</link><description>Aristóteles DrummondOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/aristoteles-drummond-238776</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Célio Thomaz</title><link>https://www.diariodepetropolis.com.br/integra/celio-thomaz-238768</link><description>Célio Thomaz
+ Original title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/celio-thomaz-238768</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>José Luiz Alquéres</title><link>https://www.diariodepetropolis.com.br/integra/jose-luiz-alqueres-238771</link><description>José Luiz AlquéresOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/jose-luiz-alqueres-238771</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Marise Simões</title><link>https://www.diariodepetropolis.com.br/integra/marise-simoes-238766</link><description>Marise SimõesOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/marise-simoes-238766</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Ronaldo Fiani</title><link>https://www.diariodepetropolis.com.br/integra/ronaldo-fiani-238770</link><description>Ronaldo FianiOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/ronaldo-fiani-238770</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Coluna Cidade Aberta Rogerio Tosta</title><link>https://www.diariodepetropolis.com.br/integra/coluna-cidade-aberta-238772</link><description>Coluna Cidade abertaOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/coluna-cidade-aberta-238772</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Negacionismo econômico Mauro Peralta – médico e vereador</title><link>https://www.diariodepetropolis.com.br/integra/negacionismo-economico-238798</link><description>Negacionismo econômicoOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/negacionismo-economico-238798</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Vândalos destroem geloteca no Quitandinha</title><link>https://www.diariodepetropolis.com.br/integra/vandalos-destroem-geloteca-no-quitandinha-238796</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Cidade/3117-1" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Cidade&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Vândalos destroem geloteca no Quitandinha&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0520_x_0520_20230520093523_E0GYU.jpg" longdesc="79543;69223"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Reprodução Redes Sociais &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A geloteca do projeto Não Morro Sem Ler foi alvo de vandalismo essa semana, no Quitandinha. A forma criativa de levar os livros para bem pertinho de crianças e adultos para que tenham acesso à leitura, instalada na Avenida Amaral Peixoto, foi derrubada e destruída na manhã de quinta-feira (18).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Nossa Geloteca foi destruída por um morador do bairro. Segundo relatos, o vândalo derrubou a geladeira, jogando para fora todos os livros e a arrastou pelo chão até jogá-la pela escadinha. Ela ficou com a porta danificada e empenada, a parte de baixo quebrada e os livros foram rasgados e espalhados”, diz parte da mensagem compartilha nas redes sociais do projeto Não Morro Sem Ler.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os responsáveis afirmam, ainda, que “é inadmissível um bem ser destruído dentro da própria comunidade por um ser humano”, forçando que medidas serão adotadas e que os colaboradores do projeto vão se reunir para dar os próximos passos. “Nossas crianças não merecem isso”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Geloteca é uma forma criativa de levar os livros para bem pertinho de crianças e adultos que têm acesso à leitura um pouco mais restrito.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/caso-de-menina-que-morreu-engasgada-completa-um-ano-238787"&gt;Caso de menina que morreu engasgada completa um ano &lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/empreendedorismo-gestao-de-pessoas-e-lideranca-238795"&gt;Empreendedorismo, Gestão de Pessoas e Liderança&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/balao-cai-sobre-rede-eletrica-em-bonsucesso-238780"&gt;Balão cai sobre rede elétrica em Bonsucesso&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/vandalos-destroem-geloteca-no-quitandinha-238796</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Balão cai sobre rede elétrica em Bonsucesso</title><link>https://www.diariodepetropolis.com.br/integra/balao-cai-sobre-rede-eletrica-em-bonsucesso-238780</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Cidade/3117-1" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Cidade&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Balão cai sobre rede elétrica em Bonsucesso&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0337_x_0600_20230520104825_7IL83.jpg" width="244" height="434" longdesc="79551;27258"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Reprodução Redes Sociais&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Um balão caiu em cima da rede elétrica, em Bonsucesso, na manhã deste sábado (20). Houve interrupção de energia.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O artefato atingiu os fios que passam entre a Estrada União e Indústria e a Avenida Leopoldina, por volta das 09h30. Equipes do Corpo de Bombeiros e da companhia de energia elétrica Enel foram acionadas em caráter emergencial.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Não houve feridos e nem registros de incêndio. A pena para quem solta balões vai de um a três anos de prisão, e a multa mínima para quem fabrica, vende, transporta e solta balões é de R$ 10 mil.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/caso-de-menina-que-morreu-engasgada-completa-um-ano-238787"&gt;Caso de menina que morreu engasgada completa um ano &lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/empreendedorismo-gestao-de-pessoas-e-lideranca-238795"&gt;Empreendedorismo, Gestão de Pessoas e Liderança&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/vandalos-destroem-geloteca-no-quitandinha-238796"&gt;Vândalos destroem geloteca no Quitandinha&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/balao-cai-sobre-rede-eletrica-em-bonsucesso-238780</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>“Carambolas nas Nuvens” faz show gratuito neste domingo em Petrópolis Show infantil mistura música, teatro e contação de histórias</title><link>https://www.diariodepetropolis.com.br/integra/carambolas-nas-nuvens-faz-show-gratuito-neste-domingo-em-petropolis-238767</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Agenda%20Cultural/3117-399" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Agenda Cultural&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;“Carambolas nas Nuvens” faz show gratuito neste domingo em Petrópolis&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Show infantil mistura música, teatro e contação de histórias&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0400_20230520094443_QTSKS.jpg" longdesc="79544;174655"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O show infantil “Carambolas nas Nuvens” irá se apresentar de graça neste domingo (21), no Sesc Quitandinha (Av. Joaquim Rolla, 2 – Quitandinha - Petrópolis). Liderado por três artistas mulheres, o espetáculo promete levar o público a uma viagem pelo universo da música, misturando canções autorais, o cancioneiro popular brasileiro e latino-americano.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Com instrumentos que vão do violão ao ceramofone, passando por violino, rabeca, charango, flauta, clarinete, zabumba, triângulo, pandeiro e vozes, o grupo apresenta baiões, xotes e músicas do folclore latino-americano. O show de estreia das Carambolas é uma viagem sonora que celebra a liberdade e a conexão com as raízes, sendo que a música é a própria viagem, com canções que trazem sensações de voo, nuvem e aconchego da casa da avó.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além da música, o grupo passeia por outras linguagens artísticas, como teatro, dança e contação de histórias, proporcionando uma experiência lúdica para as crianças.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O projeto foi idealizado pelas artistas Bebel Nicioli, Mari Jasca e Renata Neves como uma proposta de educação infantil que visa transmitir conhecimento e estimular a imaginação, além de contribuir para o desenvolvimento físico, cognitivo e socioemocional das crianças.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Carambola nas Nuvens”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Onde: Sesc Quitandinha&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Quando: (21/05), às 16h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Endereço: Av. Joaquim Rolla, 2 – Quitandinha - Petrópolis &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Duração: 50 minutos&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Classificação: livre&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ingresso: R$10,00 (inteira), R$5,00 (meia entrada para casos previstos por lei, estendida a professores e classe artística mediante apresentação de registro profissional), gratuito (credencial plena Sesc e público PCG).&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/carambolas-nas-nuvens-faz-show-gratuito-neste-domingo-em-petropolis-238767</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Gastronomia junina movimenta turistas em todo o país Os sabores e as delícias dos pratos típicos juninos nos variados estados e regiões brasileiras</title><link>https://www.diariodepetropolis.com.br/integra/gastronomia-junina-movimenta-turistas-em-todo-o-pais-238803</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Turismo/3117-28" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Turismo&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Gastronomia junina movimenta turistas em todo o país&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Os sabores e as delícias dos pratos típicos juninos nos variados estados e regiões brasileiras&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0339_20230519120936_52GTC.png" longdesc="79503;625673"&gt;&lt;br&gt; Crédito: Foto: Alex Régis/ Secom Prefeitura do Natal&lt;/p&gt;
+&lt;p&gt;Faltam poucos dias para o São João no Brasil e entre os atrativos desta grande festa estão as comidas típicas, que encantam o paladar e movimentam milhares de visitantes nos tradicionais destinos do país. Canjica, pamonha, quentão, pinhão... hummm! O que não faltam são opções para os amantes da gastronomia regional brasileira realizarem uma verdadeira viagem pelo sabor e pela cultura do nosso país. Mas você sabia que em cada cantinho do Brasil há um sabor ou curiosidade culinária específica nesta época do ano?&lt;/p&gt;
+&lt;p&gt;No Maranhão, por exemplo, o arroz de cuxá e a torta de camarão dão um toque especial na culinária junina do estado e têm presenças garantidas nas barraquinhas dos arraiais. O primeiro prato é um dos xodós dos maranhenses e é feito com ingredientes como: vinagreira, diferentes especiarias, farinha de mandioca e camarão. O fruto do mar, também, é um dos principais componentes do segundo prato e dá um charme à mais na receita, que, apesar de ser típica do período junino, permanece na gastronomia regional durante todo o ano. Com tantos sabores inconfundíveis, é difícil resistir.&lt;/p&gt;
+&lt;p&gt;Ainda na região Nordeste, Caruaru (PE) é a terra das comidas gigantes durante o São João. A cidade pernambucana tem todos os anos um calendário para a preparação das delícias juninas. Neste ano, o destino sediará, entre outros, o “Maior Munguzá do Sertão”, o “Maior Quentão do Mundo” e a “Maior Tapioca do Mundo”. É comida para mais de metro! E não acabou por aí. A cidade ainda guarda o famoso Bolo de Pé de Moleque, que traz ingredientes como farinha de mandioca, ovos, goiabada, coco e castanha de caju. “Bão dimais”!&lt;/p&gt;
+&lt;p&gt;No sul do Brasil, o pinhão é um dos principais alimentos consumidos no período junino, principalmente se ele estiver cozido. Mas a semente também pode ser encontrada em diversas outras receitas, entre elas, bolos, paçocas, doces, sopas e no quentão. O frio, típico da região, ainda dá a oportunidade aos viajantes de se deliciarem com o famoso churrasco, o arroz carreteiro e o chimarrão, bebida típica do Rio Grande do Sul. Opções não faltam para desfrutar uma das melhores festas do nosso país nesta região.  &lt;/p&gt;
+&lt;p&gt;O milho e o amendoim são alguns dos ingredientes encontrados nos pratos típicos do São João do Centro-Oeste. Em Mato Grosso do Sul, a Sopa Paraguaia é servida quente e pode ser consumida como entrada ou acompanhamento para outros pratos típicos das festividades, como o arroz carreteiro. Já em Goiás, dois quitutes enchem os olhos dos visitantes: o Empadão Goiano e o Arroz com Pequi. Os dois são encontrados facilmente em todo o estado nesta época do ano.&lt;/p&gt;
+&lt;p&gt;Já no Norte, dois pratos típicos dominam as paradas culinárias da região. No Amazonas, o X-caboquinho, sanduíche de tucumã que vem acompanhado de banana frita e queijo coalho, é um dos preferidos para o café da manhã ou para o lanche da tarde. No Pará, o Tacacá é um dos mais populares. A sopa tradicional na região, feita com tucupi, goma de tapioca, camarão seco, jambu e outros temperos é a principal pedida dos viajantes. Além dessas opções, é comum encontrar outras comidas, como a maniçoba e o bolo de macaxeira. Com tantas opções deliciosas, é impossível resistir às tentações gastronômicas do São João!&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/petropolis-temperatura-baixa-a-8-c-e-cidade-fica-ainda-mais-charmosa-para-os-turistas-238801"&gt;Petrópolis: temperatura baixa a 8°C e cidade fica ainda mais charmosa para os turistas&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/gastronomia-junina-movimenta-turistas-em-todo-o-pais-238803</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>www.diariodepetropolisdigital.com.br</title><link>https://www.diariodepetropolis.com.br/integra/capa-desta-edicao-238778</link><description>Capa desta ediçãoOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/capa-desta-edicao-238778</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Casamento entre pessoas do mesmo sexo cresce em 10 no estado</title><link>https://www.diariodepetropolis.com.br/integra/casamento-entre-pessoas-do-mesmo-sexo-cresce-em-10-no-estado-238789</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Geral/3117-46" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Geral&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Casamento entre pessoas do mesmo sexo cresce em 10 no estado &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0441_20230520135312_OUZ0I.jpg" longdesc="79564;31119"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Rômulo Barroso - especial para o Diário &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Desde 2013, o casamento entre pessoas do mesmo gênero não pode ser recusado pelos cartórios de todo país, como determinou uma resolução do Conselho Nacional de Justiça (CNJ). De lá pra cá, as uniões homoafetivas não param de crescer. De acordo com a Associação dos Registradores de Pessoas Naturais do Estado do Rio de Janeiro (Arpen/RJ), esse número aumentou quatro vezes em 10 anos no estado. No primeiro ano em que a norma passou a valer, foram 211 celebrações realizadas, enquanto no ano passado houve 972. Neste ano, até abril, já são 306 casamentos oficializados. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para a professora e dirigente nacional da UNA LGBT (União Nacional LGBT), Lívia Miranda, chegar a esse marco de 10 anos significa que o avanço dessa conquista segue sendo consolidado. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"O marco da década de equiparação e reconhecimento da união civil estável entre casais homoafetivos significa a consolidação de um avanço social. Isso porque as pessoas podem se considerar casadas mesmo sem o documento assinado em cartório, mas para as garantias constitucionais e direitos civis, a união civil é uma necessidade. Portanto, nós do movimento social entendemos que é uma grande conquista para quem almeja esse tipo de união", diz Lívia. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No entanto, ela ressalta que ainda fortalecer esse direito. A união homoafetiva não é expressa na legislação, ela ocorre por entendimento do Poder Judiciário. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Contudo, os direitos não são escritos em pedra. Ou seja, sempre há maior ou menor risco dele se dissolver. Por exemplo, essa garantia não veio de nenhuma casa legislativa, mas sim do judiciário. O que revela o quanto ainda é um tabu a união de pessoas homoafetivas. Ainda assim, consideramos que, no caso dessa conquista da nossa comunidade, não há o que se questionar. Essa conquista é fundamental para garantirmos que o Estado reconheça nossa união e, assim, assegurarmos também outros direitos", coloca.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Histórico&lt;/strong&gt;  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O reconhecimento de que a união homoafetiva é equivalente àquela entre homem e mulher veio em 2011 pelo Supremo Tribunal Federal (STF). Muito tempo depois que assunto começou a ser discutido pela sociedade. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O primeiro projeto para estabelecer em lei esse direito é 1995, um projeto apresentado na Câmara dos Deputados por Marta Suplicy. Essa iniciativa nunca foi para frente. Em 2001, outro projeto, esse de autoria de Roberto Jefferson, foi analisado por comissões da Câmara, mas não levado para votação em plenário. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Só em 2004 que o estado do Rio Grande do Sul determinou que cartórios deveria registrar uniões entre pessoas do mesmo sexo. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Quatro anos depois, o estado do Rio de Janeiro ingressou no STF pedindo que a união estável homoafetiva fosse entendida como entidade familiar - isso diminuiria distorções, por exemplo, para a concessão de benefícios previdenciários. O resultado saiu três anos depois. E só em 2013 veio a resolução do CNJ direcionada aos cartórios de todo país. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Todas as conquistas de direitos para as minorias sociais são fruto de muita luta", ressalta Lívia Miranda. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Custos de cartório ainda são um desafio&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O Diário solicitou os números de casamentos homoafetivos em Petrópolis nesse período para a Arpen-RJ, mas os dados não foram disponibilizados até o fechamento da reportagem. De acordo com a coordenadora do UNALGBT, também há um aumento na cidade, mas que não é ainda mais amplo por causa dos custos. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"O que temos de informação é que no estado do Rio de Janeiro o número de casamentos aumenta ano a ano e que as mulheres lideram esse indicador. Entendemos que a maior barreira ainda é o custo cartorial para realizar a união. De modo que para conseguir a gratuidade o processo é mais burocrático. Ou seja, como toda luta do movimento social, vencemos uma barreira e outros novos desafios se revelam", afirma. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Avanços em defesa dos direitos LGBTQIAP+&lt;/strong&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A conquista do reconhecimento do casamento homoafetivo ainda é apenas um começo. Ainda é preciso avançar em diversos caminhos. A violência homofóbica ainda é enorme: o &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dossiê de Mortes e Violências contra LGBTI+ no Brasil mostrou que em 2021 houve pelo menos 316 mortes violentas de pessoas lésbicas, gays, bissexuais, travestis, transexuais e pessoas intersexo (LGBTI+). Esse número representa um aumento de 33,3% em relação ao ano anterior. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dados como esse são apresentados com preocupação em datas como 17 de maio, o Dia Internacional contra Homofobia. Em Petrópolis, a União Nacional LGBT defende a criação de um Conselho Municipal da Diversidade Sexual e de Gênero. A ideia foi encapada pelo vereador Léo França (PSB), que fez uma indicação legislativa que foi aprovada na Câmara de Petrópolis e já encaminhada para a prefeitura. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Esse conselho almeja ser o espaço de discussão e formulação das políticas LGBTQIAP+ nas mais diversas áreas como saúde, assistência social, segurança pública, geração de emprego e distribuição de renda, educação entre outras. Ou seja, é para ser um ambiente diverso e plural em que teremos como objetivo principal discutir como garantir a defesa da vida, cidadania e dignidade das pessoas. O que tivemos recentemente na câmara municipal foi a aprovação de uma indicação legislativa que provoca o executivo municipal (o prefeito) a enviar para a câmara a lei que cria o conselho. Nesse momento estamos aguardando reunião com o executivo para discutir e apresentar a proposta do movimento social. A expectativa é grande porque o governo já sinalizou interesse em criar o conselho. Assim, é importante que toda sociedade se envolva nesse processo para garantir que esse avanço signifique também uma mudança de paradigma na cidade em que as pessoas LGBTQIAP+ possam ter sua vida preservada, sua cidadania e seus direitos garantidos", argumenta Lívia Miranda. &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/dia-do-abraco-psicologa-lembra-a-importancia-desse-gesto-238791"&gt;Dia do Abraço: psicóloga lembra a importância desse gesto&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/casamento-entre-pessoas-do-mesmo-sexo-cresce-em-10-no-estado-238789</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Anvisa avalia nova diretriz da OMS sobre adoçantes Órgão da ONU desaconselhou uso do produto para controle de peso</title><link>https://www.diariodepetropolis.com.br/integra/anvisa-avalia-nova-diretriz-da-oms-sobre-adocantes-238788</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Sa%C3%BAde/3117-8" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Saúde&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Anvisa avalia nova diretriz da OMS sobre adoçantes&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Órgão da ONU desaconselhou uso do produto para controle de peso&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0359_20230520135317_VEL1N.jpg" longdesc="79566;22194"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Marcello Camargo / Agência Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Paula Laboissière - Agência Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Agência Nacional de Vigilância Sanitária (Anvisa) informou que vai avaliar, junto ao Ministério da Saúde e demais entes do governo, além de atores não governamentais, a nova diretriz da Organização Mundial da Saúde (OMS) sobre adoçantes sem açúcar. Na última segunda-feira (15), o órgão das Nações Unidas publicou uma nota em que desaconselha o uso desse tipo de produto para controle de peso ou como estratégia para reduzir o risco de doenças não transmissíveis. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em comunicado, a Anvisa destacou que o estudo da OMS não tem como objetivo rever o perfil de segurança dos adoçantes sem açúcar. “A recomendação é condicional, já que há necessidade de reunir mais informações sobre as consequências versus os benefícios da sua adoção, sugerindo aos países que ampliem a discussão em seus territórios, incluindo dados sobre a extensão de consumo dessas substâncias pela população nacional”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“É importante destacar que o uso de adoçantes no Brasil deve ser autorizado pela agência, que realiza avaliações de segurança desses produtos. A análise é realizada com base nas diretrizes do Comitê de Especialistas em Avaliação de Segurança de Aditivos Alimentares da Organização das Nações Unidas para Alimentação e Agricultura (FAO) e da OMS.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Entenda&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A recomendação da OMS é baseada em resultados de uma revisão sistemática de evidências disponíveis que sugerem que o uso de adoçantes sem açúcar não confere nenhum benefício a longo prazo na redução da gordura corporal em adultos ou crianças. A lista inclui aspartame, sacarina, sucralose, stevia e derivados.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os resultados da revisão, segundo a organização, também sugerem que pode haver efeitos potenciais indesejáveis provenientes do uso prolongado de adoçantes, como risco aumentado de diabetes tipo 2, doenças cardiovasculares e mortalidade em adultos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ainda de acordo com a entidade, o ato de substituir o açúcar por adoçantes não ajuda no controle de peso a longo prazo. A OMS pede que as pessoas considerem outras formas de reduzir a ingestão de açúcar, como consumir frutas e outros alimentos naturalmente adoçados, além de alimentos e bebidas sem nenhum tipo de açúcar.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“A recomendação se aplica a todas as pessoas, exceto indivíduos com diabetes pré-existente, e inclui todos os adoçantes sintéticos, naturais ou modificados que não são classificados como açúcares encontrados em alimentos e bebidas industrializados ou vendidos separadamente em alimentos e bebidas.”&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/encontros-cientificos-em-petropolis-abordam-novidades-sobre-tratamento-do-cancer-238797"&gt;Encontros científicos em Petrópolis abordam novidades sobre tratamento do câncer&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/anvisa-avalia-nova-diretriz-da-oms-sobre-adocantes-238788</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Efetivação de piso salarial da enfermagem ainda enfrenta resistência Argumento de entidades de empregadores e municípios é falta de recurso</title><link>https://www.diariodepetropolis.com.br/integra/efetivacao-de-piso-salarial-da-enfermagem-ainda-enfrenta-resistencia-238800</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Reajuste%20Salarial/3117-349" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Reajuste Salarial&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Efetivação de piso salarial da enfermagem ainda enfrenta resistência&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Argumento de entidades de empregadores e municípios é falta de recurso&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0359_20230520135302_UZLFL.jpg" longdesc="79560;142290"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pedro Ventura - Agência Brasil&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Camila Boehm – Agência Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Profissionais da enfermagem enfrentam resistência à efetivação do piso salarial, após o Supremo Tribunal Federal (STF) liberar, no último dia 15, o pagamento. O argumento de entidades de empregadores e municípios é falta de recursos o que, consequentemente, geraria desemprego para o segmento profissional.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Entrentanto, para a economista Marilane Teixeira, professora e pesquisadora do Centro de Estudos Sindicais e de Economia do Trabalho (Cesit), ligado ao Instituto de Economia da Universidade Estadual de Campinas (Unicamp), o estabelecimento de pisos salariais traz avanços notórios já que leva à valorização das ocupações e melhora os rendimentos do trabalho. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“A gente chegou, tanto no caso do piso da enfermagem como em outras categorias, a um determinado patamar em relação ao que é um valor, um preço justo, pela força de trabalho a partir de um reconhecimento de que é um trabalho essencial e necessário. No caso da enfermagem, ficou muito evidente na pandemia, as pessoas foram fundamentais e foram os profissionais que mais perderam suas vidas, justamente cuidando da vida dos das outras pessoas”, avaliou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A liberação do pagamento foi feita pelo ministro Luís Roberto Barroso, do STF. Contudo, o ministro entendeu que estados e municípios devem pagar o piso nacional da enfermagem nos limites dos valores que receberem do governo federal. Para profissionais da iniciativa privada, está prevista a possibilidade de negociação coletiva.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A decisão do ministro foi proferida após o presidente Luiz Inácio Lula da Silva ter sancionado a abertura de crédito especial de R$ 7,3 bilhões para o pagamento do piso. A medida foi publicada na sexta-feira (12), Dia Internacional da Enfermagem.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Historicamente, os empregadores tendem a resistir em relação ao pagamento de um de um piso salarial mínimo. “Essa pressão por parte dos empregadores é histórica. Estamos falando de relação do capital e trabalho, então tudo que implica em melhora do ponto de vista da remuneração salarial sempre vai encontrar uma certa resistência do outro lado no sentido de cumprir com as condições”, disse.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“As categorias mais organizadas, mais estruturadas, foram, na verdade, as que mais inovaram nesse sentido, porque como elas tinham mais poder de força de negociação, elas foram impondo também os pisos salariais e com valores relativamente superiores ao que é praticado em termos de salário mínimo”, disse, acrescentando que o mínimo é referência importante sobretudo para as categorias que não são tão organizadas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A pesquisadora destaca que há categorias formadas predominantemente por mulheres, como é o caso da enfermagem, o que leva a maior dificuldade no reconhecimento social do valor e da função dessas profissões. “É uma ideia de que 'enfermeira é cuidadora', então é uma função que as mulheres já nascem sabendo e não precisam de muita capacitação para realizar uma coisa que é inata. Então, por que pagar salários altos por um trabalho que elas já nasceram sabendo fazer? Mas não é verdade, é uma área fundamental”, acrescentou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Desemprego&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A pesquisadora afirmou ainda que não há evidência de que a conquista de pisos salariais leve ao desemprego, à extinção ou à redução de demanda por determinado tipo de ocupação. “Isso é uma pressão de quem obviamente resiste, sempre resistiu a qualquer avanço em termos de direito, porque não é só no piso, também se manifesta em outros direitos. Toda vez que você avança num determinado direito, sempre tem a pressão de que isso vai gerar desemprego”, disse.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo ela, o que vai determinar a geração de desemprego em uma categoria é a avaliação de que determinada ocupação perdeu o sentido do ponto de vista social e, portanto, foi se ressignificando e sendo criadas outras funções com trabalhos similares que possam substituí-la. “Depende da demanda e não necessariamente da remuneração”, afirmou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Valor&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O novo piso para enfermeiros contratados sob o regime da Consolidação das Leis do Trabalho (CLT) é de R$ 4.750, conforme definido pela Lei nº 14.434. Técnicos de enfermagem recebem, no mínimo, 70% desse valor (R$ 3.325) e auxiliares de enfermagem e parteiras, 50% (R$ 2.375). O piso vale para trabalhadores dos setores público e privado.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dados do Conselho Federal de Enfermagem contabilizam mais de 2,8 milhões de profissionais do setor no país, incluindo 693,4 mil enfermeiros, 450 mil auxiliares de enfermagem e 1,66 milhão de técnicos de enfermagem, além de cerca de 60 mil parteiras.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Empregadores&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Confederação Nacional de Municípios (CNM) avalia que a medida é uma “ilusão”. Em nota, a entidade afirmou que “o valor sancionado não paga um terço do piso dos profissionais de saúde que atuam nos municípios. Além disso, trata-se de recurso somente para 2023, não permanente para uma despesa continuada, não traz regulamentação sobre a forma de distribuição e transferência, e é destinado apenas aos profissionais da atenção especializada, ficando de fora os profissionais da atenção básica, como aqueles que atendem o Estratégia Saúde da Família.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Dados da confederação mostram que os municípios têm em seu quadro mais de 589 mil postos de trabalho da enfermagem. De acordo com estimativa da entidade, o impacto do piso aos municípios será de R$ 10,5 bilhões neste ano. “No entanto, a Lei 14.581/2023 se limitou a destinar R$ 3,3 bilhões aos entes locais, apesar de ser a esfera municipal que absorve o maior impacto financeiro com a instituição do piso”, diz a nota. Ainda segundo a entidade, com a vigência da medida, há risco de desligamento de mais de 32,5 mil profissionais da enfermagem.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Federação Brasileira de Hospitais (FBH) informou que lamenta a decisão de Barroso. “A decisão veio sem que fosse apresentada, conforme solicitava liminar emitida pelo próprio ministro, soluções para minimizar o impacto dos custos com o reajuste na rede privada”, disse, em nota. A entidade ressalta que o PL assinado pelo presidente Lula é destinado apenas aos hospitais públicos, o que não resolve o impacto na rede privada, estimado pela FBH em mais de R$ 7 bilhões anuais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A entidade acrescenta que, apesar de São Paulo, Minas e Rio responderem por 48% do total de vínculos em profissionais de enfermagem, será o Nordeste que mais será impactado. “A região com mais estados no país terá que lidar com um aumento de 40% de custos, pois 84% dos profissionais da categoria recebem abaixo do piso estipulado. Estados como Maranhão e Pernambuco chegam a ter 90% dos vínculos abaixo do piso estipulado.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O presidente da FBH, Adelvânio Francisco Morato teme pelos 4,2 mil estabelecimentos filiados, principalmente os de pequeno e médio porte, que representam 70% do total. A estimativa é que haja redução de 30% do quadro de enfermagem nos hospitais com até 100 leitos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“O governo, em nenhum momento, demonstrou preocupação em estabelecer as fontes de custeio. Com isso, centenas de hospitais vão fechar as portas, e o país vai registrar aumento no desemprego, além de precarização no acesso a serviços de saúde no interior”, avaliou Morato. Segundo ele, a rede privada responde por 62% dos cerca de 1,3 milhão de profissionais de enfermagem do país, e 71% dos pequenos estabelecimentos estão fora das capitais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Trabalhadores&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para o conselheiro do Conselho Federal de Enfermagem (Cofen), Daniel Menezes de Souza, a liberação do piso pelo STF “representa a concretização do que sempre defendemos, de que o piso é constitucional, que há recursos para o financiamento do setor público e se concretiza como um passo na conquista de reconhecimento social para nossa profissão”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em relação à falta de recursos para o pagamento do piso, ele explicou que durante a tramitação do projeto no Congresso Nacional, as equipes técnicas usaram os dados oficiais, com estudos realizados pelo Departamento Intersindical de Estatística e Estudos Socioeconômicos (Dieese), para calcular o impacto financeiro do valor necessário para completar aquilo que faltava para alcançar o equivalente ao piso.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Esses valores foram liberados pela União, então não há justificativa para que o pagamento não se concretize. Para os privados, o piso também deverá ser pago, contudo a partir de 1º de julho. Quanto à negociação coletiva, entendemos que ela parte dos direitos mínimos já garantidos na proteção do trabalhador, e o valor estabelecido por lei que cria piso é uma dessas garantias”, disse. Para cada ano, os valores devem ser incluídos na lei que estabelece as prioridades do Orçamento da União – a LDO, que é aprovada anualmente.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Menezes ressalta que a argumentação em torno de demissões era usada quando não havia a fonte de custeio definida e que estes postos de trabalho são fundamentais para garantir a produtividade nestes serviços. “Entendemos que, com a criação do fundo estabelecido na emenda constitucional 127 e a consequente disponibilização dos recursos no Orçamento da União e a confirmação dos repasses pelo Ministério da Saúde, não há qualquer justificativa para manter este discurso.” Ele afirma ainda que, para o setor privado com fins lucrativos, o pagamento do piso representa em média menos de 5% de seu faturamento.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O presidente do Conselho Regional de Enfermagem de São Paulo (Coren-SP), James Francisco dos Santos, considerou a medida “um grande alívio e uma grande justiça”, ressaltando que o piso salarial é um direito pelo qual a categoria vinha lutando há décadas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“O piso salarial da enfermagem não é uma novidade e todo o movimento, apesar das iniciativas em contrário, denotava que ele seria aprovado. É um justo reconhecimento ao trabalho realizado pela maior força de trabalho da saúde brasileira e sempre contou com um grande apoio popular. Portanto, a gestão das unidades de saúde pode ser realizada de forma a reorganizar suas finanças e direcionar o investimento necessário para o cumprimento do piso salarial”, avaliou Santos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em relação ao risco de demissões, apontado pelo setor patronal, ele afirma que a enfermagem é uma das profissões mais promissoras para a saúde, que sua presença é essencial nas instituições, e um corte de profissionais da área configuraria uma ameaça à qualidade da assistência prestada. “No caso da negociação coletiva das instituições privadas, o que esperamos é que sejam respeitados os valores previstos na Lei nº 14.434, pois são fruto de extensas tratativas que foram realizadas ao longo dos anos também com representantes da iniciativa privada”, ressaltou.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/efetivacao-de-piso-salarial-da-enfermagem-ainda-enfrenta-resistencia-238800</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Nova carteira de identidade será emitida sem informação sobre sexo Documento não terá mais distinção entre nome social e nome do registro</title><link>https://www.diariodepetropolis.com.br/integra/nova-carteira-de-identidade-sera-emitida-sem-informacao-sobre-sexo-238793</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Brasil/3117-13" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Brasil&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Nova carteira de identidade será emitida sem informação sobre sexo&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Documento não terá mais distinção entre nome social e nome do registro&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0359_20230519134834_VG843.jpg" longdesc="79507;71405"&gt;&lt;br&gt; Foto: Assessoria de Comunicação Secretaria Especial de Modernização do Estado&lt;/p&gt;
+&lt;p&gt;Agência Brasil - Brasília&lt;br&gt;&lt;br&gt;O governo federal mudará  a apresentação da Carteira Nacional de Identidade (CIN) para tornar o registro mais inclusivo e representativo. O novo documento não terá mais distinção entre nome social e nome do registro civil. Dessa forma, passará a adotar o nome ao qual a pessoa se declara no ato da emissão. &lt;/p&gt;
+&lt;p&gt;A carteira de identidade será impressa sem o campo referente ao sexo. O decreto que regulamentará a emissão da CIN com as alterações tem previsão de ser publicado no final de junho. A partir da divulgação da norma, todos os novos documentos já serão emitidos no novo modelo. &lt;/p&gt;
+&lt;p&gt;As mudanças no Carteira de Identidade Nacional foram solicitadas pelo Ministério dos Direitos Humanos e da Cidadania, com o objetivo de promover mais cidadania e respeito às pessoas Lésbicas, Gays, Bissexuais, Travestis, Transexuais, Queers, Intersexos, Assexuais e Outras (LGBTQIA+) e fazem parte do compromisso do governo federal com políticas públicas voltadas a este público. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Identidade&lt;/strong&gt;&lt;br&gt;A Carteira de Identidade Nacional determina o CPF como número único e válido em todo território nacional. O documento está apto a ser executado em 12 estados: Acre, Alagoas, Amazonas, Goiás, Mato Grosso, Minas Gerais, Pernambuco, Piauí, Paraná, Rio de Janeiro, Rio Grande do Sul e Santa Catarina. Para a emissão, a população deve procurar a Secretaria de Segurança Pública do estado onde deseja ser atendido.&lt;/p&gt;
+&lt;p&gt;Com a nova identidade, a probabilidade de fraudes é menor, visto que antes era possível que a mesma pessoa tivesse um número de RG por estado, além do CPF. &lt;/p&gt;
+&lt;p&gt;A nova carteira terá um QR Code, que permite verificar sua autenticidade do documento, bem como saber se foi furtado ou extraviado, por meio de qualquer smartphone. Conta ainda com um código de padrão internacional chamado MRZ, o mesmo utilizado em passaportes, o que o torna ainda um documento de viagem.  &lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/mulheres-ocupam-34-de-cargos-de-alta-lideranca-no-setor-publico-238804"&gt;Mulheres ocupam 34% de cargos de alta liderança no setor público&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/nova-carteira-de-identidade-sera-emitida-sem-informacao-sobre-sexo-238793</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>No G7, Brasil assina declaração conjunta para combater a fome Documento foi assinado por chefes do Executivo de outros 14 países</title><link>https://www.diariodepetropolis.com.br/integra/no-g7-brasil-assina-declaracao-conjunta-para-combater-a-fome-238805</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Fome/3117-341" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Fome&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;No G7, Brasil assina declaração conjunta para combater a fome&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Documento foi assinado por chefes do Executivo de outros 14 países&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0359_20230520091632_WETAR.jpg" longdesc="79540;49061"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt; Foto: Ricardo Stuckert  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Vitor Abdala - Repórter da Agência Brasil - Rio de Janeiro&lt;/span&gt;&lt;br&gt; &lt;br&gt;&lt;span&gt;O presidente da República, Luiz Inácio Lula da Silva, assinou, em Hiroshima (Japão), na madrugada deste sábado (20) – tarde de sábado no horário japonês – uma declaração conjunta com propostas para garantir a segurança alimentar no mundo. O documento foi assinado por chefes do Executivo de outros 14 países durante a reunião de cúpula estendida do G7.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Declaração de Ações de Hiroshima para a Segurança Alimentar Resiliente tem o objetivo de garantir políticas para erradicar a fome no mundo, com a oferta de alimentos nutritivos, baratos e seguros e com processos agrícolas resilientes, sustentáveis e inclusivas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com nota divulgada pela Presidência da República, os participantes da cúpula avaliam que, no curto prazo, a pandemia de covid-19, os preços internacionais de energia, alimentos e fertilizantes, os impactos das mudanças climáticas e os conflitos como a guerra da Ucrânia ameaçam a segurança alimentar global.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A avaliação dos participantes é que, no médio prazo, é preciso preparar os países para prevenir e remediar de forma rápida as crises de segurança alimentar no futuro.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em um horizonte de mais longo prazo, a intenção é atingir a segurança alimentar global de forma resiliente, garantindo nutrição para todos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O documento foi assinado pelos líderes de Brasil, Japão, Austrália, Canadá, Comores, Ilhas Cook, França, Alemanha, Índia, Indonésia, Itália, Coréia do Sul, Reino Unido, Estados Unidos, Vietnã e União Europeia.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Indonésia&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Mais cedo, ainda na noite de sexta-feira (no horário brasileiro), Lula se reuniu com o presidente da Indonésia, Joko Widodo, com quem discutiu a preservação do meio ambiente e a criação de um grupo internacional envolvendo os dois países, além da República Democrática do Congo e outras nações amazônicas para proteger as florestas tropicais. Essas três regiões reúnem as maiores áreas deste tipo de vegetação em todo o planeta.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo a Presidência da República, os dois presidentes concordaram em relação à guerra entre Rússia e Ucrânia e Widodo afirmou que o mundo precisa de paz. O indonésio afirmou, de acordo com as informações do governo brasileiro, que esteve no passado com os presidentes russo, Vladimir Putin, e ucraniano, Volodymyr Zelensky, para discutir o problema da segurança alimentar global com os dois países, grandes exportadores de grãos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Lula convidou Widodo a visitar o Brasil e disse que países com grandes populações, como Brasil e Indonésia, têm que se aproximar. O presidente indonésio afirmou, segundo a Presidência, ter interesse em aumentar as importações de produtos brasileiros, especialmente proteína animal.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/no-g7-brasil-assina-declaracao-conjunta-para-combater-a-fome-238805</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Mulheres ocupam 34% de cargos de alta liderança no setor público Governo trabalha para aumentar presença feminina e combater assédio</title><link>https://www.diariodepetropolis.com.br/integra/mulheres-ocupam-34-de-cargos-de-alta-lideranca-no-setor-publico-238804</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Brasil/3117-13" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Brasil&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Mulheres ocupam 34% de cargos de alta liderança no setor público&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Governo trabalha para aumentar presença feminina e combater assédio&lt;/span&gt;&lt;br&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202305/fotos/0600_x_0359_20230520091637_5CEXX.jpg" longdesc="79542;46717"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto:  José Cruz/Agência Brasil  &lt;/span&gt;&lt;br&gt;&lt;span&gt; &lt;/span&gt;&lt;br&gt;&lt;span&gt;Daniella Almeida – Agência Brasil - Brasília&lt;/span&gt;&lt;br&gt; &lt;br&gt;&lt;span&gt;A participação de mulheres em cargos de alta liderança na administração pública federal aumentou de 29%, em dezembro de 2022, para 34%, em abril de 2023, o que representa crescimento de 17%, em quatro meses.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com o Observatório de Pessoal do Ministério da Gestão e da Inovação em Serviços Públicos, em abril de 2019, o percentual era ainda menor, 26%.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A ministra destacou que há aumento de participação, tanto na comparação com o último mês do governo passado, quanto na comparação com o mesmo mês do primeiro ano da gestão passada. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo a ministra, o aumento se deve ao estímulo à ampliação do acesso e, sobretudo, à permanência de lideranças femininas na alta gestão pública, para que representem com mais fidelidade a população brasileira.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os cargos de alta liderança no setor público federal dizem respeito a postos como coordenação, assessoria, diretoria, superintendência, secretaria executiva e ministérios. Nestes postos, a remuneração das funções e cargos comissionados executivos varia de R$ 11.306,90 a R$ 18.469,94.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ações antiviolência&lt;/span&gt;&lt;br&gt;&lt;span&gt;A assessora de Participação Social e Diversidade do Ministério da Gestão e Inovação em Serviços Públicos, Daniela Gorayeb, ressaltou que o presidente Luiz Inácio Lula da Silva, desde o período de atuação do Gabinete de Transição, sinalizou o empoderamento feminino, quando nomeou 11 ministras de Estado.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Daniela aponta ainda a criação dos ministérios das Mulheres e da Igualdade Racial e das secretarias nacionais dos Direitos de LGBTQIA+ e Nacional dos Direitos da Pessoa com Deficiência, ambas do Ministério dos Direitos Humanos e Cidadania, como avanços para diminuir desigualdades de gênero. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para Daniela, isso valoriza a representatividade feminina. “A representatividade tem efeito simbólico e concreto. A presença destas pessoas, que têm condição de representar as diversas demandas, direcionam os espaços futuros, inovam as políticas públicas e vão estar mais alinhadas e mais próximas das demandas reais da sociedade.” &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O governo federal adotou também ações de combate à violência de gênero como a criação do grupo de trabalho para elaboração de uma política de enfrentamento ao assédio moral e sexual e discriminação na administração pública, sob coordenação do Ministério da Gestão e Inovação em Serviços Públicos. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;E, para tornar os ambientes seguros para as mulheres exercerem plenamente suas atividades, a Controladoria-Geral da União (GCU) publicou o Guia Lilás, com orientações para prevenção e tratamento ao assédio moral e sexual e à discriminação no governo federal, além de protocolo para denunciar a ocorrência de casos deste tipo. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Outra medida foi o lançamento, em abril, do Observatório de Pessoal do Governo Federal, ferramenta que pode ser acessada por qualquer cidadão para monitorar e comparar as presenças masculina e feminina em cargos de alta e média lideranças, perfis dos ocupantes (idade, estado civil e escolaridade), número de pessoas com deficiência e de mulheres negras e indígenas na liderança pública, além de dados estatísticos e informações sobre tabelas de remuneração dos servidores. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para capacitar lideranças femininas e ampliar o número de altas gestoras na administração pública federal, a Escola Nacional de Administração Pública (Enap) também disponibiliza cursos de formação.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Barreiras e desafios&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Daniela destaca que a discriminação e a violência contra mulheres são estruturais na sociedade brasileira, e não restritas à administração pública federal. “Somos, lamentavelmente, inaceitavelmente, desqualificadas e inferiorizadas na nossa forma de atuação por sermos mulheres É uma tentativa recorrente de descrédito da nossa capacidade de trabalho”. Entre as sequelas, ela aponta o assédio e qualquer outra forma de discriminação, que “minam a segurança, minam a autoestima e podem, inclusive, adoecer as mulheres”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Como resposta para garantir mudanças efetivas, ela defende os incentivos do governo federal que ampliam a entrada das mulheres na alta gestão pública e os canais de bloqueios ao assédio, discriminações e outras violências ao feminino. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em paralelo às ações do governo, Daniela cita a associação entre os movimentos sociais e os três poderes para mudanças concretas. “Para que a gente avance, não mais só como uma sensibilização da sociedade, mas com ações concretas em direção à equidade.”&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Cuidados&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Além da espera da administração pública federal, Daniela destacou que o governo federal se preocupa com a desigualdade de gênero nos trabalhos domésticos e nos cuidados de idosos, crianças e pessoas com deficiência. Em geral, essas tarefas não são remunerados, o que acentuaria as discriminações e as desigualdades econômico-sociais. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para discutir saídas, Daniela adiantou à Agência Brasil que, na segunda-feira (22), ocorrerá a primeira reunião do Grupo de Trabalho Interministerial de Elaboração da Política Nacional de Cuidados, sob coordenação dos Ministérios do Desenvolvimento e Assistência Social, Família e Combate à Fome e das Mulheres.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A construção de uma Política Nacional de Cuidados é tratada como uma das prioridades da agenda social do governo Lula, destacou Daniela Gorayeb.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/nova-carteira-de-identidade-sera-emitida-sem-informacao-sobre-sexo-238793"&gt;Nova carteira de identidade será emitida sem informação sobre sexo&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/mulheres-ocupam-34-de-cargos-de-alta-lideranca-no-setor-publico-238804</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item><item><title>Produção industrial tem alta em 11 de 15 regiões pesquisadas em março Informação é do IBGE, que divulgou nesta sexta-feira dados de março</title><link>https://www.diariodepetropolis.com.br/integra/producao-industrial-tem-alta-em-11-de-15-regioes-pesquisadas-em-marco-238779</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Ind%C3%BAstria/3117-310" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Indústria&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Produção industrial tem alta em 11 de 15 regiões pesquisadas em março&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Informação é do IBGE, que divulgou nesta sexta-feira dados de março&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Vitor Abdala - Agência Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A produção industrial cresceu em 11 dos 15 locais pesquisados pelo Instituto Brasileiro de Geografia e Estatística (IBGE), de fevereiro para março. Segundo a Pesquisa Industrial Mensal – Produção Física Regional, divulgada nesta sexta-feira (19), as maiores altas foram registradas nos estados do Mato Grosso (9,3%), Amazonas (8,7%) e Pernambuco (8,1%). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Mas foi o Rio Grande do Sul, com peso maior da indústria do que os outros três estados que tiveram maiores altas, que mais contribuiu para a expansão nacional de 1,1%. O estado apresentou crescimento de 5,6%. “O resultado de março vem após dois meses seguidos de resultados negativos. Alguns setores que antes apresentavam trajetória negativa, em março mostraram crescimento. Os de veículos automotores e derivados do petróleo impactaram no desempenho da indústria gaúcha. Esse avanço no estado também elimina parte da perda acumulada nos dois meses anteriores, de 11,5%”, afirma o analista do IBGE Bernardo Almeida.   &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Também tiveram altas de fevereiro para março nos estados da Bahia (5,6%), Pará (4,3%), Ceará (4%), Minas Gerais (1,5%), Rio de Janeiro (0,7%) e São Paulo (0,2%). A única região pesquisada, Nordeste, cresceu 6,8%. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Por outro lado, quatro estados tiveram queda na taxa: Espírito Santo (-1,8%), Santa Catarina (-1,4%), Goiás (-1,4%) e Paraná (-1,3%). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No acumulado de 12 meses, no entanto, apenas seis locais tiveram alta, enquanto em nove houve queda. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Novos dados&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Pela primeira vez, nesta edição da pesquisa, o IBGE divulgou também o resultado para os estados do Rio Grande do Norte, Mato Grosso do Sul e Maranhão, além dos 15 tradicionalmente pesquisados.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Na comparação com março de 2022, foi registrada alta, em nove dos 18 locais pesquisados, com destaque para Amazonas (23,5%), Mato Grosso do Sul (8,6%) e Minas Gerais (7,3%). No Rio Grande do Norte, a indústria cresceu 1,3%, enquanto no Maranhão, o avanço foi de 6,6%. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Por outro lado, nove locais tiveram queda, com destaque para Rio Grande do Sul (-6,5%) e em Goiás (-5,3%). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No acumulado do ano, 13 locais tiveram queda, entre eles Rio Grande do Sul (-9,2%), Mato Grosso (-7,4%) e Bahia (-5,2%). Em cinco, houve alta, sendo a maior delas no Amazonas (14,8%). &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 21 de maio de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/producao-industrial-tem-alta-em-11-de-15-regioes-pesquisadas-em-marco-238779</guid><pubDate>Sun, 21 May 2023 00:00:00 GMT</pubDate></item></channel></rss>
