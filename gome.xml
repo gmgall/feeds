@@ -1,5 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 26 May 2023 00:51:41 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — spin-up</title><link>https://ctrl-c.club/~gome/journal/spin-up.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 26 May 2023 06:13:32 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — udon</title><link>https://ctrl-c.club/~gome/journal/udon.html</link><description>&lt;div&gt;
+    &lt;article class="recipe"&gt;
+      &lt;h1 id="title"&gt;Gome Udon&lt;/h1&gt;
+      &lt;time datetime="Thu, 25 May 2023 22:00:00 CDT"&gt;25 May 2023, 10:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        I got these good udon noodles the other day.
+        A bag of them has three little serving-sized bundles in it, each wrapped in a little piece of paper.
+        They’re good noodles, easy to make, and I like the portion size.
+      &lt;/p&gt;&lt;p&gt;
+        When I was making them for the first time, I was wondering what I should put on them.
+        I decided to come up with a little sauce slightly based on the ingredients from my &lt;a href="ramen.html"&gt;ramen recipe&lt;/a&gt;.
+        I thought it was great, and after a couple iterations, I had measurements down for a recipe.
+      &lt;/p&gt;&lt;p&gt;
+        One note: the udon I use says to boil it for 7 minutes and then to rinse in cold water to stop cooking.
+        I like to keep them hot, so I just do 6:30 and then drain it without a rinse.
+        If you want to have them cold, the sauce is still good on that too.
+      &lt;/p&gt;&lt;p&gt;
+        As far as I know, this isn’t a traditional way to server udon or anything.
+        According to Wikipedia, they’re often served in broth.
+        But this sauce seems to work pretty well and the flavor is a good match, in my opinion.
+      &lt;/p&gt;
+      &lt;img src="img/udon.webp" width="500" height="346"&gt;
+      &lt;h3 id="ingredients"&gt;Ingredients&lt;/h3&gt;
+      &lt;ul class="ingredient-list"&gt;
+        &lt;li&gt;~2.5 oz or ~75 grams udon noodles&lt;/li&gt;
+        &lt;li&gt;1 tbsp soy sauce&lt;/li&gt;
+        &lt;li&gt;1/2 tbsp rice vinegar&lt;/li&gt;
+        &lt;li&gt;1 tsp red curry paste&lt;/li&gt;
+        &lt;li&gt;1/4 tsp garlic powder&lt;/li&gt;
+        &lt;li&gt;1/2 tbsp avocado oil&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;h3 id="instructions"&gt;Instructions&lt;/h3&gt;
+      &lt;ol&gt;
+        &lt;li&gt;Boil the udon as instructed on the package (mine says 7 minutes).&lt;/li&gt;
+        &lt;li&gt;While cooking the noodles, mix all the other ingredients together in a separate container.&lt;/li&gt;
+        &lt;li&gt;After you’ve drained the noodles well, add the sauce and toss the noodles to coat them.&lt;/li&gt;
+      &lt;/ol&gt;
+      &lt;p&gt;
+        If you try this recipe, send me an email and let me know what you think.
+        My email is &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/udon.html</guid><pubDate>Thu, 25 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — spin-up</title><link>https://ctrl-c.club/~gome/journal/spin-up.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Hobby spin-up period&lt;/h1&gt;
       &lt;time datetime="Tue, 23 May 2023 22:30:00 CDT"&gt;23 May 2023, 10:30 PM&lt;/time&gt;
