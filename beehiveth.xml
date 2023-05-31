@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml</title><link>https://ctrl-c.club/~beehiveth/</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 31 May 2023 12:20:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 1666, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 854, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/bin/newslinkrss", line 748, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.9.16/x64/lib/python3.9/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>~beehiveth posts on ctrl-c.club</title><link>https://ctrl-c.club/~beehiveth/</link><description>A personal website (and Isaac Rodríguez's hastily bound IndieWeb identity.)</description><language>en</language><lastBuildDate>Wed, 31 May 2023 18:13:17 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>&gt; 03/02/2021:</title><link>https://ctrl-c.club/~beehiveth/entries/030221.html</link><description>&lt;article class="h-entry"&gt;
+			&lt;div class="entry-title"&gt;
+				&lt;a class="u-url u-uid p-name" href="entries/journal/030221.html"&gt;&amp;gt; en la meua boca un correfoc&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;a class="p-author h-card" rel="author" href="https://liminalismo.com"&gt;Isaac Rodríguez&lt;/a&gt;
+			&lt;hr id="title-hr"&gt;
+			&lt;div id="body"&gt;
+				&lt;div class="e-content"&gt;
+					&lt;p&gt;It's been years since I sat in front of a blank text editor with the intention of typing something that, while not intended exclusively for the public eye, is nonetheless far more out in the open than jotting down
+						my own thoughts in a group chat with myself.&lt;/p&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+					&lt;p&gt;☀️ says I am trapped in a narrative that is also of my own making; I have been mulling it over for months now, and always believed he was right, but it took a 20 minute nap on a rough day to have my mind click into
+						a state that may be the first step in a long (though necessary) journey to recovery.&lt;/p&gt;
+
+					&lt;p&gt;I can feel myself shifting under the gaze of an audience that mostly exists inside my head, and it reminds me of the times when exposing my vulnerabilities through public venting on Twitter was the only means I had
+						to cope with loss. I'm happy that this time around I am not doing it on a platform that profits off my grief, not gonna lie, and also that the thing that prompted this journal entry, this revamp of the site's
+						files, was eagerness to overcome the grief that has permeated my life for the past 4 years, and gratitude for the unwavering support that helped me believe that a better life was possible.&lt;/p&gt;
+
+					&lt;p cite="Saying your names, by Richard Siken"&gt;
+						Imagine a room,&lt;br&gt;
+						a sudden glow. Here is my hand, my heart,&lt;br&gt;
+						my throat, my wrist. Here are the illuminated&lt;br&gt;
+						cities at the center of me, and here is the center&lt;br&gt;
+						of me, which is a lake, which is a well that we&lt;br&gt;
+						can drink from, but I can’t go through with it.&lt;br&gt;
+						I just don’t want to die anymore.&lt;br&gt;
+					&lt;/p&gt;
+					&lt;p&gt;(Richard Siken, "Saying your names")&lt;/p&gt;
+				&lt;/div&gt;
+				&lt;hr&gt;
+				&lt;div id="entry-footer"&gt;
+					&lt;a class="p-category" href="../index.html"&gt;#journal&lt;/a&gt;
+					&lt;span class="date"&gt;
+						&lt;time class="dt-published" datetime="2021-02-03"&gt;February 3&lt;sup&gt;rd&lt;/sup&gt;, 2021&lt;/time&gt;
+					&lt;/span&gt;
+				&lt;/div&gt;
+			&lt;/div&gt;
+		&lt;/article&gt;
+
+	</description><author>Isaac Rodríguez</author><guid isPermaLink="true">https://ctrl-c.club/~beehiveth/entries/030221.html</guid><pubDate>Wed, 03 Feb 2021 00:00:00 GMT</pubDate></item></channel></rss>
