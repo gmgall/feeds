@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Thu, 01 Jun 2023 18:13:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>retrogrouch-computing.html</title><link>https://ctrl-c.club/~lettuce/retrogrouch-computing.html</link><description>&lt;div&gt;&lt;h1&gt;A Retro-grouch and ATB computer &lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Fri, 02 Jun 2023 00:59:11 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>vimwiki.html</title><link>https://ctrl-c.club/~lettuce/vimwiki.html</link><description>&lt;div&gt;&lt;h1&gt;5 years with a personal wiki (vimwiki)&lt;/h1&gt;
+
+&lt;p&gt;2023-06-01&lt;/p&gt;
+
+&lt;p&gt;I began using vimwiki in fall 2018, inspired by a number of wikis I'd experienced over the years, but not by the 'digital gardens' movement so much as the morphing website-portfolio-artist-site-as-wiki by artist Auriea Harvey. Each time I visited it sprouted new pages or took on different forms and page flows. Directories, stubs, image galleries, linkpages: like a 90s web wonderland. In the last few years as she's been more widely exhibited her site has become more less and less the wild wiki of yore. Might need to revisit it with the Internet Archive's wayback machine: https://web.archive.org/web/20190327062229/http://auriea.org/Auriea&lt;/p&gt;
+
+&lt;p&gt;I decided I wanted to create a wiki as well, but quickly found myself wanting to output my work for public consumption to be more like writing blogposts. I had been using jekyll for this on my personal site. Simultaneously, I needed a place to capture my notes, configs, snippets of code and ideas and the like. This is where the idea of using a wiki came back. I looked at Gollum, mediawiki, pbwiki, and other wiki options I was already familiar with and ones that I wasn't familiar with yet. I wanted the language to be simple, built for just me instead of multiple users, and I wasn't concerned about security since I intended this to be offline, for just me. I also wanted to write in markdown. I stumbled across Vimwiki in a post on Opensource.com. Since I was already a vim user, and enjoyed vim keys in my other TUI apps like pyradio, I thought it could be worth a try.&lt;/p&gt;
+
+&lt;p&gt;Vimwiki runs entirely in the terminal, edited with vim/nvim, and can output html (if you so desire). You have a main index page (usually) and then links off this page to sub-pages, which link out to additional pages. You press enter on any word and then it creates a new page in your wiki and takes you to that page. &lt;/p&gt;
+
+&lt;p&gt;Some special commands: &lt;/p&gt;
+
+&lt;pre&gt;
+\ww opens a new diary page for the day, 
+\w\w jumps to your wiki index
+\w\i rebuilds your diary index with links to all your diary entries
+&lt;/pre&gt;
+
+&lt;p&gt;The first line of your diary will be the title listed on the diary index page.&lt;/p&gt;
+
+&lt;p&gt;Created vimwiki pages are a single word, or a series of words linked with underscore or dashes.&lt;/p&gt;
+
+&lt;p&gt;I started my vimwiki in September 2018. Today I have 444 wiki pages, of which 325 are linked within the main part of the wiki and 119 are in the diary section of vimwiki. The distinction is that the 'diary' I use to draft gemlog posts, website blogposts, individual software or game devlogs, or to draft documentation or professional documents I have to write. Yesterday I used the diary to work on a report I have to give at school. Today I used it to draft the text you're reading now.&lt;/p&gt;
+
+&lt;p&gt;My index page has about 20 links off it, though I occasionally put a link to a sub-page that I'm actively working on at the top of the index, and remove it from there after completing the current project. Right now my index looks kind of like this:&lt;/p&gt;
+
+&lt;pre&gt;
+# My knowledge Base
+scratchnotes
+links
+teaching
+* online archives * professional work
+learning - links to videos, talks, etc
+tasks
+* coding, * software, * website, * design
+books
+audiovisual
+sound
+writing / studies
+organizing
+games
+life
+diary
+&lt;/pre&gt;
+
+&lt;p&gt;Each of these are links, except the line with * are lines with multiple links&lt;/p&gt;
+
+&lt;p&gt;In addition to navigating my wiki via the links, I also sometimes just go to the vimwiki directory itself and search for a wiki page by title since it's a flat hierarchy. For example, I might directly open the webrings.md page, or solo-board-games.md or window-managers.md pages. &lt;/p&gt;
+
+&lt;p&gt;A page for me usually has a short description, then a list of links either internal or on the web. I rarely have images inline since this is mostly a place for me to store information. The rare times I want to browse this visually on the web I will use the MarkdownPreview vim plugin to launch it in the browser.&lt;/p&gt;
+
+&lt;p&gt;The only other things I will add is that mostly it's a lightweight tool and I don't have to think about it very much since it's flexible and fast and easy. I have a function (in fish. This would equivalent to an alias in bash) that launches my tasks.md file which is a plaintext todo file for me of all my upcoming deadlines for work. I can link out to sub-pages for these projects if they warrant it. &lt;/p&gt;
+
+&lt;p&gt;I do approximately weekly backups to an external disk when i backup my entire hard drive. And I also use git to a private remote git instance as well, though I have an automated "git update" command that does the adding, commit and message for me all at once.&lt;/p&gt;
+
+&lt;p&gt;The wiki is where I track projects, find notes I took when installing my operating system, list articles or advice I want to re-read every few years, or track movies by a particular filmmaker or books I've read and their summaries. And these are just a few examples. Some days or a week or so may go by that I don't open it. Other days I am working on a dozen files.&lt;/p&gt;
+
+&lt;p&gt;It's not public, but a necessary internal notebook, and it works for me.&lt;/p&gt;
+
+&lt;p&gt;Since it's just markdown, I basically am also writing this in gemtext, so after this paragraph I'll copy this document to my gemlog folder, then upload it to the gemlog on tildegit and git pull it down into my gemlog directory on ctrl-c.club and it's published just like that. My gemtext links (such as below) won't work internally in vimwiki, but that's fine with me.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
+
+---
+
+&lt;p&gt;You can leave a public comment on this post by emailing me with my username at ctrl-c.club and putting the name of this post and the word comment. Also be sure to list what name you'd like listed.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/vimwiki.html</guid><pubDate>Thu, 01 Jun 2023 00:00:00 GMT</pubDate></item><item><title>retrogrouch-computing.html</title><link>https://ctrl-c.club/~lettuce/retrogrouch-computing.html</link><description>&lt;div&gt;&lt;h1&gt;A Retro-grouch and ATB computer &lt;/h1&gt;
 
 &lt;p&gt;2023-03-25&lt;/p&gt;
 
@@ -3771,157 +3838,4 @@ git  remote add origin git-user@server:my-project
 &lt;p&gt;&lt;a href="https://github.com/tldr-pages/tldr"&gt;tldr&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You can comment on this post by sending an email to the email listed on the index page.&lt;/p&gt;
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/personal-tools-toolkit.html</guid><pubDate>Tue, 20 Jul 2021 00:00:00 GMT</pubDate></item><item><title>games-to-play.html</title><link>https://ctrl-c.club/~lettuce/games-to-play.html</link><description>&lt;div&gt;&lt;h1&gt;A List of Games I'd Like to Play And/Or Make&lt;/h1&gt;
-
-&lt;p&gt;2021-07-18&lt;/p&gt;
-
-&lt;p&gt;A few months ago I participated in List Jam, organized by Em Reed on Itch.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://itch.io/jam/list-jam"&gt;List Jam 2021&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://itch.io/jam/list-jam/entries"&gt;Entries to List Jam 2021&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;My contribution was called A List of Games I'd Like to Play And/Or Make. And here it is below. I've also noted a few examples of some of these that were actually made.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;a command line text-game where you wander between different villages with a donkey. You are trying to buy ~~silks~~ textiles. Like Dopewars? When you are successful, you return home to a feast. High chance of failure. &lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;update: I made this in March 2021&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://notapipe.itch.io/gobi"&gt;Gobi&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;a hand drawn black and white (charcoal? pencil?) and scanned in assets. You are wandering around a bombed-out post-apocalyptic landscape, but plants are taking back over (kudzu?). There are old broken bits of technology, like old keyboards and ethernet cables that you can find occasionally. At some point you find a gameboy and turn it on. It still works and you can play little games on it.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;A game where you have to fill out generated grants and artists statements with your wildest ideas. Each form and RPF is different. But when you submit, there is some chance your grant will be *accepted* (maybe it depends on number of questions what your chances are?). Fireworks shoot off when one of your grants is accepted and your score increases by one.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;A game where you are pushing a katamari ball and you roll up and remove cars from the street. Eventually you are big enough to roll up McMansions, police departments, prisons, corporations.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a videogame where you read a book&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a videogame at the north (south?) pole. Made up of generated pokey the penguin characters and dialog and quests that don't need to be done.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;A roguelike where you play a monster trying to kill the player. When you get killed you are reincarnated as the next monster.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;~~A twine game version of Passage.~~ (update: nevermind - I no longer want to platform Jason Rohrer)&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;~~a 2d videogame where i am the main character and i live in a treehouse with lots of cats~~&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;an actual paper rad x corey arcangel homebrew nintendo game&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a video game where you play as slime mold&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a videogame where the "screen" you are playing on is a strip of lightbulbs&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a chess game that slowly unfolds with input via a blood sugar monitor. If I keep my blood sugar in check, my player (AI-controlled) is a bit "smarter" and does better. As I'm spiking or dropping, my AI makes bad moves against the opponent.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a roguelike played on the Monome Teletype that produces musical output as you battle and explore. &lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;games that fit in the size of a tweet. any language.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a text game where you travel through rural parts of northern thailand, burma and laos that includes music from tribes of the region&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a 3d game where the player is black hole that absorbs an entire IKEA &lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a videogame that you play with your nose&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;i think it would be cool to have a game played with a controller made out of bread. maybe some kind of cooking game.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;lots of personalized remakes of Muscle March (the GREATEST videogame of all time)&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a donkey kong country mine cart level maker/generator&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;make games where you can play the radio and change stations&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a choose your own adventure played with morse code audio and a code keyer&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game like rock band except that it's a jazz quartet playing a simple 1-4-5 blues progression and you're playing keyboard accompaniment while NPCs take turns soloing. you have a midi keyboard controller and nothing bad happens if you hit off notes other than it may sound bad to you. it should have a bunch of fake book songs to choose from, slow blues, and the sounds of glasses clinking and clapping after solos.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game where you collect snipped out letters and then compose a ransom note. it tells you who the ransom note should be written for.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a remake of the mac plus helicopter drop game. needs some good music.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game that asks you to list 15 or 20 ingredients from your kitchen at the beginning, and when you finally win or lose it, it produces a recipe for you&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game based on Caves of Qud style graveyards. All you do is walk around explore the tombstones and epitaphs.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a shared online radio station you can DJ with your friends&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;write a text adventure game based on the box art of the original Mastermind game. (okay, you can have a version of the original game played within the text game as well).&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a series of oulipo text games&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Dungeon Painter. whatever that is.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game that can be played and experienced in google forms. *update: [time tossed](http://slimedaughter.com/games/twine/timetossed/) by porpentine*&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game for that fancy ipod-like vape that comes with the game Simon. do they still have that? can you hack the firmware? *[update](https://www.youtube.com/watch?v=uAt7wfiNOdE)*&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;an interactive audio-based exercise game that you play maybe on a phone, like the zombies run game but the story is interesting&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game where you draw all the rooms from your childhood home. you can add yourself as a playable character if you want. &lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;I actually did make this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://notapipe.itch.io/232henley"&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;a game where robotic legs can try on many different silly shoes and you get to see how it affects their walk&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Qwoperpillar - a qwop-like but with 20 legs&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Mario Teaches Cooking&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Felicia's Pizza (where i worked in high school) made in the Hotline Miami level editor&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;9 men's morris played live (not turn-based) by 2 teams. Games will probably last just a few seconds?&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a chess RPG&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game you play by going to sleep. when you wake up you look to see how well your character did, read about their adventure, qquests, treasure gained, monsters fought, etc. Your character has greater chance of success and riches based on getting closest to adequate amount of sleep.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a Tamagotchi based on my exercising&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;more games where you assemble scrap quilt parts&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;write back stories for all the characters in the boring Spades game I have on my iPad. What's their story? How did they come to be playing this game?&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a LOGO-like where you can control the character in a roguelike game only by issuing instruction code. you have to write your own movement and action and combat functions and use them when you're not hungry. &lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;update: this is actually how most kids' "learn to program" environments are made now&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;a simple grid-based level editor. You can click to place enemies, power ups, potions, weapons and add the player. click to try the level, and a button to export or share.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;more games that are based on or use the Talmud&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a really crappy trippy weird reimplementation of Carmen Sandiego&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a really crappy digital CLAW machine game where the prizes are generated and if you successfully grab one it gets added to your inventory and displayed on the desktop&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;an adventure game (collaborative or solo) played on a chalkboard, whiteboard or post-it notes&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a drawing app where there is an occasional sound affect playing from the original NBA Jam as you draw. ("Perfect!", "He's on fire!","Is it the shoes?!")&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;10,000 bowls of oatmeal, the game&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game where you design or select a simple flag, motto, food, drink, flower favored in each village and then see how civilization plays out and cultures combine and influence each other&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a game where you collect and read library books. there should be a large number of books (from project gutenberg?) and nooks to read in. actually, maybe the virtual nook should drop away and the while the character reads the book on the screen you should mostly just have the ebook available for you to read in your own real nook somewheres&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;what if the mechanics of the NES space vikings game had gone on to become a canon genre of games and there were clones and variations of it available on every platform?&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;no more plant simulation games. get actual plants. jeez.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;more games like robot finds kitten&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;root beer as possible inventory item&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;3d open world game but it's raining a ton, like Seattle&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;text game but in toki pona&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;a LOGO-like where the player issues the normal commands to move around and turn but also can augment and add arms, legs, other appendages like tank treads and strange abilities&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can comment on this post by sending an email to the email listed on the index page.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/games-to-play.html</guid><pubDate>Sun, 18 Jul 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/personal-tools-toolkit.html</guid><pubDate>Tue, 20 Jul 2021 00:00:00 GMT</pubDate></item></channel></rss>
