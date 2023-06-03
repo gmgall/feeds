@@ -1,5 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Fri, 02 Jun 2023 18:12:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>vimwiki.html</title><link>https://ctrl-c.club/~lettuce/vimwiki.html</link><description>&lt;div&gt;&lt;h1&gt;5 years with a personal wiki (vimwiki)&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sat, 03 Jun 2023 00:57:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>mini-bike-game.html</title><link>https://ctrl-c.club/~lettuce/mini-bike-game.html</link><description>&lt;div&gt;&lt;h1&gt;Mini daily solo bike game&lt;/h1&gt;
+
+&lt;p&gt;2023-06-02&lt;/p&gt;
+
+&lt;p&gt;This is a short write-up of a mini 'game' I play on my bike every day. Game might be pushing the word too far. I guess it's more like a challenge or diversion. I also didn't invent this but I unfortunately don't remember where I learned it, possibly in an old bike zine or on a blog or something.&lt;/p&gt;
+
+&lt;p&gt;It's a small idea, but it's a fun one.&lt;/p&gt;
+
+&lt;p&gt;Every time that I bike home, when I'm nearing home, I challenge myself to stop pedaling at some point and see how close I can nail drifting to my door. In other words, at some point near home I stop pedaling and then just let the momentum of the bike take me farther and I see if I can get all the rest of the way home without turning the pedals at all. The challenge is to see how far I can be from home, stop pedaling, and then drift the rest of the way to end exactly at my door so that the bike stops no sooner and wouldn't go any further. In other words, it would wobble to a stop right at the door with me on it.&lt;/p&gt;
+
+&lt;p&gt;I always remember the previous time where I stopped pedaling. I live in an urban area with traffic lights, pedestrians and stop signs around my house. So it can take me hundreds of times to perfect my technique because traffic lights, stop signs, the speed I'm pedaling, and if there is any traffic - all these influence the 'drift' home. &lt;/p&gt;
+
+&lt;p&gt;To be clear, I consider it a "lose" if I drift all the way home and my bike still has enough momentum to go past the door of my house. I am shooting to end literally right at my door. When I used to live in Los Angeles I lived at the bottom of a long valley on the west side. I had a 1hr15minute commute to school/work uphill and a 25 minute commute home downhill, so there I would stop pedaling maybe 8 blocks from home or so. Over the course of 2 years I got really good and finally had a win, though little things like traffic or wind that day could affect my outcome, so I would keep score of how many days I could get home with a 'win.'&lt;/p&gt;
+
+&lt;p&gt;Where I live now I tend to stop pedaling right around a traffic light about a block and a half from my house where afterwards I need to take a right turn, go around pedestrians, sail to the end of a block past cars that are sometimes double parked unloading, and then go the wrong way 40 feet on a busy one way street (not proud to admit this but it saves having to make like a car and go an extra 5 minutes in a circuitous roundabout route). Due to the large number of variables with lights and peds and doubleparked cars and wind and the traffic light I have not in the past 2 years at my apartment perfected the exact spot to stop pedaling. I've gotten really close and I think will nail it one day soon.&lt;/p&gt;
+
+&lt;p&gt;Anyway, this is a minor game or self-challenge and a silly enjoyable one that I thought I'd share. It adds a little fun to the end of my daily bike commute. And while I may look silly to my neighbors or the double parked cars during the last 80 feet at realllllllyyy slow almost-wobbly drift, it's a pretty fun activity.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
+
+---
+
+&lt;p&gt;You can leave a public comment on this post by emailing me with my username at ctrl-c.club and putting the name of this post and the word comment. Also be sure to list what name you'd like listed.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/mini-bike-game.html</guid><pubDate>Fri, 02 Jun 2023 00:00:00 GMT</pubDate></item><item><title>vimwiki.html</title><link>https://ctrl-c.club/~lettuce/vimwiki.html</link><description>&lt;div&gt;&lt;h1&gt;5 years with a personal wiki (vimwiki)&lt;/h1&gt;
 
 &lt;p&gt;2023-06-01&lt;/p&gt;
 
@@ -3761,81 +3785,4 @@ git  remote add origin git-user@server:my-project
 
 &lt;p&gt;&lt;a href="https://microfictiongames.neocities.org/2020/sys-stems_planetopia.html"&gt;Sys-stems Planetopia&lt;/a&gt;&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/solo-ttrpg.html</guid><pubDate>Wed, 04 Aug 2021 00:00:00 GMT</pubDate></item><item><title>personal-tools-toolkit.html</title><link>https://ctrl-c.club/~lettuce/personal-tools-toolkit.html</link><description>&lt;div&gt;&lt;h1&gt;Personal tools toolkit&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href="."&gt;..&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;2021-07-20&lt;/p&gt;
-
-&lt;p&gt;If there's anything that open source programmers love to write about  it's their own personal software choices.  I've written previously on what software I use on Tildes and on my Alpine Linux on my phone use.&lt;/p&gt;
-
-&lt;p&gt;Anyway, here's my own personal software tools that I use regularly (lol) and some that I wasn't the creator of but have contributed to.&lt;/p&gt;
-
-&lt;p&gt;These are generally small little tools meant to run in the terminal or in the web browser as those are the two 'platforms' I usually am building for. My coding is generally fairly minimalist, not necessarily in terms of system resources (though that is often true as well) but more in terms of engineering complexity. Most of these are wrappers or 50 lines of code or less.&lt;/p&gt;
-
-&lt;h3&gt;bookmobile (fish, Node.js)&lt;/h3&gt;
-
-&lt;p&gt;Essentially a wrapper around Mozilla's Readability web reader-mode and pandoc. This little program pulls down a given URL, cleans out any headers, footers and other cruft and then converts it to beautiful, minimal html, markdown and epub files.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/bookmobile"&gt;on tildegit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Minilog (fishscript)&lt;/h3&gt;
-
-&lt;p&gt;A tiny fishscript program to keep a minimal log/diary on the computer. Very similar to the Tinylog movement on Gemini except that it's stored personally, not meant for a public audience. No tagging, time-recording or other metadata beyond the date is recorded by default. I usually run this near the end of the day and enjoy jumping back months at a time (or longer) to see what I was doing or thinking on a certain day. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/minilog"&gt;Minilog on tildegit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;vwscratchpad (p5.js / Javascript)&lt;/h3&gt;
-
-&lt;p&gt;Originally created to add a scratchpad functionality to my vimwiki personal wiki on my laptop but since it's javascript I pushed it to a hidden spot on my website so I can use it on my phone and tablet. So I've been using it as a personal (weird) sketching app, then saving or screenshotting. Output is sketchy indeed. For example this weekend on a ferry trip I sketched my fellow passengers on my phone while riding on the bumpy seas, which complemented the rocking waves. A good app for sketching in a checkout line, subway, ferry, airplane, or in Vim!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/vwscratchpad"&gt;vwscratchpad on tildegit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Gemstats (fishscript)&lt;/h3&gt;
-
-&lt;p&gt;A short fishscript program to display the number of readers of my gemini capsule from the current day, past month, and of all time. Reports same for the Ctrl-C Club tilde server overall. Written about previously here:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="gem-stats-fishscript.html"&gt;Writing A Gemini statistics program in fishscript &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/gemstats"&gt;Gemstats on tildegit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;minimal-uni (Jekyll ruby-gem)&lt;/h3&gt;
-
-&lt;p&gt;A Jekyll (static site builder) template that I have been using for the past two years to build class websites for my courses I'm teaching. In addition to being very simple and minimal it's also mobile-responsive.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/lee2sman/minimal-uni"&gt;Minimal Uni jekyll template on Github. &lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;panblog (Bash)&lt;/h3&gt;
-
-&lt;p&gt;Minimal Bash blogging pipeline built around pandoc.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/panblog"&gt;Panblog on tildegit&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Geminut (Node.js)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="geminut.html"&gt;Geminut, a Gemini -&amp;gt; HTML markdown converter built for my own needs in Node.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2&gt;Programs I've Contributed To&lt;/h2&gt;
-
-&lt;p&gt;The following are programs I use that I didn't build but have made small contributions to.&lt;/p&gt;
-
-&lt;h3&gt;Amfora &lt;/h3&gt;
-
-&lt;p&gt;I contributed the Slimey theme&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="gemini://makeworld.space/amfora-wiki"&gt;Amfora Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="gemini://gemini.ctrl-c.club/~lettuce/theming-amfora.html"&gt;Theming Amfora&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;p5.js &lt;/h3&gt;
-
-&lt;p&gt;I've been an advisor, bug reporter, mentor on several p5.js libraries and on core functionality. I use p5 for much of my own experimental generative web art explorations.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://p5js.org/"&gt;p5.js&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;tldr&lt;/h3&gt;
-
-&lt;p&gt;I've contributed several "collaborative cheatsheets" to this massive resource. It's made my CLI experience so much more pleasant. I love always having the ability get simple no-nonsense CLI suggestions for programs, especially ones I've just downloaded or rarely use. Much better than Man-pages!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/tldr-pages/tldr"&gt;tldr&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can comment on this post by sending an email to the email listed on the index page.&lt;/p&gt;
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/personal-tools-toolkit.html</guid><pubDate>Tue, 20 Jul 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/solo-ttrpg.html</guid><pubDate>Wed, 04 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
