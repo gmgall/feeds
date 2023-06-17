@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sat, 17 Jun 2023 12:16:46 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Credit and Debit Card Collection</title><link>https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sat, 17 Jun 2023 18:11:34 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Convert Any JavaScript Value to a Boolean&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2023-06-17"&gt;
+                June 17, 2023
+            &lt;/time&gt;
+             · 
+            252 words  ·  ~2 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;The best way to convert a JavaScript value to a boolean is to use the
+&lt;code&gt;Boolean()&lt;/code&gt; function. It returns &lt;code&gt;false&lt;/code&gt; for any
+&lt;a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy"&gt;falsy&lt;/a&gt; value and
+&lt;code&gt;true&lt;/code&gt; otherwise (any value that is not falsy is
+&lt;a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy"&gt;truthy&lt;/a&gt;). You can try
+out the examples in this post with &lt;a href="https://replit.com/@dyguo/How-to-Convert-Any-JavaScript-Value-to-a-Boolean#index.js"&gt;this
+Replit&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// Falsy values&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;null&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; b &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; c &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; d &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// Truthy values&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; e &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;({});&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; f &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; g &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; h &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// The values are boolean primitives (`false` and `true`)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({a, b, c, d, e, f, g, h});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="not-operator"&gt;Not Operator&lt;a class="anchor" href="#not-operator"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;An alternative is to use the not operator (&lt;code&gt;!&lt;/code&gt;) twice. The first one returns a
+primitive boolean value, and then the second one flips the value to what you
+actually want.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fooString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fooBoolean &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;!!&lt;/span&gt;&lt;span&gt;fooString;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// The value is `false`&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({fooBoolean});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This method takes fewer characters to write, but I prefer to use the &lt;code&gt;Boolean()&lt;/code&gt;
+method because I think it's clearer and more readable. We should generally
+&lt;a href="https://thoughtbot.com/blog/write-code-to-be-read"&gt;optimize for reading code over writing
+code&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="boolean-constructor"&gt;Boolean Constructor&lt;a class="anchor" href="#boolean-constructor"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Make sure you don't use &lt;code&gt;Boolean&lt;/code&gt; as a constructor (using &lt;code&gt;new&lt;/code&gt;) because that
+creates an &lt;em&gt;object&lt;/em&gt;. You would have to use &lt;code&gt;.valueOf()&lt;/code&gt; to get a primitive
+value.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// bar is an object&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; bar &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (bar) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// So this would run because an object is truthy&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"in bar branch"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; barValue &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; bar.&lt;/span&gt;&lt;span&gt;valueOf&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (barValue) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// But this wouldn't run because barValue is `false`&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"in barValue branch"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({bar, barValue});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</guid><pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate></item><item><title>My Credit and Debit Card Collection</title><link>https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</link><description>&lt;article&gt;
         &lt;h1&gt;My Credit and Debit Card Collection&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7056,243 +7122,4 @@ speech, so you can make it sound more natural. For example, you can surround a
 certain phrase with emphasis tags (e.g. &lt;code&gt;&amp;lt;emphasis&amp;gt;awesome&amp;lt;/emphasis&amp;gt;&lt;/code&gt;), and
 the voice will stress the phrase. I didn't end up using SSML, but it seems like
 it'd be very useful for a more involved skill.&lt;/p&gt;
-    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/splurge-stopper</guid><pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate></item><item><title>Building Dynamic Firefox Themes</title><link>https://www.dannyguo.com/blog/building-dynamic-firefox-themes</link><description>&lt;article&gt;
-        &lt;h1&gt;Building Dynamic Firefox Themes&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2018-04-12"&gt;
-                April 12, 2018
-            &lt;/time&gt;
-             · 
-            1,416 words  ·  ~8 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;&lt;a href="https://www.mozilla.org/"&gt;Mozilla&lt;/a&gt; is running a contest called the &lt;a href="https://extensionschallenge.com/"&gt;Firefox
-Quantum Extensions Challenge&lt;/a&gt; for building
-extensions that take advantage of new capabilities in &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions"&gt;WebExtension
-APIs&lt;/a&gt;. One of the
-categories is "Best Dynamic Theme." I love adding color to my setup, so I was
-pretty motivated to participate. I ended up creating three extensions.&lt;/p&gt;
-&lt;h2 id="chromatastic"&gt;Chromatastic&lt;a class="anchor" href="#chromatastic"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/chromatastic/"&gt;Chromatastic&lt;/a&gt;
-(&lt;a href="https://github.com/dguo/chromatastic"&gt;source code&lt;/a&gt;) continuously cycles
-through colors using a
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval"&gt;setInterval&lt;/a&gt;
-in the background. This one was inspired by the lighting effects on my
-&lt;a href="https://www.razer.com/gaming-keyboards"&gt;Razer&lt;/a&gt; keyboard. I keep mine in what I
-like to call &lt;a href="https://en.wikipedia.org/wiki/Nyan_Cat"&gt;Nyan Cat&lt;/a&gt; mode:&lt;/p&gt;
-&lt;div&gt;
-    
-    
-&lt;/div&gt;
-&lt;p&gt;I considered trying to replicate the effect, but it seems like it would be too
-obnoxious in the browser. I'm also not sure if it's feasible with the current
-API. The only method I can think of is to use an &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/theme#Image_formats"&gt;animated
-SVG&lt;/a&gt;,
-which is possible as of Firefox 59. I decided to do spectrum cycling instead:&lt;/p&gt;
-&lt;div&gt;
-    
-    
-&lt;/div&gt;
-&lt;p&gt;Here's what it looks like:&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/qRwh1WU.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;p&gt;The color transitions occur fairly slowly, so the overall effect shouldn't be
-distracting.&lt;/p&gt;
-&lt;h2 id="color-tailor"&gt;Color Tailor&lt;a class="anchor" href="#color-tailor"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/color-tailor/"&gt;Color Tailor&lt;/a&gt;
-(&lt;a href="https://github.com/dguo/color-tailor"&gt;source code&lt;/a&gt;) changes the browser theme
-to the current website's "primary" color, as determined by the meta
-&lt;a href="https://html.spec.whatwg.org/multipage/semantics.html#meta-theme-color"&gt;theme-color&lt;/a&gt;
-element or by the dominant color in the
-&lt;a href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt;. The dominant color is derived
-by &lt;a href="https://en.wikipedia.org/wiki/Color_quantization"&gt;color quantization&lt;/a&gt; using
-the &lt;a href="https://github.com/akfish/node-vibrant"&gt;node-vibrant&lt;/a&gt; package.&lt;/p&gt;
-&lt;p&gt;Color Tailor was inspired by an &lt;a href="https://stackoverflow.com/q/13637892/1481479"&gt;iTunes
-feature&lt;/a&gt; that would change UI
-colors on the fly to match album covers. Chrome on Android does a &lt;a href="https://developers.google.com/web/updates/2014/11/Support-for-theme-color-in-Chrome-39-for-Android"&gt;similar
-thing&lt;/a&gt;
-with the toolbar color, and there is an &lt;a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1098544"&gt;open
-issue&lt;/a&gt; to do the same for
-Firefox.&lt;/p&gt;
-&lt;p&gt;Here's the result:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/uqJqd3A.png" alt="Color Tailor screenshot"&gt;&lt;/p&gt;
-&lt;h2 id="picture-paint"&gt;Picture Paint&lt;a class="anchor" href="#picture-paint"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/picture-paint/"&gt;Picture Paint&lt;/a&gt;
-(&lt;a href="https://github.com/dguo/picture-paint"&gt;source code&lt;/a&gt;) uses the color palette
-of the current &lt;a href="https://www.nationalgeographic.com/photography/photo-of-the-day/"&gt;National Geographic Photo of the
-Day&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/uSqHCKQ.png" alt="lava"&gt;&lt;/p&gt;
-&lt;p&gt;Popup coloring:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/IGzEXXK.png" alt="popup coloring"&gt;&lt;/p&gt;
-&lt;p&gt;Scroll for picture details:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/22etI5f.png" alt="picture details"&gt;&lt;/p&gt;
-&lt;p&gt;Preferences:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/oHdTDf7.png" alt="preferences"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/FvIy7CI.png" alt="lightning"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/rbEluSY.png" alt="orangutan"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/geh3MSi.png" alt="desert"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/qD7zAJR.png" alt="giraffes and gazelles"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/TnlmeBk.png" alt="marble caves"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/xMu1nZq.png" alt="octopus"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/g3bfzRd.png" alt="Golden Gate Bridge"&gt;&lt;/p&gt;
-&lt;h2 id="what-i-learned"&gt;What I learned&lt;a class="anchor" href="#what-i-learned"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;These extensions are relatively simple, but I still learned quite a few things
-in the process of making them.&lt;/p&gt;
-&lt;h3 id="web-ext"&gt;web-ext&lt;a class="anchor" href="#web-ext"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Mozilla has created a command line tool called
-&lt;a href="https://github.com/mozilla/web-ext"&gt;web-ext&lt;/a&gt; to &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Getting_started_with_web-ext"&gt;streamline extension
-development&lt;/a&gt;.
-I added it as a development dependency to use its &lt;code&gt;lint&lt;/code&gt; and &lt;code&gt;build&lt;/code&gt; commands.
-I also wanted to use the &lt;code&gt;run&lt;/code&gt; command for source file watching and automatic
-extension reloading, but it doesn't work from within Docker. There is an &lt;a href="https://github.com/mozilla/web-ext/issues/521"&gt;open
-issue&lt;/a&gt; to allow web-ext to
-attach to a remote Firefox instance, which would also fix this issue.&lt;/p&gt;
-&lt;h3 id="webpack"&gt;Webpack&lt;a class="anchor" href="#webpack"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Firefox extensions have a default &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Content_Security_Policy"&gt;Content Security
-Policy&lt;/a&gt;
-that disallows using unsafe practices such as
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval"&gt;&lt;code&gt;eval()&lt;/code&gt;&lt;/a&gt;.
-However, many of the &lt;a href="https://webpack.js.org/configuration/devtool/"&gt;Webpack source map
-options&lt;/a&gt; use eval. I didn't want
-to change the extension's CSP just for source maps, so I ended up using the
-&lt;code&gt;inline-source-map&lt;/code&gt; option.&lt;/p&gt;
-&lt;h3 id="theme-api"&gt;Theme API&lt;a class="anchor" href="#theme-api"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/theme"&gt;theme
-API&lt;/a&gt;
-offers a lot of granularity in terms of coloring individual browser elements,
-and using it is straightforward. As of now, Firefox is the only browser that
-supports dynamically updating the theme.&lt;/p&gt;
-&lt;h3 id="getting-the-favicon"&gt;Getting the favicon&lt;a class="anchor" href="#getting-the-favicon"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;At first, I tried to get the favicon location by looking for an &lt;a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/The_head_metadata_in_HTML#Adding_custom_icons_to_your_site"&gt;icon
-reference&lt;/a&gt;
-in the page's head element and defaulting to &lt;code&gt;/favicon.ico&lt;/code&gt; otherwise. This
-worked for the most part, but then I learned that the extensions API provides a
-&lt;code&gt;favIconUrl&lt;/code&gt; property on the &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/Tabs/Tab"&gt;tab
-object&lt;/a&gt;.
-The caveat is that it might be an empty string if the tab is loading. As a
-workaround, Color Tailor &lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/tabs/onUpdated"&gt;listens for
-updates&lt;/a&gt;
-to the tab info.&lt;/p&gt;
-&lt;h3 id="hsv"&gt;HSV&lt;a class="anchor" href="#hsv"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;My first thought for creating a rainbow effect with Chromatastic was to cycle
-through &lt;a href="https://en.wikipedia.org/wiki/RGB_color_model"&gt;RGB&lt;/a&gt; combinations. But
-&lt;a href="https://arduino.stackexchange.com/a/35791/45573"&gt;it turns out&lt;/a&gt; it's easier to
-create smooth transitions using &lt;a href="https://en.wikipedia.org/wiki/HSL_and_HSV"&gt;HSV&lt;/a&gt;
-values.&lt;/p&gt;
-&lt;h3 id="getting-the-national-geographic-photo"&gt;Getting the National Geographic photo&lt;a class="anchor" href="#getting-the-national-geographic-photo"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;There doesn't seem to be an official API to get the National Geographic Photo
-of the Day. I found an &lt;a href="https://github.com/crisboarna/national-geographic-api"&gt;unofficial
-API&lt;/a&gt; on npm, but it uses
-a hardcoded API user/key. I dove into the Photo of the Day page's source code
-to look for an alternative. I found a reference to
-&lt;code&gt;https://www.nationalgeographic.com/photography/photo-of-the-day/_jcr_content/.gallery.2018-04.json&lt;/code&gt;,
-which looked promising. I tried retrieving it from the extension using
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"&gt;fetch&lt;/a&gt;, and it
-worked without any authorization.&lt;/p&gt;
-&lt;p&gt;I also tried removing the &lt;code&gt;.2018-04&lt;/code&gt; part from the URL, and to my mild
-surprise, it worked! Leaving it off returns the current month, so Picture Paint
-does that for the daily updates.&lt;/p&gt;
-&lt;h3 id="bad-themes"&gt;Bad themes&lt;a class="anchor" href="#bad-themes"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;During development, I tried to set a theme and forgot the &lt;code&gt;textcolor&lt;/code&gt;
-property. Apparently this property is
-&lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/manifest.json/theme#colors"&gt;required&lt;/a&gt;,
-but
-&lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/API/theme/update"&gt;&lt;code&gt;theme.update&lt;/code&gt;&lt;/a&gt;
-seems to fail silently when it is omitted. The theme doesn't change, and the
-Promise resolves without any errors. It took some debugging before I re-read
-the documentation and found the source of the problem. I would expect the
-Promise to reject if the theme is invalid.&lt;/p&gt;
-&lt;h3 id="color-quantization"&gt;Color quantization&lt;a class="anchor" href="#color-quantization"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Until I worked on these extensions, I didn't know that the technique of getting
-color palettes from images is called &lt;a href="https://en.wikipedia.org/wiki/Color_quantization"&gt;color
-quantization&lt;/a&gt;. I tried many
-JS color quantization libraries and ended up picking two.&lt;/p&gt;
-&lt;p&gt;Picture Paint uses
-&lt;a href="https://github.com/ibezkrovnyi/image-quantization"&gt;image-q&lt;/a&gt;, while Color
-Tailor uses &lt;a href="https://github.com/akfish/node-vibrant"&gt;node-vibrant&lt;/a&gt;. In my
-experience, using default settings, image-q produces more reasonable color
-palettes but also takes much longer to run. node-vibrant uses the &lt;a href="http://www.leptonica.com/color-quantization.html"&gt;Modified
-Median Cut Quantization&lt;/a&gt;
-(MMCQ) method, while image-q uses
-&lt;a href="https://www.researchgate.net/publication/232079905_Kohonen_neural_networks_for_optimal_colour_quantization"&gt;NeuQuant&lt;/a&gt;
-(&lt;a href="https://scientificgems.wordpress.com/stuff/neuquant-fast-high-quality-image-quantization/"&gt;overview&lt;/a&gt;),
-which builds a &lt;a href="https://en.wikipedia.org/wiki/Self-organizing_map"&gt;Kohonen neural
-network&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Speed is more important for Color Tailor because the theme needs to update as
-quickly as possible when the user loads a new page. Picture Paint, on the other
-hand, can afford to take a few seconds to processs the image because it happens
-in the background.&lt;/p&gt;
-&lt;h3 id="canvas-permission-issue"&gt;Canvas permission issue&lt;a class="anchor" href="#canvas-permission-issue"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;The issue that took me the longest to resolve occurred when I first tried to
-use the color quantization libraries. I was getting a DOM security error, and I
-eventually &lt;a href="https://stackoverflow.com/a/49696532/1481479"&gt;figured out&lt;/a&gt; that I
-needed the &lt;code&gt;"&amp;lt;all_urls&amp;gt;"&lt;/code&gt;
-&lt;a href="https://developer.mozilla.org/en-US/Add-ons/WebExtensions/Match_patterns#%3Call_urls%3E"&gt;permission&lt;/a&gt;
-in order to fully use the canvas API (which the libraries use). I stumbled on
-the solution while reading through this &lt;a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1318565"&gt;bug
-report&lt;/a&gt; regarding using
-canvas in an extension.&lt;/p&gt;
-&lt;h3 id="popup-coloring"&gt;Popup coloring&lt;a class="anchor" href="#popup-coloring"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Firefox 60 will &lt;a href="https://blog.mozilla.org/addons/2018/04/02/extensions-firefox-60/"&gt;significantly
-increase&lt;/a&gt;
-the number of UI elements that can be themed. I changed my code to set popup
-colors. It generally looks good for things like the Firefox menu, but when I
-tried using a native &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/date"&gt;date
-input&lt;/a&gt;,
-the datepicker looked very bad in many cases and was sometimes downright
-illegible. I considered not theming the popup, but I decided to keep using
-&lt;a href="https://github.com/dbushell/Pikaday"&gt;Pikaday&lt;/a&gt; instead of switching to the
-native input.&lt;/p&gt;
-&lt;p&gt;This seems to be a general issue with theming. When I used themes in the
-past, I never stuck with them for long because images can clash badly with
-favicons and extension icons. Solid colors work much better in my opinion, but
-there are still occasions when an icon gets washed out by the theme. I'd love
-to see a good solution to this problem. Maybe just adding a very small white
-margin to the icons would be sufficient.&lt;/p&gt;
-&lt;h3 id="imperative-ui"&gt;Imperative UI&lt;a class="anchor" href="#imperative-ui"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;It was nice to work on something with a very limited scope. Instead of using a
-UI framework for something so small, I manually manipulated the DOM with
-vanilla JS. After working in &lt;a href="https://reactjs.org/"&gt;React&lt;/a&gt; for a while, it is
-striking how backwards imperative manipulation feels now. Dealing with error
-and loading states meant mental bookkeeping in terms of hiding and unhiding the
-correct elements on each possible event. It's totally manageable at this scale,
-but it still gave me flashbacks to dealing with &lt;a href="https://jquery.com/"&gt;jQuery&lt;/a&gt;
-&lt;a href="https://en.wikipedia.org/wiki/Spaghetti_code"&gt;spaghetti&lt;/a&gt;.&lt;/p&gt;
-&lt;h3 id="photon-design-system"&gt;Photon design system&lt;a class="anchor" href="#photon-design-system"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Firefox has a new design system called
-&lt;a href="https://design.firefox.com/photon/index.html"&gt;Photon&lt;/a&gt;. It's like Google's
-&lt;a href="https://material.io/"&gt;Material Design&lt;/a&gt;. I referenced it for things like color
-values when I was building popup and option pages. However, I was surprised
-that there isn't a drop in stylesheet like
-&lt;a href="https://getbootstrap.com/"&gt;Bootstrap&lt;/a&gt; or &lt;a href="https://semantic-ui.com/"&gt;Semantic
-UI&lt;/a&gt;. I found &lt;a href="https://github.com/FirefoxUX/photon/issues/268"&gt;this
-issue&lt;/a&gt; with a great question of
-"How do you actually use this?", and it links to a &lt;a href="https://github.com/FirefoxUX/photon-extension-kit"&gt;Photon Extension
-Kit&lt;/a&gt; repo that seems to be
-what I was looking for. It has an open &lt;a href="https://github.com/FirefoxUX/photon-extension-kit/pull/1"&gt;pull
-request&lt;/a&gt; to
-"photonize" the CSS.&lt;/p&gt;
-&lt;h3 id="packaging-source-code"&gt;Packaging source code&lt;a class="anchor" href="#packaging-source-code"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;Firefox has a review process for extensions, and &lt;a href="https://developer.mozilla.org/en-US/Add-ons/Source_Code_Submission"&gt;providing the source
-code&lt;/a&gt; is
-required when the final code is obfuscated or minified. I have a release
-command that I run before uploading a new version, but I wasn't sure how to
-package the source mode. It would be easy to create a ZIP of the directory, but
-I wanted to avoid including files and directories that are in the &lt;code&gt;.gitignore&lt;/code&gt;,
-such as &lt;code&gt;node_modules&lt;/code&gt;. It turned out that Git has an &lt;a href="https://git-scm.com/docs/git-archive"&gt;archive
-command&lt;/a&gt; that does exactly what I need.&lt;/p&gt;
-&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Building these extensions was fun. Please feel free to contact me or open an
-issue if you have any suggestions or issues with any of them. Picture Paint
-turned out better than I had anticipated, and that's the one I'll personally
-use for now. Some of the National Geographic photos are truly stunning, and I
-like getting a new theme every day.&lt;/p&gt;
-&lt;p&gt;I hope Mozilla has been getting a lot of submissions, and I look forward to
-seeing what other people made!&lt;/p&gt;
-    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/building-dynamic-firefox-themes</guid><pubDate>Thu, 12 Apr 2018 00:00:00 GMT</pubDate></item></channel></rss>
+    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/splurge-stopper</guid><pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
