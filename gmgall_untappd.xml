@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 17 Jun 2023 18:10:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jun 2023 01:01:55 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Alienation by Cervejaria Mad Brew</title>
+      <link>https://untappd.com/user/gmgall/checkin/1285263884</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/alienation-cervejaria-mad-brew/2931003"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2931003_d4ccc_sm.jpeg" alt="Alienation label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/alienation-cervejaria-mad-brew/2931003"&gt;Alienation&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaMadBrew"&gt;Cervejaria Mad Brew&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1285263884"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 25)"&gt;
+&lt;span&gt;Earned the Middle of the Road (Level 25) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1285263884</guid>
+      <pubDate>Sat, 17 Jun 2023 22:54:17 GMT</pubDate>
+    </item>
     <item>
       <title>Outbreak by Cervejaria Colonus</title>
       <link>https://untappd.com/user/gmgall/checkin/1282553052</link>
@@ -150,36 +186,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1277165476</guid>
       <pubDate>Wed, 24 May 2023 01:07:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>Red Ale by Cervejaria Colonus</title>
-      <link>https://untappd.com/user/gmgall/checkin/1277146090</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/red-ale-cervejaria-colonus/2353786"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Red Ale label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/red-ale-cervejaria-colonus/2353786"&gt;Red Ale&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/cervejaria-colonus/251627"&gt;Cervejaria Colonus&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1277146090"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-30"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1277146090</guid>
-      <pubDate>Tue, 23 May 2023 23:36:28 GMT</pubDate>
     </item>
   </channel>
 </rss>
