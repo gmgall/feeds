@@ -54,9 +54,9 @@
     "feed": "https://gmgall.github.io/feeds/escrevescreve.xml"
   },
   {
-    "title": "NFL na ESPN - Resultados, vídeos e estatísticas",
+    "title": "meta.title",
     "link": "https://www.espn.com.br/nfl",
-    "description": "Acesse ESPN para placares ao vivo da NFL, melhores momentos e notícias. Assista à NFL pela ESPN no Star+",
+    "description": "meta.description",
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
