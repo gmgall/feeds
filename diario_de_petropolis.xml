@@ -1,55 +1,2010 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml</title><link>https://www.diariodepetropolis.com.br/</link><description>Failed to generate feed.</description><lastBuildDate>Tue, 04 Jul 2023 01:04:27 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: HTTPSConnectionPool(host='www.diariodepetropolis.com.br', port=4</title><link>data:/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class="card-body text-center"]/text() --xpath-date-regex .*,\s+(\d.+\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; HTTPSConnectionPool(host='www.diariodepetropolis.com.br', port=443): Read timed out.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 710, in _error_catcher
-    yield
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 814, in _raw_read
-    data = self._fp_read(amt) if not fp_closed else b""
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 799, in _fp_read
-    return self._fp.read(amt) if amt is not None else self._fp.read()
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/http/client.py", line 463, in read
-    n = self.readinto(b)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/http/client.py", line 507, in readinto
-    n = self.fp.readinto(b)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/socket.py", line 704, in readinto
-    return self._sock.recv_into(b)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/ssl.py", line 1242, in recv_into
-    return self.read(nbytes, buffer)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/ssl.py", line 1100, in read
-    return self._sslobj.read(len, buffer)
-socket.timeout: The read operation timed out
+<rss version="2.0"><channel><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/</link><description>(Edição online) Últimas notícias, artigos e classificados da cidade.</description><language>pt-BR</language><lastBuildDate>Tue, 04 Jul 2023 06:15:33 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Petrópolis deve receber mais de R$ 11 milhões em compensação de ICMS Iniciativa é motivada pela redução do imposto sobre combustíveis, energia elétric</title><link>https://www.diariodepetropolis.com.br/integra/petropolis-deve-receber-mais-de-r-11-milhoes-em-compensacao-de-icms-242687</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
 
-The above exception was the direct cause of the following exception:
 
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/requests/models.py", line 816, in generate
-    yield from self.raw.stream(chunk_size, decode_content=True)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 940, in stream
-    data = self.read(amt=amt, decode_content=decode_content)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 879, in read
-    data = self._raw_read(amt)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 835, in _raw_read
-    raise IncompleteRead(self._fp_bytes_read, self.length_remaining)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/contextlib.py", line 137, in __exit__
-    self.gen.throw(typ, value, traceback)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/urllib3/response.py", line 715, in _error_catcher
-    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
-urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='www.diariodepetropolis.com.br', port=443): Read timed out.
+&lt;br&gt;
+&lt;a href="/Editoria/Economia/3161-3" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Economia&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
 
-During handling of the above exception, another exception occurred:
+&lt;h2&gt;&lt;span&gt;Petrópolis deve receber mais de R$ 11 milhões em compensação de ICMS&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Iniciativa é motivada pela redução do imposto sobre combustíveis, energia elétrica e telecomunicações&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0450_20230703210117_SRVSP.jpg" longdesc="82196;40691"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Arquivo PMP &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Daniel Xavier – estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;O Estado do Rio de Janeiro começou a ser compensado nessa segunda-feira (03/07) pelas perdas de arrecadação de ICMS, motivadas pela redução do imposto sobre combustíveis, energia elétrica e telecomunicações no segundo semestre de 2022. As mudanças foram determinadas em julho do ano passado pelas leis complementares federais 192 e 194. Agora, os municípios fluminenses receberão, por meio dos repasses, 25% do valor economizado, seguindo o que determina a legislação. De acordo com o Portal da Transparência Fiscal da Secretaria de Estado de Fazenda do Rio de Janeiro, estão previstos R$ 11,33 milhões para o município de Petrópolis até outubro, quando termina a compensação acordada para este ano.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O Governo de Estado informa ainda que este processo irá se repetir nos próximos dois anos. Para 2024 e 2025, as quantias compensadas para todo o Rio de Janeiro serão de R$ 1,6 bilhão e R$ 807 milhões, respectivamente. Somando com valor total de R$ 1,2 bilhão que será repassado em 2023, ao final dos três anos, a compensação será totalizada em R$ 3,6 bilhões. Além dos 25% para os municípios, o estado também vai destinar outros 25% para a Educação e 12% para a Saúde, respeitando os mínimos constitucionais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No saldo mensal, o Estado pretende repassar para Petrópolis R$ 3,92 milhões em julho; R$ 3,37 milhões em agosto; R$ 3,51 milhões em setembro; e 52 mil em outubro. Com a compensação, junto dos repasses tradicionais de ICMS, IPVA, Royalties, IPI e Cide, o município deve totalizar cerca de R$ 556,52 milhões a mais no orçamento em 2023, de acordo com a estimativa do Governo (no saldo, não estão incluídos os valores reservados para o Fundo de Manutenção e Desenvolvimento da Educação Básica – Fundeb, e de Programa de Formação do Patrimônio do Servidor Público – Pasep).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O que para o secretário municipal de Fazenda, Paulo Roberto Patuléa, é uma conquista da administração atual. “Se a Prefeitura não tivesse atuado para salvar a saúde financeira do município, não teríamos esta expectativa para este ano. Pois se o antigo Índice de Participação do Município (IPM) permanecesse em vigor – de somente 1.444, sofreríamos com um esvaziamento na arrecadação da compensação. Mas, graças aos esforços da equipe, conseguimos aumentar o IPM para 4.885 em 2023. E este é o índice que será utilizado para calcular o nosso repasse, resultando na expectativa de R$ 11 milhões, ao invés de R$ 5 milhões, como calculávamos”, relata ele.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Limite para ICMS&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A iniciativa de compensação para os Estados parte após a lei complementar sancionada ainda em julho de 2022, em que o chefe do Poder Executivo limitava a cobrança do ICMS sobre produtos e serviços essenciais. O principal objetivo era reduzir o preço da gasolina. Para o Estado do Rio, a mudança implicou em uma redução da alíquota fixa de 32% para 18% - uma perda estipulada em quase R$ 7 bilhões, segundo um documento da própria Secretaria Estadual de Fazenda, feito ainda em março. Apenas de ICMS, a expectativa com a receita caiu de R$ 48,5 bilhões para R$ 41,6 bilhões.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Assim, surge uma pressão para que uma compensação fosse feita. “Foi proposta esta recompensa, pois não só o Estado do Rio de Janeiro, ou o município de Petrópolis, que perderam arrecadação. Foi todo o Brasil, por conta de uma decisão equivocada. Então, houve essa reinvindicação, que foi acatada pelo novo governo. Os 25% de ICMS são sagrados para toda administração, então, se os repasses permanecessem abaixo do estipulado, estaríamos mais fragilizados”, ressalta Patuléa.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
 
-Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 1666, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 854, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 743, in get_start_page
-    page_content, req = do_session_http_get(
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 560, in do_session_http_get
-    for chunk in req.iter_content(chunk_size=chunk_size, decode_unicode=True):
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/requests/utils.py", line 571, in stream_decode_response_unicode
-    for chunk in iterator:
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/site-packages/requests/models.py", line 822, in generate
-    raise ConnectionError(e)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.diariodepetropolis.com.br', port=443): Read timed out.
+&lt;br&gt;
+&lt;br&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/oleo-diesel-atinge-menor-valor-em-petropolis-em-quase-dois-anos-242689"&gt;Óleo diesel atinge menor valor em Petrópolis em quase dois anos&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/mercado-financeiro-eleva-projecao-de-crescimento-para-2-19-em-2023-242685"&gt;Mercado financeiro eleva projeção de crescimento para 2,19% em 2023&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/ipc-s-fecha-junho-com-queda-de-precos-de-0-10-242694"&gt;IPC-S fecha junho com queda de preços de 0,10%&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/petropolis-deve-receber-mais-de-r-11-milhoes-em-compensacao-de-icms-242687</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Frio intenso nesta semana reacende preocupação com pessoas em situação de rua Petrópolis tem previsão de 8 °C nesta terça-feira (04)</title><link>https://www.diariodepetropolis.com.br/integra/frio-intenso-nesta-semana-reacende-preocupacao-com-pessoas-em-situacao-de-rua-242688</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Cidade/3161-1" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Cidade&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Frio intenso nesta semana reacende preocupação com pessoas em situação de rua&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Petrópolis tem previsão de 8 °C nesta terça-feira (04) &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0338_20230703210124_2G8H4.jpg" longdesc="82199;93889"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Alcir Aglio&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rômulo Barroso – especial para o Diário (com informações de Agência Brasil) &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;A semana vai ser de temperaturas baixas, alertou a Defesa Civil nessa segunda-feira (03/07). Até quinta-feira (06), os termômetros não passam de 21 °C, e a mínima prevista para esta terça (04) é 8 °C. Esse frio mais intenso traz mais uma vez a preocupação com relação às pessoas em situação de rua. Segundo a prefeitura, ações da Operação Inverno, com abordagens da Secretaria de Assistência Social para oferecer acolhimento para essas pessoas, foram intensificadas nas últimas semanas. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo a Secretaria de Assistência Social, as abordagens são realizadas diariamente, incluindo fins de semana e feriados. Nelas, as equipes buscam convencer essas pessoas a ir para as unidades de acolhimento do município: o Centro POP e no Núcleo de Integração Social (NIS) – que funcionava até o mês passado no Retiro e que, hoje, já funciona no Alto da Serra. "Muitas das pessoas abordadas não são de Petrópolis, outras possuem transtornos psiquiátricos ou são dependentes de álcool e drogas", informa a pasta. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O município ressalta que essas pessoas "não são obrigadas a ir" para os dois locais de acolhimento e que esse trabalho feito nas abordagens envolve "conversa e esclarecimentos". Mas tem surtido resultado. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nos últimos seis meses, 52 pessoas que estavam acolhidas no NIS foram reintegradas pela Secretaria de Assistência Social aos núcleos familiares delas. O Diário também já havia mostrado, no mês passado, que o número de famílias em situação de rua inscritas no Cadastro Único (CadÚnico) em Petrópolis caiu 17% em um ano. Eram 320 em abril, 66 a menos que no mesmo mês de 2022.  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Temos muito respeito pelas pessoas que estão em situação de rua. São pessoas que estão em uma situação muito difícil na vida delas. E o nosso trabalho junto a elas é diário. Nossas equipes conversam todo dia com elas. Sabem os nomes, as histórias de cada uma. Sempre tentando convencê-las a irem para as unidades de acolhimento da Prefeitura", disse o secretário de Assistência Social, Fernando Araújo.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Secretaria de Assistência Social destaca que "As pessoas que aceitam o convite para o acolhimento passam pelo atendimento técnico (de assistentes sociais, psicólogos e educadores sociais) e têm cama, cobertores, alimentação e banho. Além disso, uma série de atividades para reinserir essas pessoas no mercado de trabalho". &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Semana de muito frio &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O frio já começou nessa própria segunda-feira (03), com mínima que chegou a 10 °C. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para esta terça-feira (04), segundo a Defesa Civil, a previsão é de predomínio de céu parcialmente nublado e sem chuva. A temperatura mínima prevista é de 8°C e a máxima é de 19°C. Na quarta-feira (05), as temperaturas variam entre 10 °C e 20 °C. E na quinta (06), de 10 °C a 21 °C. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Com esse frio, algumas iniciativas já estão buscando, por exemplo, arrecadar agasalhos e cobertores para quem precisa. Uma delas é da própria Defesa Civil, que montou a "Parede Solidária" na sede da secretaria (Rua Buarque de Macedo, 128 – Centro). Para doar, basta entregar os itens na recepção em horário comercial ou depositar diretamente na Parede Solidária. A campanha continua durante todo inverno. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Outra é promovida pela Associação SOS Serra, que lançou a campanha do agasalho com três pontos de coleta estratégicos na cidade: o Colégio Pensi, o Shopping Itaipava e a Escola de Música Santa Cecília. Durante todo o inverno, os moradores de Petrópolis são convidados a participar doando agasalhos, casacos, cobertores, meias, luvas e outros itens que possam ajudar a amenizar o frio das pessoas menos favorecidas. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Governo Federal &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Essa questão do frio intenso mobiliza também o Governo Federal, que regulamentou a Operação Inverno Acolhedor 2023 para atender pessoas em situação de rua nas capitais das regiões Sul e Sudeste, durante o inverno. Recursos federais serão repassados aos municípios para apoio às ações de ampliação do sistema de acolhimento, preventivas e de promoção dos direitos humanos. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os municípios poderão participar do programa por meio da regulamentação existente sobre transferências de recursos da União, mediante convênios e contratos de repasse para novos planos de trabalho de assistência social do poder público municipal, dos movimentos sociais e das entidades da sociedade civil. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além das ações de ampliação da rede de apoio, a regulamentação também trata de ações visando a orientação da população em situação de rua a respeito dos cuidados de saúde, funcionamento da rede de serviços, acesso aos direitos humanos e orientação jurídica, por meio de parcerias com as Defensorias Públicas dos Estados e da União. &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/frio-intenso-nesta-semana-reacende-preocupacao-com-pessoas-em-situacao-de-rua-242688</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Óleo diesel atinge menor valor em Petrópolis em quase dois anos</title><link>https://www.diariodepetropolis.com.br/integra/oleo-diesel-atinge-menor-valor-em-petropolis-em-quase-dois-anos-242689</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Economia/3161-3" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Economia&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Óleo diesel atinge menor valor em Petrópolis em quase dois anos&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0359_20230703210153_SDPWG.jpg" longdesc="82211;63006"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Arquivo&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rômulo Barroso - especial para o Diário &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;O óleo diesel comum e o óleo diesel S10 atingiram o menor valor nos postos da cidade em quase dois anos. Os valores encontrados em levantamento de preços realizado pela Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP) na semana passada não eram tão baixos desde setembro e outubro de 2021, respectivamente. O diesel é o combustível usado por veículos pesados, que fazem transporte de pessoas e cargas, como ônibus e caminhões. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No caso do óleo diesel comum, utilizado por veículos mais antigos, o valor médio no período entre os dias 25 de junho e 1º de julho foi de R$ 4,86 por litro. Houve uma queda de seis centavos em relação à semana anterior, o que representa uma redução de 1,21%. A pesquisa passou por quatro postos de Itaipava, Quissamã e Cel. Veiga. O preço mais baixo encontrado na cidade foi de R$ 4,79/l e o mais alto, R$ 4,99/l. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O valor médio não era tão baixo desde a última semana de setembro de 2021, ou seja, há um ano e nove meses. Naquele período, o combustível tinha uma média de R$ 4,67/l. Uma semana depois, já apresentou uma alta para R$ 5,04/l e continuou subindo até julho do ano passado, quando atingiu o pico de R$ 7,61/l. A partir de então, o preço começou a cair. No início deste ano, o diesel custava R$ 6,29/l e só teve uma variação para cima em todo primeiro semestre. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Agora, o valor de R$ 4,86/l é mais baixo que a média estadual (R$ 5,08/l) e a nacional (R$ 4,96/l). É o único dos produtos encontrados em Petrópolis mais barato que no Rio de Janeiro e no Brasil ao mesmo tempo. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Diesel S10 &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Já o óleo diesel S10, que é encontrado nos veículos mais novos, a média fechou em R$ 5,05 por litro. Uma semana antes, o valor era sete centavos mais caro, ou seja, o preço caiu nos postos de Petrópolis 1,36%. Cinco postos foram pesquisados em Morin, Centro, Bingen e Itaipava. O melhor valor encontrado pelos consumidores foi de R$ 4,89/l e mais caro, R$ 5,49/l. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No fim de outubro de 2021, há um ano e oito meses, o valor médio nos postos de Petrópolis era de R$ 5,03/l e, da mesma forma que o diesel comum, foi aumentando até julho de 2022 (R$ 7,65/l). Depois disso, começou a cair. A primeira pesquisa do ano encontrou preço médio de R$ 6,51/l, chegou a aumentar mais quatro centavos no fim de janeiro, mas desde meados de maio, vem caindo semana após semana. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Na comparação, o diesel S10 em Petrópolis é mais baixo que a média fluminense (R$5,12/l), mas fica um centavo acima da média brasileira. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Todos os combustíveis são mais caros em Petrópolis &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Todos os combustíveis pesquisados pela ANP fecharam a última semana mais caros na cidade do que a média estadual e nacional. O único produto que destoa é o gás de cozinha, que é mais caro do que em todo Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O etanol subiu 0,40% na semana passada, indo para R$ 4,94/l. A gasolina comum teve alta de 0,33%, indo para R$ 5,94/l. Já a aditivada aumentou 0,50%, com média de R$ 5,99/l. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Vale lembrar que desde o dia 1º de julho, voltou a incidir sobre esses três combustíveis as alíquotas cheias de PIS/Cofins e CIDE - impostos federais. Para tentar conter parte dessa alta, a Petrobras anunciou, na última sexta-feira (30/06), uma redução do preço da gasolina vendida nas refinarias de R$ 5,03%. Ambas as medidas não tem impacto na última pesquisa da ANP. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Já o GNV (gás natural veicular) manteve o mesmo preço praticado praticamente desde fevereiro: R$ 4,79/m³ (apenas entre o fim de abril e o fim de maio, houve variação de dois centavos para cima). &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Por fim, o último produto pesquisado pela ANP foi o gás de cozinha, que também manteve o preço médio das duas semanas anteriores em R$ 95,33 por botijão de 13 kg. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0760_x_0291_20230703211740_F6DNG.png" longdesc="82212;39795"&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/petropolis-deve-receber-mais-de-r-11-milhoes-em-compensacao-de-icms-242687"&gt;Petrópolis deve receber mais de R$ 11 milhões em compensação de ICMS&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/mercado-financeiro-eleva-projecao-de-crescimento-para-2-19-em-2023-242685"&gt;Mercado financeiro eleva projeção de crescimento para 2,19% em 2023&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/ipc-s-fecha-junho-com-queda-de-precos-de-0-10-242694"&gt;IPC-S fecha junho com queda de preços de 0,10%&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/oleo-diesel-atinge-menor-valor-em-petropolis-em-quase-dois-anos-242689</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Relatório do Fórum Econômico Mundial revela mudanças significativas no mercado de trabalho nos próximos 5 anos Transição verde e avanço tecnológico im</title><link>https://www.diariodepetropolis.com.br/integra/relatorio-do-forum-economico-mundial-revela-mudancas-significativas-no-mercado-de-trabalho-nos-proximos-5-anos-242690</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Empregos/3161-82" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Empregos&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Relatório do Fórum Econômico Mundial revela mudanças significativas no mercado de trabalho nos próximos 5 anos&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Transição verde e avanço tecnológico impulsionam criação e eliminação de empregos e especialista aconselha como se preparar para essa fase&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0640_x_0427_20230703210146_J3BU1.jpg" longdesc="82208;72255"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rhayssa Motta - Especial para o Diário &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Um relatório divulgado pelo Fórum Econômico Mundial (WEF) revela que quase um quarto dos empregos (23%) passarão por mudanças nos próximos cinco anos, com um crescimento de 10,2% e um declínio de 12,3%. Com base em dados de 803 empresas pesquisadas, estima-se que 69 milhões de novos empregos sejam criados, enquanto 83 milhões serão eliminados, resultando em uma redução líquida de 14 milhões de empregos, o que representa 2% do emprego atual.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os desafios econômicos, como alta inflação, crescimento econômico mais lento e escassez de suprimentos, representam a maior ameaça para o mercado de trabalho. No entanto, à medida que a tecnologia avança e a digitalização se intensifica, haverá uma rotatividade significativa no mercado de empregos, com um resultado geral positivo na criação de oportunidades. As áreas que estão experimentando um crescimento mais rápido são impulsionadas pela tecnologia e pela digitalização, com destaque para o campo do big data. Profissões relacionadas ao big data, como analistas e cientistas de dados, especialistas em aprendizado de máquina de IA e profissionais de segurança cibernética, devem crescer em média 30% até 2027. O treinamento em IA e big data será uma prioridade para 42% das empresas pesquisadas nos próximos cinco anos. Além disso, é esperado que o comércio digital gere cerca de 2 milhões de novos empregos, incluindo especialistas em comércio eletrônico, transformação digital, marketing e estratégia digital.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Espera-se que habilidades como raciocínio, comunicação e coordenação, características que proporcionam vantagem aos seres humanos, sejam mais automatizáveis no futuro, principalmente devido à adoção crescente da inteligência artificial (IA). Quase 75% das empresas pesquisadas planejam adotar a IA, o que resultará em uma alta rotatividade de empregos. Cerca de 50% das organizações esperam que a IA gere crescimento de empregos, enquanto 25% esperam que ela cause perda de empregos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O relatório destaca ainda o aumento de empregos verdes, educacionais e agrícolas. O investimento na transição verde e na amenização das mudanças climáticas, juntamente com a conscientização crescente dos consumidores sobre questões de sustentabilidade, tem ajudado a impulsionar a transformação do setor e abrir novas oportunidades no mercado. Os maiores ganhos em empregos serão observados nos setores de educação e agricultura. Com estimado crescimento de cerca de 10% nos empregos do setor educacional, resultando em 3 milhões de empregos adicionais para professores de educação vocacional e professores de universidades e ensino superior. No setor agrícola, os empregos para operadores de equipamentos agrícolas e outros profissionais agrícolas devem aumentar entre 15% e 30%, gerando mais 4 milhões de empregos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Diante desse cenário, Ananisa de Souza, Gestora de RH da Editora Vozes, diz que “é muito importante manter-se atualizado com as últimas tendências e inovações em sua área de atuação. Leia artigos, acompanhe blogs e sites especializados, participe de eventos e conferências relevantes. Esteja atento às tecnologias emergentes, às mudanças nas demandas dos consumidores e às transformações nas indústrias. Também nunca pare de aprender. Busque constantemente oportunidades de aprimorar suas habilidades e conhecimentos. Faça cursos, participe de treinamentos e workshops e obtenha certificações relevantes, pois o aprendizado contínuo ajudará você a se adaptar às mudanças e se manter competitivo no mercado de trabalho. Além disso, construa uma rede de contatos profissionais na sua área e esteja preparado para se adaptar rapidamente às situações”, aconselhou.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/empregos-242625"&gt;Empregos&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/relatorio-do-forum-economico-mundial-revela-mudancas-significativas-no-mercado-de-trabalho-nos-proximos-5-anos-242690</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Petrópolis FC almeja vitória no clássico da região serrana contra o Friburguense</title><link>https://www.diariodepetropolis.com.br/integra/petropolis-fc-almeja-vitoria-no-classico-da-regiao-serrana-contra-o-friburguense-242693</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Esporte/3161-9" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Esporte&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Petrópolis FC almeja vitória no clássico da região serrana contra o Friburguense &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0450_20230703210126_SDPWG.jpg" longdesc="82200;71436"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;O Petrópolis FC enfrentará o Friburguense nesta terça-feira (4), às 14h45, no Estádio Atílio Marotti, em busca de se manter no G4, pela 8ª rodada do Campeonato Carioca Série A2.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A equipe petropolitana terá o desfalque do atacante Wallace, que recebeu o terceiro cartão amarelo na partida contra o Maricá. O atacante é o artilheiro da equipe até o momento, com dois gols.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;As equipes da região serrana já se enfrentaram no ano passado, também pelo Campeonato Carioca Série A2, no Estádio Eduardo Guinle, e a partida terminou em 0 a 0.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No momento, com alguns jogos da rodada realizados no sábado (1º), o Petrópolis está em 5º lugar, com 12 pontos, empatado com o Americano, que ocupa a 4ª posição. Já o Friburguense amarga a última posição, com apenas um ponto.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Devido ao atual momento do Friburguense, o goleiro Luiz Felipe destacou que o jogo pode ser perigoso. Ele disse Terça-feira é um grande jogo contra uma equipe que briga para não ser rebaixada, então é um jogo muito perigoso, e nós vamos tentar mais uma vez ser fortes dentro de casa para continuar no G4 e buscar a classificação o mais rápido possível.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além do goleiro, o técnico Eduardo Allax também comentou sobre a partida e ressaltou a importância do apoio da torcida. Ele afirmou Temos expectativa de um grande jogo contra um adversário tradicional, que tem um treinador experiente, um elenco jovem e uma administração competente. Mesmo não atravessando um grande momento na competição, isso torna o adversário cada vez mais perigoso. Contamos com o apoio do nosso torcedor, acreditamos na força do nosso elenco e faremos o possível para manter essa boa fase do Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A venda de ingressos para a partida será realizada apenas no dia do jogo, na bilheteria do estádio, a partir das 13h. O valor do ingresso inteiro é de R$ 20, enquanto o valor da meia-entrada é de R$ 10. Os moradores de Petrópolis terão direito à meia-entrada mediante apresentação de comprovante de residência.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/petropolis-fc-almeja-vitoria-no-classico-da-regiao-serrana-contra-o-friburguense-242693</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Balcão de Empregos da Prefeitura: mais 141 vagas para esta semana</title><link>https://www.diariodepetropolis.com.br/integra/balcao-de-empregos-da-prefeitura-mais-141-vagas-para-esta-semana-242684</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Emprego/3161-37" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Emprego&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Balcão de Empregos da Prefeitura: mais 141 vagas para esta semana&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0640_x_0426_20230703111304_C610W.jpg" longdesc="82167;57613"&gt;&lt;br&gt;Foto: Pixabay&lt;/p&gt;
+&lt;p&gt;A Prefeitura de Petrópolis está oferecendo, em seu Balcão de Empregos na internet, mais 141 oportunidades de trabalho em empresas do município. Para participar dos processos de seleção, os candidatos devem fazer o cadastramento de seus currículos no site da Prefeitura (&lt;a class="example1" href="https://www.petropolis.rj.gov.br/pmp/"&gt;https://www.petropolis.rj.gov.br&lt;/a&gt;) entre segunda-feira (03) a sexta-feira (07).&lt;/p&gt;
+&lt;p&gt;O Balcão de Empregos é um serviço da Secretaria de Assistência Social, por meio do Departamento de Trabalho e Renda (Detra). Todos os candidatos concorrem nos processos seletivos, desde que atendam aos requisitos exigidos pelos empregadores. As empresas têm responsabilidade integral pelo recrutamento e pelas contratações.&lt;/p&gt;
+&lt;p&gt;Veja as oportunidades desta semana:&lt;/p&gt;
+&lt;p&gt;Ajudante de Motorista - Ensino Médio / Disponibilidade para viajar e experiência na função – 4 vagas&lt;/p&gt;
+&lt;p&gt;Analista de RH - Ensino Médio / Cursos específicos na área e experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Assistente de Marketing - Ensino Superior / Experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Assistente de Suporte TI - Ensino Superior / Experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar Administrativo - Ensino Médio / Experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar de Cozinha - Ensino Médio / Experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar de Expedição - Ensino Médio / Experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar de Faturamento - Ensino Médio / Experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar de Limpeza - Ensino Fundamental / Experiência de 1 ano na função – 5 vagas&lt;/p&gt;
+&lt;p&gt;Auxiliar de Manutenção - Ensino Fundamental / CNH Cat. AB e experiência de 2 anos na função – 2 vagas&lt;/p&gt;
+&lt;p&gt;Auxiliar de Produção - Ensino Fundamental – 1 vaga&lt;/p&gt;
+&lt;p&gt;Auxiliar de Produção - Ensino Fundamental / Experiência na Produção de Gêneros Alimentícios – 20 vagas&lt;/p&gt;
+&lt;p&gt;Auxiliar de Produção - Ensino Médio / Experiência na função – 10 vagas&lt;/p&gt;
+&lt;p&gt;Bordador à Máquina - Experiência de 2 anos na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Caixa de Lanchonete Delivery - Ensino Médio / Experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Consultor de Vendas - Ensino Médio – 1 vaga&lt;/p&gt;
+&lt;p&gt;Consultor de Vendas - Ensino Médio / Experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Engenheiro de Obras - Ensino Superior / CNH Cat. B, curso específico na área e experiência de 2 anos na função – 2 vagas&lt;/p&gt;
+&lt;p&gt;Engenheiro de Manutenção Instalações Industriais - Ensino Superior / CNH Cat. B, curso específico na área e experiência de 2 anos na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Engenheiro Eletricista - Ensino Superior / CNH Cat. B, curso específico na área e experiência de 2 anos na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Estagiário de Engenharia - estar cursando acima do 5º período de Engenharia (para obra) – 1 vaga&lt;/p&gt;
+&lt;p&gt;Estagiário de Informática - estar cursando o Ensino Médio – 1 vaga&lt;/p&gt;
+&lt;p&gt;Esteticista - Ensino Médio / Experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Instrutor de Língua Inglesa - Ensino Médio – 4 vagas&lt;/p&gt;
+&lt;p&gt;Líder de Corte - Ensino Médio / Experiência de 2 anos na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Limpador Líder - Ensino Médio / Curso específico na área e experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Motorista de Caminhão - Ensino Médio / CNH Cat. C, disponibilidade para viajar e experiência de 2 anos na função – 5 vagas&lt;/p&gt;
+&lt;p&gt;Operador de Máquinas - Ensino Médio / Experiência em máquinas do gênero alimentício – 10 vagas&lt;/p&gt;
+&lt;p&gt;Padeiro - Ensino Médio / Curso específico na área e experiência na função – 10 vagas&lt;/p&gt;
+&lt;p&gt;Pedreiro - Ensino Fundamental / Experiência na função – 2 vagas&lt;/p&gt;
+&lt;p&gt;Promotor de Vendas - Ensino Médio – 6 vagas&lt;/p&gt;
+&lt;p&gt;Recepcionista - Ensino Médio – 6 vagas&lt;/p&gt;
+&lt;p&gt;Servente de Obras - Ensino Fundamental – 3 vagas&lt;/p&gt;
+&lt;p&gt;Servente de Obras - Ensino Fundamental / Experiência na função – 5 vagas&lt;/p&gt;
+&lt;p&gt;Serviços de Portaria - Ensino Médio / Experiência de 1 ano na função – 2 vagas&lt;/p&gt;
+&lt;p&gt;Supervisor de Limpeza e Operações - Ensino Médio / CNH Cat. B, disponibilidade para viajar, cursos específicos na área e experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Supervisor de Logística - Ensino Médio / Curso específico na área e experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Supervisor de Produção de Indústria Alimentícia - Ensino Médio / Cursos específicos na área e experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Supervisor de Vendas Comercial - Ensino Médio / CNH Cat. B, disponibilidade para viajar e experiência de 1 ano na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Supervisor de Vendas de Serviços - Ensino Médio / CNH Cat. B, disponibilidade para viajar e experiência de 1 ano na função – 4 vagas&lt;/p&gt;
+&lt;p&gt;Técnico em Eletromecânica - Ensino Médio / Curso específico na área e experiência de 1 ano na função – 2 vagas&lt;/p&gt;
+&lt;p&gt;Técnico em Segurança do Trabalho - Ensino Médio / Curso específico na área e experiência de 2 anos na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Técnico em Segurança do Trabalho - Ensino Médio / Curso específico na área e experiência na função – 1 vaga&lt;/p&gt;
+&lt;p&gt;Venda - Telemarketing - Ensino Médio – 6 vagas&lt;/p&gt;
+&lt;p&gt;Vendedor Externo -Ensino Fundamental / Disponibilidade para viajar e experiência na função – 6 vagas&lt;/p&gt;
+&lt;p&gt;Auxiliar de RH (Pessoa com Deficiência) - Ensino Médio / Possuir laudo que comprove deficiência que permita a realização das atividades – 1 vaga&lt;/p&gt;
+&lt;p&gt;Operador de Caixa (Pessoa com Deficiência) - Ensino Médio / Possuir laudo que comprove deficiência que permita a realização das atividades – 1 vaga&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/balcao-de-empregos-da-prefeitura-mais-141-vagas-para-esta-semana-242684</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Rio lança aplicativo Rede Escola para atender emergências Ferramenta para celular já está disponível para Android e iOS</title><link>https://www.diariodepetropolis.com.br/integra/rio-lanca-aplicativo-rede-escola-para-atender-emergencias-242682</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Educa%C3%A7%C3%A3o/3161-4" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Educação&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Rio lança aplicativo Rede Escola para atender emergências&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Ferramenta para celular já está disponível para Android e iOS&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0640_x_0427_20230703172743_VW5J8.jpg" longdesc="82186;40709"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Ana Cristina Campos – Agência Brasil - Rio de Janeiro&lt;/span&gt;&lt;br&gt; &lt;br&gt;&lt;span&gt;Foi lançado nesta segunda-feira (3) o aplicativo Rede Escola, ferramenta desenvolvida pela Polícia Militar (PM) para agilizar o acionamento de viaturas em caso de ocorrências nas escolas. Destinado a tornar mais rápido o acionamento de viaturas da PM para atender situações de emergência em estabelecimentos de ensino, o aplicativo já está disponível nas lojas de aplicativos para Android e iOS.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Por meio da nova tecnologia aplicada à área de segurança pública, profissionais das redes pública e privada de educação poderão acionar a polícia por meio de um botão de emergência à disposição do usuário na tela do celular.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“São 4.400 profissionais da rede particular e pública do estado treinados pela Polícia Militar para situações de emergência. O Rede Escola é o único aplicativo que reúne todas as unidades escolares estaduais, municipais e privadas do Rio de Janeiro. Somente no estado do Rio temos um equipamento capaz de atender a todas as redes”, disse, em nota, a secretária de Educação, Roberta Barreto.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Assim que o botão for acionado, a solicitação cairá diretamente na mesa do operador da Central 190 responsável pelo despacho de viaturas, sem necessidade de ligação telefônica. Por meio do aplicativo, o operador recebe o pedido de socorro em tempo real e aciona a viatura mais próxima da escola.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“O novo aplicativo agiliza o acionamento de viaturas da Polícia Militar para atender situações de emergência nos estabelecimentos de ensino. Além da agilidade e qualidade de informação, o Rede Escola vai evitar os trotes, que infelizmente ainda ocorrem nas ligações telefônicas”, afirmou, em nota, o secretário da Polícia Militar, coronel Luiz Henrique.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O aplicativo pode ser baixado por alunos, professores e funcionários dos estabelecimentos de ensino.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/rio-lanca-aplicativo-rede-escola-para-atender-emergencias-242682</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>APPO lança campanha "Desapegue" Instituição está pedindo doações de roupas para manter bazares e brechós ativos</title><link>https://www.diariodepetropolis.com.br/integra/appo-lanca-campanha-desapegue-242686</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Campanha/3161-50" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Campanha&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;APPO lança campanha "Desapegue" &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Instituição está pedindo doações de roupas para manter bazares e brechós ativos&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0337_20230703134028_LNP2G.jpg" longdesc="82173;114932"&gt;&lt;br&gt; Foto: Gisele Rocha&lt;/p&gt;
+&lt;p&gt;Os bazares e brechós promovidos pela APPO – Associação Petropolitana dos Pacientes Oncológicos são conhecidos por todas as pessoas que amam garimpar peças de qualidade e com preços acessíveis. De forma geral a APPO realiza bazares na própria sede da instituição, na Igreja do Rosário e agora participa periodicamente do Ecobrechó Park.&lt;/p&gt;
+&lt;p&gt;Nos eventos, além de roupas para adultos e crianças, também é possível encontrar uma infinidade de itens como brinquedos, calçados, acessórios, utilidades para o lar, objetos de decoração entre outros. Todas essas peças são o resultado de doações que a APPO recebe cotidianamente e que passam por um processo de seleção. Na maior das vezes roupas são costuradas, lavadas, devidamente dobradas e empacotadas, sapatos tendem a ser limpos e aplicados talcos, dentre outros pequenos trabalhos de cuidado individual, para então serem vendidas.&lt;/p&gt;
+&lt;p&gt;“Nossos compradores já sabem que todo o valor arrecadado com a venda das peças nos bazares e brechós é utilizado para compor os recursos necessários para manter a Casa de Apoio, que funciona durante o ano todo acolhendo pessoas que vem de outras cidades fazer o tratamento do câncer em Petrópolis, bem como com as contas do dia a dia, pagamento dos salários dos trabalhadores que atuam na instituição, dentre outros”, pontuou Ana Cristina Mattos, presidente voluntária da APPO.&lt;/p&gt;
+&lt;p&gt;De acordo com a instituição, como o número de brechós aumentou, por conta do ingresso no Ecobrechó Park, neste momento a instituição precisa ampliar o recebimento de doação, para então efetuar as vendas nos bazares e brechós e manter a sustentabilidade da Associação.&lt;/p&gt;
+&lt;p&gt;“Decidimos lançar a campanha ‘Desapegue’ com o intuito de fazer saltar aos olhos de quem conhece o trabalho da APPO, que precisamos de apoio. A maior parte das pessoas tem roupas e sapatos no armário que já não são mais usadas e que ficam ocupando espaço. Nosso pedido é para que todos parem por alguns minutinhos e olhem para os seus armários. Tudo o que não foi usado por mais de um ano, tende a não ser mais usado e para nós essas peças são muito importantes e vão se transformar em alimentos para as cestas básicas que doamos, pagamentos de exames para pacientes, dentre outros”, ressaltou Ana Cristina.&lt;/p&gt;
+&lt;p&gt;As doações devem ser entregues na Casa de Apoio, que é a sede da APPO e que fica localizada à Rua Visconde da Penha, nº 72 - Centro – Petrópolis – RJ. A instituição está de portas abertas sempre de segunda à sexta-feira, das 8h às 17h.&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/appo-lanca-campanha-desapegue-242686</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Evento gratuito para pequenas empresas vai dar dicas sobre como aumentar vendas e acessar linhas de crédito</title><link>https://www.diariodepetropolis.com.br/integra/evento-gratuito-para-pequenas-empresas-vai-dar-dicas-sobre-como-aumentar-vendas-e-acessar-linhas-de-credito-242691</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Empreendedorismo/3161-309" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Empreendedorismo&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Evento gratuito para pequenas empresas vai dar dicas sobre como aumentar vendas e acessar linhas de crédito&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0472_x_0600_20230703210151_6HUXP.jpg" longdesc="82210;90905"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Arquivo - Julio Talon&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Na próxima quarta-feira (11/7), a partir das 14h30, a Firjan Serrana vai promover o evento presencial e gratuito “Firjan com as Pequenas Empresas da Região Serrana”, uma oportunidade para empreendedores ficarem por dentro de formas de acesso ao crédito, como obter financiamento através das principais linhas disponíveis no mercado e as oportunidades de negócios através de compras públicas. Na ocasião, também será apresentado o projeto ‘Rio+Digital’, uma parceria com o Mercado Livre para promover capacitação para as empresas venderem através do maior marketplace da América Latina. As inscrições podem ser feitas até o dia 10/7, no link:  &lt;a class="example1" href="https://www.firjan.com.br/firjan/peq.htm"&gt;www.firjan.com.br/pequenaempresa&lt;/a&gt;. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“É uma grande oportunidade para os pequenos empreendedores ampliarem as frentes de negócio, construir pontes com outras empresas, se informar sobre os acessos ao crédito e projetar seus negócios para um futuro de sucesso”, ressalta Júlio Talon, presidente da Firjan Serrana. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Firjan_PEQ é uma plataforma especializada para as pequenas empresas do Rio de Janeiro. Neste espaço, o empreendedor que já possui um negócio ou está começando um novo desafio tem contato direto com um núcleo de atendimento exclusivo composto por técnicos e especialistas da Firjan e conhece produtos e serviços especialmente modelados para as MPEs. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Serviço: &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Data:  11/07/2023&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Horário: 15h às 17h &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Credenciamento às 14h30&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Local: Firjan Serrana - Av. Dom Pedro I, 579 – Centro, Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/evento-gratuito-para-pequenas-empresas-vai-dar-dicas-sobre-como-aumentar-vendas-e-acessar-linhas-de-credito-242691</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Vereadora Julia Casamasso busca em Brasília informações sobre ação do governo federal em Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/vereadora-julia-casamasso-busca-em-brasilia-informacoes-sobre-acao-do-governo-federal-em-petropolis-242696</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Pol%C3%ADtica/3161-7" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Política&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Vereadora Julia Casamasso busca em Brasília informações sobre ação do governo federal em Petrópolis&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0442_20230703210129_XAN21.jpg" longdesc="82201;75548"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Rogerio Tosta – especial para o Diário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;No encontro com o Secretário de Proteção e Defesa Civil, Wolnei Wolf Barreiros, em Brasília, na semana passada, a vereadora Julia Casamasso, representante da Coletiva Feminista Popular do PSOL, teve acesso aos processos que estão abertos com relação a Petrópolis, facilitando a fiscalização, o monitoramento e o acompanhamento de tudo que está sendo feito no âmbito da defesa civil na cidade. “É muito importante para nós que o poder público esteja ativo não apenas no momento do desastre, mas que esteja ativo também na prevenção, para que, quando acontecer, se acontecer, o impacto não seja tão grande. Para que as pessoas não percam suas vidas, seus bens, sua saúde. Para que a população sobreviva e a cidade permaneça em pé”, conclui. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para a Coletiva Feminista o encontro com o Secretário de Proteção e Defesa Civil foi importante para compreender quais são os recursos disponibilizados para Petrópolis, planos e os processos da Secretaria em relação a cidade. A vereadora lembrou que a cidade carrega uma história de desastres socioambientais, que culminou com o maior deles durante as chuvas de fevereiro e março do ano passado, quando mais de 240 pessoas morreram. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O Plano Municipal de Redução de Risco de Petrópolis, construído em 2017, foi um dos assuntos da conversa, além do PAC (Programa de Aceleração do Crescimento) das encostas, com destaque para as obras ainda não iniciadas e para as burocracias necessárias para que o investimento seja executado. “Buscamos entender como está a relação entre os poderes - federal, estadual e municipal - para as obras de prevenção que precisam sair do papel, e como está o processo de atualização do plano de redução de risco, previsto para sair este ano. A gente acredita que a política de prevenção é muito importante porque, depois do desastre, as vidas já foram perdidas. Temos que investir e olhar com muita atenção, fazer um esforço com todas as esferas, para conseguir garantir a prevenção ao desastre”, comenta a vereadora. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A lei federal 12.608, que institui a Política Nacional de Proteção e Defesa Civil (PNPDEC), também foi tema da reunião. O deputado federal Glauber Braga - que ajudou a articular os encontros entre a vereadora e as esferas do executivo federal, e a acompanhou durante algumas agendas - foi o relator dessa lei, que dispõe também sobre o Sistema e o Conselho Nacional de Proteção e Defesa Civil, para definir ações de prevenção, mitigação, preparação, resposta e recuperação. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Entre as diretrizes estão, por exemplo, a atuação articulada entre a União, os estados, o Distrito Federal e os municípios para redução de desastres e apoio às comunidades atingidas, a prioridade às ações preventivas relacionadas à minimização de desastres, o planejamento com base em pesquisas e estudos sobre áreas de risco e incidência de desastres no território nacional, e a participação da sociedade civil. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nos objetivos, encontramos a redução dos riscos de desastres, a recuperação das áreas afetadas, o estímulo ao desenvolvimento de processos sustentáveis de urbanização, a promoção da identificação e avaliação das ameaças, suscetibilidades e vulnerabilidades a desastres de modo a evitar e reduzir suas ocorrências, o monitoramento de eventos que possam causar desastres, a produção de alertas antecipados, entre outros, muitos deles ainda não cumpridos em grandes parte das localidades que sofrem com os desastres socioambientais, como Petrópolis. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Durante a reunião, a Coletiva Feminista conversou com o secretário sobre artigos da lei que ainda não foram regulamentados e que são importantes e urgentes para a prevenção de desastres na cidade e em todo o país e se colocou a disposição do deputado federal Glauber Braga e do Secretário Wolnei Wolf, para ajudar na construção de formas de regulamentar tais artigos. &lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/governo-abre-canal-de-denuncia-para-desigualdade-salarial-de-genero-242681"&gt;Governo abre canal de denúncia para desigualdade salarial de gênero&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/vereadora-julia-casamasso-busca-em-brasilia-informacoes-sobre-acao-do-governo-federal-em-petropolis-242696</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Coluna APL</title><link>https://www.diariodepetropolis.com.br/integra/coluna-apl-242683</link><description>Coluna APL Original title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/coluna-apl-242683</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Delírio de grandeza Ataualpa A. P. Filho - professor</title><link>https://www.diariodepetropolis.com.br/integra/delirio-de-grandeza-ataualpa-a-p-filho-professor-242680</link><description>Delírio de grandeza
+Ataualpa A. P. Filho - professorOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/delirio-de-grandeza-ataualpa-a-p-filho-professor-242680</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Coleta de lixo no Alto da Boa Vista não é realizada há uma semana</title><link>https://www.diariodepetropolis.com.br/integra/coleta-de-lixo-no-alto-da-boa-vista-nao-e-realizada-ha-uma-semana-242697</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Di%C3%A1rio%20Comunidades/3161-156" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Diário Comunidades&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Coleta de lixo no Alto da Boa Vista não é realizada há uma semana&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0450_x_0600_20230703210133_7FX5M.jpg" longdesc="82203;164087"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Gabriel Miranda – estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A coleta de lixo é um dos problemas frequentes enfrentados pelos moradores de Petrópolis. Desta vez, no Alto da Boa Vista, a lixeira e a calçada estão abarrotadas. Os moradores do local denunciaram esta situação, pois tem tido acúmulo de lixo no local e a coleta não é realizada há uma semana.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Conforme os moradores, devido à quantidade de lixo, as sacolas no chão viraram alimento de muitos animais. “Essa situação está um absurdo, e ficamos um tempão com essa sujeira espalhada, não estão realizando a coleta regularmente e, com isso, vemos esse cenário se repetir. Estamos abandonados, não é à toa o descaso e o desrespeito. Queremos que os responsáveis dessa empresa de coleta de lixo normalizem o serviço e não fique com esse desrespeito conosco”, afirmou o morador.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A COMDEP informou que vai acionar a empresa responsável para fazer o recolhimento do lixo no local.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A companhia ressaltou que fiscaliza a empresa responsável pela coleta de lixo no município, e informa que, em caso de descumprimento dos serviços firmados em contrato, será aplicada advertência ou multa à empresa. Além disso, a Companhia também vai fazer uma vistoria no local para avaliar a necessidade da instalação de mais um contêiner no local.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/estacionamento-irregular-no-simeria-causa-engarrafamento-242698"&gt;Estacionamento irregular no Siméria causa engarrafamento&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/lixeira-e-retirada-e-nao-foi-recolocada-na-estrada-saudade-242699"&gt;Lixeira é retirada e não foi recolocada na Estrada Saudade&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/coleta-de-lixo-no-alto-da-boa-vista-nao-e-realizada-ha-uma-semana-242697</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Estacionamento irregular no Siméria causa engarrafamento</title><link>https://www.diariodepetropolis.com.br/integra/estacionamento-irregular-no-simeria-causa-engarrafamento-242698</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Di%C3%A1rio%20Comunidades/3161-156" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Diário Comunidades&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Estacionamento irregular no Siméria causa engarrafamento&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0600_20230703210122_MMAEM.jpg" width="494" height="494" longdesc="82198;59620"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Gabriel Miranda – estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O estacionamento irregular tem se mostrado um dos problemas mais comuns do trânsito em Petrópolis. Os motoristas que trafegam pela Estrada Presidente Sodré, no Siméria, acabam tendo dificuldade devido ao estacionamento irregular, causando transtornos e longos engarrafamentos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com um morador do Siméria, o trânsito nos bairros se resume a estacionamento irregular. “Para não pagarem estacionamento, carros param na extensão toda da rua, fazendo com que ela fique mão única e prejudicando o trânsito nos dois sentidos. A rua toda é um estacionamento irregular e ninguém faz nada para melhorar isso. Além disso, os veículos ainda param em cima da pequena calçada e prejudica também os pedestres”, complementou um morador.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A Companhia Petropolitana de Trânsito e Transportes (CPTrans) informou que rondas são realizadas diariamente em toda a cidade multando e, em casos extremos, rebocando os veículos que estejam estacionados de forma irregular. Denúncias podem ser feitas por meio do número 156.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A CPTrans também está usando a tecnologia das câmeras do Cimop para o videomonitoramento de trânsito, que acontece 24 horas por dia.   Placas indicam os locais onde há o videomonitoramento, que neste primeiro momento tem como foco coibir o estacionamento irregular.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/coleta-de-lixo-no-alto-da-boa-vista-nao-e-realizada-ha-uma-semana-242697"&gt;Coleta de lixo no Alto da Boa Vista não é realizada há uma semana&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/lixeira-e-retirada-e-nao-foi-recolocada-na-estrada-saudade-242699"&gt;Lixeira é retirada e não foi recolocada na Estrada Saudade&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/estacionamento-irregular-no-simeria-causa-engarrafamento-242698</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Lixeira é retirada e não foi recolocada na Estrada Saudade</title><link>https://www.diariodepetropolis.com.br/integra/lixeira-e-retirada-e-nao-foi-recolocada-na-estrada-saudade-242699</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Di%C3%A1rio%20Comunidades/3161-156" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Diário Comunidades&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Lixeira é retirada e não foi recolocada na Estrada Saudade&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0337_x_0600_20230703210131_UCR4D.jpg" longdesc="82202;39498"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Gabriel Miranda – estagiário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Uma lixeira que estava quebrada localizada na Estrada Saudade, na altura do número 2.168, preocupa os moradores do local, pois a coletora foi retirada e não colocaram nenhuma no local.  A estrutura estava completamente danificada e prejudicando o serviço dos lixeiros e deixando com fácil acesso para animais provocarem ainda mais sujeira pelo local, pois as sacolas ficam espalhadas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo informações dos moradores, na matéria realizada no dia 20/06, a situação da caçamba estava uma vergonha. “É descaso conosco, são lixeiras quebradas e não ligam para os moradores que estão fazendo pedidos. No local são encontrados bichos que espalham ainda mais a sujeira. Não adianta ligar porque eles nos ignoram e temos que nos acostumar a viver neste ambiente. Queremos que providenciem uma nova lixeira para cá, pois a caçamba toda quebrada na rua”, contou um morador.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O morador em contato com o jornal diz que quando a caçamba foi retirada havia um alívio da troca imediata. “Retiraram a coletora, mas não colocaram nenhuma nova e nós ficamos sem onde depositar e, por isso, colocamos no chão. Espero que seja uma lixeira nova e não uma com remendos que vão piorar ainda mais a nossa situação, pois já está sujo”, acrescentou.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Procurada, a Prefeitura não respondeu até o fechamento desta edição.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/coleta-de-lixo-no-alto-da-boa-vista-nao-e-realizada-ha-uma-semana-242697"&gt;Coleta de lixo no Alto da Boa Vista não é realizada há uma semana&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/estacionamento-irregular-no-simeria-causa-engarrafamento-242698"&gt;Estacionamento irregular no Siméria causa engarrafamento&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/lixeira-e-retirada-e-nao-foi-recolocada-na-estrada-saudade-242699</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>“Indiana Jones e a Relíquia do Destino” estreia no Cinesemana no Cinemaxx</title><link>https://www.diariodepetropolis.com.br/integra/indiana-jones-e-a-reliquia-do-destino-estreia-no-cinesemana-no-cinemaxx-242629</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Agenda%20Cultural/3161-399" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Agenda Cultural&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;“Indiana Jones e a Relíquia do Destino” estreia no Cinesemana no Cinemaxx&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0275_x_0183_20230703075340_2KHAR.jpg" longdesc="82148;7927"&gt;&lt;br&gt;Pré estreia de “Os Aventureiros - A Origem” também promete agitar os cinemas&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;A cinesemana iniciou na última quinta-feira, 29 de junho, e os longas em cartaz são uma ótima pedida para os amantes da sétima arte.&lt;/p&gt;
+&lt;p&gt;Em “Indiana Jones e A Relíquia do Destino” Indiana Jones (Harrisson Ford), famoso arqueólogo, professor e aventureiro, embarca em mais uma missão inesperada. Neste retorno do herói lendário, Indiana Jones, na quinta parcela da icônica série de filmes, encontra-se em uma nova era, aproximando-se da aposentadoria.&lt;/p&gt;
+&lt;p&gt;No longa-metragem Indiana luta para se encaixar em um mundo que parece tê-lo superado. Mas quando as garras de um mal muito familiar retornam na forma de um antigo rival, Indiana Jones deve colocar seu chapéu e pegar seu chicote mais uma vez para garantir que um antigo e poderoso artefato não caia nas mãos erradas. Mas, desta vez, ele tem o sangue de uma nova geração para o ajudar nas suas descobertas e na sua luta contra o vilão Jürgen Voller (Mads Mikkelsen).&lt;/p&gt;
+&lt;p&gt;Acompanhado de sua afilhada, Helena Shaw (Phoebe Waller-Bridge), o arqueólogo corre contra o tempo para recuperar o item que pode mudar o curso da história. A ação e aventura que encantou gerações chega as telonas com classificação indicativa de 12 anos.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Indiana Jones brasileiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Diz a lenda que o professor de arqueologia Henry Walton Jones Jr. foi inspirado no britânico Percy Fawcett, que desapareceu no Brasil, em 1925, em busca de uma cidade perdida. Com seu inconfundível chapéu Stetson e um gosto exagerado por aventuras, Fawcett ficaria conhecido como “O Verdadeiro Indiana Jones”.&lt;/p&gt;
+&lt;p&gt;Em busca de uma civilização perdida que ele tinha certeza que ficava no Brasil, esse coronel britânico, seu filho Jack e um amigo partiram de Cuiabá, em 1925, para uma “das matas mais intratáveis da Amazônia”, nas palavras de David Grann, cuja biografia “Z, a Cidade Perdida” (Companhia das Letras) ganhou uma adaptação desastrosa para o cinema, em 2017.&lt;/p&gt;
+&lt;p&gt;Sabe-se lá o que tenha sido daquela incursão pelo inferno verde – se realmente encontraram um portal para outra dimensão ou se foram todos devorados por índios – a empreitada seria inspiração, nas décadas seguintes, para a literatura, o cinema e sobretudo para o jornalismo.&lt;/p&gt;
+&lt;p&gt;Com seu inconfundível chapéu Stetson e um gosto exagerado por aventuras, Fawcett ficaria conhecido como “O Verdadeiro Indiana Jones”. Mas nunca mais seria encontrado, nem aqui, nem em outras dimensões.&lt;/p&gt;
+&lt;p&gt;Atualmente, Barra do Garças, no Mato Grosso, tem uma estátua em homenagem a Fawcett e é porta de entrada para a Serra do Roncador. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cinemaxx Mercado Estação&lt;/p&gt;
+&lt;p&gt;Rua Paulo Barbosa, 296 / 1° Piso&lt;/p&gt;
+&lt;p&gt;Centro - Petrópolis/RJ&lt;/p&gt;
+&lt;p&gt;Site: &lt;a class="example1" href="https://www.cinemaxx.com.br/presite"&gt;www.cinemaxx.com.br&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ZapCinemaxx: (21) 97141-6832&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/indiana-jones-e-a-reliquia-do-destino-estreia-no-cinesemana-no-cinemaxx-242629</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Policiais do 26º BPM apreendem 6.150 cápsulas de cocaina no Vicenzo Rivetti O prejuízo gerado para o tráfico chega a 30 mil reais</title><link>https://www.diariodepetropolis.com.br/integra/policiais-do-26-bpm-apreendem-6-150-capsulas-de-cocaina-no-vicenzo-rivetti-242692</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Pol%C3%ADcia/3161-33" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Polícia&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Policiais do 26º BPM apreendem 6.150 cápsulas de cocaina no Vicenzo Rivetti&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;O prejuízo gerado para o tráfico chega a 30 mil reais&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0340_20230703210136_CKPTX.jpg" longdesc="82204;107498"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação PM&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;No sábado (1º), policiais militares do Patrulhamento Tático Móvel (PATAMO) do 26º BPM apreenderam 100 cargas de  cocaína, totalizando 6.150 cápsulas, no Vicenzo Rivetti. Os militares receberam informações de que traficantes teriam escondido uma grande quantidade de drogas em área de mata. Após vasculhamento, o material foi encontrado. O prejuízo gerado para o tráfico chega a 30 mil reais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Em caso de denúncias, o 26º BPM solicita que a população entre em contato através dos números whastapp (24)99324-5499 ou (24)2291-5071. O sigilo é garantido.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/policiais-do-26-bpm-apreendem-6-150-capsulas-de-cocaina-no-vicenzo-rivetti-242692</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>www.diariodepetropolisdigital.com.br</title><link>https://www.diariodepetropolis.com.br/integra/capa-desta-edicao-242626</link><description>Capa desta ediçãoOriginal title: Diário de Petrópolis&lt;br/&gt;</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/capa-desta-edicao-242626</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Ministra recebe manifestações de apoio ao abrir Conferência de Saúde Evento reúne mais de 4 mil delegados que debatem propostas para o SUS</title><link>https://www.diariodepetropolis.com.br/integra/ministra-recebe-manifestacoes-de-apoio-ao-abrir-conferencia-de-saude-242628</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Sa%C3%BAde/3161-8" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Saúde&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Ministra recebe manifestações de apoio ao abrir Conferência de Saúde &lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Evento reúne mais de 4 mil delegados que debatem propostas para o SUS&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0754_x_0503_20230703062501_EC3KC.jpg" longdesc="82141;39653"&gt;&lt;br&gt; Foto: Marcelo Camargo/Agência Brasil&lt;/p&gt;
+&lt;p&gt;Felipe Pontes - Agência Brasil - Brasília&lt;br&gt;&lt;br&gt;Em meio a disputas políticas por seu cargo, a ministra da Saúde, Nísia Trindade, recebeu diferentes manifestações de apoio por parte de profissionais do Sistema Único de Saúde (SUS) e de movimentos sociais. Ela foi aplaudida durante a abertura da 17ª Conferência Nacional de Saúde, na noite de domingo (2), em Brasília. &lt;/p&gt;
+&lt;p&gt;O governo nega que tenha intenção de mexer na Saúde. A ideia de substituição da titular da pasta, no entanto, circula em meio a negociações por votações importantes no Congresso, onde o presidente Luiz Inácio Lula da Silva trabalha para ampliar sua base de apoio. &lt;/p&gt;
+&lt;p&gt;Nísia tem se declarado tranquila em relação às pressões políticas e defende sua atuação técnica à frente da Saúde, ressaltando o currículo como presidente da Fundação Oswaldo Cruz (Fiocruz) e a trajetória como servidora do SUS.&lt;/p&gt;
+&lt;p&gt;Durante a solenidade de abertura da Conferência Nacional de Saúde deste ano, a ministra foi interrompida por aplausos e gritos de apoio a seu nome. Um grupo de trabalhadores do SUS subiu no palco com uma faixa de suporte à ministra. Nísia falou rapidamente apenas para declarar abertos os trabalhos. &lt;/p&gt;
+&lt;p&gt;As ministras Sônia Guajajara, dos Povos Indígenas, e Marina Silva, do Meio Ambiente, foram à cerimônia. Em viagem à Bahia, Lula não retornou a Brasília para participar do evento, como esperavam os organizadores da conferência. Ele segue no estado para a cerimônia, nesta segunda-feira (3) de retomada das obras do trecho de uma ferrovia que fica entre a cidade de Ilhéus, no litoral, e Caetité (BA), no sertão. O governador baiano, Jerônimo Rodrigues, que esteve com o presidente pela manhã, compareceu à cerimônia. &lt;/p&gt;
+&lt;p&gt;A 17ª Conferência Nacional de Saúde, iniciada neste domingo (2), em Brasília, tem como tema Garantir Direitos e Defender o SUS, a Vida e a Democracia – Amanhã vai ser outro dia. O evento segue até a próxima quarta-feira (5), no Centro Internacional de Convenções do Brasil (CICB).  &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Programação &lt;/strong&gt;&lt;br&gt;A conferência é organizada pelo Conselho Nacional de Saúde (CNS) e reúne mais de 4 mil delegados que foram eleitos em conferências regionais. Eles debatem, na capital federal, os caminhos da saúde no país.&lt;/p&gt;
+&lt;p&gt;Segundo os organizadores, devem ser discutidas e deliberadas cerca de 1,5 mil propostas e diretrizes sobre o acesso da população à Saúde e o fortalecimento do SUS. As medidas aprovadas na conferência devem servir de subsídio para a elaboração do Plano Nacional de Saúde e Plano Plurianual de 2024-2027. &lt;/p&gt;
+&lt;p&gt;A programação inclui um espaço para práticas integrativas e complementares em saúde e também um espaço cultural, onde haverá apresentações como literatura em cordel, teatro, poesia, sarau e performance em formato de cortejo. &lt;/p&gt;
+&lt;p&gt;A primeira Conferência Nacional de Saúde foi realizada em 1941. Desde então, tornou-se o principal espaço nacional para discussão de políticas públicas e planejamento na área de saúde pública. Na 8ª edição, por exemplo, de 1985, foram discutidas e lançadas as diretrizes para a criação do SUS.&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/governo-anuncia-r-200-milhoes-para-saude-mental-em-2023-242679"&gt;Governo anuncia R$ 200 milhões para saúde mental em 2023&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/ministra-recebe-manifestacoes-de-apoio-ao-abrir-conferencia-de-saude-242628</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Governo anuncia R$ 200 milhões para saúde mental em 2023 Anúncio foi feito na 17ª Conferência Nacional de Saúde</title><link>https://www.diariodepetropolis.com.br/integra/governo-anuncia-r-200-milhoes-para-saude-mental-em-2023-242679</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Sa%C3%BAde/3161-8" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Saúde&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Governo anuncia R$ 200 milhões para saúde mental em 2023&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Anúncio foi feito na 17ª Conferência Nacional de Saúde&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0359_20230703203847_UROJH.jpg" longdesc="82195;48657"&gt;&lt;br&gt;  Foto: Fabio Rodrigues Pozzebom / Agência Brasil&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;Paula Laboissière – Agência Brasil - Brasília&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;A ministra da Saúde, Nísia Trindade, assinou nesta segunda-feira (3) duas portarias que instituem a recomposição financeira para os serviços residenciais terapêuticos (SRT) e para os centros de atenção psicossocial (Caps), totalizando mais de R$ 200 milhões para o orçamento da Rede de Atenção Psicossocial (Raps) no restante de 2023. Ao todo, o recurso destinado pela pasta aos estados será de R$414 milhões no período de um ano. &lt;/p&gt;
+&lt;p&gt;O anúncio foi feito durante a 17º Conferência Nacional de Saúde, que acontece até a próxima quarta-feira (5) em Brasília. O evento reúne representantes da sociedade civil, entidades e movimentos sociais para debater temas prioritários para o sistema público de saúde, incluindo a saúde mental. O montante anunciado representa um aumento de 27% no orçamento da rede, no intuito de aumentar a assistência à saúde mental no Sistema Único de Saúde (SUS). &lt;/p&gt;
+&lt;p&gt;O repasse será direcionado para um total de 2.855 Caps e 870 SRT existentes no país. Todas as instituições, de acordo com o ministério, terão recomposição do financiamento e os recursos serão incorporados ao limite financeiro de média e alta complexidade de estados, do Distrito Federal e dos municípios com unidades habilitadas.  &lt;/p&gt;
+&lt;p&gt;Nísia lembrou que, durante os encontros preparatórios para a conferência nacional, nos estados e municípios, surgiram dois pontos de consenso: o reforço do SUS e da democracia. “Nesse contexto, a saúde mental tem lugar especial”, destacou, ao citar retrocessos e o que ela mesma chamou de negacionismo identificados no país ao longo dos últimos anos. &lt;/p&gt;
+&lt;p&gt;“Um descaso com o sofrimento, agravado pela pandemia de covid-19. A pauta de saúde mental é hoje discutida em todo o mundo. Não está referida só ao efeito da pandemia. Tem muito a ver com a solidão com que as pessoas vivem hoje, com o individualismo crescente que, muitas vezes, se manifesta na dificuldade de ter relações sociais, nisso que hoje se chama de efeito tóxico da comunicação só pelas redes sociais.” &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Novas habilitações &lt;/strong&gt;&lt;br&gt;Desde março, 27 novos Caps, 55 SRT, quatro unidades de acolhimento e 159 leitos em hospitais gerais – a maioria em estados do Nordeste – foram habilitados pela pasta. Os novos serviços estão localizados nos seguintes estados: Alagoas, Bahia, Maranhão, Ceará, Paraíba, Pernambuco, Piauí, Rio Grande do Norte, Sergipe, Acre, Minas Gerais, Rio de Janeiro, São Paulo, Paraná e Rio Grande do Sul. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Departamento de saúde mental &lt;/strong&gt;&lt;br&gt;Este ano, o ministério criou o departamento de Saúde Mental, responsável pela retomada da habilitação de novos serviços e por iniciar estudos para a recomposição do custeio dos Caps e dos SRT. Segundo a pasta, diversos estudos acadêmicos reiteram que a ampliação da oferta de serviços comunitários em saúde mental diminui a demanda por hospitalização, assegurando mais qualidade de vida à população.  &lt;/p&gt;
+&lt;p&gt;“A criação do departamento foi algo que nos dedicamos com afinco porque já vinha sendo apontado, durante a equipe de transição, com muita força esse tema. Acreditamos na sua importância. E é também um tema permanente nas discussões do Conselho Nacional de Saúde”, avaliou Nísia. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entenda &lt;/strong&gt;&lt;br&gt;Os Caps são serviços de saúde de caráter aberto e comunitário voltados ao atendimento de pessoas com sofrimento psíquico ou transtorno mental, incluindo aquelas com necessidades decorrentes do uso de álcool, drogas e outras substâncias, que se encontram em situações de crise ou em processos de reabilitação psicossocial.  &lt;/p&gt;
+&lt;p&gt;Nesse tipo de estabelecimento, atuam equipes multiprofissionais que empregam diferentes intervenções e estratégias de acolhimento, como psicoterapia, seguimento clínico em psiquiatria, terapia ocupacional, reabilitação neuropsicológica, oficinas terapêuticas, medicação assistida, atendimentos familiares e domiciliares. &lt;/p&gt;
+&lt;p&gt;Já os SRT são casas localizadas no espaço urbano, constituídas para responder às necessidades de moradia de pessoas portadoras de transtornos mentais graves. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Conferência &lt;/strong&gt;&lt;br&gt;A Conferência Nacional de Saúde acontece a cada quatro anos, desde 1986, para definição e construção conjunta de políticas públicas do SUS. Gestores, fóruns regionais, organizações da sociedade civil, movimentos sociais e outros atores se reúnem durante o evento, organizado pelo Conselho Nacional de Saúde e pelo ministério. A edição deste ano tem o lema Garantir Direitos e Defender o SUS, a Vida e a Democracia – Amanhã vai ser outro dia.  &lt;/p&gt;
+&lt;p&gt;De acordo com a pasta, mais de 2 milhões de pessoas participaram das etapas preparatórias e cerca de 6 mil são esperadas durante essa semana em Brasília. Serão debatidas diretrizes e um total de 329 propostas que devem auxiliar a nortear as decisões do governo federal para a rede pública de saúde ao longo dos próximos anos. &lt;/p&gt;
+&lt;p&gt;“A conferência é um instrumento constitucional que existe desde que foi criado o Ministério da Educação em Saúde. Mas, no início, só participava a alta cúpula do ministério. Essa ideia de uma participação social ativa, como é hoje, muito maior e mais diversa, vem do processo de redemocratização do Brasil em 88. Realmente é retomar esse espírito, que é o espírito do SUS e da democracia, com muita participação social”, concluiu Nísia. &lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/ministra-recebe-manifestacoes-de-apoio-ao-abrir-conferencia-de-saude-242628"&gt;Ministra recebe manifestações de apoio ao abrir Conferência de Saúde &lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/governo-anuncia-r-200-milhoes-para-saude-mental-em-2023-242679</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Governo abre canal de denúncia para desigualdade salarial de gênero Lula sancionou lei que prevê multas altas para descumprimento da regra</title><link>https://www.diariodepetropolis.com.br/integra/governo-abre-canal-de-denuncia-para-desigualdade-salarial-de-genero-242681</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Pol%C3%ADtica/3161-7" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Política&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Governo abre canal de denúncia para desigualdade salarial de gênero&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Lula sancionou lei que prevê multas altas para descumprimento da regra&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0359_20230703192223_DJA42.jpg" longdesc="82194;35363"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Joédson Alves/Agência Brasil  &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Pedro Rafael Vilela – Agência Brasil - Brasília&lt;/span&gt;&lt;br&gt; &lt;br&gt;&lt;span&gt;O presidente Luiz Inácio Lula da Silva sancionou, nesta segunda-feira (3), o projeto de lei que torna obrigatória a igualdade salarial entre homens e mulheres quando exercerem trabalho equivalente ou a mesma função. O PL 1.085/2023 foi aprovado no mês passado pelo Congresso Nacional e agora deverá ser regulamentado por decreto.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O projeto, que agora foi transformado em lei, é de autoria do Executivo, e prevê aplicação de multa ao empregador que descumprir a igualdade salarial para mesmas funções e competências profissionais. A multa será equivalente a dez vezes o valor do novo salário devido. Em caso de reincidência, o valor será dobrado. Atualmente, pela Consolidação das Leis do Trabalho (CLT), é prevista multa de um salário mínimo regional.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Nesse governo, o empresário que não cumpra [a equivalência salarial], vai ter que enfrentar a legislação brasileira, a lei", afirmou Lula durante cerimônia de sanção, ocorrida na Base Aérea de Brasília.&lt;/span&gt;&lt;br&gt;&lt;span&gt;Mesmo com pagamento da multa, a pessoa discriminada pode ingressar com pedido de indenização por danos morais. Para dar eficácia à nova lei, o governo federal instituiu canais de denúncia sobre o descumprimento da igualdade salarial por parte de empresas e entidades em geral. As pessoas podem encaminhar os casos por meio de um portal do Ministério do Trabalho ou pelo telefone: Disque 100, Disque 180 ou Disque 158.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Desigualdade estrutural&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;No Brasil, uma mulher ganha, em média, 78% dos rendimentos de um homem, apontam dados do Instituto Brasileiro de Geografia e Estatística (IBGE). No caso de mulheres pretas ou pardas, o percentual cai para menos da metade (46%) dos salários dos homens brancos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;"Nós, mulheres, aguardamos por esse dia há pelo menos 80 anos. A obrigatoriedade do salário igual para trabalho igual entre mulheres e homens existe desde 1943 no Brasil, com a implementação da Consolidação das Leis do Trabalho (CLT). Desde então, houve pouquíssimo avanço nesse sentido", afirmou a ministra das Mulheres, Cida Gonçalves.&lt;/span&gt;&lt;br&gt;&lt;span&gt;De acordo com o Palácio do Planalto, não houve vetos ao projeto de lei aprovado pelo Legislativo. Na tramitação no Congresso, os parlamentares fizeram algumas mudanças no texto original. Entre elas, a empresa fica dispensada da exigência de igualdade salarial quando adotar a previsão por meio de negociação coletiva, plano de cargos e salários, regra não estabelecida pela CLT. Pelo projeto, as empresas deverão apresentar relatórios para que fiscais possam comparar os valores pagos a homens e mulheres.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Outras medidas previstas são a disponibilização de canais específicos para denúncias; promoção e implementação de programas de diversidade e inclusão no ambiente de trabalho por meio da capacitação de gestores, lideranças e empregados e empregadas sobre a temática da equidade de gênero no mercado de trabalho, com aferição de resultados; e fomento à capacitação e formação de mulheres para ingresso, permanência e ascensão no mercado de trabalho em igualdade de condições com os homens.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Outras medidas&lt;/strong&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Durante a mesma cerimônia, o presidente Lula também sancionou a lei que garante, no programa Bolsa Atleta, a manutenção do pagamento da bolsa à atleta gestante ou puérpera.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Outra medida sancionada pelo presidente foi a mudança da Lei 8.906/94, o Estatuto da Advocacia, para incluir o assédio moral, o assédio sexual e a discriminação entre as infrações ético-disciplinares no âmbito da Ordem dos Advogados do Brasil (OAB).&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/vereadora-julia-casamasso-busca-em-brasilia-informacoes-sobre-acao-do-governo-federal-em-petropolis-242696"&gt;Vereadora Julia Casamasso busca em Brasília informações sobre ação do governo federal em Petrópolis&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/governo-abre-canal-de-denuncia-para-desigualdade-salarial-de-genero-242681</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Mercado financeiro eleva projeção de crescimento para 2,19% em 2023 Informação foi divulgada nesta segunda-feira pelo Banco Central</title><link>https://www.diariodepetropolis.com.br/integra/mercado-financeiro-eleva-projecao-de-crescimento-para-2-19-em-2023-242685</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Economia/3161-3" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Economia&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Mercado financeiro eleva projeção de crescimento para 2,19% em 2023&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Informação foi divulgada nesta segunda-feira pelo Banco Central&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0340_20230703100631_ERGGT.jpg" longdesc="82160;44126"&gt;&lt;br&gt; Foto: Marcello Casal Jr / Agência Brasil&lt;/p&gt;
+&lt;p&gt;Luciano Nascimento - Agência Brasil - Brasília&lt;br&gt;&lt;br&gt;O mercado financeiro aumentou a previsão de crescimento do Produto Interno Bruto (PIB) para este ano pela oitava vez. Segundo projeção do Boletim Focus, divulgada hoje (3) pelo Banco Central, o país crescerá 2,19% em 2023. Há um semana, a previsão era de um crescimento de 2,18%. Para o próximo ano também houve aumento na previsão do PIB para 1,28%, ante os 1,22% da semana passada.&lt;/p&gt;
+&lt;p&gt;Para a inflação, o boletim manteve a tendência de recuo pela sétima semana consecutiva. Segundo o boletim, o Índice de Preços ao Consumidor Amplo (IPCA) deve fechar este ano em 4,98%. Há uma semana, a projeção do mercado era de que a inflação este ano ficasse em 5,06%%. Há quatro semanas, a previsão era de 5,69%.&lt;/p&gt;
+&lt;p&gt;A previsão continua acima da meta de inflação para este ano, definida pelo Conselho Monetário Nacional (CMN), que é de 3,25%, com margem de tolerância de 1,5 ponto percentual (p.p.), para cima ou para baixo. Dessa forma, a meta será considerada formalmente cumprida se oscilar entre 1,75% e 4,75%. Para 2024, a projeção é de que o IPCA fique em 3,92%.&lt;/p&gt;
+&lt;p&gt;Para alcançar a meta de inflação, o BC usa como principal instrumento a taxa básica de juros, a Selic, a taxa básica de juros, definida em 13,75% ao ano pelo Comitê de Política Monetária (Copom). A taxa está no maior nível desde janeiro de 2017, quando também estava nesse patamar.&lt;/p&gt;
+&lt;p&gt;A próxima reunião do Copom está marcada para o início do mês de agosto. Para o mercado financeiro, a expectativa é que haja uma diminuição na taxa. A projeção aponta que a Selic termine o ano em 12%.&lt;/p&gt;
+&lt;p&gt;Divulgado semanalmente, o Boletim Focus reúne a projeção de mais de 100 instituições do mercado para os principais indicadores econômicos do país. Para 2024, o mercado diminuiu a projeção de inflação para 3,92%. Na semana passada a projeção era de 3,98%. Há quatro semanas, a previsão era de que o índice fechasse o próximo ano em 4,12%. Já para 2025, a projeção é de que o IPCA fique em 3,60%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;PIB&lt;/strong&gt;&lt;br&gt;Em relação ao PIB, o Focus estimou uma queda para o ano de 2025, com um crescimento de 1,81%. Para 2026, o boletim também apontou uma tendência e recuo no crescimento, ficando em 1,90%.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Câmbio&lt;/strong&gt;&lt;br&gt;O mercado manteve pela segunda semana a previsão do câmbio, com o dólar fechando o ano em R$ 5,00. Ha quatro semanas a previsão era de que a moeda norte-americana ficasse em R$ 5,10. Para 2024, a projeção é que o dólar fique em R$ 5,08, menor do que o projetado na semana anterior, quando a previsão era de R$ 5,16. Para 2025, a previsão é que o câmbio feche em R$ 5,17.&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/petropolis-deve-receber-mais-de-r-11-milhoes-em-compensacao-de-icms-242687"&gt;Petrópolis deve receber mais de R$ 11 milhões em compensação de ICMS&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/oleo-diesel-atinge-menor-valor-em-petropolis-em-quase-dois-anos-242689"&gt;Óleo diesel atinge menor valor em Petrópolis em quase dois anos&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/ipc-s-fecha-junho-com-queda-de-precos-de-0-10-242694"&gt;IPC-S fecha junho com queda de preços de 0,10%&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/mercado-financeiro-eleva-projecao-de-crescimento-para-2-19-em-2023-242685</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>IPC-S fecha junho com queda de preços de 0,10% Em 12 meses, índice acumula taxa de inflação de 2,22%</title><link>https://www.diariodepetropolis.com.br/integra/ipc-s-fecha-junho-com-queda-de-precos-de-0-10-242694</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Economia/3161-3" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Economia&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;IPC-S fecha junho com queda de preços de 0,10%&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Em 12 meses, índice acumula taxa de inflação de 2,22%&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0600_x_0346_20230703102115_ZIDPX.jpg" longdesc="82162;41017"&gt;&lt;br&gt; Foto: Marcello Casal Jr / Agência Brasil&lt;/p&gt;
+&lt;p&gt;Vitor Abdala - Agência Brasil - Rio de Janeiro&lt;br&gt;&lt;br&gt;O Índice de Preços ao Consumidor Semanal (IPC-S) fechou o mês de junho com deflação (queda de preços) de 0,10%. Em maio, o indicador havia registrado inflação de 0,08%. Segundo dados divulgados nesta segunda-feira (3) pela Fundação Getulio Vargas (FGV), o IPC-S acumula taxa de inflação de 2,22% em 12 meses.&lt;/p&gt;
+&lt;p&gt;Dos oito grupos de despesa, dois apresentaram deflação e contribuíram para a taxa negativa do IPC-S, alimentação (0,36%) e transportes (1,14%).&lt;/p&gt;
+&lt;p&gt;Entre os seis grupos com inflação, o principal destaque foi educação, leitura e recreação, que teve alta de preços de 0,87%. Em maio, o grupo havia tido a maior deflação (3,37%).&lt;/p&gt;
+&lt;p&gt;Os demais grupos de despesas apresentaram as seguintes taxas: vestuário (0,50%), habitação (0,23%), saúde e cuidados pessoais (0,19%), comunicação (0,14%) e despesas diversas (0,12%).&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+                &lt;div class="container container-veja-tambem"&gt;
+                    &lt;p class="colunista-nome"&gt;Veja também:&lt;/p&gt;
+                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/petropolis-deve-receber-mais-de-r-11-milhoes-em-compensacao-de-icms-242687"&gt;Petrópolis deve receber mais de R$ 11 milhões em compensação de ICMS&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/oleo-diesel-atinge-menor-valor-em-petropolis-em-quase-dois-anos-242689"&gt;Óleo diesel atinge menor valor em Petrópolis em quase dois anos&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+&lt;hr class="sep_noticias"&gt;                        &lt;div class="row"&gt;
+                            &lt;div class="col-12"&gt;
+
+&lt;a href="/integra/mercado-financeiro-eleva-projecao-de-crescimento-para-2-19-em-2023-242685"&gt;Mercado financeiro eleva projeção de crescimento para 2,19% em 2023&lt;/a&gt;
+
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;hr class="LinhaAcabamento"&gt;
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/ipc-s-fecha-junho-com-queda-de-precos-de-0-10-242694</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item><item><title>Sobe número de sanções por irregularidades na concessão do consignado Desde o início da autorregulação, em 2020, punições chegam a 1,2 mil</title><link>https://www.diariodepetropolis.com.br/integra/sobe-numero-de-sancoes-por-irregularidades-na-concessao-do-consignado-242695</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Geral/3161-46" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Geral&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Sobe número de sanções por irregularidades na concessão do consignado&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Desde o início da autorregulação, em 2020, punições chegam a 1,2 mil&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202307/fotos/0640_x_0361_20230703213508_6GDUG.jpg" longdesc="82213;99847"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Pixabay &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Flávia Albuquerque –Agência Brasil &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Já são 1.200 as medidas administrativas aplicadas a correspondentes bancários por irregularidades na concessão do crédito consignado desde o início de vigência das regras de autorregulação, em janeiro de 2020. Segundo a Federação Brasileira de Bancos (Febraban) e a Associação Brasileira de Bancos (ABB), em março, foram aplicadas 22 sanções aplicadas, entre advertências (6), suspensões temporárias (14) e definitivas (2). Em abril, foram seis sanções.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A autorregulação é um conjunto de regras voltadas à transparência, ao combate ao assédio comercial e à qualificação de correspondentes bancários, que se aplicam a empréstimos consignados, cartão consignado e cartão benefício. São consideradas faltas graves formas de captação e tratamento inadequado ou ilícito dos dados pessoais dos consumidores sem autorização deste. Os bancos que participam da autorregulação assumem o compromisso de adotar as melhores práticas relativas à proteção e ao tratamento de dados pessoais dos clientes.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;De acordo com a Febraban, bancos que não seguirem as regras podem ser multados com valores entre R$ 45 mil e R$ 1 milhão. O consumidor que se sentir desrespeitado pode fazer a reclamação nos canais internos dos bancos, nos Procons, no Banco Central ou na plataforma ConsumidorGovBr. “Além da análise das reclamações, são avaliadas as ações judiciais e indicadores de uma consultoria independente, que leva em conta questões de governança, política de relacionamento com o consumidor e gestão de dados”, diz a Febraban.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A entidade alerta que o consumidor também pode verificar se o correspondente bancário é certificado e está apto a oferecer crédito consignado em nome dos bancos. A consulta é realizada por meio do CPF do profissional na base de dados da Central de Registros de Certificados Profissionais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Agentes de crédito&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os agentes de crédito passam a ser monitorados pela Autorregulação do Consignado neste mês. A fiscalização será semelhante à que é feita junto aos correspondentes bancários, com avaliação mensal do desempenho dos profissionais. “As instituições financeiras vão reunir registros de reclamações e ações judiciais, e o agente de crédito não poderá superar o índice de 1% sobre a base de contratos dos últimos 12 meses”, explica a Febraban.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Se superar o índice de 1%, o agente será considerado não conforme e acumulará 5 pontos, com registros válidos por 12 meses. Caso somem pontos em 12 meses, as instituições financeiras deixarão de operar com o profissional pelo período de um ano. Para os cálculos, são considerados agentes de crédito com mais de 50 contratos produzidos no período de 12 meses e mais de 1 reclamação ou ação procedente no mês.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Nos casos de reincidência (acúmulo de 20 pontos em um novo período de 12 meses), o agente de crédito deixa de operar definitivamente em nome dos bancos autorregulados. Nos casos de golpe ou fraude contra o consumidor, basta uma ocorrência.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Esta é mais uma ação de melhoria contínua para promover boas práticas e evitar que problemas envolvendo o empréstimo consignado prejudiquem o consumidor. Seguiremos rigorosos com o monitoramento da qualidade dos agentes de crédito e correspondentes bancários, que atuam em nome dos bancos”, afirmou o presidente da Febraban, Isaac Sidney.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Ofertas indesejadas&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Os pedidos de bloqueio de ligações de ofertas indesejadas sobre crédito consignado na plataforma Não me Perturbe chegaram a 3.870.586 entre 2 de janeiro de 2020 e 10 de abril de 2023. Já os pedidos feitos a todas as instituições financeiras somaram 3.028.356.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Por meio da plataforma, os consumidores podem proibir que instituições financeiras e correspondentes bancários façam contato proativamente para oferecer crédito consignado.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; terça-feira, 04 de julho de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/sobe-numero-de-sancoes-por-irregularidades-na-concessao-do-consignado-242695</guid><pubDate>Tue, 04 Jul 2023 00:00:00 GMT</pubDate></item></channel></rss>
