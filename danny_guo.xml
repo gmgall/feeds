@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 05 Jul 2023 06:16:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 05 Jul 2023 12:24:52 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
         &lt;h1&gt;How to Convert Any JavaScript Value to a Boolean&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -4745,7 +4745,344 @@ in &lt;a href="https://github.com/yannickcr/eslint-plugin-react/releases/tag/v7.
 &lt;/ul&gt;
 &lt;p&gt;If you upgrade your dependencies, you will probably be able to use Fragments
 without any additional configuration.&lt;/p&gt;
-    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/rendering-sibling-elements-in-react-using-fragments</guid><pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate></item><item><title>The History and Legacy of jQuery</title><link>https://blog.logrocket.com/the-history-and-legacy-of-jquery/</link><description>&lt;article&gt;
+    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/rendering-sibling-elements-in-react-using-fragments</guid><pubDate>Mon, 09 Dec 2019 00:00:00 GMT</pubDate></item><item><title>The Introductory Guide to AssemblyScript</title><link>https://blog.logrocket.com/the-introductory-guide-to-assemblyscript/</link><description>&lt;article&gt;
+        &lt;h1&gt;The Introductory Guide to AssemblyScript&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2019-11-22"&gt;
+                November 22, 2019
+            &lt;/time&gt;
+             · 
+            1,672 words  ·  ~9 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;&lt;em&gt;This post was originally written for the &lt;a href="https://blog.logrocket.com/the-introductory-guide-to-assemblyscript/"&gt;LogRocket
+blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://webassembly.org/"&gt;WebAssembly&lt;/a&gt; (or Wasm) is a relatively recent
+addition to web browsers, but it has the potential to drastically expand what
+the web is capable of as a platform for serving applications.&lt;/p&gt;
+&lt;p&gt;While there can be a steep learning curve for web developers to get started with
+WebAssembly, &lt;a href="https://assemblyscript.org/"&gt;AssemblyScript&lt;/a&gt; provides a way to get
+around that. Let’s first take a look at why WebAssembly is such a promising
+technology, and then we’ll see how AssemblyScript can help to unlock its
+potential.&lt;/p&gt;
+&lt;h2 id="webassembly"&gt;WebAssembly&lt;a class="anchor" href="#webassembly"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;WebAssembly is a low-level language for browsers, giving developers a
+compilation target for the web besides JavaScript. It makes it possible for
+website code to run at near-native speed in a safe, sandboxed environment.&lt;/p&gt;
+&lt;p&gt;It was developed with input from representatives of all the major browsers
+(Chrome, Firefox, Safari, and Edge), who &lt;a href="https://lists.w3.org/Archives/Public/public-webassembly/2017Feb/0002.html"&gt;reached a design
+consensus&lt;/a&gt;
+in early 2017.  All of these browsers now support WebAssembly, which is usable
+in &lt;a href="https://caniuse.com/#feat=wasm"&gt;about 87&lt;/a&gt;
+&lt;a href="https://caniuse.com/#feat=wasm"&gt;percent&lt;/a&gt; of all browsers.&lt;/p&gt;
+&lt;p&gt;WebAssembly is delivered in a binary format, which means that it has both size
+and load time advantages over JavaScript. Yet it also has a &lt;a href="https://developer.mozilla.org/en-US/docs/WebAssembly/Understanding_the_text_format"&gt;textual
+representation&lt;/a&gt;
+that is human readable.&lt;/p&gt;
+&lt;p&gt;When WebAssembly was first announced, some developers thought it had the
+potential to eventually supplant JavaScript as the primary language of the web.
+But it’s better to think of WebAssembly as a new tool that integrates well with
+the existing web platform, which is one of its &lt;a href="https://webassembly.org/docs/high-level-goals/"&gt;high-level
+goals&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Rather than replacing JavaScript for existing use cases, WebAssembly is
+intriguing more because it enables new use cases. WebAssembly doesn’t have
+direct access to the DOM yet, and most existing websites will want to stick with
+JavaScript, which is already quite fast after going through years of
+optimization. Here’s a sample of WebAssembly’s &lt;a href="https://webassembly.org/docs/use-cases/"&gt;own list of possible use
+cases&lt;/a&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Games&lt;/li&gt;
+&lt;li&gt;Scientific visualization and simulation&lt;/li&gt;
+&lt;li&gt;CAD applications&lt;/li&gt;
+&lt;li&gt;Image/video editing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The common attribute here is that these are applications that we would typically
+think of as desktop applications. By providing near-native performance for
+CPU-intensive tasks, WebAssembly makes it feasible to move more of these
+applications to the web.&lt;/p&gt;
+&lt;p&gt;Existing websites can also benefit from WebAssembly.
+&lt;a href="https://www.figma.com/"&gt;Figma&lt;/a&gt; provides a real-world example, having used
+WebAssembly to significantly improve their load time. If a website uses code
+that does a lot of computation, it can make sense to replace only that code with
+WebAssembly to improve performance.&lt;/p&gt;
+&lt;p&gt;So maybe now you’re interested in getting started with WebAssembly. You could
+learn the language itself and &lt;a href="https://blog.scottlogic.com/2018/04/26/webassembly-by-hand.html"&gt;write it
+directly&lt;/a&gt;, but
+it was really intended to be a &lt;a href="https://github.com/appcypher/awesome-wasm-langs"&gt;compilation target for other
+languages&lt;/a&gt;. It &lt;a href="https://webassembly.org/docs/c-and-c++/"&gt;was
+designed&lt;/a&gt; to have good support for C
+and C++, Go &lt;a href="https://golang.org/doc/go1.11#wasm"&gt;added experimental support&lt;/a&gt; for
+it in version 1.11, and Rust is also &lt;a href="https://www.rust-lang.org/what/wasm"&gt;investing
+heavily&lt;/a&gt; in it.&lt;/p&gt;
+&lt;p&gt;But maybe you don’t want to learn or use one of these languages in order to use
+WebAssembly. This is where AssemblyScript comes into play.&lt;/p&gt;
+&lt;h2 id="assemblyscript"&gt;AssemblyScript&lt;a class="anchor" href="#assemblyscript"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;AssemblyScript is a TypeScript to WebAssembly compiler. Developed by Microsoft,
+TypeScript adds types to JavaScript. It has become &lt;a href="https://insights.stackoverflow.com/survey/2019#most-popular-technologies"&gt;quite
+popular&lt;/a&gt;,
+and even for people who are not familiar with it, AssemblyScript only allows for
+a limited subset of TypeScript features anyway, so it shouldn’t take long to get
+up to speed.&lt;/p&gt;
+&lt;p&gt;Because it’s so similar to JavaScript, AssemblyScript lets web developers easily
+incorporate WebAssembly into their websites without having to work with an
+entirely different language.&lt;/p&gt;
+&lt;h2 id="trying-it-out"&gt;Trying It Out&lt;a class="anchor" href="#trying-it-out"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let’s write our first AssemblyScript module (all of the following code is
+available in &lt;a href="https://github.com/dguo/assemblyscript-demo"&gt;this GitHub
+repository&lt;/a&gt;). We need
+&lt;a href="https://nodejs.org/"&gt;Node.js&lt;/a&gt; with a minimum version of 8 for &lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly#Browser_compatibility"&gt;WebAssembly
+support&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Change to an empty directory, create a &lt;code&gt;package.json&lt;/code&gt; file, and install
+AssemblyScript. Note that we need to install it directly from &lt;a href="https://github.com/AssemblyScript/assemblyscript"&gt;its GitHub
+repository&lt;/a&gt;. It isn’t
+published on &lt;a href="https://www.npmjs.com/"&gt;npm&lt;/a&gt; because the AssemblyScript developers
+&lt;a href="https://github.com/AssemblyScript/assemblyscript/issues/442#issuecomment-458523778"&gt;don’t consider the compiler to be ready for general use
+yet&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;mkdir assemblyscript-demo&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;cd&lt;/span&gt;&lt;span&gt; assemblyscript-demo&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;npm init&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;npm install --save-dev github:AssemblyScript/assemblyscript&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Generate scaffolding files using the included &lt;code&gt;asinit&lt;/code&gt; command.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;npx asinit &lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Our &lt;code&gt;package.json&lt;/code&gt; should now include these scripts.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;"scripts"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild:untouched"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --validate --debug"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild:optimized"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --sourceMap --validate --optimize"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"npm run asbuild:untouched &amp;amp;&amp;amp; npm run asbuild:optimized"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The top-level &lt;code&gt;index.js&lt;/code&gt; looks like this.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fs &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"fs"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; compiled &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; WebAssembly.&lt;/span&gt;&lt;span&gt;Module&lt;/span&gt;&lt;span&gt;(fs.&lt;/span&gt;&lt;span&gt;readFileSync&lt;/span&gt;&lt;span&gt;(__dirname &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"/build/optimized.wasm"&lt;/span&gt;&lt;span&gt;));&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; imports &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  env: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;abort&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;_msg&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;_file&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;line&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;column&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;       console.&lt;/span&gt;&lt;span&gt;error&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"abort called at index.ts:"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; line &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;":"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; column);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Object.&lt;/span&gt;&lt;span&gt;defineProperty&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;module&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;"exports"&lt;/span&gt;&lt;span&gt;, {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;get&lt;/span&gt;&lt;span&gt;: () &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; WebAssembly.&lt;/span&gt;&lt;span&gt;Instance&lt;/span&gt;&lt;span&gt;(compiled, imports).exports&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It allows us to easily
+&lt;a href="https://nodejs.org/api/modules.html#modules_require_id"&gt;require&lt;/a&gt; our
+WebAssembly module just like a plain JavaScript module.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;assembly&lt;/code&gt; directory contains our AssemblyScript source code. The generated
+example is a simple addition function.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;export&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;i32&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;b&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;i32&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;i32&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; b;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you expect the function signature to look like &lt;code&gt;add(a: number, b: number): number&lt;/code&gt;, as it would in TypeScript, the reason it uses &lt;code&gt;i32&lt;/code&gt; instead is that
+AssemblyScript uses WebAssembly’s &lt;a href="https://docs.assemblyscript.org/basics/types"&gt;specific integer and floating point
+types&lt;/a&gt; rather than TypeScript’s
+&lt;a href="https://www.typescriptlang.org/docs/handbook/basic-types.html#number"&gt;generic&lt;/a&gt;
+&lt;code&gt;[number](https://www.typescriptlang.org/docs/handbook/basic-types.html#number)&lt;/code&gt;
+&lt;a href="https://www.typescriptlang.org/docs/handbook/basic-types.html#number"&gt;type.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Let’s build the example.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;npm run asbuild&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;build&lt;/code&gt; directory should now include the following files.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;optimized.wasm&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;optimized.wasm.map&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;optimized.wat&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;untouched.wasm&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;untouched.wasm.map&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;untouched.wat&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We get plain and optimized versions of the build. For each build version, we get
+a &lt;code&gt;.wasm&lt;/code&gt; binary, a &lt;code&gt;.wasm.map&lt;/code&gt; &lt;a href="https://developer.mozilla.org/en-US/docs/Tools/Debugger/How_to/Use_a_source_map"&gt;source
+map&lt;/a&gt;,
+and a &lt;code&gt;.wat&lt;/code&gt; textual representation of the binary. The textual representation is
+designed to be readable by humans, but for our purposes, we don’t need to read
+or understand it. Part of the point of using AssemblyScript is that we don’t
+need to work with raw WebAssembly.&lt;/p&gt;
+&lt;p&gt;Fire up Node, and use our compiled module just like any other module.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;$ node&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Welcome to Node.js v12.10.0.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Type &lt;/span&gt;&lt;span&gt;".help"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; more information.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; const add = require(&lt;/span&gt;&lt;span&gt;'./index'&lt;/span&gt;&lt;span&gt;).add&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;undefined&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;span&gt; add(3, 5)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;8&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that’s all it took to call WebAssembly from Node!&lt;/p&gt;
+&lt;h2 id="add-a-watch-script"&gt;Add a Watch Script&lt;a class="anchor" href="#add-a-watch-script"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For development, I recommend using &lt;a href="https://github.com/Qard/onchange"&gt;onchange&lt;/a&gt;
+to automatically rebuild the module whenever you change the source code because
+AssemblyScript &lt;a href="https://github.com/AssemblyScript/assemblyscript/issues/624"&gt;doesn’t include a watch
+mode&lt;/a&gt; yet.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;npm install --save-dev onchange&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Add an &lt;code&gt;asbuild:watch&lt;/code&gt; script to &lt;code&gt;package.json&lt;/code&gt;. Include the &lt;code&gt;-i&lt;/code&gt;
+&lt;a href="https://github.com/Qard/onchange#initial--i---initial"&gt;flag&lt;/a&gt; to run an initial
+build as soon as you run the command.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;"scripts"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild:untouched"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --validate --debug"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild:optimized"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --sourceMap --validate --optimize"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"npm run asbuild:untouched &amp;amp;&amp;amp; npm run asbuild:optimized"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"asbuild:watch"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"onchange -i 'assembly/**/*' -- npm run asbuild"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now you can run &lt;code&gt;asbuild:watch&lt;/code&gt; instead of having to constantly re-run
+&lt;code&gt;asbuild&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="performance"&gt;Performance&lt;a class="anchor" href="#performance"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let’s write a basic benchmark test to get an idea of what kind of performance
+boost we can get. WebAssembly’s specialty is handling CPU-intensive tasks like
+numerical calculations, so let’s go with a function for determining if an
+integer is a prime number or not. Our reference implementation looks like this.
+It’s a naive, brute force solution because our goal is to perform a high number
+of calculations.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;isPrime&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (x &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; x; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (x &lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The equivalent AssemblyScript version just needs some type annotations.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;isPrime&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;u32&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;bool&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (x &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;u32&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; x; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (x &lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We’ll use &lt;a href="https://benchmarkjs.com/"&gt;Benchmark.js&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;npm install --save-dev benchmark&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create &lt;code&gt;benchmark.js&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; Benchmark &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'benchmark'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; assemblyScriptIsPrime &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'./index'&lt;/span&gt;&lt;span&gt;).isPrime;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;isPrime&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;x&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; x; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (x &lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; suite &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; Benchmark.Suite;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; startNumber &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; stopNumber &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;10000&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;suite.&lt;/span&gt;&lt;span&gt;add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'AssemblyScript isPrime'&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; startNumber; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; stopNumber; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;assemblyScriptIsPrime&lt;/span&gt;&lt;span&gt;(i);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}).&lt;/span&gt;&lt;span&gt;add&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'JavaScript isPrime'&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; i &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; startNumber; i &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; stopNumber; i&lt;/span&gt;&lt;span&gt;++&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;isPrime&lt;/span&gt;&lt;span&gt;(i);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}).&lt;/span&gt;&lt;span&gt;on&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'cycle'&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;String&lt;/span&gt;&lt;span&gt;(event.target));&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}).&lt;/span&gt;&lt;span&gt;on&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'complete'&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fastest &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;this&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;filter&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'fastest'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; slowest &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;this&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;filter&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'slowest'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; difference &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; (fastest.&lt;/span&gt;&lt;span&gt;map&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'hz'&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;-&lt;/span&gt;&lt;span&gt; slowest.&lt;/span&gt;&lt;span&gt;map&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'hz'&lt;/span&gt;&lt;span&gt;)) &lt;/span&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt; slowest.&lt;/span&gt;&lt;span&gt;map&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'hz'&lt;/span&gt;&lt;span&gt;) &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;100&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;`&lt;/span&gt;&lt;span&gt;${&lt;/span&gt;&lt;span&gt;fastest.&lt;/span&gt;&lt;span&gt;map&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'name'&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;span&gt; is ~&lt;/span&gt;&lt;span&gt;${&lt;/span&gt;&lt;span&gt;difference.&lt;/span&gt;&lt;span&gt;toFixed&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;span&gt;% faster.`&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}).&lt;/span&gt;&lt;span&gt;run&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;On my machine, I got these results when I ran &lt;code&gt;node benchmark&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;AssemblyScript isPrime x 74.00 ops/sec ±0.43% (76 runs sampled)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;JavaScript isPrime x 61.56 ops/sec ±0.30% (64 runs sampled)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;AssemblyScript isPrime is &lt;/span&gt;&lt;span&gt;~&lt;/span&gt;&lt;span&gt;20.2% faster.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that this test is a
+&lt;a href="https://stackoverflow.com/a/2842707/1481479"&gt;microbenchmark&lt;/a&gt;, and we should be
+careful about reading too much into it.&lt;/p&gt;
+&lt;p&gt;For some more involved AssemblyScript benchmarks, I recommend checking out &lt;a href="https://wasmboy.app/benchmark/"&gt;this
+WasmBoy benchmark&lt;/a&gt; and &lt;a href="https://jtiscione.github.io/webassembly-wave/index.html"&gt;this wave equation
+benchmark&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="loading-the-module"&gt;Loading the Module&lt;a class="anchor" href="#loading-the-module"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Next, let’s use our module in a website. Create &lt;code&gt;index.html&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;!&lt;/span&gt;&lt;span&gt;DOCTYPE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;charset&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"utf-8"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;AssemblyScript isPrime demo&amp;lt;/&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;/&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"prime-checker"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &amp;lt;&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"number"&lt;/span&gt;&lt;span&gt;&amp;gt;Enter a number to check if it is prime:&amp;lt;/&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &amp;lt;&lt;/span&gt;&lt;span&gt;input&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"number"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"number"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &amp;lt;&lt;/span&gt;&lt;span&gt;button&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"submit"&lt;/span&gt;&lt;span&gt;&amp;gt;Submit&amp;lt;/&lt;/span&gt;&lt;span&gt;button&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;/&lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"result"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;script&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"demo.js"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;script&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;/&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Create &lt;code&gt;demo.js&lt;/code&gt;. There are &lt;a href="https://developers.google.com/web/updates/2018/04/loading-wasm"&gt;multiple
+ways&lt;/a&gt; to load
+WebAssembly modules, but the most efficient is to compile and instantiate them
+in a streaming manner with the
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiateStreaming"&gt;WebAssembly.instantiateStreaming&lt;/a&gt;
+function. Note that we need to &lt;a href="https://docs.assemblyscript.org/details/debugging#overriding-abort"&gt;provide an abort
+function&lt;/a&gt;,
+which is called if an
+&lt;a href="https://docs.assemblyscript.org/basics/environment#utility"&gt;assertion&lt;/a&gt; fails.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;async&lt;/span&gt;&lt;span&gt; () &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; importObject &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        env: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;abort&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;_msg&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;_file&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;line&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;column&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;                console.&lt;/span&gt;&lt;span&gt;error&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"abort called at index.ts:"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; line &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;":"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; column);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    };&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; module &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; WebAssembly.&lt;/span&gt;&lt;span&gt;instantiateStreaming&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;fetch&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"build/optimized.wasm"&lt;/span&gt;&lt;span&gt;),&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        importObject&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    );&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; isPrime &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;module&lt;/span&gt;&lt;span&gt;.instance.exports.isPrime;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; result &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; document.&lt;/span&gt;&lt;span&gt;querySelector&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"#result"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;querySelector&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"#prime-checker"&lt;/span&gt;&lt;span&gt;).&lt;/span&gt;&lt;span&gt;addEventListener&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"submit"&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        event.&lt;/span&gt;&lt;span&gt;preventDefault&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        result.innerText &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; event.target.elements.number.value;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        result.innerText &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;`&lt;/span&gt;&lt;span&gt;${&lt;/span&gt;&lt;span&gt;number&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;span&gt; is &lt;/span&gt;&lt;span&gt;${&lt;/span&gt;&lt;span&gt;isPrime&lt;/span&gt;&lt;span&gt;(number) &lt;/span&gt;&lt;span&gt;?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;''&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'not '&lt;/span&gt;&lt;span&gt;}&lt;/span&gt;&lt;span&gt;prime.`&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;})();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now install &lt;a href="https://github.com/nbluis/static-server"&gt;static-server&lt;/a&gt;. We need a
+server because in order to use &lt;code&gt;WebAssembly.instantiateStreaming&lt;/code&gt;, the module
+needs to be served with a &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types"&gt;MIME
+type&lt;/a&gt;
+of &lt;code&gt;application/wasm&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;npm install --save-dev static-server&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Add a script to &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;"scripts"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"serve-demo"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"static-server"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Run &lt;code&gt;npm run serve-demo&lt;/code&gt; and open the localhost URL in a browser. Submit a
+number in the form, and you should get a message indicating whether the number
+is prime or not. Now we’ve gone all the way from writing AssemblyScript to
+actually using it in a website.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;WebAssembly, and by extension AssemblyScript, is not going to magically make
+every website faster, but that was never the point. WebAssembly is exciting
+because it can make the web viable for a much larger set of applications.&lt;/p&gt;
+&lt;p&gt;Similarly, AssemblyScript makes WebAssembly accessible for more developers,
+making it easy for us to stick with JavaScript by default but bring in
+WebAssembly when we have work that requires lots of number crunching.&lt;/p&gt;
+    &lt;/article&gt;</description><guid isPermaLink="true">https://www.dannyguo.com/blog/the-introductory-guide-to-assemblyscript</guid><pubDate>Fri, 22 Nov 2019 00:00:00 GMT</pubDate></item><item><title>The History and Legacy of jQuery</title><link>https://blog.logrocket.com/the-history-and-legacy-of-jquery/</link><description>&lt;article&gt;
         &lt;h1&gt;The History and Legacy of jQuery&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
