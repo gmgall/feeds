@@ -1,8 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 07 Jul 2023 01:05:59 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — paramotor</title><link>https://ctrl-c.club/~gome/journal/paramotor.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 07 Jul 2023 06:15:09 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — webjam</title><link>https://ctrl-c.club/~gome/journal/webjam.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I’m putting on a Jam&lt;/h1&gt;
+      &lt;time datetime="Thu, 6 Jul 2023 22:30:00 CDT"&gt;6 Jul 2023, 10:30 PM&lt;/time&gt;
+      &lt;p class="note"&gt;
+        Link to the Jam:
+      &lt;/p&gt;
+      &lt;a class="library-link" href="../library/webjam"&gt;
+        &lt;svg width="24" height="24" class="icon stop-2"&gt;&lt;/svg&gt;
+        &lt;h3&gt;Ctrl-C Webpage Jam&lt;/h3&gt;
+        &lt;p&gt;Build on your user site!&lt;/p&gt;
+      &lt;/a&gt;
+      &lt;p&gt;
+        It’s been a little while since I last posted.
+        Over the last month, I spent some time putting together my &lt;a href="../library/journal-index.html"&gt;journal index&lt;/a&gt;, which categorizes my posts up to now.
+        Hopefully, it will be a more personal &amp;amp; usable alternative to having a search feature for my posts.
+        I’ve also been playing a lot of &lt;a href="exploration.html"&gt;&lt;i&gt;Tears of the Kingdom&lt;/i&gt;&lt;/a&gt; and having a blast with it.
+      &lt;/p&gt;&lt;p&gt;
+        My occasion for writing today is an upcoming event I’m hosting for the &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt; server community.
+        Ctrl-C has been a wonderful online home for me over the past year and a half.
+        I love having this easy-going and friendly group of computer tinkerers to share a website with.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/neo.webp" width="785" height="416"&gt;
+        &lt;figcaption&gt;&lt;a href="https://ctrl-c.club/~neo"&gt;~neo&lt;/a&gt;’s Ctrl-C site&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Ctrl-C is just one of a constellation of “&lt;a href="https://tildeverse.org/"&gt;tilde servers&lt;/a&gt;”, public Unix servers that give away free shell accounts to users.
+        The first contemporary tilde server was started by a guy named Paul Ford in 2014.
+        In his &lt;a href="https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf"&gt;post&lt;/a&gt; describing the founding of &lt;a href="http://tilde.club/"&gt;tilde.club&lt;/a&gt;, he has a great paragraph about what he loves about the project:
+      &lt;/p&gt;&lt;blockquote&gt;
+        I’d taken this thing on myself and was paying to keep it going. But look at it another way: I was getting paid in web pages. I am a man who loves web pages. Not an activity feed, not structured tweets or organized blog posts, no brand messages, just pure raw weird signal. Like walking down a street in a new city at night and seeing all the signs, blinking and bright and in languages you don’t quite understand.
+      &lt;/blockquote&gt;&lt;p&gt;
+        This is the best description I’ve found of what personally appeals to me about Ctrl-C.
+        I love the creative potential of web pages, and I love to see people expressing their own personal flare with the medium.
+        Gomepage is my own serious attempt to create a webpage as personal expression.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve seen some great user pages on Ctrl-C.
+        There are too many to name, but just a few I find especially fun include &lt;a href="https://ctrl-c.club/~pgadey"&gt;~pgadey&lt;/a&gt;, &lt;a href="https://ctrl-c.club/~neo"&gt;~neo&lt;/a&gt;, and &lt;a href="https://ctrl-c.club/~megymagy"&gt;~megymagy&lt;/a&gt;.
+        But I want more.
+        I want more novel HTML creations, especially from some of the many users who simply have a “Hello World”, “Coming Soon”, or “Under Construction” as their only sign of life.
+      &lt;/p&gt;&lt;p&gt;
+        So with that in mind, I decided to put on an event to encourage the Ctrl-C I want to see.
+        The details are available on the &lt;a href="../library/webjam"&gt;main page for the event&lt;/a&gt;.
+        If you are a Ctrl-C user, I encourage you to join us and build something wonderful!
+      &lt;/p&gt;&lt;p&gt;
+        For a while now, I’ve wanted to make some durable contribution to the larger Ctrl-C community.
+        I’m not as handy at scripting as some of the other users, and I usually abandon programming projects, so I haven’t managed to make a contribution of code.
+        Maybe I’ll run this event annually, and that will be my way of helping build up the culture of this server.
+      &lt;/p&gt;&lt;p&gt;
+        Do you love reading personal web pages?
+        Do you have a personal site of your own?
+        Are you a member of a tilde server?
+        Have you ever participated in a jam of any kind?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam.html</guid></item><item><title>gome — paramotor</title><link>https://ctrl-c.club/~gome/journal/paramotor.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Have you heard of paramotors?&lt;/h1&gt;
-      &lt;time datetime="Thu, 8 Jun 2023 22:30:00 CDT"&gt;6 Jun 2023, 8:30 PM&lt;/time&gt;
+      &lt;time datetime="Thu, 8 Jun 2023 22:30:00 CDT"&gt;8 Jun 2023, 8:30 PM&lt;/time&gt;
       &lt;div class="note"&gt;
         &lt;p&gt;
           After this post, I’m planning to stop posting for a while.
