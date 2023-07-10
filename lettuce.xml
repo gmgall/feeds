@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 10 Jul 2023 06:15:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 10 Jul 2023 12:22:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-start.html</title><link>https://ctrl-c.club/~lettuce/old-computer-start.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 day 1&lt;/h1&gt;
+
+&lt;p&gt;2023-07-10&lt;/p&gt;
+
+&lt;p&gt;Today I'm starting Solene's Old Computer Challenge V3. This is the 3rd year she's run it, but the first time I'm participating. The main idea the first year was to use an actual old computer, and she gave some specs. The second year she limited her internet. This year she suggested if you use a modern computer to limit the cores, speed, etc.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="gemini://perso.pw/blog//articles/old-computer-challenge-v3-part1.html"&gt;Old Computer Challenge V3 Part 1 (Solene)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm using a Chip Computer, originally from Next Thing Co, RIP. &lt;/p&gt;
+
+&lt;p&gt;The Chip I'm using was sent to me compliments of winduptoy (THANK YOU!) about a year ago, and it's taken me this long to use it. I have a specific project in mind, and I hope this week will be a good test to show this thing works, and then I can use it for the project.&lt;/p&gt;
+
+&lt;p&gt;First I tried using my old PocketChip, a handheld device with the Chip computer. Next Thing Co folded back in 2016 or 2017 I believe, and the servers are down, and it's really hard to find and flash the original OS. I didn't feel like doing all that. I booted up my old PocketChip and it was half functional, like the screen was a bit out of wack, not displaying my icons correctly. Then I tried my old Raspberry PI 1B but when I tried to download void linux for that pi to a SD card I ran out of space. I'll have to hunt for a larger SD card another time.&lt;/p&gt;
+
+&lt;p&gt;OK, so that brings me back to this additional Chip computer sent by winduptoy. He had warned I'd have to flash it. When I tried plugging into a monitor, I couldn't get it to boot. I suspect a power issue. I powered it through a usb phone hub, but i remember this thing being finicky back in 2016 when I taught some workshops with the Chip. Next I pulled my old Chip out of the back of the PocketChip case and placed this Chip computer and pressed the bottom center button to power it on. I saw a light go on, a delay, and then wow, it turned on! I see the Debian bootup logo and maybe 30 seconds later I'm in.&lt;/p&gt;
+
+&lt;p&gt;I used my phone just once, to search for and find the default name and password. Thankfully, it worked. winduptoy had loaded Debian Buster. I'm very familiar with Debian/*Buntu's so I set up internet:&lt;/p&gt;
+
+&lt;p&gt;sudo nmcli device wifi connect NETWORK_ID password PASSWORD&lt;/p&gt;
+
+&lt;p&gt;Then I sudo apt updated&lt;/p&gt;
+
+&lt;p&gt;I downloaded man-doc since I didn't have the man pages, git and neovim. Then I downloaded fish shell, tldr and the gemini and http browser offpunk and w3m and links.&lt;/p&gt;
+
+&lt;p&gt;sudo apt install git man w3m links fish tldr neovim&lt;/p&gt;
+
+&lt;p&gt;git clone https://git.sr.ht/~lioploum/offpunk/&lt;/p&gt;
+
+&lt;p&gt;I also git cloned my dotfiles which has a number of fish functions I like, and my gemini log so I could start writing this.&lt;/p&gt;
+
+&lt;p&gt;I don't miss the old GUI PocketChip software. I'm sure I could just download another GUI anyway, probably, though I don't know if the touchscreen is easy to set up. We'll see about that later. Right now, I have a Dvorak default keyboard plugged in (DigiPlanet), which is perfect for times like this. The command line is plenty fast enough on this 7 year old computer, except that sometimes compiling takes a minute or two, so I have a book open next to me since I can't just open another tab and keep going.&lt;/p&gt;
+
+&lt;p&gt;One annoying thing, I usually use the CAPS LOCK key as escape, so I am accidentally hitting it. Unfortunately, that causes the keyboard or computer to freeze and I have to force a hard shutdown with the power button when it happens. Thankfully neovim/vim autosaves to swap. I set fish as my default shell: chsh -s /usr/bin/fish&lt;/p&gt;
+
+&lt;p&gt;That's it for set-up. I'm off and running. I have some web browsers, git, text editors and I think I'm good with that for now. We'll see how the week goes. I'll report back later in the week how it's going.&lt;/p&gt;
+
+--- 
+
+&lt;p&gt;To leave a comment email lettuce at the ctrl-c club domain with the word Comment in the subject and the name of the post. Please list the name that should be listed.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/old-computer-start.html</guid><pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate></item><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
 
 &lt;p&gt;2023-07-02&lt;/p&gt;
 
@@ -3769,98 +3810,4 @@ git  remote add origin git-user@server:my-project
 &lt;p&gt;---&lt;/p&gt;
 &lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/collectives.html</guid><pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate></item><item><title>smol-browsers.html</title><link>https://ctrl-c.club/~lettuce/smol-browsers.html</link><description>&lt;div&gt;&lt;h1&gt;Recommendations for small, fast, minimalistic browser clients&lt;/h1&gt;
-
-*update 2021-08-09: added links2*
-
-&lt;p&gt;2021-08-08&lt;/p&gt;
-
-&lt;p&gt;Do you love Gemini and want a similar minimalistic blazing fast reading experience for the web without ads and a bunch of other cruft?&lt;/p&gt;
-
-&lt;p&gt;Here are a few minimal browsers to try.&lt;/p&gt;
-
-&lt;p&gt;Caveats: I'm trying this on my own system: Ubuntu 18.04 LTS and iOS 14. I particularly love: fast loading, good default settings, intuitive controls, fast pageviews, and Vim-keys mode.&lt;/p&gt;
-
-&lt;p&gt;From the following list, here's what I personally use:&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;w3m for CLI web client&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;qutebrowser or falkon on laptop &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;firefox when I need a 'regular' browser;&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;violoncello for text-mode browser client on iOS, or Firefox Focus for mostly full-featured&lt;/li&gt;&lt;/ul&gt;
-
-&lt;h2&gt;Text&lt;/h2&gt;
-
-&lt;p&gt;I love the amfora client for Gemini. It's fast, intuitive and can be controlled in Vim-mode. So I compare all text internet browsers to amfora.&lt;/p&gt;
-
-&lt;h3&gt;w3m&lt;/h3&gt;
-
-&lt;p&gt;I use it and like it. Fast. Good color scheme. Vim-mode works by default. Easy to navigate. If you use w3m-gui mode on supporting terminal (Terminology) you can even have embedded images inside the Terminal! Need a text-mode http client? Use this one.&lt;/p&gt;
-
-&lt;h3&gt;Links&lt;/h3&gt;
-
-&lt;p&gt;I don't use it. Minimal text web client. No colorscheme. Arrow keys work fine. Ultra fast but due to lack of color can be hard to distinguish content sections. &lt;/p&gt;
-
-&lt;h3&gt;Lynx&lt;/h3&gt;
-
-&lt;p&gt;I don't like it. PROS: color scheme is on by default. CONS: Everything else. SLOW! Every time I launch it I have to turn Vi-keys back on. It interrupts every few seconds to ask if I want to approve every. single. cookie. So I have to turn all cookies on or off in the preferences each time I launch it to avoid this. At least colorscheme works well by default, but I find the controls unintuitive. Then I click escape to get to the preferences and see that I can toggle between Novice-Intermediate-Advanced modes, plus a million other controls. Even with Vi-mode I don't have gg or G, so basically, I don't like the out-of-the-box experience and haven't been willing to wade through configuring it. &lt;/p&gt;
-
-&lt;h3&gt;Links2&lt;/h3&gt;
-
-&lt;p&gt;This was a suggestion of Kelbot. It's almost as good as w3m! By default I'm finding the color black, but it's very easy to navigate with keys or menus, is easy to read, and is very fast. Recommended. I tested it on the CLI on my iPhone and found it pretty usable.&lt;/p&gt;
-
-&lt;h2&gt;GUI&lt;/h2&gt;
-
-&lt;h3&gt;Kristall&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://kristall.random-projects.net/"&gt;Kristall browser/client&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;It's made for Gemini but can also load markdown, gopher, http, finger....It's fast. You can create your own simple stylesheet. Recommended. I like it but rarely use it.&lt;/p&gt;
-
-&lt;h3&gt;Falkon&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://www.falkon.org/"&gt;Falkon browser client&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast! Looks like a 'real' browser. Loads quickly and navigates easily. Aesthetics get out of the way and just let me do my own thing. I just learned about it recently but I really like it so far.&lt;/p&gt;
-
-&lt;h3&gt;surf&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://surf.suckless.org/"&gt;surf&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Incredibly fast. Works okay even in tiny window. No JS. No tabs. Not much to it. Suckless software. Launched from CLI. I use it (since it's the default) on my PocketChip computer.&lt;/p&gt;
-
-&lt;h3&gt;Dillo&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://www.dillo.org/"&gt;Dillo&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast. A little clunky. Has an early 90s interface aesthetic, which makes sense since it was started in 1999. Allows HTML, some CSS, no javascript. Features bookmarks, tabs and support for images. Some pages are rendered a bit funky. Built on GTK.&lt;/p&gt;
-
-&lt;h3&gt;qutebrowser&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://qutebrowser.org/"&gt;qutebrowser&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Fast. Feels pretty full-featured. Keyboard-driven (vim-like). qt-webkit and qt-webengine. &lt;/p&gt;
-
-&lt;h2&gt;Mobile&lt;/h2&gt;
-
-&lt;h3&gt;Violoncello (iOS and Android)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://play.google.com/store/apps/details?id=com.tectrasystems.violoncello"&gt;violoncello on google play store&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://apps.apple.com/us/app/violoncello/id1568931107"&gt;Violoncello on iOS app store&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I use it! Free. Or pay $1 to be able to change font, background color and text color (that's it).&lt;/p&gt;
-
-&lt;p&gt;This app is only a month old. It works well. It's lightning fast. It's more than just a readability clone but I'm not sure how exactly. Maybe it just renders HTML and some light readability overlay. Anyway, I like reading with it.&lt;/p&gt;
-
-&lt;h2&gt;Other&lt;/h2&gt;
-
-&lt;h3&gt;Rhapsode (Voice User Interface client)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://rhapsode.adrian.geek.nz/"&gt;Rhapsode client&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A voice-controlled browser for the web. I have no experience using this.&lt;/p&gt;
-
-&lt;p&gt;If you have other suggestions or comments my contact info is on my index.html page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/smol-browsers.html</guid><pubDate>Sun, 08 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/collectives.html</guid><pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
