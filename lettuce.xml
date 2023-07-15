@@ -1,46 +1,293 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Fri, 14 Jul 2023 18:13:50 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-start.html</title><link>https://ctrl-c.club/~lettuce/old-computer-start.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 day 1&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sat, 15 Jul 2023 01:03:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>void-pi.html</title><link>https://ctrl-c.club/~lettuce/void-pi.html</link><description>&lt;div&gt;&lt;h1&gt;Setting up void linux on an old raspberry pi&lt;/h1&gt;
 
-&lt;p&gt;2023-07-10&lt;/p&gt;
+&lt;p&gt;2023-07-14&lt;/p&gt;
 
-&lt;p&gt;Today I'm starting Solene's Old Computer Challenge V3. This is the 3rd year she's run it, but the first time I'm participating. The main idea the first year was to use an actual old computer, and she gave some specs. The second year she limited her internet. This year she suggested if you use a modern computer to limit the cores, speed, etc.&lt;/p&gt;
+&lt;p&gt;In this tutorial I walk-through how I set up void linux on an old 2013 Raspberry Pi 1B, then installed a GUI and configured it with i3 window manager, and the basic software I use. A follow-up post will be on my experience using this set-up for the Old Computer Challenge V3. I had originally started using a Chip computer but I rendered it unworkable earlier in the week so pulled out this old Pi I had. &lt;/p&gt;
+
+&lt;p&gt;I did not set up wifi or a wifi card but instead just plugged the device directly into ethernet, which simplified my setup a bit. Note: I'm not an expert, just an ambitious coder-tinkerer. Directions may not work for everyone nor in all situations. You'll likely need ingenuity to solve challenges, and things could diverge from what I describe here. Follow at your own risk.&lt;/p&gt;
+
+&lt;h3&gt;Downloading the system and preparing the SD card&lt;/h3&gt;
+
+&lt;p&gt;Download current Void linux Raspberry Pi. &lt;/p&gt;
+
+&lt;p&gt;I have a Raspberry Pi 1B that I bought in 2013 or 2014. So I checked the wiki and then downloaded the armv6l image.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://docs.voidlinux.org/installation/guides/arm-devices/platforms.html"&gt;Void Linux - Supported Platforms - Raspberry Pi&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://voidlinux.org/download"&gt;Void Linux downloads&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The current image is 2.1GB so you'll want at least a 4GB SD card (that's what I used).&lt;/p&gt;
+
+&lt;p&gt;Attach the SD card to your main computer. Format it. Then use dd to write the Iso you just downloaded to the SD card. Make sure you're writing to the correct SD card. You can check various ways, including just by opening your file system. On my computer it was sdb.&lt;/p&gt;
+
+&lt;pre&gt;
+dd if=void-rpi3-*.img of=/dev/sdb bs=4M status=progress
+&lt;/pre&gt;
+
+&lt;p&gt;The * will be replaced with the correct downloaded image name.&lt;/p&gt;
+
+&lt;p&gt;When it finishes writing the SD card, unmount/eject from your computer.&lt;/p&gt;
+
+&lt;h3&gt;Connecting it all&lt;/h3&gt;
+
+&lt;p&gt;Now with your Raspberry Pi in hand push the SD card firmly into the slot. Attach keyboard, mouse, hdmi cable (or S-video cable) and connect to power. &lt;/p&gt;
+
+&lt;p&gt;Easiest way to get internet. Plug a cat5 Ethernet cable right in that thing.&lt;/p&gt;
+
+&lt;h3&gt;Setting it up&lt;/h3&gt;
+
+&lt;p&gt;If all goes well you'll see void linux booting up. &lt;/p&gt;
+
+&lt;p&gt;When you get to login&lt;/p&gt;
+&lt;p&gt;name: root&lt;/p&gt;
+&lt;p&gt;password: voidlinux&lt;/p&gt;
+
+&lt;p&gt;You'll be dropped into the shell prompt (with #):&lt;/p&gt;
+
+&lt;p&gt;We won't be able to download anything because the internal clock thinks it's January 1, 1970. So first thing was I set the clock:&lt;/p&gt;
+
+&lt;pre&gt;
+date -s "14 July 2023 18:00:00"
+&lt;/pre&gt;
+
+&lt;p&gt;Set to your correct date and time.&lt;/p&gt;
+
+&lt;p&gt;Update xbps itself. First I tried running sudo xbps-install -Suv but it prompted me to update xbps first. It gave me the command and I ran it and forget but I think that was sudo xbps-install -u&lt;/p&gt;
+
+&lt;p&gt;Afterwards, I ran a general update all:&lt;/p&gt;
+
+&lt;pre&gt;
+sudo xbps-install -Suv
+&lt;/pre&gt;
+
+&lt;h3&gt;Then set up a user and proceed to install your needed programs&lt;/h3&gt;
+
+&lt;pre&gt;
+# useradd -m voidpi
+# passwd voidpi
+...  â here you enter the password for the new "voidpi" account
+&lt;/pre&gt;
+
+&lt;p&gt;This and additional info I found on the Void FAQ.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://wiki.voidlinux.org/voidlinux_en_all_2021-04/A/Frequently_Asked_Questions"&gt;Void Linux FAQ&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now let's add voidpi to the sudo'ers&lt;/p&gt;
+
+&lt;pre&gt;
+visudo
+&lt;/pre&gt;
+
+&lt;p&gt;This opened the sudo'ers file with vi on my machine. I hope you can use vi! Otherwise you should install nano first and set that as your editor. Anyway, assuming you open it in vi navigate down with the arrow keys or j for example. Navigate down to the line immediately following ## Uncomment to allow members of group wheel to execute any command.&lt;/p&gt;
+&lt;p&gt;Press x once to remove the # and then again to remove the space (i'm not sure if that's necessary to remove the space, but I did in case it is).&lt;/p&gt;
+
+&lt;p&gt;Quit by pressing&lt;/p&gt;
+&lt;p&gt;Escape. Then colon-q-w like this  :qw&lt;/p&gt;
 
 
-&lt;p&gt;&lt;a href="gemini://perso.pw/blog//articles/old-computer-challenge-v3-part1.html"&gt;Old Computer Challenge V3 Part 1 (Solene)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the command line, let's add our new voidpi user to the wheel group.&lt;/p&gt;
 
-&lt;p&gt;I'm using a Chip Computer, originally from Next Thing Co, RIP. &lt;/p&gt;
+&lt;pre&gt;
+sudo usermod -aG wheel voidpi
+&lt;/pre&gt;
 
-&lt;p&gt;The Chip I'm using was sent to me compliments of winduptoy (THANK YOU!) about a year ago, and it's taken me this long to use it. I have a specific project in mind, and I hope this week will be a good test to show this thing works, and then I can use it for the project.&lt;/p&gt;
+&lt;h3&gt;Log in as your new user&lt;/h3&gt;
 
-&lt;p&gt;First I tried using my old PocketChip, a handheld device with the Chip computer. Next Thing Co folded back in 2016 or 2017 I believe, and the servers are down, and it's really hard to find and flash the original OS. I didn't feel like doing all that. I booted up my old PocketChip and it was half functional, like the screen was a bit out of wack, not displaying my icons correctly. Then I tried my old Raspberry PI 1B but when I tried to download void linux for that pi to a SD card I ran out of space. I'll have to hunt for a larger SD card another time.&lt;/p&gt;
+&lt;p&gt;Type exit and hit enter.&lt;/p&gt;
 
-&lt;p&gt;OK, so that brings me back to this additional Chip computer sent by winduptoy. He had warned I'd have to flash it. When I tried plugging into a monitor, I couldn't get it to boot. I suspect a power issue. I powered it through a usb phone hub, but i remember this thing being finicky back in 2016 when I taught some workshops with the Chip. Next I pulled my old Chip out of the back of the PocketChip case and placed this Chip computer and pressed the bottom center button to power it on. I saw a light go on, a delay, and then wow, it turned on! I see the Debian bootup logo and maybe 30 seconds later I'm in.&lt;/p&gt;
+&lt;p&gt;Now log in as your new username and password.&lt;/p&gt;
 
-&lt;p&gt;I used my phone just once, to search for and find the default name and password. Thankfully, it worked. winduptoy had loaded Debian Buster. I'm very familiar with Debian/*Buntu's so I set up internet:&lt;/p&gt;
+&lt;pre&gt;
+sudo xbps-install vpm
+&lt;/pre&gt;
 
-&lt;p&gt;sudo nmcli device wifi connect NETWORK_ID password PASSWORD&lt;/p&gt;
+&lt;p&gt;I use vpm instead of xbps because it's easier for me to remember than all the xbps commands and easier to type and feels more intuitive, like apt was on debian.&lt;/p&gt;
 
-&lt;p&gt;Then I sudo apt updated&lt;/p&gt;
+&lt;p&gt;I use the non-free repos as well, so let's install that.&lt;/p&gt;
 
-&lt;p&gt;I downloaded man-doc since I didn't have the man pages, git and neovim. Then I downloaded fish shell, tldr and the gemini and http browser offpunk and w3m and links.&lt;/p&gt;
+&lt;pre&gt;
+sudo vpm install void-repo-nonfree 
+&lt;/pre&gt;
 
-&lt;p&gt;sudo apt install git man w3m links fish tldr neovim&lt;/p&gt;
+&lt;p&gt;I installed a bunch of programs I use.&lt;/p&gt;
 
-&lt;p&gt;git clone https://git.sr.ht/~lioploum/offpunk/&lt;/p&gt;
+&lt;pre&gt;
+sudo vpm install links git w3m fff nnn curl neofetch ImageMagick fish-shell
+&lt;/pre&gt;
 
-&lt;p&gt;I also git cloned my dotfiles which has a number of fish functions I like, and my gemini log so I could start writing this.&lt;/p&gt;
+&lt;p&gt;That was less than 100mb for me, but maybe that's too much for you. Install what you want.&lt;/p&gt;
 
-&lt;p&gt;I don't miss the old GUI PocketChip software. I'm sure I could just download another GUI anyway, probably, though I don't know if the touchscreen is easy to set up. We'll see about that later. Right now, I have a Dvorak default keyboard plugged in (DigiPlanet), which is perfect for times like this. The command line is plenty fast enough on this 7 year old computer, except that sometimes compiling takes a minute or two, so I have a book open next to me since I can't just open another tab and keep going.&lt;/p&gt;
+&lt;h3&gt;Changing to fish shell&lt;/h3&gt;
 
-&lt;p&gt;One annoying thing, I usually use the CAPS LOCK key as escape, so I am accidentally hitting it. Unfortunately, that causes the keyboard or computer to freeze and I have to force a hard shutdown with the power button when it happens. Thankfully neovim/vim autosaves to swap. I set fish as my default shell: chsh -s /usr/bin/fish&lt;/p&gt;
+&lt;p&gt;I prefer fish to dash or bash.&lt;/p&gt;
 
-&lt;p&gt;That's it for set-up. I'm off and running. I have some web browsers, git, text editors and I think I'm good with that for now. We'll see how the week goes. I'll report back later in the week how it's going.&lt;/p&gt;
+&lt;pre&gt;
+chsh -s /usr/bin/fish
+&lt;/pre&gt;
+
+&lt;p&gt;Let's fix the clock since there's no hardware clock on the Raspberry Pi 1. Install chrony and enable the service in runit.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install chrony
+sudo ln -s /etc/sv/chronyd /var/service
+&lt;/pre&gt;
+
+&lt;p&gt;Then I restart&lt;/p&gt;
+
+&lt;pre&gt;
+sudo reboot
+&lt;/pre&gt;
+
+&lt;h3&gt;Install GUI&lt;/h3&gt;
+
+&lt;p&gt;I use the i3 window manager.&lt;/p&gt;
+
+&lt;p&gt;There are definitely tradeoffs to using a GUI on such an old underpowered computer. After this install I considered downgrading back to CLI only except that I liked having multiple screens with i3 and the Lagrange gemini client and photos.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install xorg xterm i3 i3status dmenu
+&lt;/pre&gt;
+
+&lt;p&gt;That was about ~170mb for me.&lt;/p&gt;
+
+&lt;p&gt;There are a few options, but first I chose to set up i3 to run manually:&lt;/p&gt;
+
+&lt;pre&gt;
+echo "exec i3" &amp;gt;&amp;gt; ~/.xinitrc
+&lt;/pre&gt;
+
+&lt;p&gt;To launch i3 manually, run &lt;/p&gt;
+
+&lt;pre&gt;
+startx
+&lt;/pre&gt;
+
+&lt;p&gt;The first time you run i3 it'll run the setup wizard. You choose the mod key. I use alt.&lt;/p&gt;
+
+&lt;p&gt;Going forward, perhaps we want the traditional login experience of starting at a login screen and booting into i3. To set this up with the minimal lightdm:&lt;/p&gt;
+
+&lt;pre&gt;
+sudo xbps-install -S lightdm lightdm-gtk3-greeter
+sudo ln -s /etc/sv/dbus /var/service/dbus
+sudo ln -s /etc/sv/lightdm /var/service/lightdm
+&lt;/pre&gt;
+
+&lt;p&gt;To launch a terminal Mod+Enter.&lt;/p&gt;
+
+&lt;p&gt;To open dmenu launcher, Mod+d.&lt;/p&gt;
+
+&lt;p&gt;To quit a program Mod+Shift+q.&lt;/p&gt;
+
+&lt;p&gt;To jump to another workspace, Mod+1 (or any other number key).&lt;/p&gt;
+
+&lt;p&gt;Read more about i3 in its documentation.&lt;/p&gt;
+
+&lt;h3&gt;Customize terminal&lt;/h3&gt;
+
+&lt;p&gt;i3's default terminal is UXterm. I also sometimes use xterm. &lt;/p&gt;
+
+&lt;p&gt;I downloaded the opendyslexic font.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install font-open-dyslexic-ttf
+&lt;/pre&gt;
+
+&lt;p&gt;You can search and find other fonts in the repos or install manually.&lt;/p&gt;
+
+&lt;p&gt;To see a list of your fonts:&lt;/p&gt;
+
+&lt;pre&gt;
+fc-list | col | sort | less
+&lt;/pre&gt;
+
+&lt;p&gt;Test out a font you installed, for example&lt;/p&gt;
+
+&lt;pre&gt;
+xterm -fa 'Liberation Mono' -fs 10
+&lt;/pre&gt;
+
+&lt;p&gt;Next I customized the Xterm and UXTerm defaults.&lt;/p&gt;
+
+&lt;pre&gt;
+vim ~/.Xdefaults
+&lt;/pre&gt;
+
+&lt;p&gt;I added these lines, to change the default font and size in both terminal. If you just use UXTerm then you only need those lines.&lt;/p&gt;
+
+&lt;pre&gt;
+XTerm*faceName: OpenDyslexicMono
+XTerm*faceSize: 12
+UXTerm*faceName: OpenDyslexicMono
+UXTerm*faceSize: 12
+&lt;/pre&gt;
+
+&lt;h3&gt;Web browsers&lt;/h3&gt;
+
+&lt;p&gt;Let's get some graphical software while we're at it. I don't want Chromium or Firefox because I think it'll be too slow and I have so little space left. So I'll download the minimal netsurf and dillo browsers.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install feh netsurf dillo
+&lt;/pre&gt;
+
+&lt;p&gt;To use netsurf:&lt;/p&gt;
+
+&lt;pre&gt;
+netsurf example.com
+&lt;/pre&gt;
+
+&lt;p&gt;Once netsurf has opened you can open the preferences and change your default home URL and the search engine. I changed to DuckDuckGo from Google. Now in the future I can launch it with dmenu.&lt;/p&gt;
+
+&lt;p&gt;Dillo can also be launched with dmenu. See which one you prefer.&lt;/p&gt;
+
+&lt;h3&gt;Mastodon&lt;/h3&gt;
+
+&lt;p&gt;I was able to login using brutaldon.org web client on netsurf, but not Dillo. But it was too slow to really browse.&lt;/p&gt;
+
+&lt;p&gt;So I downloaded toot which has the toot_cli login and a tui to browse Mastodon. But I can't see everyone's posts simultaneously and don't really like this, so I installed tootle GUI program.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install tootle
+&lt;/pre&gt;
+
+&lt;p&gt;To launch in dmenu it has a longer funny name com.bleakgrey.github.tootle. No matter, it works. It took me a few times to authorize (it launched my netsurf browser and had me login to my instance), but I eventually got it to work.&lt;/p&gt;
+
+&lt;h3&gt;Gemini clients&lt;/h3&gt;
+
+&lt;p&gt;I had already downloaded the tui gemini client amfora, but I needed to fix it so that amfora looks good. In UXTerm I couldn't make out any links numbers until I changed my color scheme. And since I am the creator of the slimey.toml theme for Amfora, I changed to that by modifying the theme at ~/.config/amfora/config.toml&lt;/p&gt;
+
+&lt;p&gt;I downloaded offpunk gemini client / web client.&lt;/p&gt;
+
+&lt;pre&gt;
+git clone https://git.sr.ht/~lioploum/offpunk
+&lt;/pre&gt;
+
+&lt;p&gt;I installed some optional add-ons, for ASCII rendering of images, and for improved readability.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo vpm install chafa
+sudo vpm install python3-readability-lxml
+&lt;/pre&gt;
+
+&lt;p&gt;There's also gplaces client, but full install was 40MB plus needing GCC to compile, another 160MB, wasn't worth it to me, so I didn't install it. If I had a much bigger SD card, I'd have tried it.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/dimkr/gplaces"&gt;gplaces client&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I tried installing Lagrange the GUI gemini client. I was shocked, first that it was only about 6MB, secondly at its speed on this old slow computer. Highly recommended. Worth running the GUI for this alone!&lt;/p&gt;
+
+&lt;p&gt;That's it for now. I'll add a follow-up post more about the actual experience running this system in the next couple days.&lt;/p&gt;
+
+&lt;p&gt;Check out my earlier post on trying the Old Computer Challenge.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="old-computer-start.html"&gt;Old Computer Challenge Day 1&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
 
 --- 
 
-&lt;p&gt;To leave a comment email lettuce at the ctrl-c club domain with the word Comment in the subject and the name of the post. Please list the name that should be listed.&lt;/p&gt;
+&lt;p&gt;To leave a comment, email lettuce at the ctrl-c.club domain and state comment and the post title in your subject. Please list your name you'd like credited for the comment.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/old-computer-start.html</guid><pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate></item><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/void-pi.html</guid><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate></item><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
 
 &lt;p&gt;2023-07-02&lt;/p&gt;
 
