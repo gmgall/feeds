@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 17 Jul 2023 06:16:20 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>void-pi.html</title><link>https://ctrl-c.club/~lettuce/void-pi.html</link><description>&lt;div&gt;&lt;h1&gt;Setting up void linux on an old raspberry pi&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 17 Jul 2023 12:24:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-recap.html</title><link>https://ctrl-c.club/~lettuce/old-computer-recap.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 Recap &lt;/h1&gt;
+
+&lt;p&gt;2023-07-17&lt;/p&gt;
+
+&lt;p&gt;This post is a recap of my week doing the Old Computer Challenge 2023 (v3). For context, see my earlier post from day 1, or Solene's original post about the idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="old-computer-start.html"&gt;Old Computer Challenge 2023 day 1  &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="gemini://perso.pw/blog//articles/old-computer-challenge-v3-part1.html"&gt;Old Computer Challenge V3 Part 1 (Solene)  &lt;/a&gt;&lt;/p&gt;
+
+
+---
+
+&lt;p&gt;As the week of the challenge comes to a close, I'm already feeling like I want to extend it, and I'm typing this on my 'old computer', so maybe that says something.&lt;/p&gt;
+
+&lt;p&gt;I thought about titling this post "Old Computer Challenge 2023: The Good, The Bad and The Ugly," and I can see how I'd break down this post into those three sections, and I have definitely jotted down some "uglies" that I'll mention.&lt;/p&gt;
+
+&lt;p&gt;I often work on my computer late at night, so on midnight of the first day of the challenge I pulled out a Chip computer and tried to fire it up and get it working. After some back-and-forth between that and my other Pocket CHIP computer, I eventually discovered that I could use the Chip computer inside the hull of my Pocket Chip case. I used this lightly for a few days, then messed the thing up when I tried to keep updating Debian. The process to re-flash the Chip computer is very convoluted. And though I'd love to walk through and get my Chip computers useable again, I didn't want to deal with that, so chose a different thing to try: I pulled out my old Raspberry Pi 1B computer from 2013 and decided to see if I could install Void Linux on it and run it for the week.&lt;/p&gt;
+
+&lt;p&gt;I found it pretty straightforward to install Void Linux since I've now done it many times on many systems. I wrote a tutorial on setting this up on the Pi that you can consult. I'll also mention that if you're already familiar with Void this Pi setup doesn't require you to walk through the void-installer setup system.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="void-pi.html"&gt;Setting Up Void Linux on an Old Raspberry&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Basically, unlike the Chip which had a distinct feel and operating system from my daily everyday laptop and my studio laptop, I now had yet another Void Linux setup with the i3 window manager. I think it's probably nice to have different systems and setups for different computers, but there is also clearly something to be said about having consistency. And because it was the same system I could really compare.&lt;/p&gt;
+
+&lt;p&gt;Out of the box Void on the Pi doesn't come with a GUI / X running. At first I installed my absolute basic needs, just a few programs like git and fish-shell, and I already had vi through busybox. I installed offpunk and amfora and w3m and links so I had a variety of text-based web browsers and gemini clients. And they all seemed to work fine and not much slower than my incredibly faster i7 laptop. Even startup of this old underpowered device went fast enough, maybe 10 seconds from power to the command line. I thought about basically just doing command line for the week. Beyond the above, it's now high summer and I use my bike to get around, and it's constantly alternating between high heat and rain this week, so checking the weather was very important to me! I can check the weather using curl wttr.in and I also installed ansiweather, or I can check the weather through Chilly Weather on gemini. I also installed Rogue, my favorite / most-consistent game that I have been playing for years, one of my fave games. &lt;/p&gt;
+
+&lt;p&gt;I read the news and kept up with blogs and gemini logs via offpunk and amfora. I prefer offpunk for http and amfora for gemini, so I kind of jump back and forth between the two. I've written about the gemi.dev domain and their great resources like NewsWaffle, so with this I was able to read the New York Times, which I read every day. I worked a little on editing some text, easy in Vim with github, so this was all pretty much the same for me as my regular everyday laptop. &lt;/p&gt;
+
+&lt;p&gt;But a day or two later I decided to do the full GUI setup. I wanted to use a full web browser and look at images. And that's when I added i3 and X to see what that was like. I immediately noticed a slower system, which makes sense. But this is when things started to become annoyingly slow. I didn't even bother with Chromium or Firefox as I knew it'd be painfully slow, so I installed dillo and netsurf as my GUI web browsers, and Lagrange as my GUI gemini client.&lt;/p&gt;
+
+&lt;p&gt;Even with mostly command line usage it was nice to now be able to have multiple workspaces open. In particular, toot tui command line Mastodon client isn't very pleasurable to use. I then downloaded w3m-img, which is the w3m command line browser with inline images added. I really like seeing everyone's posts in one screen at a time (I know it's "toot" but I can't bring myself to say it). toot tui I find hard and slow to read. w3m to view brutaldon.org client was maybe the best command line viewer of mastodon for me, but still hard to visually parse with my eyes. w3m-img was unfortunately too annoying as the pictures are all full-sized, so everyone's profile pic was huge, when I just wanted to ignore those. I installed Tootle, though it would occasionally quit and just seemed too slow and buggy for regular use. What I ended up doing was logging into the brutaldon.org web-based client with the netsurf web browser. It was slow to scroll, annoyingly so, but it works and let's me view many many posts at once, so I can quickly scan with my eyes, it's easy enough to read, and that's what works best for me.&lt;/p&gt;
+
+&lt;p&gt;I also wanted a desktop photo viewer! I installed feh, the basic image viewing program, and I also used it to set a background image for i3.&lt;/p&gt;
+
+&lt;p&gt;Writing this gemini log is easy and fast enough jut in vim, which I opted for instead of my normal neovim, just because vim is lighter weight on my tiny sd card. I tried using just busybox vi but I missed some of the keybindings I'm used to. Logging into Ctrl-c.club`s tilde server, and reading our messageboard, iris, of course was no problem.&lt;/p&gt;
+
+&lt;p&gt;Did I cheat? You bet. Especially at the beginning of the week, I was checking my work email and doing professional work on my regular laptop. Later in the week I experimented with doing some of my research work on the Pi, which went okay, though slowly. But there was an upside to that. I found that due to the time it took to look things up, it was harder to goof off on the Pi, and so I avoided social media except for approximately once-daily Mastodon check-ins. &lt;/p&gt;
+
+&lt;p&gt;The elephant in the room: I continued to use my phone this week for communication, maps, instagram. Probably would have been best to take a social media and phone break too, but I was too wedded to communicating with my partner and friends and family this way. And I'm performing in my city this week, so needed to spend some time promoting the gig on social media.&lt;/p&gt;
+
+&lt;p&gt;For entertainment, I wanted to play some games, and not just Rogue. I downloaded Pico-8, the raspberry pi edition, but I couldn't get it to run. It was built for Debian-based systems. However, I found that I could decipher what libraries were missing, and I downloaded and installed those directly via Raspberry Pi's firmware github repo.&lt;/p&gt;
+
+&lt;pre&gt;
+sudo wget https://github.com/raspberrypi/firmware/raw/master/opt/vc/lib/libbcm_host.so -P /usr/lib/
+sudo wget https://github.com/raspberrypi/firmware/raw/master/opt/vc/lib/libvchiq_arm.so -P /usr/lib/
+sudo wget https://github.com/raspberrypi/firmware/raw/master/opt/vc/lib/libvcos.so -P /usr/lib/
+&lt;/pre&gt;
+
+&lt;p&gt;Then run the Pico8 executable and it should now run on Void.&lt;/p&gt;
+
+&lt;p&gt;I launched it, smiling at my success. I have made a number of Pico8 games, and played many, for the past 7 years. On launch, Pico8 warned me that it would run at &amp;lt;30fps. I persisted anyway. I launched splore, the games browser, that lets you see games people have placed online. You can download or run them directly in the Pico8 program. Sure enough, games were a bit slower, especially the 3D ones, so I may stick more to the puzzle games, but still, it was fun and it's great this can work as a coding environment for making 2d games. I didn't need to do much web development work this week, but I think this could be tolerable if I'm mostly writing markdown, HTML and CSS without javascript.&lt;/p&gt;
+
+&lt;p&gt;Next I tried to watch a movie. I'm a big fan of the 1962 french film La Jetee by Chris Marker. If you're not familiar, it's a video novel told with a soundtrack over a series of still images like a slideshow movie. It's one of my favorite science fiction films. I downloaded yt-dlp, a command line tool, to download youtube videos and media from many other platforms. I pulled down the movie. I hadn't really spent time configuring sound on my Void system, and sound notoriously can be a pain to get going on Void. I specifically chose this movie because I figured even if sound didn't work and I didn't want to try to solve it I could read the subtitles, and if the movie skipped, it wouldn't matter because it's essentially just a slideshow. I was wrong. The movie took a long time to open and was agonizingly slow to play via mpv. I didn't really understand it because I thought I had played videos on my Pi previously, but maybe not. I remember running a slideshow on this computer a decade ago, when I was still figuring out the command line and Linux systems. Maybe my video on Pi computers were on later Raspberry Pi 3 systems. I'd love to hear from folks whether you can play video on a Pi 1 or if my experience was typical. In any case, I gave up watching La Jetee.&lt;/p&gt;
+
+&lt;p&gt;I downloaded some other games. I'm a fan of bsd-games, a collection of perhaps 30 or 40 games played in the command line, bundled into a single download, from the 80s I believe. Through this, I have backgammon (which is really fun to play this way, and comes with a great tutorial, teachgammon), boggle, cribbage, hangman, milles borne, robots (dalek), tetris-bsd, snake, and a number of other games. I also installed dune-buggy (kind of like Canabalt, or other simple platformer endless runners). These are all command line games. I didn't really try to install any other GUI games other than Pico-8. I used this Pi many years ago as a MAME emulator system to play old nintendo games and the like, so I suppose I could try installing that again but I didn't do it yet as I already have a handheld Anbernic retro game system. &lt;/p&gt;
+
+&lt;p&gt;In terms of reading, writing, being entertained - this system works for me. Void Linux is a great distro, and it's incredible they maintain repositories of software that can work for fast new computers and old minimal ARM computers as well, and still update the software repository. It's not as big a catalog as Debian, but it's plenty big, and the developers and community are helpful for troubleshooting or helping with packaging software. For "consuming" image and video content such as social media, the Raspberry Pi 1B is not a great system. For even my professional work, I'd need to be a bit careful. The system occasionally restarts X and all my programs close. I have to login and re-open whatever I was last in. This happened about once an hour or so, always when I was multitasking with multiple workspaces, so probably I could learn to avoid it by sticking to mono-tasking. It's not constant, and thankfully vim has the swap backup that auto-saves everything you write, but it's still annoying when X quits abruptly and restarts.&lt;/p&gt;
+
+&lt;p&gt;I was particularly interested in trying out this challenge because I've gotten more interested in permacomputing and resisting consumption, especially of computing devices. I'm heartened to know that this relatively recent old underpowered device can still browse websites I've made, is still very much a useful computing device with tools I find extremely useful. One of my next projects is to work on some simple command line and file browser tool for viewing collections of images and text. I'd love to have a system that can last and last and be resilient, to resist brittleness, by falling back on basic command line programs to do the lifting, essentially coding via gluing together basic long-running linux software. I'm looking forward to testing this out in the weeks ahead.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
+
+---
+
+&lt;p&gt;To leave a comment, email lettuce at the ctrl-c.club domain and state comment and the post title in your subject. Please list your name you'd like credited for the comment.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/old-computer-recap.html</guid><pubDate>Mon, 17 Jul 2023 00:00:00 GMT</pubDate></item><item><title>void-pi.html</title><link>https://ctrl-c.club/~lettuce/void-pi.html</link><description>&lt;div&gt;&lt;h1&gt;Setting up void linux on an old raspberry pi&lt;/h1&gt;
 
 &lt;p&gt;2023-07-14&lt;/p&gt;
 
@@ -287,7 +354,48 @@ sudo vpm install python3-readability-lxml
 
 &lt;p&gt;To leave a comment, email lettuce at the ctrl-c.club domain and state comment and the post title in your subject. Please list your name you'd like credited for the comment.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/void-pi.html</guid><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate></item><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/void-pi.html</guid><pubDate>Fri, 14 Jul 2023 00:00:00 GMT</pubDate></item><item><title>old-computer-start.html</title><link>https://ctrl-c.club/~lettuce/old-computer-start.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 day 1&lt;/h1&gt;
+
+&lt;p&gt;2023-07-10&lt;/p&gt;
+
+&lt;p&gt;Today I'm starting Solene's Old Computer Challenge V3. This is the 3rd year she's run it, but the first time I'm participating. The main idea the first year was to use an actual old computer, and she gave some specs. The second year she limited her internet. This year she suggested if you use a modern computer to limit the cores, speed, etc.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;a href="gemini://perso.pw/blog//articles/old-computer-challenge-v3-part1.html"&gt;Old Computer Challenge V3 Part 1 (Solene)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm using a Chip Computer, originally from Next Thing Co, RIP. &lt;/p&gt;
+
+&lt;p&gt;The Chip I'm using was sent to me compliments of winduptoy (THANK YOU!) about a year ago, and it's taken me this long to use it. I have a specific project in mind, and I hope this week will be a good test to show this thing works, and then I can use it for the project.&lt;/p&gt;
+
+&lt;p&gt;First I tried using my old PocketChip, a handheld device with the Chip computer. Next Thing Co folded back in 2016 or 2017 I believe, and the servers are down, and it's really hard to find and flash the original OS. I didn't feel like doing all that. I booted up my old PocketChip and it was half functional, like the screen was a bit out of wack, not displaying my icons correctly. Then I tried my old Raspberry PI 1B but when I tried to download void linux for that pi to a SD card I ran out of space. I'll have to hunt for a larger SD card another time.&lt;/p&gt;
+
+&lt;p&gt;OK, so that brings me back to this additional Chip computer sent by winduptoy. He had warned I'd have to flash it. When I tried plugging into a monitor, I couldn't get it to boot. I suspect a power issue. I powered it through a usb phone hub, but i remember this thing being finicky back in 2016 when I taught some workshops with the Chip. Next I pulled my old Chip out of the back of the PocketChip case and placed this Chip computer and pressed the bottom center button to power it on. I saw a light go on, a delay, and then wow, it turned on! I see the Debian bootup logo and maybe 30 seconds later I'm in.&lt;/p&gt;
+
+&lt;p&gt;I used my phone just once, to search for and find the default name and password. Thankfully, it worked. winduptoy had loaded Debian Buster. I'm very familiar with Debian/*Buntu's so I set up internet:&lt;/p&gt;
+
+&lt;p&gt;sudo nmcli device wifi connect NETWORK_ID password PASSWORD&lt;/p&gt;
+
+&lt;p&gt;Then I sudo apt updated&lt;/p&gt;
+
+&lt;p&gt;I downloaded man-doc since I didn't have the man pages, git and neovim. Then I downloaded fish shell, tldr and the gemini and http browser offpunk and w3m and links.&lt;/p&gt;
+
+&lt;p&gt;sudo apt install git man w3m links fish tldr neovim&lt;/p&gt;
+
+&lt;p&gt;git clone https://git.sr.ht/~lioploum/offpunk/&lt;/p&gt;
+
+&lt;p&gt;I also git cloned my dotfiles which has a number of fish functions I like, and my gemini log so I could start writing this.&lt;/p&gt;
+
+&lt;p&gt;I don't miss the old GUI PocketChip software. I'm sure I could just download another GUI anyway, probably, though I don't know if the touchscreen is easy to set up. We'll see about that later. Right now, I have a Dvorak default keyboard plugged in (DigiPlanet), which is perfect for times like this. The command line is plenty fast enough on this 7 year old computer, except that sometimes compiling takes a minute or two, so I have a book open next to me since I can't just open another tab and keep going.&lt;/p&gt;
+
+&lt;p&gt;One annoying thing, I usually use the CAPS LOCK key as escape, so I am accidentally hitting it. Unfortunately, that causes the keyboard or computer to freeze and I have to force a hard shutdown with the power button when it happens. Thankfully neovim/vim autosaves to swap. I set fish as my default shell: chsh -s /usr/bin/fish&lt;/p&gt;
+
+&lt;p&gt;That's it for set-up. I'm off and running. I have some web browsers, git, text editors and I think I'm good with that for now. We'll see how the week goes. I'll report back later in the week how it's going.&lt;/p&gt;
+
+--- 
+
+&lt;p&gt;To leave a comment email lettuce at the ctrl-c club domain with the word Comment in the subject and the name of the post. Please list the name that should be listed.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/old-computer-start.html</guid><pubDate>Mon, 10 Jul 2023 00:00:00 GMT</pubDate></item><item><title>bash-alternatives.html</title><link>https://ctrl-c.club/~lettuce/bash-alternatives.html</link><description>&lt;div&gt;&lt;h1&gt;Bash alternatives to cloud products and platforms &lt;/h1&gt;
 
 &lt;p&gt;2023-07-02&lt;/p&gt;
 
@@ -3925,136 +4033,4 @@ git  remote add origin git-user@server:my-project
 
 &lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/temporary-services.html</guid><pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate></item><item><title>open-source-art-tools.html</title><link>https://ctrl-c.club/~lettuce/open-source-art-tools.html</link><description>&lt;div&gt;&lt;h1&gt;Open Source Tools for Artists&lt;/h1&gt;
-
-&lt;p&gt;2021-08-16&lt;/p&gt;
-
-&lt;h2&gt;Creative tools for art-making, community building and publishing&lt;/h2&gt;
-
-&lt;p&gt;Note: This is aimed at a 'beginner' audience with no previous experience with open source, Linux, programming and the like.&lt;/p&gt;
-
-&lt;p&gt;Question: what would tools to make 'art' look like for Gemini? An ascii drawing program I suppose. And maybe a branching narrative gmi software (maybe a fork of Twee/Twine? I'll leave this as an idea worth exploring further possibly in a future post or as an exercise for the reader).&lt;/p&gt;
-
-&lt;p&gt;The following text comes from a workshop held at ARoS art museum in Denmark, part of ARoS Public, co-organized between Flux Factory, Code &amp;amp; Share [] Aarhus and Cantina art space.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="images/open-source-arts-poster.jpg" alt="Open Source Tools for Artists Poster"&gt;
-&lt;figcaption&gt;Open Source Tools for Artists Poster&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;Description&lt;/h2&gt;
-
-&lt;p&gt;Imagine if all illustrators were required to use the same brand and design of #2 pencils or if all photographers could use only one type of camera and film and pay a monthly fee for their continued use. This is the situation today for todayâs largest (and best-marketed) digital artmaking suites like Adobe Creative Suite. But a whole world of other exciting, experimental and artist-friendly tools exist beyond the confines of this. This workshop on creative tools is built for artists, and small DIY communities, covering possibilities of image production, drawing, photographing, organizing and experiments.&lt;/p&gt;
-
-&lt;p&gt;In this workshop we will start with a brief overview of artmaking tools that are alternatives to commercial offerings and then launch into a range of many other experimental and exciting artist software tools such as zine making tools (Electric Zine Maker), digital painting software (Krita, JS Paint), painting tools that allow one to collaboratively draw with a computer (NoPaint), 3d object scanning (Meshroom), and many more. Participants will create mini projects with these tools which we will document with photos and screenshots. By the end of the session we will produce a collaborative zine about these tools and showing the work weâve created, with the goal of making this resource available for artists everywhere.&lt;/p&gt;
-
-&lt;h2&gt;What is Open Source?&lt;/h2&gt;
-
-&lt;p&gt;Open source is source code that is made freely available for possible modification and redistribution. Products include permission to use the source code, design documents, or content of the product. The open-source model is a decentralized software development model that encourages open collaboration. A main principle of open-source software development is peer production, with products such as source code, blueprints, and documentation freely available to the public. The open-source movement in software began as a response to the limitations of proprietary code. --source: Wikipedia&lt;/p&gt;
-
-&lt;p&gt;Free software communities were part of DIY and university communities. Open Source is a more recent term, and was originally intended for software programs but a movement of artists and creative practitioners creating open source tools and creative works has spread worldwide. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://wireframe.raspberrypi.org/articles/the-rise-and-fall-of-type-in-games-listings"&gt;The rise and fall of type-in game listings &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Example: People's Computer Company was a newsletter that advocated copyright-free software, the free sharing of code, and artistic and creative exploration via programming, even by beginners. &lt;/p&gt;
-
-&lt;h2&gt;Why are artists interested?&lt;/h2&gt;
-
-&lt;p&gt;Artists collaborate, are part of scenes and communities and engage in a flow of ideas. The internet has allowed this flow of ideas and works to flourish across far distances, collapsed within the space of a browser. Increasingly, artists presenting their work online are interested in open source licensing for their creative work. Creative Commons is a long-running set of "copyleft" licenses to enable the free distribution of an artist/author who wants to give other people the right to share, use, and build upon a work that the author has created. There are a few variations including one version that only allows re-use and remixing for non-commercial purposes. Example: Creative Commons Attribution Share-Alike is a license that says anyone is free to share and remix the licensed work as long as they give credit and share their newly created work with the same license permissions.&lt;/p&gt;
-
-&lt;p&gt;There are tens of thousands of creative commons licensed music, for example on the Free Music Archive, millions of creative commons licensed photos on Flickr, and many more sources. &lt;/p&gt;
-
-&lt;h2&gt;Tools for Work and Organizing&lt;/h2&gt;
-
-&lt;p&gt;We'll look at tools for organizing and documenting as well as art-making tools. There is a "drop-in" replacement for commercial applications like Google Drive and Microsoft Office Suite called Cryptpad. Its applications include word processing, spreadsheets, slideshow creation, drawing software, Kanban to-do lists, whiteboarding. It does not sell your data; in fact, it features strong encryption. It runs on the phone, and can be used anonymously or saved to an account. You can run it on your own server, or use a hosted option. &lt;/p&gt;
-
-&lt;p&gt;Other major editing tools include Krita (digital painting), Scribus (page layout and design), GIMP (photo image editing), OpenOffice (office suite), Ardour (audio editing), Blender (3d Graphics). The website Alternative To is a good place to look for open source alternatives to commercial software products. &lt;/p&gt;
-
-&lt;h2&gt;Experimental Art-Making Tools&lt;/h2&gt;
-
- Existing far beyond the commercial confines of a creative suite is the world of experimental and often tiny software tools. This includes software for drawing, photography, sound or other media.
-
-&lt;p&gt;Here are a few tools we tried out during our workshop. Hundreds more tools can be found in Everest Pipkin's Tiny Tools Directory&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tinytools.directory"&gt;Tiny Tools Directory&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://net.art-generator.com"&gt;net.art generator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Automatically produces net.art on demand! net.art generator is generative software to create new digital images or a website, created from collaging and recombining images gleaned from around the Internet. Current version by Panos Galanis, updated by Winnie Soon. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://jspaint.app://jspaint.app/"&gt;JS Paint&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A 'clone' of Microsoft Paint. Web-based. Simple. Fun. Works okay on mobile phone.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://pixelcraft.web.app/"&gt;Pixelcraft &lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Web-based tool to make pixel drawing artwork&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://kidpix.app/"&gt;Kid Pix&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Original super-fun children's drawing application full of special drawing effects and sound. To erase the board, use the dynamite!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.flickgame.org/"&gt;Flickgame&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A web-based tool to make branching visual stories. Can be exported or saved to web.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://dryad.technology/artist/)"&gt;Become a Great Artist in Just 10 Seconds&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A javascript port of the original software by Andi McClure and Michael Brough, created for a game jam originally. Often used to generate icons, album art, video game icons, patterns or for experimentation. Works on desktop and mobile.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.puzzlescript.net/"&gt;Puzzlescript&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Tool for making puzzle games. Works in the browser. Has a simple mini language (good for those without coding experience).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.tuxpaint.org/"&gt;Tuxpaint&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Intended as a children's drawing application but fun for all ages. Partly inspired by Kid Pix? iOS and Android apps available as well.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://hotglue.me/"&gt;Hot Glue&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Unique tool for making collage-style websites. Aimed at artists and creative practitioners.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://rasterbator.net/"&gt;Rasterbator&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Make infinitely (!) large posters using a half-toning process to enlarge images to multiple pages. Print and combine them into huge posters.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://twinery.org/"&gt;Twine&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Web-based tool to make branching text adventure games and stories. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://inkpad.art/"&gt;Inkpad&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For Web, Desktop and iOS. Vector art drawing software. "Alternative to Illustrator"&lt;/p&gt;
-
-&lt;p&gt;Note: this is a tiny, tiny amount of open source art-making tools! Many more can be found on the aforementioned Tiny Tools Directory.&lt;/p&gt;
-
-&lt;p&gt;Have feedback or comments? Get in touch through the email at the bottom of my index.html page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./" alt="index"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/open-source-art-tools.html</guid><pubDate>Mon, 16 Aug 2021 00:00:00 GMT</pubDate></item><item><title>collectives.html</title><link>https://ctrl-c.club/~lettuce/collectives.html</link><description>&lt;div&gt;&lt;h1&gt;Being part of an art collective&lt;/h1&gt;
-
-&lt;p&gt;2021-08-12&lt;/p&gt;
-
-&lt;p&gt;Starting when I began undergrad college and continuing for 15 years I worked in small non-profit arts organizations: these were small art museums or art and performance-presenting organizations. After graduating from undergrad I joined a new residency program with individual studios and shared gallery. I was living at home so the studio and gallery gave me independence and gave me a meeting space and community. A few years later I began working with artist collectives. These were generally groups of 5 - 10 people that collectively had studios and a gallery space, or maybe just the gallery space. The kinds of collectives I've been part of:&lt;/p&gt;
-
-&lt;p&gt;1. Let's call this one LB, an artist-run space (about 5 - 10 floating organizers) with monthly exhibits, weekly parties/raves, performance art events, community garden, BBQs, zine library and more (in Philadelphia). I first learned about it when I was on a first or second date with someone and she took me there. I met the organizers, who said they really needed help, and I was game. Soon it came to take over a large part of my life. While running a 'professional' non-profit I put an equal amount of time into organizing the space. But sadly, the space is now closed under the pandemic, and I haven't been part of it for many years since I left that city. Lately I've been in touch with past members and we've been talking about how to 'archive' and preserve the activities, zines and documentation of exhibits. Not technically a legal entity. We did have a shared bank account, kind of like if we were a local baseball team or club. We lived in an area where we as DIY and grassroots artists contributed to a process of gentrification, and soon found ourselves surrounded by new construction, families moving in who couldn't tolerate our late night events, and conflicts with new property developers and the warehouse owner we were located within. The organizers (we called ourselves 'members' or 'curators') were all close, lived within a few blocks of the art space, and it became like a 'third location', our community living room. We met up there every few days at most, even sometimes would sleep there, host bands from out of town. It was a thrilling and fulfilling scene and community. I did everything from curate exhibits and events to writing press releases, killing rats, cleaning the bathroom, painting walls....you get the idea. At this space, most of us understood what we were doing as being part of an anarchist, non-hierarchical space where we had to figure out how to work together and get consensus. We would occasionally have conflicts but ultimately were a pretty functioning and successful space, and had a lot of visibility as an art space in our city. This space / collective existed for about 11 years before it closed.&lt;/p&gt;
-
-&lt;p&gt;2. An underground radio station (I'll call it KRadio) that had dozens of DJs and half a dozen rotating volunteer organizers  (in Los Angeles) - still going, but I'm not part of it any longer as I live in New York. I found this organizational model intense and beautiful. A different model of organization and anarchy in action. Due to its huge size in this group many people would float in and out, with many different levels of commitment. There were no elections. You self-nominated for a position. All leadership/organizational positions were rotating or in flux. If you thought something needed to be done, you did it, or talked with others about it and worked together at monthly meetings. Usually 5 to 15 people (out of the 100 or so total DJs / organizers) would show up for monthly meetings. Over time we started also having bar hangout nights. When bands rolled through town or DJs they could come play a live set on air. The radio programs were unpredictable, experimental, like nothing I've heard elsewhere. Interview shows, noise shows, meditation shows, call-in shows, electronic music, reggaeton, tarot readings, a show that re-broadcast found atmospheric radio, etc etc etc. We used email and a public wiki for organization, and some google spreadsheets that fed our website's program schedule. I served as the "Manager Manager" (which also had other names at different times). We generally had a system where program managers would sit at the station for a few hours and help individual DJs get on the air, archive shows, handle technical needs, etc. So I helped organize the calendar so that there were always managers at the station or that we had individual DJs that knew how to self-manage. At first I thought I was going to get frustrated by how certain issues or needs would sometimes get dropped and not dealt with, but I learned to appreciate this anarchist form. Some things didn't need doing, or if they would roll into larger issues then people really would manifest and deal with them. The constant flux of the organization could be un-mooring, but the ability to step in and organize, or to hang back and just be a DJ was a really beautiful process. This group seems to have been mighty affected for the first half of the pandemic, but it seems to be gaining its steam back now, and I tune in occasionally to folks' programs. This collective is about 15 years old.&lt;/p&gt;
-
-&lt;p&gt;3. An artist-run collective in New York City that I'll call FSpace. This is one of the most 'legit' of the underground DIY groups I've been part of. It's 27 years old, is a non-profit with a functioning board, has a prominent artist residency program, 1 or 2 full time employees and a couple part time employees. Everyone else is a volunteer but often paid for work or receives stipends for art projects or exhibits or workshops. This group's model is really nice. You can become a short term or longterm artist-in-resident or you can float in and out depending on occasional yearly exhibits or programs. As a group, we have a 'family' email list, do at least one in-person monthly dinner and performance night and have public exhibitions. During the pandemic we did online karaoke, figure/life drawing, fashion shows, talks and had exhibits viewable outdoors. In the summer we had block parties. And right now I'm typing this up while being on a residency within a residency. A bunch of us are in another country (Denmark) doing a residency together at a museum. We are staying at a hotel nearby. So even though many of us live in different cities now we have these yearly meetings of intense hang-out and art-making and organizing together that keeps us really gelled as a group, and in many ways it feels like an art family, especially as many of us are in our 30s and 40s and elected not to be part of traditional family structures with children. The org has a director, but we also have many group-led decision-making, and there is a commitment to making things work out financially for the org and for us as individuals, and a lot of transparency. People float in and out as their lives change. We do sometimes have larger challenges to tackle, (issues of inclusion, transparency, normal interpersonal conflict issues) but generally have a positive working method and no bad blood. It's the most 'functional' giant group I've been part of. Most recently this org has purchased its own space, a major accomplishment in such an expensive city.&lt;/p&gt;
-
-&lt;p&gt;4. I'm part of an experimental new media art/video game collective that I'll call BCake. Located in New York City, with a rotating leadership and fairly non-hierarchical leadership model, though there is a separate nominal board of the non-profit entity. There are no full-time employees, maybe a dozen volunteers that help run the space and put together our public programs. This organization has a large online presence through streaming programs throughout the pandemic, and when in-person had weekly exhibits, concerts, performances and other public programs. With this org I've helped write grants, put together educational workshops and an art residency program. We're in the middle of a difficult pandemic with major challenges and some people less committed / interested as we've been online-only for almost a year and a half now. But I think we'll make it through in one piece. This org is about 12 years old. One small but consistent thing we've been doing: holding weekly hangouts for organizers and any other members of our community. No clear agenda other than hanging out, showing what we're working on, watching youtube videos together or making memes.&lt;/p&gt;
-
-&lt;p&gt;And these are my crews. As someone that has largely chosen to not have a family I've put my energy into being part of these communities, and feel a ton of support and strength from them. I had a fear that as I got older I may be aged out and feel alien in alternative and DIY spaces but at least so far that hasn't been the case, and I have other people growing older with me as well. Especially as I soon enter my fourth decade it's important to me that I have a supportive chosen family, and while these groups are always in flux it feels like the right amount of family that I need and want. Outside of these groups I have close friends that are not necessarily parts of these groups, but they come to my events or organizing, or come together when I recently had a birthday party picnic for example.&lt;/p&gt;
-
-&lt;p&gt;Beside the 'family' feeling part I also value being part of creative communities. Sometimes we work together collaboratively on art projects but more often we serve as sounding boards, emotional support or in intergenerational mentoring. There's also the aspect of trying to create the world that we want to see exist: the building out and living 'prefigurative politics' of creating the groups/world that we want to be part of. These are generally medium size groups where we know some people closely, intensely, but there are also past or tertiary related folks that we can meet or connect to in more loose ways. The community feels small enough to be close but large enough that there's room for growth and exploration. Importantly, none of these groups are organized around an individual or longterm position of power, and 'founders' or leaders rotate in and out. In many ways they demonstrate anarchy in action. That said, we have to decide how we relate to the wider society and even fit within capitalism and a structurally far different society than the one we want to be located within.&lt;/p&gt;
-
-&lt;p&gt;Despite these being art collectives I've said little about art. The secret is that the art, while important, it's really the ingredient for us to be drawn together. We are all working on our art, sometimes together. But it's the shared creativity, the shared 'scenius' and shared commitment to supporting each other that binds us. Some of us make video games. Others make experimental 'walks' as performance art. And still others make paintings or zines or films or musical instruments. We will always do this. And we will always (try to) show up on a freezing cold and raining Thursday night to watch 10 people in an iron kitchen chef battle featuring the secret ingredient (cheeze wiz? i can't remember) while a naked announcer MCs from inside a cooking pot-and-makeshift-bathtub.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;---&lt;/p&gt;
-&lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/collectives.html</guid><pubDate>Thu, 12 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/temporary-services.html</guid><pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
