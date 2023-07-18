@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 17 Jul 2023 18:14:52 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-recap.html</title><link>https://ctrl-c.club/~lettuce/old-computer-recap.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 Recap &lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Tue, 18 Jul 2023 01:20:09 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-recap.html</title><link>https://ctrl-c.club/~lettuce/old-computer-recap.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 Recap &lt;/h1&gt;
 
 &lt;p&gt;2023-07-17&lt;/p&gt;
 
@@ -25,6 +25,11 @@
 &lt;p&gt;Basically, unlike the Chip which had a distinct feel and operating system from my daily everyday laptop and my studio laptop, I now had yet another Void Linux setup with the i3 window manager. I think it's probably nice to have different systems and setups for different computers, but there is also clearly something to be said about having consistency. And because it was the same system I could really compare.&lt;/p&gt;
 
 &lt;p&gt;Out of the box Void on the Pi doesn't come with a GUI / X running. At first I installed my absolute basic needs, just a few programs like git and fish-shell, and I already had vi through busybox. I installed offpunk and amfora and w3m and links so I had a variety of text-based web browsers and gemini clients. And they all seemed to work fine and not much slower than my incredibly faster i7 laptop. Even startup of this old underpowered device went fast enough, maybe 10 seconds from power to the command line. I thought about basically just doing command line for the week. Beyond the above, it's now high summer and I use my bike to get around, and it's constantly alternating between high heat and rain this week, so checking the weather was very important to me! I can check the weather using curl wttr.in and I also installed ansiweather, or I can check the weather through Chilly Weather on gemini. I also installed Rogue, my favorite / most-consistent game that I have been playing for years, one of my fave games. &lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="images/i3.jpg" alt="Void Linux on Raspberry Pi 1B, running i3 window manager, showing Lagrange, Feh and Terminal (jpg)"&gt;
+&lt;figcaption&gt;Void Linux on Raspberry Pi 1B, running i3 window manager, showing Lagrange, Feh and Terminal (jpg)&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;p&gt;I read the news and kept up with blogs and gemini logs via offpunk and amfora. I prefer offpunk for http and amfora for gemini, so I kind of jump back and forth between the two. I've written about the gemi.dev domain and their great resources like NewsWaffle, so with this I was able to read the New York Times, which I read every day. I worked a little on editing some text, easy in Vim with github, so this was all pretty much the same for me as my regular everyday laptop. &lt;/p&gt;
 
@@ -95,6 +100,11 @@ dd if=void-rpi3-*.img of=/dev/sdb bs=4M status=progress
 &lt;p&gt;The * will be replaced with the correct downloaded image name.&lt;/p&gt;
 
 &lt;p&gt;When it finishes writing the SD card, unmount/eject from your computer.&lt;/p&gt;
+
+&lt;figure&gt;
+&lt;img src="images/pi.jpg" alt="My Raspberry Pi 1B plugged in and booted, on my messy desk (jpg)"&gt;
+&lt;figcaption&gt;My Raspberry Pi 1B plugged in and booted, on my messy desk (jpg)&lt;/figcaption&gt;
+&lt;/figure&gt;
 
 &lt;h3&gt;Connecting it all&lt;/h3&gt;
 
