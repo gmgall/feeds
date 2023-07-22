@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 22 Jul 2023 00:56:27 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — Stan Rogers</title><link>https://ctrl-c.club/~gome/journal/stan-rogers.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 22 Jul 2023 06:12:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — keyboard</title><link>https://ctrl-c.club/~gome/journal/keyboard.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I love my new keyboard&lt;/h1&gt;
+      &lt;time datetime="Fri, 21 Jul 2023 20:30:00 CDT"&gt;21 Jul 2023, 8:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        For a long time, I’ve had one of those Microsoft ergonomic keyboards with the split-hand layout.
+        It worked reasonably well for me; I haven’t ever been terribly picky about my PC peripherals.
+        Although the hardware still works fine, it’s developed an unfortunate shedding problem.
+        The foam handrest is covered in this thin pleather-type skin that comes off in little pieces.
+      &lt;/p&gt;&lt;p&gt;
+        I didn’t really want to give it up as long as it still worked fine.
+        I tried to remove the foam, but the keyboard is quite resistant to being opened up, and there's no clear way to remove just that.
+        I eventually got sick of having these little pieces of plastic whatever sticking to my hands all the time.
+        I started dreaming about getting a new keyboard.
+      &lt;/p&gt;&lt;p&gt;
+        Since it’s something I’ll use every day for work, I wanted to get a keyboard I enjoyed using, maybe one that was a little stylish, even.
+        So I thought I’d give mechanical keyboards a try.
+        They’re supposed to be more fun to type on, and they tend to have an aesthetic edge on non-mechanicals.
+      &lt;/p&gt;&lt;p&gt;
+        I did a good bit of searching and research, and I learned a bit about mechanical keyboards along the way.
+        Some boards are hot-swappable, which means you can change out the switches without soldering.
+        Switches are the part of each key that actually detects your keypress, and they come with different mechanical actions, coded by color: e.g., red for linear (smooth action), blue for clicky, and brown for tactile (I think that’s somewhere between the other two).
+        I wanted something on the quieter side, so went with red switches for mine.
+      &lt;/p&gt;&lt;p&gt;
+        I knew I didn’t need hot-swapping, nor did I need backlights for the keys.
+        Ruling out boards with those features meant I could find one I was happy with at a really good price, relatively speaking.
+        Best of all, I was able to find one in a special retro color scheme I found really appealing.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/keyboard.webp" width="500" height="375"&gt;
+        &lt;figcaption&gt;I’m a big fan of the red escape key.&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;div class="music-box"&gt;
+        &lt;audio src="img/typing.mp3"&gt;&lt;/audio&gt;
+        &lt;svg width="20" height="20" class="play"&gt;&lt;/svg&gt;
+        &lt;svg width="20" height="20" class="pause"&gt;&lt;/svg&gt;
+        &lt;span&gt;This is the sound of me typing this sentence.&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;p&gt;
+        The keyboard arrived a few weeks ago now, and I’ve just been more happy with it the more I’ve used it.
+        It feels so nice to type on.
+        The action is so smooth, and it only takes a light touch to trigger a key, so I can really fly on it, especially with keyboard shortcuts.
+      &lt;/p&gt;&lt;p&gt;
+        Best of all, I really like the way it looks.
+        It’s fun to look down at it every so often while working and see this cool, aesthetic rectangle.
+        I do think having nicer things for my everyday office use probably has a bit of a positive impact on my attitude, on the whole.
+      &lt;/p&gt;&lt;p&gt;
+        Do you own a mechanical keyboard?
+        What kind do you have?
+        What kind of switches?
+        What color?
+        How do you like it?
+        Do you have something else you use every day that delights you?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/keyboard.html</guid><pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate></item><item><title>gome — Stan Rogers</title><link>https://ctrl-c.club/~gome/journal/stan-rogers.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Stan Rogers is a true folk musician&lt;/h1&gt;
       &lt;time datetime="Wed, 19 Jul 2023 23:00:00 CDT"&gt;19 Jul 2023, 11:00 PM&lt;/time&gt;
