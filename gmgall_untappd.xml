@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jul 2023 00:48:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2023 06:12:28 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Schwarzbier by Die Gerste Bier</title>
+      <link>https://untappd.com/user/gmgall/checkin/1298062782</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/schwarzbier-die-gerste-bier/1270388"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Schwarzbier label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/schwarzbier-die-gerste-bier/1270388"&gt;Schwarzbier&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/DieGersteBier"&gt;Die Gerste Bier&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1298062782"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-50"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 13)"&gt;
+&lt;span&gt;Earned the 99 Bottles (Level 13) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1298062782</guid>
+      <pubDate>Thu, 27 Jul 2023 05:12:38 GMT</pubDate>
+    </item>
     <item>
       <title>IPA Imperial by Die Gerste Bier</title>
       <link>https://untappd.com/user/gmgall/checkin/1296397317</link>
@@ -128,42 +164,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1289134694</guid>
       <pubDate>Fri, 30 Jun 2023 19:59:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Alienation by Cervejaria Mad Brew</title>
-      <link>https://untappd.com/user/gmgall/checkin/1285263884</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/alienation-cervejaria-mad-brew/2931003"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2931003_d4ccc_sm.jpeg" alt="Alienation label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/alienation-cervejaria-mad-brew/2931003"&gt;Alienation&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaMadBrew"&gt;Cervejaria Mad Brew&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1285263884"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 25)"&gt;
-&lt;span&gt;Earned the Middle of the Road (Level 25) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1285263884</guid>
-      <pubDate>Sat, 17 Jun 2023 22:54:17 GMT</pubDate>
     </item>
   </channel>
 </rss>
