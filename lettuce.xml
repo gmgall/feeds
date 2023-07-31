@@ -1,5 +1,100 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 31 Jul 2023 06:14:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>old-computer-recap.html</title><link>https://ctrl-c.club/~lettuce/old-computer-recap.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 Recap &lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 31 Jul 2023 12:20:55 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>intro-to-rogue.html</title><link>https://ctrl-c.club/~lettuce/intro-to-rogue.html</link><description>&lt;div&gt;&lt;h1&gt;Beginners guide to Rogue, the roguelike game&lt;/h1&gt;
+
+&lt;p&gt;2023-07-30&lt;/p&gt;
+
+&lt;p&gt;Rogue is one of my favorite video games, and the original reference game for later 'roguelike' games. It's a classic 'dungeon crawler' game, created originally in 1980 by Michael Toy and Glenn Wichman, with later contributions by Ken Arnold. In Rogue you descend through a dungeon, collect gold, fight monsters, and retrieve the amulet of Yendor before returning up to the surface. As the player you wield weapons, wear defensive armor, don rings, and carry magical staffs, but this description evades the sense of puzzle-solving that pervades. It's a unique combination of combat, magic, resource managing, and a good dose of randomness that make for a compelling game. &lt;/p&gt;
+
+&lt;p&gt;Rogue is the quintessential oldschool roguelike. All actions by the player are triggered by a key press, and there are a lot of keys you can press. The game is turn-based, so actions only happen when you press a key, such as to move, one square at a time. Rogue is inspired by Dungeons and Dragons and can be thought of as one attempt at making a single player D'n'D game. It's especially noteable for its different-every-time dungeon, which is also why the game continues to be enjoyable for its fans play after play. Each dungeon presents new mystery and challenges, requiring new strategy. Also of note is 'permadeath'. When you die, no progress is saved. Each attempt at a dungeon is unique, standing on its own, without any resources saved from previous attempts.&lt;/p&gt;
+
+&lt;p&gt;This guide is intended to help you get started with just enough information. I have been playing the game off and on for about 7 years. I'm okay, but I have yet to beat the game (aka 'ascend'). After reading this, dive in and give it a shot. Try playing a few times. Each time you will (probably) get better. After you've played through half a dozen times or so and are starting to get the feel for it, and wanting to learn more, try out one of the more advanced or comprehensive guides listed at the end.&lt;/p&gt;
+
+&lt;p&gt;I won't detail how to install Rogue as that varies based on system to system. It's usually in various linux repositories listed as 'bsdgames-nonfree' and can also be downloaded from a variety of sites online, or played online on the Internet Archive. Note that there are multiple similar versions with minor differences, and even some with graphics, minimal or quite detailed, where others are only ASCII. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://archive.org/details/ROGUE_PD"&gt;Rogue on the Internet Archive (with oldschool minimal graphic tiles)&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2&gt;An orientation to the map and movement&lt;/h2&gt;
+
+&lt;p&gt;Rogue is a top down view of the world. Each level of the dungeon has the possibility of being up to a generated 3 x 3 maze of rooms, interconnected through hallways. You are the '@' symbol on the board. When you walk over something or into something you'll see a message at the top of the screen. Press spacebar to clear the message.&lt;/p&gt;
+
+&lt;p&gt;Move with the "vim keys" (if you know them) or your arrow keys. Pick up an object by walking onto it. Attack by attempting to move into a monster. It will announce whether you were successful in your hit and whether the monster hit you back. Keep attacking until you kill the monster, or it flees, or you do. Watch your hit points (hp) in the bottom of the UI. When you get to 0hp you're dead. &lt;/p&gt;
+
+&lt;p&gt;For more efficient moving (aka to flee monsters faster) you can use the diagonal keys around the vim keys. For example, 'n' moves diagonally down to the right. 'y' moves diagonal up and to the left. 'b' moves down and to the left. 'u' moves up and to the right. &lt;/p&gt;
+
+&lt;p&gt;As you walk around you consume energy. After walking around for a good while the game will warn you that you're hungry, in the bottom right of the UI. If you ignore this for a while you'll pass out temporarily from lack of food, and eventually starve. So be sure to look for food (':') or slime mold and eat it by pressing 'e' when you get hungry!&lt;/p&gt;
+
+&lt;p&gt;Doorways are '+' signs. Walk through them into the hallway. Some hallways twist and turn into little mazes. Sometimes a hallway deadends or you can't figure out how to get out of a room (most have 2 exits). Use 's' to search the area around you. You have a 1/5th chance of finding traps and hidden doorways. You will usually need to type 's' a few times to find hidden doorways and traps.&lt;/p&gt;
+
+&lt;h2&gt;Get help / see all options&lt;/h2&gt;
+
+&lt;p&gt;Press the question mark key '?' to get to the help prompt. It will ask what key you want help with. Type '*' to list all the keys. This is the full display of all actions you can take in the game.&lt;/p&gt;
+
+&lt;h2&gt;Major Items&lt;/h2&gt;
+
+&lt;p&gt;Monsters are one of various letters of the alphabet. In the early levels, you usually see hobgoblins (h), emus (e), ice monsters (I), bats (b) and kobolds (k). They each have their own behaviors and stats. &lt;/p&gt;
+
+'%' is the staircase. Move onto it and type '&amp;gt;' to go down a level. I usually try to clear most of a level before descending.
+
+'?' is a scroll, a type of magic item you can use. To use a scroll's magic, press 'r' to read, and then the letter for the scroll you want to use. If you don't know what scrolls you have, press '*' to list them all, then type the letter for one of them and see what happens. It could be a map of the current dungeon level, a teleportation scroll, or many other things could happen. Scroll names have absurd titles, and you'll only know what a scroll does by trying it out to see its effect.
+
+'!' is a potion. Like scrolls, you can cast them. To use a potion press 'q' to quaff it. To 'quaff' means to drink with gusto. A potion could poison you, bring you health, temporary strength, or cause you to dissolve through the floor and crash at a lower depth, among many other things that could happen. Like scrolls, their names are randomly chosen each time the dungeon is generated, and you'll have to figure out their effects through trying them out.
+
+`/` is a staff, occasionally present in the lower depths of the dungeon. You can 'zap' them.
+
+`]` is armor. `W` to wear armor. It will prompt you to select one to wear, if you have any. The number next to the armor indicates its protection, and whether it's been affected by a curse, charm or magic, for example.
+
+`=` is a ring. Press 'P' to 'put on' a ring. It will ask you to specify a hand. These have magic properties that affect your health, weapon, visibility, etc.
+
+&lt;h2&gt;Anatomy of a level&lt;/h2&gt;
+
+&lt;pre&gt;
+  -------------------
+  |.....H.*.........|
+  |.................|
+  |.............@...+
+  |........%........|
+  ----------------+--
+                  #
+       ############
+-------+-------------
+|...................+##
+|...................| #
+--------------------- #
+                      ########
+
+Level: 1  Gold: 0      Hp: 12(12)  Str: 16(16)  Arm: 4   Exp: 1/0
+&lt;/pre&gt;
+
+&lt;p&gt;Above is a moment not too long after beginning the game. I started in the bottom hallway, walked through that long thin room on the bottom left, then wound through and up to the room above it. I'm on the right side of the room. I see a hobgoblin on my left, ready to fight, next to a pile of gold it's defending. A staircase down to the next level of the dungeon is close to me. A door is to my right, that I haven't been through yet. Who knows what will be on the other side?&lt;/p&gt;
+
+&lt;p&gt;Should I attack the hobgoblin and take the gold? Head down the stairs? Or go through the doorway to the right? I'll probably do all three, but not in that order.&lt;/p&gt;
+
+
+&lt;h3&gt;Weapons and armor&lt;/h3&gt;
+
+&lt;p&gt;You start with a basic sword in your hand, and a short bow in your inventory. You can pick up other weapons. Careful, some are cursed. To wield a new weapon, press 'w'. You can list your weapons and select another. Cursed weapons cannot be removed unless you heal them with a scroll for example.&lt;/p&gt;
+
+&lt;p&gt;To fire an arrow, press 't' for throw. It will ask you to choose a direction and an item. This is especially useful against more dangerous monsters. &lt;/p&gt;
+
+&lt;h2&gt;Next steps&lt;/h2&gt;
+
+&lt;p&gt;Play through the game a few times, seeing if you can get a bit better. What strategies seem to work best? What kinds of monsters tend to kill you? How can you avoid them or get the better of them?&lt;/p&gt;
+
+&lt;p&gt;There are a variety of strategy guides on the internet that would make a good next step for getting better at the game.&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the game, and if it's your first roguelike, that it inspires you to try more within this genre. Beware the curse of oldschool roguelikes. It is only a matter of time before you try your own hand at coding your own, sprawling into a giant project that takes over many nights or weekends!&lt;/p&gt;
+
+&lt;h3&gt;Links&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="hosted/games/rogue.html"&gt;The Rogue's Vade-Mecum, a comprehensive guide to Rogue, from 1999, (gemini mirror based on source page on Internet Archive Wayback machine)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://www.roguebasin.com/index.php/Rogue"&gt;Rogue on RogueBasin (lots of links and strategy guides at the bottom)&lt;/a&gt;&lt;/p&gt;
+
+---
+
+&lt;p&gt;To leave a comment here, send me an email at my username at ctrl-c.club. Please put comment and the name of the post in your subject line, and be sure to list a name you'd like credited in your comment.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/intro-to-rogue.html</guid><pubDate>Sun, 30 Jul 2023 00:00:00 GMT</pubDate></item><item><title>old-computer-recap.html</title><link>https://ctrl-c.club/~lettuce/old-computer-recap.html</link><description>&lt;div&gt;&lt;h1&gt;Old Computer Challenge 2023 Recap &lt;/h1&gt;
 
 &lt;p&gt;2023-07-17&lt;/p&gt;
 
@@ -3995,52 +4090,4 @@ git  remote add origin git-user@server:my-project
 
 
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/git-services.html</guid><pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate></item><item><title>temporary-services.html</title><link>https://ctrl-c.club/~lettuce/temporary-services.html</link><description>&lt;div&gt;&lt;h1&gt;We Strive to Build an Art Practice That....&lt;/h1&gt;
-
-&lt;p&gt;2021-08-23&lt;/p&gt;
-
-&lt;p&gt;Temporary Services is a 23-year old group made up of artists and cultural workers, based in Illinois, currently made up of Brett Bloom and Marc Fischer and their collaborators. I've known of their work since I was in college in 2004 and worked on a thesis research project and website (now lost) about socially-engaged and critical public art practice. I stumbled across their work online and found it revelatory. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://temporaryservices.org"&gt;Temporary Services&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;I learned they had produced dozens of artist zines with essays, manifestos, exhibits, conversations. They were downloadable as PDFs and available for cheap through mail order distro. I was attracted to Temporary Services's DIY punk ethos of self-publishing and presenting their work in temporary storefronts, informal card tables set up on the street and the like. They produced newspapers of interviews and images that could be unfolded and pasted up as an exhibit. They championed the work of maligned artists, creative practitioners, prisoners and activists. At the time the medium of 'social practice art' was gaining some momentum and becoming more formalized in some corners of the art world, particularly championed by curator Nato Thompson (at Mass MOCA and then at Creative Time art organization) and in some graduate programs like Harrell Fletcher's Public Practice grad program at Portland State University and Ted Purves's Social Practice graduate program at California College of the Arts as well as identified within the work of artists like Mierle Laderman Ukeles, British artist Jeremy Deller, Thomas Hirschorn's Gramsci Monument project, and the public projects of street artist JR.&lt;/p&gt;
-
-&lt;p&gt;As this 'genre' became more normalized to some degree even the commercial art market was inevitably able to commercialize and sell some aspects of it - here I am thinking of Suzanne Lacy's work as just one example: public events treated as performances that are documented as photographs, then sold or presented as installations in galleries. Or the multi-farious mega public practices of Theaster Gates combining performance, social practice, painting and objects for exhibition and sale.&lt;/p&gt;
-
-&lt;p&gt;In 2021 this medium has now been re-integrated into art canon and perhaps it's harder to see it as so distinct from other media anymore as it's become more of the norm for artists to combine disciplines: artist and video maker and photographer and musician and performer. In fact I'd say it might even be more rare at this point for an artist to stick to a single medium (except for painters, lol). &lt;/p&gt;
-
-&lt;p&gt;Temporary Services never quite fit within this world. They resisted being commodified and went right on producing pamphlets, hosting exhibits at local art spaces in Illinois and occasionally around the country or around the world. They started a press and distribution company Small Letter Press to distribute their own materials and those of friends. They traveled around the country to distribute their works through art book fairs. And they continued to abide by their own goals in one of the most simple, beautiful and powerful manifestos I've ever read and been moved by.&lt;/p&gt;
-
-&lt;p&gt;Here it is:&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="images/manifesto.jpg" alt="Manifesto poster"&gt;
-&lt;figcaption&gt;Manifesto poster&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h2&gt;WE STRIVE TO BUILD AN ART PRACTICE THAT:&lt;/h2&gt;
-
-&lt;ul&gt;&lt;li&gt;Makes the distinction between art and other forms of creativity irrelevant&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Builds and depends upon mutually supportive relationships&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Tests ideas without waiting for permission or invitation&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Champions the work of those who are frequently excluded, under-recognized, marginal, non-commercial, experimental, and/or socially and politically provocative&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Puts money and cultural capital back into the work of artists and self-publishers&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Makes opportunities from large museums and institutions more inclusive by bringing lesser-known artists in through collaborations or advocacy&lt;/li&gt;&lt;/ul&gt;
-
-&lt;ul&gt;&lt;li&gt;Insists that artists who achieve success devote more time and energy to creating supportive social and economic infrastructure for others&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;This manifesto can be found as a printed poster for sale through their distro Half Letter Press&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.halfletterpress.com/"&gt;Half Letter Press &lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://temporaryservices.org/served/about/"&gt;About Temporary Services&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Note: you can get in touch with me or leave a comment through contacting me via my email address listed on my index.html page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/temporary-services.html</guid><pubDate>Mon, 23 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/git-services.html</guid><pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
