@@ -1,5 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 31 Jul 2023 18:13:15 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>intro-to-rogue.html</title><link>https://ctrl-c.club/~lettuce/intro-to-rogue.html</link><description>&lt;div&gt;&lt;h1&gt;Beginners guide to Rogue, the roguelike game&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Tue, 01 Aug 2023 00:56:42 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>why-cli.html</title><link>https://ctrl-c.club/~lettuce/why-cli.html</link><description>&lt;div&gt;&lt;h1&gt;Why I use the command line&lt;/h1&gt;
+
+&lt;p&gt;2023-07-31&lt;/p&gt;
+
+&lt;p&gt;In short, I use the command line because it's fun, it's logical, expressive, and because it lets me avoid planned obsolescence and arbitrary restrictions. Read on for the details:&lt;/p&gt;
+
+&lt;p&gt;I use the command line to resist software and hardware planned obsolescence. It's almost the opposite of an iOS app. I own (this is embarassing) 3 iPads, my parents' from 2011, my own from 2017, and one from school from 2021. The 2011 can't run much of anything. The 2017 worked fine but Apple ended support. They won't let me update the system and won't let me download any apps from the app store because the system isn't up to date, a catch-22. On the other hand, the command line still works on these. It won't disappear one day. It won't be made obsolete. I can still run my command line software on these.&lt;/p&gt;
+
+&lt;p&gt;And following this: the command line and programs for it are not an 'app store' and aren't controlled by a single entity or company. It's controlled by me. It can run anything I want.&lt;/p&gt;
+
+&lt;p&gt;I use the command line because it works the same or similarly across computers, operating systems, tablets and phones. &lt;/p&gt;
+
+&lt;p&gt;I use the command line because it works on practically anything: low power, ancient hardware work fine. I can still browse the web, read and post to social media, read books, keep a to-do list or spreadsheet, or anything else I'm used to do doing. As we grapple with climate change and how our technology choices and consumption impact the earth it's helpful to use tools that work just as well on our older but still fine machines.&lt;/p&gt;
+
+&lt;p&gt;I use the command line because it can be automated. I use this to resize directories of photos in a split second, rather than individually opening and tediously resizing in something like Photoshop. I can backup updated files on my hard drive ultra-quickly. These are just two among many examples.&lt;/p&gt;
+
+&lt;p&gt;I use the command line because I can fit different programs together to meet my needs in a way that GUI software can't or won't. Why pay a niche internet service that may or may not provide what I need when just a program or two or three can pull it together easily in a minute.&lt;/p&gt;
+
+&lt;p&gt;I use the command line because it's fun to learn, and not so difficult. With a dozen or so commands you can get started and do a lot. You can quickly learn how to piece them together, and how to get help, and intuit how additional programs will work.&lt;/p&gt;
+
+&lt;p&gt;I use the command line because command line games are addicting. I have played (and not yet beat) Rogue and Brogue for almost a decade. Backgammon and Chess in the command line are fun and clear. Colossal Cave Adventure is a fun retro experience I particularly enjoy showing my students. &lt;/p&gt;
+
+&lt;p&gt;I use the command line because it's just plain convenient and easy, faster than the GUI, and just lets me get on with my regular computer needs.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="bash-alternatives.html"&gt;Bash alternatives to cloud products and platforms &lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
+
+---
+
+&lt;p&gt;To leave a comment here, send me an email at my username at ctrl-c.club. Please put comment and the name of the post in your subject line, and be sure to list a name you'd like credited in your comment.&lt;/p&gt;
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/why-cli.html</guid><pubDate>Mon, 31 Jul 2023 00:00:00 GMT</pubDate></item><item><title>intro-to-rogue.html</title><link>https://ctrl-c.club/~lettuce/intro-to-rogue.html</link><description>&lt;div&gt;&lt;h1&gt;Beginners guide to Rogue, the roguelike game&lt;/h1&gt;
 
 &lt;p&gt;2023-07-30&lt;/p&gt;
 
@@ -3965,129 +3997,4 @@ write username
 &lt;p&gt;Thank you for sharing your experience. Love your blog.&lt;/p&gt;
 -idiomdrottning
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/keyboards.html</guid><pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate></item><item><title>git-services.html</title><link>https://ctrl-c.club/~lettuce/git-services.html</link><description>&lt;div&gt;&lt;h1&gt;Personal Experiences and Opinions on Version Control Software&lt;/h1&gt;
-
-&lt;p&gt;aka How I use Git wrong&lt;/p&gt;
-
-&lt;p&gt;2021-08-25&lt;/p&gt;
-
-&lt;p&gt;CW: Highly opinionated thoughts ahead, as well as confessions.&lt;/p&gt;
-
-&lt;h2&gt;How I Use Version Control Solo&lt;/h2&gt;
-
-&lt;ul&gt;&lt;li&gt;As a simple (and glorified) log of my individual software projects as I work on them over time&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Packaging up my individual websites &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Holding a single software project and creating a little workflow to add and test new features and jump to different versions (occasionally)&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Going back to previous 'commits' when i've lost or messed something up (rarely)&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;To be clear, I am often using Git just as a service for logging (via the commit messages) and saving (via committing) and backing up to a remove Git server. These are not the main feature or raison d'etre for Git, which is complex version control software with way more features and possibilities.&lt;/p&gt;
-
-&lt;h2&gt;What else I use a software forge for&lt;/h2&gt;
-&lt;ul&gt;&lt;li&gt;backing up and/or hosting a website (for example on GitHub, GitLab) or deploying to a server via a Git hook (any)&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Holding my gemlog, then using a hook to upload to my gemini server&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Cooperating on a collaborative software project with many other people (issues, pull requests, etc)&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Having a place to browse and find others' software projects as inspiration or to learn from or to use for my own needs&lt;/li&gt;&lt;/ul&gt;
-
-&lt;h2&gt;Opinions on various version control software forges&lt;/h2&gt;
-
-&lt;p&gt;I only have experience with Git-based version control software, though I'm sure I'd like others as well, especially if they had a more streamline workflow for solo devs. I've heard there are other nice systems but I'm comfortable with Git so that's where I'll probably stay.&lt;/p&gt;
-
-&lt;p&gt;It's very easy to jump between any Git-based version control server. The commands are all the same. I personally use GitHub (for public projects that I need to deploy a website), Keybase Git (for personal encryped git stuff. my own personal vimwiki is on here) and Tildegit (smol-web projects). I've checked out some others as well. &lt;/p&gt;
-
-&lt;h3&gt;GitHub&lt;/h3&gt;
-
-&lt;p&gt;This is the big one, the place for your software to be seen. Fair enough.&lt;/p&gt;
-
-&lt;p&gt;An aside: Recently Github phased out passwords and requires 'tokens' now. I set up a long, unlimited-time token, so it's basically just a long password. Couldn't find info online on how to remove my old password and use the token instead. The solution was to basically remove old password from the ~/.gitconfig file and put in the token as my new password.&lt;/p&gt;
-
-&lt;p&gt;Con: Works with ICE and other distasteful companies and gov. Is a Startup. Uses Gamification (favoriting/stars, counting forks...). Requires pro account for unlimited private repos. &lt;/p&gt;
-&lt;p&gt;Pro: GitHub pages for website hosting of static sites free &lt;/p&gt;
-
-&lt;p&gt;Basically, GitHub was my go-to service for years but I wanted to find an alternative when I learned about their work with ICE. I doubt my (free) non-enterprise account is more than a drop in the bucket, but it feels right to try to move away from the service. Now I make all of my new projects repos with another service. I still maintain some repos here for past projects. And I use regular Github when I do pull requests or file issues on other software projects.&lt;/p&gt;
- 
-&lt;h3&gt;Keybase Git&lt;/h3&gt;
-
-&lt;p&gt;I like the idea of Keybase, a secure encryped private file system, message system, Git system. But they are a startup and were bought by Zoom (poor surveillace record when it comes to issues relating to China), so now many people don't trust them. They also added a ton of unneccessary features, including........cryptocurrency. Meaning they are trying to figure out how to monetize for 10X returns. Not what I'm looking for.&lt;/p&gt;
-
-&lt;p&gt;I use it as a backup for my own wiki, and as a glorified encrypted virtual hard drive for my PDF reading library. That's it.&lt;/p&gt;
-
-&lt;p&gt;Con: Is a startup. Too many features. No web frontend for their Git service. Like Steam, requires a service running (though there is a way to do this via CLI). Owners Zoom is not a great company.&lt;/p&gt;
-&lt;p&gt;Pro: Free. The Git server service is a simple and encrypted by default service. I've not hit a bandwidth or size limit. Has a way to host files/static site, but not documented how to use a built-in hook, so requires accessing via GUI.&lt;/p&gt;
-
-&lt;h3&gt;Tildegit&lt;/h3&gt;
-
-&lt;p&gt;An exclusive git service server since you need to be a member of a Tilde server to sign up. "Just works". I like browsing the explore page to see other smol-internet projects. Very easy web UI. I think it's nice and simple compared to the GitHub website: no gamification or random riffraff buy-now and enterprise services.&lt;/p&gt;
-
-&lt;p&gt;Con: I've been using it a year and one time (yesterday!) it went down for 4 or 5 hours, which was deeply confusing and troubled me. Reminds me that I should have an additional backup of my crucial repos, so that I have 3 total copies. Signup requires proof of tilde membership. &lt;/p&gt;
-&lt;p&gt;Pro: Great for solo devs. It's a Gitea-based system, so there's documentation of Gitea online (though I haven't needed to use it since it's intuitive and 99% compatible with other Git-based workflows like GitHub).&lt;/p&gt;
-
-&lt;h3&gt;Sourcehut&lt;/h3&gt;
-
-&lt;p&gt;A favorite of many smol-web users, and now provides free hosting of gemlogs. The founder has his own gemlog. However, I won't use Sourcehut. In my opinion the founder is a bully. I noticed this on Mastodon before he deleted his account. And I see it elsewhere. Feel free to read one example of this yourself and make up your own mind.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://github.com/makeworld-the-better-one/amfora/issues/199"&gt;Example of bullying makeworld, creator of the Amfora gemini client.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;CON: The proprietor is a bully.&lt;/p&gt;
-&lt;p&gt;PRO: Simple. Lightweight. Free gemlog hosting.&lt;/p&gt;
-
-&lt;h3&gt;Codeberg&lt;/h3&gt;
-
-&lt;p&gt;Haven't used this one. I looked for a code of conduct (to see if they would accept business from defense contractors and police departments for example) and I didn't find one. I asked on twitter and didn't get much response. Seems like some amount of community by smol-web users.&lt;/p&gt;
-
-&lt;p&gt;CON: I don't know. I haven't used it.&lt;/p&gt;
-&lt;p&gt;PRO: I don't know. I haven't used it.&lt;/p&gt;
-
-&lt;h3&gt;GitLab&lt;/h3&gt;
-
-&lt;p&gt;I haven't used it. It's the 'alternative' to the big dog GitHub. Provides lots of enterprise options, as wll as static site hosting, and other big version control services. While they didn't have a contract with ICE their executive director distastefully said he thought there should be no politics on what they do/who they serve and they'd be fine to take military/dictator/police dep't money (this is my own summarizing). So I don't use this either.&lt;/p&gt;
-
-&lt;p&gt;CON: I don't know. I haven't used it.&lt;/p&gt;
-&lt;p&gt;PRO: I don't know. I haven't used it.&lt;/p&gt;
-
-&lt;p&gt;Any others I'm overlooking?&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index.html&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;Comments can be left by emailing lettuce@ctrl-c.club (Email checked sporadically)&lt;/p&gt;
-
----
-
-&lt;blockquote&gt;Hey, I read your piece on version control. It was interesting, but I think you're overlooking one major alternative that ticks several of the boxes: Self-hosting git. It extremely easy to set up. You need a raspberry pi or any computer with a ssh daemon and git. You do this on the server: &lt;/blockquote&gt;
-
-&lt;pre&gt;
-cd my-project
-git init --bare
-&lt;/pre&gt;
-
-&lt;blockquote&gt;You do this in the client: &lt;/blockquote&gt;
-
-&lt;pre&gt;
-git  remote add origin git-user@server:my-project
-&lt;/pre&gt;
-
-&lt;blockquote&gt;And that's it. Now you have an off-site backup for your code.  If you want a web interface for sharing your code more publicly, something like gitweb is a good alternative to gitlab and similar, it's much more lightweight (and a bit barebones). See second below for some sample repo I have no affiliation with.&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href="https://git-scm.com/book/en/v2/Git-on-the-Server-GitWeb"&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://repo.or.cz/git-blog.git"&gt;&lt;/a&gt;&lt;/p&gt;
--marginalia
-
----
-
-&lt;blockquote&gt;Really liked your most recent post! I've, liked all the ones I've read so far. Real shame seeing that exchange with Drew and makeworld... he always struck me as a bit of an asshole, but this makes me almost want to stop using sourcehut. I guess I could always try to self-host a sourcehut instance. Maybe I should, because if I was in makeworld's shoes I certainly wouldn't have been as level-headed in my responce.&lt;/blockquote&gt;
-- kota
-
----
-
-&lt;blockquote&gt;Seeing the machismo toxic masculinity that infects so much of open source / linux and other software communities has been really disappointing. &lt;/blockquote&gt;
--lettuce
-
----
-
-&lt;blockquote&gt;It's definitely one of the worst parts of open source.. I try to remain optimistic that pushback is growing and as our communities become more diverse attitudes like his will be completely unacceptable.  &lt;/blockquote&gt;
--kota
-
-
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/git-services.html</guid><pubDate>Wed, 25 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/keyboards.html</guid><pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
