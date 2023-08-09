@@ -1,5 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 09 Aug 2023 12:20:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 09 Aug 2023 18:13:09 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Start With a Minimum Viable System</title><link>https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</link><description>&lt;article&gt;
+        &lt;h1&gt;Start With a Minimum Viable System&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2023-08-09"&gt;
+                August 9, 2023
+            &lt;/time&gt;
+             · 
+            806 words  ·  ~5 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;After college, my first big programming project for work was to build a
+&lt;a href="https://en.wikipedia.org/wiki/Create,_read,_update_and_delete"&gt;CRUD&lt;/a&gt; app from
+scratch. The most important lesson that I learned from it was that when I’m in
+an unfamiliar environment, I should prefer to build a minimum viable system by
+developing things vertically instead of horizontally. That means building just a
+portion of a layer and then moving to the next layer as quickly as possible.
+Rather than building out entire layers sequentially. Connecting the pieces of a
+system can be surprisingly challenging, which means that if I leave it to the
+end, I can run into unexpected issues and slowdowns.&lt;/p&gt;
+&lt;p&gt;For my project, I started with the database schema. Then I followed my team’s
+pattern in writing database accessor code. Next, I wrote business logic code in
+a backend service. Lastly, I wrote the
+&lt;a href="https://en.wikipedia.org/wiki/User_interface"&gt;UI&lt;/a&gt; code that called the backend
+service. So I started at the bottom and completed each layer for all the
+required features before moving to the next layer. At the end, I deployed the
+pieces and connected them together.&lt;/p&gt;
+&lt;p&gt;The deployment process was the hardest part of the project. For the code, I
+sometimes needed help from my mentor. But for the most part, it was up to me how
+fast I completed it. For deployment, however, there were multiple times that I
+needed another team to do something.&lt;/p&gt;
+&lt;p&gt;I remember one Friday afternoon when I learned that I needed someone to add a
+connection string to a configuration file. It was a manual process, and only one
+person was really trusted to make the change. That person had left for the day,
+so I had to wait until the next week. Yes, there are meta problems with that
+situation, but it was the reality that I had to work with. In the context of
+completing my project, I should have knocked out the
+configuration charge early on. I could have requested the change and worked on
+my code in parallel while I was waiting.&lt;/p&gt;
+&lt;p&gt;Issues like that made the project stretch on longer than it should have. I’d be
+blocked by things that were not entirely within my control and because I had
+already finished the code that &lt;em&gt;was&lt;/em&gt; up to me, they’d be total blockers.&lt;/p&gt;
+&lt;p&gt;If I were to do a project like that again, I’d try to get something that works
+into production as quickly as possible. I’d build one feature end to end first.
+Then I’d iterate and build the other features.&lt;/p&gt;
+&lt;h2 id="mvp"&gt;MVP&lt;a class="anchor" href="#mvp"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is the system equivalent of a
+&lt;a href="https://en.wikipedia.org/wiki/Minimum_viable_product"&gt;minimum viable product&lt;/a&gt;. A UI that can talk
+to a backend service that can talk to a database to fulfill one user request is
+a better starting point than a sophisticated, totally fleshed out backend that
+has no corresponding frontend for someone to actually do anything. The former is
+a minimum viable system. The latter doesn’t have all the pieces that the system
+needs.&lt;/p&gt;
+&lt;p&gt;Consider what a minimum viable system for a todo app looks like compared to an
+unusable system.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/a9a7zV7.jpg" alt="diagrams for a todo app"&gt;&lt;/p&gt;
+&lt;p&gt;For a CRUD app, code tends to be the easiest thing to figure out, but creating a
+robust, working system involves more than code. Computer science classes don’t
+involve much networking, security policies, and configuration, while real world
+programming can have plenty of all that.&lt;/p&gt;
+&lt;p&gt;This also applies to something like integrating with a new API or external
+system. Instead of expanding on my code to support what I want to do with the
+API, I would inititally focus on interacting with the API to figure out how it
+really behaves. Maybe there’s an IP
+&lt;a href="https://en.wikipedia.org/wiki/Whitelist"&gt;allowlist&lt;/a&gt; that needs to be updated.
+Or maybe I’ll learn that requests to my system won’t come with a
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type"&gt;Content-Type&lt;/a&gt;
+header, which causes my framework to not parse the request (true story). Many
+integrations will have kinks like that, and I want to find them as early as
+possible.&lt;/p&gt;
+&lt;h2 id="learning"&gt;Learning&lt;a class="anchor" href="#learning"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Another way I think about minimum viable systems is that it’s about learning
+more efficiently. Once you’ve learned how to retrieve data from the database
+with whatever language/framework/library/pattern you’re expected to use, doing
+it for a different piece of data probably doesn’t teach you much more. It’s too
+similar to what you’ve already done. Whereas implementing the UI to show that
+data is going to teach you a lot more.&lt;/p&gt;
+&lt;p&gt;One objection could be that you might only be responsible for one piece of the
+system, or maybe you want to focus on learning one topic in depth (e.g. becoming
+a database expert). That makes sense, but for any project that involves more
+than one piece of a system, you can still advocate for integrating the pieces
+quickly. To the extent that your success depends on crossing the boundaries in a
+system, I recommend doing it as early as possible. It will save you pain and
+make it easier to estimate how long things will take.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</guid><pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate></item><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
         &lt;h1&gt;How to Convert Any JavaScript Value to a Boolean&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7140,94 +7229,4 @@ perfect, but I don’t have a love-hate relationship with it. I wish I could say
 that about all my devices.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/a-tribute-to-kindle</guid><pubDate>Tue, 08 May 2018 00:00:00 GMT</pubDate></item><item><title>Splurge Stopper</title><link>https://www.dannyguo.com/blog/splurge-stopper</link><description>&lt;article&gt;
-        &lt;h1&gt;Splurge Stopper&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2018-05-04"&gt;
-                May 4, 2018
-            &lt;/time&gt;
-             · 
-            526 words  ·  ~3 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;Amazon recently ran a &lt;a href="https://alexalifehacks.devpost.com"&gt;developer challenge&lt;/a&gt;
-to build &lt;a href="https://en.wikipedia.org/wiki/Amazon_Alexa"&gt;Alexa skills&lt;/a&gt;. I only
-found out about the challenge a few days before it ended, so I decided to build
-something very small in scope.&lt;/p&gt;
-&lt;p&gt;The theme was life hacks, and one of my personal life hacks for not spending
-money on things I don’t need or really want is to think about how much money I
-could have later if I invest it instead. There are caveats to investing, but
-this trick has stopped me from buying things I would have regretted later.
-&lt;a href="https://en.wikipedia.org/wiki/Exponential_growth"&gt;Exponential growth&lt;/a&gt; is
-amazing when it &lt;a href="https://en.wikipedia.org/wiki/Compound_interest"&gt;works in your
-favor&lt;/a&gt;. Small amounts of money
-can grow to unintuitively large amounts, if given enough time. Humans &lt;a href="https://www.youtube.com/watch?v=9znsuCphHUU"&gt;don’t
-naturally grasp&lt;/a&gt; the power of
-exponential growth, so I always do a &lt;a href="https://en.wikipedia.org/wiki/Rule_of_72"&gt;quick mental
-calculation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I turned this trick into an Alexa skill called &lt;a href="https://amazon.com/gp/product/B07CSRNT9R"&gt;Splurge
-Stopper&lt;/a&gt; (the source code is on
-&lt;a href="https://github.com/dguo/splurge-stopper"&gt;GitHub&lt;/a&gt;). You ask it why you
-shouldn’t spend a certain amount of money, and it responds with how much money
-you might have in the future if you invest it instead.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;You: Hey Alexa, ask Splurge Stopper why I shouldn’t spend 80 dollars on fancy
-socks.&lt;/p&gt;
-&lt;p&gt;Alexa: Because if you invest it instead, you might have about 143 dollars in
-10 years, 257 dollars in 20 years, 459 dollars in 30 years, or 823 dollars in
-40 years.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;It assumes an inflation-adjusted, annualized return rate of 6 percent. The
-historical rate for the &lt;a href="https://en.wikipedia.org/wiki/S%26P_500_Index"&gt;S&amp;amp;P
-500&lt;/a&gt; is &lt;a href="http://moneychimp.com/features/market_cagr.htm"&gt;between 6 and 7
-percent&lt;/a&gt;. Because the rate is
-adjusted for inflation, the amounts reflect current day &lt;a href="https://en.wikipedia.org/wiki/Purchasing_power"&gt;purchasing
-power&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="caveats"&gt;Caveats&lt;a class="anchor" href="#caveats"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href="https://www.thebalance.com/past-performance-is-no-guarantee-of-future-results-357862"&gt;Past performance is no guarantee of future
-results&lt;/a&gt;.
-Losing money is a risk.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You have to actually invest the money that you don’t spend. It’s not enough
-to just not make the purchase.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;You have to hold for the long term. The point of listing the amounts for
-multiple time periods is to show just how effective exponential growth can be
-when it has enough time to really take off.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="what-i-learned"&gt;What I Learned&lt;a class="anchor" href="#what-i-learned"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;This was my first time working with Alexa or any voice control platform, so I
-learned the basic concepts as I read the &lt;a href="https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html"&gt;Alexa Skills Kit
-documentation&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;This was also my first time working with a
-&lt;a href="https://en.wikipedia.org/wiki/Serverless_computing"&gt;“serverless”&lt;/a&gt; platform.
-The Splurge Stopper code runs on &lt;a href="https://aws.amazon.com/lambda/"&gt;AWS Lambda&lt;/a&gt;.
-I used &lt;a href="https://nodejs.org/"&gt;Node.js&lt;/a&gt; for the execution environment because
-Amazon has a &lt;a href="https://github.com/alexa/alexa-skills-kit-sdk-for-nodejs"&gt;SDK&lt;/a&gt;
-for it.&lt;/p&gt;
-&lt;p&gt;Parsing the money amount was the hardest part because as of now, there is no
-built-in slot type for money, which was really surprising. I found an &lt;a href="https://alexa.uservoice.com/forums/906892-alexa-skills-developer-voice-and-vote/suggestions/32402266-money-type"&gt;open
-issue&lt;/a&gt;
-to add a money type. As a workaround for now, I followed this &lt;a href="https://stackoverflow.com/a/42278120/1481479"&gt;Stack Overflow
-answer&lt;/a&gt; and used two slots: one
-for dollars and one for cents. I had to use many more utterances to account for
-various combinations of dollars and cents.&lt;/p&gt;
-&lt;p&gt;I read about &lt;a href="https://en.wikipedia.org/wiki/Speech_Synthesis_Markup_Language"&gt;Speech Synthesis Markup
-Language&lt;/a&gt; for
-the first time. It allows you to control how text is converted into artificial
-speech, so you can make it sound more natural. For example, you can surround a
-certain phrase with emphasis tags (e.g. &lt;code&gt;&amp;lt;emphasis&amp;gt;awesome&amp;lt;/emphasis&amp;gt;&lt;/code&gt;), and
-the voice will stress the phrase. I didn’t end up using SSML, but it seems like
-it’d be very useful for a more involved skill.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/splurge-stopper</guid><pubDate>Fri, 04 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/a-tribute-to-kindle</guid><pubDate>Tue, 08 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
