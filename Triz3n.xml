@@ -1,81 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~Triz3n posts on ctrl-c.club</title><link>https://ctrl-c.club/~Triz3n/</link><description>Triz3n</description><language>en</language><lastBuildDate>Sat, 26 Aug 2023 12:17:19 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Triz3n</title><link>https://ctrl-c.club/~Triz3n/pigz_compression.html</link><description>&lt;div&gt;&lt;div class="container"&gt; 
-            &lt;div class="row"&gt;
-				&lt;div class="col text-center pt-5 text-light"&gt;
-					&lt;h3 class="fw-bold"&gt;Tar Faster Using Pigz&lt;/h3&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
+<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .+.html -i .+/index.html --follow --with-body --title ~Triz3n posts on ctrl-c.club --body-remove-csss nav https://ctrl-c.club/~Triz3n/ -o ./feeds/Triz3n.xml</title><link>https://ctrl-c.club/~Triz3n/</link><description>Failed to generate feed.</description><lastBuildDate>Sat, 26 Aug 2023 18:12:22 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .+.html -i .+/index.html --follow --with-body --title ~Triz3n posts on ctrl-c.club --body-remove-csss nav https://ctrl-c.club/~Triz3n/ -o ./feeds/Triz3n.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .+.html -i .+/index.html --follow --with-body --title ~Triz3n posts on ctrl-c.club --body-remove-csss nav https://ctrl-c.club/~Triz3n/ -o ./feeds/Triz3n.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 1756, in main
+    make_feed(args)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 876, in make_feed
+    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 770, in get_start_page
+    base_attrs.feed(page_content)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/html/parser.py", line 109, in feed
+    self.rawdata = self.rawdata + data
+TypeError: can only concatenate str (not "NoneType") to str
 
-			&lt;div class="row"&gt;
-				&lt;div class="col text-left text-light py-5"&gt;
-                    &lt;h5 class="fw-bold text-decoration-underline"&gt;Getting Started:&lt;/h5&gt;
-                    &lt;div class="py-3"&gt;
-                        &lt;p&gt;To begin, you will need the following packages installed:&lt;/p&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;pigz&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;pv (optional)&lt;/code&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
-                    &lt;/div&gt;
-
-                    &lt;h5 class="fw-bold text-decoration-underline"&gt;Using Pigz With Tar:&lt;/h5&gt;
-                    &lt;div class="py-3"&gt;
-                        &lt;p&gt;Compressing with pigz can be done a couple of different ways:&lt;/p&gt;
-                        &lt;p&gt;&lt;code&gt;tar --use-compression-program=pigz -cf yourfile.tar.gz folder1&lt;/code&gt;&lt;/p&gt;
-                        &lt;p&gt;&lt;code&gt;tar cf - Pictures/ | pigz &amp;gt; pictures.tar.gz&lt;/code&gt;&lt;/p&gt;
-                        &lt;p&gt;These commands can also be piped to the "pv" program to monitor the progress of the compression.&lt;/p&gt;
-                        &lt;p&gt;&lt;code&gt;tar cf - Pictures/ | pigz &amp;gt; pictures.tar.gz | pv&lt;/code&gt;&lt;/p&gt;
-                    &lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~Triz3n/pigz_compression.html</guid></item><item><title>Triz3n</title><link>https://ctrl-c.club/~Triz3n/auto_deploy.html</link><description>&lt;div&gt;&lt;div class="container"&gt; 
-            &lt;div class="row"&gt;
-				&lt;div class="col text-center pt-5 text-light"&gt;
-					&lt;h3 class="fw-bold"&gt;Automating Site Deployment to Ctrl-C.club&lt;/h3&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-
-			&lt;div class="row"&gt;
-				&lt;div class="col text-left text-light py-5"&gt;
-                    &lt;h5 class="fw-bold text-decoration-underline"&gt;Getting Started:&lt;/h5&gt;
-                    &lt;div class="py-3"&gt;
-                        &lt;p&gt;To begin, you will need the following packages installed:&lt;/p&gt;
-                        &lt;ul&gt;
-                            &lt;li&gt;&lt;code&gt;tar&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;pigz&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;scp&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;ssh&lt;/code&gt;&lt;/li&gt;
-                            &lt;li&gt;&lt;code&gt;bash&lt;/code&gt;&lt;/li&gt;
-                        &lt;/ul&gt;
-                    &lt;/div&gt;
-
-                    &lt;h5 class="fw-bold text-decoration-underline"&gt;Automating Site Deployment to Ctrl-C.club&lt;/h5&gt;
-                    &lt;div class="py-3"&gt;
-                        &lt;p&gt;In order to use this script you must first create an ssh key and pass the public key to your Ctrl-C.club server.&lt;/p&gt;
-                        &lt;p&gt;&lt;code&gt;ssh-keygen -b 4096&lt;/code&gt;&lt;/p&gt;
-                        &lt;p&gt;Press enter to select the default options. Do not specifiy a password for your key unless you modify the deploy script to handle this.&lt;/p&gt;
-                        &lt;p&gt;To share the newly created public key simply run the following command:&lt;/p&gt;
-                        &lt;p&gt;&lt;code&gt;ssh-copy-id your_username@ctrl-c.club&lt;/code&gt;&lt;/p&gt;
-                        &lt;p&gt;More information can be found on how to make an ssh key at the following link:
-                            &lt;a href="https://www.linode.com/docs/guides/use-public-key-authentication-with-ssh/"&gt;use-public-key-authentication-with-ssh&lt;/a&gt;
-                        &lt;/p&gt;
-                        &lt;p&gt;Once the server has your public ssh key, create the following script in your public_html directory and then execute the script.&lt;/p&gt;
-                        &lt;p&gt;
-                            &lt;code&gt;
-                                cd ..&lt;br&gt;
-                                cp -r public_html html&lt;br&gt;
-                                tar -cf - html | pigz &amp;gt; html.tar.gz&lt;br&gt;
-                                scp html.tar.gz your_username@ctrl-c.club:/home/your_username&lt;br&gt;
-                                ssh your_username@ctrl-c.club 'tar -xvf html.tar.gz; rm -rf public_html; mv html public_html; rm html.tar.gz'&lt;br&gt;
-                                rm -rf html html.tar.gz&lt;br&gt;
-                                printf "\nDeploy has completed successfully\n"&lt;br&gt;
-                                exit 0
-                            &lt;/code&gt;
-                        &lt;/p&gt;
-                        &lt;p&gt;Thats it! After the script has exited successfully, your newly updated site should be deployed!&lt;/p&gt;
-                    &lt;/div&gt;
-				&lt;/div&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~Triz3n/auto_deploy.html</guid></item></channel></rss>
+&lt;/pre&gt;</description></item></channel></rss>

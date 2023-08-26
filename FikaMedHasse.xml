@@ -1,71 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~FikaMedHasse posts on ctrl-c.club</title><link>https://ctrl-c.club/~FikaMedHasse/blog.html</link><description>Blog!</description><language>en</language><lastBuildDate>Sat, 26 Aug 2023 12:17:14 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Religion</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/religion.html</link><description>&lt;div&gt;&lt;h1&gt;Religion: what I think and have thunk&lt;/h1&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;i&gt;This is a first draft and may come to be revised in the future if I feel like it&lt;/i&gt;&lt;/p&gt;
-&lt;p&gt;
-I've always considered myself a logically oriented person. I've never really liked the more creative subjects, and have always considered maths and physics to be my best subjects in school. This, however, started shifting last year. We had religion as a subject for the first time in upper secondary, and I loved it. Religion has been part of the syllabus for as long as I've been in primary school, but it's always been "This group believes this", and never any reflection or insights into why people are religious. This led me to think of religious people as gullible, and for most of my upbringing I was a hardcore atheist. Looking back on this I cringe severely. Maybe I've grown as a person since then, but to think I used to share views with Ricky Gervais haunts me. &lt;br&gt;&lt;br&gt;
-I still would not consider myself religious, but today I subscribe to a more "who knows" ideology. The people who subscribe to the hard empiricism and naive realism that says God isn't real just because we have yet to see proof of them seem to me a bit narrow-minded. What makes people think we can observe and notice everything around us? The view that we would notice God's existance if it was real seems to me like it overestimates humanity's perceptive abilities. If someone told a dolphin about a highly intelligent surface mammal that can trick metal into thinking for them, would the dolphin be able to tell humans from chimpanzees by observing us? Does the dolphin have the cognitive abilities to even begin to understand the question? If God is real, what makes you think you have the ability to even begin to understand their existance or its implications?
-&lt;/p&gt;
+<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~FikaMedHasse/blogposts/.* --follow --with-body --body-remove-csss header --body-remove-csss footer --title ~FikaMedHasse posts on ctrl-c.club https://ctrl-c.club/~FikaMedHasse/blog.html -o ./feeds/FikaMedHasse.xml</title><link>https://ctrl-c.club/~FikaMedHasse/blog.html</link><description>Failed to generate feed.</description><lastBuildDate>Sat, 26 Aug 2023 18:12:11 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~FikaMedHasse/blogposts/.* --follow --with-body --body-remove-csss header --body-remove-csss footer --title ~FikaMedHasse posts on ctrl-c.club https://ctrl-c.club/~FikaMedHasse/blog.html -o ./feeds/FikaMedHasse.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~FikaMedHasse/blogposts/.* --follow --with-body --body-remove-csss header --body-remove-csss footer --title ~FikaMedHasse posts on ctrl-c.club https://ctrl-c.club/~FikaMedHasse/blog.html -o ./feeds/FikaMedHasse.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 1756, in main
+    make_feed(args)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 876, in make_feed
+    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 770, in get_start_page
+    base_attrs.feed(page_content)
+  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/html/parser.py", line 109, in feed
+    self.rawdata = self.rawdata + data
+TypeError: can only concatenate str (not "NoneType") to str
 
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/religion.html</guid></item><item><title>Reading The Call of Cthulhu</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/cthulhu.html</link><description>&lt;div&gt;&lt;h1&gt;The Call of Cuthulhu - the Opinions of an Unproffessional&lt;/h1&gt;
-&lt;hr&gt;
-&lt;h3&gt;&lt;i&gt;Contains spoilers for a story released like 70 years ago&lt;/i&gt;&lt;/h3&gt;
-&lt;p&gt;
-I have for quite some time been reading Lovecraft on and off. One story here, another there until I reached the Call of Cuthulhu this morning. I finished it, and honestly it was somewhat underwhelming. It's undoubtedly his most famous work, but it was way more &lt;i&gt;slightly unsetteling&lt;/i&gt; than it was scary. thoroughout the entire story I was prepared for the Great Old Ones to awaken from R'lyeh and wreck havoc on civilization. But then some Norwegian man smacks into the scariest monster of all time with a boat and scares it back into the depths of the ocean. &lt;br&gt;&lt;br&gt;
-
-Of course the aspect that the old ones could return at any moment is very unsetteling, and the fact that Thurston has come to realize he is the next target of the cult and has to live in fear for the rest of his life leaves te reader rather creeped out, but reading it I expected the story to end with the end of humanity and the return of the reign of the Great Old Ones. &lt;br&gt;&lt;br&gt;
-
-The Call of Cthulhu is however not the last of Lovecraft's work featuring the Great Old Ones, so the cataclysmic event may still occur in a future novel. That begs the question, why is The Call of Cthulhu his most famous work, and not the hypothetical end-of-world story I've just made up. &lt;br&gt;&lt;br&gt;
-
-The takeaway from this is that if you want to start reading Lovecraft, The Call of Cthulhu is not the place to start. The best Lovecraft story I've read thus far is definetly The Color Out Of Space. Genuinely bone-chilling story all the way through. 10/10 Recommended, while The Call of Cthulhu gets a solid 6.5/10. 
-&lt;/p&gt;
-
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/cthulhu.html</guid></item><item><title>Reading John Green</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/alaska.html</link><description>&lt;div&gt;&lt;h1&gt;Reading &lt;i&gt;Looking for Alaska&lt;/i&gt; as someone who is probably too old to do so&lt;/h1&gt;
-&lt;hr&gt;
-&lt;pre&gt;
-
-I've recently started reading &lt;i&gt;Looking for Alaska&lt;/i&gt; by John Green. It's a young adult, somewhat cheesy novel about a 16-year-olds time in a boarding school. The novel is very easy to read and a nice change to what I usually read. It feels like a breath of fresh air not having to consider any deeper meanings or analyze the themes. I always feel like there is some pressure to read these difficult, meaningful novels, but to be able to just read without thinking is sooo nice. It almost feels like I have rediscovered my love for reading. It's no longer a big undertaking to start a novel, and it takes just a couple of days of reading on my daily commute to finish the book. 
-
-I have been reading &lt;i&gt;Discworld&lt;/i&gt; by Terry Pratchett as well, and it's kinda the same thing. &lt;i&gt;Discworld&lt;/i&gt; is on a hiatus for now, but reading John Green might have inspired me to pick it back up. 
-
-&lt;/pre&gt;
-
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/alaska.html</guid></item><item><title>Tiling WM</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/tilingvm.html</link><description>&lt;div&gt;&lt;h1&gt;Back to using a tiling WM (for now)&lt;/h1&gt;
-&lt;hr&gt;
-&lt;pre&gt;
-I'm back to using a tiling WM again. I've used KDE Plasma for quite a while, but after browsing r/unixporn for a bit too much I could no longer contain the desire for ricing. So I logged back into my i3-gaps WM and got to work. Well, it wasn't exactly i3, it was actually both Plasma and i3. I had previously changed KDE's WM from kwin to i3, and had both Plasma and Plasma with i3. And let me tell you, Plasma with i3 is the perfect combination of DE and WM. You get the convenience of a DE with the speed of a WM. It's sooo sweet.
-I decided to go for a nord theme (cheesy, I know). The whole process was actually really convenient. Slap on a nice cold, blue wallpaper with nitrogen, find preconfigured .Xresources colorthemes for URxvt and a colorscheme for vim. A theme change in the browser (Vivaldi) and in Plasma took care of the rest. A complete, beautiful system in less than an hour. There are some minor things left, like a nice music visualizer (recommendations welcome) and a fetch program (recommendations also welcome) but other than that I'm really hapoy with the outcome.
-Writing this from my phone at work, but might post screenshots when I get home, if there is any interest in them.
-&lt;/pre&gt;
-
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/tilingvm.html</guid></item><item><title>Ramblings</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/ramblings.html</link><description>&lt;div&gt;&lt;h1&gt;A professionally incoherent text about a bit of everything&lt;/h1&gt;
-&lt;hr&gt;
-&lt;pre&gt;
-    I just got back from work after summer vacation. I say work, but it's really just a paid internship. School starts again in 3 weeks, and I cannot wait. This job is so boring, and I feel so unwelcome. At the same time, I do get paid, so I feel like I can't be too ungrateful. It's a big industry, and it always comes down to "Who can take care of the intern" and everyone looks down and avoids eye contact. I feel like I just get in people's way. Anyhow, It's good money for someone who hasn't really made any on their own.
-
-    I want to go back to school, finish my education and start life for real. It feels like life is in some kind of transition state, just waiting for something real to begin. I have yet to figure out what, but I just yearn for something new, something to take me somewhere I've never been before, somewhere interesting.
-
-    I am really excited for the future. The plan now might be software development, but for that I'd have to take higher studies, which feels like too much right now. Might also join a military education (lumpen for you Swedes). I really feel like the military could put me out of my comfort zone, and into a situation that is both uncomfortable and educational in a way that makes me appreciate what I have in a different way than I do now. Not that I consider myself ungrateful, but the things I take for granted are definetly not granted at all. I'm just incredibly lucky to have born in a high-HDI, high-GDP, developed country with good healthcare and welfare. Should probably experience some discomfort for a change.
-
-    I don't know where I'm heading, but I'll walk with the knowledge that the road ahead will untangle sooner or later.
-&lt;/pre&gt;
-
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/ramblings.html</guid></item><item><title>Hello World!</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/HelloWorld.html</link><description>&lt;div&gt;&lt;h1&gt;Hello World!&lt;/h1&gt;
-&lt;hr&gt;
-&lt;pre&gt;
-First blog post! How exciting. I wanted to use this opportunity to explain what this blog is, and is not:
-
-This blog is:
-    â¢ My thoughts on whatever I feel like writing about
-    â¢ Lightweight on your browser and network
-    â¢ Simple
-    â¢ HTML + CSS only
-
-This blog is not:
-    â¢ Professionally made
-    â¢ Professionally written
-    â¢ Professional in any other regard
-    â¢ Regularly updated
-&lt;/pre&gt;
-
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/HelloWorld.html</guid></item></channel></rss>
+&lt;/pre&gt;</description></item></channel></rss>
