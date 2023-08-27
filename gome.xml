@@ -1,13 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml</title><link>https://ctrl-c.club/~gome/journal/</link><description>Failed to generate feed.</description><lastBuildDate>Sat, 26 Aug 2023 18:12:13 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 1756, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 876, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/bin/newslinkrss", line 770, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.9.17/x64/lib/python3.9/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
-
-&lt;/pre&gt;</description></item></channel></rss>
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 27 Aug 2023 00:45:29 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — goals pt. 2</title><link>https://ctrl-c.club/~gome/journal/goals-2.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;New-year goals postmortem&lt;/h1&gt;
+      &lt;time datetime="Wed, 9 Aug 2023 21:30:00 CDT"&gt;9 Aug 2023, 9:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        Back in January, I set some &lt;a href="goals.html"&gt;goals for the year&lt;/a&gt;.
+        Some of them I ended up dropping pretty quickly, especially those I wasn’t holding myself to daily.
+        A few of them I pretty much just forgot about.
+      &lt;/p&gt;&lt;p&gt;
+        On the other hand, I stuck with some of the daily habits for surprisingly long.
+        That being said, I’ve since dropped off on most of those in the last few months.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/flower_field.webp" width="650" height="366" alt="A field of lilacs in the Netherlands."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Flower_field_-_De_Zilk.jpg#Licensing"&gt;Joris&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Here’s an item-by-item breakdown of the list from &lt;a href="goals.html"&gt;the original post&lt;/a&gt;:
+      &lt;/p&gt;
+      &lt;h3&gt;Idly using my phone less&lt;/h3&gt;
+      &lt;p&gt;
+        Before 2023, I used to use my phone last thing at night or first thing in the morning fairly often.
+        I broke this habit enough. I still occasionally do it, but not so often that it really becomes a problem.
+        Still, I have a ways to go before I’m using my phone as little as I’d like, ideally.
+      &lt;/p&gt;
+      &lt;h3&gt;Getting proactive about dental health&lt;/h3&gt;
+      &lt;p&gt;
+        I flossed regularly for a really long time.
+        I was pretty pleased that I was able to go six months doing it consistently.
+        Unfortunately, I got a nasty tangle in my most recent capsule of floss, so I just thought, “I don’t want to fix this tonight”, and didn’t.
+        Then I went on a trip where I was busy enough to not want to bother with it.
+      &lt;/p&gt;&lt;p&gt;
+        After that, I pretty much lost the habit.
+        But I think if I just get some new floss I should be able to pick this one up again.
+        Even with a lapse of a few weeks, if I finish the year with a steady flossing habit, I’d call that a win.
+      &lt;/p&gt;
+      &lt;h3&gt;Regular quiet time, where I mainly do nothing&lt;/h3&gt;
+      &lt;p&gt;
+        This one really didn’t pan out.
+        During the day, for some reason, slowing down and doing nothing is the last thing I want to do.
+        But it seems to help me feel a lot better when I do it.
+        It’s kind of a mystery to me currently, but I don’t know how to get this one to stick.
+        Maybe I need to put it at a consistent time of day, like “12:00–12:20 is always my quiet time, no matter what”.
+      &lt;/p&gt;
+      &lt;h3&gt;Working out regularly&lt;/h3&gt;
+      &lt;p&gt;
+        This one is going fine, actually.
+        I definitely worked out less during the winter, but now that it’s nicer out, I have more energy and I can go outside.
+        I go for runs, walks, &amp;amp; bike rides fairly regularly, and then I lift hand weights maybe once or twice a week.
+      &lt;/p&gt;
+      &lt;h3&gt;Regular journaling and recording of my daily activities&lt;/h3&gt;
+      &lt;p&gt;
+        Unfortunately, I don’t really journal anymore.
+        I only did daily logs (short descriptions of my day) for a few weeks.
+        I did journaling a few times a week for maybe a little longer.
+        It seems like if I don’t keep a consistent streak going with it, I drop journaling habits pretty fast.
+        Also, journaling on paper makes my hand hurt, cause I think faster than I can handwrite (I think faster than I can even talk).
+      &lt;/p&gt;
+      &lt;h3&gt;Various monthly and year-long goals, including reading a book monthly, learning 500 German vocab words, and identifying 50 trees&lt;/h3&gt;
+      &lt;p&gt;
+        One of my big lessons from these goals is that any goal with a scope larger than “daily” is actually really hard to keep sight of in the face of daily life!
+        On the other hand, I have identified a number of trees with this great field guide I got, so that’s cool.
+        But I totally forgot I was going to study German again.
+      &lt;/p&gt;&lt;p&gt;
+        And I certainly haven’t read a book monthly.
+        It’s possible I’ve started a book about once a month, though.
+        I just end up doing most of my reading on the internet these days.
+      &lt;/p&gt;&lt;p&gt;
+        I will say, I’ve dropped the habit of reading Twitter recently, which is promising.
+        For a while, I actually got a lot of enjoyment out of Twitter and learned a lot from reading it, but it’s not the same for me anymore and it’s better that I drop it at this point.
+        So maybe that will open up more room for me to read.
+      &lt;/p&gt;&lt;hr&gt;&lt;p&gt;
+        You may judge for yourself how my goals went, but in the end, I’m glad I tried to do them.
+        I learned about what works and what doesn’t, I proved to myself I can hold habits longer than I thought, and all the positive things I did were worthwhile, even when I didn’t keep doing them.
+      &lt;/p&gt;&lt;p&gt;
+        So with all this in mind, I’ve recently been thinking again about how I want to manage my priorities and time.
+        My mom said the first &amp;amp; last hours of the day are really important for setting up the rest of the day well, so I might try to come up with a consistent routine of good habits for just those parts of the day.
+      &lt;/p&gt;
+      &lt;h3&gt;Side note: an idea for managing personal projects&lt;/h3&gt;
+      &lt;p&gt;
+        I’ve also thought about how to set myself up for success for future &lt;a href="completion.html"&gt;projects&lt;/a&gt;, including things I want to do here on my gomesite.
+        I think I need to set a limited amount of time to do a given project, and then budget out that time over a reasonable time span.
+        Like, if I want to write some program, but I don’t want to sink too much time into it, I should decide up front that I’ll only spend, say, six hours on it.
+        Then I can spread that time over a few evenings, commit to doing it for that limited scope, and reevaluate if I want to carry on at the end of it.
+      &lt;/p&gt;&lt;p&gt;
+        It’s a more structured approach than I’m used to, but it might help me execute on more of my ideas.
+        And the addition of structure certainly &lt;a href="challenge.html"&gt;helped me with writing&lt;/a&gt; on my gomesite.
+      &lt;/p&gt;&lt;p&gt;
+        How are your 2023 resolutions going?
+        What projects or habits are you currently working on?
+        What projects or habits have you recently dropped?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/goals-2.html</guid></item><item><title>gome — keyboard</title><link>https://ctrl-c.club/~gome/journal/keyboard.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I love my new keyboard&lt;/h1&gt;
+      &lt;time datetime="Fri, 21 Jul 2023 20:30:00 CDT"&gt;21 Jul 2023, 8:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        For a long time, I’ve had one of those Microsoft ergonomic keyboards with the split-hand layout.
+        It worked reasonably well for me; I haven’t ever been terribly picky about my PC peripherals.
+        Although the hardware still works fine, it’s developed an unfortunate shedding problem.
+        The foam handrest is covered in this thin pleather-type skin that comes off in little pieces.
+      &lt;/p&gt;&lt;p&gt;
+        I didn’t really want to give it up as long as it still worked fine.
+        I tried to remove the foam, but the keyboard is quite resistant to being opened up, and there's no clear way to remove just that.
+        I eventually got sick of having these little pieces of plastic whatever sticking to my hands all the time.
+        I started dreaming about getting a new keyboard.
+      &lt;/p&gt;&lt;p&gt;
+        Since it’s something I’ll use every day for work, I wanted to get a keyboard I enjoyed using, maybe one that was a little stylish, even.
+        So I thought I’d give mechanical keyboards a try.
+        They’re supposed to be more fun to type on, and they tend to have an aesthetic edge on non-mechanicals.
+      &lt;/p&gt;&lt;p&gt;
+        I did a good bit of searching and research, and I learned a bit about mechanical keyboards along the way.
+        Some boards are hot-swappable, which means you can change out the switches without soldering.
+        Switches are the part of each key that actually detects your keypress, and they come with different mechanical actions, coded by color: e.g., red for linear (smooth action), blue for clicky, and brown for tactile (I think that’s somewhere between the other two).
+        I wanted something on the quieter side, so went with red switches for mine.
+      &lt;/p&gt;&lt;p&gt;
+        I knew I didn’t need hot-swapping, nor did I need backlights for the keys.
+        Ruling out boards with those features meant I could find one I was happy with at a really good price, relatively speaking.
+        Best of all, I was able to find one in a special retro color scheme I found really appealing.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/keyboard.webp" width="500" height="375"&gt;
+        &lt;figcaption&gt;I’m a big fan of the red escape key.&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;div class="music-box"&gt;
+        &lt;audio src="img/typing.mp3"&gt;&lt;/audio&gt;
+        &lt;svg width="20" height="20" class="play"&gt;&lt;/svg&gt;
+        &lt;svg width="20" height="20" class="pause"&gt;&lt;/svg&gt;
+        &lt;span&gt;This is the sound of me typing this sentence.&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;p&gt;
+        The keyboard arrived a few weeks ago now, and I’ve just been more happy with it the more I’ve used it.
+        It feels so nice to type on.
+        The action is so smooth, and it only takes a light touch to trigger a key, so I can really fly on it, especially with keyboard shortcuts.
+      &lt;/p&gt;&lt;p&gt;
+        Best of all, I really like the way it looks.
+        It’s fun to look down at it every so often while working and see this cool, aesthetic rectangle.
+        I do think having nicer things for my everyday office use probably has a bit of a positive impact on my attitude, on the whole.
+      &lt;/p&gt;&lt;p&gt;
+        Do you own a mechanical keyboard?
+        What kind do you have?
+        What kind of switches?
+        What color?
+        How do you like it?
+        Do you have something else you use every day that delights you?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/keyboard.html</guid><pubDate>Fri, 21 Jul 2023 00:00:00 GMT</pubDate></item><item><title>gome — Stan Rogers</title><link>https://ctrl-c.club/~gome/journal/stan-rogers.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Stan Rogers is a true folk musician&lt;/h1&gt;
+      &lt;time datetime="Wed, 19 Jul 2023 23:00:00 CDT"&gt;19 Jul 2023, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I first heard &lt;a href="https://song.link/s/4WKs2iDdrR2fA8T3hlCanB" target="_blank"&gt;&lt;i&gt;Northwest Passage&lt;/i&gt;&lt;/a&gt; by Stan Rogers back in high school, I could tell it was a special song.
+        I love the stirring chorus with the bedrock bass &amp;amp; belting tenor line, and Stan’s voice holds the stage alone so well in the verses.
+      &lt;/p&gt;&lt;p&gt;
+        The lyrics connect the narrator’s own journey across Canada with the historic expeditions of explorers in search of the elusive Northwest Passage.
+        There’s a great shift of focus back and forth from the historical significance of the search to the narrator’s own experience.
+      &lt;/p&gt;&lt;blockquote&gt;
+        How then am I so different from the first men through this way?&lt;br&gt;
+        Like them, I left a settled life, I threw it all away&lt;br&gt;
+        To seek a Northwest Passage at the call of many men&lt;br&gt;
+        To find there but the road back home again
+      &lt;/blockquote&gt;&lt;p&gt;
+        I love how this device expresses something both personal and so much greater than one person.
+        The same yearning &amp;amp; striving for greatness that drove these historic explorers is being identified with the lived experience of the narrator,
+        creating the kind of connection &amp;amp; story that help one situate oneself within a culture.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/stan-rogers.webp" width="500" height="400"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://stanrogers.net/photos/"&gt;stanrogers.net&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        When we talk about folk music, especially contemporary folk music, we think of it as a genre among other genres.
+        But to me, the defining characteristic of folk music isn’t stylistic, but its purpose.
+        The special purpose I consider folk music to serve is to help tell the story of a specific group of people, to help them make sense of themselves as a group.
+      &lt;/p&gt;&lt;p&gt;
+        In Stan Rogers’ case, the group is Canadians, especially Maritimers and the people of the prairie.
+        Many of his songs tell stories of shipworkers or farmers,
+        and the challenges, struggles, and victories that gave their lives meaning.
+      &lt;/p&gt;&lt;p&gt;
+        By telling their stories, Rogers gives us a vantage point from which to understand what it means to be Canadian.
+        At the same time, the stories transcend their specifics and touch on universal human experiences,
+        allowing those of other cultures to identify themselves in the songs as well.
+        Great folk music like Rogers’ can span all three scopes of the personal, the cultural, and the universal.
+      &lt;/p&gt;&lt;p&gt;
+        For another great example of what I mean, listen to &lt;a href="https://song.link/s/3ejYTDXoGgJeYpR4wL0vdc" target="_blank"&gt;&lt;i&gt;The Mary Ellen Carter&lt;/i&gt;&lt;/a&gt;.
+        The song speaks for itself, so I don’t really have too much to add, except that this song &lt;a href="https://en.wikipedia.org/wiki/The_Mary_Ellen_Carter#Connection_to_the_sinking_of_the_Marine_Electric"&gt;literally saved someone’s life&lt;/a&gt;, shortly before Rogers himself died.
+      &lt;/p&gt;&lt;p&gt;
+        Have you heard Stan Rogers’ music?
+        Do you know of another folk musician whose music tells the story of a group of people?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/stan-rogers.html</guid><pubDate>Wed, 19 Jul 2023 00:00:00 GMT</pubDate></item><item><title>gome — webjam</title><link>https://ctrl-c.club/~gome/journal/webjam.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I’m putting on a Jam&lt;/h1&gt;
+      &lt;time datetime="Thu, 6 Jul 2023 22:30:00 CDT"&gt;6 Jul 2023, 10:30 PM&lt;/time&gt;
+      &lt;p class="note"&gt;
+        Link to the Jam:
+      &lt;/p&gt;
+      &lt;a class="library-link" href="../library/webjam"&gt;
+        &lt;svg width="24" height="24" class="icon stop-2"&gt;&lt;/svg&gt;
+        &lt;h3&gt;Ctrl-C Webpage Jam&lt;/h3&gt;
+        &lt;p&gt;Build on your user site!&lt;/p&gt;
+      &lt;/a&gt;
+      &lt;p&gt;
+        It’s been a little while since I last posted.
+        Over the last month, I spent some time putting together my &lt;a href="../library/journal-index.html"&gt;journal index&lt;/a&gt;, which categorizes my posts up to now.
+        Hopefully, it will be a more personal &amp;amp; usable alternative to having a search feature for my posts.
+        I’ve also been playing a lot of &lt;a href="exploration.html"&gt;&lt;i&gt;Tears of the Kingdom&lt;/i&gt;&lt;/a&gt; and having a blast with it.
+      &lt;/p&gt;&lt;p&gt;
+        My occasion for writing today is an upcoming event I’m hosting for the &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt; server community.
+        Ctrl-C has been a wonderful online home for me over the past year and a half.
+        I love having this easy-going and friendly group of computer tinkerers to share a website with.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/neo.webp" width="785" height="416"&gt;
+        &lt;figcaption&gt;~&lt;a href="https://ctrl-c.club/~neo"&gt;neo&lt;/a&gt;’s Ctrl-C site&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Ctrl-C is just one of a constellation of “&lt;a href="https://tildeverse.org/"&gt;tilde servers&lt;/a&gt;”, public Unix servers that give away free shell accounts to users.
+        The first contemporary tilde server was started by a guy named Paul Ford in 2014.
+        In his &lt;a href="https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf"&gt;post&lt;/a&gt; describing the founding of &lt;a href="http://tilde.club/"&gt;tilde.club&lt;/a&gt;, he has a great paragraph about what he loves about the project:
+      &lt;/p&gt;&lt;blockquote&gt;
+        I’d taken this thing on myself and was paying to keep it going. But look at it another way: I was getting paid in web pages. I am a man who loves web pages. Not an activity feed, not structured tweets or organized blog posts, no brand messages, just pure raw weird signal. Like walking down a street in a new city at night and seeing all the signs, blinking and bright and in languages you don’t quite understand.
+      &lt;/blockquote&gt;&lt;p&gt;
+        This is the best description I’ve found of what personally appeals to me about Ctrl-C.
+        I love the creative potential of web pages, and I love to see people expressing their own personal flare with the medium.
+        Gomepage is my own serious attempt to create a webpage as personal expression.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve seen some great user pages on Ctrl-C.
+        There are too many to name, but just a few I find especially fun include ~&lt;a href="https://ctrl-c.club/~pgadey"&gt;pgadey&lt;/a&gt;, ~&lt;a href="https://ctrl-c.club/~neo"&gt;neo&lt;/a&gt;, and ~&lt;a href="https://ctrl-c.club/~megymagy"&gt;megymagy&lt;/a&gt;.
+        But I want more.
+        I want more novel HTML creations, especially from some of the many users who simply have a “Hello World”, “Coming Soon”, or “Under Construction” as their only sign of life.
+      &lt;/p&gt;&lt;p&gt;
+        So with that in mind, I decided to put on an event to encourage the Ctrl-C I want to see.
+        The details are available on the &lt;a href="../library/webjam"&gt;main page for the event&lt;/a&gt;.
+        If you are a Ctrl-C user, I encourage you to join us and build something wonderful!
+      &lt;/p&gt;&lt;p&gt;
+        For a while now, I’ve wanted to make some durable contribution to the larger Ctrl-C community.
+        I’m not as handy at scripting as some of the other users, and I usually abandon programming projects, so I haven’t managed to make a contribution of code.
+        Maybe I’ll run this event annually, and that will be my way of helping build up the culture of this server.
+      &lt;/p&gt;&lt;p&gt;
+        Do you love reading personal web pages?
+        Do you have a personal site of your own?
+        Are you a member of a tilde server?
+        Have you ever participated in a jam of any kind?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam.html</guid></item><item><title>gome — paramotor</title><link>https://ctrl-c.club/~gome/journal/paramotor.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Have you heard of paramotors?&lt;/h1&gt;
+      &lt;time datetime="Thu, 8 Jun 2023 22:30:00 CDT"&gt;8 Jun 2023, 8:30 PM&lt;/time&gt;
+      &lt;div class="note"&gt;
+        &lt;p&gt;
+          After this post, I’m planning to stop posting for a while.
+          Getting out of the routine of doing it daily, alongside others, has kind of taken the steam out of it for me.
+          I don’t want to be posting half-heartedly twice a week; I’d rather take a break for now (perhaps the summer months) and then go back to daily posting later.
+        &lt;/p&gt;&lt;p&gt;
+          I’ll keep updating other parts of the site from time to time, so you’ll still be hearing from me if you check back regularly.
+        &lt;/p&gt;
+      &lt;/div&gt;&lt;p&gt;
+        Today I discovered this really cool one-person flight system called a paramotor.
+        You wear a big motorized propeller on your back like a backpack, which gives you the thrust to get airborne.
+        Then a parachute is attached behind that, which gives you control over your flight and descent.
+      &lt;/p&gt;&lt;p&gt;
+        Apparently there aren’t a ton of regulations on them in the US.
+        The FAA classes them as an ultralight vehicle and therefore doesn’t require any licensing or registration to use one.
+        That being said, you’d be taking a grave risk to pilot one without proper training.
+        They’re not toys, and they take real knowledge and skill to fly.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/paramotor.webp" width="600" height="338"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Paramotor2.jpg#Licensing"&gt;Toni Castillo Quero&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        That aside, the paramotor seems to have all the things you’d want in a personal flight system.
+        You get to fly out in the open (not enclosed), you can glide just over the ground or high up in the air, and the whole system is light and relatively portable (at least when compared to a plane or helicopter).
+      &lt;/p&gt;&lt;p&gt;
+        The old futurist idea of personal flight was always a jetpack, which would have the advantage of being able to take off from a static position.
+        A paramotor requires a bit of runway to get up and down, and also takes up a little more airspace due to the parachute.
+        But I don’t really see how a jetpack is meant to achieve stability, which the paramotor seems to manage quite well due to the parachute, provided weather conditions are safe.
+      &lt;/p&gt;&lt;p&gt;
+        Of course when I saw these, I immediately wished I could try one.
+        It seems like it’s a serious investment of time &amp;amp; money to learn how to pilot one of these safely, let alone acquire your own.
+        But at the very least it makes me happy to know something like this is even possible.
+      &lt;/p&gt;&lt;p&gt;
+        Have you heard of paramotors?
+        Have you tried paramotoring?
+        What do you think of them?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/paramotor.html</guid></item></channel></rss>
