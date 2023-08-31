@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Thu, 31 Aug 2023 00:42:57 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>why-cli.html</title><link>https://ctrl-c.club/~lettuce/why-cli.html</link><description>&lt;div&gt;&lt;h1&gt;Why I use the command line&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Thu, 31 Aug 2023 06:14:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+
+&lt;p&gt;2023-08-31&lt;/p&gt;
+
+&lt;p&gt;Hi folks, this title perhaps sounds a little click-baity, but it's actually a genuine question.&lt;/p&gt;
+
+&lt;p&gt;This semester I'm teaching a computer science course to a diverse community of students, and among many other things, I'm teaching html/css/js and node.js and bash. This is the course I taught a few years ago (and wrote about previously) where I built a tilde server for the class, that they tried out. I'm teaching the class again, with a new crop of students, and I wanted some help here. On the one hand, I'm excited to show them Gemini. On the other hand, the last time I taught this class, it didn't make a big impression as I recall. &lt;/p&gt;
+
+&lt;p&gt;What attracts me to Gemini is the ability to read blog-like articles on topics that interest me, and the slow pace. Maybe this isn't that attractive to students! &lt;/p&gt;
+
+&lt;p&gt;Students in my courses tend to find HTML fine but dull, CSS exciting, and they tend to enjoy all the brutalist and experimental artist websites I show them. This week we went on a link spree checking out the handmade websites of Gossip's Web. &lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://gossipsweb.net/"&gt;Gossip's Web: the directory of handmade websites&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next week we'll be building weblogs, a collaborative webring, and checking out the alt/slow 'social media' site special.fish.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://special.fish"&gt;Special.fish&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Then we'll start building our own experimental chat applications and server software.&lt;/p&gt;
+
+&lt;p&gt;All of these the students (mostly) can appreciate and get into. But I can't say the same for Gemini.&lt;/p&gt;
+
+&lt;p&gt;Sadly, the one server I found previously that seemed to have a lot of young people and students on it (e-worm.club) appears to have shut down their gemini server, and while their www site is up, it's not active anymore either.&lt;/p&gt;
+
+&lt;p&gt;In some ways, this parallels my experience becoming a ham radio operator as a kid. I kept at it until high school, then gradually stopped when I found MUDs, MUSHes and aol chatrooms as a teen (90s). They were realtime, dynamic, and exciting to me.&lt;/p&gt;
+
+&lt;p&gt;So I'm wondering: would gemini be attractive to students at all, and if so, how? Are you a student (or young person) on Gemini? Please share your gemlog, or any thoughts you care to share.&lt;/p&gt;
+
+&lt;p&gt;And how would you explain or provide context about it that would connect for them?&lt;/p&gt;
+
+&lt;p&gt;Any other projects, sites, gemlogs, blogs or other software you'd suggest I share with them? Here's an incomplete list of some of the software, websites, concepts and tools we checked out last time I taught this course: tildes, digital gardens, BBSes, finger, wall, git, blogging, licenses, FLOSS, creative commons, manifestos, codes of conducts, contributing to open source software, working with servers, building our own chat app (this time i'm thinking we may build on twtxt), building an experimental browser with electron, minus, die with me, Somebody. We also extensively used glitch.com to build web apps.&lt;/p&gt;
+
+&lt;p&gt;Maybe these are too exciting and I'm covering too much in one course for Gemini to really be able to stick out in all that. I just know it's the one I myself tend to return to week after week, even after the past 3 years. So maybe Gemini doesn't stand out to them because it's 'slow.' But let me know if you have any other thoughts.&lt;/p&gt;
+
+&lt;p&gt;Keep in mind: my students are young, have grown up with social media, are on tik tok. Some of them don't own a personal computer, and many mostly have access to the internet primarily on their phone.&lt;/p&gt;
+
+&lt;p&gt;Last time, the students seemed to enjoy the tilde server, playing the old bsd-games, competing in tetris-bsd and hunt. I'm going to set up astrobotany and finger, adventure and ideally have them build something that works a little like tilde.town's cadastre.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://tilde.town/~troido/cadastre/"&gt;Tilde Town Cadastre&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://tilde.town/~troido/cadastre/town.html"&gt;The "town"&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The best way to reach me is lettuce at ctrl-c.club. And if you'd like your post listed publicly, please let me know your 'handle.'&lt;/p&gt;
+
+&lt;p&gt;Thanks!&lt;/p&gt;
+
+---
+
+
+
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/students-on-gemini.html</guid><pubDate>Thu, 31 Aug 2023 00:00:00 GMT</pubDate></item><item><title>why-cli.html</title><link>https://ctrl-c.club/~lettuce/why-cli.html</link><description>&lt;div&gt;&lt;h1&gt;Why I use the command line&lt;/h1&gt;
 
 &lt;p&gt;2023-07-31&lt;/p&gt;
 
@@ -3891,110 +3940,4 @@ write username
 &lt;p&gt;You can comment on this post by sending an email to the email listed on the index page.&lt;/p&gt;
 
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/creative-practice.html</guid><pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate></item><item><title>keyboards.html</title><link>https://ctrl-c.club/~lettuce/keyboards.html</link><description>&lt;div&gt;&lt;h1&gt;Mario Teaches RSI Prevention and Keyboard Comfort&lt;/h1&gt;
-
-&lt;p&gt;2021-08-28&lt;/p&gt;
-
-&lt;p&gt;Content: In this post I'll write about Dvorak vs QWERTY, RSI, how difficult it is to learn Dvorak and split keyboards, advantages and disadvantages, Kinesis Advantage Pro keyboard, Atreus keyboard&lt;/p&gt;
-
-,---,---,---,---,---,---,---,---,---,---,---,---,---,-------,
-| ~ | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 0 | [ | ] | &amp;lt;-    |
-|---'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-----|
-| -&amp;gt;| | " | , | . | P | Y | F | G | C | R | L | / | = |  \  |
-|-----',--',--',--',--',--',--',--',--',--',--',--',--'-----|
-| Caps | A | O | E | U | I | D | H | T | N | S | - |  Enter |
-|------'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'-,-'--------|
-|        | ; | Q | J | K | X | B | M | W | V | Z |          |
-|------,-',--'--,'---'---'---'---'---'---'-,-'---',--,------|
-| ctrl |  | alt |                          | alt  |  | ctrl |
-'------'  '-----'--------------------------'------'  '------'
-                                  Euphrasie
-
-
-&lt;p&gt;I have repetitive stress injury (RSI) in my right arm, exacerbated from multiple breaks in my right elbow and shoulder from skateboarding and mountain biking accidents sustained about 15 years ago. &lt;/p&gt;
-
-&lt;p&gt;I'm also addicted to my computers and on them all the time. This is a bad combo. When I type too much on a laptop (think 8 hour days) I can easily get throbbing, progressive pain in my wrist, elbow and shoulder along my rotator cuff. Even right now at the end of a long day as I'm typing this before bed I have a little bit of pain in my elbow but I've gotten used to it and don't even notice it as much anymore. But now I'm stretching it out and trying to massage it away.&lt;/p&gt;
-
-&lt;p&gt;About the same time I got into my bad bike accident and recovered I decided to learn to type on a Dvorak keyboard. Dvorak, as seen in the illustration at the top, places the most common consonant and vowels in the center row with vowels on the left side. The layout dates to 1936, about 60 years after QWERTY's invention. The claim is that typing in Dvorak is faster, more efficient, better on your body. &lt;/p&gt;
-
-&lt;p&gt;When I was a child I'd watch the gameshow Wheel of Fortune with my grandmother on Friday nights. On the show contestants would attempt to guess the letters making up a hidden word or phrase. It's like a gameshow version of the text or computer game Hangman. In the final round of the show they would start the contestant with 'the most common letters,' which even 25 years later I can remember easily that they listed R, S, T, L, N, E. In QWERTY these 'most common' letters are not placed in the most convenient locations but all over the keyboard. Okay, so I buy the first idea, that the Dvorak layout is more 'efficient.' &lt;/p&gt;
-
-&lt;p&gt;I'd read claims that Dvorak also reduced repetitive stress injury. As someone experiencing RSI, that was enough to convince me to try something new. I want to say quickly two things: A) I didn't take too long to 'learn' the new layout and thought it was relatively easy, but B) I'm the kind of person that enjoys learning and trying new things out so wasn't put off by the first few times that felt downright impossible.&lt;/p&gt;
-
-&lt;h3&gt;Learning Dvorak&lt;/h3&gt;
-
-&lt;p&gt;Ok, so here is how I learned: I timed my start of learning Dvorak with the start of a vacation break so I didn't have major coding / writing to do, and this way I could make sure to ONLY type in Dvorak the whole time and not jump back and forth between QWERTY and Dvorak, which I heard would make it really difficult to learn.&lt;/p&gt;
-
-&lt;p&gt;More details:&lt;/p&gt;
-
-&lt;p&gt;1. So the first thing I did was change my computer to Dvorak. Just an internet search or two will tell you how to do this. Then I used typing software like the Mario Teaches Typing kinda game. I used a different one but it's been almost 15 years and I don't remember which one. Shouldn't really matter. Actually, I see it's on the Internet Archive. Okay, I'm pausing writing right now so I can try the game out.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://archive.org/details/msdos_Mario_Teaches_Typing_1992"&gt;Mario Teaches Typing on the Internet Archive&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Okay I'm back. That game is awesome! I really recommend it!&lt;/p&gt;
-
-&lt;p&gt;2. I took a month off from work between jobs and decided to go on a long multi-state bike trip without a computer. During this time I would bike into a small town and arrive in the library and want to check my email. I visited a website that would automatically convert qwerty to dvorak if I didn't have system access to change the actual machine, and then I'd copy and paste that into my emails. Because I was on vacation and had an auto-responder on, people knew I was away and might not respond, and they also seemed to accept my short emails. They didn't know that it took me forever to write these 1 or 2 sentence emails. I continued to spend time each day practicing Dvorak. I don't know how long it took, but maybe a week or so for me to be comfortable enough and fast enough to feel ok and probably a couple weeks to get back to my full speed. Later I surpassed my initial typing speed. Again I want to emphasize that I did NOT switch back to QWERTY because I heard that would totally confuse me. The few times I did try it sure as hell did. So I basically didn't switch back and forth and stayed in Dvorak except for my phone. Since I don't touch type on my phone I didn't see a need to switch to Dvorak there and I don't think it was possible at the time. Now that I type this I'm thinking maybe I should check to see if it is and switch. Even though it's been almost 15 years, seems like a good idea to be consistent.&lt;/p&gt;
-
-&lt;h3&gt;Disadvantages of Dvorak&lt;/h3&gt;
-
-&lt;p&gt;Even to this day I really hate switching to QWERTY, though I can do it if I reallllly have to. The truth is that when I worked with students in the classroom pre-Covid it could be a pain to mentally switch if I was on their machine typing code. Though I know how to switch layout on their machines, I rarely do because I'm worried it'll confuse or creep them out for me to go into their settings and change their keyboard. This is the main drawback of Dvorak. You're a left-hander in a right-hander's world (bad metaphor, sorry). The other thing is that there really isn't widespread evidence with large scientific testing if Dvorak really is that much better for you than QWERTY. Anecdotally many of us think it is, and many of us think we type a lot faster now but there haven't been many (any?) studies as far as I know. That said, I think typing in Dvorak is fun. I barely remember the learning process since it was almost 15 years ago and relatively fast. And it's basically second nature and I don't think about it anymore. But I think even more effective than Dvorak is....a different keyboard AND avoiding using the mouse.&lt;/p&gt;
-
-&lt;h3&gt;Keyboard-driven computer use&lt;/h3&gt;
-
-&lt;p&gt;Many hackers love keyboard-less computing. Not only is it slower, less efficient, using a computer mouse irritates my RSI way more than anything else. For this reason, I use Neovim, the modal text editor but also Vim 'keybindings' for the Terminal (in Fish shell) and use the i3 window manager. i3 was a pain to set up because it assumes QWERTY. At some point I'll put my i3 for Dvorak users tutorial up. A quick tip is to switch to QWERTY, log out and boot into i3, run the install wizard, then switch back to Dvorak.&lt;/p&gt;
-
-&lt;p&gt;Vim: Works fine in Dvorak, even navigation. As has been pointed out elsewhere, the j and k (down and up respectively) and h and l (left and right) keys are next to each other and feel natural to type. The ONLY disadvantage I've found is that for oldskool roguelike games with 8-direction keys I don't have the 4 corner keys to rely on. &lt;/p&gt;
-
-&lt;h3&gt;Keyboards and RSI&lt;/h3&gt;
-
-&lt;p&gt;Okay, so if you have RSI or are worried about possibly getting it in the future from typing too much, what else can you do? Rather than or in addition to Dvorak it seems like maybe the most important factors are ergonomics. I'm going to leave out your chair and desk and concentrate on the keyboard. Though the chair and desk are important, I'm not the kind of person to sit at one all day. I move from bed to couch to desk to floor to coffeeshop to porch to type, on many chairs or non-chairs, and I think moving around is helpful. &lt;/p&gt;
-
-&lt;p&gt;I made a switch to a split mechanical keyboard about 5 years ago. Prior to that time I used the laptop's keyboard. Now I use mainly my Kinesis Advantage Pro keyboard, an older model from Kinesis that I bought used for $150. I absolutely love it. I have it set up on my desk, though there have been times in my life that I would commute with it to an office (it's big and takes up a backpack) because I loved it so much. I don't love it because of its wacky aesthetic. In fact, it looks like a cross between a dashboard and medical office keyboard. It's about as cool as a recumbent bicycle. But I've found that using that keyboard with its separated split-in-half keyboard with 'bowl-shaped' keyboard keys has made a huge difference. Additionally I use Cherry MX Brown keys, which came with the board. I love it so much that I have considered for a long time buying a second, but at $270 refurbished/$350 new I haven't taken the plunge.&lt;/p&gt;
-
-&lt;p&gt;For purchasing new the New York Times Wirecutter recommends the Kinesis Freestyle RGB, which is about $200-220, or less without the RGB lights or purchased refurbished. They recommend that over the Advantage because it allows for more movement/tweaking to get the placement and angles exactly right. I haven't done it beacuse I really like the way the Kinesis style uses thumb keys. It's very comfortable to me and I wouldn't want to lose them. There's also the Moonlander keyboard in a similar style but twice the price. &lt;/p&gt;
-
-&lt;p&gt;If you're the DIY type there are plans for smaller split keyboards, though many don't have the tenting of a Kinesis that RSI sufferers seem to like which allows you to tilt your hands at a more natural angle. I purchased a complete Atreus keyboard. It's a small keyboard with a case, split but not tented (remember tenting means angled out more naturally for the hands). It's so small that it doesn't have separate number keys so one of the keys is used as a 'layer' key, which is like a super-shift but now your letters become numbers, function keys and special symbols. Like learning Dvorak I didn't find it hard to learn. Since I got the keyboard a year ago I know for sure that it took me about a week and a half of occasional use to get used to the layout. It would have been way faster if I used it full time. I also have a third keyboard, the relatively cheap Keychron C1 that I bought on sale for $50 and that I leave in my office, which I use a few hours a day 2 or 3 days a week. It's not a split keyboard but like my other keyboards I set it up Dvorak. By the way, changing a mechanical keyboard to Dvorak is easy. You can use a special puller device to pull off the keycap and then you hand press it down where it's supposed to be moved to and it clicks in. The Atreus has special software called Chrysalis that can be used on Mac, PC, Linux to change the firmware's layout. I set it up so that the Atreus outputs QWERTY even though I'm typing Dvorak on the keyboard. This lets me plug the keyboard into my students' computers or classroom computers and not have to manually switch to Dvorak since the keyboard will push out the right letters. And though I'm a touch typer I do like seeing the keys occasionally when I'm navigating music or games so on one of my laptops I purchased stickers and put them down on top of the QWERTY letters. &lt;/p&gt;
-
-&lt;p&gt;I don't have a vertical mouse but I've heard they're really helpful for RSI. Get one. I'll get one too.&lt;/p&gt;
-
-&lt;p&gt;My last thought is really important: if you actually have RSI and a flare-up: stop typing and take a break. Stop for the day or weekend. I sometimes have to do this because ofthe pain if I am mobile with just my laptop and without my Kinesis to type on. But even without this magic keyboard it's important to not be on the computer all the time. If there is pain, we're doing something wrong. And that much typing / computer use is not good for us.&lt;/p&gt;
-
-&lt;h3&gt;What Keyboards I use&lt;/h3&gt;
-
-&lt;p&gt;Kinesis Advantage Pro (now retired. Latest is Kinesis Advantage 2)&lt;/p&gt;
-
-&lt;p&gt;Keyboard.io Atreus&lt;/p&gt;
-
-&lt;p&gt;Keychron C1&lt;/p&gt;
-
-&lt;p&gt;If you have any comments of keyboard suggestions or questions, or arm/wrist exercise suggestions, or other ergonomics tips, feel free to message. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index.html&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can comment on this post by sending an email to the email listed on the index page.&lt;/p&gt;
-
----
-
-&lt;p&gt;Hi! I'm on the Atreus also. I use Dvorak but for the Atreus I've moved the lower row of letters over one step to the right so that I can have the X on the right side.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="gemini://idiomdrottning.org/atreus-layout-march-2021"&gt;ASCII art here&lt;/a&gt;&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="gemini://idiomdrottning.org/ufokeyboard.jpg" alt="Photo here"&gt;
-&lt;figcaption&gt;Photo here&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Regardless of keyboard, though, my completely unscientific RSI placebo cure (I am not a doctor and this is not medical advice) is this:&lt;/p&gt;
-
-&lt;p&gt;The wrists, the part of the arm down close to the hands, cannot be touching anything while typing. They should not be "resting" on something. Instead, I alternate between typing in one of two ways.&lt;/p&gt;
-
-&lt;p&gt;1. Having the arms just sorta hanging in the air, keeping them up by my own willpower and/or resting the fingers themselves on the keys themselves.&lt;/p&gt;
-
-&lt;p&gt;2. Pushing the keyboard up deeper onto the desk so that my arms can get support up closer to the elbows.&lt;/p&gt;
-
-&lt;p&gt;Thank you for sharing your experience. Love your blog.&lt;/p&gt;
--idiomdrottning
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/keyboards.html</guid><pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/creative-practice.html</guid><pubDate>Sat, 28 Aug 2021 00:00:00 GMT</pubDate></item></channel></rss>
