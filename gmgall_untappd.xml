@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Sep 2023 00:42:01 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 13 Sep 2023 06:12:47 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Tripel by Cervejaria Brewpoint</title>
+      <link>https://untappd.com/user/gmgall/checkin/1313423425</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/tripel-cervejaria-brewpoint/3777168"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3777168_7eec1_sm.jpeg" alt="Tripel label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/tripel-cervejaria-brewpoint/3777168"&gt;Tripel&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1313423425"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1313423425</guid>
+      <pubDate>Wed, 13 Sep 2023 04:09:26 GMT</pubDate>
+    </item>
     <item>
       <title>Schwarzbier by Die Gerste Bier</title>
       <link>https://untappd.com/user/gmgall/checkin/1298062782</link>
@@ -138,32 +168,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1289181552</guid>
       <pubDate>Fri, 30 Jun 2023 21:11:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Caliente by Cerveza Guapa</title>
-      <link>https://untappd.com/user/gmgall/checkin/1289134694</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/caliente-cerveza-guapa/2043737"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2043737_9ecd9_sm.jpeg" alt="Caliente label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/caliente-cerveza-guapa/2043737"&gt;Caliente&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/cerveceriaguapa"&gt;Cerveza Guapa&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1289134694"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-50"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1289134694</guid>
-      <pubDate>Fri, 30 Jun 2023 19:59:53 GMT</pubDate>
     </item>
   </channel>
 </rss>
