@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Fri, 22 Sep 2023 18:13:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sat, 23 Sep 2023 00:42:29 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -3809,66 +3809,4 @@ write username
 
 &lt;p&gt;yeah ill be curious too! ð --lettuce&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/computer-systems-social-networks.html</guid><pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate></item><item><title>gemini-love.html</title><link>https://ctrl-c.club/~lettuce/gemini-love.html</link><description>&lt;div&gt;&lt;h1&gt;What I Still Like About Gemini (and what I don't)&lt;/h1&gt;
-
-&lt;p&gt;2021-09-20&lt;/p&gt;
-
-&lt;p&gt;I've been visiting Gemini for about a year, and hosting this gemlog for 10 months so far. I still like it, and still spend about 30 minutes (sometimes more, sometimes less) reading Gemini pages a few times a week. I read on Elaho on my phone or tablet before bed, in Amfora on my laptop, on Amfora when ssh'ing to Ctrl-C Club tilde or occasionally AV-98 when on an obscure or underpowered old computing device (10 year old raspberry pi B).&lt;/p&gt;
-
-&lt;p&gt;Here's the parts I enjoy, and those that I don't.&lt;/p&gt;
-
-&lt;h2&gt;Simplicity&lt;/h2&gt;
-
-&lt;p&gt;Gemini is mostly text, with or without my own CSS-like overlay. I read on my phone in Elaho or in the command line with Amfora. It is blazing fast.&lt;/p&gt;
-
-&lt;h2&gt;No commercial use&lt;/h2&gt;
-
-&lt;p&gt;Capitalism eventually co-opts almost everything but as of yet there are no commercial entities, ads, monetization or products as far as I've seen.&lt;/p&gt;
-
-&lt;h2&gt;Slow content&lt;/h2&gt;
-
-&lt;p&gt;Gemini rewards creating and reading longer blog-like articles. The main form of most sites is an index with a listing of posts as links. From here I can easily pick what to read or ignore. The small size of the Gemini-verse means there is less that I feel I need to be constantly up to date with. Rather than check it one or more times a day I can connect occasionally every few days and still feel like I'm not missing things I'm interested in. Conversations of sorts on various topics ripple through slowly. And some folks (like myself) allow commenting by those who email their response to a post. All of this is very -slow- compared to consuming web media.&lt;/p&gt;
-
-&lt;p&gt;As a digital flaneur of sorts I am able to randomly traipse from one gemlog to another through visiting links. &lt;/p&gt;
-
-&lt;p&gt;I also can use simple feed-like methods (built-in to various clients or through other software) to stay up to date with gemlogs that I subscribe to.&lt;/p&gt;
-
-&lt;h2&gt;Variety of client options&lt;/h2&gt;
-
-&lt;p&gt;The simplicity and robustness of the spec allows for a variety of clients in many languages and configurations to exist. It also means that it's pretty easy to find one that works on quite old hardware, or can even be made to work. This comes as a result of the original goal of being able to create a client can be written in any language in less than about 100 lines of code. &lt;/p&gt;
-
-&lt;h1&gt;The Parts I Don't Love&lt;/h1&gt;
-
-&lt;h2&gt;TLS&lt;/h2&gt;
-
-&lt;p&gt;The requirement for security is not useful for me. The times that I get errors on various clients are always a result of certificate errors or changes. It also makes a higher barrier to entry that seems uneccessary. I think without this there would be more people serving their own gemlogs.&lt;/p&gt;
-
-&lt;p&gt;Recently Oppen (creator of Ariane Android Gemini client) pointed out the (fantasy) Mercury protocol specified by Solderpunk, founder of the Gemini protocol spec. It strips the ideas of Gemini back even further so that there are only two different kinds of lines of text: a) text or b) links. He's creating his own Mercury client. At this point I've made my peace to stick with Gemini but I'd very interested in Mercury as an alternative protocol.&lt;/p&gt;
-
-&lt;h2&gt;Limited Non-programming Content&lt;/h2&gt;
-
-&lt;p&gt;Though mostly simple, as a result of TLS requirements or due to the community growing largely out of Mastodon and other similar tech-ajacent spaces, Gemini is dominated by programmer-y gemlogs. I am guilty of this myself, and I enjoy reading these, but I'd like much more content options as well. More gemlogs by musicians, artists, jugglers, quilters, teachers, cooks, parents, carpenters, cyclists, storytellers, et. cetera. Less about our own dotfiles.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can leave a comment by emailing lettuce@ctrl-c.club&lt;/p&gt;
-
----
-
-&lt;blockquote&gt;As soon as the platform gets popular, mainstream, and you get gemlogs by non-tech people, youâll start to see more companies take notice and try to monetize it.--Rex&lt;/blockquote&gt;
-
---- 
-
-&lt;blockquote&gt;Oh no, I hope that doesn't happen. You may be right.--lettuce&lt;/blockquote&gt;
-
----
-
-&lt;blockquote&gt;I feel it wont become filled with ads and the such like the regular web and will remain as is.--jamesjacksonjr.&lt;/blockquote&gt;
-
----
-
-&lt;blockquote&gt;I think that gemini is designed in a way that will make monetization somewhat difficult even if we don't consider the social aspects of it. Ads are prevalent on the web due to javascript. If I want to get paid for a website i just put some javascript on it that will load any ad an advertiser feels like. I'm sure eventually people will have some sort of ad copy in the middle of their content. Like how podcasts have sponsors where they stop talking about what you actually came to listen to and tell you how good hello-fresh is but it will never be as bad as the www.--b0b@bulletpr00f.host&lt;/blockquote&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/gemini-love.html</guid><pubDate>Mon, 20 Sep 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/computer-systems-social-networks.html</guid><pubDate>Thu, 23 Sep 2021 00:00:00 GMT</pubDate></item></channel></rss>
