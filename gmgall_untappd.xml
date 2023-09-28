@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Sep 2023 00:42:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 Sep 2023 06:14:09 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Green Coast by Paradiso Brewing Co.</title>
+      <link>https://untappd.com/user/gmgall/checkin/1317675659</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/green-coast-paradiso-brewing-co/4777176"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4777176_243d1_sm.jpeg" alt="Green Coast label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/green-coast-paradiso-brewing-co/4777176"&gt;Green Coast&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/w/paradiso-brewing-co/519020"&gt;Paradiso Brewing Co.&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1317675659"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/can@3x.png?v=1" alt="Can"&gt;
+&lt;span&gt;Can &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_GloryCan_sm.jpg" alt="For the Can (Level 2)"&gt;
+&lt;span&gt;Earned the For the Can (Level 2) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1317675659</guid>
+      <pubDate>Thu, 28 Sep 2023 02:14:14 GMT</pubDate>
+    </item>
     <item>
       <title>Tripel by Cervejaria Brewpoint</title>
       <link>https://untappd.com/user/gmgall/checkin/1313423425</link>
@@ -132,42 +168,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1294586629</guid>
       <pubDate>Sun, 16 Jul 2023 01:11:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>APA by Cerveja Rocky Garden</title>
-      <link>https://untappd.com/user/gmgall/checkin/1289181552</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/apa-cerveja-rocky-garden/3282785"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="APA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/apa-cerveja-rocky-garden/3282785"&gt;APA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/cerveja-rocky-garden/414952"&gt;Cerveja Rocky Garden&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1289181552"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_AmazonAndAndes_sm.jpg" alt="Amazons &amp;amp; Andes (Level 36)"&gt;
-&lt;span&gt;Earned the Amazons &amp;amp; Andes (Level 36) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1289181552</guid>
-      <pubDate>Fri, 30 Jun 2023 21:11:43 GMT</pubDate>
     </item>
   </channel>
 </rss>
