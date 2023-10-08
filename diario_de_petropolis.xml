@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/</link><description>(Edição online) Últimas notícias, artigos e classificados da cidade.</description><language>pt-BR</language><lastBuildDate>Sun, 08 Oct 2023 06:13:39 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/do-re-mi-celebra-aniversario-de-21-anos-251209</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+<rss version="2.0"><channel><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/</link><description>(Edição online) Últimas notícias, artigos e classificados da cidade.</description><language>pt-BR</language><lastBuildDate>Sun, 08 Oct 2023 12:17:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/do-re-mi-celebra-aniversario-de-21-anos-251209</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
                 
 &lt;p&gt;&lt;/p&gt;
         &lt;div class="row hidden-md-up"&gt;
@@ -279,7 +279,93 @@
 
 
             &lt;/div&gt;
-            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/outubro-rosa-cancer-de-mama-e-o-tumor-mais-comum-em-petropolis-251212</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/lancamento-da-ultima-fase-do-empreendimento-estacao-nogueira-e-destaque-em-noite-de-pizza-repleta-de-novidades-251216</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/outubro-rosa-cancer-de-mama-e-o-tumor-mais-comum-em-petropolis-251212</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/teste-mostra-vulnerabilidade-em-aplicativos-de-banco-251213</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+                
+&lt;p&gt;&lt;/p&gt;
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 08 de outubro de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 08 de outubro de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;br&gt;
+&lt;a href="/Editoria/Seguran%C3%A7a/3257-16" class="FaixaEditoriaLink"&gt;
+    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Segurança&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
+&lt;/a&gt;
+&lt;br&gt;
+
+&lt;h2&gt;&lt;span&gt;Teste mostra vulnerabilidade em aplicativos de banco&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;span&gt;Saiba como se proteger do Golpe do Acesso Remoto&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202310/fotos/0498_x_0600_20231007135244_ACZ60.jpg" longdesc="88329;19616"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Rhayssa Motta - Especial para o Diário&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;Golpes financeiros têm se tornado uma realidade cada vez mais preocupante na vida dos brasileiros, especialmente com o crescente uso de meios digitais para transações bancárias e pagamentos. Um golpe que tem ganhado destaque nos últimos tempos é o chamado “Golpe do Acesso Remoto”. Essa artimanha criminosa segue um padrão que envolve a manipulação psicológica das vítimas e pode resultar na perda de informações sensíveis e dinheiro. Um teste realizado pelo Instituto Brasileiro de Defesa do Consumidor (Idec) questionou quatro bancos sobre as medidas que adotavam para impedir o golpe e o resultado foi preocupante técnicos da equipe de Serviços Financeiros da entidade testaram o acesso remoto aos aplicativos dos quatro bancos e constataram falha de segurança. Para entender melhor esse golpe e como se proteger, consultamos o advogado especialista em direito do consumidor, Daniel Blanck. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;A engenharia social e a urgência criada pelos golpistas&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Daniel destaca que os golpistas utilizam a engenharia social para manipular psicologicamente as vítimas. Eles induzem as pessoas a fornecerem senhas e dados de cartões bancários, aproveitando-se da confiança e do receio das vítimas em relação às suas contas. “Uma das táticas mais comuns desse golpe é a falsa representação por parte dos criminosos. Eles se fazem passar por falsos funcionários do banco ao entrar em contato com a vítima, alegando problemas como invasões de conta e movimentações suspeitas, criando um senso de urgência”, explica.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Uma das principais características do golpe é a persuasão da vítima para que ela instale um aplicativo de acesso remoto em seu celular. O advogado adverte que isso é altamente perigoso “Ao fazer isso, a vítima está prestes a conceder acesso irrestrito aos seus dados. Caso a vítima instale o aplicativo recomendado, o criminoso obtém acesso a todas as informações presentes no celular da vítima, incluindo dados bancários, senhas e informações pessoais”, alerta. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Além disso, Blanck adverte que os golpistas investigam o dispositivo da vítima em busca de senhas que possam estar armazenadas em aplicativos, blocos de notas, e-mails ou mensagens de WhatsApp. Muitos usuários cometem o erro de armazenar senhas de acesso em locais facilmente acessíveis. E pior, algumas vítimas usam a mesma senha de acesso ao banco em outros aplicativos, sites de compras e serviços na internet. “Muitas vezes, esses aplicativos não possuem sistemas de segurança robustos, tornando mais fácil para os golpistas explorarem outras áreas”, disse.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Medidas de Proteção&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para proteger-se, Blanck enfatiza a importância de “desconfiar de contatos não solicitados e nunca fornecer informações pessoais, senhas ou números de cartões em resposta a ligações ou mensagens não solicitadas. Além disso, é fundamental evitar clicar em links ou instalar aplicativos de fontes não confiáveis. Manter senhas complexas e únicas para suas contas bancárias e aplicativos e ativar a autenticação em dois fatores sempre que possível também são práticas recomendadas. Verificar regularmente extratos bancários e atividades financeiras em busca de atividades suspeitas é uma maneira eficaz de identificar fraudes precocemente. Caso suspeite de um golpe, entre em contato com a instituição financeira por meio dos canais oficiais e de um telefone diferente para verificar a autenticidade da situação”, orienta. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Segundo o advogado, os dados pessoais dos consumidores podem ser vazados por meio de violações de segurança em sites, aplicativos ou bancos de dados, que podem ocorrer de várias maneiras, incluindo hacking, phishing ou compra de informações roubadas. Ele alerta que redes de Wi-Fi abertas podem ser vulneráveis a ataques de interceptação de dados, tornando as informações transmitidas por meio delas suscetíveis a serem capturadas por terceiros não autorizados. &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Responsabilidade do Banco e Regulamentação do PIX&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O advogado ressalta que o Código de Defesa do Consumidor (CDC) estabelece que os bancos têm o dever de garantir a segurança das transações realizadas em suas contas de clientes. “A segurança é um direito básico do consumidor, e o CDC prevê a responsabilidade do banco pela reparação de danos causados por falhas em sua segurança. Além disso, as instituições financeiras são regidas por regulamentações específicas, como as resoluções do Banco Central do Brasil (BCB). A Resolução BCB nº 1, de 12 de agosto de 2020, que instituiu o sistema de pagamento PIX, impôs às instituições financeiras o dever de promover medidas de segurança para evitar fraudes, incluindo a criação de mecanismos de inteligência para identificar e prevenir golpes”, afirma o especialista.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt; “Quando ocorre uma suspeita de fraude, o banco deve adotar medidas preventivas de proteção ao consumidor, como o bloqueio de valores e suspensão de pagamentos e a retirada do valor contestado. As instituições financeiras também devem realizar verificações de segurança adequadas antes de autorizar transações. A Resolução BCB nº 1032021 estabelece a obrigatoriedade do Mecanismo Especial de Devolução (MED) para viabilizar a devolução de valores ao cliente quando houver suspeita de fraude. Além disso, as instituições financeiras devem realizar bloqueios múltiplos na conta receptora para recuperar o valor integral da transação fraudulenta. Os consumidores têm direitos bem definidos quando são vítimas de golpes ou fraudes bancárias, e a legislação e regulamentações específicas têm o objetivo de proteger seus interesses”, conclui.&lt;/span&gt;&lt;/p&gt;
+
+&lt;br&gt;
+&lt;br&gt;
+
+
+        &lt;div class="row hidden-md-up"&gt;
+            &lt;div class="col-12"&gt;
+                &lt;div class="card"&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 08 de outubro de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="row hidden-sm-down"&gt;
+            &lt;div class="col-8 offset-4 "&gt;
+                &lt;div class="card "&gt;
+                    &lt;div class="card-body text-center"&gt;
+                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 08 de outubro de 2023
+                        &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            &lt;/div&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/teste-mostra-vulnerabilidade-em-aplicativos-de-banco-251213</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/lancamento-da-ultima-fase-do-empreendimento-estacao-nogueira-e-destaque-em-noite-de-pizza-repleta-de-novidades-251216</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
                 
 &lt;p&gt;&lt;/p&gt;
         &lt;div class="row hidden-md-up"&gt;
@@ -457,93 +543,7 @@
 
 
             &lt;/div&gt;
-            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/numero-de-reclamacoes-de-petropolitanos-junto-a-anatel-cai-quase-40-251211</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/teste-mostra-vulnerabilidade-em-aplicativos-de-banco-251213</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
-                
-&lt;p&gt;&lt;/p&gt;
-        &lt;div class="row hidden-md-up"&gt;
-            &lt;div class="col-12"&gt;
-                &lt;div class="card"&gt;
-                    &lt;div class="card-body text-center"&gt;
-                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt;&lt;br&gt;domingo, 08 de outubro de 2023
-                        &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="row hidden-sm-down"&gt;
-            &lt;div class="col-8 offset-4 "&gt;
-                &lt;div class="card "&gt;
-                    &lt;div class="card-body text-center"&gt;
-                        &lt;span&gt;&lt;b&gt;Edição:&lt;/b&gt;&lt;/span&gt; domingo, 08 de outubro de 2023
-                        &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-
-&lt;br&gt;
-&lt;a href="/Editoria/Seguran%C3%A7a/3257-16" class="FaixaEditoriaLink"&gt;
-    &lt;img src="/conteudo2/imagens/FaixaEditoriaEsq.png"&gt;&lt;span class="FaixaEditorias"&gt;  Segurança&lt;/span&gt;&lt;img src="/conteudo2/imagens/FaixaEditoriaDir.png"&gt;
-&lt;/a&gt;
-&lt;br&gt;
-
-&lt;h2&gt;&lt;span&gt;Teste mostra vulnerabilidade em aplicativos de banco&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;span&gt;Saiba como se proteger do Golpe do Acesso Remoto&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;&lt;img class="img-fluid img-acervo" src="https://www.diariodepetropolis.com.br//conteudo/Dados_DRPTR14//acervo/1/202310/fotos/0498_x_0600_20231007135244_ACZ60.jpg" longdesc="88329;19616"&gt;&lt;/span&gt;&lt;br&gt;&lt;span&gt;  Foto: Divulgação &lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Rhayssa Motta - Especial para o Diário&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;span&gt;Golpes financeiros têm se tornado uma realidade cada vez mais preocupante na vida dos brasileiros, especialmente com o crescente uso de meios digitais para transações bancárias e pagamentos. Um golpe que tem ganhado destaque nos últimos tempos é o chamado “Golpe do Acesso Remoto”. Essa artimanha criminosa segue um padrão que envolve a manipulação psicológica das vítimas e pode resultar na perda de informações sensíveis e dinheiro. Um teste realizado pelo Instituto Brasileiro de Defesa do Consumidor (Idec) questionou quatro bancos sobre as medidas que adotavam para impedir o golpe e o resultado foi preocupante técnicos da equipe de Serviços Financeiros da entidade testaram o acesso remoto aos aplicativos dos quatro bancos e constataram falha de segurança. Para entender melhor esse golpe e como se proteger, consultamos o advogado especialista em direito do consumidor, Daniel Blanck. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;A engenharia social e a urgência criada pelos golpistas&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Daniel destaca que os golpistas utilizam a engenharia social para manipular psicologicamente as vítimas. Eles induzem as pessoas a fornecerem senhas e dados de cartões bancários, aproveitando-se da confiança e do receio das vítimas em relação às suas contas. “Uma das táticas mais comuns desse golpe é a falsa representação por parte dos criminosos. Eles se fazem passar por falsos funcionários do banco ao entrar em contato com a vítima, alegando problemas como invasões de conta e movimentações suspeitas, criando um senso de urgência”, explica.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Uma das principais características do golpe é a persuasão da vítima para que ela instale um aplicativo de acesso remoto em seu celular. O advogado adverte que isso é altamente perigoso “Ao fazer isso, a vítima está prestes a conceder acesso irrestrito aos seus dados. Caso a vítima instale o aplicativo recomendado, o criminoso obtém acesso a todas as informações presentes no celular da vítima, incluindo dados bancários, senhas e informações pessoais”, alerta. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Além disso, Blanck adverte que os golpistas investigam o dispositivo da vítima em busca de senhas que possam estar armazenadas em aplicativos, blocos de notas, e-mails ou mensagens de WhatsApp. Muitos usuários cometem o erro de armazenar senhas de acesso em locais facilmente acessíveis. E pior, algumas vítimas usam a mesma senha de acesso ao banco em outros aplicativos, sites de compras e serviços na internet. “Muitas vezes, esses aplicativos não possuem sistemas de segurança robustos, tornando mais fácil para os golpistas explorarem outras áreas”, disse.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Medidas de Proteção&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Para proteger-se, Blanck enfatiza a importância de “desconfiar de contatos não solicitados e nunca fornecer informações pessoais, senhas ou números de cartões em resposta a ligações ou mensagens não solicitadas. Além disso, é fundamental evitar clicar em links ou instalar aplicativos de fontes não confiáveis. Manter senhas complexas e únicas para suas contas bancárias e aplicativos e ativar a autenticação em dois fatores sempre que possível também são práticas recomendadas. Verificar regularmente extratos bancários e atividades financeiras em busca de atividades suspeitas é uma maneira eficaz de identificar fraudes precocemente. Caso suspeite de um golpe, entre em contato com a instituição financeira por meio dos canais oficiais e de um telefone diferente para verificar a autenticidade da situação”, orienta. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;Segundo o advogado, os dados pessoais dos consumidores podem ser vazados por meio de violações de segurança em sites, aplicativos ou bancos de dados, que podem ocorrer de várias maneiras, incluindo hacking, phishing ou compra de informações roubadas. Ele alerta que redes de Wi-Fi abertas podem ser vulneráveis a ataques de interceptação de dados, tornando as informações transmitidas por meio delas suscetíveis a serem capturadas por terceiros não autorizados. &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;br&gt;&lt;span&gt;&lt;strong&gt;Responsabilidade do Banco e Regulamentação do PIX&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt;O advogado ressalta que o Código de Defesa do Consumidor (CDC) estabelece que os bancos têm o dever de garantir a segurança das transações realizadas em suas contas de clientes. “A segurança é um direito básico do consumidor, e o CDC prevê a responsabilidade do banco pela reparação de danos causados por falhas em sua segurança. Além disso, as instituições financeiras são regidas por regulamentações específicas, como as resoluções do Banco Central do Brasil (BCB). A Resolução BCB nº 1, de 12 de agosto de 2020, que instituiu o sistema de pagamento PIX, impôs às instituições financeiras o dever de promover medidas de segurança para evitar fraudes, incluindo a criação de mecanismos de inteligência para identificar e prevenir golpes”, afirma o especialista.&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span&gt; “Quando ocorre uma suspeita de fraude, o banco deve adotar medidas preventivas de proteção ao consumidor, como o bloqueio de valores e suspensão de pagamentos e a retirada do valor contestado. As instituições financeiras também devem realizar verificações de segurança adequadas antes de autorizar transações. A Resolução BCB nº 1032021 estabelece a obrigatoriedade do Mecanismo Especial de Devolução (MED) para viabilizar a devolução de valores ao cliente quando houver suspeita de fraude. Além disso, as instituições financeiras devem realizar bloqueios múltiplos na conta receptora para recuperar o valor integral da transação fraudulenta. Os consumidores têm direitos bem definidos quando são vítimas de golpes ou fraudes bancárias, e a legislação e regulamentações específicas têm o objetivo de proteger seus interesses”, conclui.&lt;/span&gt;&lt;/p&gt;
-
-&lt;br&gt;
-&lt;br&gt;
-
-
-        &lt;div class="row hidden-md-up"&gt;
-            &lt;div class="col-12"&gt;
-                &lt;div class="card"&gt;
-                    &lt;div class="card-body text-center"&gt;
-                        &lt;span&gt;Edição:&lt;/span&gt;&lt;br&gt;domingo, 08 de outubro de 2023
-                        &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-        &lt;div class="row hidden-sm-down"&gt;
-            &lt;div class="col-8 offset-4 "&gt;
-                &lt;div class="card "&gt;
-                    &lt;div class="card-body text-center"&gt;
-                        &lt;span&gt;Edição:&lt;/span&gt; domingo, 08 de outubro de 2023
-                        &lt;/div&gt;
-                &lt;/div&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-
-
-&lt;p&gt;&lt;/p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            &lt;/div&gt;
-            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/teste-mostra-vulnerabilidade-em-aplicativos-de-banco-251213</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/serrano-joga-hoje-com-foco-no-acesso-para-a-segunda-divisao-251217</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/numero-de-reclamacoes-de-petropolitanos-junto-a-anatel-cai-quase-40-251211</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/serrano-joga-hoje-com-foco-no-acesso-para-a-segunda-divisao-251217</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
                 
 &lt;p&gt;&lt;/p&gt;
         &lt;div class="row hidden-md-up"&gt;
@@ -944,7 +944,7 @@
 
 
             &lt;/div&gt;
-            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/domingo-sera-de-apenas-tres-jogos-porem-todos-na-cidade-251219</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/marise-simoes-251198</link><description>Marise Simões</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/marise-simoes-251198</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/celio-thomaz-251200</link><description>Célio Thomaz
+            </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/domingo-sera-de-apenas-tres-jogos-porem-todos-na-cidade-251219</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/marise-simoes-251198</link><description>Marise Simões</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/marise-simoes-251198</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/christianne-michelin-251248</link><description>Christianne Michelin</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/christianne-michelin-251248</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/celio-thomaz-251200</link><description>Célio Thomaz
  </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/celio-thomaz-251200</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/ronaldo-fiani-251195</link><description>Ronaldo Fiani</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/ronaldo-fiani-251195</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/jose-luiz-alqueres-251196</link><description>José Luiz Alquéres</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/jose-luiz-alqueres-251196</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/aristoteles-drummond-251197</link><description>Aristóteles Drummond</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/aristoteles-drummond-251197</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/coluna-cidade-aberta-251199</link><description>Coluna Cidade aberta</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/coluna-cidade-aberta-251199</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/sabor-em-cena-251201</link><description>Sabor em Cena </description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/sabor-em-cena-251201</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/um-bom-prefeito-mauro-peralta-medico-e-esta-vereador-251215</link><description>prefeito
 Mauro Peralta médico vereador</description><guid isPermaLink="true">https://www.diariodepetropolis.com.br/integra/um-bom-prefeito-mauro-peralta-medico-e-esta-vereador-251215</guid><pubDate>Sun, 08 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Diário de Petrópolis</title><link>https://www.diariodepetropolis.com.br/integra/querencia-quer-ver-o-mar-espetaculo-para-a-familia-sera-apresentado-neste-fim-de-semana-em-petropolis-251220</link><description>&lt;div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8 containerLayout "&gt;
                 
