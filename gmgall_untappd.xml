@@ -4,9 +4,49 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Oct 2023 00:43:02 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Oct 2023 06:13:35 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Freak Lab by Cervejaria Mad Brew</title>
+      <link>https://untappd.com/user/gmgall/checkin/1321232822</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/freak-lab-cervejaria-mad-brew/4152731"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4152731_67b68_sm.jpeg" alt="Freak Lab label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/freak-lab-cervejaria-mad-brew/4152731"&gt;Freak Lab&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaMadBrew"&gt;Cervejaria Mad Brew&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1321232822"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_FruitsOfYourLabor_sm.jpg" alt="Fruits of Your Labor"&gt;
+&lt;span&gt;Earned the Fruits of Your Labor badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba  (Level 39)"&gt;
+&lt;span&gt;Earned the Suds Samba (Level 39) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1321232822</guid>
+      <pubDate>Mon, 09 Oct 2023 04:14:03 GMT</pubDate>
+    </item>
     <item>
       <title>Witchbier by Cervejaria Mad Brew</title>
       <link>https://untappd.com/user/gmgall/checkin/1320589625</link>
@@ -138,36 +178,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1317675659</guid>
       <pubDate>Thu, 28 Sep 2023 02:14:14 GMT</pubDate>
-    </item>
-    <item>
-      <title>Tripel by Cervejaria Brewpoint</title>
-      <link>https://untappd.com/user/gmgall/checkin/1313423425</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/tripel-cervejaria-brewpoint/3777168"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3777168_7eec1_sm.jpeg" alt="Tripel label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/tripel-cervejaria-brewpoint/3777168"&gt;Tripel&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1313423425"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1313423425</guid>
-      <pubDate>Wed, 13 Sep 2023 04:09:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
