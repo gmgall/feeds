@@ -42,9 +42,9 @@
     "feed": "https://gmgall.github.io/feeds/danny_guo.xml"
   },
   {
-    "title": "Diário de Petrópolis",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class=\"card-body text-center\"]/text() --xpath-date-regex .*,\\s+(\\d.+\\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml",
     "link": "https://www.diariodepetropolis.com.br/",
-    "description": "(Edição online) Últimas notícias, artigos e classificados da cidade.",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/diario_de_petropolis.xml"
   },
   {
