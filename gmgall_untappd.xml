@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 05 Nov 2023 18:10:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 06 Nov 2023 00:44:14 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Supersonic by Sampler Brew House</title>
+      <link>https://untappd.com/user/gmgall/checkin/1328968570</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/supersonic-sampler-brew-house/4595241"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4595241_b4108_sm.jpeg" alt="Supersonic label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/supersonic-sampler-brew-house/4595241"&gt;Supersonic&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/SamplerBrewHouse"&gt;Sampler Brew House&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1328968570"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_bdayBrew_sm.jpg" alt="Birthday Brew (Level 2)"&gt;
+&lt;span&gt;Earned the Birthday Brew (Level 2) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1328968570</guid>
+      <pubDate>Sun, 05 Nov 2023 20:39:39 GMT</pubDate>
+    </item>
     <item>
       <title>Supersonic by Sampler Brew House</title>
       <link>https://untappd.com/user/gmgall/checkin/1328757932</link>
@@ -132,46 +168,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1321952644</guid>
       <pubDate>Fri, 13 Oct 2023 02:36:26 GMT</pubDate>
-    </item>
-    <item>
-      <title>Freak Lab by Cervejaria Mad Brew</title>
-      <link>https://untappd.com/user/gmgall/checkin/1321232822</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/freak-lab-cervejaria-mad-brew/4152731"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4152731_67b68_sm.jpeg" alt="Freak Lab label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/freak-lab-cervejaria-mad-brew/4152731"&gt;Freak Lab&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaMadBrew"&gt;Cervejaria Mad Brew&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1321232822"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_FruitsOfYourLabor_sm.jpg" alt="Fruits of Your Labor"&gt;
-&lt;span&gt;Earned the Fruits of Your Labor badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba  (Level 39)"&gt;
-&lt;span&gt;Earned the Suds Samba (Level 39) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1321232822</guid>
-      <pubDate>Mon, 09 Oct 2023 04:14:03 GMT</pubDate>
     </item>
   </channel>
 </rss>
