@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~FikaMedHasse posts on ctrl-c.club</title><link>https://ctrl-c.club/~FikaMedHasse/blog.html</link><description>Blog!</description><language>en</language><lastBuildDate>Thu, 09 Nov 2023 12:19:12 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Religion</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/religion.html</link><description>&lt;div&gt;&lt;h1&gt;Religion: what I think and have thunk&lt;/h1&gt;
+<rss version="2.0"><channel><title>~FikaMedHasse posts on ctrl-c.club</title><link>https://ctrl-c.club/~FikaMedHasse/blog.html</link><description>Blog!</description><language>en</language><lastBuildDate>Thu, 09 Nov 2023 18:13:32 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Religion</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/religion.html</link><description>&lt;div&gt;&lt;h1&gt;Religion: what I think and have thunk&lt;/h1&gt;
 &lt;hr&gt;
 &lt;p&gt;&lt;i&gt;This is a first draft and may come to be revised in the future if I feel like it&lt;/i&gt;&lt;/p&gt;
 &lt;p&gt;
@@ -32,11 +32,11 @@ I have been reading &lt;i&gt;Discworld&lt;/i&gt; by Terry Pratchett as well, and
 
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/alaska.html</guid></item><item><title>Tiling WM</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/tilingvm.html</link><description>&lt;div&gt;&lt;h1&gt;Back to using a tiling WM (for now)&lt;/h1&gt;
 &lt;hr&gt;
-&lt;pre&gt;
-I'm back to using a tiling WM again. I've used KDE Plasma for quite a while, but after browsing r/unixporn for a bit too much I could no longer contain the desire for ricing. So I logged back into my i3-gaps WM and got to work. Well, it wasn't exactly i3, it was actually both Plasma and i3. I had previously changed KDE's WM from kwin to i3, and had both Plasma and Plasma with i3. And let me tell you, Plasma with i3 is the perfect combination of DE and WM. You get the convenience of a DE with the speed of a WM. It's sooo sweet.
-I decided to go for a nord theme (cheesy, I know). The whole process was actually really convenient. Slap on a nice cold, blue wallpaper with nitrogen, find preconfigured .Xresources colorthemes for URxvt and a colorscheme for vim. A theme change in the browser (Vivaldi) and in Plasma took care of the rest. A complete, beautiful system in less than an hour. There are some minor things left, like a nice music visualizer (recommendations welcome) and a fetch program (recommendations also welcome) but other than that I'm really hapoy with the outcome.
+&lt;p&gt;
+I'm back to using a tiling WM again. I've used KDE Plasma for quite a while, but after browsing r/unixporn for a bit too much I could no longer contain the desire for ricing. So I logged back into my i3-gaps WM and got to work. Well, it wasn't exactly i3, it was actually both Plasma and i3. I had previously changed KDE's WM from kwin to i3, and had both Plasma and Plasma with i3. And let me tell you, Plasma with i3 is the perfect combination of DE and WM. You get the convenience of a DE with the speed of a WM. It's sooo sweet.&lt;br&gt;
+I decided to go for a nord theme (cheesy, I know). The whole process was actually really convenient. Slap on a nice cold, blue wallpaper with nitrogen, find preconfigured .Xresources colorthemes for URxvt and a colorscheme for vim. A theme change in the browser (Vivaldi) and in Plasma took care of the rest. A complete, beautiful system in less than an hour. There are some minor things left, like a nice music visualizer (recommendations welcome) and a fetch program (recommendations also welcome) but other than that I'm really happy with the outcome.&lt;br&gt;
 Writing this from my phone at work, but might post screenshots when I get home, if there is any interest in them.
-&lt;/pre&gt;
+&lt;/p&gt;
 
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~FikaMedHasse/blogposts/tilingvm.html</guid></item><item><title>Ramblings</title><link>https://ctrl-c.club/~FikaMedHasse/blogposts/ramblings.html</link><description>&lt;div&gt;&lt;h1&gt;A professionally incoherent text about a bit of everything&lt;/h1&gt;
 &lt;hr&gt;
