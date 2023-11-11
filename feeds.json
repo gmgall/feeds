@@ -1,8 +1,8 @@
 [
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*/~FikaMedHasse/blogposts/.* --follow --with-body --body-remove-csss header --body-remove-csss footer --title ~FikaMedHasse posts on ctrl-c.club https://ctrl-c.club/~FikaMedHasse/blog.html -o ./feeds/FikaMedHasse.xml",
+    "title": "~FikaMedHasse posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~FikaMedHasse/blog.html",
-    "description": "Failed to generate feed.",
+    "description": "Blog!",
     "feed": "https://gmgall.github.io/feeds/FikaMedHasse.xml"
   },
   {
@@ -72,9 +72,9 @@
     "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml",
+    "title": "~gome posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~gome/journal/",
-    "description": "Failed to generate feed.",
+    "description": "gome — journal",
     "feed": "https://gmgall.github.io/feeds/gome.xml"
   },
   {
@@ -84,15 +84,15 @@
     "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*/~lettuce/.* -a ([0-9]{4}-[0-9]{2}-[0-9]{2}) - .* --text-date-fmt %Y-%m-%d --follow --require-dates --with-body --title ~lettuce posts on ctrl-c.club --title-regex /home/lettuce/public_html/(.*) https://ctrl-c.club/~lettuce/ -o ./feeds/lettuce.xml",
+    "title": "~lettuce posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~lettuce/",
-    "description": "Failed to generate feed.",
+    "description": "/home/lettuce/public_html/index.html",
     "feed": "https://gmgall.github.io/feeds/lettuce.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .+/~nodisc/[0-9]{4}-[0-9]{2}-[0-9]{2}_.+.html --follow --date-from-text ([0-9]{4}-[0-9]{2}-[0-9]{2})[_ ].* --text-date-fmt %Y-%m-%d --encoding utf-8 --with-body --title \"Artículos\" section of ~nodisc https://ctrl-c.club/~nodisc/articulos.html -o ./feeds/nodisc.xml",
+    "title": "\"Artículos\" section of ~nodisc",
     "link": "https://ctrl-c.club/~nodisc/articulos.html",
-    "description": "Failed to generate feed.",
+    "description": "Índice",
     "feed": "https://gmgall.github.io/feeds/nodisc.xml"
   },
   {
