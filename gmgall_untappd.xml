@@ -4,7 +4,7 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 12 Nov 2023 18:11:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Nov 2023 00:45:21 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -132,6 +132,42 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1327643032</guid>
       <pubDate>Thu, 02 Nov 2023 03:30:24 GMT</pubDate>
+    </item>
+    <item>
+      <title>Midway IPA by Goose Island Beer Co.</title>
+      <link>https://untappd.com/user/gmgall/checkin/1321952644</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/midway-ipa-goose-island-beer-co/2036410"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2036410_1be3d_sm.jpeg" alt="Midway IPA label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/midway-ipa-goose-island-beer-co/2036410"&gt;Midway IPA&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/gooseisland"&gt;Goose Island Beer Co.&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1321952644"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 14)"&gt;
+&lt;span&gt;Earned the 99 Bottles (Level 14) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1321952644</guid>
+      <pubDate>Fri, 13 Oct 2023 02:36:26 GMT</pubDate>
     </item>
   </channel>
 </rss>
