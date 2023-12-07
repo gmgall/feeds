@@ -1,6 +1,23 @@
 #!/bin/bash
 
 newslinkrss \
+        -p 'https://sler.com.br/.*/' \
+        -i '.+/colunistas/.*' \
+        -i '.+/colunas/.*' \
+        -i '.+/artigos/.*' \
+        -i '.+/trilhas/.*' \
+        -i '.+/category/.*' \
+        --follow \
+        'https://sler.com.br/colunistas/carlos-andre-moreira/' \
+        --with-body \
+        --body-csss 'p[class="v1MsoNormal"]' \
+        -T 'Carlos André Moreira em Sler' \
+        --title-regex '(.+) - Sler' \
+        --author-from-csss 'span[class*="meta-author"] > a' \
+        -n 15 \
+        -o ./feeds/carlos-andre-moreira-sler.xml
+
+newslinkrss \
         -p '.+/noticia/[0-9]{4}/[0-9]{2}/.+html' \
         -i '.+/geral/.+' \
         --with-body \
