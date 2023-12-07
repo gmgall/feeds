@@ -30,6 +30,12 @@
     "feed": "https://gmgall.github.io/feeds/captaindrewboy.xml"
   },
   {
+    "title": "Carlos André Moreira em Sler",
+    "link": "https://sler.com.br/colunistas/carlos-andre-moreira/",
+    "description": "Carlos André Moreira é natural de São Gabriel (RS). Jornalista e escritor, é formado em Comunicação Social (UFRGS) e mestre em Literatura Portuguesa (UFRGS). Atua desde 2002 como crítico literário. É autor do romance",
+    "feed": "https://gmgall.github.io/feeds/carlos-andre-moreira-sler.xml"
+  },
+  {
     "title": "~chickfilla posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~chickfilla/",
     "description": "https://ctrl-c.club/~chickfilla/",
