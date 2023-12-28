@@ -4,9 +4,49 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Dec 2023 00:43:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 Dec 2023 06:13:14 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>American Lager by Cerveja Sul Americana</title>
+      <link>https://untappd.com/user/gmgall/checkin/1343855092</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/american-lager-cerveja-sul-americana/4736492"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="American Lager label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/american-lager-cerveja-sul-americana/4736492"&gt;American Lager&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/w/cerveja-sul-americana/468582"&gt;Cerveja Sul Americana&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1343855092"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 15)"&gt;
+&lt;span&gt;Earned the Riding Steady (Level 15) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_LagerJack_sm.jpg" alt="Lager Jack (Level 9)"&gt;
+&lt;span&gt;Earned the Lager Jack (Level 9) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1343855092</guid>
+      <pubDate>Thu, 28 Dec 2023 03:32:36 GMT</pubDate>
+    </item>
     <item>
       <title>India Pale Ale by Cervejaria Serra Velha</title>
       <link>https://untappd.com/user/gmgall/checkin/1341678639</link>
@@ -150,42 +190,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1334460009</guid>
       <pubDate>Sat, 25 Nov 2023 23:47:22 GMT</pubDate>
-    </item>
-    <item>
-      <title>Supersonic by Sampler Brew House</title>
-      <link>https://untappd.com/user/gmgall/checkin/1328968570</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/supersonic-sampler-brew-house/4595241"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4595241_b4108_sm.jpeg" alt="Supersonic label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/supersonic-sampler-brew-house/4595241"&gt;Supersonic&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/SamplerBrewHouse"&gt;Sampler Brew House&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1328968570"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-30"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_bdayBrew_sm.jpg" alt="Birthday Brew (Level 2)"&gt;
-&lt;span&gt;Earned the Birthday Brew (Level 2) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1328968570</guid>
-      <pubDate>Sun, 05 Nov 2023 20:39:39 GMT</pubDate>
     </item>
   </channel>
 </rss>
