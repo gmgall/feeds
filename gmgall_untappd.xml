@@ -4,9 +4,43 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jan 2024 18:13:36 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2024 00:46:56 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Pilsen by Da Corte Cervejaria</title>
+      <link>https://untappd.com/user/gmgall/checkin/1349341969</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/pilsen-da-corte-cervejaria/300466"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-300466_46dc7_sm.jpeg" alt="Pilsen label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/pilsen-da-corte-cervejaria/300466"&gt;Pilsen&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/DaCorteCervejaria"&gt;Da Corte Cervejaria&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="rating-serving floating"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1349341969"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_HeresToYou_sm.jpg" alt="Cheers To You! (Level 8)"&gt;
+&lt;span&gt;Earned the Cheers To You! (Level 8) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba  (Level 40)"&gt;
+&lt;span&gt;Earned the Suds Samba (Level 40) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1349341969</guid>
+      <pubDate>Thu, 18 Jan 2024 00:29:11 GMT</pubDate>
+    </item>
     <item>
       <title>Chimay Cinq Cents (White) (2023) by Bières de Chimay</title>
       <link>https://untappd.com/user/gmgall/checkin/1347201300</link>
@@ -148,36 +182,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1343855092</guid>
       <pubDate>Thu, 28 Dec 2023 03:32:36 GMT</pubDate>
-    </item>
-    <item>
-      <title>India Pale Ale by Cervejaria Serra Velha</title>
-      <link>https://untappd.com/user/gmgall/checkin/1341678639</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/india-pale-ale-cervejaria-serra-velha/1054621"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="India Pale Ale label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/india-pale-ale-cervejaria-serra-velha/1054621"&gt;India Pale Ale&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/cervejaria-serra-velha/144629"&gt;Cervejaria Serra Velha&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1341678639"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1341678639</guid>
-      <pubDate>Fri, 22 Dec 2023 22:50:16 GMT</pubDate>
     </item>
   </channel>
 </rss>
