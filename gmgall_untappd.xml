@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 21 Jan 2024 06:13:02 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 21 Jan 2024 12:17:29 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Rosenrot by Sampler Brew House</title>
+      <link>https://untappd.com/user/gmgall/checkin/1350335691</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/rosenrot-sampler-brew-house/4923976"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Rosenrot label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/rosenrot-sampler-brew-house/4923976"&gt;Rosenrot&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/SamplerBrewHouse"&gt;Sampler Brew House&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;div class="rating-serving floating"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1350335691"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_AmazonAndAndes_sm.jpg" alt="Amazons &amp;amp; Andes (Level 38)"&gt;
+&lt;span&gt;Earned the Amazons &amp;amp; Andes (Level 38) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1350335691</guid>
+      <pubDate>Sun, 21 Jan 2024 07:21:33 GMT</pubDate>
+    </item>
     <item>
       <title>Pilsen by Da Corte Cervejaria</title>
       <link>https://untappd.com/user/gmgall/checkin/1349341969</link>
@@ -142,46 +172,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1346468892</guid>
       <pubDate>Fri, 05 Jan 2024 02:10:02 GMT</pubDate>
-    </item>
-    <item>
-      <title>American Lager by Cerveja Sul Americana</title>
-      <link>https://untappd.com/user/gmgall/checkin/1343855092</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/american-lager-cerveja-sul-americana/4736492"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="American Lager label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/american-lager-cerveja-sul-americana/4736492"&gt;American Lager&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/cerveja-sul-americana/468582"&gt;Cerveja Sul Americana&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1343855092"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 15)"&gt;
-&lt;span&gt;Earned the Riding Steady (Level 15) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_LagerJack_sm.jpg" alt="Lager Jack (Level 9)"&gt;
-&lt;span&gt;Earned the Lager Jack (Level 9) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1343855092</guid>
-      <pubDate>Thu, 28 Dec 2023 03:32:36 GMT</pubDate>
     </item>
   </channel>
 </rss>
