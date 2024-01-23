@@ -102,9 +102,9 @@
     "feed": "https://gmgall.github.io/feeds/nodisc.xml"
   },
   {
-    "title": "~sicbail posts on ctrl-c.club",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml",
     "link": "https://ctrl-c.club/~sicbail/",
-    "description": "Thoughts, Ideas and random stuff. An uninteresting read from an uninteresting person.",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/sicbail.xml"
   },
   {
