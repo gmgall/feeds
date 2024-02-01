@@ -24,6 +24,12 @@
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
   },
   {
+    "title": "Notícias — Câmara Municipal de Petrópolis",
+    "link": "https://www.petropolis.rj.leg.br/institucional/noticias",
+    "description": "Banco de notícias",
+    "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
+  },
+  {
     "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*.html --title ~captaindrewboy posts on ctrl-c.club --date-from-text .+, (.*) --text-date-fmt %dth %B %Y --follow --with-body https://ctrl-c.club/~captaindrewboy/ -o ./feeds/captaindrewboy.xml",
     "link": "https://ctrl-c.club/~captaindrewboy/",
     "description": "Failed to generate feed.",
