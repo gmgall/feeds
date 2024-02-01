@@ -1,6 +1,18 @@
 #!/bin/bash
 
 newslinkrss \
+        -p '.+/institucional/noticias/.+' \
+        -i '.+/institucional/noticias/agregador' \
+        --follow \
+        --with-body \
+        --body-csss 'div[id="content-core"]' \
+        --date-from-csss 'span[class="documentPublished"]' \
+        --csss-date-regex '.*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).*' \
+        --title-regex '(.+) — Câmara Municipal de Petrópolis' \
+        'https://www.petropolis.rj.leg.br/institucional/noticias' \
+        -o ./feeds/camara-petropolis-rj.xml
+
+newslinkrss \
         -p 'https://sler.com.br/.*/' \
         -i '.+/colunistas/.*' \
         -i '.+/colunas/.*' \
