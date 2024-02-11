@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Feb 2024 18:11:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 11 Feb 2024 00:47:26 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>IPA by Cervejaria Schornstein</title>
+      <link>https://untappd.com/user/gmgall/checkin/1355131923</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/ipa-cervejaria-schornstein/167589"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-167589_b4485_sm.jpeg" alt="IPA label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/ipa-cervejaria-schornstein/167589"&gt;IPA&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaSchornstein"&gt;Cervejaria Schornstein&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1355131923"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
+&lt;span&gt;Draft &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1355131923</guid>
+      <pubDate>Sat, 10 Feb 2024 22:07:41 GMT</pubDate>
+    </item>
     <item>
       <title>APA by Cervejaria Schornstein</title>
       <link>https://untappd.com/user/gmgall/checkin/1353833491</link>
@@ -142,36 +172,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1347201300</guid>
       <pubDate>Sun, 07 Jan 2024 03:51:21 GMT</pubDate>
-    </item>
-    <item>
-      <title>IPA by Cerveza Patagonia</title>
-      <link>https://untappd.com/user/gmgall/checkin/1346486040</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/ipa-cerveza-patagonia/4522907"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4522907_75c72_sm.jpeg" alt="IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/ipa-cerveza-patagonia/4522907"&gt;IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/w/cerveza-patagonia/476315"&gt;Cerveza Patagonia&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1346486040"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-30"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1346486040</guid>
-      <pubDate>Fri, 05 Jan 2024 04:45:22 GMT</pubDate>
     </item>
   </channel>
 </rss>
