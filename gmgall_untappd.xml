@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Feb 2024 00:43:53 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2024 06:13:12 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Weiss by Sampler Brew House</title>
+      <link>https://untappd.com/user/gmgall/checkin/1355568586</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/weiss-sampler-brew-house/4926035"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Weiss label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/weiss-sampler-brew-house/4926035"&gt;Weiss&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/SamplerBrewHouse"&gt;Sampler Brew House&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1355568586"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 27)"&gt;
+&lt;span&gt;Earned the Middle of the Road (Level 27) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1355568586</guid>
+      <pubDate>Mon, 12 Feb 2024 01:47:47 GMT</pubDate>
+    </item>
     <item>
       <title>IPA by Cervejaria Schornstein</title>
       <link>https://untappd.com/user/gmgall/checkin/1355131923</link>
@@ -136,42 +172,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1349341969</guid>
       <pubDate>Thu, 18 Jan 2024 00:29:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>Chimay Cinq Cents (White) (2023) by Bières de Chimay</title>
-      <link>https://untappd.com/user/gmgall/checkin/1347201300</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/chimay-cinq-cents-white-2023-bieres-de-chimay/5267370"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-10049_d52b7_sm.jpeg" alt="Chimay Cinq Cents (White) (2023) label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/chimay-cinq-cents-white-2023-bieres-de-chimay/5267370"&gt;Chimay Cinq Cents (White) (2023)&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/BieresdeChimay"&gt;Bières de Chimay&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1347201300"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 16)"&gt;
-&lt;span&gt;Earned the 99 Bottles (Level 16) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1347201300</guid>
-      <pubDate>Sun, 07 Jan 2024 03:51:21 GMT</pubDate>
     </item>
   </channel>
 </rss>
