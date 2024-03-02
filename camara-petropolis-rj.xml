@@ -1,13 +1,874 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Failed to generate feed.</description><lastBuildDate>Sat, 02 Mar 2024 06:13:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.9.18/x64/lib/python3.9/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Notícias — Câmara Municipal de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Banco de notícias </description><language>pt-BR</language><lastBuildDate>Sat, 02 Mar 2024 12:15:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Câmara Municipal aprova projeto de lei que obriga divulgação da "Lei do Minuto Seguinte"</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-obriga-divulgacao-da-lei-do-minuto-seguinte</link><description>&lt;div id="content-core"&gt;
+                                 
+    
 
-&lt;/pre&gt;</description></item></channel></rss>
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-obriga-divulgacao-da-lei-do-minuto-seguinte/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-obriga-divulgacao-da-lei-do-minuto-seguinte/image_mini" alt='Câmara Municipal aprova projeto de lei que obriga divulgação da "Lei do Minuto Seguinte"' title="Vereadora Gilda Beatriz" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-76ebb84cf956483da20e4f931f0af6e5"&gt;
+            Vereadora Gilda Beatriz
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou, em sessão ordinária realizada na quinta-feira (29), um projeto de lei de autoria da vereadora Gilda Beatriz que dispõe sobre a divulgação, através de cartazes, da Lei Federal 12.845/2013, também conhecida como "Lei do Minuto Seguinte", que versa sobre o atendimento imediato às vítimas de violência sexual.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com o texto, os cartazes deverão ser afixados em unidades de saúde, escolas da rede pública municipal, órgãos da administração direta e indireta que prestam atendimento presencial à população e terminais de transporte coletivo com os seguintes dizeres: “A 'Lei do Minuto Seguinte' (Lei Federal nº 12.845/2013) garante à vítima de estupro o atendimento completo, gratuito e imediato em todos os hospitais integrantes da rede do SUS, sem a necessidade de elaboração prévia de registro de ocorrência”.&lt;/p&gt;
+&lt;p&gt;Em sua justificativa, a vereadora ressaltou a necessidade do cumprimento da Lei Federal, uma vez que várias vítimas de estupro desconhecem seus direitos. “A lei permite que as vítimas recebam atendimento imediato nos hospitais integrados a rede do SUS, incluindo assistência psicológica e medicação, evitando assim o contágio de doenças sexualmente transmissíveis e possível gravidez, sem que seja necessário o registro de ocorrência ou exame de corpo de delito”, disse Gilda Beatriz.&lt;/p&gt;
+&lt;p&gt;O projeto segue agora para a sanção do Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-obriga-divulgacao-da-lei-do-minuto-seguinte</guid><pubDate>Wed, 03 Jan 2024 16:22:00 GMT</pubDate></item><item><title>Câmara Municipal aprova projeto de lei que estabelece a disponibilização de carrinhos de compras adaptados em mercados</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-estabelece-a-disponibilizacao-de-carrinhos-de-compras-adaptados-em-mercados-1</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-estabelece-a-disponibilizacao-de-carrinhos-de-compras-adaptados-em-mercados-1/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-estabelece-a-disponibilizacao-de-carrinhos-de-compras-adaptados-em-mercados-1/image_mini" alt="Câmara Municipal aprova projeto de lei que estabelece a disponibilização de carrinhos de compras adaptados em mercados" title="Vereador Domingos Protetor é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-8d2cfef06f2043cab59439bd172aee8e"&gt;
+            Vereador Domingos Protetor é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Durante a sessão plenária da última quinta-feira (29), na Câmara Municipal, foi aprovado um projeto de lei de autoria do vereador Domingos Protetor o qual institui que supermercados, hipermercados e demais estabelecimentos do município disponibilizem carrinhos de compras adaptados às pessoas com deficiência ou com mobilidade reduzida.&lt;/p&gt;
+&lt;p&gt;O texto aprovado informa que locais com área igual ou superior a mil metros quadrados deverão identificar os carrinhos para facilitar a utilização e disponibilizar, no mínimo, 2% deles com adaptação, visando garantir o direito de acessibilidade destas pessoas. “Vemos as dificuldades que o cadeirante tem quando vai fazer suas compras e não se sente à vontade, pois não possui carrinho adaptado. O objetivo é proteger e dar assistência pública às pessoas portadoras de deficiência, de forma que vivam mais independentes e com maior participação na sociedade”, comenta o vereador.&lt;/p&gt;
+&lt;p&gt;O projeto também pontua que os estabelecimentos devem cumprir as normas gerais de acessibilidade, estando adaptados não somente em sua questão arquitetônica, mas também em atendimento adequado com equipamentos apropriados a cada tipo de comércio. “No caso, lojas de roupas devem ter provadores acessíveis, restaurantes, mesas adaptadas e, em supermercados, carrinhos de compras específicos às pessoas com deficiência e mobilidade reduzida”, explica Domingos.&lt;/p&gt;
+&lt;p&gt;Em caso de descumprimento da lei, o local será notificado para realizar a regularização no prazo de 60 dias, poderá incidir multa diária cinco UFPE’s, enquanto perdurar a irregularidade e, até mesmo, suspensão de alvará de funcionamento.&lt;/p&gt;
+&lt;p&gt;O projeto de lei segue para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-estabelece-a-disponibilizacao-de-carrinhos-de-compras-adaptados-em-mercados-1</guid><pubDate>Thu, 29 Feb 2024 16:29:00 GMT</pubDate></item><item><title>Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta quinta-feira na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-quinta-feira-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-quinta-feira-na-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-quinta-feira-na-camara/image_mini" alt="Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta quinta-feira na Câmara" title="" height="200" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal recebe as Secretarias de Fazenda e Saúde do município nesta quinta-feira (29), para a apresentação dos investimentos nas finanças e na saúde do município no terceiro quadrimestre de 2023. Os relatórios serão apresentados em duas audiências públicas separadas, conforme determinação legal. Às 13h, a CMP recebe a Secretaria Municipal de Fazenda. Mais tarde, às 19h, é a vez da prestação de contas da Secretaria de Saúde.&lt;/p&gt;
+&lt;p&gt;A Comissão de Finanças e Orçamento da Câmara receberá os representantes da Secretaria de Fazenda para a apresentação dos números relativos ao terceiro Quadrimestre de 2023 relacionados à Prefeitura. A Comissão é formada pelo vereador Gil Magno (presidente) e pelos vereadores Junior Paixão, Marcelo Lessa e Marcelo Chitão.&lt;/p&gt;
+&lt;p&gt;À noite será a vez da apresentação do relatório da saúde no último quadrimestre do ano passado. Sob a coordenação da Comissão de Defesa da Saúde, que é presidida pelo vereador Dr. Mauro Peralta e composta também pelos vereadores Marcelo Lessa e Marcelo Chitão, a audiência trará a conhecimento dos vereadores e da população os valores referentes aos investimentos especialmente na área da saúde entre setembro e dezembro do ano passado.&lt;/p&gt;
+&lt;p&gt;Devidos às obras do Palácio Amarelo, as duas audiências poderão ser acompanhadas somente pelo Youtube da Câmara ou pela TV Câmara (Canal 98 SpeedFiber).&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-quinta-feira-na-camara</guid><pubDate>Wed, 28 Feb 2024 17:39:00 GMT</pubDate></item><item><title>Câmara Municipal aprova projeto de lei que promove a conscientização sobre os malefícios do uso do cigarro eletrônico</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-promove-a-conscientizacao-sobre-os-maleficios-do-uso-do-cigarro-eletronico</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-promove-a-conscientizacao-sobre-os-maleficios-do-uso-do-cigarro-eletronico/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-promove-a-conscientizacao-sobre-os-maleficios-do-uso-do-cigarro-eletronico/image_mini" alt="Câmara Municipal aprova projeto de lei que promove a conscientização sobre os malefícios do uso do cigarro eletrônico" title="Vereador Hingo Hammes" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-760a1832a5b54b8faf16c0d284c0dd66"&gt;
+            Vereador Hingo Hammes
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovado nesta terça-feira (27), projeto de lei de autoria do vereador Hingo Hammes sobre a promoção de ações para a conscientização sobre os malefícios do uso do cigarro eletrônico.&lt;/p&gt;
+&lt;p&gt;A implementação dessas medidas reflete a necessidade urgente de abordar os desafios impostos pelo uso crescente do cigarro eletrônico, especialmente entre os jovens. Estatísticas alarmantes demonstram uma correlação direta entre o uso desse dispositivo e o aumento de condições de saúde adversas, como ataques cardíacos e problemas respiratórios graves.&lt;/p&gt;
+&lt;p&gt;"É importante ressaltar que, enquanto o cigarro eletrônico permanece sem regulamentação adequada, seu potencial de causar danos à saúde é significativo. Ingredientes ativos presentes nesses dispositivos têm sido associados a danos pulmonares agudos e aumento do risco de desenvolver doenças graves", afirma o vereador.&lt;/p&gt;
+&lt;p&gt;As metas dessas iniciativas incluem a realização de campanhas e educativas em escolas, unidades de saúde, transporte público e mídia, programas educativos, oferta de apoio psicossocial para lidar com o vício e divulgação de indicadores relacionados ao uso do cigarro eletrônico.&lt;/p&gt;
+&lt;p&gt;Parcerias com a Secretaria de Esportes, Promoção da Saúde, Juventude, Idoso e Lazer para promover atividades físicas como forma de prevenção e conscientização também fazem parte do projeto.&lt;/p&gt;
+&lt;p&gt;A proposta segue para o poder executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-promove-a-conscientizacao-sobre-os-maleficios-do-uso-do-cigarro-eletronico</guid><pubDate>Tue, 27 Feb 2024 18:23:00 GMT</pubDate></item><item><title>Vereador propõe que cirurgia oftalmológica emergencial seja incluída no SUS de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-cirurgia-oftalmologica-emergencial-seja-incluida-no-sus-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-cirurgia-oftalmologica-emergencial-seja-incluida-no-sus-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-cirurgia-oftalmologica-emergencial-seja-incluida-no-sus-de-petropolis/image_mini" alt="Vereador propõe que cirurgia oftalmológica emergencial seja incluída no SUS de Petrópolis" title="Vereador Júnior Paixão" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-0b371bea06d54af386079596a83ac251"&gt;
+            Vereador Júnior Paixão
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou nesta terça-feira (27) uma indicação de autoria do vereador Júnior Paixão que propõe a inclusão de cirurgia oftalmológica emergencial no Sistema Único de Saúde de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“O objetivo é contribuir para a solução dos problemas oftalmológicos emergenciais dos petropolitanos que, quando sofrem alguma situação de alto risco na visão, precisam se deslocar a outros municípios para não correrem o risco de perda da visão. Temos, em Petrópolis, profissionais altamente capacitados e instalações necessárias para que a medida seja colocada em prática”, defende o vereador.&lt;/p&gt;
+&lt;p&gt;A proposta segue para análise da Prefeitura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-cirurgia-oftalmologica-emergencial-seja-incluida-no-sus-de-petropolis</guid><pubDate>Tue, 27 Feb 2024 18:07:00 GMT</pubDate></item><item><title>Projeto de lei propõe oficialização do Dia do Fisioterapeuta e do Terapeuta Ocupacional no município de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-oficializacao-do-dia-do-fisioterapeuta-e-do-terapeuta-ocupacional-no-municipio-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-oficializacao-do-dia-do-fisioterapeuta-e-do-terapeuta-ocupacional-no-municipio-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-oficializacao-do-dia-do-fisioterapeuta-e-do-terapeuta-ocupacional-no-municipio-de-petropolis/image_mini" alt="Projeto de lei propõe oficialização do Dia do Fisioterapeuta e do Terapeuta Ocupacional no município de Petrópolis" title="vereador Júnior Coruja" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-3bd1bf03ef114b92a4a2716ef2ef6841"&gt;
+            vereador Júnior Coruja
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Foi aprovado nesta terça-feira (27), o projeto de lei 4.379/2023, de autoria do presidente da Câmara, vereador Júnior Coruja que institui o dia do Fisioterapeuta e do Terapeuta Ocupacional no calendário oficial do município de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O projeto propõe a criação do Dia do Fisioterapeuta e do Terapeuta Ocupacional em 13 de outubro, para ser oficialmente celebrado em Petrópolis, em reconhecimento ao Decreto-Lei nº 938, de 13 de outubro de 1969, que estabeleceu as diretrizes para essas profissões.&lt;/p&gt;
+&lt;p&gt;A fisioterapia e a terapia ocupacional, embora distintas, são profissões essenciais da área da saúde, ambas com formação de nível superior, que desempenham papéis complementares no cuidado da saúde, dedicando-se a oferecer mais autonomia e qualidade de vida aos pacientes.&lt;/p&gt;
+&lt;p&gt;Diante do envelhecimento populacional, do aumento significativo de acidentes de trabalho. Essas profissões tornam-se cada vez mais indispensáveis na vida cotidiana dos brasileiros.&lt;/p&gt;
+&lt;p&gt;Segundo o Conselho Federal de Fisioterapia e Terapia Ocupacional (Coffito), o fisioterapeuta é especializado em intervenções voltadas para a recuperação e melhoria da função física, mobilidade e qualidade de vida de indivíduos com diversas condições de saúde, enquanto a terapia ocupacional concentra-se no estudo, prevenção e tratamento de alterações cognitivas, afetivas, perceptivas e psicomotoras, sejam elas decorrentes de distúrbios genéticos, traumas ou doenças adquiridas.&lt;/p&gt;
+&lt;p&gt;“A oficialização do Dia do Fisioterapeuta e do Terapeuta Ocupacional visa não apenas reconhecer a importância dessas profissões em nosso município, mas também destacar a dedicação e o compromisso desses profissionais em promover a saúde e o bem-estar da população”, declara o vereador.&lt;/p&gt;
+&lt;p&gt;A proposta segue para o poder executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-oficializacao-do-dia-do-fisioterapeuta-e-do-terapeuta-ocupacional-no-municipio-de-petropolis</guid><pubDate>Tue, 27 Feb 2024 17:06:00 GMT</pubDate></item><item><title>Campanha Junho Vermelho é aprovada na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/campanha-junho-vermelho-e-aprovada-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/campanha-junho-vermelho-e-aprovada-na-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/campanha-junho-vermelho-e-aprovada-na-camara/image_mini" alt="Campanha Junho Vermelho é aprovada na Câmara" title="Vereador Gil Magno é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-a205b27aac0a4a318b2f46a333829740"&gt;
+            Vereador Gil Magno é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara aprovou na sessão desta quinta-feira (22), um projeto de lei, de autoria do vereador Gil Magno, que cria a campanha Junho Vermelho, a ser realizada na primeira semana do mês de junho com o objetivo de conscientizar a respeito da primeira menstruação (menarca). A ideia é levar informação e diálogo importantes para a saúde da mulher às jovens petropolitanas.&lt;/p&gt;
+&lt;p&gt;-Acredito que promover políticas públicas sobre essa questão, incluindo uma semana de ações de conscientização, tratando do tema da menarca sem tabu é essencial -, justifica o vereador Gil.&lt;br&gt;De acordo com o projeto aprovado, haverá o desenvolvimento de ações e articulações entre órgãos públicos, sociedade civil e iniciativa privada, que visem o desenvolvimento de um pensamento livre de preconceitos em torno da primeira menstruação (menarca) e ainda a realização de palestras e cursos, nos quais a menstruação seja abordada como um processo natural do corpo feminino, com vistas à proteção da saúde da mulher.&lt;/p&gt;
+&lt;p&gt;O projeto prevê também a possibilidade de distribuição de kits compostos por absorventes, chocolates e, principalmente, uma cartilha informativa com o intuito de instruir, conscientizar e consequentemente, prevenir a gravidez precoce, além de garantir o bem estar, a higiene íntima e a saúde mental das jovens.&lt;/p&gt;
+&lt;p&gt;O projeto segue para a análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/campanha-junho-vermelho-e-aprovada-na-camara</guid><pubDate>Thu, 22 Feb 2024 16:46:00 GMT</pubDate></item><item><title>Câmara Municipal aprova criação da Semana Municipal de Conscientização sobre Saúde Mental e Medicina Veterinária</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-da-semana-municipal-de-conscientizacao-sobre-saude-mental-e-medicina-veterinaria</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-da-semana-municipal-de-conscientizacao-sobre-saude-mental-e-medicina-veterinaria/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-da-semana-municipal-de-conscientizacao-sobre-saude-mental-e-medicina-veterinaria/image_mini" alt="Câmara Municipal aprova criação da Semana Municipal de Conscientização sobre Saúde Mental e Medicina Veterinária" title="Vereador Domingos Protetor é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-32d370cd1edd478985c671e2a3683a91"&gt;
+            Vereador Domingos Protetor é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Foi aprovado nesta quinta-feira (22), durante sessão plenária da Câmara Municipal, um projeto de lei que institui a Semana Municipal de Conscientização sobre Saúde Mental e Medicina Veterinária em Petrópolis. A proposta é de autoria do vereador Domingos Protetor e deverá ser comemorada, anualmente, na semana que inclui o dia 09 de setembro, Dia Nacional do Médico Veterinário.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O objetivo é oferecer aos médicos veterinários suporte informacional especializado para desempenharem suas rotinas com mais equilíbrio emocional e confiança.&lt;/p&gt;
+&lt;p&gt;O projeto ressalta que, de acordo com um estudo elaborado pelo Centers for Disease Control and Prevention (CDC), divulgado em 2019, a taxa de suicídio é 3,5 vezes mais alta entre médicos veterinários do que entre o restante da população, que 66% dos profissionais reportaram depressão clínica e 24% consideraram suicídio desde que ingressaram no curso de veterinária.&lt;/p&gt;
+&lt;p&gt;No contexto brasileiro, a situação destes profissionais não é diferente. Em 2019, a Associação Brasileira de Veterinários identificou alguns motivos pelos quais veterinários são tão acometidos pelo esgotamento mental e citou as péssimas condições de trabalho, dificuldades relacionais e interpessoais, falta de foco, questões psíquicas da formação do profissional, culpa, medo de errar, cobrança constante para sempre estarem disponíveis, captação e consolidação de clientes, relação com a dor do animal e da família e eutanásia legalizada, entre outros.&lt;/p&gt;
+&lt;p&gt;"É fundamental que cuidemos da saúde dos médicos veterinários da nossa cidade, dado que as estatísticas apontam números alarmantes de casos de suicídio, depressão, fadiga de compaixão, ansiedade, entre outros males, demonstrando a necessidade de o Poder Público oferecer ferramentas informacionais, bem como apoio médico especializado", defende o parlamentar.&lt;/p&gt;
+&lt;p&gt;A Semana Municipal de Conscientização sobre Saúde Mental e Medicina&lt;br&gt;Veterinária abordará o gerenciamento do estresse e ansiedade no trabalho, a prevenção da Fadiga de Compaixão, da Síndrome de Burnout e de expectativas de clientes sobre resultados clínicos e valores. "Com este projeto, será possível proporcionar atividades de conscientização sobre os riscos à sua saúde física e mental, inerentes à profissão, assim como os meios para gerenciá-los, trazendo assim mais segurança e conforto emocional as suas rotinas", pontua Domingos Protetor.&lt;/p&gt;
+&lt;p&gt;O Poder Executivo poderá realizar debates, palestras, campanhas educativas, atendimentos médicos, sem prejuízo de outras iniciativas pertinentes e celebrar convênios e parcerias público-privadas.&lt;/p&gt;
+&lt;p&gt;O projeto de lei aguarda análise da Prefeitura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-da-semana-municipal-de-conscientizacao-sobre-saude-mental-e-medicina-veterinaria</guid><pubDate>Thu, 22 Feb 2024 16:33:00 GMT</pubDate></item><item><title>Câmara Municipal aprova projeto de lei que celebra o Dia Municipal dos Motoristas e Operadores de Máquina em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-celebra-o-dia-municipal-dos-motoristas-e-operadores-de-maquina-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-celebra-o-dia-municipal-dos-motoristas-e-operadores-de-maquina-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-celebra-o-dia-municipal-dos-motoristas-e-operadores-de-maquina-em-petropolis/image_mini" alt="Câmara Municipal aprova projeto de lei que celebra o Dia Municipal dos Motoristas e Operadores de Máquina em Petrópolis" title="vereador Fred Procópio" height="192" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-4c8cbc8c7817474481c362d4d7815fd8"&gt;
+            vereador Fred Procópio
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovado nesta quarta-feira (21), o projeto de lei de autoria do vereador Fred Procópio que institui no calendário oficial de datas e eventos o dia municipal dos motoristas e operadores de máquina.&lt;/p&gt;
+&lt;p&gt;O dia 25 de junho foi escolhido estrategicamente, coincidindo com o "Dia do Motorista" comemorado em todo o sistema de transporte brasileiro. Esta data é especialmente significativa, pois coincide com o dia de São Cristóvão, o santo padroeiro dos viajantes e dos motoristas.&lt;/p&gt;
+&lt;p&gt;"Aprovamos esta propositura com a convicção de reconhecer e valorizar a dedicação e o comprometimento dos motoristas e operadores de máquina do nosso município de Petrópolis, pois desempenham um papel essencial na manutenção da infraestrutura e no funcionamento eficiente de nossa cidade", afirma o vereador.&lt;/p&gt;
+&lt;p&gt;O projeto de lei, agora, está sendo encaminhado ao Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-celebra-o-dia-municipal-dos-motoristas-e-operadores-de-maquina-em-petropolis</guid><pubDate>Thu, 22 Feb 2024 14:09:00 GMT</pubDate></item><item><title>Câmara Municipal aprova projeto de lei que incentiva o aprendizado de diversos idiomas em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-incentiva-o-aprendizado-de-diversos-idiomas-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-incentiva-o-aprendizado-de-diversos-idiomas-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-incentiva-o-aprendizado-de-diversos-idiomas-em-petropolis/image_mini" alt="Câmara Municipal aprova projeto de lei que incentiva o aprendizado de diversos idiomas em Petrópolis" title="vereador Júnior Coruja" height="168" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-aa26df01cd20482dbb271b46742c1676"&gt;
+            vereador Júnior Coruja
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovado em segunda discussão nesta quarta-feira (21), projeto de lei de autoria do presidente da Câmara, vereador Júnior Coruja que cria o Centro Municipal de Linguagem para o ensino de idiomas aos estudantes da rede municipal de ensino.&lt;/p&gt;
+&lt;p&gt;Com uma abordagem inclusiva, o Centro Municipal de Linguagem desenvolverá programas de ensino de idiomas, abrangendo línguas como inglês, espanhol, francês, alemão entre outras, de acordo com a demanda e os recursos disponíveis. Essa iniciativa visa preparar os alunos para um mundo mais globalizado, ampliando suas oportunidades educacionais e profissionais.&lt;/p&gt;
+&lt;p&gt;“A inauguração do Centro Municipal de Linguagem representa um passo significativo na promoção da diversidade linguística e na preparação dos alunos para os desafios do século XXI. Reafirmando assim nosso compromisso com a educação inclusiva e de qualidade para todos os cidadãos”, relata o vereador.&lt;/p&gt;
+&lt;p&gt;Uma característica fundamental do Centro é o acesso gratuito às aulas de idiomas para os estudantes da rede municipal, com prioridade para os alunos do ensino fundamental e médio, ajustando-se à capacidade de atendimento, permitindo que todos os alunos tenham acesso a uma educação multilíngue de alta qualidade.&lt;/p&gt;
+&lt;p&gt;Contando com uma equipe de profissionais qualificados e especializados no ensino de idiomas, estes educadores serão responsáveis pelo planejamento e execução das aulas, além de acompanhar de perto o progresso contínuo dos alunos, garantindo que cada um alcance seu máximo potencial linguístico.&lt;/p&gt;
+&lt;p&gt;O projeto agora será encaminhado ao poder executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-projeto-de-lei-que-incentiva-o-aprendizado-de-diversos-idiomas-em-petropolis</guid><pubDate>Wed, 21 Feb 2024 16:28:00 GMT</pubDate></item><item><title>Semana da Criatividade e Inovação: projeto de lei que destaca o papel para o desenvolvimento de forma sustentável é aprovado pela Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/semana-da-criatividade-e-inovacao-projeto-de-lei-que-destaca-o-papel-para-o-desenvolvimento-de-forma-sustentavel-e-aprovado-pela-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/semana-da-criatividade-e-inovacao-projeto-de-lei-que-destaca-o-papel-para-o-desenvolvimento-de-forma-sustentavel-e-aprovado-pela-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/semana-da-criatividade-e-inovacao-projeto-de-lei-que-destaca-o-papel-para-o-desenvolvimento-de-forma-sustentavel-e-aprovado-pela-camara/image_mini" alt="Semana da Criatividade e Inovação: projeto de lei que destaca o papel para o desenvolvimento de forma sustentável é aprovado pela Câmara" title="vereador Hingo Hammes" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-8f03b7e56edb4715a59abaa9160d1d40"&gt;
+            vereador Hingo Hammes
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovado nesta quarta-feira (21), projeto de lei de autoria do vereador Hingo Hammes que institui e inclui a semana da criatividade e inovação no calendário de eventos em Petrópolis.&lt;/p&gt;
+&lt;p&gt;"A Semana da Criatividade e Inovação é muito mais do que uma série de eventos; é um chamado global para reconhecer, celebrar e cultivar a criatividade em todos os aspectos de nossas vidas", afirma o vereador.&lt;/p&gt;
+&lt;p&gt;Através de reuniões, palestras, seminários e uma gama de eventos relacionados, tem por objetivo valorizar, incentivar e celebrar a criatividade e a inovação para o desenvolvimento econômico e social, sempre de forma sustentável visando promover atividades educativas e de comunicação sobre a importância da aplicação da criatividade e da inovação no município.&lt;/p&gt;
+&lt;p&gt;Eventos e atividades realizadas durante o período previsto na Lei, terão o objetivo de reunir empreendedores, estudantes, professores, pesquisadores, líderes locais, regionais e globais e formuladores de políticas públicas para despertar e fortalecer a aplicação da criatividade e inovação em todos os aspectos das atividades humanas.&lt;/p&gt;
+&lt;p&gt;O projeto agora segue para o executivo para apreciação.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/semana-da-criatividade-e-inovacao-projeto-de-lei-que-destaca-o-papel-para-o-desenvolvimento-de-forma-sustentavel-e-aprovado-pela-camara</guid><pubDate>Wed, 21 Feb 2024 16:26:00 GMT</pubDate></item><item><title>Câmara Municipal aprova indicação que visa fomentar o Programa Nacional de Crédito Fundiário em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-indicacao-que-visa-fomentar-o-programa-nacional-de-credito-fundiario-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-indicacao-que-visa-fomentar-o-programa-nacional-de-credito-fundiario-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-indicacao-que-visa-fomentar-o-programa-nacional-de-credito-fundiario-em-petropolis/image_mini" alt="Câmara Municipal aprova indicação que visa fomentar o Programa Nacional de Crédito Fundiário em Petrópolis" title="Vereador Junior Paixão é o autor da indicação " height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-d16076bf23494fd8b3e28ead566a76e2"&gt;
+            Vereador Junior Paixão é o autor da indicação 
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal aprovou, durante sessão ordinária realizada nesta quarta-feira (21), uma indicação legislativa, de autoria do vereador Junior Paixão, que solicita ao Executivo Municipal a necessidade de uma norma que formalize parceria com os órgãos de Assistência Técnica e Extensão Rural - ATER - e agentes financeiros para promover e fomentar o Programa Nacional de Crédito Fundiário - PNFC, no município.&lt;/p&gt;
+&lt;p&gt;Para o vereador, Petrópolis, em sua área rural, tem um perfil majoritariamente de agricultura familiar onde muitas destas famílias são posseiras, arrendatárias, parceiras e trabalhadores rurais não-proprietários, possuindo uma grande experiência e conhecimento no trabalho rural e sonham com a possibilidade de adquirir o seu pedaço de terra.&lt;/p&gt;
+&lt;p&gt;"O crédito fundiário é uma modalidade de empréstimo rural do Governo Federal, que tem como objetivo realizar um dos maiores sonhos do trabalhador rural: a compra de terras. Quem tem pouca ou nenhuma terra pode comprar um imóvel através dele. A ideia é ajudar a fomentar a agricultura familiar", disse Junior Paixão.&lt;/p&gt;
+&lt;p&gt;A proposta ressalta que, além do financiamento rural para aquisição de terras, os recursos financiados pelo programa também podem ser utilizados na estruturação da propriedade.&lt;/p&gt;
+&lt;p&gt;A indicação legislativa segue para apreciação da Prefeitura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-indicacao-que-visa-fomentar-o-programa-nacional-de-credito-fundiario-em-petropolis</guid><pubDate>Wed, 21 Feb 2024 16:05:00 GMT</pubDate></item><item><title>Vereador propõe a criação da Semana Municipal da Cultura Geek</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-semana-municipal-da-cultura-geek</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-semana-municipal-da-cultura-geek/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-semana-municipal-da-cultura-geek/image_mini" alt="Vereador propõe a criação da Semana Municipal da Cultura Geek" title="Vereador Domingos Protetor é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-7ab022632fa342be9a6176083dcd801e"&gt;
+            Vereador Domingos Protetor é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal aprovou, nesta quarta-feira (21), um projeto de lei de autoria do vereador Domingos Protetor que institui, em Petrópolis, a Semana Municipal da Cultura Geek, a ser comemorada, anualmente, na semana do dia 04 de maio, data que celebra o “Star Wars Day” (Dia do “Star Wars”), já que o lançamento deste filme é considerado como o marco desta cultura.&lt;/p&gt;
+&lt;p&gt;O texto aprovado explica que a "Cultura Geek" se caracteriza como um estilo de vida no qual os indivíduos se interessam por tudo que está relacionado à tecnologia e eletrônica. Além disso, gostam de filmes de ficção científica, são aficionados por jogos eletrônicos e jogos de tabuleiro, mangás, animes e cosplay (forma de expressão em que, ao se fantasiar de um personagem, realiza uma performance, mostrando como é ser uma nova pessoa).&lt;/p&gt;
+&lt;p&gt;Segundo um levantamento feito pela Brandar Consulting, por encomenda da Licensing International, produtos geek alimentam um mercado mundial que faturou cerca de 300 bilhões de dólares em 2022. No Brasil, o valor gira em torno de R$ 21,5 bilhões, em 2021, segundo dados da Associação Brasileira de Licenciamento de Marcas e Personagens (Abral).&lt;/p&gt;
+&lt;p&gt;"Está claro que o universo da cultura geek é um importante propulsor da economia. No Brasil, vem crescendo cada vez mais e se mostrando como uma verdadeira tendência na cultura contemporânea. Por isso, este projeto de lei busca valorizar e fomentar a temática, promovendo eventos de acessibilidade a todos os interessados nesta vertente cultural", pontua Domingos Protetor.&lt;/p&gt;
+&lt;p&gt;A Semana da Cultura Geek também tem como objetivos reconhecer e integrar a importância deste estilo de vida na formação social e intelectual dos munícipes; promover eventos nos quais a população possa interagir com os elementos da cultura geek; e propiciar ações de entretenimento à comunidade local.&lt;/p&gt;
+&lt;p&gt;Para isso, o governo municipal poderá organizar exposições, palestras, feiras de livros, mangás e demais literaturas relacionadas, campeonatos e torneios de jogos eletrônicos e de tabuleiro, concursos de cosplay e desenhos, fóruns de discussão, apresentação e disseminação de inovação tecnológica, sessões e maratonas públicas de filmes, animes e séries, exposições.&lt;/p&gt;
+&lt;p&gt;A proposta segue para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-semana-municipal-da-cultura-geek</guid><pubDate>Wed, 21 Feb 2024 15:54:00 GMT</pubDate></item><item><title>Circuito Pedras do Taquaril pode se tornar Patrimônio Cultural Imaterial de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/circuito-pedras-do-taquaril-pode-se-tornar-patrimonio-cultural-imaterial-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/circuito-pedras-do-taquaril-pode-se-tornar-patrimonio-cultural-imaterial-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/circuito-pedras-do-taquaril-pode-se-tornar-patrimonio-cultural-imaterial-de-petropolis/image_mini" alt="Circuito Pedras do Taquaril pode se tornar Patrimônio Cultural Imaterial de Petrópolis" title="Vereador Ronaldo Ramos" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-6defe6da78cd4a4ab2f2e3b481f20a40"&gt;
+            Vereador Ronaldo Ramos
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Na tarde de hoje (20), a Câmara Municipal aprovou um projeto de lei de autoria do vereador Ronaldo Ramos que declara como Patrimônio Cultural Imaterial de Petrópolis o Circuito Pedras do Taquaril.&lt;/p&gt;
+&lt;p&gt;De acordo com o vereador, a ideia é reconhecer e valorizar o circuito turístico localizado na Posse. "É uma área rodeada por serras a leste e a oeste, onde se destaca a Pedra do Elefante, com cerca de 1.600 metros de altitude, de onde é possível ter uma ampla vista de Petrópolis e Teresópolis. O local também colabora com o crescimento da agricultura familiar, além de possuir afluentes que desaguam no Rio Piabanha, formando cachoeiras e remansos com água pura, que fazem parte do lazer e da formação cultural dos petropolitanos, sendo de suma importância seu reconhecimento e valorização", justifica o parlamentar.&lt;/p&gt;
+&lt;p&gt;A proposta segue para análise da Prefeitura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/circuito-pedras-do-taquaril-pode-se-tornar-patrimonio-cultural-imaterial-de-petropolis</guid><pubDate>Wed, 21 Feb 2024 15:26:00 GMT</pubDate></item><item><title>Petrópolis terá Bunka-Sai no calendário oficial de eventos do município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-tera-bunka-sai-no-calendario-oficial-de-eventos-do-municipio</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-tera-bunka-sai-no-calendario-oficial-de-eventos-do-municipio/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-tera-bunka-sai-no-calendario-oficial-de-eventos-do-municipio/image_mini" alt="Petrópolis terá Bunka-Sai no calendário oficial de eventos do município" title="vereador Fred Procópio" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-bb2e6fd075fd4ea68a6af1db8d83ad4f"&gt;
+            vereador Fred Procópio
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis aprovou nesta terça-feira (20) o projeto de lei de autoria do vereador Fred Procópio à inclusão do "BUNKA-SAI" no Calendário Oficial do município, para ser realizado anualmente durante o mês de outubro.&lt;/p&gt;
+&lt;p&gt;“A aprovação deste projeto se mostra essencial para preservar a tradição e o legado cultural que o BUNKA-SAI representa para Petrópolis e para a comunidade japonesa”, ressalta o vereador.&lt;/p&gt;
+&lt;p&gt;Este projeto visa garantir a continuidade do nome “BUNKA-SAI” para o conjunto de eventos que celebram a imigração japonesa em nosso município. A mudança do nome poderia prejudicar a identificação do evento com a cidade de Petrópolis.&lt;/p&gt;
+&lt;p&gt;O projeto segue para sanção do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-tera-bunka-sai-no-calendario-oficial-de-eventos-do-municipio</guid><pubDate>Wed, 21 Feb 2024 11:17:00 GMT</pubDate></item><item><title>Aprovado Projeto de Lei que incentiva a prática do futmesa</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-incentiva-a-pratica-do-futmesa</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-incentiva-a-pratica-do-futmesa/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-incentiva-a-pratica-do-futmesa/image_mini" alt="Aprovado Projeto de Lei que incentiva a prática do futmesa" title="Vereador Marcelo Chitão é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-bfcc1204accc47acb085794fe3ad901d"&gt;
+            Vereador Marcelo Chitão é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Petrópolis poderá contar com um Programa Municipal de Incentivo à Prática do Teqball, mais conhecido como futmesa. O Projeto de Lei, de autoria do vereador Marcelo Chitão, foi aprovado na Câmara Municipal durante sessão ordinária realizada nesta terça-feira (20).&lt;/p&gt;
+&lt;p&gt;De acordo com o texto, para a criação do programa a Prefeitura poderá celebrar parcerias com empresas, fundações públicas ou privadas, bem como organizações da sociedade civil, para a instalação e manutenção de quadras de futmesa em espaços públicos, como praças, parques e outros locais de livre acesso ao público. As empresas poderão inserir sua marca nas mesas instaladas e ficarão com os custos de instalação e manutenção das quadras sem qualquer ônus para o município.&lt;/p&gt;
+&lt;p&gt;Em sua justificativa, o vereador citou que a prática de atividade física é fundamental para a promoção da saúde e do bem-estar da população.&lt;/p&gt;
+&lt;p&gt;"A falta de exercícios físicos regulares pode levar a diversas doenças crônicas, como obesidade, diabetes e hipertensão, além de causar impactos negativos na saúde mental das pessoas. Essa iniciativa busca fomentar a prática de atividade física de maneira acessível e gratuita para a população, além de criar espaços de convivência e socialização nos locais em que as quadras serão instaladas", disse.&lt;/p&gt;
+&lt;p&gt;Ainda de acordo com Chitão, a parceria com empresas privadas para a instalação e manutenção das quadras de Futmesa é uma forma de viabilizar a implementação do programa sem gerar custos para o município. Além disso, a inserção da marca das empresas nas mesas de Futmesa não comprometerá a integridade do patrimônio cultural, histórico e ambiental da cidade.&lt;/p&gt;
+&lt;p&gt;A proposta segue para apreciação do Poder Executivo.&lt;/p&gt;
+&lt;p&gt;Sobre o Teqball - Também conhecido como futmesa, o Teqball é um esporte profissional que conta até mesmo com uma Copa do Mundo exclusiva. De modo simplificado, é como uma mistura entre tênis de mesa e futebol. O esporte está presente em mais de 140 países e a modalidade segue em expansão, conquistando cada vez mais adeptos.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-incentiva-a-pratica-do-futmesa</guid><pubDate>Tue, 20 Feb 2024 16:59:00 GMT</pubDate></item><item><title>Câmara Municipal aprova criação de programa que fornece óculos de grau a estudantes da rede pública</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-programa-que-fornece-oculos-de-grau-a-estudantes-da-rede-publica</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-programa-que-fornece-oculos-de-grau-a-estudantes-da-rede-publica/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-programa-que-fornece-oculos-de-grau-a-estudantes-da-rede-publica/image_mini" alt="Câmara Municipal aprova criação de programa que fornece óculos de grau a estudantes da rede pública" title="Vereador Junior Paixão é o autor da indicação " height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-2774c6aff4ad49da828067647fb03e18"&gt;
+            Vereador Junior Paixão é o autor da indicação 
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou, em sessão plenária realizada nesta terça-feira (20), uma indicação legislativa de autoria do vereador Junior Paixão que institui o "Programa Visão do Futuro" com o objetivo de fornecer, de forma gratuita, óculos de grau para crianças e adolescentes matriculados nas escolas da rede municipal de Educação, buscando o tratamento para correção, diminuição ou estabilização do grau.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com o texto aprovado, o projeto, que deverá contar com um coordenador especializado, incluirá triagem, consulta com médico oftalmológico ou optométrico, emissão do receituário, escolha da armação dos óculos e a retirada do mesmo. Ainda está previsto o acompanhamento da evolução do tratamento da criança ou adolescente.&lt;/p&gt;
+&lt;p&gt;As armações dos óculos fornecidos pelo programa serão padronizadas, não podendo ser alterado o padrão ou modelo, devendo a criança e adolescente escolher conforme disponibilidade. Em caso de não querer receber os óculos padronizados, deverá o representante legal preencher e assinar termo de abdicação, declarando expressamente a renúncia da participação.&lt;/p&gt;
+&lt;p&gt;Para o autor da indicação, o projeto irá contribuir para a melhoria de vida e do bem-estar de muitos alunos de nossa rede municipal de Educação.&lt;/p&gt;
+&lt;p&gt;"Sabemos da importância da saúde ocular nessa faixa etária e do tratamento precoce que influencia em diversas áreas da vida da criança e do adolescente. Muitas crianças hoje tem dificuldade de aprendizado devido aos problemas relacionados à visão, mas são diagnosticados tardiamente, o que atrapalha seu desenvolvimento escolar, bem como o convívio social" justificou o vereador.&lt;/p&gt;
+&lt;p&gt;A proposta segue para apreciação do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-programa-que-fornece-oculos-de-grau-a-estudantes-da-rede-publica</guid><pubDate>Tue, 20 Feb 2024 16:12:00 GMT</pubDate></item><item><title>Aprovado projeto de lei que inclui a exposição de automóveis antigos no Quitandinha: Garagem 407 no calendário oficial de eventos no município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-inclui-a-exposicao-de-automoveis-antigos-no-quitandinha-garagem-407-no-calendario-oficial-de-eventos-no-municipio</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-inclui-a-exposicao-de-automoveis-antigos-no-quitandinha-garagem-407-no-calendario-oficial-de-eventos-no-municipio/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-inclui-a-exposicao-de-automoveis-antigos-no-quitandinha-garagem-407-no-calendario-oficial-de-eventos-no-municipio/image_mini" alt="Aprovado projeto de lei que inclui a exposição de automóveis antigos no Quitandinha: Garagem 407 no calendário oficial de eventos no município" title="Vereador Fred Procópio" height="109" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-bf3a7f85796c4453851dbdbddcc759b8"&gt;
+            Vereador Fred Procópio
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Projeto de lei de autoria do vereador Fred Procópio, foi aprovado na última quinta-feira (08) pela Câmara Municipal.&lt;/p&gt;
+&lt;p&gt;“A realização desta exposição de carros antigos, faz com que mais pessoas possam visitar nossa cidade, fazendo com que a economia do município possa crescer cada vez mais”, ressalta o Vereador.&lt;/p&gt;
+&lt;p&gt;A exposição de carros antigos acontece, no entorno do hotel Quitandinha, em Petrópolis, um dos mais belos pontos turísticos da Cidade Imperial.&lt;/p&gt;
+&lt;p&gt;Com muita música, comida boa e atividades ao ar livre, o evento é organizado pela turma da Garagem 407. &lt;span&gt;A intenção dos organizadores é sempre proporcionar uma imersão em um ambiente histórico, repleto de veículos antigos e pessoas cheias de histórias para contar.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A entrada da exposição é gratuita e os organizadores estão sempre convocando os participantes e convidados a se unirem numa corrente de solidariedade a partir da doação de alimentos não perecíveis. Todos os alimentos arrecadados serão entregues a instituições de caridade petropolitanas.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei, agora, será encaminhado ao Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-inclui-a-exposicao-de-automoveis-antigos-no-quitandinha-garagem-407-no-calendario-oficial-de-eventos-no-municipio</guid><pubDate>Thu, 15 Feb 2024 14:05:00 GMT</pubDate></item><item><title>Câmara aprova projeto que cria o mês "Junho Alemão" em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-o-mes-junho-alemao-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-o-mes-junho-alemao-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-o-mes-junho-alemao-em-petropolis/image_mini" alt='Câmara aprova projeto que cria o mês "Junho Alemão" em Petrópolis' title="Vereador Hingo Hammes" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-3cf0efcdd2094c74b9012991aeaa3e4e"&gt;
+            Vereador Hingo Hammes
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Projeto de Lei de autoria do vereador Hingo Hammes aprovado na última quinta-feira (08) na Câmara Municipal celebra o legado dos colonos alemães e promove a preservação de sua história.&lt;/p&gt;
+&lt;p&gt;“Ao aprovar esta lei, reafirmamos nosso compromisso com a preservação da história e da diversidade cultural, honrando aqueles que com a visão e o trabalho árduo ajudaram a moldar o destino da cidade”, destaca o vereador.&lt;/p&gt;
+&lt;p&gt;Os imigrantes alemães desempenharam um papel fundamental no nascimento e na expansão de Petrópolis, deixando uma marca indelével em sua paisagem cultural e industrial.&lt;/p&gt;
+&lt;p&gt;Desde as primeiras fábricas de tecido e tecelagem, que impulsionaram o desenvolvimento econômico da cidade, até as cervejarias que adicionaram sabor e convívio social às ruas, sua influência é visível em cada esquina.&lt;/p&gt;
+&lt;p&gt;Além disso, as serrarias, marcenarias e indústrias moveleiras estabelecidas pelos colonos alemães não apenas forneceram os materiais necessários para a construção da cidade, mas também moldaram sua identidade estética e funcional. O legado dessas indústrias continua a ser uma parte vital da herança de Petrópolis até os dias de hoje.&lt;/p&gt;
+&lt;p&gt;Reconhecendo a importância de garantir o acesso ao conhecimento sobre o papel dos imigrantes alemães na história de Petrópolis, uma nova lei foi aprovada. Esta legislação visa não apenas preservar a memória desses pioneiros, mas também promover a celebração contínua da cultura alemã na cidade.&lt;/p&gt;
+&lt;p&gt;Através de iniciativas educacionais e culturais, esta lei busca garantir que todos os petropolitanos tenham a oportunidade de aprender sobre e se orgulhar da contribuição dos colonos alemães para o desenvolvimento de sua cidade.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei, agora, será encaminhado ao poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-o-mes-junho-alemao-em-petropolis</guid><pubDate>Thu, 15 Feb 2024 13:59:00 GMT</pubDate></item><item><title>Vereadora propõe que estabelecimentos de recreação infantil permitam a permanência de acompanhante de crianças com deficiência</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-estabelecimentos-de-recreacao-infantil-permitam-a-permanencia-de-acompanhante-de-criancas-com-deficiencia</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-estabelecimentos-de-recreacao-infantil-permitam-a-permanencia-de-acompanhante-de-criancas-com-deficiencia/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-estabelecimentos-de-recreacao-infantil-permitam-a-permanencia-de-acompanhante-de-criancas-com-deficiencia/image_mini" alt="Vereadora propõe que estabelecimentos de recreação infantil permitam a permanência de acompanhante de crianças com deficiência" title="Vereadora Gilda Beatriz" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-f09f5c9f0604413b9564dd52278f09af"&gt;
+            Vereadora Gilda Beatriz
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou, em sessão ordinária realizada na quarta-feira (07), um Projeto de Lei de autoria da vereadora Gilda Beatriz que obriga espaços de recreação e de lazer infantil, de uso coletivo público ou privado, a permitirem a entrada e permanência de acompanhante de crianças com deficiência ou mobilidade reduzida.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O projeto abrange brinquedotecas, playgrounds ou espaços kids situados em eventos, jardins, parques, clubes, shoppings, e quaisquer outros locais com fins lucrativos ou gratuitos que terão também que deixar afixado, em local visível, um cartaz informativo com os seguintes dizeres: “Permitida a entrada e permanência de acompanhante de criança com deficiência neste estabelecimento, de acordo com a lei municipal. O descumprimento dessa norma é crime, com pena de reclusão de um a três anos, e multa – Art. 88 da Lei Brasileira de Inclusão”.&lt;/p&gt;
+&lt;p&gt;além disso, os estabelecimentos ficam obrigados também a cumprirem o disposto na lei municipal 8.465 de 07 de outubro de 2022, que dispõe sobre a instalação de brinquedos adaptados para crianças com deficiência nas áreas de lazer.&lt;/p&gt;
+&lt;p&gt;Em sua justificativa a vereadora mencionou que ainda é comum hoje se deparar com episódios excludentes das pessoas com deficiência dos seus direitos de ir e vir, seus direitos civis como um todo, e até mesmo o direito a diversão e ao lazer.&lt;/p&gt;
+&lt;p&gt;"Como legisladora e mãe da Bia, que tem síndrome de down, eu pensei muito em como poderia ajudar essas famílias que passam por situações revoltantes como essa. Isso é inaceitável. Infelizmente ainda é comum nos depararmos com episódios manifestadamente excludentes das pessoas com deficiência. Mas, não podemos permitir isso. Vamos fiscalizar o cumprimento da Lei após ser sancionada", disse Gilda.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-estabelecimentos-de-recreacao-infantil-permitam-a-permanencia-de-acompanhante-de-criancas-com-deficiencia</guid><pubDate>Fri, 02 Aug 2024 15:58:00 GMT</pubDate></item><item><title>Câmara Municipal aprova criação de “Programa de Atenção às Pessoas com Transtorno de Acumulação Compulsiva de Animais”</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-201cprograma-de-atencao-as-pessoas-com-transtorno-de-acumulacao-compulsiva-de-animais201d</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-201cprograma-de-atencao-as-pessoas-com-transtorno-de-acumulacao-compulsiva-de-animais201d/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-201cprograma-de-atencao-as-pessoas-com-transtorno-de-acumulacao-compulsiva-de-animais201d/image_mini" alt="Câmara Municipal aprova criação de “Programa de Atenção às Pessoas com Transtorno de Acumulação Compulsiva de Animais”" title="Vereador Domingos Protetor" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-50ec56b4c3ca4b0ba9add99b8d85f7c8"&gt;
+            Vereador Domingos Protetor
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Nesta quinta-feira (08), a Câmara Municipal aprovou um projeto de lei de autoria do vereador Domingos Protetor que institui, em Petrópolis, o “Programa de Atenção às Pessoas com Transtorno de Acumulação Compulsiva de Animais”.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta busca fiscalizar, identificar, diagnosticar, avaliar, intervir estrategicamente, monitorar e dar as devidas providências para a redução dos riscos inerentes aos casos de pessoas com transtorno de acumulação compulsiva de animais. “O objetivo é garantir acesso ao tratamento médico adequado e coordenar uma assistência individualizada a essa pessoa, além de assegurar o bem-estar dos animais sob sua tutela”, justifica o vereador.&lt;/p&gt;
+&lt;p&gt;Os indivíduos acometidos por esta enfermidade oferecem condições de vida e ambiente extremamente precários aos seus animais, o que causa grave sofrimento a todos os envolvidos na situação. Na maior parte dos casos, os animais acabam sofrendo com infecções virais, bacterianas, fúngicas, parasitoses, diarreias, afecções respiratórias, desidratação e de desnutrição. Este cenário de acumulação é capaz de promover e disseminar doenças não só aos animais, mas também de transmitir zoonoses ao acumulador, vizinhos próximos e aos agentes de saúde que vistoriam o local.&lt;/p&gt;
+&lt;p&gt;O texto aprovado explica, ainda, que os ditos acumuladores de animais também não conseguem agir em condições deteriorantes como doenças, fome ou morte e em condições do ambiente, como superpopulação ou situações extremamente insalubres, possuindo dificuldades persistentes em doar ou se desfazer de animais.&lt;/p&gt;
+&lt;p&gt;O projeto visa assegurar à pessoa diagnosticada com Transtorno de Acumulação Compulsiva de Animais atenção integral à sua saúde, promovendo melhorias em seu bem-estar físico, mental e social; adoção de medidas para a redução dos riscos sanitários e ambientais, estabelecimento de medidas de apoio necessárias de forma interdisciplinar, intersetorial e integrada; promoção do engajamento de sua família e da comunidade local para apoiar no restabelecimento e fortalecimento de seus vínculos sociais e comunitários; acesso a benefícios assistenciais e acolhimento, se necessário, dos animais sob sua tutela.&lt;/p&gt;
+&lt;p&gt;“Lamentavelmente, a cidade de Petrópolis enfrenta esta dificuldade, havendo notícias de inúmeras pessoas que precisam de imediato auxílio do Poder Público por estarem acometidas deste transtorno. Com a Lei em vigor, será possível dar acesso a um tratamento psicológico ou psiquiátrico adequado, além de outras medidas necessárias à sua plena recuperação e, ainda, dar a segurança e qualidade de vida para os animais”, explica Domingos Protetor.&lt;/p&gt;
+&lt;p&gt;Os animais sob tutela da pessoa que, comprovadamente, se encontre na situação prevista deverão ser recolhidos e tutelados pelo município para a realização de procedimentos de castração, vacinação e microchipagem, além de outros cuidados médico-veterinários necessários, cabendo a este a responsabilidade pela manutenção da integridade de suas vidas, saúde e bem-estar.&lt;/p&gt;
+&lt;p&gt;Neste caso, o poder público deverá ficar com o animal por um ano e fornecer ao tutor as informações sobre o local e as condições em que seus animais se encontram, além do direito de visitá-lo. Ao final deste prazo, existirá a possibilidade de reaver o pet, caso a pessoa comprove que recuperou as condições necessárias para manter o animal em boas condições. Se não for comprovado, a Prefeitura poderá encaminhar os animais apreendidos para adoção responsável.&lt;/p&gt;
+&lt;p&gt;O projeto segue para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-201cprograma-de-atencao-as-pessoas-com-transtorno-de-acumulacao-compulsiva-de-animais201d</guid><pubDate>Fri, 02 Aug 2024 15:53:00 GMT</pubDate></item><item><title>Vereador propõe que site da Prefeitura informe a localização de todas as vagas de estacionamento para idosos e pessoas com deficiência</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-site-da-prefeitura-informe-a-localizacao-de-todas-as-vagas-de-estacionamento-para-idosos-e-pessoas-com-deficiencia</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-site-da-prefeitura-informe-a-localizacao-de-todas-as-vagas-de-estacionamento-para-idosos-e-pessoas-com-deficiencia/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-site-da-prefeitura-informe-a-localizacao-de-todas-as-vagas-de-estacionamento-para-idosos-e-pessoas-com-deficiencia/image_mini" alt="Vereador propõe que site da Prefeitura informe a localização de todas as vagas de estacionamento para idosos e pessoas com deficiência" title="Vereador Júnior Paixão" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-4ad3c1ecd83b4bb1aa9d582976c2bc6d"&gt;
+            Vereador Júnior Paixão
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou, nesta quarta-feira (07), uma indicação legislativa de autoria do vereador Júnior Paixão a qual obriga que o site oficial do Município disponibilize a localização de todas as vagas de estacionamento para pessoas com deficiência e idosos.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“Precisamos dar mais destaque e transparência sobre os direitos de pessoas com deficiência e idosos na questão das vagas reservadas a eles e seus direitos. Colocar estas informações, de forma destacada, na página da Prefeitura, e divulgá-la de forma eficiente, ajudará neste objetivo”, justifica o vereador.&lt;/p&gt;
+&lt;p&gt;No site, deverão constar a localização exata e o número de todas as vagas de estacionamento voltadas a este público. A informação será acessada através de um ícone visível, além disso, deverá constar o texto completo da Lei Municipal 7.390/2012, que dispõe sobre os direitos das pessoas com deficiência e idosos nos estacionamentos rotativos públicos.&lt;/p&gt;
+&lt;p&gt;A proposta segue para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-que-site-da-prefeitura-informe-a-localizacao-de-todas-as-vagas-de-estacionamento-para-idosos-e-pessoas-com-deficiencia</guid><pubDate>Tue, 02 Jul 2024 16:49:00 GMT</pubDate></item><item><title>Câmara Municipal aprova inclusão do Serra Serata no calendário oficial de eventos da cidade</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-inclusao-do-serra-serata-no-calendario-oficial-de-eventos-da-cidade</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-inclusao-do-serra-serata-no-calendario-oficial-de-eventos-da-cidade/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-inclusao-do-serra-serata-no-calendario-oficial-de-eventos-da-cidade/image_mini" alt="Câmara Municipal aprova inclusão do Serra Serata no calendário oficial de eventos da cidade" title="Vereador Fred Procópio" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-0ba5098625f8487ca0316d4e9d186afa"&gt;
+            Vereador Fred Procópio
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Na sessão plenária desta quarta-feira (07), a Câmara Municipal aprovou um projeto de lei de autoria do vereador Fred Procópio (PL) que institui o Serra Serata no calendário do município.&lt;/p&gt;
+&lt;p&gt;A proposta atual visa garantir a manutenção do nome do evento a ser realizado no mês de setembro em Petrópolis, celebrando a importância da imigração italiana para a cidade. Esta proposta surge da consolidação e identificação já estabelecida entre o nome e a cidade, refletindo o reconhecimento do público e a história contínua desse evento.&lt;/p&gt;
+&lt;p&gt;O Serra Serata é um evento promovido anualmente, com o propósito de homenagear a Colônia Italiana em Petrópolis. O evento proporciona momentos de confraternização, música, gastronomia típica e atividades culturais, consolidando-se como uma celebração marcante no calendário municipal.&lt;/p&gt;
+&lt;p&gt;O Vereador ainda ressalta a importância da Comissão Organizadora da representante da colônia italiana, a Casa D’Italia Anita Garibaldi, que é detentora legítima da patente Serra Serata.&lt;/p&gt;
+&lt;p&gt;O projeto de lei aguarda apreciação da Prefeitura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-inclusao-do-serra-serata-no-calendario-oficial-de-eventos-da-cidade</guid><pubDate>Tue, 02 Jul 2024 16:38:00 GMT</pubDate></item><item><title>Política que orienta uso racional da água é aprovada na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/politica-que-orienta-uso-racional-da-agua-e-aprovada-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/politica-que-orienta-uso-racional-da-agua-e-aprovada-na-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/politica-que-orienta-uso-racional-da-agua-e-aprovada-na-camara/image_mini" alt="Política que orienta uso racional da água é aprovada na Câmara" title="Vereador Gil Magno é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-3d0774e5f6de4edbb04d09bcefad7614"&gt;
+            Vereador Gil Magno é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;O projeto de lei que cria a Política Municipal de Incentivo, Conscientização, Orientação, Conservação e Uso Racional e Sustentável da Água em Edificações no Município de Petrópolis foi aprovado na sessão desta quarta-feira (07) da Câmara Municipal. A autoria do projeto é do vereador Gil Magno.        &lt;/p&gt;
+&lt;p&gt;A ideia é apresentar medidas que tragam uma mudança de hábito do petropolitano quanto ao uso da água, principalmente nas edificações, bem como a conscientização dos usuários sobre a importância da utilização de fontes alternativas para captação e reutilização do recurso de forma sustentável.&lt;/p&gt;
+&lt;p&gt;- Esse projeto tem como objetivo destacar o uso inteligente e a reutilização da água em nossa cidade, especialmente com a promoção de ações socioeducativas, pois sabemos que essas são as principais formas de preservar esse recurso tão essencial para a vida -, destaca Gil Magno.&lt;/p&gt;
+&lt;p&gt;De acordo com o texto aprovado, estão previstos o desenvolvimento de ações voltadas à conscientização da população através de campanhas educativas, palestras para o público em geral e abordagem do tema em escolas da rede pública de ensino, além do estabelecimento de normas urbanísticas especiais a serem encaminhadas na análise de projetos de construção de novas edificações.&lt;/p&gt;
+&lt;p&gt;Também segundo o projeto, há a previsão da instalação nos imóveis da cidade de, pelo menos, um equipamento ecológico voltado à economia de água, tais como bacias sanitárias com caixa de descarga dual, sistema de captação, armazenamento e aproveitamento de águas pluviais ou de águas servidas, entre outros.&lt;/p&gt;
+&lt;p&gt;"Precisamos de medidas que façam com que o consumidor seja motivado a economizar os recursos naturais que temos, como é o caso da água. É pela responsabilidade ambiental e pelo espírito de solidariedade com o cidadão", finaliza.&lt;/p&gt;
+&lt;p&gt;O projeto segue para o Poder Executivo Municipal para análise.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/politica-que-orienta-uso-racional-da-agua-e-aprovada-na-camara</guid><pubDate>Tue, 02 Jul 2024 16:20:00 GMT</pubDate></item><item><title>Vereador propõe a criação da “Semana da Maternidade Atípica”</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-201csemana-da-maternidade-atipica201d</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-201csemana-da-maternidade-atipica201d/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-201csemana-da-maternidade-atipica201d/image_mini" alt="Vereador propõe a criação da “Semana da Maternidade Atípica”" title="Vereador Domingos Protetor" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-eac805d568b94138b0a1b76f5aba6259"&gt;
+            Vereador Domingos Protetor
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis poderá ter em seu calendário oficial de eventos a “Semana da Maternidade Atípica”, a ser realizada anualmente no mês de maio. É o que prevê Projeto de Lei de autoria do vereador Domingos Protetor, aprovado na Câmara Municipal nesta quarta-feira (07).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;São consideradas mães atípicas aquelas que têm filhos com alguma deficiência ou síndrome rara. A proposta é que sejam realizadas ações destinadas à promoção e valorização destas mães, como debates, encontros, rodas de conversa, oficinas temática e cursos, além de estimular a criação de políticas públicas de proteção às mães atípicas, sobretudo aquelas em saúde mental.&lt;/p&gt;
+&lt;p&gt;“Além da sobrecarga natural da maternidade, esta mulher ainda precisa se preocupar com os cuidados especiais da criança e o resultado, muitas vezes, é o isolamento e a frustração. Precisamos de cuidados especiais voltados a estas guerreiras que mantém uma rotina que geralmente é exaustiva", afirma o vereador, que lembra, ainda, uma pesquisa feita pelo Instituto Baresi, em 2012, que aponta que 78% dos pais abandonam filhos com deficiência ou doenças raras antes deles completarem cinco anos de idade, deixando toda a responsabilidade apenas com as mães.&lt;/p&gt;
+&lt;p&gt;O projeto também busca estimular a capacitação de servidores públicos municipais da área de saúde e assistência social para o acolhimento, diagnóstico e tratamento de doenças emocionais que podem surgir decorrentes da maternidade atípica, propiciar espaços para informar e sensibilizar a sociedade sobre as dificuldades enfrentadas, divulgar possíveis doenças emocionais, conscientizando e estimulando as mães atípicas ao autocuidado e apoiar as atividades organizadas e desenvolvidas pela sociedade civil em favor destas mulheres. As atividades poderão ser planejadas e desenvolvidas em conjunto com as secretarias municipais, podendo contar com palestras, apresentações, distribuição de panfletos ou cartilhas informativas.&lt;/p&gt;
+&lt;p&gt;"A ideia é promover uma reflexão, não somente sobre os desafios enfrentados por estas mães, mas também as alegrias que esta maternidade pode proporcionar, contribuindo para que se compreenda as peculiaridades de cada filho, sem haver, no entanto, distinção entre mães como pessoas, mas apenas diferença na experiência vivenciada nesta condição", pontua Domingos Protetor.&lt;/p&gt;
+&lt;p&gt;O projeto de lei será encaminhado ao Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-propoe-a-criacao-da-201csemana-da-maternidade-atipica201d</guid><pubDate>Tue, 02 Jul 2024 16:03:00 GMT</pubDate></item><item><title>Vereador quer Política Municipal de Atenção à Saúde Mental em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-politica-municipal-de-atencao-a-saude-mental-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-politica-municipal-de-atencao-a-saude-mental-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-politica-municipal-de-atencao-a-saude-mental-em-petropolis/image_mini" alt="Vereador quer Política Municipal de Atenção à Saúde Mental em Petrópolis" title="Vereador Dudu é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-0c0c62d2c029439aaef42f0d63546a0f"&gt;
+            Vereador Dudu é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal aprovou, na sessão desta quinta-feira (25), um Projeto de Lei de autoria do vereador Dudu que institui a Política Municipal de Atenção à Saúde Mental. A intenção do projeto é criar uma estratégia para integração e articulação das áreas de Educação e Saúde no desenvolvimento de ações de promoção sobre o assunto e também garantir o acesso à atenção psicossocial, informar e sensibilizar a sociedade sobre a importância de cuidados com a saúde mental.&lt;/p&gt;
+&lt;p&gt;O texto do projeto prevê ações e palestras relacionados ao tema nas escolas e unidades de saúde do município, criação de protocolos de atendimento no ambiente escolar e detecção precoce de sinais que demandam atenção à saúde mental de crianças e adolescentes com o respectivo acompanhamento especializado. Será assegurada ainda a assistência psicológica às pessoas vítimas de violência doméstica e familiar, abuso sexual e qualquer tipo de discriminação, independentemente da fase processual de apuração do ilícito.&lt;/p&gt;
+&lt;p&gt;A Política Municipal de Atenção à Saúde Mental deverá ser estruturada de forma constante ao longo do calendário anual, sendo permitidas ações especiais durante o chamado "Setembro Amarelo", desde que não representem uma limitação das atividades a apenas este mês.&lt;/p&gt;
+&lt;p&gt;Para Dudu, os transtornos mentais são também a principal causa de incapacidade da população. "Há ainda o estigma, a discriminação e as violações de direitos humanos contra pessoas com problemas de saúde mental. Para se ter ideia, 20 países ainda criminalizam a tentativa de suicídio. As pessoas mais pobres e desfavorecidas correm maior risco de problemas de saúde mental e também são as menos propensas a receber serviços adequados", ressalta o vereador.&lt;/p&gt;
+&lt;p&gt;O projeto segue agora para a análise do Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-politica-municipal-de-atencao-a-saude-mental-em-petropolis</guid><pubDate>Fri, 26 Jan 2024 14:19:00 GMT</pubDate></item><item><title>Vereadora propõe que seja revogada a autorização para reajuste da tarifa de água</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-seja-revogada-a-autorizacao-para-reajuste-da-tarifa-de-agua-1</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-seja-revogada-a-autorizacao-para-reajuste-da-tarifa-de-agua-1/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-seja-revogada-a-autorizacao-para-reajuste-da-tarifa-de-agua-1/image_mini" alt="Vereadora propõe que seja revogada a autorização para reajuste da tarifa de água" title="Vereadora Gilda Beatriz" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-3f1be2a5e8384befa1c7c346900d8b4c"&gt;
+            Vereadora Gilda Beatriz
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou nesta quinta-feira (25) uma indicação legislativa de autoria da vereadora Gilda Beatriz a qual propõe que seja editado decreto que revogue a autorização para reajuste da tarifa de água praticada pela subconcessionária Águas do Imperador, concedida pelo Decreto nº 787, de 29 de dezembro de 2023.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O Decreto nº 787 reajustou a tarifa de água no percentual de 7,995%, com isso, o novo valor a ser cobrado pela concessionária Águas do Imperador é de R$ 5,0645 por m³, a ser aplicado a partir do dia 1º de janeiro de 2024.&lt;/p&gt;
+&lt;p&gt;“O índice de quase 8% é mais alto do que a inflação de 2023 - o IPCA-15, considerado uma prévia da inflação, que fechou em 4,72%. Além disso, este reajuste também é maior do que o reajuste do salário-mínimo para esse ano de 2024. Por isso, solicitei a revogação deste decreto que tanto impactará no orçamento das famílias petropolitanas”, justifica Gilda Beatriz.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereadora-propoe-que-seja-revogada-a-autorizacao-para-reajuste-da-tarifa-de-agua-1</guid><pubDate>Thu, 25 Jan 2024 18:06:00 GMT</pubDate></item><item><title>Câmara Municipal aprova criação de comissão especial de reestruturação da saúde mental em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-comissao-especial-de-reestruturacao-da-saude-mental-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-comissao-especial-de-reestruturacao-da-saude-mental-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-comissao-especial-de-reestruturacao-da-saude-mental-em-petropolis/image_mini" alt="Câmara Municipal aprova criação de comissão especial de reestruturação da saúde mental em Petrópolis" title="Vereador Fred Procópio" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-33c5646e945b401c8f77e8b957e97c30"&gt;
+            Vereador Fred Procópio
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou, em sessão ordinária realizada na quinta-feira (25), um requerimento de autoria do vereador Fred Procópio que pede a criação de uma Comissão Especial de Reestruturação da Saúde Mental no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A ideia é promover uma discussão sobre o tema, principalmente diante da defasagem no que diz respeito ao quadro de profissionais desta área, que, segundo o parlamentar, não conseguem dar conta de uma demanda cada dia maior.&lt;/p&gt;
+&lt;p&gt;No texto do documento, o vereador afirma que muitas dificuldades têm sido enfrentadas no mundo por conta da negligência aos cuidados com a saúde mental da população ao longo dos anos.&lt;/p&gt;
+&lt;p&gt;"Cuidar da saúde mental é fundamental, visto que impacta diretamente na qualidade de vida da pessoa, no seu raciocínio, emoções, comportamentos e na maneira como se relaciona com os outros. Isso vale desde criança, para evitar que ela se prolongue com o passar do tempo. Após as tragédias do ano de 2022 enfrentadas na cidade é possível perceber um aumento significativo na demanda desse cuidado. Aqueles que sobreviveram a um dos momentos mais difíceis na história de Petrópolis ficaram absolutamente fragilizados psicologicamente e necessitam que o Poder Público se movimente para auxiliá-los. Este cuidado vem se mostrando cada dia mais essencial no que diz respeito, inclusive, à segurança pública, já que temos visto muitas discussões em torno das medidas necessárias para garantir mais segurança nas escolas, por exemplo", disse o vereador.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-aprova-criacao-de-comissao-especial-de-reestruturacao-da-saude-mental-em-petropolis</guid><pubDate>Thu, 25 Jan 2024 17:51:00 GMT</pubDate></item><item><title>Petrópolis poderá ter a "Semana da Agricultura Familiar"</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-podera-ter-a-semana-da-agricultura-familiar</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-podera-ter-a-semana-da-agricultura-familiar/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-podera-ter-a-semana-da-agricultura-familiar/image_mini" alt='Petrópolis poderá ter a "Semana da Agricultura Familiar"' title="Vereador Gil Magno é o autor do projeto" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-f2b9abf29d9c43e4bf34d333f151762e"&gt;
+            Vereador Gil Magno é o autor do projeto
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal aprovou, nesta quinta-feira (25), um Projeto de Lei de autoria do vereador Gil Magno, que cria a "Semana da Agricultura Familiar" a ser celebrada, anualmente, na última semana de julho, quando é comemorado também o Dia do Agricultor. O evento deverá constar no calendário oficial da cidade.&lt;/p&gt;
+&lt;p&gt;"O agricultor familiar dispõe de um convívio particular com a terra, seu ambiente de trabalho e sua moradia. Sendo assim, esse projeto tem como principal objetivo prestigiar este produtor, que através do trabalho árduo sustenta com dignidade a sua família, fomenta a economia do município de forma sustentável contribuindo na erradicação da fome e enfrentamento da pobreza, na proteção do meio ambiente e na luta pela comida saudável no campo e na cidade", explica Gil Magno.&lt;/p&gt;
+&lt;p&gt;A ideia do projeto é difundir as vantagens econômicas, ecológicas e sociais do modelo sustentável da agricultura familiar, ampliando os conhecimentos técnicos dos produtores rurais através de cursos e oficinas. No texto estão previstos incentivos e políticas públicas para fortalecer a agricultura familiar, além do apoio à criação de associações e cooperativas de produção, gestão e comercialização de produtos. O município poderá ainda realizar parcerias com outras entidades e órgãos públicos, com organizações da sociedade civil, fundações de direito público ou privado e instituições de ensino.&lt;/p&gt;
+&lt;p&gt;O projeto segue, agora, para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/petropolis-podera-ter-a-semana-da-agricultura-familiar</guid><pubDate>Thu, 25 Jan 2024 17:47:00 GMT</pubDate></item><item><title>Hospitais e maternidades poderão contar com intérprete de Libras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/hospitais-e-maternidades-poderao-contar-com-interprete-de-libras</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/hospitais-e-maternidades-poderao-contar-com-interprete-de-libras/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/hospitais-e-maternidades-poderao-contar-com-interprete-de-libras/image_mini" alt="Hospitais e maternidades poderão contar com intérprete de Libras" title="Vereadora Júlia Casamasso" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-a0e2ce1ac3f14400b5ea3c77adfd5420"&gt;
+            Vereadora Júlia Casamasso
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Foi aprovado em segunda discussão na Câmara Municipal, durante sessão ordinária realizada na quarta-feira (24), um Projeto de Lei da vereadora Júlia Casamasso representante da Coletiva Feminista Popular, que estabelece o direito à presença de um intérprete da língua brasileira de sinais - Libras para acompanhar consultas de pré natal, trabalhos de partos e consultas de puérperas, gestantes e parturientes com deficiência auditiva.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A vereadora ressalta que mulheres portadoras de deficiência auditiva estão mais vulneráveis à violência masculina e obstétrica por conta da não fluência de familiares e dos profissionais da saúde na língua de sinais, além da própria limitação das políticas públicas na questão da inclusão da comunidade surda. Atualmente, maternidades, centros de saúde e hospitais não contam com a presença de um servidor intérprete, o que dificulta e vulnerabiliza os atendimentos.&lt;/p&gt;
+&lt;p&gt;“A garantia de um atendimento adequado e humanizado para as mulheres mães com deficiência passam pela compreensão particular de sua realidade e necessidade. Esse projeto de lei garante além do acesso, a segurança dessas mulheres. A implementação desta lei traz para o município de Petrópolis o direito a uma comunicação adequada, e que inclua as mulheres”, disse Júlia.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei segue agora para a sanção do Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/hospitais-e-maternidades-poderao-contar-com-interprete-de-libras</guid><pubDate>Thu, 25 Jan 2024 17:44:00 GMT</pubDate></item></channel></rss>
