@@ -1,5 +1,171 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 06 Mar 2024 18:14:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Start With a Minimum Viable System</title><link>https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Thu, 07 Mar 2024 00:36:41 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Making Make a README</title><link>https://www.dannyguo.com/blog/making-make-a-readme</link><description>&lt;article&gt;
+        &lt;h1&gt;Making Make a README&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2024-03-06"&gt;
+                March 6, 2024
+            &lt;/time&gt;
+             · 
+            1,216 words  ·  ~7 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;My side project with the highest gratification-to-effort ratio is a simple
+website called &lt;a href="https://www.makeareadme.com"&gt;Make a README&lt;/a&gt; (the source is &lt;a href="https://github.com/dguo/make-a-readme"&gt;on
+GitHub&lt;/a&gt;). I made it in 2017 on a whim. I
+was trying to use a third party library that had an anemic README, and it
+reminded me of all the other frustrating times I’ve run into inadequate
+documentation and wished that &lt;a href="https://stripe.com/docs"&gt;Stripe&lt;/a&gt; could
+&lt;a href="https://mintlify.com/blog/stripe-docs"&gt;write&lt;/a&gt; all the software documentation
+in the world.&lt;/p&gt;
+&lt;p&gt;I thought of &lt;a href="https://keepachangelog.com"&gt;Keep a Changelog&lt;/a&gt; and decided to make
+a similar website for READMEs that explains what they are and suggests what to
+put in them.&lt;/p&gt;
+&lt;h2 id="development"&gt;Development&lt;a class="anchor" href="#development"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I &lt;a href="https://github.com/dguo/make-a-readme/pull/1/files"&gt;started&lt;/a&gt; with a simple
+&lt;code&gt;index.html&lt;/code&gt;. I used &lt;a href="https://bulma.io/"&gt;Bulma&lt;/a&gt; for styling and
+&lt;a href="https://www.netlify.com/"&gt;Netlify&lt;/a&gt; for hosting. I
+&lt;a href="https://github.com/dguo/make-a-readme/commit/4673555488b77348a10371622470e03beca4b853"&gt;added&lt;/a&gt;
+a &lt;a href="https://en.wikipedia.org/wiki/Markdown"&gt;Markdown&lt;/a&gt; template with a live
+preview and some more content over the next few days, and I was done! I posted
+the website to a couple of subreddits, it got a few thousand hits, the traffic
+died down, and I mostly forgot about the project.&lt;/p&gt;
+&lt;p&gt;But a year later, I noticed in Google Analytics that traffic was consistently
+increasing. Google Search had started highly ranking the website for queries
+like “readme” and “readme template”. Today, Google still drives the vast
+majority of traffic. Here are the top ten queries for the past month:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/JLUu8bj.jpg" alt="Google Search queries"&gt;&lt;/p&gt;
+&lt;p&gt;I’ve tweaked the content over the years, but the website is largely the same as
+it started. I did
+&lt;a href="https://github.com/dguo/make-a-readme/commit/090671b329ec998965f8fc9cc898a9c9c4386ab0"&gt;migrate&lt;/a&gt;
+the styling to &lt;a href="https://tailwindui.com/"&gt;Tailwind&lt;/a&gt;, and I
+&lt;a href="https://github.com/dguo/make-a-readme/commit/58acff6f9335c86d12d037c347c9d4958ce0de26"&gt;started&lt;/a&gt;
+using &lt;a href="https://nextjs.org/"&gt;Next.js&lt;/a&gt; in preparation for some future
+enhancements if I ever carve out the time to do them.&lt;/p&gt;
+&lt;p&gt;For analytics, I started using &lt;a href="https://plausible.io"&gt;Plausible&lt;/a&gt; after Google
+&lt;a href="https://blog.google/products/ads-commerce/upgrade-to-google-analytics-4-before-july-1/"&gt;shut down Universal
+Analytics&lt;/a&gt;
+with &lt;a href="https://webmasters.stackexchange.com/a/135975/93213"&gt;no way&lt;/a&gt; to migrate
+historical data into Google Analytics 4, which made it a particularly good time
+to find something new. One reason I picked Plausible is that it allows me to
+make the analytics for a website
+public, which I &lt;a href="https://plausible.io/makeareadme.com/"&gt;did for Make a README&lt;/a&gt;.
+As anyone can see, the website has had about two million visitors all time.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/fDVtnRq.jpg" alt="Plausible screenshot"&gt;&lt;/p&gt;
+&lt;h2 id="editable-template"&gt;Editable Template&lt;a class="anchor" href="#editable-template"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The only aspect of the website that isn’t just text is the editable README
+template in Markdown. For the editor, I use
+&lt;a href="https://github.com/Andarist/react-textarea-autosize"&gt;react-textarea-autosize&lt;/a&gt;,
+which provides a
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/textarea"&gt;textarea&lt;/a&gt;
+that automatically resizes based on the content.&lt;/p&gt;
+&lt;p&gt;For the renderer, I use
+&lt;a href="https://github.com/remarkjs/react-markdown"&gt;react-markdown&lt;/a&gt; in conjunction
+with &lt;a href="https://github.com/sindresorhus/github-markdown-css"&gt;github-markdown-css&lt;/a&gt;
+to make the output have GitHub’s Markdown styling.&lt;/p&gt;
+&lt;p&gt;I also pass in a custom renderer for &lt;a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code"&gt;code
+elements&lt;/a&gt; in
+order to use
+&lt;a href="https://github.com/react-syntax-highlighter/react-syntax-highlighter"&gt;react-syntax-highlighter&lt;/a&gt;
+for syntax highlighting. It was a little tricky to figure out how to set this
+up with Next.js and &lt;a href="https://www.typescriptlang.org/"&gt;TypeScript&lt;/a&gt; because I
+wanted to use the async version of &lt;code&gt;react-syntax-highlighter&lt;/code&gt;. The end result
+is that the renderer can do syntax highlighting for most languages, but the
+syntax file for a particular language will only be downloaded if the visitor
+actually chooses the language.&lt;/p&gt;
+&lt;p&gt;In this video, you can see that when I change the code block’s language from
+&lt;a href="https://www.python.org/"&gt;Python&lt;/a&gt; to &lt;a href="https://www.rust-lang.org/"&gt;Rust&lt;/a&gt;, I get
+a &lt;code&gt;react-syntax-highlighter&lt;/code&gt; file that’s just for Rust. I do also get a file
+for &lt;a href="https://en.wikipedia.org/wiki/R_(programming_language)"&gt;R&lt;/a&gt;, since that’s a
+valid language.&lt;/p&gt;
+&lt;video&gt;
+    &lt;source src="https://i.imgur.com/4aIjsYb.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
+&lt;/source&gt;&lt;/video&gt;
+&lt;p&gt;Most visitors will probably never get to the point of using a different
+language, so I’m happy to have avoided making them download unnecessary code.&lt;/p&gt;
+&lt;h2 id="monetization"&gt;Monetization&lt;a class="anchor" href="#monetization"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The website costs me virtually nothing to run, considering it’s a static
+website. I’m on Netlify’s &lt;a href="https://www.netlify.com/pricing/"&gt;free starter
+plan&lt;/a&gt;, which includes 100 GB of bandwidth
+every month, and Make a README only uses about 7 GB a month. So apart from the
+domain name, there aren’t any operating costs.&lt;/p&gt;
+&lt;p&gt;But traffic was high enough that I wanted to use the website as an opportunity
+to experiment with monetization, even as just a learning experience. I added
+developer-focused ads with &lt;a href="https://www.carbonads.net/"&gt;Carbon&lt;/a&gt;. I was okay with
+doing it because Carbon only adds a single display ad that has a decent chance
+of being relevant to the intended audience. Plus I never minded Carbon ads on
+other websites. I made a total of $153.36 from Carbon over about five months
+(about $30.67 per month).&lt;/p&gt;
+&lt;p&gt;Then I moved to the now defunct
+&lt;a href="https://github.com/gitcoinco/code_fund_ads"&gt;CodeFund&lt;/a&gt; platform, which had
+higher payouts in my testing, didn’t use cookies, and was open source. I made a
+total of $443.73 from CodeFund over about 11 months (about $40.33 per month).&lt;/p&gt;
+&lt;p&gt;After CodeFund shut down, I eventually switched to
+&lt;a href="https://www.ethicalads.io/"&gt;EthicalAds&lt;/a&gt;, which is a part of &lt;a href="https://readthedocs.com/"&gt;Read the
+Docs&lt;/a&gt;, also doesn’t use cookies, and is also &lt;a href="https://github.com/readthedocs/ethical-ad-server/"&gt;open
+source&lt;/a&gt;. I made a total of
+$442.27 from EthicalAds for over 200,000 views over the course of a year (about
+$36.86 per month). That’s about $2 in revenue per thousand views.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/FGukMy1.jpg" alt="EthicalAds dashboard"&gt;&lt;/p&gt;
+&lt;p&gt;There was also a two year period where I &lt;a href="https://github.com/dguo/make-a-readme/pull/31/files"&gt;uninstalled
+ads&lt;/a&gt; because
+&lt;a href="https://readme.com/"&gt;ReadMe&lt;/a&gt; (documentation as a service) sponsored the
+website. I have &lt;a href="https://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; to thank for that.
+I saw &lt;a href="https://news.ycombinator.com/item?id=23438930"&gt;a post&lt;/a&gt; asking about side
+projects that are making money. I
+&lt;a href="https://news.ycombinator.com/item?id=23443428"&gt;commented&lt;/a&gt; about Make a README
+and got a reply from &lt;a href="https://gkoberger.com/"&gt;Gregory Koberger&lt;/a&gt;, the founder of
+ReadMe:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Ah, my SEO nemesis!&lt;/p&gt;
+&lt;p&gt;Really, though, your site is awesome. I just emailed you about sponsoring it,
+if you’re interested :)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;I laughed out loud when I read that because I had noticed that Make a README
+would sometimes show up in search results ahead of ReadMe, so I could guess who
+the commenter was even before I saw the username and profile.&lt;/p&gt;
+&lt;p&gt;It was an easy decision to take the sponsorship offer because I was already a
+fan of ReadMe. I’ve done plenty of third party integrations at work, and when I
+open a company’s documentation page for the first time, I can immediately
+recognize if they are using ReadMe. That’s a positive sign for me that the
+documentation will be pretty comprehensive and useful, relative to documentation
+by companies that build their own systems from scratch.&lt;/p&gt;
+&lt;p&gt;Lastly, I’ve received two acquistion offers (four digits each) to buy the
+website. I turned them down because it’s more gratifying to keep the website as
+a side project. I never intended to make any money off of this anyway. Though it
+has been nice to earn a bit of largely passive income from the advertising and
+sponsorship.&lt;/p&gt;
+&lt;h2 id="gratification"&gt;Gratification&lt;a class="anchor" href="#gratification"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Way more than money, the biggest source of gratification is just learning when
+people find the site to be useful. I have a monitor set up with
+&lt;a href="https://f5bot.com/"&gt;F5Bot&lt;/a&gt;. It checks Reddit, Hacker News, and
+&lt;a href="https://lobste.rs/"&gt;Lobsters&lt;/a&gt; for mentions of “makeareadme” and sends me an
+email when it finds something. I also occasionally &lt;a href="https://twitter.com/search?q=makeareadme.com"&gt;search
+Twitter&lt;/a&gt; for “makeareadme.com”.&lt;/p&gt;
+&lt;p&gt;I’ve been in the programming world long enough that making a README is second
+nature. It can be hard for me to remember that at one point, I didn’t know the
+value of good documentation and what information is useful in a README. It’s the
+&lt;a href="https://en.wikipedia.org/wiki/Curse_of_knowledge"&gt;curse of knowledge&lt;/a&gt; at work.
+So when someone recommends Make a README to other people, it reminds me that
+everyone is a beginner at some point. And that for this one basic but important
+thing, my website served as a helpful resource. That feels &lt;em&gt;so good&lt;/em&gt; every time.&lt;/p&gt;
+&lt;h2 id="future-work"&gt;Future Work&lt;a class="anchor" href="#future-work"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In the future, I’d like to add two things to the website. The first is
+translations. The &lt;a href="https://plausible.io/makeareadme.com/countries"&gt;analytics&lt;/a&gt;
+show that significant traffic comes from countries that don’t primarily speak
+English. Adding translations would make the website more accessible to more
+people.&lt;/p&gt;
+&lt;p&gt;I also want to add an interactive README generator. I think the current
+template is a good educational starting point, but the website could be more
+useful for experienced engineers who don’t need the educational aspect but are
+making new READMEs.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/making-make-a-readme</guid><pubDate>Wed, 06 Mar 2024 00:00:00 GMT</pubDate></item><item><title>Start With a Minimum Viable System</title><link>https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</link><description>&lt;article&gt;
         &lt;h1&gt;Start With a Minimum Viable System&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7135,98 +7301,4 @@ News&lt;/a&gt;, on
 or in the comments below.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/the-decline-of-the-macbook-pro</guid><pubDate>Thu, 07 Jun 2018 00:00:00 GMT</pubDate></item><item><title>A Tribute to Kindle</title><link>https://www.dannyguo.com/blog/a-tribute-to-kindle</link><description>&lt;article&gt;
-        &lt;h1&gt;A Tribute to Kindle&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2018-05-08"&gt;
-                May 8, 2018
-            &lt;/time&gt;
-             · 
-            554 words  ·  ~3 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;I’ve been thinking about just how many digital devices I own. Excluding
-accessories like my keyboard, the full list is:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/IPad_(2017)"&gt;Apple iPad&lt;/a&gt; (2017)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/MacBook_Pro#Third_generation_(Retina)"&gt;Apple Macbook
-Pro&lt;/a&gt;
-(2015 13”)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Amazon_Echo#Echo_Dot"&gt;Amazon Echo Dot&lt;/a&gt; (2nd generation)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Paperwhite_(2nd_generation)"&gt;Amazon Kindle
-Paperwhite&lt;/a&gt;
-(2nd generation)&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Google_Home#Home_Mini"&gt;Google Home Mini&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/IdeaPad_Y_Series#Y410p"&gt;Lenovo IdeaPad Y410p&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Xbox_360"&gt;Microsoft Xbox 360&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Xbox_One#Xbox_One_S"&gt;Microsoft Xbox One S&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Droid_Turbo"&gt;Motorola Droid Turbo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Raspberry_Pi#Model_B"&gt;Raspberry Pi Model B&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Roku#Fifth_generation"&gt;Roku Premiere&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Samsung_Galaxy_S7"&gt;Samsung Galaxy S7&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Of all of these, I appreciate my Kindle the most. While my laptop and phone are
-indispensable, they also cause a fair amount of frustration and distraction on
-a daily basis. Concerns about our relationships with digital devices are
-common, whether they are mental (e.g. &lt;a href="https://www.nytimes.com/2016/01/22/opinion/the-eight-second-attention-span.html"&gt;decreasing attention
-spans&lt;/a&gt;),
-emotional (e.g. &lt;a href="https://theconversation.com/how-the-digitalisation-of-everything-is-making-us-more-lonely-90870"&gt;increasing feelings of
-loneliness&lt;/a&gt;),
-or physical (e.g. &lt;a href="https://www.express.co.uk/life-style/health/634318/Smartphone-tablet-gadgets-effect-health"&gt;neck
-problems&lt;/a&gt;).
-My Kindle, for the most part, doesn’t trigger these concerns. It simply
-improves the reading experience in almost every way.&lt;/p&gt;
-&lt;h2 id="positives"&gt;Positives&lt;a class="anchor" href="#positives"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Physical books take up space and are absurdly heavy. Every time I move, I get
-rid of a few more of them. My Kindle can hold thousands of books, yet it weighs
-less and is smaller than many paperback books.&lt;/p&gt;
-&lt;p&gt;My Kindle knows where I left off in each book. For physical books, bookmarks
-fall out easily, and folding corners feels destructive.&lt;/p&gt;
-&lt;p&gt;I can hold my Kindle and even turn pages with one hand, which is great for
-reading when I’m standing in a subway train.&lt;/p&gt;
-&lt;p&gt;The Paperwhite’s backlight means I can read anywhere and anytime. This alone is
-a killer feature over physical books.&lt;/p&gt;
-&lt;p&gt;Unlike smartphones and laptops, my Kindle never gives me battery anxiety. I can
-go weeks without charging it.&lt;/p&gt;
-&lt;p&gt;My Kindle doesn’t kill my attention span like my smartphone does. If anything,
-it helps me focus on long-form content rather than seek another dopamine hit on
-Twitter or Reddit.&lt;/p&gt;
-&lt;p&gt;I can check out books online from the New York Public Library’s &lt;a href="https://nypl.overdrive.com/"&gt;e-book
-website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;I can look up word definitions.&lt;/p&gt;
-&lt;p&gt;I can see all my highlights online.&lt;/p&gt;
-&lt;p&gt;The &lt;a href="https://en.wikipedia.org/wiki/E_Ink"&gt;E Ink&lt;/a&gt; screen is as easy to read as
-paper, even in bright sunlight.&lt;/p&gt;
-&lt;p&gt;It’s relatively cheap. The Paperwhite is frequently on sale for $99, and while
-I know Amazon wants me to buy Kindle books through its store, I get almost all
-my books from the library, so the content has been close to free for me.&lt;/p&gt;
-&lt;p&gt;The upgrade cycle is long. I’m still using the same Kindle I bought five
-years ago and feel no need to get a new one.&lt;/p&gt;
-&lt;h2 id="negatives"&gt;Negatives&lt;a class="anchor" href="#negatives"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I like the idea of having a bookshelf full of books that are meaningful to me,
-but buying a book just for display doesn’t seem like a good use of money.&lt;/p&gt;
-&lt;p&gt;Graphs and images don’t work so well sometimes.&lt;/p&gt;
-&lt;p&gt;This is a very minor issue, but I do wish my Kindle was waterproof.  The second
-generation &lt;a href="https://en.wikipedia.org/wiki/Amazon_Kindle#Kindle_Oasis_(2nd_generation)"&gt;Kindle
-Oasis&lt;/a&gt;
-is waterproof though, and I hope Amazon eventually brings the feature to the
-Paperwhite as well.&lt;/p&gt;
-&lt;p&gt;UI interactions feel slow. I assume later Kindles have improved the speed with
-better hardware.&lt;/p&gt;
-&lt;p&gt;Highlighting is easy, but taking notes is so hard that I have to do it
-externally rather than on the Kindle. For me, that’s true for physical books as
-well, since I don’t like to write in books.&lt;/p&gt;
-&lt;p&gt;See &lt;a href="https://en.wikipedia.org/wiki/Richard_Stallman"&gt;Richard Stallman&lt;/a&gt;’s
-&lt;a href="https://stallman.org/articles/ebooks.pdf"&gt;objections to e-books&lt;/a&gt;. I am
-sympathetic, but I still choose to use my Kindle everyday.&lt;/p&gt;
-&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;My Kindle does one thing, and it does it exceptionally well. It may not be
-perfect, but I don’t have a love-hate relationship with it. I wish I could say
-that about all my devices.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/a-tribute-to-kindle</guid><pubDate>Tue, 08 May 2018 00:00:00 GMT</pubDate></item></channel></rss>
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/the-decline-of-the-macbook-pro</guid><pubDate>Thu, 07 Jun 2018 00:00:00 GMT</pubDate></item></channel></rss>
