@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 15 Mar 2024 12:18:39 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Code Review of My Earliest Projects</title><link>https://www.dannyguo.com/blog/a-code-review-of-my-earliest-projects</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 15 Mar 2024 18:14:43 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Code Review of My Earliest Projects</title><link>https://www.dannyguo.com/blog/a-code-review-of-my-earliest-projects</link><description>&lt;article&gt;
         &lt;h1&gt;A Code Review of My Earliest Projects&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -1972,10 +1972,10 @@ between the two thresholds.&lt;/p&gt;
 &lt;p&gt;It would have been much easier to spend a little more money in the first place
 to buy an air conditioner that has a built-in thermometer.&lt;/p&gt;
 &lt;p&gt;I learned later that I also could have used &lt;a href="https://ifttt.com/"&gt;IFTTT&lt;/a&gt;, which
-has &lt;a href="https://ifttt.com/awair/details"&gt;an Awair integration&lt;/a&gt;, with a high
-temperature trigger and a low temperature trigger. I could have linked these
-triggers to &lt;a href="https://ifttt.com/kasa/details"&gt;the Kasa integration&lt;/a&gt; to turn the
-smart plug on and off.&lt;/p&gt;
+has &lt;a href="https://ifttt.com/awair/triggers/temp_is_high"&gt;an Awair integration&lt;/a&gt;, with
+a high temperature trigger and a low temperature trigger. I could have linked
+these triggers to &lt;a href="https://ifttt.com/kasa/details"&gt;the Kasa integration&lt;/a&gt; to turn
+the smart plug on and off.&lt;/p&gt;
 &lt;p&gt;But doing it through the APIs myself was much more fun!&lt;/p&gt;
     &lt;/article&gt;
 
