@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Mon, 18 Mar 2024 18:13:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Code Review of My Earliest Projects</title><link>https://www.dannyguo.com/blog/a-code-review-of-my-earliest-projects</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Tue, 19 Mar 2024 00:44:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Code Review of My Earliest Projects</title><link>https://www.dannyguo.com/blog/a-code-review-of-my-earliest-projects</link><description>&lt;article&gt;
         &lt;h1&gt;A Code Review of My Earliest Projects&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -4042,8 +4042,7 @@ prevents sweat from evaporating.&lt;/p&gt;
 longer effective, perhaps with a sensor that looks for a lack of airflow at the
 vents.&lt;/p&gt;
 &lt;p&gt;To prevent the issue from occurring again, I’ve set up a recurring task in
-&lt;a href="https://todoist.com/r/danny_guo_xlyrub"&gt;Todoist&lt;/a&gt; to remind me to clean my
-computers once a year.&lt;/p&gt;
+&lt;a href="https://todoist.com"&gt;Todoist&lt;/a&gt; to remind me to clean my computers once a year.&lt;/p&gt;
     &lt;/article&gt;
 
     </description><guid isPermaLink="true">https://www.dannyguo.com/blog/fixing-macbook-pro-thermal-performance-issues</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate></item><item><title>Clearing Mac Storage Space</title><link>https://www.dannyguo.com/blog/clearing-mac-storage-space</link><description>&lt;article&gt;
