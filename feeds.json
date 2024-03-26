@@ -18,7 +18,7 @@
     "feed": "https://gmgall.github.io/feeds/acontece_em_petropolis.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml",
     "link": "https://ctrl-c.club/~beehiveth/",
     "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
@@ -30,7 +30,7 @@
     "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*.html --title ~captaindrewboy posts on ctrl-c.club --date-from-text .+, (.*) --text-date-fmt %dth %B %Y --follow --with-body https://ctrl-c.club/~captaindrewboy/ -o ./feeds/captaindrewboy.xml",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .*.html --title ~captaindrewboy posts on ctrl-c.club --date-from-text .+, (.*) --text-date-fmt %dth %B %Y --follow --with-body https://ctrl-c.club/~captaindrewboy/ -o ./feeds/captaindrewboy.xml",
     "link": "https://ctrl-c.club/~captaindrewboy/",
     "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/captaindrewboy.xml"
@@ -54,7 +54,7 @@
     "feed": "https://gmgall.github.io/feeds/danny_guo.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class=\"card-body text-center\"]/text() --xpath-date-regex .*,\\s+(\\d.+\\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss --follow -p https://www.diariodepetropolis.com.br/integra/.+ --date-from-xpath //div[@class=\"card-body text-center\"]/text() --xpath-date-regex .*,\\s+(\\d.+\\d) --xpath-date-fmt %d de %B de %Y --with-body --body-xpath //h2/.. -C div.row div.card div.card-body.text-center div.row https://www.diariodepetropolis.com.br/ -o ./feeds/diario_de_petropolis.xml",
     "link": "https://www.diariodepetropolis.com.br/",
     "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/diario_de_petropolis.xml"
@@ -108,7 +108,7 @@
     "feed": "https://gmgall.github.io/feeds/nodisc.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.9.18/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml",
+    "title": "Error: /opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml",
     "link": "https://ctrl-c.club/~sicbail/",
     "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/sicbail.xml"
