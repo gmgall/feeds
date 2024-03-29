@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml</title><link>https://ctrl-c.club/~gome/journal/</link><description>Failed to generate feed.</description><lastBuildDate>Fri, 29 Mar 2024 00:44:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss -p .*/~gome/journal/.* -i .*/~gome/journal/rss/.* -i .*/~gome/journal/page* --body-remove-csss #header https://ctrl-c.club/~gome/journal/ --csss-date-regex ([0-9]{2} [A-z]{3} [0-9]{4}), .* --date-from-csss time --csss-date-fmt %d %b %Y --follow --with-body --title ~gome posts on ctrl-c.club --encoding utf-8 -o ./feeds/gome.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.9.19/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.9.19/x64/lib/python3.9/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
-
-&lt;/pre&gt;</description></item></channel></rss>
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 29 Mar 2024 06:14:04 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — 2008</title><link>https://ctrl-c.club/~gome/journal/2008.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I’m looking for the &lt;i&gt;Hats&lt;/i&gt; of 2008&lt;/h1&gt;
+      &lt;time datetime="Tue, 26 Mar 2024 21:30:00 CDT"&gt;26 Mar 2024, 9:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        &lt;a href="https://album.link/s/4pLVvQiysxBwbUuSB3ceQv"&gt;&lt;i&gt;Hats&lt;/i&gt;&lt;/a&gt; by The Blue Nile is a perfect album, in some ways.
+        The description “mournful city soundscape” only sounds generic until you hear how well it fits the bill.
+        Every track immerses you in this atmospheric world of twilight blue, city lights, and melancholy.
+      &lt;/p&gt;&lt;p&gt;
+        The album was released in 1989, and the clean, atmospheric sound palette is a flawless retrospective distillation of the decade’s synthy pop aesthetic.
+        It’s a prime example of &lt;a href="dialogue.html"&gt;genre decadence&lt;/a&gt;, sitting at the end of an era, where the expressive tools of the medium have been dialectically honed to a mirror sheen.
+      &lt;/p&gt;
+      &lt;img src="img/hats.webp" width="400" height="400" alt="Album art for Hats by The Blue Nile"&gt;
+      &lt;p&gt;
+        It’s more of a gut feeling, but I also think &lt;i&gt;Hats&lt;/i&gt; is pointing forward to the 90s in some ways.
+        For some reason, I would the urban theming of it feels more of the 90s than the 80s.
+        The drum machine and production also feel more early 90s to me.
+      &lt;/p&gt;&lt;p&gt;
+        In any case, I like to think about the unique vibes of particular years or spans of time like this,
+        and the main perfection of &lt;i&gt;Hats&lt;/i&gt; to me is how well it captures this edge of decades between the 80s and 90s.
+      &lt;/p&gt;&lt;p&gt;
+        Recently, I’ve been feeling like there is a late 2000s vibe on the wind.
+        I somehow have the feeling that this summer will have a lot in common with the summer of 2007, maybe 2008, maybe 2009 (still narrowing it down).
+        I happened to recently stumble across a haiku by Kyoshi Takahama, a Shōwa era poet, which I think perfectly describes the feeling:*
+      &lt;/p&gt;&lt;blockquote&gt;
+        去年今年貫く棒の如きもの&lt;br&gt;
+        &lt;i&gt;Something like a stick&lt;br&gt;
+           That goes through&lt;br&gt;
+           Last year and this year&lt;/i&gt;
+      &lt;/blockquote&gt;&lt;p&gt;
+        I think there’s something like a stick poking through the late 2000s and the current/coming moment.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve been going back through old Pitchfork reviews from 2007 and 2008 and listening to the most highly recommended music, trying to hone in on that feeling.
+        It’s been a lot of fun, discovering new music at an even faster rate than I normally do, probably closer to &lt;a href="listening.html"&gt;my brother’s pace&lt;/a&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        Throughout this process, it finally dawned on me: I think what I want to find is the &lt;i&gt;Hats&lt;/i&gt; of 2008.
+        An album that perfectly captures the feeling of the time.
+        It doesn’t need to be mournful and atmospheric, necessarily,
+        but I do get the feeling it should have an urban theme, perhaps.
+      &lt;/p&gt;&lt;p&gt;
+        So consider this me officially putting out a bounty.
+        If you know anything that came out in the period of 2007–09 that seems like it does a perfect job capturing the vibe of the times,
+        &lt;b&gt;please&lt;/b&gt; send me a lead!
+        There’s not actually a reward, but I’ll really appreciate the gesture, and probably follow up with a shoutout thanking you.
+        As always, I can be reached at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;&lt;p class="footnote"&gt;
+        * &lt;a href="https://koara.lib.keio.ac.jp/xoonips/modules/xoonips/download.php/AN10030060-20071215-0085.pdf?file_id=14444"&gt;English translation&lt;/a&gt; by Katsuya Hiromoto
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/2008.html</guid><pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate></item></channel></rss>
