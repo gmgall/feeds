@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sun, 14 Apr 2024 14:41:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Peloton Desk Setup</title><link>https://www.dannyguo.com/blog/my-peloton-desk-setup</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sun, 14 Apr 2024 22:54:56 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Cat Alerted Me to a DDoS Attack</title><link>https://www.dannyguo.com/blog/my-cat-alerted-me-to-a-ddos-attack</link><description>&lt;article&gt;
+        &lt;h1&gt;My Cat Alerted Me to a DDoS Attack&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2024-04-14"&gt;
+                April 14, 2024
+            &lt;/time&gt;
+             · 
+            509 words  ·  ~3 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;A few years ago, my cat gave me my most memorable middle of the night software
+engineering incident. I was working at a startup, and we didn’t have a formal
+on-call rotation yet. That was a deliberate decision, since being on-call is
+painful, and the team was good about just collectively keeping an eye out for
+urgent alerts. We eventually set up an on-call rotation, but before that
+happened, I had a fun night.&lt;/p&gt;
+&lt;p&gt;Around 3 a.m., I woke up because my cat was grooming my hair. The grooming
+itself wasn’t unusual. She did it occasionally, and I optimistically took it as
+a sign that she actually liked me and didn’t just tolerate me. Here’s the &lt;a href="https://www.urbandictionary.com/define.php?term=Cat%20Tax"&gt;cat
+tax&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/DM89U2s.jpg" alt="my cat in a Fancy Feast box"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/jDwIABh.jpg" alt="my cat grooming my hair"&gt;&lt;/p&gt;
+&lt;p&gt;But in 9 years, that was the only time she did it while I was sleeping. I
+checked my phone to see what time it was, and I noticed that an &lt;a href="https://aws.amazon.com/cloudwatch/"&gt;AWS
+CloudWatch&lt;/a&gt; alert had gone off a couple
+minutes ago because of &lt;a href="https://aws.amazon.com/blogs/networking-and-content-delivery/identifying-unhealthy-targets-of-elastic-load-balancer/"&gt;unhealthy targets for our load
+balancer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I tried to go to our website, but it didn’t load. I groaned and went to log onto
+my work laptop. Our monitoring dashboard showed a massive number of requests
+coming from many IP addresses that were associated with different countries. And
+international traffic wasn’t typical for us anyway since our products were only
+available to people in the United States. It was a &lt;a href="https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/"&gt;distributed
+denial-of-service (DDoS)
+attack&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;My first and not great thought was to block IP addresses at the server level,
+which would have been tedious and possibly ineffective if the attacker had
+significantly more source IP addresses to use. But then I remembered that we had
+already set up &lt;a href="https://aws.amazon.com/waf/"&gt;AWS Web Application Firewall&lt;/a&gt;. To
+deal with the immediate outage, I set up a rule to &lt;a href="https://docs.aws.amazon.com/waf/latest/developerguide/waf-rule-statement-type-geo-match.html"&gt;block requests from other
+countries&lt;/a&gt;.
+It took effect and blocked hundreds of thousands of requests over the next hour
+or so. Our website started working again, and the flood of requests stopped.&lt;/p&gt;
+&lt;p&gt;Later that morning, we noticed that we had received an email to our customer
+support inbox around when the attack started. With horrible grammar, the sender
+claimed to have found a vulnerability with our website that crashed
+&lt;a href="https://en.wikipedia.org/wiki/Apache_HTTP_Server"&gt;Apache&lt;/a&gt;, which we didn’t even
+use. They said they stopped all traffic to our website and could keep it that
+way for months. They generously offered to give us a “solution file” if we sent
+them $5,000 in Bitcoin. We didn’t reply, though in retrospect, it could have
+been fun to try to &lt;a href="https://www.youtube.com/watch?v=dWzz3NeDz3E"&gt;troll them&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I still find it hard to believe the perfect timing of my cat waking me up. You
+might guess that the AWS alert caused my phone to vibrate or make a sound,
+waking my cat up first. But I keep my phone in do not disturb mode during the
+night. So I just like to think that somehow, she sensed something was wrong that
+couldn’t wait until the morning. It was certainly a more pleasant way to be
+woken up than by a blaring &lt;a href="https://www.pagerduty.com/"&gt;PagerDuty&lt;/a&gt; alarm.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/my-cat-alerted-me-to-a-ddos-attack</guid><pubDate>Sun, 14 Apr 2024 00:00:00 GMT</pubDate></item><item><title>My Peloton Desk Setup</title><link>https://www.dannyguo.com/blog/my-peloton-desk-setup</link><description>&lt;article&gt;
         &lt;h1&gt;My Peloton Desk Setup&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7382,143 +7444,4 @@ the second one ever. I encourage anyone in NYC with an interest in programming
 to try it out in the future.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/momath-hackathon-2018-vortex-pool</guid><pubDate>Mon, 23 Jul 2018 00:00:00 GMT</pubDate></item><item><title>Remap Caps Lock to Escape and Control</title><link>https://www.dannyguo.com/blog/remap-caps-lock-to-escape-and-control</link><description>&lt;article&gt;
-        &lt;h1&gt;Remap Caps Lock to Escape and Control&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2018-07-16"&gt;
-                July 16, 2018
-            &lt;/time&gt;
-             · 
-            548 words  ·  ~3 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;The best tip I ever got for switching away from a default setting was to change
-my normally useless caps lock key to function as both escape and control. On
-every OS, there is a way to make caps lock work as escape when tapped and
-control when held down. It’s one of the first things I do when I get a new
-machine.&lt;/p&gt;
-&lt;p&gt;This hack is especially useful for text editing. When I first started using
-&lt;a href="http://www.vim.org/"&gt;Vim&lt;/a&gt;, I searched for a better way to exit insert mode. I
-happily used the &lt;code&gt;ctrl+[&lt;/code&gt; &lt;a href="https://vi.stackexchange.com/a/303/18205"&gt;trick&lt;/a&gt; for
-months, but learning about remapping caps lock made Vim far more enjoyable to
-use. It should be just as useful for preventing &lt;a href="http://wiki.c2.com/?EmacsPinky"&gt;Emacs
-pinky&lt;/a&gt;, and on Linux and Windows, most
-shortcuts involve control.&lt;/p&gt;
-&lt;p&gt;I also frequently hit escape just to close things. Escape and control are
-usually in the corners of the keyboard, while caps lock occupies prime keyboard
-real estate that it doesn’t deserve. Set up this remap for the sake of
-ergonomics and speed. You can remap escape to caps lock as well if you want to
-retain a caps lock button.&lt;/p&gt;
-&lt;h2 id="linux"&gt;Linux&lt;a class="anchor" href="#linux"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I’ve used &lt;a href="https://github.com/alols/xcape"&gt;xcape&lt;/a&gt; (check out this &lt;a href="https://askubuntu.com/a/228379/772322"&gt;Ask Ubuntu
-answer&lt;/a&gt;) on
-&lt;a href="https://www.ubuntu.com/desktop"&gt;Ubuntu&lt;/a&gt; and
-&lt;a href="https://gitlab.com/interception/linux/plugins/caps2esc"&gt;caps2esc&lt;/a&gt; on
-&lt;a href="https://www.archlinux.org/"&gt;Arch&lt;/a&gt;. I originally tried to use xcape on Arch as
-well, but I ran into the &lt;a href="https://gitlab.com/interception/linux/plugins/caps2esc#history"&gt;same
-problem&lt;/a&gt; as the
-caps2esc author where the remap would need to be re-executed every time I woke
-my laptop from sleep. caps2esc has worked flawlessly for me.&lt;/p&gt;
-&lt;h3 id="caps2esc"&gt;caps2esc&lt;a class="anchor" href="#caps2esc"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://gitlab.com/interception/linux/plugins/caps2esc#installation"&gt;Install&lt;/a&gt;
-the program. For Arch users, there is an &lt;a href="https://aur.archlinux.org/packages/interception-caps2esc"&gt;AUR
-package&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Add this job to &lt;code&gt;/etc/udevmon.yaml&lt;/code&gt;:&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;- &lt;/span&gt;&lt;span&gt;JOB&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"intercept -g $DEVNODE | caps2esc | uinput -d $DEVNODE"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;DEVICE&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;EVENTS&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;EV_KEY&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;span&gt;KEY_CAPSLOCK&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;KEY_ESC&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Start the process with &lt;a href="https://en.wikipedia.org/wiki/Systemd"&gt;systemd&lt;/a&gt;:&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;sudo&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;systemctl&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;enable&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;udevmon&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h3 id="xcape"&gt;xcape&lt;a class="anchor" href="#xcape"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://github.com/alols/xcape#minimal-building-instructions"&gt;Install&lt;/a&gt; the program.
-On recent versions of Ubuntu, you should be able to just run:&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;sudo&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;apt&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;update&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;sudo&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;apt&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;install&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;xcape&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Next you need to remap caps lock to control. Check out this &lt;a href="https://www.emacswiki.org/emacs/MovingTheCtrlKey"&gt;EmacsWiki
-page&lt;/a&gt; for options.  For
-Ubuntu/&lt;a href="https://www.gnome.org/"&gt;GNOME&lt;/a&gt;, I use &lt;a href="https://wiki.gnome.org/Apps/Tweaks"&gt;GNOME
-Tweaks&lt;/a&gt; (&lt;code&gt;$ sudo apt install gnome-tweak-tool&lt;/code&gt;), which has a setting for caps lock as control under the
-“Typing” tab.&lt;/p&gt;
-&lt;p&gt;Now run xcape:&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;xcape&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-e&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'Control_L=Escape'&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;To keep it working through system restarts, you can add that line to your
-&lt;code&gt;~/.profile&lt;/code&gt; or use any method for running a script on startup.&lt;/p&gt;
-&lt;h2 id="mac"&gt;Mac&lt;a class="anchor" href="#mac"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I use &lt;a href="https://pqrs.org/osx/karabiner/"&gt;Karabiner&lt;/a&gt; with a configuration taken
-from this &lt;a href="https://github.com/tekezo/Karabiner-Elements/issues/8#issuecomment-309037790"&gt;GitHub issue
-comment&lt;/a&gt;.
-After installing Karabiner, open &lt;code&gt;~/.config/karabiner/karabiner.json&lt;/code&gt;, and
-modify the &lt;code&gt;rules&lt;/code&gt; array.&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;{&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"profiles"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;"complex_modifications"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                &lt;/span&gt;&lt;span&gt;"rules"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                    {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                        &lt;/span&gt;&lt;span&gt;"manipulators"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                            {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                &lt;/span&gt;&lt;span&gt;"description"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"Change caps_lock to control when used as modifier, escape when used alone"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                &lt;/span&gt;&lt;span&gt;"from"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    &lt;/span&gt;&lt;span&gt;"key_code"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"caps_lock"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    &lt;/span&gt;&lt;span&gt;"modifiers"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        &lt;/span&gt;&lt;span&gt;"optional"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                            &lt;/span&gt;&lt;span&gt;"any"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        ]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                },&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                &lt;/span&gt;&lt;span&gt;"to"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        &lt;/span&gt;&lt;span&gt;"key_code"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"left_control"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                ],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                &lt;/span&gt;&lt;span&gt;"to_if_alone"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        &lt;/span&gt;&lt;span&gt;"key_code"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"escape"&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        &lt;/span&gt;&lt;span&gt;"modifiers"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                            &lt;/span&gt;&lt;span&gt;"optional"&lt;/span&gt;&lt;span&gt;: [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                                &lt;/span&gt;&lt;span&gt;"any"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                            ]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                        }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                ],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                                &lt;/span&gt;&lt;span&gt;"type"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"basic"&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                            }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                        ]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;                ]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;            }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    ]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;a href="https://github.com/jasonrudolph/ControlEscape.spoon"&gt;ControlEscape.spoon&lt;/a&gt;
-appears to be another option. It depends on
-&lt;a href="http://www.hammerspoon.org/"&gt;Hammerspoon&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="windows"&gt;Windows&lt;a class="anchor" href="#windows"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;I use &lt;a href="https://www.autohotkey.com/"&gt;AutoHotkey&lt;/a&gt; with a script from this &lt;a href="https://superuser.com/a/581988/922801"&gt;Super
-User answer&lt;/a&gt;. Save it as a text file
-with a &lt;code&gt;.ahk&lt;/code&gt; extension. To run it, just double click the file after you
-install AutoHotkey. To automatically run it after restarts, add a shortcut to
-the script to your &lt;a href="https://support.microsoft.com/en-us/help/4026268/windows-10-change-startup-apps"&gt;Startup
-folder&lt;/a&gt;.
-Reference the &lt;a href="https://www.autohotkey.com/docs/Program.htm#run"&gt;docs&lt;/a&gt; for more
-info.&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;*CapsLock::&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    Send {Blind}{Ctrl Down}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    cDown := A_TickCount&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;Return&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;*CapsLock up::&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    ; Modify the threshold time (in milliseconds) as necessary&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    If ((A_TickCount-cDown) &amp;lt; 150)&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        Send {Blind}{Ctrl Up}{Esc}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    Else&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        Send {Blind}{Ctrl Up}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;Return&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/remap-caps-lock-to-escape-and-control</guid><pubDate>Mon, 16 Jul 2018 00:00:00 GMT</pubDate></item></channel></rss>
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/momath-hackathon-2018-vortex-pool</guid><pubDate>Mon, 23 Jul 2018 00:00:00 GMT</pubDate></item></channel></rss>
