@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>~chickfilla posts on ctrl-c.club</title><link>https://ctrl-c.club/~chickfilla/</link><description>https://ctrl-c.club/~chickfilla/</description><lastBuildDate>Sun, 14 Apr 2024 08:25:48 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>So this is tildeverse</title><link>https://ctrl-c.club/~chickfilla/p/20211003/post.html</link><description>&lt;div&gt;&lt;h1&gt;So this is tildeverse&lt;/h1&gt;
+&lt;p&gt;I recently found out what tildeverse is, and let me tell you, what a journey this has been...&lt;/p&gt;
+&lt;h2&gt;What lead me here&lt;/h2&gt;
+&lt;p&gt;Earlier this week I was listening to the &lt;a href="http://hackaday.libsyn.com/rss"&gt;hackaday podcast&lt;/a&gt; (highly recommend it) and after reading &lt;a href="https://hackaday.com/2021/09/19/tracking-maximum-power-point-for-solar-efficiency/"&gt;an article about power point tracking for solar efficiency&lt;/a&gt; I started to browse some of the other articles on the site (I was an hour away from home, so I had some extra time). As soon as I opened the front page I noticed an article titled &lt;a href="https://hackaday.com/2021/09/28/gopher-the-competing-standard-to-www-in-the-90s-is-still-worth-checking-out/"&gt;Gopher, The Competing Standard To WWW In The â90s Is Still Worth Checking Out&lt;/a&gt;, and maybe it was because I'm a sucker for everything computer related that originated from a time when I wasn't born, but I felt like I needed to check it out.&lt;/p&gt;
+&lt;h3&gt;Into the Gopher-hole&lt;/h3&gt;
+&lt;p&gt;The article went over to explain the origins of Gopher, its sudden explosion in popularity and its unfortunate downfall at the hands of the evil versatility of HTML and the HTTP protocol. It also described how there are still many servers still up and how Gopher is being kept alive by an avid community of Gopher-enthusiasts. Naturally, I felt obligated to explore this "new" and exciting ecosystem by myself, but this adventure didn't come without its challenges.&lt;/p&gt;
+&lt;p&gt;First off, I needed to find a gopher-compatible browser. Yes, I'm aware that there are many, many ways to visit gopher sites. From web clients to terminal based clients, with plenty of GUI clients in between, accessing gopher-space is an almost trivial task that anyone with a couple of minutes to spare and a bit of patience can do after doing a few google searches on the matter. However, I didn't find any of the available options to be particularly appealing, and now that I think back on it, I can't really seem to be able to point out why. The &lt;a href="https://addons.mozilla.org/en-US/firefox/addon/overbitewx/"&gt;OverbiteWX&lt;/a&gt; extension developed by &lt;a href="https://gopher.floodgap.com/overbite/"&gt;The Overbite Project&lt;/a&gt; for instance, worked wonderfully out of the box and I never encounter issues using it (although I only did so for a couple minutes), but something about accesing a Gopher site using an extension on a web browser felt somewhat wrong to me (in case you haven't noticed yet, I'm not much of a pragmatist). Unfortunately, my train was about to reach my stop, and given that my next objective was to collapse on my bed inmediatly after I arrived home, my investigation on Gopher had to be postponed.&lt;/p&gt;
+&lt;h3&gt;Going from 0 to &lt;a href="https://xkcd.com/214/"&gt;214&lt;/a&gt; real quick&lt;/h3&gt;
+&lt;p&gt;After taking my last lecture the next day, I decided to continue my research where I left off. The minute after I resumed my search however, I stumbled across the &lt;a href="https://gmi.skyjake.fi/lagrange/"&gt;LaGrange&lt;/a&gt; browser, an SDL-based desktop client with support for Gopher, and... Gemini?. As you may have guessed, just like Gopher was a few hours ago, Gemeini was also a complete mystery to me, and after reading it's Wikipedia page and official site, I diverted almost all of my attention to the new (this time for real) protocol.&lt;/p&gt;
+&lt;p&gt;Some &lt;code&gt;git&lt;/code&gt;, &lt;code&gt;cmake&lt;/code&gt; and &lt;code&gt;make&lt;/code&gt; commands later, I was visiting Gemini-space like a total chad. And I've got to say, even when the protocol (and thus, all of it's related software) is &lt;a href="https://gemini.circumlunar.space/docs/faq.gmi"&gt;very, very new&lt;/a&gt;, the experience was wonderful, and LaGrange is a joy to use. Sure, it may not be as feature complete as any of the big browsers out there (for obvious reasons), but given that Gemini is &lt;strong&gt;specifically designed to simpler than HTTP&lt;/strong&gt; as a means to ensure a clean and user-controlled experience, one may argue that it doesn't need to be. And besides, I think few could deny that it looks beautiful, and, in my humble opinion, the way it renders sites makes them look simplistic but not &lt;em&gt;too&lt;/em&gt; simplistic, and every site, regardless of the amount or type of content it has, blends seamlessly with their siblings on the network.&lt;/p&gt;
+&lt;h3&gt;And this is related to tildeverse because...&lt;/h3&gt;
+&lt;p&gt;Oh yeah, right, got a bit side-tracked there. During my travels through the many capsules on the Gemini network, I found &lt;a href="https://rawtext.club/"&gt;The Raw Text Club&lt;/a&gt; (used the http url since, you know, this ain't a Gemini site) an, as described by their website, "experimental community for socializing, digital skill building, and collaboration through the medium of the GNU/Linux shell". Needless to say I &lt;em&gt;needed&lt;/em&gt; to know what this shell-socializing mumbo jumbo was all about. Apparently, there are communities of people who collaborate and communicate with one another via shared Unix systems popularly known as "pubnixes"... I know, crazy right? I have heard of shared Linux servers in the past (heck, my own university has one) but I never thought that they were still a thing outside of private institutions.&lt;/p&gt;
+&lt;p&gt;It didn't take me long before I was facing the sign-up page, and despite wanting to dive head first into this new and exciting world, I figured it would be best if I familiarized myself a little more with it first. Luckily, the RTC folks were kind enough to leave links to other pubnixes at the bottom of the page. And in one of those links, there was one pointing to none-other than &lt;a href="https://tilde.team/"&gt;tilde.team&lt;/a&gt;. And from there, the rest is history.&lt;/p&gt;
+&lt;p&gt;I joined the &lt;a href="https://tilde.chat/"&gt;tildeverseâs IRC network&lt;/a&gt;, and I was promptly greeted by many of its users, some of which (I'm looking at you stern) were extraordinarily kind and patient with this poor newbie, encouraging me to apply to numerous tildes, helping setup my user account and even teaching me how to use gpg keys with my tilde.club email! (a topic on which I'm planning on writing about in the future by the way).&lt;/p&gt;
+&lt;h2&gt;The verse&lt;/h2&gt;
+&lt;p&gt;So far, Iâve only been accepted to tilde.club, but of course, Iâm very grateful to the admins for accepting my application, and even if I donât get into other tildes, Iâm more than happy with the community in this server. Also, since most of my interactions with the verse happen on IRC, I can still talk with many other users across multiple tildes!.&lt;/p&gt;
+&lt;h3&gt;Getting to know the community&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;meta&lt;/code&gt; is easily one of the best and nicest channels Iâve ever joined in any IRC network. Granted, Iâm by no means a veteran of IRC, and Iâve only come to use it in the last few years to either get technical help with libraries of projects Iâve used in the past, or to collaborate with other members of a project, with the occasional procrastination on the lounges of some of the big networks like oftc or libera.chat. But even then, the people in the tilde.chat network struck me as particularly kind and friendly!&lt;/p&gt;
+&lt;h3&gt;Putting my shiny new account to good use&lt;/h3&gt;
+&lt;p&gt;One thing I inmediately noticed while browsing throw the homepage of many pubnixes, is that there seems to be a keen interest on letting individual users have their own private websites hosted on the servers (almost like if that is part of point). So, I felt like setting up a website for my account was on the first things I should do. Only one problem though, I have zero knowledge on web development.&lt;/p&gt;
+&lt;p&gt;Okay, thatâs a lie, I have developed REST APIs and worked on the back-end of some websites in the past, but Iâve never been much of a web designer myself, leaving all of the UX/UI stuff to the more experienced members of my team at the time. But since I donât think it would be worth paying a guy on fiverr five dollars for a very basic, static blog site, I decided to try doing it on my own. And after some feedback by the guys on &lt;code&gt;meta&lt;/code&gt; and and hour or so of google searches, I landed upon my solution of choice, &lt;a href="https://github.com/mity/md4c"&gt;md4c&lt;/a&gt; or more specifically a tool made from it, md2html.&lt;/p&gt;
+&lt;h3&gt;I feel like there is a better way too-&lt;/h3&gt;
+&lt;p&gt;Having found the &lt;strong&gt;perfect&lt;/strong&gt; solution for my blog writing problem, I got to work creating two of the most horrific pieces of software Iâve ever written. And I loved them.&lt;/p&gt;
+&lt;h4&gt;update_blog.sh: For turning .md files into html&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/bash
+
+PATH="/home/$USER/.bin:$PATH"
+BLOG_DIR="/home/$USER/blog"
+OUTPUT_DIR="/home/$USER/public_html"
+
+CURRENT=""
+
+function process_files() {
+    for md in "$1/"*.md; do
+        fn=$(basename -- $md)
+
+        title="${fn%.*}"
+        if [ -f "$md.title" ]; then
+            title="$(cat "$md".title)"
+        fi
+        
+        fn="$2/${fn%.*}.html"
+        cat &amp;gt; "$fn" &amp;lt;&amp;lt;- EOM
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+&amp;lt;head&amp;gt;
+    &amp;lt;meta charset="utf-8"&amp;gt;
+    &amp;lt;link rel="icon" type="/image/png" href="/~$USER/favicon.png"/&amp;gt;
+    &amp;lt;link rel="stylesheet" href="/~$USER/assets/style.css"&amp;gt;
+EOM
+
+        echo "&amp;lt;title&amp;gt;$title&amp;lt;/title&amp;gt;" &amp;gt;&amp;gt; "$fn"
+        cat &amp;gt;&amp;gt; "$fn" &amp;lt;&amp;lt;- EOM
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+EOM
+        md2html $md &amp;gt;&amp;gt; "$fn"
+        cat &amp;gt;&amp;gt; "$fn" &amp;lt;&amp;lt;- EOM
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+EOM
+    done
+}
+
+function process_directory() {
+    for d in "$1/"*; do
+        if [ -d "$d" ]; then
+            CURRENT="$CURRENT/$(basename -- $d)"
+            process_directory "$d"
+            continue
+        fi
+        mkdir -p "$OUTPUT_DIR/$CURRENT"
+        process_files $1 "$OUTPUT_DIR/$CURRENT"
+    done
+}
+
+cp -r "$BLOG_DIR/favicon.png" "$OUTPUT_DIR/"
+cp -r "$BLOG_DIR/assets" "$OUTPUT_DIR/"
+process_directory "$BLOG_DIR/pages"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h4&gt;post_blog.sh: For writing new posts&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;#!/usr/bin/bash
+
+BLOG_DIR="/home/$USER/blog"
+HTML_DIR="/home/$USER/public_html"
+
+if [ ! -z "$1" ]; then
+    d="$1"
+else
+    d="$(date "+%Y%m%d")"
+fi
+dir="$BLOG_DIR/pages/p/$d"
+
+if [ ! -d "$dir" ]; then
+    mkdir -p "$dir"
+fi
+
+if [ ! -f "$dir/post.md" ]; then
+    printf "title: "
+    read title
+
+    echo "$title" &amp;gt; "$dir/post.md.title"
+    echo "# $title" &amp;gt; "$dir/post.md"
+    echo "- [$d](p/$d/post.html)" &amp;gt;&amp;gt; "$BLOG_DIR/pages"/index.md
+fi
+
+vim "$dir/post.md"
+
+if [ ! $? -eq 0 ]; then
+    exit 1
+fi
+
+cd "$BLOG_DIR"
+git add .
+git commit -m "edit for $d"
+
+/home/$USER/.scripts/update_blog.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And so, this very page that you are reading was born.&lt;/p&gt;
+&lt;h2&gt;Final words&lt;/h2&gt;
+&lt;p&gt;Oh wow, Iâve been writing this for the past 2 hours, so I guess itâs about time to wrap-up.&lt;/p&gt;
+&lt;p&gt;Thereâs still plenty I need to learn about tildes, pubnixes (and Linux in general to be honest) but this past few days have been very enjoyable and educational and Iâm looking forward to making new posts like this in the future!.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;chickfilla&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="/~chickfilla/index.html"&gt;Home Page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~chickfilla/p/20211003/post.html</guid><pubDate>Sun, 03 Oct 2021 00:00:00 GMT</pubDate></item></channel></rss>
