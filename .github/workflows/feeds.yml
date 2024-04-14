@@ -23,6 +23,9 @@ jobs:
     - name: Instala newslinkrss
       run: pip3 install newslinkrss
 
+    - name: Instala lxml[html_clean]
+      run: pip3 install 'lxml[html_clean]'
+
     - name: Instala yq
       run: pip3 install yq
 
