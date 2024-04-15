@@ -18,6 +18,18 @@
     "feed": "https://gmgall.github.io/feeds/acontece_em_petropolis.xml"
   },
   {
+    "title": "Internacional - BBC News Brasil",
+    "link": "https://www.bbc.com/portuguese/topics/cmdm4ynm24kt",
+    "description": "Internacional - BBC News Brasil",
+    "feed": "https://gmgall.github.io/feeds/bbc-brasil-internacional.xml"
+  },
+  {
+    "title": "Brasil - BBC News Brasil",
+    "link": "https://www.bbc.com/portuguese/topics/cz74k717pw5t",
+    "description": "Brasil - BBC News Brasil",
+    "feed": "https://gmgall.github.io/feeds/bbc-brasil.xml"
+  },
+  {
     "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/~beehiveth/entries/.+.html --follow --with-body --body-csss article --title ~beehiveth posts on ctrl-c.club --date-from-url .+/~beehiveth/entries/(.+).html --url-date-fmt %d%m%y --encoding utf-8 https://ctrl-c.club/~beehiveth/ -o ./feeds/beehiveth.xml",
     "link": "https://ctrl-c.club/~beehiveth/",
     "description": "Failed to generate feed.",
