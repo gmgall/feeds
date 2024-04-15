@@ -1,6 +1,28 @@
 #!/bin/bash
 
 newslinkrss \
+        -p '.+/articles/.+' \
+        --body-csss 'main[role="main"]' \
+        --body-remove-csss 'section[role="region"]' \
+        --author-from-xpath '//section/ul/li[1]/span/span[2]/text()' \
+        --title-regex '(.+) - BBC News Brasil' \
+        --with-body \
+        --follow \
+        'https://www.bbc.com/portuguese/topics/cmdm4ynm24kt' \
+        -o ./feeds/bbc-brasil-internacional.xml
+
+newslinkrss \
+        -p '.+/articles/.+' \
+        --body-csss 'main[role="main"]' \
+        --body-remove-csss 'section[role="region"]' \
+        --author-from-xpath '//section/ul/li[1]/span/span[2]/text()' \
+        --title-regex '(.+) - BBC News Brasil' \
+        --with-body \
+        --follow \
+        'https://www.bbc.com/portuguese/topics/cz74k717pw5t' \
+        -o ./feeds/bbc-brasil.xml
+
+newslinkrss \
         -p '.+/institucional/noticias/.+' \
         -i '.+/institucional/noticias/agregador' \
         --follow \
