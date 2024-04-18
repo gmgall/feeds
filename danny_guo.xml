@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 17 Apr 2024 18:14:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>My Cat Alerted Me to a DDoS Attack</title><link>https://www.dannyguo.com/blog/my-cat-alerted-me-to-a-ddos-attack</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Thu, 18 Apr 2024 00:45:09 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2024-04-17"&gt;
+                April 17, 2024
+            &lt;/time&gt;
+             · 
+            344 words  ·  ~2 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;For the past couple of years, I’ve subscribed to Apple’s cheapest &lt;a href="https://www.apple.com/icloud/#compare-plans"&gt;iCloud+
+plan&lt;/a&gt; (with 50 GB of storage) for
+free. It started unintentionally. I got the &lt;a href="https://www.apple.com/apple-card/"&gt;Apple
+Card&lt;/a&gt; and changed my iCloud+ billing to it,
+but I didn’t use the card for any other purchases. A few months later, I noticed
+that I hadn’t seen any Apple Card payments from my bank account, so I checked my
+Apple Card statement. I realized that Apple Card forgives small balances, and
+the cheapest iCloud+ plan is only $0.99 per month.&lt;/p&gt;
+&lt;p&gt;My latest statement shows the “Credit adjustment” at the end of the month that
+brought my balance to $0. I even got $0.03 in cash back, so technically, Apple
+is paying &lt;em&gt;me&lt;/em&gt; $0.36 per year to have iCloud+.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/JaVhkV0.jpg" alt="Apple Card statement"&gt;&lt;/p&gt;
+&lt;p&gt;I make a hobby out of &lt;a href="https://www.dannyguo.com/blog/my-credit-and-debit-card-collection"&gt;taking advantage of credit card
+rewards&lt;/a&gt;, so
+the concept of small balance forgiveness wasn’t new to me. I’ve seen it before
+with Capital One and Discover cards, and &lt;a href="https://www.doctorofcredit.com/small-balance-waiver-a-k-a-lots-of-free-99-cent-amazon-gcs/"&gt;Doctor of Credit has a
+list&lt;/a&gt;
+of data points. I never intentionally made a small purchase with the goal of
+having it forgiven, since that’s not worth the time. But I need iCloud+ anyway,
+and since it’s a subscription, I’m not spending any time on it.&lt;/p&gt;
+&lt;p&gt;A caveat is that the adjustment only happens in months where I don’t use my
+Apple Card for anything else. But that is typical for me because I optimize for
+rewards, and Apple Card doesn’t give great rewards for me. It gives 3% back at
+Apple and at certain merchants with Apple Pay. It also gives 2% back with Apple
+Pay in general. Instead:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I would put Apple purchases on my &lt;a href="https://www.citi.com/credit-cards/citi-rewards-plus-credit-card"&gt;Citi
+Rewards+&lt;/a&gt;
+card for an extra two years of extended warranty for free.&lt;/li&gt;
+&lt;li&gt;My &lt;a href="https://www.usbank.com/credit-cards/altitude-reserve-visa-infinite-credit-card.html"&gt;U.S. Bank Altitude
+Reserve&lt;/a&gt;
+card gives me effectively 4.5% back on all mobile wallet purchases (3x points
+with a 50% bonus when redeemed through &lt;a href="https://www.usbank.com/customer-service/knowledge-base/KB0192126.html"&gt;Real-Time
+Rewards&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;There are multiple cards that give 2% back on all purchases, with no Apple
+Pay requirement. Such as the &lt;a href="https://www.paypal.com/us/digital-wallet/manage-money/paypal-cashback-mastercard"&gt;PayPal Cashback
+Mastercard&lt;/a&gt;,
+the &lt;a href="https://www.sofi.com/credit-card/"&gt;SoFi Credit Card&lt;/a&gt;, and the &lt;a href="https://www.citi.com/credit-cards/citi-double-cash-credit-card"&gt;Citi
+Double Cash&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</guid><pubDate>Wed, 17 Apr 2024 00:00:00 GMT</pubDate></item><item><title>My Cat Alerted Me to a DDoS Attack</title><link>https://www.dannyguo.com/blog/my-cat-alerted-me-to-a-ddos-attack</link><description>&lt;article&gt;
         &lt;h1&gt;My Cat Alerted Me to a DDoS Attack&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7339,109 +7395,4 @@ leaked, and to be aware of which files should and shouldn’t be committed to
 Git, I forgot that at one point, I didn’t know any of that. Lesson learned.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/I-published-my-aws-secret-key-to-github</guid><pubDate>Wed, 15 Aug 2018 00:00:00 GMT</pubDate></item><item><title>MoMath Hackathon 2018: Vortex Pool</title><link>https://www.dannyguo.com/blog/momath-hackathon-2018-vortex-pool</link><description>&lt;article&gt;
-        &lt;h1&gt;MoMath Hackathon 2018: Vortex Pool&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2018-07-23"&gt;
-                July 23, 2018
-            &lt;/time&gt;
-             · 
-            604 words  ·  ~4 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;Two weekends ago, some friends and I went to the &lt;a href="https://momath.org/"&gt;National Museum of
-Mathematics&lt;/a&gt; (MoMath) to participate in their second
-annual &lt;a href="http://hackathon.momath.org/"&gt;Expressions hackathon&lt;/a&gt;. The museum has
-many interactive exhibits, and two of them have SDKs.&lt;/p&gt;
-&lt;h2 id="dynamic-wall"&gt;Dynamic Wall&lt;a class="anchor" href="#dynamic-wall"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;As soon as you enter the museum, there’s a big, animated wall on the right
-side. It’s made up of multiple slats that can move independently from each
-other. The top and bottom of each slat can move in and out (perpendicular to
-the wall). One category for the hackathon was to develop an animation for this
-wall using the &lt;a href="https://github.com/momath/dynamic-wall"&gt;SDK&lt;/a&gt;.&lt;/p&gt;
-&lt;div&gt;
-    
-    
-&lt;/div&gt;
-&lt;h2 id="math-square"&gt;Math Square&lt;a class="anchor" href="#math-square"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Another category was to develop something for the museum’s interactive light up
-floor, which also has a &lt;a href="https://github.com/momath/math-square"&gt;SDK&lt;/a&gt;. The floor
-is basically a large pixel display, along with a grid of binary sensors that
-can detect the locations of people. This video shows the floor acting as a
-&lt;a href="https://en.wikipedia.org/wiki/Voronoi_diagram"&gt;Voronoi diagram&lt;/a&gt;.&lt;/p&gt;
-&lt;div&gt;
-    
-    
-&lt;/div&gt;
-&lt;h2 id="wind-tunnel"&gt;Wind Tunnel&lt;a class="anchor" href="#wind-tunnel"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The other hackathon categories were &lt;a href="https://en.wikipedia.org/wiki/Augmented_reality"&gt;augmented
-reality&lt;/a&gt; and an open-ended
-category. We brainstormed for a while and came up with more ideas for the Math
-Square than for anything else. Many of our ideas were for games, but we settled
-on trying to create a &lt;a href="https://en.wikipedia.org/wiki/Wind_tunnel"&gt;wind tunnel&lt;/a&gt;
-simulation. The idea was that when people step on the square, we would display
-&lt;a href="https://en.wikipedia.org/wiki/Airfoil"&gt;airfoil&lt;/a&gt; shapes. From one side of the
-square, we would generate a stream of particles, and their velocities would
-change in the presence of the airfoils. We also wanted to create larger
-airfoils when multiple people were close to each other.&lt;/p&gt;
-&lt;p&gt;By the end of the night, we had a working prototype. It looked like this.&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/lrMngzB.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;p&gt;But it wasn’t as good as we wanted it to be. In particular, the calculations
-for the velocity changes for each particle was expensive enough that
-performance became an issue. It also didn’t work with more than one airfoil.
-When we tested the simulation on the actual floor, it looked pretty lame. To
-make the simulation look more realistic, we would have had to tweak the
-calculations or add collision detection. As we packed up for the day, we
-discussed trying to create a
-&lt;a href="https://en.wikipedia.org/wiki/Whirlpool"&gt;whirlpool&lt;/a&gt;-like simulation instead.&lt;/p&gt;
-&lt;h2 id="vortex-pool"&gt;Vortex Pool&lt;a class="anchor" href="#vortex-pool"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The next morning, we switched to the new approach. It looks much more
-interesting than our wind tunnel did, and the implementation is simpler and far
-less computationally intensive. My friend who handled all the velocity
-calculations said this was because each airfoil was essentially made up of
-dozens of the &lt;a href="https://en.wikipedia.org/wiki/Vortex"&gt;vortexes&lt;/a&gt; that we were
-rendering now with a single digit count. Check out this &lt;a href="https://katbug.github.io/momath-vortexpool/"&gt;online
-demo&lt;/a&gt;. Click to create vortexes.&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/taEXQoG.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;p&gt;The source code, along with a more in-depth explanation, is on
-&lt;a href="https://github.com/katbug/momath-vortexpool"&gt;GitHub&lt;/a&gt;. We won a &lt;a href="http://hackathon.momath.org/showcase/"&gt;runner-up
-prize&lt;/a&gt; for the category, and we’re
-hopeful it will actually be used on the museum floor. We didn’t think to take a
-video of it in action, but here are some pictures.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/tdHwdwE.jpg" alt="Vortex Pool 1"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/L4wXAYG.jpg" alt="Vortex Pool 2"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/IwNWj3F.jpg" alt="Vortex Pool 3"&gt;&lt;/p&gt;
-&lt;p&gt;The winning submission for the category is very cool, and it’s also on
-&lt;a href="https://github.com/jlam55555/howitfeelstochew6gum/tree/master/Spirographs%20of%20Venus%20--%20Math%20Square"&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id="tile-flip"&gt;Tile Flip&lt;a class="anchor" href="#tile-flip"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;One of our friends also single-handedly recreated a puzzle game from
-&lt;a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda"&gt;Zelda&lt;/a&gt;, complete with level
-progression! It’s on &lt;a href="https://github.com/bishpls/tile-flip"&gt;GitHub&lt;/a&gt; as well.&lt;/p&gt;
-&lt;div&gt;
-    
-    
-&lt;/div&gt;
-&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Vortex Pool is very different from what I usually work on, so it was a great
-change of pace. I also got some exposure to new tools. It was my first time
-using &lt;a href="https://p5js.org/"&gt;p5.js&lt;/a&gt; (I had never heard of it or
-&lt;a href="https://processing.org/"&gt;Processing&lt;/a&gt;), and I got to try out
-&lt;a href="https://rollupjs.org/"&gt;Rollup&lt;/a&gt;, which I had &lt;a href="https://medium.com/webpack/webpack-and-rollup-the-same-but-different-a41ad427058c"&gt;read
-about&lt;/a&gt;
-but never used.&lt;/p&gt;
-&lt;p&gt;This hackathon is supposed to be an annual event, and the one we attended was
-the second one ever. I encourage anyone in NYC with an interest in programming
-to try it out in the future.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/momath-hackathon-2018-vortex-pool</guid><pubDate>Mon, 23 Jul 2018 00:00:00 GMT</pubDate></item></channel></rss>
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/I-published-my-aws-secret-key-to-github</guid><pubDate>Wed, 15 Aug 2018 00:00:00 GMT</pubDate></item></channel></rss>
