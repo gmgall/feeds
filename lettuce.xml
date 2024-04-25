@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Thu, 25 Apr 2024 06:14:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Thu, 25 Apr 2024 12:16:48 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -3336,75 +3336,4 @@ RULES
 
 &lt;p&gt;You can leave a comment by emailing lettuce at the ctrl-c club domain.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/you-cant-sit.html</guid><pubDate>Tue, 26 Oct 2021 00:00:00 GMT</pubDate></item><item><title>shape-generative-music.html</title><link>https://ctrl-c.club/~lettuce/shape-generative-music.html</link><description>&lt;div&gt;&lt;h1&gt;The Shape of Generative Music&lt;/h1&gt;
-
-&lt;p&gt;2021-10-01&lt;/p&gt;
-
-&lt;p&gt;I've been thinking about and talking with some friends about the form of my music recently. When I say form here, I am specifically thinking about the output: how is the work presented to a 'public' or community? I tend to construct a kind of semi-elaborate generative modular system, tinker with it til I love what's happening, then let it play and occasionally nudge it while it spools out ambient and experimental music in various ways. When I really enjoy what's happening I hit the record button on my external recorder. From there I listen back later and make selections, and arrange these in an order, come up with track titles and an album title, and select a photo for the cover. Then I 'release' it to Bandcamp without much ado. Additionally, I use my music as background for games, visual art, and interactive art that I make. And recently I have begun to perform live.&lt;/p&gt;
-
-&lt;p&gt;Recently I've had the hunch that an 'album' doesn't feel like exactly the right output for my sound work. It just captures a moment, but as the creator of the system, we crave surprise/evolution,  like creators of roguelike games.  This must also be why Brian Eno released an 'app' versions of some of his albums as well as generative sound-creation software with his collaborator Peter Chilvers for Opal Limited.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="images/exquisitecorpse.gif" alt="Cadavre Exquis with AndrÃ© Breton, Max Morise, Jeannette Ducrocq Tanguy, Pierre Naville, Benjamin PÃ©ret, Yves Tanguy, Jacques PrÃ©vert, 1928"&gt;
-&lt;figcaption&gt;Cadavre Exquis with AndrÃ© Breton, Max Morise, Jeannette Ducrocq Tanguy, Pierre Naville, Benjamin PÃ©ret, Yves Tanguy, Jacques PrÃ©vert, 1928&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;My performance/music name is ExquisiteCorp, a reference to the surrealist drawing game Cadavre Exquisite/Exquisite corpse, which I used to play as a sort of party game in high school and college with my friends. For those unfamiliar, everyone starts by folding a paper into thirds. Simultaneously, all participants draw a (absurd, unique) head  on the top third. After a period of time, everyone folds over this area of their paper so it's hidden and then passes to the next person. The next period draws the center body section without glancing at the top head section. After a while everyone folds over again and passes to another person who draws the bottom section / legs. After a period of time, all drawing ceases and we open the papers and share our drawings of exquisite corpses to the group.&lt;/p&gt;
-
-&lt;p&gt;I referenced this game because of my love for collage, musique concrete, merzbau, assemblage; all the forms of constructed collage in various media that I enjoy. This 'exquisite corpse' recipe I hoped would be an influence on the music and sound that I create.&lt;/p&gt;
-
-&lt;h3&gt;Other 'shapes' beyond albums&lt;/h3&gt;
-
-&lt;p&gt;What are other forms to 'present' and share this work? what are the other forms that exist or new forms that could develop?&lt;/p&gt;
-
-&lt;p&gt;Various examples of alternative forms for generative (and I'll say improvised) music:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Apps with playable versions of  systems and minimal / specific interface, like the above-mentioned Opal Limited apps like Bloom or Scape &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Game pieces like John Zorn's Cobra - A set of orally-transmitted instructions for a raucous live performance of a concert of improvisers playing with conductor. Various signs, hats, calls are used. The group works together to make music but there are adversarial positions the players can take as well. Various perforamnces have been recorded and released as concerts. &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Scores like Terry Riley's "In C", which features specific lines of music that can be repeated any number of times in a set order by any number of and type of musician in performance. There is a specific feeling and certain themes that can be heard in all renditions, but no two performances feel quite the same. They are performed live and often released as albums. &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;"Twitch plays...." like the modular synth setup on Twitch run by Perfect Circuit for a few weeks (?) last year&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Generative instruments like the Triadex Muse (I've written on this previously on the gemlog). It influenced Tom Whitwell of Music Thing Modular to create the first modular 'Turing machine' shift register, which has gone on to be an influential module for playing shifting music&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Generative 'simulations' artwork like Ian Cheng's Emissaries, Theo Trian's work, or the commissions for MIT Center for Art, Science and Technology's Generative Unfoldings exhibition&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Eluvium's "Shuffle Drones" album. Made up of all tracks less than a minute in length and designed to be played in any order in that they will all drone together as you shuffle randomly through them &lt;/li&gt;&lt;/ul&gt;
-
-&lt;blockquote&gt;Shuffle Drones is a new Eluvium album that is anywhere between 13 minutes and 13,000 hours long, depending on how (and how long) you choose to play it. Consisting of 23 vignettes of orchestral ambience, it is designed to be played on shuffle. There is no end, and no beginning. Each song flows seamlessly into the next, regardless of the order in which they are played. &lt;/blockquote&gt;
-&lt;blockquote&gt;Shuffle Drones is simultaneously intended for and in disruption of modern listening habits. In an era in which the way we listen can profoundly impact both what and how we listen, Shuffle Drones offers a unique and ever-changing path to listen.--Eluvium, 2017&lt;/blockquote&gt;
-
-&lt;h3&gt;What other output shapes could there be for sharing these music systems?&lt;/h3&gt;
-
-&lt;p&gt;These are some speculative ideas off the top of the head.&lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;Generative radio stations, perhaps with shared controls to 'nudge them' or tweak them further&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;More generative audiovisual works and simulations like the aforementioned Ian Cheng works and the like. Possibly featuring dialog, soundtrack, movements.  This area feels vastly underexplored to me.&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Generative creation of new 'genres' - i don't know what this would look/sound like. Possibly like the work of generative.fm but rather than the user selecting the track-style there would be a random transition between playing different algorithms.&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;More interfaces to allow collaborative tweaking/creation of generative sound systems between experimental musicians. Imagine working live on a collaborative Pure Data or VCVRack working over the net.&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Generative analog hybrid instruments. Scores written algorithmically. Humans perform them or electroacoustic physical computing platforms are controlled by the score, played by things like the Gamelatron instrument. &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;Video games where choices made by the player have a clear 1-to-1 influence over the generative systems creating the music such as instrument/sound selection, generated rhythms, tempo, etc.&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;These are just the start, and I think there could be many other forms for presenting generative music. What other forms could this take?&lt;/p&gt;
-
-&lt;h2&gt;References&lt;/h2&gt;
-
-&lt;h3&gt;Gemini links&lt;/h3&gt;
-&lt;p&gt;&lt;a href="triadex-muse.html"&gt;My tribute to the Triadex Muse&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="primitive-turing.html"&gt;A description of my custom Turing machine running on Monome Teletype&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3&gt;Web&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://www.moma.org/collection/terms/exquisite-corpse"&gt;Exquisite Corpse at MOMA&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.artic.edu/artworks/119118/exquisite-corpse"&gt;Exquisite Corpse by surrealists Man Ray, Andre Breton, Yves Tanguy, Max Morise&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://exquisitecorp.bandcamp.com/"&gt;ExquisiteCorp on Bandcamp&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://open.spotify.com/album/4YdNm9RDCbgeyDdgS6ecnN?si=056Aw50iQvqZfaKNJlg9yw&amp;amp;dl_branch=1"&gt;Eluvium - Shuffle Drones on Spotify&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://eluvium.bandcamp.com/album/shuffle-drones"&gt;Shuffle Drones on Bandcamp (you'll have to download and shuffle with your own software, or click play randomly)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://generative.fm"&gt;GenerativeFM, "ambient music generators that never end or repeat"&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://gamelatron.com/"&gt;Gamelatron sound-producing kinetic sculpture&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://120years.net/the-triadex-muse-edward-fredkin-marvin-minsky-usa-1971/"&gt;Triadex Muse history&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.till.com/muse/barbican/index.html"&gt;Triadex Muse: An Interactive Simulation (Javascript)&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://iancheng.com/emissaries"&gt;Ian Cheng's Emissaries&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://generative-unfoldings.mit.edu/"&gt;Generative Unfoldings online exhibition&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can leave a comment by emailing lettuce at this hosting domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/shape-generative-music.html</guid><pubDate>Sat, 02 Oct 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/you-cant-sit.html</guid><pubDate>Tue, 26 Oct 2021 00:00:00 GMT</pubDate></item></channel></rss>
