@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 29 May 2024 12:21:02 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 29 May 2024 18:14:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -2056,7 +2056,95 @@ iteration of an outer loop.&lt;/p&gt;
 on to the next iteration of the chunk loop, which is the &lt;code&gt;[7, 8, 9]&lt;/code&gt; chunk.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</guid><pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate></item><item><title>My Seatbelt Rule for Judgment</title><link>https://www.dannyguo.com/blog/my-seatbelt-rule-for-judgment</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</guid><pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Check if a JavaScript String Begins or Ends With a String</title><link>https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Check if a JavaScript String Begins or Ends With a String&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2022-04-07"&gt;
+                April 7, 2022
+            &lt;/time&gt;
+             · 
+            275 words  ·  ~2 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;To check if a JavaScript string begins with a particular string, use the
+&lt;code&gt;startsWith&lt;/code&gt; method.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"Foo"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"bar"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"Foobarbaz"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false (the check is case-sensitive)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"foo"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Similarly, to check if a JavaScript string ends with a particular string, use
+the &lt;code&gt;endsWith&lt;/code&gt; method.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;endsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"bar"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;endsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"baz"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false (the check is case-sensitive)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"BAR"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="advanced-usage"&gt;Advanced Usage&lt;a class="anchor" href="#advanced-usage"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;startsWith&lt;/code&gt; method takes an optional starting index as a second parameter.
+The index is &lt;a href="https://en.wikipedia.org/wiki/Zero-based_numbering"&gt;zero-based&lt;/a&gt;,
+so if you want to start the check at the fourth character in the string, you
+would pass in a value of 3.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"bar"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// this is equivalent&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"bar"&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;startsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"bar"&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;endsWith&lt;/code&gt; method takes an optional length as a second parameter. This
+limits the length of the string that you are searching.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;endsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"oo"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true because it's equivalent to "foo".endsWith("oo")&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;testString.&lt;/span&gt;&lt;span&gt;endsWith&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"oo"&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="alternatives"&gt;Alternatives&lt;a class="anchor" href="#alternatives"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;startsWith&lt;/code&gt; and &lt;code&gt;endsWith&lt;/code&gt; were part of the &lt;a href="https://en.wikipedia.org/wiki/ECMAScript#6th_Edition_%E2%80%93_ECMAScript_2015"&gt;ECMAScript
+2015&lt;/a&gt;
+specification, so all modern browsers &lt;a href="https://caniuse.com/mdn-javascript_builtins_string_startswith"&gt;support the
+methods&lt;/a&gt;. If you
+can’t use them for whatever reason, such as needing to support Internet
+Explorer, one option is to use a
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions"&gt;regex&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;To replicate &lt;code&gt;startsWith&lt;/code&gt;, you can use the &lt;code&gt;^&lt;/code&gt; character to match the beginning
+of the input.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt;^&lt;/span&gt;&lt;span&gt;foo/&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;test&lt;/span&gt;&lt;span&gt;(testString);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To replicate &lt;code&gt;endsWith&lt;/code&gt;, you can use the &lt;code&gt;$&lt;/code&gt; character to match the end
+of the input.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; testString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// evaluates to true&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;/bar&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;/&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;test&lt;/span&gt;&lt;span&gt;(testString);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Alternatively, you can use &lt;code&gt;lastIndexOf&lt;/code&gt; and &lt;code&gt;indexOf&lt;/code&gt; to replicate the methods,
+as &lt;a href="https://stackoverflow.com/a/36876507/1481479"&gt;detailed here&lt;/a&gt;.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</guid><pubDate>Thu, 07 Apr 2022 00:00:00 GMT</pubDate></item><item><title>My Seatbelt Rule for Judgment</title><link>https://www.dannyguo.com/blog/my-seatbelt-rule-for-judgment</link><description>&lt;article&gt;
         &lt;h1&gt;My Seatbelt Rule for Judgment&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
