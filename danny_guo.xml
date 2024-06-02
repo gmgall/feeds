@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sat, 01 Jun 2024 18:14:27 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sun, 02 Jun 2024 00:53:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -4524,7 +4524,131 @@ vents.&lt;/p&gt;
 &lt;a href="https://todoist.com"&gt;Todoist&lt;/a&gt; to remind me to clean my computers once a year.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/fixing-macbook-pro-thermal-performance-issues</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate></item><item><title>How to Keep Your JS Libraries Up to Date</title><link>https://blog.logrocket.com/how-to-keep-javascript-libraries-up-to-date/</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/fixing-macbook-pro-thermal-performance-issues</guid><pubDate>Sun, 02 Aug 2020 00:00:00 GMT</pubDate></item><item><title>Clearing Mac Storage Space</title><link>https://www.dannyguo.com/blog/clearing-mac-storage-space</link><description>&lt;article&gt;
+        &lt;h1&gt;Clearing Mac Storage Space&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2020-07-15"&gt;
+                July 15, 2020
+            &lt;/time&gt;
+             · 
+            742 words  ·  ~4 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;I recently needed to clear a large amount of space on my Mac’s hard drive in
+order to install Windows through &lt;a href="https://en.wikipedia.org/wiki/Boot_Camp_(software)"&gt;Boot
+Camp&lt;/a&gt;. After deleting files
+and applications, I still had large amounts of space taken up in ways that I
+didn’t understand. Here is what I did to fix the problem.&lt;/p&gt;
+&lt;h2 id="easy-methods"&gt;Easy Methods&lt;a class="anchor" href="#easy-methods"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The obvious thing to start with was deleting known files and applications. In
+particular, I removed some built-in macOS applications, like GarageBand, that I
+can always re-download from the Mac App Store.&lt;/p&gt;
+&lt;p&gt;I also cleared the trash. As a tip, you probably want to set it to
+&lt;a href="https://support.apple.com/guide/mac-help/delete-files-and-folders-on-mac-mchlp1093/mac"&gt;automatically delete items after 30
+days&lt;/a&gt;.
+I don’t understand why that’s considered an advanced feature in Finder when it
+seems like it should be the default setting. It &lt;a href="https://osxdaily.com/2017/02/10/automatically-empty-trash-mac/"&gt;wasn’t even an
+option&lt;/a&gt; until
+&lt;a href="https://en.wikipedia.org/wiki/MacOS_Sierra"&gt;Sierra&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Then I went into my Google Backup and Sync (for &lt;a href="https://www.google.com/drive/"&gt;Google
+Drive&lt;/a&gt;) settings and &lt;a href="https://www.remosoftware.com/info/how-to-configure-google-drive-sync-settings-to-sync-specific-folders-or-file-types"&gt;unsynced some
+folders&lt;/a&gt;
+that I don’t need to be available locally.&lt;/p&gt;
+&lt;h2 id="other-storage"&gt;Other Storage&lt;a class="anchor" href="#other-storage"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After those easy wins, I wanted to get a better idea of what was taking up
+space. macOS has a built in storage analyzer, but it’s pretty basic. The
+overview gives a rough breakdown.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/ZbajDJM.png" alt="macOS storage overview"&gt;&lt;/p&gt;
+&lt;p&gt;Clicking manage gives you a more detailed view.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/Jl509hi.png" alt="macOS storage management"&gt;&lt;/p&gt;
+&lt;p&gt;But note that “System” is greyed out! There’s no way to drill down into it to
+see what’s actually taking up space.&lt;/p&gt;
+&lt;p&gt;This was on &lt;a href="https://en.wikipedia.org/wiki/MacOS_Mojave"&gt;Mojave&lt;/a&gt;.  At least
+&lt;a href="https://www.apple.com/macos/catalina/"&gt;Catalina&lt;/a&gt; splits it up into “System” and
+“Other,” though you still can’t drill down into either.&lt;/p&gt;
+&lt;h2 id="disk-space-analysis-programs"&gt;Disk Space Analysis Programs&lt;a class="anchor" href="#disk-space-analysis-programs"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I’m familiar with using &lt;code&gt;du -sh&lt;/code&gt; in the terminal to show folder sizes, but I
+thought a GUI program might be better for this task. I looked into third party
+programs to find out what folders and files were taking up space. The first one
+I tried was &lt;a href="http://www.derlien.com/"&gt;Disk Inventory X&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;It was useful but took a while (around 10 minutes) to produce results.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/VW6aebM.png" alt="Disk Inventory X results"&gt;&lt;/p&gt;
+&lt;p&gt;I looked into alternatives. The most helpful resources were this &lt;a href="https://apple.stackexchange.com/q/81568/275342"&gt;Stack Exchange
+question&lt;/a&gt; and this
+&lt;a href="https://macpaw.com/how-to/best-disk-space-analyzers-mac"&gt;article&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I tried &lt;a href="https://www.omnigroup.com/more"&gt;OmniDiskSweeper&lt;/a&gt;. It doesn’t have a
+tree view like Disk Inventory X does, but I didn’t find that very useful anyway.
+OmniDiskSweeper was able to show results as they came, rather than all at once
+at the end.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/t9N8zcf.png" alt="OmniDiskSweeper results"&gt;&lt;/p&gt;
+&lt;p&gt;It doesn’t update in real time, so I did have to re-analyze the disk after
+deleting files.&lt;/p&gt;
+&lt;h2 id="docker"&gt;Docker&lt;a class="anchor" href="#docker"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first thing I noticed was Docker’s &lt;a href="https://docs.docker.com/docker-for-mac/space/"&gt;disk image
+file&lt;/a&gt;. Docker for Mac stores
+containers and images in that single, large file. I ran &lt;a href="https://docs.docker.com/engine/reference/commandline/system_prune/"&gt;docker system
+prune&lt;/a&gt; to
+delete unnecessary containers and images.&lt;/p&gt;
+&lt;p&gt;Then I decreased the size limit for the disk image file.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/FNrnAtf.png" alt="Docker disk image size"&gt;&lt;/p&gt;
+&lt;h2 id="spotify"&gt;Spotify&lt;a class="anchor" href="#spotify"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The biggest surprise to me was discovering that Spotify can take a large amount
+of space to cache files. Mine was over 6 GB. Even Firefox’s cache was only 2 GB.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/4oUnYL7.png" alt="Spotify cache size"&gt;&lt;/p&gt;
+&lt;p&gt;Furthermore, there doesn’t seem to be a way to control this cache size in
+Spotify settings, not even buried in some advanced settings. This setting &lt;a href="https://community.spotify.com/t5/Social/What-happened-to-the-cache-limit-setting-on-Mac-desktop-player/td-p/4658524"&gt;might
+have existed
+before&lt;/a&gt;,
+but it doesn’t now. Luckily, &lt;a href="https://community.spotify.com/t5/Desktop-Mac/How-to-limit-cache-size/td-p/2907725"&gt;someone
+discovered&lt;/a&gt;
+that you can set a limit manually by editing the Spotify preferences file at
+&lt;code&gt;~/Library/Application\ Support/Spotify/prefs&lt;/code&gt; and adding a line like
+&lt;code&gt;storage.size=2048&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;I set the limit to 2048 MB, restarted Spotify, and confirmed that the cache
+folder dropped to the expected size, saving me over 4 GB.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;du&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sh&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;~/Library/Caches/com.spotify.client/Data&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;6.4G&lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;Data&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# restart Spotify&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;du&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sh&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;~/Library/Caches/com.spotify.client/Data&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;2.0G&lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;Data&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="yarn"&gt;Yarn&lt;a class="anchor" href="#yarn"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href="https://yarnpkg.com/"&gt;Yarn&lt;/a&gt; seemed to have old cache folders.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;cd&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;~/Library/Caches/Yarn&lt;/span&gt;&lt;span&gt; &amp;amp;&amp;amp; &lt;/span&gt;&lt;span&gt;ls&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;v2&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;v4&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;v6&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;du&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;-sh&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;v2&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;v4&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;v6&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;0B&lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;v2&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1.2G&lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;v4&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1.2G&lt;/span&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;v6&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;yarn&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;cache&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;dir&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;/Users/dguo/Library/Caches/Yarn/v6&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I deleted the v2 and v4 folders. My cache is fairly small, but &lt;a href="https://github.com/yarnpkg/yarn/issues/6037"&gt;other
+people&lt;/a&gt; have ended up with gigantic
+caches.&lt;/p&gt;
+&lt;h2 id="git"&gt;Git&lt;a class="anchor" href="#git"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I found some &lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt; repositories that I didn’t need
+anymore. Deleting these saved around 1 GB in total. Git repos can take up a
+large amount of space since by default, they contain the entire history of a
+project. Though in my case, most of the space savings was due to deleting
+&lt;code&gt;node_modules&lt;/code&gt; with each one.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;For years, I’ve used &lt;a href="https://freemacsoft.net/appcleaner/"&gt;AppCleaner&lt;/a&gt; to
+uninstall applications because I knew most of them leave files behind if you
+only delete the application itself. This experience reminded me that when I
+install an application, I generally have no idea where it’s going to write files
+and how large they can get. It would be nice if operating systems could make it
+easier for users to be more in control of hard drive usage, instead of letting
+applications treat the hard drive like an unlimited resource.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/clearing-mac-storage-space</guid><pubDate>Wed, 15 Jul 2020 00:00:00 GMT</pubDate></item><item><title>How to Keep Your JS Libraries Up to Date</title><link>https://blog.logrocket.com/how-to-keep-javascript-libraries-up-to-date/</link><description>&lt;article&gt;
         &lt;h1&gt;How to Keep Your JS Libraries Up to Date&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
