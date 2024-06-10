@@ -4,9 +4,45 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Jun 2024 00:52:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Jun 2024 06:17:30 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Aura by Hocus Pocus</title>
+      <link>https://untappd.com/user/gmgall/checkin/1388713033</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/aura-hocus-pocus/4865813"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4865813_17fe1_sm.jpeg" alt="Aura label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/aura-hocus-pocus/4865813"&gt;Aura&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/Hocus_Pocus"&gt;Hocus Pocus&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1388713033"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 17)"&gt;
+&lt;span&gt;Earned the 99 Bottles (Level 17) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1388713033</guid>
+      <pubDate>Mon, 10 Jun 2024 01:01:38 GMT</pubDate>
+    </item>
     <item>
       <title>Australian IPA by Sampler Brew House</title>
       <link>https://untappd.com/user/gmgall/checkin/1380374961</link>
@@ -152,42 +188,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376240114</guid>
       <pubDate>Sun, 28 Apr 2024 19:38:46 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pilsen Läut by Läut Beer</title>
-      <link>https://untappd.com/user/gmgall/checkin/1376218586</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/pilsen-laut-laut-beer/2036265"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2036265_0f199_sm.jpeg" alt="Pilsen Läut label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/pilsen-laut-laut-beer/2036265"&gt;Pilsen Läut&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/LautBeer"&gt;Läut Beer&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1376218586"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_HoppedDown_sm.jpg" alt="Hopped Down (Level 13)"&gt;
-&lt;span&gt;Earned the Hopped Down (Level 13) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376218586</guid>
-      <pubDate>Sun, 28 Apr 2024 18:52:29 GMT</pubDate>
     </item>
   </channel>
 </rss>
