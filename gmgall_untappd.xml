@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Jun 2024 18:15:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Jun 2024 00:50:34 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>APA Cadabra by Hocus Pocus</title>
+      <link>https://untappd.com/user/gmgall/checkin/1388812542</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/apa-cadabra-hocus-pocus/695612"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-695612_cfacc_sm.jpeg" alt="APA Cadabra label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/apa-cadabra-hocus-pocus/695612"&gt;APA Cadabra&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/Hocus_Pocus"&gt;Hocus Pocus&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1388812542"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1388812542</guid>
+      <pubDate>Mon, 10 Jun 2024 19:57:07 GMT</pubDate>
+    </item>
     <item>
       <title>Aura by Hocus Pocus</title>
       <link>https://untappd.com/user/gmgall/checkin/1388713033</link>
@@ -152,42 +182,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376244119</guid>
       <pubDate>Sun, 28 Apr 2024 19:47:37 GMT</pubDate>
-    </item>
-    <item>
-      <title>Capitão Senra Session IPA by Três Lobos (Cervejaria Backer)</title>
-      <link>https://untappd.com/user/gmgall/checkin/1376240114</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/capitao-senra-session-ipa-tres-lobos-cervejaria-backer/4800805"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Capitão Senra Session IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/capitao-senra-session-ipa-tres-lobos-cervejaria-backer/4800805"&gt;Capitão Senra Session IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/cervejariabacker"&gt;Três Lobos (Cervejaria Backer)&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1376240114"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-50"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 16)"&gt;
-&lt;span&gt;Earned the I Believe in IPA! (Level 16) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376240114</guid>
-      <pubDate>Sun, 28 Apr 2024 19:38:46 GMT</pubDate>
     </item>
   </channel>
 </rss>
