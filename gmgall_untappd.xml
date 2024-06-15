@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Jun 2024 00:50:03 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Jun 2024 06:14:32 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Session IPA by Cervejaria Odin</title>
+      <link>https://untappd.com/user/gmgall/checkin/1389899503</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/session-ipa-cervejaria-odin/5417454"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Session IPA label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/session-ipa-cervejaria-odin/5417454"&gt;Session IPA&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1389899503"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1389899503</guid>
+      <pubDate>Sat, 15 Jun 2024 02:53:00 GMT</pubDate>
+    </item>
     <item>
       <title>APA Cadabra by Hocus Pocus</title>
       <link>https://untappd.com/user/gmgall/checkin/1388812542</link>
@@ -142,46 +172,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376255644</guid>
       <pubDate>Sun, 28 Apr 2024 20:13:29 GMT</pubDate>
-    </item>
-    <item>
-      <title>Session IPA by Cervejaria Capapreta</title>
-      <link>https://untappd.com/user/gmgall/checkin/1376244119</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/session-ipa-cervejaria-capapreta/4668816"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Session IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/session-ipa-cervejaria-capapreta/4668816"&gt;Session IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/Capapreta"&gt;Cervejaria Capapreta&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1376244119"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/draft@3x.png" alt="Draft"&gt;
-&lt;span&gt;Draft &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;div class="badges-unlocked"&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_brewery_prioneer_sm.jpg" alt="Brewery Pioneer (Level 18)"&gt;
-&lt;span&gt;Earned the Brewery Pioneer (Level 18) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;span class="badge"&gt;
-&lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba  (Level 41)"&gt;
-&lt;span&gt;Earned the Suds Samba (Level 41) badge!&lt;/span&gt;
-&lt;/span&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1376244119</guid>
-      <pubDate>Sun, 28 Apr 2024 19:47:37 GMT</pubDate>
     </item>
   </channel>
 </rss>
