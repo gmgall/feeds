@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Mon, 24 Jun 2024 00:53:08 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Mon, 24 Jun 2024 06:16:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -3737,7 +3737,408 @@ index 1&lt;/a&gt;.&lt;/p&gt;
 &lt;span class="line"&gt;&lt;span&gt;end&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-concatenate-strings-in-lua</guid><pubDate>Mon, 28 Dec 2020 00:00:00 GMT</pubDate></item><item><title>BEBEN X8 Review</title><link>https://www.dannyguo.com/blog/beben-x8-review</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-concatenate-strings-in-lua</guid><pubDate>Mon, 28 Dec 2020 00:00:00 GMT</pubDate></item><item><title>How to Improve Interface Responsiveness With Web Workers</title><link>https://blog.logrocket.com/how-to-improve-interface-responsiveness-with-web-workers/</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Improve Interface Responsiveness With Web Workers&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2020-10-21"&gt;
+                October 21, 2020
+            &lt;/time&gt;
+             · 
+            1,497 words  ·  ~8 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;&lt;em&gt;This post was originally written for the &lt;a href="https://blog.logrocket.com/how-to-improve-interface-responsiveness-with-web-workers/"&gt;LogRocket
+blog&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;JavaScript is &lt;a href="https://en.wikipedia.org/wiki/Thread_(computing)#Single_threading"&gt;single
+threaded&lt;/a&gt;, so
+any JavaScript that runs also stops web pages from being responsive. This isn’t
+a problem in many cases because the code runs quickly enough that any UI stutter
+is effectively imperceptible by the user. However, it can become a significant
+problem if the code is computationally expensive or if the user’s hardware is
+underpowered.&lt;/p&gt;
+&lt;h2 id="web-workers"&gt;Web Workers&lt;a class="anchor" href="#web-workers"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One way to mitigate the problem is to avoid putting so much work on the main
+thread by offloading work onto background threads. Other platforms, like
+&lt;a href="https://developer.android.com/guide/components/processes-and-threads"&gt;Android&lt;/a&gt;
+and
+&lt;a href="https://developer.apple.com/documentation/xcode/improving_your_app_s_performance/improving_app_responsiveness"&gt;iOS&lt;/a&gt;,
+stress making the main thread deal with as little non-UI work as possible.&lt;/p&gt;
+&lt;p&gt;The &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API"&gt;Web Workers
+API&lt;/a&gt; is the
+web equivalent of Android and iOS background threads. &lt;a href="https://caniuse.com/#feat=webworkers"&gt;Over
+97%&lt;/a&gt; of browsers support workers.&lt;/p&gt;
+&lt;h2 id="demo"&gt;Demo&lt;a class="anchor" href="#demo"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let’s create a demo to demonstrate the problem and solution. You can also view
+the final result &lt;a href="https://www.dannyguo.com/web-worker-demo"&gt;here&lt;/a&gt; and the source
+code on &lt;a href="https://github.com/dguo/web-worker-demo"&gt;GitHub&lt;/a&gt;. We’ll start with a
+bare bones &lt;code&gt;index.html&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;!&lt;/span&gt;&lt;span&gt;DOCTYPE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;lang&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"en"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;charset&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"utf-8"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"viewport"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;content&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"width=device-width, initial-scale=1.0"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;Web Worker Demo&amp;lt;/&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;script&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;src&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"./index.js"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;async&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;script&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;The current time is: &amp;lt;&lt;/span&gt;&lt;span&gt;span&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"time"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;span&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, we’ll add &lt;code&gt;index.js&lt;/code&gt; to continuously update the time and display it like
+&lt;code&gt;21:45:08.345&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// So that the hour, minute, and second are always two digits each&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;padTime&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;number&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;?&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"0"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt; number;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;getTime&lt;/span&gt;&lt;span&gt;() {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; now &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Date&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padTime&lt;/span&gt;&lt;span&gt;(now.&lt;/span&gt;&lt;span&gt;getHours&lt;/span&gt;&lt;span&gt;()) &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;":"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padTime&lt;/span&gt;&lt;span&gt;(now.&lt;/span&gt;&lt;span&gt;getMinutes&lt;/span&gt;&lt;span&gt;()) &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;":"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padTime&lt;/span&gt;&lt;span&gt;(now.&lt;/span&gt;&lt;span&gt;getSeconds&lt;/span&gt;&lt;span&gt;()) &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"."&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    now.&lt;/span&gt;&lt;span&gt;getMilliseconds&lt;/span&gt;&lt;span&gt;()&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  );&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;setInterval&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"time"&lt;/span&gt;&lt;span&gt;).innerText &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;getTime&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}, &lt;/span&gt;&lt;span&gt;50&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;By setting the interval to the value of 50 milliseconds, we’ll see the time
+update very quickly.&lt;/p&gt;
+&lt;video&gt;
+    &lt;source src="https://i.imgur.com/WbgtgYL.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
+&lt;/source&gt;&lt;/video&gt;
+&lt;h3 id="setting-up-a-server"&gt;Setting up a Server&lt;a class="anchor" href="#setting-up-a-server"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Next, we’ll start a Node.js project with either &lt;code&gt;npm init&lt;/code&gt; or &lt;code&gt;yarn init&lt;/code&gt; and
+install &lt;a href="https://parceljs.org/"&gt;Parcel&lt;/a&gt;. The first reason we want to use Parcel
+is that &lt;a href="https://parceljs.org/"&gt;in Chrome, workers need to be served&lt;/a&gt; rather
+than loaded from a local file. So when we add a worker later, we wouldn’t be
+able to just open &lt;code&gt;index.html&lt;/code&gt; if we’re using Chrome. The second reason is that
+Parcel has built-in web worker support that requires no configuration for our
+demo. Other bundlers like &lt;a href="https://webpack.js.org/"&gt;Webpack&lt;/a&gt; would require &lt;a href="https://webpack.js.org/loaders/worker-loader/"&gt;more
+setup&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I suggest adding a start command to &lt;code&gt;package.json&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;{&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;"scripts"&lt;/span&gt;&lt;span&gt;: {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;"start"&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;"parcel serve index.html --open"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This will let you run &lt;code&gt;npm start&lt;/code&gt; or &lt;code&gt;yarn start&lt;/code&gt; to build the files, start a
+server, open the page in your browser, and automatically update the page when
+you change the source files.&lt;/p&gt;
+&lt;h3 id="image-q"&gt;Image-q&lt;a class="anchor" href="#image-q"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Now let’s add something that’s computationally expensive. We’ll install
+&lt;a href="https://github.com/ibezkrovnyi/image-quantization"&gt;image-q&lt;/a&gt;, an image
+&lt;a href="https://en.wikipedia.org/wiki/Color_quantization"&gt;quantization&lt;/a&gt; library that
+we’ll use to calculate the main colors of a given image, creating a color
+palette from the image. Here’s an example.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/wnE6IsO.jpg" alt="color palette example"&gt;&lt;/p&gt;
+&lt;p&gt;Let’s update the &lt;code&gt;body&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"center"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;The current time is: &amp;lt;&lt;/span&gt;&lt;span&gt;span&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"time"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;span&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"image-url-form"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &amp;lt;&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"image-url"&lt;/span&gt;&lt;span&gt;&amp;gt;Direct image URL&amp;lt;/&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &amp;lt;&lt;/span&gt;&lt;span&gt;input&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"url"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"url"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;value&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"https://upload.wikimedia.org/wikipedia/commons/1/1f/Grapsus_grapsus_Galapagos_Islands.jpg"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &amp;lt;&lt;/span&gt;&lt;span&gt;input&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"submit"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;value&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"Generate Color Palette"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"error-message"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;/&lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"loader-wrapper"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"center"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"loader"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"colors-wrapper"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"center"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color-0"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color-1"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color-2"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color-3"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"color"&lt;/span&gt;&lt;span&gt;&amp;gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;div&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;class&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"center"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"image-link"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;target&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"_blank"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;img&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;id&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"image"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;crossorigin&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"anonymous"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &amp;lt;/&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So we’re adding a form that takes a direct link to an image. Then we have a
+loader to display a spinning animation during processing. We’ll adapt &lt;a href="https://codepen.io/mandelid/pen/vwKoe"&gt;this
+CodePen&lt;/a&gt; to implement it. We also have
+four divs that we’ll use to display the color palette. Finally, we’ll display
+the image itself.&lt;/p&gt;
+&lt;p&gt;Add some inline styles to the &lt;code&gt;head&lt;/code&gt;. This includes a &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations"&gt;CSS
+animation&lt;/a&gt;
+for the spinning loader.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;style&lt;/span&gt;&lt;span&gt; type="text/css"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;.center&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;block&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;auto&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;max-width&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;max-content&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-top&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;25&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-bottom&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;25&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;input&lt;/span&gt;&lt;span&gt;[&lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"url"&lt;/span&gt;&lt;span&gt;] {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;block&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padding&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;width&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;320&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;form&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-top&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;#error-message&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;none&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#f5e4e4&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#b22222&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;border-radius&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-top&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padding&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;.color&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;width&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;80&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;height&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;80&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;inline-block&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;img&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;max-width&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;90&lt;/span&gt;&lt;span&gt;vw&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;max-height&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;500&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-top&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;25&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;#image-link&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;none&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;#loader-wrapper&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;none&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;#loader&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;width&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;50&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;height&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;50&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;border&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;solid&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;#d3d3d3&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;border-radius&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;50&lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;border-top-color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;green&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;animation&lt;/span&gt;&lt;span&gt;: spin &lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ease-in-out&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;infinite&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;-webkit-animation&lt;/span&gt;&lt;span&gt;: spin &lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;ease-in-out&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;infinite&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;@keyframes&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;spin&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    to {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;-webkit-transform&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;rotate&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;360&lt;/span&gt;&lt;span&gt;deg&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;@-webkit-keyframes&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;spin&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    to {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;-webkit-transform&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;rotate&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;360&lt;/span&gt;&lt;span&gt;deg&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;#error-message&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;display&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;none&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#f5e4e4&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;color&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;#b22222&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;border-radius&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;margin-top&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;padding&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;10&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;style&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Update &lt;code&gt;index.js&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;as&lt;/span&gt;&lt;span&gt; iq &lt;/span&gt;&lt;span&gt;from&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"image-q"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// Previous code for updating the time&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;setPalette&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;points&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  points.&lt;/span&gt;&lt;span&gt;forEach&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;point&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;index&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"color-"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; index).style.backgroundColor &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;"rgb("&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; point.r &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;","&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; point.g &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;","&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; point.b &lt;/span&gt;&lt;span&gt;+&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;")"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"loader-wrapper"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"colors-wrapper"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"block"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image-link"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"block"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;handleError&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;message&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; errorMessage &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"error-message"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  errorMessage.innerText &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; message;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  errorMessage.style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"block"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"loader-wrapper"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image-link"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;document&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  .&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image-url-form"&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  .&lt;/span&gt;&lt;span&gt;addEventListener&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"submit"&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;event&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    event.&lt;/span&gt;&lt;span&gt;preventDefault&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; url &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; event.target.elements.url.value;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; image &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    image.&lt;/span&gt;&lt;span&gt;onload&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image-link"&lt;/span&gt;&lt;span&gt;).href &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; url;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; canvas &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; document.&lt;/span&gt;&lt;span&gt;createElement&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"canvas"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      canvas.width &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; image.naturalWidth;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      canvas.height &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; image.naturalHeight;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; context &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; canvas.&lt;/span&gt;&lt;span&gt;getContext&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"2d"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      context.&lt;/span&gt;&lt;span&gt;drawImage&lt;/span&gt;&lt;span&gt;(image, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; imageData &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; context.&lt;/span&gt;&lt;span&gt;getImageData&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        image.naturalWidth,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        image.naturalHeight&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      );&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; pointContainer &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; iq.utils.PointContainer.&lt;/span&gt;&lt;span&gt;fromImageData&lt;/span&gt;&lt;span&gt;(imageData);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; palette &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; iq.&lt;/span&gt;&lt;span&gt;buildPaletteSync&lt;/span&gt;&lt;span&gt;([pointContainer], { colors: &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt; });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; points &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; palette._pointArray;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;setPalette&lt;/span&gt;&lt;span&gt;(points);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    };&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    image.&lt;/span&gt;&lt;span&gt;onerror&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; () {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;      &lt;/span&gt;&lt;span&gt;handleError&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"The image failed to load. Please double check the URL."&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    };&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"error-message"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"loader-wrapper"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"block"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"colors-wrapper"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"image-link"&lt;/span&gt;&lt;span&gt;).style.display &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"none"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    image.src &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; url;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  });&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The &lt;code&gt;setPalette&lt;/code&gt; function sets the background colors of the color divs in order
+to display the palette. We also have a &lt;code&gt;handleError&lt;/code&gt; function in case the image
+fails to load.&lt;/p&gt;
+&lt;p&gt;Then we listen for form submissions. Whenever we get a new submission, we set
+the image element’s &lt;code&gt;onload&lt;/code&gt; function to extract the image data in a format that
+is suitable for &lt;code&gt;image-q&lt;/code&gt;. So we &lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API"&gt;draw the image in a
+canvas&lt;/a&gt; so that we
+can retrieve an
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/ImageData"&gt;ImageData&lt;/a&gt; object.&lt;/p&gt;
+&lt;p&gt;We pass that object to &lt;code&gt;image-q&lt;/code&gt;, and we call &lt;code&gt;iq.buildPaletteSync&lt;/code&gt;, which is
+the computationally expensive part. It returns four colors, which we pass to
+&lt;code&gt;setPalette&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;We also hide and unhide elements as appropriate.&lt;/p&gt;
+&lt;h3 id="the-problem"&gt;The Problem&lt;a class="anchor" href="#the-problem"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Try generating a color palette. Notice that while &lt;code&gt;image-q&lt;/code&gt; is processing, the
+time stops updating. If you try to click into the URL input, the UI also won’t
+respond. However, the spinning animation might still work. The explanation is
+that it’s possible for CSS animations to be handled by a &lt;a href="https://www.viget.com/articles/animation-performance-101-browser-under-the-hood/"&gt;separate compositor
+thread
+instead&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Here’s what it looks like.&lt;/p&gt;
+&lt;video&gt;
+    &lt;source src="https://i.imgur.com/HmJ95LY.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
+&lt;/source&gt;&lt;/video&gt;
+&lt;p&gt;On Firefox, the browser eventually displays a warning that a web page is slowing
+down your browser.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/ac5EAOu.png" alt="Firefox warning"&gt;&lt;/p&gt;
+&lt;p&gt;If you have a fast computer, the problem may not be as obvious because your CPU
+can churn through the work quickly. To simulate a slower device, you can use
+Chrome, which has a developer tools setting to throttle the CPU. Open the
+performance tab and then its settings to reveal the option.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/qZuJmYw.png" alt="Chrome CPU throttling option"&gt;&lt;/p&gt;
+&lt;h3 id="adding-a-worker"&gt;Adding a Worker&lt;a class="anchor" href="#adding-a-worker"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;To fix the unresponsive UI, let’s use a worker. First we’ll add a checkbox to
+the form to indicate if the site should use the worker or not. Add this HTML
+before the submission input.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;input&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"checkbox"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"worker"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"worker"&lt;/span&gt;&lt;span&gt;&amp;gt; Use worker&amp;lt;/&lt;/span&gt;&lt;span&gt;label&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;br&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, we’ll set up the worker in &lt;code&gt;index.js&lt;/code&gt;. Even though there is widespread
+browser support for workers, let’s add a feature detection check with &lt;code&gt;if (window.Worker)&lt;/code&gt; just in case.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; worker;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (window.Worker) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  worker &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Worker&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"worker.js"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  worker.&lt;/span&gt;&lt;span&gt;onmessage&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;message&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;setPalette&lt;/span&gt;&lt;span&gt;(message.data.points);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  };&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker/onmessage"&gt;onmessage&lt;/a&gt;
+method is how we’ll receive data from the worker.&lt;/p&gt;
+&lt;p&gt;Then we’ll change the image &lt;code&gt;onload&lt;/code&gt; handler to use the worker when the checkbox
+is checked.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// From before&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; imageData &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; context.&lt;/span&gt;&lt;span&gt;getImageData&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    image.naturalWidth,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    image.naturalHeight&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (event.target.elements.worker.checked) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (worker) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        worker.&lt;/span&gt;&lt;span&gt;postMessage&lt;/span&gt;&lt;span&gt;({ imageData });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    } &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;handleError&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"Your browser doesn't support Web Workers."&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;return&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// From before&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; pointContainer &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; iq.utils.PointContainer.&lt;/span&gt;&lt;span&gt;fromImageData&lt;/span&gt;&lt;span&gt;(imageData);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The worker’s
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Worker/postMessage"&gt;postMessage&lt;/a&gt;
+method is how we send data to the worker.&lt;/p&gt;
+&lt;p&gt;Lastly, we need to create the worker itself in &lt;code&gt;worker.js&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;import&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;*&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;as&lt;/span&gt;&lt;span&gt; iq &lt;/span&gt;&lt;span&gt;from&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"image-q"&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;onmessage&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;function&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;e&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; pointContainer &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; iq.utils.PointContainer.&lt;/span&gt;&lt;span&gt;fromImageData&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    e.data.imageData&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  );&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; palette &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; iq.&lt;/span&gt;&lt;span&gt;buildPaletteSync&lt;/span&gt;&lt;span&gt;([pointContainer], { colors: &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt; });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;postMessage&lt;/span&gt;&lt;span&gt;({ points: palette._pointArray });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;};&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that we’re still using &lt;code&gt;onmessage&lt;/code&gt; and &lt;code&gt;postMessage&lt;/code&gt;, but now &lt;code&gt;onmessage&lt;/code&gt;
+receives a message from &lt;code&gt;index.js&lt;/code&gt;, and &lt;code&gt;postMessage&lt;/code&gt; sends a message to
+&lt;code&gt;index.js&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Try generating a palette with the worker, and you should see that the time keeps
+updating during the processing. The form also remains interactive instead of
+freezing. Here’s what it should look like.&lt;/p&gt;
+&lt;video&gt;
+    &lt;source src="https://i.imgur.com/EER1Snx.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
+&lt;/source&gt;&lt;/video&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Web workers are an effective way to make websites feel more responsive,
+especially when the website is more like an application rather than a display of
+mostly static data. As we’ve seen, setting up a worker can also be fairly
+straightforward, so identifying CPU-intensive code and moving it to a worker can
+be an easy win.&lt;/p&gt;
+&lt;p&gt;Workers do have restrictions, the main one being that they don’t have access to
+the
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model"&gt;DOM&lt;/a&gt;.
+The general mindset should be to try to let the main thread focus on the UI as
+much as possible, including updating the DOM, while moving expensive work to
+workers. By doing this when it makes sense, you can give your users an interface
+that doesn’t freeze and is consistently enjoyable to use.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-improve-interface-responsiveness-with-web-workers</guid><pubDate>Wed, 21 Oct 2020 00:00:00 GMT</pubDate></item><item><title>BEBEN X8 Review</title><link>https://www.dannyguo.com/blog/beben-x8-review</link><description>&lt;article&gt;
         &lt;h1&gt;BEBEN X8 Review&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
