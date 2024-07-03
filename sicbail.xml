@@ -1,13 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml</title><link>https://ctrl-c.club/~sicbail/</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 03 Jul 2024 12:22:07 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
+<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml</title><link>https://ctrl-c.club/~sicbail/</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 03 Jul 2024 18:15:19 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: HTTPSConnectionPool(host='ctrl-c.club', port=443): Max retries e</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/postits/.*.html --follow --with-body https://ctrl-c.club/~sicbail/ --title ~sicbail posts on ctrl-c.club --encoding utf-8 -o ./feeds/sicbail.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; HTTPSConnectionPool(host='ctrl-c.club', port=443): Max retries exceeded with url: /~sicbail/ (Caused by NewConnectionError('&lt;urllib3.connection.HTTPSConnection object at 0x7f108457afb0&gt;: Failed to establish a new connection: [Errno 111] Connection refused'))&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    raise err
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/connection.py", line 73, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: &lt;urllib3.connection.HTTPSConnection object at 0x7f108457afb0&gt;: Failed to establish a new connection: [Errno 111] Connection refused
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='ctrl-c.club', port=443): Max retries exceeded with url: /~sicbail/ (Caused by NewConnectionError('&lt;urllib3.connection.HTTPSConnection object at 0x7f108457afb0&gt;: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
     make_feed(args)
   File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
     req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 813, in get_start_page
+    page_content, req = do_session_http_get(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 635, in do_session_http_get
+    req = session.get(url, timeout=timeout, stream=True)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='ctrl-c.club', port=443): Max retries exceeded with url: /~sicbail/ (Caused by NewConnectionError('&lt;urllib3.connection.HTTPSConnection object at 0x7f108457afb0&gt;: Failed to establish a new connection: [Errno 111] Connection refused'))
 
 &lt;/pre&gt;</description></item></channel></rss>
