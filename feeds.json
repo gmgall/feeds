@@ -12,9 +12,9 @@
     "feed": "https://gmgall.github.io/feeds/Triz3n.xml"
   },
   {
-    "title": "ACONTECE EM PETRÓPOLIS – O seu portal de notícias",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml",
     "link": "https://www.aconteceempetropolis.com.br/",
-    "description": "ACONTECE EM PETRÓPOLIS – O seu portal de notícias",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/acontece_em_petropolis.xml"
   },
   {
