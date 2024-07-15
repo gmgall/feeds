@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 15 Jul 2024 12:22:12 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 15 Jul 2024 18:16:01 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -3103,50 +3103,4 @@ RULES
 
 &lt;p&gt;You can comment by sending an email to lettuce at the current domain.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/how-to.html</guid><pubDate>Sat, 11 Dec 2021 00:00:00 GMT</pubDate></item><item><title>learning-to-code.html</title><link>https://ctrl-c.club/~lettuce/learning-to-code.html</link><description>&lt;div&gt;&lt;h1&gt;How I eventually learned to code&lt;/h1&gt;
-
-&lt;p&gt;2021-11-30&lt;/p&gt;
-
-&lt;p&gt;I'm not a professional programmer. I use it to make art, procedural generation, games, small utilities for myself, personal automation scripts, websites, social software projects. I also teach programming. &lt;/p&gt;
-
-&lt;p&gt;Here's my journey to learn to program:&lt;/p&gt;
-
-&lt;p&gt;LOGO - as a kid I did not know anyone, child or adult that programmed. I did not have a computer and there wasn't one in my school. But I was interested. I got a book from the library about LOGO. I read that book even though I couldn't play with the language without a computer. I think my school got a computer when I was in 4th or 5th grade and it did not have LOGO installed. I only remember Number Munchers (early 90s). But reading about LOGO began to teach me computational thinking in my head. I was also into Chess as a kid, building chess sets. I remember drawing a connection between the movements of chess pieces to the idea of moving in a grid of coordinates in LOGO.&lt;/p&gt;
-
-&lt;p&gt;Forth - I also got a book from the library on Forth. I was likely around 12 years old or so. My mom was going to college and we got a home computer, a Macintosh. I had no idea how to find the Forth language or get it installed on my family's Apple Macintosh home computer since it wasn't available as a box for sale at the computer store, which had limited and expensive Macintosh software for sale in shiny boxes. I found one of those shareware CD-Roms with hundreds of games at the store, and it was for Mac! WOOHOO! This was incredible. My sister and I played these all the time. So many wonderful memories of exploring these weird games. There was a 'robot' fighting game (these simple colored circles) that you could write scripts for and have them 'battle'. Again, these were like simple circles that would battle each other in a top-down view. This was a Forth-like language as I remember. I struggled and could get only a basic robot script to work. If anyone knows this game or things like it, please email me and let me know! Would love to revisit. Would have been mid-90s.&lt;/p&gt;
-
-&lt;p&gt;FutureBasic - I read about BASIC online. It sounded like a good beginner language. Since I had a Mac I could only find FutureBasic for Mac available at the store. It was expensive, $40. My mom bought it for me for my birthday or Hannukah gift. I couldn't figure out how it worked. It had an IDE, which I didn't understand, and no introduction, and it worked completely unlike the 80s books on BASIC that I found at the library. My mom asked a friend's son to help me. He had some programming experience I think, maybe VisualBasic for PC, but he couldn't figure it out either.&lt;/p&gt;
-
-&lt;p&gt;Pascal - I took a computer science class in high school taught by someone that I do not know if she could code. I think she was a substitute teacher. She had a workbook of sorts but I did not learn anything. I played Snood and similar games instead.&lt;/p&gt;
-
-&lt;p&gt;So far this had all been a failure. I didn't learn to code, didn't know how to learn, and decided to do art, music, sociology, writing, biking. That consumed most of my life for a long time, over a decade.&lt;/p&gt;
-
-&lt;p&gt;Python - Well after college, almost 10 years later, I wanted to try to code. I visited the FreeCodeCamp website and did tutorials. I learned about variables and maybe a few things like loops or conditionals. I found the Turtle module and made LOGO-like mini little tests. But I found Python boring. Or at least the tutorials I was reading. It had me compute various things like number of days, prices of things, text calculator app, etc. Ugh. I moved on.&lt;/p&gt;
-
-&lt;p&gt;Note: links here are all http&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://docs.python.org/3/library/turtle.html"&gt;Python Turtle Graphics&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Scratch - I read Rise of the Videogame Zinesters by Anna Anthropy. I was inspired and wanted to make weird games. She describes no-code tools and I was excited to try them. She also described code-lite (not a real term I don't think, just using it) engines and tools, including MIT's Scratch. I had read about the Lego Mindstorms system, which allowed you to build and code with LOGO, developed at MIT's Media Lab, but my family couldn't afford it. I really longed to try it. But I learned that MIT had transitioned over time to working on Scratch. I made some games with Scratch, a children's drag and drop lego-like language to make interactive projects. It worked as a desktop app (Flash) and later online in Javascript. I made simple and strange games and diversions. I also tried out Puzzlescript, which is a minimal engine to build puzzle games, and other tools by Increpare like Flickgame. I was drawn to the strange and supportive community of Glorious Trainwrecks, a website for other misfits building games in 2 hours or less, with all kinds of hacky, jokey, strange, experimental results. I met great and supportive weirdos in the forum on that site. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://en.wikipedia.org/wiki/Lego_Mindstorms"&gt;Lego Mindstorms&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.glorioustrainwrecks.com/"&gt;Glorious Trainwrecks&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.flickgame.org/"&gt;Flickgame&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.increpare.com/"&gt;Increpare games&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://scratch.mit.edu/"&gt;Scratch&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Processing - On some nerd blog, maybe something like BoingBoing I read about Processing and learned there was an experimental intro workshop being taught by one of its co-creators Casey Reas. Although the workshop was taught in another country, the workshop materials were online for download. It sounded exciting. In the workshop, participants, who had no previous coding experience, were given the code of a clone of the 80s game Breakout, and then told to try changing things to see how that would make new forms. In essence it was breaking and hacking the code of this game to make experimental visual art. They published example images and gifs. I downloaded Processing and the starter code and figured out how to get it to load. Then without understanding any of the code I tried changing numbers, deleting random lines of code (I really did not understand much) and got sizes to change, colors, new number of balls, angles of bounces, etc. It did produce some wild and strange stuff. I was interested! Should I try to learn this?&lt;/p&gt;
-
-&lt;p&gt;I went online and bought a copy of the Learning Processing book from Daniel Shiffman. It arrived. I started reading the book and trying it out on my computer. I learned variables, functions, loops, conditionals. I made very simple frogger-like games. Later, I attended one of the first iterations of the School for Poetic Computation and did a 2 week workshop program, meeting other artist-programmers. It was eye-opening. Afterwards, I was excited and was working at a hackerspace in my home city. I kept learning, and started teaching. I became interested in Bash because I got a Raspberry Pi and I started to learn about Linux. I taught some intro workshops in Processing and Bash. I started to learn about Arduino. I was having fun.&lt;/p&gt;
-
-&lt;p&gt;p5.js - I went through grad school, did more coding, and was a TA and eventually started teaching. At this point I had to finally learn object-oriented programming, which had tripped me up previously. Teaching meant that I had to learn myself, and I learned so much while trying to help students. Things started to become more intuitive and I was having lots of fun. I was doing code sketching and making installations and games. I started to learn Unity as well, though I did not find it as intuitive.&lt;/p&gt;
-
-&lt;p&gt;I can fast forward a few years from there. I'm still teaching, full time, and love learning too. I've been delving into lots of languages, subject of a future post. For a while I concentrated solely on Javascript, as I'm interested in presenting my work on the web, so I put a few years primarily into mastering that. But I've since branched out to many other languages like Lua, C#, a little Forth, some Python for machine learning. I love constantly learning and challenging myself and teaching others. It took me forever to learn to code, but I don't regret it, I just wish I'd found another entry point even earlier. If anything, I'm glad I felt encouraged to become an artist, writer and musician. I think you can learn to program at any age, and it's best if you have other skills and interests as you can bring that to your programming interest (and be a more 'whole' person, if you will).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/learning-to-code.html</guid><pubDate>Tue, 30 Nov 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/how-to.html</guid><pubDate>Sat, 11 Dec 2021 00:00:00 GMT</pubDate></item></channel></rss>
