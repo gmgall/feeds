@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sun, 21 Jul 2024 00:56:11 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Sun, 21 Jul 2024 06:15:15 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -1688,87 +1688,7 @@ them. Having that choice is a luxury that comes with doing this purely on my own
 terms.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/why-i-blog</guid><pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate></item><item><title>Updating My Favicon, Courtesy of Randall Munroe</title><link>https://www.dannyguo.com/blog/updating-my-favicon-courtesy-of-randall-munroe</link><description>&lt;article&gt;
-        &lt;h1&gt;Updating My Favicon, Courtesy of Randall Munroe&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2022-06-22"&gt;
-                June 22, 2022
-            &lt;/time&gt;
-             · 
-            350 words  ·  ~2 minutes to read
-            
-                        &lt;br&gt;I may earn commissions from purchases made through
-                        affiliate links in this post.
-                    
-        &lt;/div&gt;
-
-        &lt;p&gt;Since 2017, my personal website’s
-&lt;a href="https://en.wikipedia.org/wiki/Favicon"&gt;favicon&lt;/a&gt; was a &lt;a href="https://en.wikipedia.org/wiki/Yin_and_yang"&gt;yin-yang
-symbol&lt;/a&gt; that I added on a whim.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/sSvnSCK.jpg" alt="Old favicon"&gt;&lt;/p&gt;
-&lt;p&gt;I didn’t think about it again for a long time. Until I published a post on
-&lt;a href="https://www.dannyguo.com/blog/serve-videos-instead-of-gifs/"&gt;serving videos instead of
-GIFs&lt;/a&gt;, and one
-Reddit comment &lt;a href="https://www.reddit.com/r/programming/comments/gl7ttl/serve_videos_instead_of_gifs/fqw7lap/"&gt;helpfully pointed
-out&lt;/a&gt;
-how absurdly large my favicon was:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;And yet that webpage has a 170kb favicon - a 256x256 image with essentially 3
-colors but stored in an uncompressed 24 bit format.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;I appreciated the callout! I thought about changing my favicon to my initials or
-something like that, but then I remembered a sketch that I got from &lt;a href="https://en.wikipedia.org/wiki/Randall_Munroe"&gt;Randall
-Munroe&lt;/a&gt;, the author of
-&lt;a href="https://xkcd.com/"&gt;&lt;em&gt;xkcd&lt;/em&gt;&lt;/a&gt; and &lt;a href="https://www.amazon.com/What-If-Scientific-Hypothetical-Questions/dp/0544272994?crid=FJWL4J94JJN5&amp;amp;keywords=randall+munroe&amp;amp;qid=1654983209&amp;amp;sprefix=randall+munroe%2Caps%2C75&amp;amp;sr=8-3&amp;amp;linkCode=ll1&amp;amp;tag=thdalo00-20&amp;amp;linkId=be65676d693ee4c0c09c8f09c58096fc&amp;amp;language=en_US&amp;amp;ref_=as_li_ss_tl"&gt;&lt;em&gt;What If?: Serious Scientific Answers to Absurd
-Hypothetical
-Questions&lt;/em&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;When I was in college, he visited to give a
-&lt;a href="https://lectures.princeton.edu/lectures/2011/larry-gonick-randall-munroe"&gt;talk&lt;/a&gt;.
-Afterwards, I asked him to autograph a printout of
-&lt;a href="https://xkcd.com/876/"&gt;#876&lt;/a&gt;, which references &lt;a href="https://en.wikipedia.org/wiki/Allegory_of_the_cave"&gt;Plato’s
-Cave&lt;/a&gt; from &lt;a href="https://www.amazon.com/Republic-Plato-Allan-Bloom/dp/0465094082?crid=316HZB89FGE9H&amp;amp;keywords=republic+plato&amp;amp;qid=1654984868&amp;amp;sprefix=republic+plato%2Caps%2C76&amp;amp;sr=8-4&amp;amp;linkCode=ll1&amp;amp;tag=thdalo00-20&amp;amp;linkId=49c528f777b799c5c446689d491c84f4&amp;amp;language=en_US&amp;amp;ref_=as_li_ss_tl"&gt;&lt;em&gt;The
-Republic&lt;/em&gt;&lt;/a&gt;
-(I was a philosophy major). I also asked if he could draw
-&lt;a href="https://en.wikipedia.org/wiki/Auguste_Rodin"&gt;Rodin&lt;/a&gt;’s &lt;a href="https://en.wikipedia.org/wiki/The_Thinker"&gt;&lt;em&gt;The
-Thinker&lt;/em&gt;&lt;/a&gt;, and he graciously did it.
-Here’s a scan:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/uavmB98.jpg" alt="signed xckd 876"&gt;&lt;/p&gt;
-&lt;p&gt;I cropped out the sketch and used
-&lt;a href="https://realfavicongenerator.net/"&gt;RealFaviconGenerator&lt;/a&gt; to generate images
-from it. There are multiple ones for &lt;a href="https://css-tricks.com/favicon-quiz/"&gt;different
-scenarios&lt;/a&gt;, and they range from 479 bytes
-to 15 KB. Much better than the original 170 KB.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/oQgvAuL.jpg" alt="New favicon"&gt;&lt;/p&gt;
-&lt;p&gt;The sketch is maybe a &lt;em&gt;bit&lt;/em&gt; too detailed for a favicon, but I love it anyway.&lt;/p&gt;
-&lt;h2 id="interesting-favicons"&gt;Interesting Favicons&lt;a class="anchor" href="#interesting-favicons"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;Updating my favicon made me think about the interesting things I’ve seen
-regarding favicons.&lt;/p&gt;
-&lt;p&gt;Gmail and Whatsapp show unread counts, and Google Calendar shows the current
-date.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://i.imgur.com/M8U0Iyz.jpg" alt="Dynamic favicons"&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://github.com/tommoor/tinycon"&gt;Tinycon&lt;/a&gt; is a library for showing alert
-bubbles. Which inspired &lt;a href="https://github.com/lipka/piecon"&gt;Piecon&lt;/a&gt; for showing
-progress pie charts.&lt;/p&gt;
-&lt;p&gt;There’s also &lt;a href="https://twitter.com/davywtf/status/1119783380734836737"&gt;Tiny
-Mirror&lt;/a&gt;, which turns the
-favicon into a webcam video!&lt;/p&gt;
-&lt;p&gt;Many browsers have added support for SVG favicons, which &lt;a href="https://css-tricks.com/svg-favicons-and-all-the-fun-things-we-can-do-with-them/"&gt;allows for things
-like&lt;/a&gt;
-dark mode support through the
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme"&gt;prefers-color-scheme&lt;/a&gt;
-media query.&lt;/p&gt;
-&lt;p&gt;Even the &lt;a href="https://thehistoryoftheweb.com/how-we-got-the-favicon/"&gt;favicon origin
-story&lt;/a&gt; is interesting. A
-Microsoft engineer named Bharat Shyam snuck the feature into Internet Explorer.
-He waited until a junior program manager was in charge before requesting
-permission to add it, knowing that a junior person would be less likely to block
-it. Thanks to that bit of mischief, the internet became a little more fun.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/updating-my-favicon-courtesy-of-randall-munroe</guid><pubDate>Wed, 22 Jun 2022 00:00:00 GMT</pubDate></item><item><title>How to Use Tasker to Block Spam Phone Calls From a Certain Area Code on Android</title><link>https://www.dannyguo.com/blog/how-to-use-tasker-to-block-spam-phone-calls-from-a-certain-area-code-on-android</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/why-i-blog</guid><pubDate>Thu, 06 Apr 2023 00:00:00 GMT</pubDate></item><item><title>How to Use Tasker to Block Spam Phone Calls From a Certain Area Code on Android</title><link>https://www.dannyguo.com/blog/how-to-use-tasker-to-block-spam-phone-calls-from-a-certain-area-code-on-android</link><description>&lt;article&gt;
         &lt;h1&gt;How to Use Tasker to Block Spam Phone Calls From a Certain Area Code on Android&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
