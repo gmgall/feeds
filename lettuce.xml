@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sun, 21 Jul 2024 18:14:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 22 Jul 2024 00:54:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -3022,85 +3022,4 @@ RULES
 &lt;p&gt;I think this is a great idea and recommended checking out Accessible PuzzleScript fork which provides accessibility tools for web and CLI to play PuzzleScript games.&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://github.com/philschatz/puzzlescript"&gt;Accessible PuzzleScript&lt;/a&gt;&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/puzzlescript.html</guid><pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate></item><item><title>game-making-tools.html</title><link>https://ctrl-c.club/~lettuce/game-making-tools.html</link><description>&lt;div&gt;&lt;h1&gt;My favorite no-code and low-code game tools&lt;/h1&gt;
-
-&lt;p&gt;2021-12-10&lt;/p&gt;
-
-&lt;p&gt;I signed up to make a game for someone as a surprise for the Secret Santa 2021 event on Glorious Trainwrecks, a website for experimental lo-fi game makers that's over a decade old. &lt;/p&gt;
-
-&lt;p&gt;I first learned about Glorious Trainwrecks from reading Rise of the Videogame Zinesters. It's from 2012 but still relevant. In the book, Anna Anthropy describes her journey to becoming a game maker, her own particular approach, and a variety of games to try out (possibly a slightly dated list that may be harder to find) as well as suggested low-entry no-code or low-code tools to make a game. &lt;/p&gt;
-
-&lt;p&gt;Although I code now, I still love a lot of low and no-code tools as well, and I enjoy using a lot of different engines, languages and tools to make games.&lt;/p&gt;
-
-&lt;p&gt;On the Glorious Trainwrecks website most folks tend to make games with a variety of these kinds of tools, and create a motley assortment of strange experimental little games. &lt;/p&gt;
-
-&lt;p&gt;For a full extensive list of experimental, strange and alternative game creation tools I recommend visiting the Game Making Tools wiki.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.gamemaking.tools/wiki/"&gt;Game Making Tools Wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Below are some of my favorite game-making tools that I've used and continue to use:&lt;/p&gt;
-
-&lt;p&gt;Tinychoice - a browser-based tiny branching narrative creation tool. As easy as writing gemtext or markdown. You write text in your browser, add something to indicate rooms/branches, and something else to indicate options for navigation, and that's it. When you're ready to distribute you click share and your game is live at a URL, or you can download and self-host the complete html file. I've even modified my game's style by adding in a CSS stylesheet, which allowed me to make a cool custom text game. This tool is by Increpare.&lt;/p&gt;
-
-&lt;p&gt;Bitsy - A great tool by Adam LeDoux, works in the browser. Allows you to make 2d tile-based adventure games where you walk around, bump into characters and have conversations or explore a little world. Great for experimental narrative. &lt;/p&gt;
-
-&lt;p&gt;Scratch - "Kid's software" to learn programming, out of MIT. Also works in the browser. A 'lego-block' like coding framework where you drag your blocks into the editor and can re-order. This is more coding than the above, but still friendly for beginners. I made Scratch games and toys when I was trying to learn game creation.&lt;/p&gt;
-
-&lt;p&gt;Puzzlescript - This one is also made by Increpare and runs in the browser. It's a tiny little game engine with code editor, sound creator, console, and test screen to run your game. You draw your game objects and characters by writing a small ASCII image in text, assigning colors. You then use a visual editor to stamp your objects onto a level, or you use ASCII again to manually create your level. You writing rules for how the player and objects move, and that's the most complicated part, but there are a variety of pre-made games that you can open up their code and copy and paste in or modify what you need. &lt;/p&gt;
-
-&lt;p&gt;Klik and Play / Clickteam - Klik and Play is --80s software-- (UPDATE 2021-12-12: It's from 1994 actually, which is still dated but not as old as I thought.), but still has a following online. You'll need to run it in an emulator (which exists for Mac and PC). Like Scratch, it comes with a huge library of sprites images you can drop into your game. Uniquely, you don't need to code but you assign behaviors and click to play your level. As things collide, run off screen, you hit a key, etc, it pauses and asks you what game behavior should be assigned to trigger next. It's a really cool way to build a game. Games made with Klik n Play can only run in an emulator, so it's harder to distribute games this way. The company behind it still exists and they make a variety of tools, such as Clickteam Fusion, a more modern but somewhat less intuitive tool. It's still fun though and some people use that. There are a variety of free and paid versions of Clickteam available.&lt;/p&gt;
-
-&lt;p&gt;Katelabs - A very new tool, created by Kate Barrett. Still in active development. This is a tool to make small 3d worlds. Runs on Windows only at present. Comes with a ton of built-in 3d models and at present no scripting language, but allows you to make a surprisingly large number of worlds. The 3d models are somewhat lower fi, but a nice aesthetic. Games can be distributed but must be run with Katelabs.&lt;/p&gt;
-
-&lt;p&gt;p5.play - A tool originally by Molleindustria, currently unsupported but still functioning. It's a library to stack on top of p5.js for those doing creative coding with this javascript framework. It adds in methods to use sprites and collisions. Still used for making 2d games, very simple ones at that. There are a variety of example files you can use. I wouldn't say it's the most intuitive library to code in but I have lots of p5.js experience so it sometimes can be useful for me.&lt;/p&gt;
-
-&lt;p&gt;Flatgame Maker with Unity - Unity is the big dawg. Useful for making 2d and 3d games. NOT beginner friendly. I don't love Unity. I am interested in learning Godot, the open source 3d game engine in fact. But both have a higher start-up knowledge required. One thing I recommend, making a flatgame, a 2d handmade little story world to explore. There are starter files you can use by Dreamfeel and a new plugin Flatgame Maker module they made that runs in Unity to facilitate making a flatgame. I'm looking forward to trying that. I still think would require some knowledge to get started with but give it a shot. There are various flatgame tutorials for beginners on Youtube.&lt;/p&gt;
-
-&lt;h3&gt;Links (all http)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://www.tinychoice.net/"&gt;TinyChoice&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://make.bitsy.org/"&gt;Bitsy&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://scratch.mit.edu/"&gt;Scratch&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://puzzlescript.net"&gt;PuzzleScript&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.gamemaking.tools/wiki/index.php/Klik_%26_Play"&gt;Klik and Play on Game Making Tools Wiki&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://thewaether.itch.io/katelabs"&gt;Katelabs&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://molleindustria.github.io/p5.play/"&gt;p5.play&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://dreamfeel.itch.io/flatgame"&gt;Flatgame Maker&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.gamemaking.tools/wiki/"&gt;Game Making Tools Wiki&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;Leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
-
----
-&lt;p&gt;oh hey, thanks! Btw pretty sure knp came out in the 90s rather than the 80s. 92 or 94 or something.&lt;/p&gt;
- --game-making-toolts
-
----
-
-&lt;p&gt;Thanks, will update. I checked the Wikipedia and it says 1994. Also, was surprised to learn that Five Nights at Freddies and Baba is You, two games I enjoy, were made with its Clickteam Fusion successor.&lt;/p&gt;
- --lettuce
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/game-making-tools.html</guid><pubDate>Sat, 11 Dec 2021 00:00:00 GMT</pubDate></item><item><title>how-to.html</title><link>https://ctrl-c.club/~lettuce/how-to.html</link><description>&lt;div&gt;&lt;h1&gt;The Documentary Called Life: A Review of How To with John Wilson&lt;/h1&gt;
-
-&lt;p&gt;2021-12-11&lt;/p&gt;
-
-&lt;p&gt;This isn't so much a critical review but more of an overview of a certain genre of experimental documentary or personal narrative characterized by a practiced informality that sets the tone and form of the work. It's prompted by my recent watching and enjoyment of the new TV show How To with John Wilson. Admittedly, I've only seen a few of the episodes, but I was immediately smitten. &lt;/p&gt;
-
-&lt;p&gt;In a typical episode John has a loping voiceover. There's a minimal premise: he's trying to buy some wine for a party, or decide whether to buy his own apartment house when his landlord wants to move and sell it to him, or go on vacation. He's always alone but wandering the streets of New York city. We don't see him but out the lens of the camera. He comes across people, sitting on the ferry, arguing in public, carrying huge odd objects down the street, offering free energy drink samples, getting their cars towed. People speak to him and the camera. People with bad teeth, strange clothes, uncommon interests and fixations. And for a moment he veers into their world, letting them tell their own stories or expertise, from proponents of a conspiracy theory that says our history has been rewritten but preserved in memory to a subculture built around energy drinks to the subculture of superfans around the movie Avatar. John intercuts this with short snippets, Instagram-sized in length, of the effluvia of New York City street life. It's a shaggy dog story and the scenes veer from one conversation or view to the next until reaching some final brief fanfare on the title of the episode with nary a logical throughline or narrative arc. In this way it defies all previous television and film to my mind, with the exception of the non-narrative of the Eric Andre show (minus the antics, personality and stunts).&lt;/p&gt;
-
-&lt;p&gt;I recognize a bit of myself in John, or at least, I recognize some of the same situations and feelings of getting lost in little moments of life. Not just because he's filming the streets of New York City during the pandemic, the gross subway, the ridiculous situations and people that are characteristic of New York life, the mundane dollar slice pizza, subway trash sculpture installations, mishmash collage storefront signage, pigeon shit realism - it's also the fact that John's about my age, used to live in an artist warehouse in my old neigborhood, and currently lives in a neigborhood that I know well. In each scene or moment of the TV show (shot in subway, on the streets, in restaurants, on the ferry...) I keep thinking I'll recognize myself or one of my friends. &lt;/p&gt;
-
-&lt;p&gt;Zooming out a bit, the show is in a lineage with Louis Theroux's anyman film-making as well as the mundanity of the Fishing with John TV show with John Lurie. It has some of the self-centering of Karl Ove Knaussgard with a bit less blathering and maybe a bit less cockiness. I recognize some Werner Herzog without the gravity. And photographer Alec Soth's genuine love for the overlooked corners of America. I'm also reminded of some of the gonzo journalism that took off in the 1960s. Or prior to that was Studs Terkel's book Conversations with America and later his radio interviews with 'common' Americans as well; maybe that's the closest in fact.&lt;/p&gt;
-
-&lt;p&gt;All of these programs star a middle aged white man. My friend was agitated by this and expressed disinterest when I described How To to her. From her perspective there's a particular privilege with framing one's own narrative as worthy for other viewers/listeners. I get where she's coming from and I'm thinking the show probably couldn't be made the same way by a marginalized person because they wouldn't be able to get in the door or be given the basic respect that John is privileged to receive as he bumbles through his encounters. The show's producers includes celebrated writer Susan Orlean (The Orchid Thief, The Library Book), and other writers as well, along with producer Nathan Fielder (Nathan For You). I wonder what they do in their roles and how they shape the show. Could the show work as well for me if one of them was the 'host'? Possibly, though it would probably be a very different show, as it feels like an extension of John's personality.&lt;/p&gt;
-
-&lt;p&gt;I'm really enjoying How To with John Wilson, but it also reminds me that what I want are many more kinds of John Wilsons, stories that seem to shoot out of nowhere, not following a particular path or narrative arc, but just revealing moments of lives, a better view of what the world may be like than what I'm seeing elsewhere on TV or in the news, and where we all feel invited to enter to talk to each other, no matter how distant we all seem from one another.&lt;/p&gt;
-
----
-
-&lt;p&gt;You can comment by sending an email to lettuce at the current domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/how-to.html</guid><pubDate>Sat, 11 Dec 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/puzzlescript.html</guid><pubDate>Tue, 28 Dec 2021 00:00:00 GMT</pubDate></item></channel></rss>
