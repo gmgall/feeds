@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 21 Aug 2024 12:21:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 21 Aug 2024 18:15:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -6482,7 +6482,279 @@ to me, that is a sign of rapid progress. jQuery gave us better ways to do
 things. Its successors have done the same.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/the-history-and-legacy-of-jquery</guid><pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate></item><item><title>How to Add Copy to Clipboard Buttons to Code Blocks in Hugo</title><link>https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/the-history-and-legacy-of-jquery</guid><pubDate>Fri, 13 Sep 2019 00:00:00 GMT</pubDate></item><item><title>Automating TurboTax Data Entry With Puppeteer</title><link>https://www.dannyguo.com/blog/automating-turbotax-data-entry-with-puppeteer</link><description>&lt;article&gt;
+        &lt;h1&gt;Automating TurboTax Data Entry With Puppeteer&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2019-05-12"&gt;
+                May 12, 2019
+            &lt;/time&gt;
+             · 
+            1,581 words  ·  ~8 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;I use &lt;a href="https://www.betterment.com/"&gt;Betterment&lt;/a&gt; for some of my investments. For
+my 2018 tax return, I wanted to use the &lt;a href="https://turbotax.intuit.com/personal-taxes/online/free-edition.jsp"&gt;free
+edition&lt;/a&gt; of
+&lt;a href="https://www.intuit.com/"&gt;Intuit&lt;/a&gt;’s &lt;a href="https://turbotax.intuit.com/"&gt;TurboTax
+Online&lt;/a&gt;. For non-retirement account investments,
+each transaction must be documented in the tax return with &lt;a href="https://www.irs.gov/forms-pubs/about-form-8949"&gt;Form
+8949&lt;/a&gt;. I had hundreds of
+transactions for my account in 2018, and I didn’t want to enter them manually.&lt;/p&gt;
+&lt;p&gt;Betterment has a &lt;a href="https://www.betterment.com/help/tax-importing-turbotax"&gt;TurboTax
+integration&lt;/a&gt; to do
+this work automatically, but TurboTax &lt;a href="https://turbotax.intuit.com/personal-taxes/compare/online/"&gt;doesn’t
+allow&lt;/a&gt; importing
+investment transactions unless you have the Premier plan or above. I also
+couldn’t &lt;a href="https://github.com/andreasg123/stock-gain-tax-import"&gt;import a TXF
+file&lt;/a&gt; because that feature
+is only available in the desktop versions of TurboTax.&lt;/p&gt;
+&lt;p&gt;This seemed like a great opportunity to try out
+&lt;a href="https://github.com/GoogleChrome/puppeteer"&gt;Puppeteer&lt;/a&gt;. It’s a
+&lt;a href="https://nodejs.org/"&gt;Node.js&lt;/a&gt; library for controlling
+&lt;a href="https://www.google.com/chrome/"&gt;Chrome&lt;/a&gt; and is developed by the Chrome team.&lt;/p&gt;
+&lt;p&gt;In the end, I probably &lt;a href="https://xkcd.com/1319/"&gt;spent more time automating the
+process&lt;/a&gt; than it would have taken to just enter the
+transactions manually, but I learned a new tool, and I hope to reuse the script
+in the future. It’s available on &lt;a href="https://github.com/dguo/broker-scribe"&gt;GitHub&lt;/a&gt;
+with the name BrokerScribe. Here’s a demo of the end result (running at half
+speed):&lt;/p&gt;
+&lt;video&gt;
+    &lt;source src="https://i.imgur.com/rSXtbz2.mp4" type="video/mp4"&gt;
+    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
+&lt;/source&gt;&lt;/video&gt;
+&lt;h2 id="parsing-the-csv-file"&gt;Parsing the CSV file&lt;a class="anchor" href="#parsing-the-csv-file"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First, I downloaded the
+&lt;a href="https://www.irs.gov/forms-pubs/about-form-1099-b"&gt;1099-B&lt;/a&gt; CSV file from
+Betterment’s &lt;a href="https://wwws.betterment.com/app/tax_forms"&gt;tax forms page&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/iZnRus1.png" alt="Betterment tax forms"&gt;&lt;/p&gt;
+&lt;p&gt;After removing an extraneous comma at the end of the header row, I used
+&lt;a href="https://github.com/BurntSushi/xsv"&gt;xsv&lt;/a&gt; to look at the available columns.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;$ xsv headers betterment-1099-b.csv&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1   Account&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;2   Description&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;3   Symbol&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;4   CUSIP&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;5   Date Acquired&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;6   Date Sold&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;7   Gross Proceeds&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;8   Cost or Other Basis&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;9   Gain/(Loss)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;10  Wash Sale Loss Disallowed&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;11  Federal Income Tax Withheld&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;12  Type of Gain(Loss)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;13  Noncovered Securities&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;14  Reporting Category&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then I inspected the values to get an idea of what the data looks like.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;$ xsv table betterment-1099-b.csv | xsv sample 3&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Account                  Description                                                   Symbol  CUSIP      Date Acquired  Date Sold   Gross Proceeds  Cost or Other Basis  Gain/(Loss)  Wash Sale Loss Disallowed  Federal Income Tax Withheld  Type of Gain(Loss)  Noncovered Securities  Reporting Category&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Danny's Taxable Account  0.004034 sh. Vanguard Total International Bond ETF Class O    BNDX    92203J407  07/09/2018     09/28/2018  $0.22           $0.22                $0.00        $0.00                      $0.00                        Short-term          No                     A&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Danny's Taxable Account  0.697454 sh. Vanguard FTSE Developed Markets Class O          VEA     921943858  10/05/2015     08/20/2018  $29.66          $25.75               $3.91        $0.00                      $0.00                        Long-term           No                     D&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Danny's Taxable Account  11.978683 sh. Vanguard FTSE Developed Markets Class O         VEA     921943858  11/16/2015     07/30/2018  $526.10         $443.93              $82.17       $0.00                      $0.00                        Long-term           No                     D&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I used &lt;a href="https://github.com/sindresorhus/neat-csv"&gt;neat-csv&lt;/a&gt; to read in the data.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fs &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'fs'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; csv &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'neat-csv'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;async&lt;/span&gt;&lt;span&gt; () &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; transactions &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; fs.&lt;/span&gt;&lt;span&gt;readFileSync&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'betterment-1099-b.csv'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    transactions &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;csv&lt;/span&gt;&lt;span&gt;(transactions);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;})();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="using-puppeteer"&gt;Using Puppeteer&lt;a class="anchor" href="#using-puppeteer"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I launched Puppeteer in non-headless mode so that the browser UI would actually
+appear and be controllable from outside of the script. It launches a bundled
+version of Chromium (which Chrome is built on). It’s possible to &lt;a href="https://stackoverflow.com/q/47122579/1481479"&gt;control an
+existing installation&lt;/a&gt; of Chrome,
+but each version of the library is only guaranteed to work with its bundled
+browser.&lt;/p&gt;
+&lt;p&gt;I also turned off the default viewport so that &lt;a href="https://github.com/GoogleChrome/puppeteer/issues/3688"&gt;resizing the window would also
+resize the viewport&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; puppeteer &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;require&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'puppeteer'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;async&lt;/span&gt;&lt;span&gt; () &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; browser &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; puppeteer.&lt;/span&gt;&lt;span&gt;launch&lt;/span&gt;&lt;span&gt;({&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        defaultViewport: &lt;/span&gt;&lt;span&gt;null&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        headless: &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    });&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;})();&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="logging-in"&gt;Logging in&lt;a class="anchor" href="#logging-in"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The first step in the TurboTax workflow was logging in.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/leJ1KaV.png" alt="TurboTax login page"&gt;&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; page &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; browser.&lt;/span&gt;&lt;span&gt;newPage&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;goto&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'https://myturbotax.intuit.com/'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I used &lt;a href="https://github.com/terkelg/prompts"&gt;prompts&lt;/a&gt; to interactively collect
+authentication info. I considered passing the info through environment
+variables, but I ran into two-factor authentication later, so I needed to be
+able to collect a dynamic code.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; {email, password} &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;prompts&lt;/span&gt;&lt;span&gt;([&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        type: &lt;/span&gt;&lt;span&gt;'text'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        name: &lt;/span&gt;&lt;span&gt;'email'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        message: &lt;/span&gt;&lt;span&gt;'Email address'&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    },&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        type: &lt;/span&gt;&lt;span&gt;'text'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        name: &lt;/span&gt;&lt;span&gt;'password'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        message: &lt;/span&gt;&lt;span&gt;'Password'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        style: &lt;/span&gt;&lt;span&gt;'password'&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;]);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I set the input values with JS after finding out &lt;a href="https://stackoverflow.com/a/46098448/1481479"&gt;how to pass a
+variable&lt;/a&gt; to
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=master&amp;amp;show=api-pageevaluatepagefunction-args"&gt;evaluate&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;evaluate&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;email&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'ius-identifier'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; email;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'ius-remember'&lt;/span&gt;&lt;span&gt;).checked &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}, email);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Next, I had to figure out how to handle waiting for the UI to be “ready” after
+hitting submit. In my experience, this part is a common source of flakiness for
+UI tests using tools like &lt;a href="https://webdriver.io/"&gt;WebdriverIO&lt;/a&gt; and
+&lt;a href="http://nightwatchjs.org/"&gt;Nightwatch.js&lt;/a&gt;. I tried following the
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=master&amp;amp;show=api-pagewaitfornavigationoptions"&gt;example&lt;/a&gt;
+in the documentation.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Promise&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;all&lt;/span&gt;&lt;span&gt;([&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    page.&lt;/span&gt;&lt;span&gt;waitForNavigation&lt;/span&gt;&lt;span&gt;(),&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    page.&lt;/span&gt;&lt;span&gt;click&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#ius-sign-in-submit-btn'&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;]);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Unfortunately, I kept getting this error: &lt;code&gt;TimeoutError: Navigation Timeout Exceeded: 30000ms exceeded&lt;/code&gt;. At first, I tried playing around with different
+&lt;code&gt;waitForNavigation&lt;/code&gt; options, but then I realized that the site was built as a
+&lt;a href="https://en.wikipedia.org/wiki/Single-page_application"&gt;single-page
+application&lt;/a&gt;. While
+Puppeteer &lt;a href="https://github.com/GoogleChrome/puppeteer#q-whats-considered-a-navigation"&gt;does
+treat&lt;/a&gt;
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/API/History"&gt;History API&lt;/a&gt; usage as
+a navigation event, the site doesn’t use the History API. It merely updates the
+form on the page. I tried to wait for the existence of the password field
+instead using
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=master&amp;amp;show=api-pagewaitforselectororfunctionortimeout-options-args"&gt;waitFor&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/8Tlu496.png" alt="TurboTax password field"&gt;&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Promise&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;span&gt;all&lt;/span&gt;&lt;span&gt;([&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    page.&lt;/span&gt;&lt;span&gt;waitFor&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;'#ius-sign-in-mfa-password-collection-current-password'&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    ),&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    page.&lt;/span&gt;&lt;span&gt;click&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#ius-sign-in-submit-btn'&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;]);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This solution worked. I filled in the password the same way that I filled in the
+email. The next part of the form was for two-factor
+authentication, using a code that was sent to my email. However, it only
+triggered some of the time, even after unchecking remember me on the first part
+of the log in form. This meant that I didn’t have a stable element to wait for.
+My original solution was to just put in a sleep and then check if the two-factor
+authentication form appeared.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;waitFor&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;5000&lt;/span&gt;&lt;span&gt;); &lt;/span&gt;&lt;span&gt;// in milliseconds&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; ((&lt;/span&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;$&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#ius-mfa-options-submit-btn'&lt;/span&gt;&lt;span&gt;)) &lt;/span&gt;&lt;span&gt;!==&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;null&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// collect the code, and submit it&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;However, I now realize that a much better solution would have been to use a
+selector with two elements, one for each possible path, with something like:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;waitFor&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#ius-mfa-options-submit-btn, #dashboard'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This method avoids the antipattern of sleeping with a hardcoded duration, which
+slows things down and makes the code more brittle since the duration might not
+be long enough if the server is slow to respond, the client is on a poor
+internet connection, etc.&lt;/p&gt;
+&lt;h2 id="entering-transactions"&gt;Entering transactions&lt;a class="anchor" href="#entering-transactions"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;After logging in, I had to enter transactions to fill this page.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/xLZPby9.png" alt="empty Betterment sales page"&gt;&lt;/p&gt;
+&lt;p&gt;I matched up each field on this form to the respective column in the CSV file.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/1BuZOY2.png" alt="empty transaction form"&gt;&lt;/p&gt;
+&lt;p&gt;I continued to set the values directly with in-page JS.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;evaluate&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;transaction&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'edt_00'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; transaction.description;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'edt_01'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; transaction.dateSold;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'edt_02'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; transaction.dateAcquired;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'edt_03'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; transaction.grossProceeds;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'edt_04'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; transaction.costBasis;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;let&lt;/span&gt;&lt;span&gt; category;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (transaction.reportingCategory &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'D'&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        category &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'4'&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    } &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (transaction.reportingCategory &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'A'&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        category &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'1'&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    } &lt;/span&gt;&lt;span&gt;else&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;throw&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Error&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'Unexpected reporting category'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;getElementById&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'combo_00'&lt;/span&gt;&lt;span&gt;).value &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; category;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}, transaction);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But I ran into validation errors, even though I could see the values in the
+fields before trying to continue. I received an error message, and the fields
+were blanked out.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/WCc92oi.png" alt="form validation errors"&gt;&lt;/p&gt;
+&lt;p&gt;I suspected that the form has validation that runs as the user enters data. By
+setting the value directly, the validation was bypassed, and it thought the user
+had left the fields blank. After reading through &lt;a href="https://github.com/GoogleChrome/puppeteer/issues/441"&gt;this
+issue&lt;/a&gt; and &lt;a href="https://stackoverflow.com/q/45864516/1481479"&gt;this
+question&lt;/a&gt;, I found a better
+approach, which was to use the
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=v1.14.0&amp;amp;show=api-pagetypeselector-text-options"&gt;type&lt;/a&gt;
+and
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=v1.14.0&amp;amp;show=api-pageselectselector-values"&gt;select&lt;/a&gt;
+methods instead of setting values with JS. Using these methods fixed the issue.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;type&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#edt_00'&lt;/span&gt;&lt;span&gt;, transaction.description);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;select&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#combo_00'&lt;/span&gt;&lt;span&gt;, category);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After submitting the transaction, there was a radio selection to choose if I
+wanted to submit another one. I tried clicking the “enter a new transaction”
+radio with Puppeteer’s
+&lt;a href="https://pptr.dev/#?product=Puppeteer&amp;amp;version=master&amp;amp;show=api-pageclickselector-options"&gt;click&lt;/a&gt;
+method.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;click&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#radio_00&lt;/span&gt;&lt;span&gt;\\&lt;/span&gt;&lt;span&gt;:0'&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But this time, the more ergonomic approach didn’t work. After hitting continue,
+the page thought I didn’t make a choice. I tried clicking the radio with JS, and
+I was able to continue.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;await&lt;/span&gt;&lt;span&gt; page.&lt;/span&gt;&lt;span&gt;evaluate&lt;/span&gt;&lt;span&gt;(() &lt;/span&gt;&lt;span&gt;=&amp;gt;&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    document.&lt;/span&gt;&lt;span&gt;querySelector&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;'#radio_00&lt;/span&gt;&lt;span&gt;\\&lt;/span&gt;&lt;span&gt;:0'&lt;/span&gt;&lt;span&gt;).&lt;/span&gt;&lt;span&gt;click&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The final issue I ran into was that I would get &lt;code&gt;Error: Node is either not visible or not an HTMLElement&lt;/code&gt; when trying to fill in info on the new
+transaction page. My guess for the root cause is that the site animates some DOM
+changes, like the appearance of the form, most likely with &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions"&gt;CSS
+transitions&lt;/a&gt;.
+Puppeteer’s &lt;code&gt;waitFor&lt;/code&gt; only detects the element’s existence in the DOM. It
+doesn’t know if the element is visible, if click handlers have been attached,
+etc. I added a one second sleep as a workaround. A future improvement would be to
+find a way to wait for the end of any transitions.&lt;/p&gt;
+&lt;p&gt;In the end, the script took about 30 minutes to fill in all my transactions. I
+checked several of them to verify that the information was transcribed
+correctly.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://i.imgur.com/jvcFAhO.png" alt="filled Betterment sales page"&gt;&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I have three main takeaways from my first experiment with Puppeteer. The first
+is that I should default to using the high-level API (e.g. &lt;code&gt;type&lt;/code&gt;, &lt;code&gt;select&lt;/code&gt;,
+&lt;code&gt;click&lt;/code&gt;) first before resorting to injecting JS with &lt;code&gt;evaluate&lt;/code&gt;. The high-level
+API is cleaner and better simulates a real human being using the website.&lt;/p&gt;
+&lt;p&gt;The second is that I need to be smarter about waiting for things to be ready
+rather than adding sleeps. I’ve resorted to sleeping quite often in my past
+end-to-end test code, but it’s something I need to minimize going forward.&lt;/p&gt;
+&lt;p&gt;The third is that handling websites that use fancier techniques like animations
+or are built as SPAs can be tricky. I
+&lt;a href="https://github.com/GoogleChrome/puppeteer/issues/372"&gt;found&lt;/a&gt;
+&lt;a href="https://github.com/GoogleChrome/puppeteer/issues/1805"&gt;multiple&lt;/a&gt;
+&lt;a href="https://github.com/GoogleChrome/puppeteer/issues/2977"&gt;issues&lt;/a&gt; with people
+having problems interacting with elements, and a common explanation is that the
+site’s JS hasn’t fully run yet.&lt;/p&gt;
+&lt;p&gt;Regardless, I see a lot of potential in using Puppeteer, especially for
+automated tests. The author of &lt;a href="http://phantomjs.org/"&gt;PhantomJS&lt;/a&gt; &lt;a href="https://groups.google.com/d/msg/phantomjs/9aI5d-LDuNE/5Z3SMZrqAQAJ"&gt;stopped
+development&lt;/a&gt;
+after headless Chrome was announced. Another big tool in this field is
+&lt;a href="https://www.seleniumhq.org/"&gt;Selenium&lt;/a&gt;, but it’s not very reliable in my
+experience, harder to set up, and resource heavy. I’m optimistic that Puppeteer
+will prove to be a better option for most cases.&lt;/p&gt;
+&lt;p&gt;One concern is that Puppeteer only works for Chrome, but the Puppeteer
+developers appear to be working on &lt;a href="https://www.npmjs.com/package/puppeteer-firefox"&gt;experimental
+support&lt;/a&gt; for Firefox.
+&lt;a href="https://www.microsoft.com/en-us/windows/microsoft-edge"&gt;Edge&lt;/a&gt; is also
+&lt;a href="https://arstechnica.com/gadgets/2018/12/post-mortem-tying-edge-to-windows-10-was-a-fatal-error/"&gt;switching to
+Chromium&lt;/a&gt;,
+and most fringe browsers like &lt;a href="https://www.opera.com/"&gt;Opera&lt;/a&gt; and
+&lt;a href="https://brave.com/"&gt;Brave&lt;/a&gt; run on Chromium. For non-testing purposes, such as
+taking screenshots and automating workflows like BrokerScribe does, browser
+compatibility doesn’t really matter, and Puppeteer is shaping up to be a great
+alternative to Selenium.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/automating-turbotax-data-entry-with-puppeteer</guid><pubDate>Sun, 12 May 2019 00:00:00 GMT</pubDate></item><item><title>How to Add Copy to Clipboard Buttons to Code Blocks in Hugo</title><link>https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo</link><description>&lt;article&gt;
         &lt;h1&gt;How to Add Copy to Clipboard Buttons to Code Blocks in Hugo&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
