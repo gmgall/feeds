@@ -90,6 +90,12 @@
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
+    "title": "Guilherme Gall on Untappd",
+    "link": "https://untappd.com/user/gmgall",
+    "description": "Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.",
+    "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
+  },
+  {
     "title": "~gome posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~gome/journal/",
     "description": "gome — journal",
