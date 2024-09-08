@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sat, 07 Sep 2024 18:15:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Sun, 08 Sep 2024 01:00:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -2781,41 +2781,4 @@ END
 
 &lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/season-clock.html</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate></item><item><title>offline-ereading.html</title><link>https://ctrl-c.club/~lettuce/offline-ereading.html</link><description>&lt;div&gt;&lt;h1&gt;Offline E-reading&lt;/h1&gt;
-
-&lt;p&gt;2021-12-30&lt;/p&gt;
-
-&lt;p&gt;A few others have been writing on Gemini about consuming articles and gemtext offline.&lt;/p&gt;
-
-&lt;p&gt;Here's two tools to do that:&lt;/p&gt;
-
-&lt;h3&gt;Offline Gemini Browsing&lt;/h3&gt;
-
-&lt;p&gt;Ploum built the AV-98-Offline fork of AV-98 client.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/ploum/av-98-offline"&gt;AV-98-Offline&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Even if you don't want to browse offline, it's a better implementation of AV-98. Updated search engine, and output is automatically piped to less if you are viewing more than a page of text (press q then enter the number of the link).&lt;/p&gt;
-
-&lt;h3&gt;Offline HTML, Reader, Markdown and Epub&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href="https://tildegit.org/exquisitecorp/bookmobile"&gt;Bookmobile&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Here's my own take on offline archiving and reading. Download articles for offline viewing as simple HTML, themed html, epub or markdown.&lt;/p&gt;
-
-&lt;p&gt;From the readme:&lt;/p&gt;
-&lt;p&gt;This is a brute force fishscript (shell) gluing together pandoc and a Node.js package that implements the Firefox reader view. It uses a NPM package implementing Mozilla's Readability script to scrape off ads, sidebars, footers, headers, etc. If that's not the right solution for you, jump down to the alternatives section at the end.&lt;/p&gt;
-
-&lt;p&gt;Currently, I use this as an alternative to Wallabag or Pocket to download articles I've meant to read later, converting them to epubs with bookmobile. Once a week I drop them on my micro-sd card and load it in my 10 year old offline e-ink e-reader (a Nook Simple Touch, ultra-cheap on eBay!).&lt;/p&gt;
-
-&lt;p&gt;Even for just browsing on my computer, the html output is really nice. In the default, it just applies readability to strip out all the junk. But in the reader format you can apply one of the nice simple CSS themes (medium clone, my now theme, simple pandoc, github clone, gemini clone).&lt;/p&gt;
-
-&lt;p&gt;This is over a hundred lines of fish script, so the code is pretty wonky, but it works for me! &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/offline-ereading.html</guid><pubDate>Thu, 30 Dec 2021 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/season-clock.html</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate></item></channel></rss>
