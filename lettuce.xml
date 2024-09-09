@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 09 Sep 2024 00:57:59 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Mon, 09 Sep 2024 06:18:36 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -2744,41 +2744,4 @@ END
 
 &lt;p&gt;You can write a comment by emailing it directly to lettuce at the current url.&lt;/p&gt;
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/constraints.html</guid><pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate></item><item><title>season-clock.html</title><link>https://ctrl-c.club/~lettuce/season-clock.html</link><description>&lt;div&gt;&lt;h1&gt;Another year passes on the Season Clock&lt;/h1&gt;
-
-&lt;p&gt;2022-01-01&lt;/p&gt;
-
-&lt;p&gt;Feels funny to write January 1, 2022, but it is, by only a few hours. I got home from a tiny party with friends, just 4 of us for New Year's, since the Covid situation is really bad here in my city. &lt;/p&gt;
-
-&lt;p&gt;Being stuck inside alone in the winter sucks. I am doing my best keeping busy with my projects in art, code, music, organizing, biking, cooking. But it feels like a long time of doing the same thing. &lt;/p&gt;
-
-&lt;p&gt;Three years ago I started doing daily code sketching. Basically, free coding on art, websites, generative art, games, or whatever I'm feeling like. Sometimes I'm active for weeks at a stretch where I code every day for hours. Other times I might do something once a week. My average is about one mini project/toy/sketch/artwork/thing every five days. &lt;/p&gt;
-
-&lt;p&gt;About 10 years ago was the launch of The Present, a seasonal clock conceived of by Scott Thrift. A clock to remind us to slow down, to check in with occasionally. In this clock, the hand rotates around once over the course of the year. The clock is filled with a conic gradient, from indigo to blue to green to yellow to red to purple and back to indigo.&lt;/p&gt;
-
-&lt;p&gt;As I'm an indoor urban dweller, the clock is also a designed minimal representation of the seasons passing (yellow summer, red fall, purple / blue winter, green spring). That sounds a little silly, a bit of a strange simulacra, but the minimalism is appealing, a calming effect, a meditative moment that I find in some of my favorite architecture, like the buildings of Louis Khan, the design work of Italian designer Bruno Munari, or in the software-art-work of graphic designer David Reinfurt. &lt;/p&gt;
-
-&lt;p&gt;I loved the project but at the time was living on the road with no income, and I didn't want to pay $50 or $100 or whatever it cost at the time. But the idea stayed in my head. &lt;/p&gt;
-
-&lt;p&gt;When I began semi-daily code sketching one of the first things I coded was my own web version of this seasonal clock. I've grown as a programmer since then and would probably improve the hand mechanism now, but it works. I'm also thinking about potentially getting a tiny monitor and keeping this mounted somewhere in my apartment. Adafruit sells tiny 1" TFT displays, but I don't know if I want to port my css/query code. A simpler idea would be to repurpose an old phone with a web browser, keep it plugged in and turned on, or the NTSC/PAL (Television) TFT Display 2.5" that plugs into the old Raspberry Pi B+, which I have lying around here unused currently. I'm open to other ideas too.&lt;/p&gt;
-
-&lt;figure&gt;
-&lt;img src="images/season.jpg" alt="Season clock screenshot on January 1, 2022 3:30am"&gt;
-&lt;figcaption&gt;Season clock screenshot on January 1, 2022 3:30am&lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;&lt;a href="http://ctrl-c.club/~lettuce/season"&gt;Season clock running live on the html version of this gemlog&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://thepresent.is/pages/year"&gt;The Present season clock by Scott Thrift&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Today I'm enjoying the hand hovering from purple to blue, marking the present moment in this cycle.&lt;/p&gt;
-
-...
-
-&lt;p&gt;&lt;a href="./index.html"&gt;back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/season-clock.html</guid><pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/constraints.html</guid><pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate></item></channel></rss>
