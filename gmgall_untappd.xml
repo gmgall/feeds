@@ -4,9 +4,49 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Sep 2024 06:18:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Sep 2024 12:23:40 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Black Lager by Cervejaria Odin</title>
+      <link>https://untappd.com/user/gmgall/checkin/1416157036</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/black-lager-cervejaria-odin/4624716"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4624716_4f8f1_sm.jpeg" alt="Black Lager label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/black-lager-cervejaria-odin/4624716"&gt;Black Lager&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1416157036"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;div class="badges-unlocked"&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 16)"&gt;
+&lt;span&gt;Earned the Riding Steady (Level 16) badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;span class="badge"&gt;
+&lt;img src="https://assets.untappd.com/badges/bdg_Schwarzbuckler_sm.jpg" alt="Schwarz-buckler"&gt;
+&lt;span&gt;Earned the Schwarz-buckler badge!&lt;/span&gt;
+&lt;/span&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1416157036</guid>
+      <pubDate>Mon, 09 Sep 2024 12:00:11 GMT</pubDate>
+    </item>
     <item>
       <title>IPA by Cervejaria Odin</title>
       <link>https://untappd.com/user/gmgall/checkin/1415826895</link>
@@ -136,36 +176,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1414195517</guid>
       <pubDate>Mon, 02 Sep 2024 02:07:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Belgian Tripel Hop by Cervejaria Odin</title>
-      <link>https://untappd.com/user/gmgall/checkin/1410750976</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/belgian-tripel-hop-cervejaria-odin/2279928"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2279928_7cd8a_sm.jpeg" alt="Belgian Tripel Hop label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/belgian-tripel-hop-cervejaria-odin/2279928"&gt;Belgian Tripel Hop&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1410750976"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1410750976</guid>
-      <pubDate>Thu, 22 Aug 2024 15:40:28 GMT</pubDate>
     </item>
   </channel>
 </rss>
