@@ -1,8 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 10 Sep 2024 00:56:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — 2008</title><link>https://ctrl-c.club/~gome/journal/2008.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 10 Sep 2024 06:17:11 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — restart</title><link>https://ctrl-c.club/~gome/journal/restart.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I want to start blogging again&lt;/h1&gt;
+      &lt;time datetime="Mon, 9 Sep 2024 22:30:00 CDT"&gt;9 Sept. 2024, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        This was the longest gap I’ve had in posts since starting my blog back in &lt;a href="ramen.html"&gt;September 2022&lt;/a&gt;.
+        During that time I’ve done and thought a lot of things worth talking about, but for various reasons, I felt like I shouldn’t prioritize the blog for a while.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve been less involved in Ctrl-C in general this year, too.
+        But I still look back fondly on what I’ve done here, and the people I’ve met, and I miss being more active, chatting and corresponding.
+      &lt;/p&gt;&lt;p&gt;
+        I don’t like the idea of gomepage going generally dormant at this point.
+        I still have ideas for things to add, and I really do enjoy taking pride in crafting my little corner of the tildeverse.
+      &lt;/p&gt;&lt;p&gt;
+        What’s more, I miss blogging.
+        I miss having to sit down every day and get at least something out into the world.
+        Not every post I made was a winner, but I routinely wrote posts am still proud of today.
+      &lt;/p&gt;&lt;p&gt;
+        I don’t have a similar outlet for writing anymore.
+        I tried for a while to start a music blog with my real name on it, but I felt a lot more pressure to make it into something.
+        With the low-stakes atmosphere of posting on gomepage, I feel free to explore topics and ideas I couldn’t with a more focused blog.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/revive.webp" width="288" height="312"&gt;
+        &lt;figcaption&gt;Horrifically dated meme that popped into my head while writing this. This will not be a regular occurrence&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;h3&gt;The plan for now: Songbook&lt;/h3&gt;
+      &lt;p&gt;
+        I added this section to my site a good while ago called “&lt;a href="../library/songbook"&gt;songbook&lt;/a&gt;”.
+        My idea was to encourage myself to write more about the songs I love.
+        It sat mostly half-finished for a year.
+        This year, I wanted to complete it as part of the &lt;a href="../library/webjam"&gt;2024 webpage jam&lt;/a&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        But thus far, I haven’t followed through on my plan.
+        So my first order of business in revitalizing gomepage is starting work on that.
+        After that, I have an idea for a photo gallery, although I might put that on hold for a bit to re-establish a regular posting schedule.
+      &lt;/p&gt;
+        Have you ever restarted a blog or some other project after a long hiatus?
+        What were the challenges with getting going again?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/restart.html</guid></item><item><title>gome — 2008</title><link>https://ctrl-c.club/~gome/journal/2008.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I’m looking for the &lt;i&gt;Hats&lt;/i&gt; of 2008&lt;/h1&gt;
-      &lt;time datetime="Tue, 26 Mar 2024 21:30:00 CDT"&gt;26 Mar 2024, 9:30 PM&lt;/time&gt;
+      &lt;time datetime="Tue, 26 Mar 2024 21:30:00 CDT"&gt;26 March 2024, 9:30 PM&lt;/time&gt;
       &lt;p&gt;
         &lt;a href="https://album.link/s/4pLVvQiysxBwbUuSB3ceQv"&gt;&lt;i&gt;Hats&lt;/i&gt;&lt;/a&gt; by The Blue Nile is a perfect album, in some ways.
         The description “mournful city soundscape” only sounds generic until you hear how well it fits the bill.
@@ -49,4 +92,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/2008.html</guid><pubDate>Tue, 26 Mar 2024 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/2008.html</guid></item></channel></rss>
