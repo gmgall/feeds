@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Tue, 10 Sep 2024 18:16:33 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Wed, 11 Sep 2024 00:56:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -2651,97 +2651,4 @@ END
 &lt;p&gt;You can leave a comment by emailing lettuce at the current domain.&lt;/p&gt;
 
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/top-20-21-2021.html</guid><pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate></item><item><title>constraints.html</title><link>https://ctrl-c.club/~lettuce/constraints.html</link><description>&lt;div&gt;&lt;h1&gt;Creative Constraints&lt;/h1&gt;
-
-&lt;p&gt;2021-01-05&lt;/p&gt;
-
-&lt;p&gt;I'm in the process of playing Infinifactory, a 2015 puzzle game from Zachtronics games. So far I love it. In the game, you've been captured by aliens and are forced to build factories of complex objects using basic element blocks, conveyor belts, sensors and such. The game does a lot with very little. Levels are minimal environments with a few starting blocks and some available tools for the player to build the puzzle solution. I highly recommend it. But that's not the focus of this post. One night before bed I read Zach-like: A  History of Game Design [1] , a compendium of notes, design documents and sketches from the game design career of Zach Barth, director of Zachtronics.&lt;/p&gt;
-
-&lt;p&gt;In the book Zach writes about the time after he shipped Infinifactory; he decided to bootstap a computer from scratch, starting with development tools and working up to an operating system. He has headings in the write-up on Our Backgrounds, Project Goals. Between his goals and the section on his Pandora Playlist he lists Project Rules.&lt;/p&gt;
-
-&lt;blockquote&gt;Like everything I do, this project needs arbitrary, self-imposed rules&lt;/blockquote&gt;
-
-&lt;p&gt;He goes on to list them, and I think they're interesting, but I'm not as concerned here with the specifics as much as the main idea that that constraint breeds innovation. It may seem obvious when so clearly stated, but I know personally it's an idea I frequently forget. If we agree that constraint helps place a context and restricted choice aids in focusing our creativity, there is an obvious question as to how to choose those constraints. One of the things I love in Zach's phrase was the use of the word "abitrary." In other words, there isn't a logical decision-making progress but instead an ad-hoc selection. A bodily incorporal selection or a hunch, no doubt. Humans are not logic machines: why shouldn't an arbitrary series of rules produce great creativity?&lt;/p&gt;
-
-&lt;p&gt;When I try to create a game in Unity, I've noticed my own tendency to get overwhelmed. For this reason, I started using smaller game design tools. I've written a previous post on the constraints of PuzzleScript and my love for it. [2]&lt;/p&gt;
-
-&lt;p&gt;I've also found myself gravitating to writing in Markdown and Gem-text, using CLI programs more than graphical ones. So it's with pleasure that I recount some of my favorite tools or constraint systems.&lt;/p&gt;
-
-&lt;h2&gt;Some examples of constrained design systems:&lt;/h2&gt;
-
-&lt;h3&gt;the Pico-8 fantasy console&lt;/h3&gt;
-
-&lt;p&gt;The Pico-8 console is a pseudo-1980s console system with limited screensize, pixel drawing program to create sprites, limited code editor, sound creator, sequencer, map editor.[3] It is designed as a cohesive system that specifically limits the scope of what you can create in order to allow you to concentrate on your ideas and go from idea to exececution swiftly.&lt;/p&gt;
-
-&lt;p&gt;You code in a limited form of Lua, and all parts are integrated together. It's a beautiful way to make a small game project.&lt;/p&gt;
-
-&lt;h3&gt;Dogme 95 Vow of Chastity&lt;/h3&gt;
-
-&lt;p&gt;Dogme 95 was a Danish film movement (dogme means dogma in danish) created as a manifesto with "Vows of Chastity" by Lars von Trier and Thomas Vinterberg.[4] The vows were rules selected to focus on straightforward storytelling and acting without using special effects or technology.&lt;/p&gt;
-
-&lt;p&gt;The first three vows:&lt;/p&gt;
-
-&lt;p&gt;1. Shooting must be done on location. Props and sets must not be brought.&lt;/p&gt;
-&lt;p&gt;2. The sound must never be produced apart from the images or vice versa.&lt;/p&gt;
-&lt;p&gt;3. The camera must be hand-held.&lt;/p&gt;
-
-&lt;p&gt;There are more vows and a postscript and according to the filmmakers they wrote it in about 45 minutes. &lt;/p&gt;
-
-&lt;h3&gt;Uxn and the Varvara computer&lt;/h3&gt;
-
-&lt;p&gt;Uxn is a virtual machine and ecosystem created by Hundred Rabbits. It is a 8bit virtual computer, influenced by Forth machines, programmed in its own Assembly language instruction set. It provides an underlying core for the Varvara computer.&lt;/p&gt;
-
-&lt;blockquote&gt;With only 64kb of memory, it will never run Chrome, TensorFlow or a blockchain. It sucks at doing most modern computing, but itâs also sort of the point. It's more about finding what new things could be made in such a small system. [5]&lt;/blockquote&gt;
-
-&lt;h3&gt;Towards Minimalist Game Design&lt;/h3&gt;
-
-&lt;p&gt;An academic design methodology by game designers Andy Nealen, Adam Saltsman, Eddy Boxerman [6]&lt;/p&gt;
-
-&lt;blockquote&gt;Minimalist games have small rulesets, narrow decision spaces, and abstract audiovisual representations, yet they do not compromise on depth of play or possibility space. We begin with a motivation for and definition of minimalist games, including terms such as "rules," "mechanics," "control," and "interface," and illustrate the importance of artificial design constraints. &lt;/blockquote&gt;
-
-&lt;h3&gt;Micro Fiction Games Jam&lt;/h3&gt;
-
-&lt;p&gt;Created and hosted by James Chip, Micro Fiction Games Jam has now been held two years in a row [7].&lt;/p&gt;
-
-&lt;blockquote&gt;By very short format games what we mean is any game (ttrpg, larp, tabletop...) that will fit entirely in a single tweet (280 characters). Games must be actionable! once someone has read the game text they should be able to infer how the game is played and be able to go ahead and play it.&lt;/blockquote&gt;
-
-&lt;p&gt;One of my new favorite things to look forward to each year. I participated with two entries (under two different pseudonyms :) the first year, and didn't participate the second year but have tried several out.&lt;/p&gt;
-
-&lt;h3&gt;Disquiet Junto&lt;/h3&gt;
-
-&lt;p&gt;Every week for the past decade Marc Weidenbaum has sent out on Thursdays his weekly Disquiet Junto emails, a recipe, rules to be used to create a piece of experimental music. [8] Participants who elect to participate follow the rules, create a short 1-3 minute piece of music, and upload somewhere on the internet and link to it from a discussion forum. The short prompt provide the arbitrary conditions to spark an idea and allow creation to blossom.&lt;/p&gt;
-
-&lt;h3&gt;why_small?&lt;/h3&gt;
-
-&lt;p&gt;Why small? is an essay/game about the creator coleo_kin (Em Reed)'s "interest in small things." It's created in Bitsy, its own constrained adventure game-making tool. &lt;/p&gt;
-
-&lt;h3&gt;Many more examples&lt;/h3&gt;
-
-&lt;p&gt;Of course, there are many more examples. Several months out of the year I particpate in one-a-day projects (like inktober or noisevember as just two examples, along with my PuzzleScript-a-day in December). &lt;/p&gt;
-
-&lt;p&gt;I think this listing and realization of the importance of constraint will be a helpful tool for me in this new year. As I work on projects and embark on new ones, I am setting an intent to consider arbitrary or intentionally-selected constraints and use these to focus my energy, excitement and creativity.&lt;/p&gt;
-
-
-&lt;p&gt;&lt;a href="https://zachtronics.itch.io/zach-like"&gt;Zach-like (itch.io)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="../puzzlescript.html"&gt;Building Gameworlds in PuzzleScript&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://www.lexaloffle.com/pico-8.php"&gt;Pico-8&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="http://www.dogme95.dk/dogma-95/"&gt;Dogma 95 - The Manifest&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://wiki.xxiivv.com/site/uxn.html"&gt;Uxn&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://nyuscholars.nyu.edu/en/publications/towards-minimalist-game-design"&gt;Towards Minimalist Game Design&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://microfictiongames.neocities.org/"&gt;Micro Fiction Games Jam&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://disquiet.com/2013/04/25/disquiet-junto-faq/"&gt;Disquiet Junto FAQ&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href="https://coleo_kin.itch.io/why-small"&gt;why small? bitsy game/essay&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;You can write a comment by emailing it directly to lettuce at the current url.&lt;/p&gt;
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/constraints.html</guid><pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/top-20-21-2021.html</guid><pubDate>Wed, 05 Jan 2022 00:00:00 GMT</pubDate></item></channel></rss>
