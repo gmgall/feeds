@@ -1,5 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~timemachine posts on ctrl-c.club</title><link>https://ctrl-c.club/~timemachine/archives/</link><description>Writing</description><language>en-US</language><lastBuildDate>Wed, 02 Oct 2024 00:59:03 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Code Review: Axios</title><link>http://ctrl-c.club/~timemachine/2020/10/24/code-review-axios/index.html</link><description>&lt;article class="post"&gt;
+<rss version="2.0"><channel><title>~timemachine posts on ctrl-c.club</title><link>https://ctrl-c.club/~timemachine/archives/</link><description>Writing</description><language>en-US</language><lastBuildDate>Wed, 02 Oct 2024 06:18:54 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>LetsEncrypt with Stingy cPanel Hosts</title><link>http://ctrl-c.club/~timemachine/2024/10/01/LetsEncrypt-with-Stingy-cPanel-Hosts/index.html</link><description>&lt;article class="post"&gt;
+  &lt;header&gt;
+    
+    &lt;h1 class="posttitle"&gt;
+        LetsEncrypt with Stingy cPanel Hosts
+    &lt;/h1&gt;
+
+
+
+    &lt;div class="meta"&gt;
+      &lt;span class="author"&gt;
+        &lt;span&gt;An abridged history of computer programming&lt;/span&gt;
+      &lt;/span&gt;
+      
+    &lt;div class="postdate"&gt;
+      
+        &lt;time datetime="2024-10-02T00:49:56.000Z"&gt;2024-10-01&lt;/time&gt;
+        
+      
+    &lt;/div&gt;
+
+
+      
+
+      
+
+    &lt;/div&gt;
+  &lt;/header&gt;
+  
+
+  &lt;div class="content"&gt;
+    &lt;h2 id="Part-1-An-old-enemy"&gt;&lt;a href="#Part-1-An-old-enemy" class="headerlink" title="Part 1: An old enemy"&gt;&lt;/a&gt;Part 1: An old enemy&lt;/h2&gt;&lt;p&gt;I did the cheapest, most obnoxious thing â¦ I bought domain hosting from a Domain Name Registrar. Virtual Hosts, puke.&lt;/p&gt;
+&lt;p&gt;It was weakness, really. I have a side project that Iâm working on and needed a brochure site to sell it (more on this in the coming weeks). I know HTML so I slung together some bootstrap nonsense and went domain name hunting. Found a good name too, some real &lt;em&gt;dot-com top-level stuff&lt;/em&gt;. Needed some place to squat it and some static web hosting. My registrar had a deal, 12 months of hosting for a few extra bucks â¦ what is the worst that can happen? Well Iâll tell you!&lt;/p&gt;
+&lt;p&gt;The VHost stood up very quickly. Then there was this big, grey button of doom and dread in the middle of the screen, âLAUNCH CPANEL.â All caps. My stomach sank at the word: &lt;em&gt;cPanel&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I use to work with cPanel on the daily back in the 1990s. I worked for a now defunct hosting company manning the racks. We had 20 co-lo racks with 8 to 10 servers per rack and about 40 or so dell PowerEdge desktop units free standing on gorilla racks behind my cubicle. All running Apache and cPanel.&lt;/p&gt;
+&lt;p&gt;That job was like painting an aircraft carrier. Took so long to update the os security patches on all the servers that as soon as you finished it was time to start over. Ansible and Chef&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;&lt;span class=""&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; where not realities, just crash carts&lt;sup id="fnref:2"&gt;&lt;a href="#fn:2" rel="footnote"&gt;&lt;span class=""&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; and bash scripts.&lt;/p&gt;
+&lt;p&gt;I wore a headset attached to a wireless phone, &lt;em&gt;ring ring&lt;/em&gt; âNetwork Ops, whatâs down?â&lt;/p&gt;
+&lt;p&gt;âYou ran a perl script you found on usenet and now your server is wedged? That shouldnât happenâ¦oh you ran it as root. OK, let me see if I can get it. Nope ssh isnât running anymoreâ¦I can plug into it, what is your security phrase? Of course you donât know it. Should be in an email you got when you signed upâ¦oh the stuck server has your webmail on it? I canât unlock your rack without the security phraseâ¦oh I see, yeah you can call my boss. Iâm sure he remembers you. Iâm sure he will answer your call at 10pm on a Friday.â &lt;em&gt;click&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;ring ring&lt;/em&gt; âNetwork Ops, whatâs down? Hello againâ¦remember that security phrase?â Five years of the same battleship grey.&lt;/p&gt;
+&lt;h2 id="Part-2-Least-significant-security"&gt;&lt;a href="#Part-2-Least-significant-security" class="headerlink" title="Part 2: Least significant security"&gt;&lt;/a&gt;Part 2: Least significant security&lt;/h2&gt;&lt;p&gt;&lt;a target="_blank" rel="noopener" href="https://letsencrypt.org/"&gt;Letâs Encrypt&lt;/a&gt; is a free SSL/TLS certificate issuing authority. Those certs are the ones that make the little lock show up in your web browserâs location bar. These days, if you try to access a website thatâs doesnât have a valid cert you get an error about that the site you are visiting being &lt;em&gt;dangerous&lt;/em&gt;. I guess thatâs true.&lt;/p&gt;
+&lt;p&gt;If you are taking credit card payments on a web site, Letâs Encrypt shouldnât be your first option. By using their certificates you have to hold them harmless in the event their security is comprized and a bad actor sniffs your siteâs traffic and stealâs your customerâs identity.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If you are collecting personal information on the internet alway make sure there is someone else to sue.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;But Iâm not making that kind of web site. So a free cert is all Iâm going to pay for.&lt;/p&gt;
+&lt;p&gt;I googledâ¦There is a &lt;a target="_blank" rel="noopener" href="https://docs.cpanel.net/knowledge-base/third-party/the-lets-encrypt-plugin/"&gt;cPanel plugin&lt;/a&gt; for fetching a cert from Letâs Encrypt. Easy!&lt;/p&gt;
+&lt;p&gt;Oh wait I forgot to mention: my Domain Name Registrar, now Hosting Provider, also sells SSL certificates. Of course they didnât install the plugin to allow their customers to get a freebie. Weâre gonna have to do it the hard way.&lt;/p&gt;
+&lt;h2 id="Part-3-Asshole-deep-in-alligators"&gt;&lt;a href="#Part-3-Asshole-deep-in-alligators" class="headerlink" title="Part 3: Asshole deep in alligators"&gt;&lt;/a&gt;Part 3: Asshole deep in alligators&lt;/h2&gt;&lt;p&gt;At its core, cPanel is a bunch of perl code that makes managing virtual hostâs a point an click adventure. It runs on top of the Apache web server and generates configuration files for &lt;a target="_blank" rel="noopener" href="https://httpd.apache.org/"&gt;Apache&lt;/a&gt;, &lt;a target="_blank" rel="noopener" href="https://www.php.net/"&gt;PHP&lt;/a&gt;, &lt;a target="_blank" rel="noopener" href="https://mariadb.org/"&gt;MySQL&lt;/a&gt;, &lt;a target="_blank" rel="noopener" href="https://www.php.net/"&gt;Roundcube&lt;/a&gt;, &lt;a target="_blank" rel="noopener" href="https://linux.die.net/man/5/crontab"&gt;cron&lt;/a&gt;, &lt;a target="_blank" rel="noopener" href="https://linux.die.net/man/8/named"&gt;named(8)&lt;/a&gt; and &lt;a target="_blank" rel="noopener" href="https://linux.die.net/man/2/bind"&gt;bind&lt;/a&gt;. There are also a bunch of installers for Wordpress, Joomla, phpBB, and that short of shovel-ware. We will get back to thisâ¦&lt;/p&gt;
+&lt;p&gt;Letâs Encrypt has a command line application you can install, called &lt;em&gt;certbot&lt;/em&gt;. It is a nice piece of kit. You tell certbot what domain you own and the web root on the server for that domain (&lt;code&gt;/var/www/&lt;/code&gt; or there about). Then the certbot creates a file inside a known location on the public facing side or your domain and tells the Letâs Encrypt system to look for it. So if you own &lt;code&gt;example.com&lt;/code&gt;, certbot makes a file at &lt;code&gt;http://example.com/.well-known/acme-challenge&lt;/code&gt;. There is a hash in that file that only certbot and Letâs Encrypt know, and agree on. If the remote Letâs Encrypt server sees the right hash at the url, then they know you own the domain. So they issue you the certificate.&lt;/p&gt;
+&lt;p&gt;Certbot then installs the cert on the server, restarts the httpd service, and finally registers a &lt;em&gt;cron&lt;/em&gt; job to check back every few days to keep the cert up-to-date (they expire after 3 months).&lt;/p&gt;
+&lt;p&gt;Unfortunately, certbot wants to be installed and run as root. Which is fine, it is going to restart services on the host, it needs escalated privileges. But this is a shared host, I ainât got no root access. &lt;/p&gt;
+&lt;p&gt;There are non-root ways to use the Letâs Encrypt system. I could, for example, run certbot on my local desktop. It will tell me the secret code to upload to the website and then spit out the certificates for me to install by handâ¦Or I could create a &lt;code&gt;TXT&lt;/code&gt; record in the DNS entries for the site install the cert by handâ¦every 3 months. Iâm sure Iâll never forget. No risk of a potential customer going to my site and seeing that &lt;em&gt;using this website will cause identity theft and your credit score will instantly go into the single digit range&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I know how certbot orchestrates generating the TLS certifications, the protocol is called ACME. And I can get dangerous with cPanel. So I take a deep breath and dive in.&lt;/p&gt;
+&lt;h2 id="Part-4-Hack-and-slash-solutions"&gt;&lt;a href="#Part-4-Hack-and-slash-solutions" class="headerlink" title="Part 4: Hack and slash solutions"&gt;&lt;/a&gt;Part 4: Hack and slash solutions&lt;/h2&gt;&lt;p&gt;I need a non-root ACME client that runs in a language that I have available on the vhost. &lt;a target="_blank" rel="noopener" href="https://letsencrypt.org/docs/client-options/"&gt;There is a list of recommendations on the Letâs Encrypt site&lt;/a&gt;. I picked a php script called &lt;a target="_blank" rel="noopener" href="https://letsencrypt.org/docs/client-options/"&gt;acme-client.phar&lt;/a&gt; (&lt;em&gt;phar&lt;/em&gt; is the PHp ARchive format). I used FTP (file transfer protocol) to ship the phar and a Yaml config to the server and ran it. How did I run it? &lt;/p&gt;
+&lt;p&gt;I used cPanelâs &lt;em&gt;crontab&lt;/em&gt; editor to run it, of course. &lt;/p&gt;
+&lt;p&gt;Cron letâs you run scripts on a schedule. For example, &lt;em&gt;back up the database every morning at 1am&lt;/em&gt;. You just need to know the command, and cPanel has a fancy interface to copy/paste and configure those commands to run.  &lt;/p&gt;
+&lt;p&gt;I created an entry in cron to run at &lt;em&gt;3 minutes after I made the entry&lt;/em&gt; and then deleted it. So it was like I was logged into the console, only harder.&lt;/p&gt;
+&lt;p&gt;The entry looked like this:&lt;/p&gt;
+&lt;figure class="highlight plaintext"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;33 * * * * /usr/local/bin/php -d display_errors=on $HOME/bin/acme-client.phar &amp;gt;&amp;gt; $HOME/logs/cert_renew.log&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;The vhost had phpâs configuration set to not show errors (known source of vulnerabilities) so I fixed that with, &lt;code&gt;-d display_errors=on&lt;/code&gt;. Then I have the output logged to a file I can download and debug, or confirm that it worked.&lt;/p&gt;
+&lt;p&gt;Here is the Yaml config for acme-client.phar:&lt;/p&gt;
+&lt;figure class="highlight yaml"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;16&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;&lt;span class="attr"&gt;storage:&lt;/span&gt; &lt;span class="string"&gt;~/ssl/&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="attr"&gt;server:&lt;/span&gt; &lt;span class="string"&gt;letsencrypt&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="attr"&gt;email:&lt;/span&gt; &lt;span class="string"&gt;me@exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="attr"&gt;certificates:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;    &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="attr"&gt;rekey:&lt;/span&gt; &lt;span class="literal"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;        &lt;span class="attr"&gt;paths:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;        &lt;span class="string"&gt;~/public_html:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;mail.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;www.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;cpanel.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;webmail.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;webdisk.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;cpcontacts.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;cpcalendars.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;                &lt;span class="bullet"&gt;-&lt;/span&gt; &lt;span class="string"&gt;autodiscover.exmaple.com&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Worked sweet! Now I have a bundle of SSL/TLS &lt;em&gt;pem&lt;/em&gt; files that prove I own the domain. All I need to do now is &lt;em&gt;not&lt;/em&gt; install them by hand!&lt;/p&gt;
+&lt;h2 id="Part-5-Iâll-let-myself-in"&gt;&lt;a href="#Part-5-I%C3%A2%C2%80%C2%99ll-let-myself-in" class="headerlink" title="Part 5: Iâll let myself in"&gt;&lt;/a&gt;Part 5: Iâll let myself in&lt;/h2&gt;&lt;p&gt;There is another cPanel plugin that lets you configure your certificates. Basically some big text boxes in the browser for you copy/paste the bundle from your supplier. Not a big deal if you buy the cert from the hosting company because the ones you pay for usually donât expire for 1 to 3 years. &lt;/p&gt;
+&lt;p&gt;If cPanel has a plugin for it there is an API for it. Cold truth. After all, it is just a trash heap of perl and php scripts. &lt;a target="_blank" rel="noopener" href="https://api.docs.cpanel.net/openapi/cpanel/operation/install_ssl/"&gt;This&lt;/a&gt; is true for the tools that install ssl certs. The command loads the certificate, makes an entry in the Apache config for your virtual host, and restarts the server. Just like certbot would have :)&lt;/p&gt;
+&lt;p&gt;Here is another script for you to run from cron that calls the cPanel command to install those ill-gotten certificates:&lt;/p&gt;
+&lt;figure class="highlight php"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;18&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;&lt;span class="meta"&gt;&amp;lt;?php&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="keyword"&gt;print&lt;/span&gt; &lt;span class="string"&gt;"Copying certificates to cPanel\n"&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$storage&lt;/span&gt; = &lt;span class="variable"&gt;$_SERVER&lt;/span&gt;[&lt;span class="string"&gt;'HOME'&lt;/span&gt;] . &lt;span class="string"&gt;"/ssl/certs/acme-v02.api.letsencrypt.org.directory/"&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$url&lt;/span&gt; = &lt;span class="string"&gt;"example.com"&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$cert&lt;/span&gt; = &lt;span class="title function_ invoke__"&gt;file_get_contents&lt;/span&gt;(&lt;span class="variable"&gt;$storage&lt;/span&gt; . &lt;span class="variable"&gt;$url&lt;/span&gt; . &lt;span class="string"&gt;"/cert.pem"&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$key&lt;/span&gt; = &lt;span class="title function_ invoke__"&gt;file_get_contents&lt;/span&gt;(&lt;span class="variable"&gt;$storage&lt;/span&gt; . &lt;span class="variable"&gt;$url&lt;/span&gt; . &lt;span class="string"&gt;"/key.pem"&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="keyword"&gt;if&lt;/span&gt; (&lt;span class="variable"&gt;$cert&lt;/span&gt; === &lt;span class="literal"&gt;false&lt;/span&gt; || &lt;span class="variable"&gt;$key&lt;/span&gt; === &lt;span class="literal"&gt;false&lt;/span&gt;) {&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;    &lt;span class="keyword"&gt;print&lt;/span&gt; &lt;span class="string"&gt;"Error reading certificate or key file\n"&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;    &lt;span class="keyword"&gt;exit&lt;/span&gt;(&lt;span class="number"&gt;1&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$cert&lt;/span&gt; = &lt;span class="title function_ invoke__"&gt;urlencode&lt;/span&gt;(&lt;span class="variable"&gt;$cert&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$key&lt;/span&gt; = &lt;span class="title function_ invoke__"&gt;urlencode&lt;/span&gt;(&lt;span class="variable"&gt;$key&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="variable"&gt;$response&lt;/span&gt; = `uapi --output=jsonpretty SSL install_ssl domain=&lt;span class="string"&gt;'$url'&lt;/span&gt; cert=&lt;span class="string"&gt;'$cert'&lt;/span&gt; key=&lt;span class="string"&gt;'$key'&lt;/span&gt;`;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="keyword"&gt;print&lt;/span&gt; &lt;span class="string"&gt;"Done\n\n &lt;span class="subst"&gt;$response&lt;/span&gt;\n"&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;The last detail is making a final cron job to renew the certificate once a month:&lt;/p&gt;
+&lt;figure class="highlight bash"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;11&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;&lt;span class="meta"&gt;#!/usr/bin/env bash&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;  &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="built_in"&gt;export&lt;/span&gt; PATH=&lt;span class="string"&gt;'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;php -d display_errors=on &lt;span class="variable"&gt;$HOME&lt;/span&gt;/bin/acme-client.phar &amp;gt;&amp;gt; &lt;span class="variable"&gt;$HOME&lt;/span&gt;/logs/cert_renew.log&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;RC=$?&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="keyword"&gt;if&lt;/span&gt; [ &lt;span class="variable"&gt;$RC&lt;/span&gt; = 4 ] || [ &lt;span class="variable"&gt;$RC&lt;/span&gt; = 5 ]; &lt;span class="keyword"&gt;then&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;  php -d display_errors=on &lt;span class="variable"&gt;$HOME&lt;/span&gt;/bin/install_certs.php &amp;gt;&amp;gt; &lt;span class="variable"&gt;$HOME&lt;/span&gt;/logs/cert_renew.log&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;span class="keyword"&gt;fi&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;The lengths and determination I take to save $100â¦ thanks for reading.&lt;/p&gt;
+&lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;Tools for automating and distributing tasks across clusters of servers. Ansible was released in 2012. Chef in 2009, well over a decade before my days running Yum commands in ssh terminals.&lt;/p&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;Crash cart&lt;/em&gt; is a piece of server room furniture. Usually a double decker table on wheels. On the top tier is a monitor, key board, and mouse for plugging into the a server and getting direct console access. Useful for when the machine is so broken it wonât accept connections over the network. The second shelf if home to network cables, a spare battery for the wireless phone, a tool bag to dismantle the server, and 5 or more empty diet coke cans. &lt;strong&gt;No food or drink in the server room!&lt;/strong&gt;&lt;/p&gt;
+&lt;a href="#fnref:2" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+
+
+        
+          </description><author>Timemachine</author><guid isPermaLink="true">https://ctrl-c.club/~timemachine/2024/10/01/LetsEncrypt-with-Stingy-cPanel-Hosts/</guid><pubDate>Tue, 01 Oct 2024 00:00:00 GMT</pubDate></item><item><title>Code Review: Axios</title><link>http://ctrl-c.club/~timemachine/2020/10/07/code-review-axios/index.html</link><description>&lt;article class="post"&gt;
   &lt;header&gt;
     
     &lt;h1 class="posttitle"&gt;
@@ -15,7 +98,7 @@
       
     &lt;div class="postdate"&gt;
       
-        &lt;time datetime="2020-10-24T16:43:00.000Z"&gt;2020-10-24&lt;/time&gt;
+        &lt;time datetime="2020-10-08T02:49:11.000Z"&gt;2020-10-07&lt;/time&gt;
         
       
     &lt;/div&gt;
@@ -434,9 +517,8 @@ awful.&lt;/p&gt;
 &lt;p&gt;I have included additional action items in some of the footnotes and will update
 them with links to any pull requests that result so that the reader can stay
 abreast of my contributions.&lt;/p&gt;
-&lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;a target="_blank" rel="noopener" href="https://github.com/axios/axios/pull/3401"&gt;PR: Update dev dependencies
-  #3401&lt;/a&gt;&lt;/p&gt;
-&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;a target="_blank" rel="noopener" href="https://github.com/axios/axios/pull/3364"&gt;PR: Remove the skipping test&lt;/a&gt;&lt;/p&gt;
+&lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Update dependants; open PR.&lt;/p&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Pull request, re-adding the skipped test.&lt;/p&gt;
 &lt;a href="#fnref:2" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:3"&gt;&lt;span&gt;3.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;bad turn&lt;/em&gt; is when the browser/server/applicationâs event loop becomes
   blocked. When blocked the application will become unresponsive for some period
   of time until the block clears.&lt;/p&gt;
@@ -454,7 +536,165 @@ abreast of my contributions.&lt;/p&gt;
 
 
         
-          </description><author>Timemachine</author><category>Programming</category><category>JavaScript</category><category>Code Review</category><guid isPermaLink="true">https://ctrl-c.club/~timemachine/2020/10/24/code-review-axios/</guid><pubDate>Sat, 24 Oct 2020 00:00:00 GMT</pubDate></item><item><title>Securing SSH Keys on Shared Hosts</title><link>http://ctrl-c.club/~timemachine/2020/09/14/ssh-forward-agent/index.html</link><description>&lt;article class="post"&gt;
+          </description><author>Timemachine</author><category>Programming</category><category>JavaScript</category><category>Code Review</category><guid isPermaLink="true">https://ctrl-c.club/~timemachine/2020/10/07/code-review-axios/</guid><pubDate>Wed, 07 Oct 2020 00:00:00 GMT</pubDate></item><item><title>Adding Gitea To My Raspberry Pi</title><link>http://ctrl-c.club/~timemachine/2020/09/24/adding-gitea-to-my-rasberry-pi/index.html</link><description>&lt;article class="post"&gt;
+  &lt;header&gt;
+    
+    &lt;h1 class="posttitle"&gt;
+        Adding Gitea To My Raspberry Pi
+    &lt;/h1&gt;
+
+
+
+    &lt;div class="meta"&gt;
+      &lt;span class="author"&gt;
+        &lt;span&gt;An abridged history of computer programming&lt;/span&gt;
+      &lt;/span&gt;
+      
+    &lt;div class="postdate"&gt;
+      
+        &lt;time datetime="2020-09-24T13:36:10.000Z"&gt;2020-09-24&lt;/time&gt;
+        
+      
+    &lt;/div&gt;
+
+
+      
+
+      
+    &lt;div class="article-tag"&gt;
+        &lt;i class="fas fa-tag"&gt;&lt;/i&gt;
+        &lt;a class="tag-link-link" href="/~timemachine/tags/Raspberry-Pi/" rel="tag"&gt;Raspberry-Pi&lt;/a&gt;, &lt;a class="tag-link-link" href="/~timemachine/tags/git/" rel="tag"&gt;git&lt;/a&gt;
+    &lt;/div&gt;
+
+
+    &lt;/div&gt;
+  &lt;/header&gt;
+  
+
+  &lt;div class="content"&gt;
+    &lt;h2 id="Background"&gt;&lt;a href="#Background" class="headerlink" title="Background"&gt;&lt;/a&gt;Background&lt;/h2&gt;&lt;p&gt;I recently set up a Raspberry Pi to run pi-hole on my network. It works great.
+The specific Pi I used is a Raspberry Pi 3 Model B. Running Pi-hole is not
+resource intensive. To get get more out of the device, Iâm going to add an
+installation of &lt;a target="_blank" rel="noopener" href="https://gitea.io/"&gt;Gitea&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="Hardware"&gt;&lt;a href="#Hardware" class="headerlink" title="Hardware"&gt;&lt;/a&gt;Hardware&lt;/h2&gt;&lt;p&gt;In addition to the Raspberry Pi, Iâm plugging in a 4Tb external hard drive.
+This will give my family a solid amount of network storage for backups (Time
+Machine / Duplicity).&lt;/p&gt;
+&lt;p&gt;I have decided to use full disk encryption. I like the added security on
+the device, but there are some drawbacks. Most importantly, the disk can not be
+auto-mounted when the Pi boots. A user must supply the password to decrypt the
+disk before it is mounted.&lt;/p&gt;
+&lt;p&gt;Alternatives to full disk encryption are available:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Both Time Machine and Duplicity can encrypt their backup folders&lt;/li&gt;
+&lt;li&gt;Git repos can be encrypted at rest with these projects&lt;ul&gt;
+&lt;li&gt;&lt;a target="_blank" rel="noopener" href="https://github.com/AGWA/git-crypt"&gt;https://github.com/AGWA/git-crypt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a target="_blank" rel="noopener" href="https://github.com/spwhitton/git-remote-gcrypt"&gt;https://github.com/spwhitton/git-remote-gcrypt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="Mounting-the-Hard-Drive"&gt;&lt;a href="#Mounting-the-Hard-Drive" class="headerlink" title="Mounting the Hard Drive"&gt;&lt;/a&gt;Mounting the Hard Drive&lt;/h3&gt;&lt;p&gt;&lt;code&gt;/dev/disks/&lt;/code&gt; has helpful symlinks to help you locate your usb attached devices:&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;pi@pi-hole:/media $ ls -la /dev/disk/by-path/&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;total 0&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;drwxr-xr-x 2 root root 140 Sep 24 19:05 .&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;drwxr-xr-x 7 root root 140 Sep 22 22:52 ..&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;lrwxrwxrwx 1 root root  13 Sep 22 22:52 platform-3f202000.mmc -&amp;gt; ../../mmcblk0&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;lrwxrwxrwx 1 root root  15 Sep 22 22:52 platform-3f202000.mmc-part1 -&amp;gt; ../../mmcblk0p1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;lrwxrwxrwx 1 root root  15 Sep 22 22:52 platform-3f202000.mmc-part2 -&amp;gt; ../../mmcblk0p2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;lrwxrwxrwx 1 root root   9 Sep 24 19:05 platform-3f980000.usb-usb-0:1.5:1.0-scsi-0:0:0:0 -&amp;gt; ../../sda&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;lrwxrwxrwx 1 root root  10 Sep 24 19:05 platform-3f980000.usb-usb-0:1.5:1.0-scsi-0:0:0:0-part1 -&amp;gt; ../../sda1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;The last file in the listing is my drive, &lt;code&gt;/dev/sda1&lt;/code&gt;. I need to add the
+&lt;code&gt;cryptsetup&lt;/code&gt; package to unlock the hard drive before it is mounted.&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;$ sudo apt install cryptsetup&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo cryptsetup open /dev/sda1 storage&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo mkdir /media/storage&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo chown -R pi:pi /media/storage&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo mount /dev/mapper/storage /media/storage &lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Note, to unmount the disk: &lt;code&gt;sudo umount /media/storage&lt;/code&gt; only removes the mount
+point, you also need to close the luks mapper: &lt;code&gt;sudo cryptsetup close storage&lt;/code&gt; &lt;/p&gt;
+&lt;p&gt;As described above, We can not use &lt;code&gt;fstab&lt;/code&gt; to auto-mount this drive. Instead, Iâll place a script
+in my userâs home directory to decrypt and mount the drive.&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;#!/bin/bash -e&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;cryptsetup open /dev/disk/by-uuid/f623a6e2-ea38-4f82-882a-c9823b53f0cf storage&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;mount /dev/mapper/storage /media/storage&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;echo "Done!"&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Here I used another helper from &lt;code&gt;/dev/disk&lt;/code&gt; to mount by the hard driveâs UUID.
+This ensures that if I add a second drive, in the future, I do not need worry
+about which the kernel finds first and assigns to &lt;code&gt;sda1&lt;/code&gt; or &lt;code&gt;sdb1&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="Proxy-Config"&gt;&lt;a href="#Proxy-Config" class="headerlink" title="Proxy Config"&gt;&lt;/a&gt;Proxy Config&lt;/h2&gt;&lt;p&gt;Pi-hole includes Lighttpd to serve itâs web pages.  Conveniently, Lighttpd
+includes &lt;code&gt;mod_proxy&lt;/code&gt; to allow the web server to act as a reverse proxy. Giteaâs
+web server (written in Go, by-the-way) defaults to listening at port 3000. The
+next step is to make a new configuration for forwarding requests by host name.&lt;/p&gt;
+&lt;p&gt;Pi-holeâs http config is in the default Lighttpd location
+&lt;code&gt;/etc/lighttpd/lighttpd.conf&lt;/code&gt;. There is an include statement in the config that
+reads files in &lt;code&gt;/etc/lighttpd/conf-enabled/&lt;/code&gt;. The &lt;code&gt;conf-enabled&lt;/code&gt; directory is
+comprised of symlinks to &lt;code&gt;../conf-available&lt;/code&gt;. &lt;/p&gt;
+&lt;p&gt;Make a new file &lt;code&gt;/etc/lighttpd/conf-available/50-gitea.conf&lt;/code&gt;:&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;server.modules += ( "mod_proxy" ) &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt; &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$HTTP["host"] == "vox.localnetwork" { &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;    proxy.server = ( &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;        "" =&amp;gt; ( &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;            ( "host" =&amp;gt; "localhost", "port" =&amp;gt; "3000" ) &lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;        )&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;    )&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;}&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;This configuration loads the proxy module, defines a new host name:
+&lt;code&gt;vox.localnetwork&lt;/code&gt;, and finally tells the server to redirect (proxy) requests
+to &lt;code&gt;localhost:3000&lt;/code&gt;.  &lt;/p&gt;
+&lt;p&gt;Create symlink, test the config changes, and restart Lighttpd:&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;$ sudo ln -s /etc/lighttpd/conf-available/50-gitea.conf /etc/lighttpd/conf-enabled/50-gitea.conf&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo lighttpd -tt -f /etc/lighttpd/lighttpd.conf&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;$ sudo systemctl restart lighttpd&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;Checking in the browser, Pi-hole is still listening. While we are in the
+pi-hole admin letâs setup the DNS services in Pi-hole to bind the url to the
+Raspberry Piâs static IP address.  Log into &lt;a target="_blank" rel="noopener" href="http://pi.hole/"&gt;http://pi.hole&lt;/a&gt; and click &lt;code&gt;Local DNS Records&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/~timemachine/images/pi-hole-config.png" alt="Local DNS Records"&gt;&lt;/p&gt;
+&lt;p&gt;This setting will forward all requests on my LAN for url &lt;code&gt;vox.localnetwork&lt;/code&gt;
+&lt;sup id="fnref:1"&gt;&lt;a href="#fn:1" rel="footnote"&gt;&lt;span class=""&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; to the Raspberry Pi.&lt;/p&gt;
+&lt;h2 id="Gitea-Install"&gt;&lt;a href="#Gitea-Install" class="headerlink" title="Gitea Install"&gt;&lt;/a&gt;Gitea Install&lt;/h2&gt;&lt;p&gt;Raspberry Pi 3 has an ARM7 processor. At the time of writing Gitea version
+1.12.0 wonât build correctly for the ARM7 target. Thatâs okay as ARM7 is
+backwards compatible to ARM6, so that is the download we will use.&lt;/p&gt;
+&lt;p&gt;We need a system user for all git related activity, also there are many
+directories we need to create&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;12&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;sudo adduser --system --shell /bin/bash --gecos 'Git Version Control' --group --disabled-password --home /home/git git&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;mkdir -p /media/storage/gitea/{custom,data,log}&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo chown -R git:git /media/storage/gitea/&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo chmod -R 751 /media/storage/gitea/&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;mkdir /media/storage/gitea-repositories&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo chown -R git:git /media/storage/gitea-repositories&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo mkdir /etc/gitea&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo chown root:git /etc/gitea/&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo chmod 770 /etc/gitea/&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;You may notice the permissions on &lt;code&gt;/media/storage/gitea&lt;/code&gt; are set to &lt;code&gt;751&lt;/code&gt;. This
+is because of an issue that I ran into (and I have run across with Apache
+server as well) where the service can not create files in a directory that is not
+executable by everyone.&lt;/p&gt;
+&lt;p&gt;The git user, that is running the service, has &lt;code&gt;rwx&lt;/code&gt; permission on the directory
+but if you do not add &lt;code&gt;o+x&lt;/code&gt; there will be permission denied errors when you try
+to start the service.  &lt;/p&gt;
+&lt;h3 id="Gitea-Database"&gt;&lt;a href="#Gitea-Database" class="headerlink" title="Gitea Database"&gt;&lt;/a&gt;Gitea Database&lt;/h3&gt;&lt;p&gt;Many of the online resources for installing Gitea on Raspberry Pi use
+MySQL/MariaDB. Iâm going to use SQLite3 to keep configuration simple.&lt;/p&gt;
+&lt;h3 id="Downloading-Binary"&gt;&lt;a href="#Downloading-Binary" class="headerlink" title="Downloading Binary"&gt;&lt;/a&gt;Downloading Binary&lt;/h3&gt;&lt;p&gt;Check for the latest version at &lt;a target="_blank" rel="noopener" href="https://dl.gitea.io/gitea/"&gt;https://dl.gitea.io/gitea/&lt;/a&gt; and replace the link below:&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;wget -O gitea.bin https://dl.gitea.io/gitea/1.12.4/gitea-1.12.4-linux-arm-6&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;sudo mv gitea.bin /usr/local/bin/gitea&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;h3 id="Test-Startup"&gt;&lt;a href="#Test-Startup" class="headerlink" title="Test Startup"&gt;&lt;/a&gt;Test Startup&lt;/h3&gt;&lt;p&gt;Test that the application will start from the command line before we create
+a service.&lt;/p&gt;
+&lt;figure class="highlight plain"&gt;&lt;table&gt;&lt;tr&gt;&lt;td class="gutter"&gt;&lt;pre&gt;&lt;span class="line"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre&gt;&lt;span class="line"&gt;sudo su git&lt;/span&gt;&lt;br&gt;&lt;span class="line"&gt;GITEA_WORK_DIR=/media/storage/gitea /usr/local/bin/gitea web -c /etc/gitea/app.ini&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+
+&lt;p&gt;This starts the service and we confirm that it listens on &lt;code&gt;0.0.0.0:3000&lt;/code&gt;. If
+your port is different you need to update the Lighttpd config to point to the
+correct port.&lt;/p&gt;
+&lt;h3 id="Create-the-service"&gt;&lt;a href="#Create-the-service" class="headerlink" title="Create the service"&gt;&lt;/a&gt;Create the service&lt;/h3&gt;&lt;p&gt;I suggest copying the &lt;a target="_blank" rel="noopener" href="https://github.com/go-gitea/gitea/blob/master/contrib/systemd/gitea.service"&gt;example service
+file&lt;/a&gt;
+and search for the values: &lt;code&gt;WorkingDirectory&lt;/code&gt; and &lt;code&gt;GITEA_WORK_DIR&lt;/code&gt;.  Update
+them to your working directory (&lt;code&gt;/media/storage/gitea&lt;/code&gt; for this example). The
+service configuration file is saved to: &lt;code&gt;/etc/systemd/system/gitea.service&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;At this point you can stop and start the process with &lt;code&gt;sudo systemctl start gitea&lt;/code&gt;
+and &lt;code&gt;sudo systemctl stop itea&lt;/code&gt;. Iâm not going to &lt;code&gt;enable&lt;/code&gt; the service
+to start at boot. The encrypted hard disk will not be ready. Instead I will add
+the &lt;code&gt;systemctl&lt;/code&gt; command to my &lt;code&gt;mount_storage.sh&lt;/code&gt; script.&lt;/p&gt;
+&lt;h3 id="Initial-Configuration"&gt;&lt;a href="#Initial-Configuration" class="headerlink" title="Initial Configuration"&gt;&lt;/a&gt;Initial Configuration&lt;/h3&gt;&lt;p&gt;Point your browser to the server, &lt;a target="_blank" rel="noopener" href="http://vox.localnetwork/"&gt;http://vox.localnetwork&lt;/a&gt; for me.  This is the
+initial configuration I chose. &lt;/p&gt;
+&lt;p&gt;&lt;img src="/~timemachine/images/gitea-initial-config.png" alt="Gitea Initial Config"&gt;&lt;/p&gt;
+&lt;p&gt;This configuration is saved to &lt;code&gt;/etc/gitea/app.ini&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;There are also options to allow emails (you supply the SMTP server, user, and
+password) but I skipped those as Iâm the only user, at this point, that can
+connect to the host. It is easy to add these setup steps in the future if
+needed.&lt;/p&gt;
+&lt;h3 id="Register-First-User"&gt;&lt;a href="#Register-First-User" class="headerlink" title="Register First User"&gt;&lt;/a&gt;Register First User&lt;/h3&gt;&lt;p&gt;The first user that registers becomes the admin of the site. Thatâs convenient. &lt;/p&gt;
+&lt;p&gt;Once signed in you can view your profile settings and add your public ssh key.
+Finally, you are ready to create and clone your first repo.&lt;/p&gt;
+&lt;h2 id="Review"&gt;&lt;a href="#Review" class="headerlink" title="Review"&gt;&lt;/a&gt;Review&lt;/h2&gt;&lt;p&gt;I was able to run through these steps quickly (even while taking notes for this
+blog). It was a delight to see how easy it has become to create mount points in
+Linux over time. I remember, back in 1996, scratching my head as I read through
+the man pages for fstab and mount, trying to sort out how to mount a second
+disk to use as the /home on my desktop. That was Slackware v3.0 (I still have
+the CD-ROM for that here somewhere), I looked up the kernel version:
+1.2.13â¦Yikes!&lt;/p&gt;
+&lt;p&gt;My next plan is to install Samba on the Raspberry pi so the family can take
+full advantage of the 4Tb Iâve connected to the network.&lt;/p&gt;
+&lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;a target="_blank" rel="noopener" href="https://timemachine.fandom.com/wiki/Vox"&gt;https://timemachine.fandom.com/wiki/Vox&lt;/a&gt;&lt;/p&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+
+
+        
+          </description><author>Timemachine</author><category>git</category><category>Raspberry-Pi</category><guid isPermaLink="true">https://ctrl-c.club/~timemachine/2020/09/24/adding-gitea-to-my-rasberry-pi/</guid><pubDate>Thu, 24 Sep 2020 00:00:00 GMT</pubDate></item><item><title>Securing SSH Keys on Shared Hosts</title><link>http://ctrl-c.club/~timemachine/2020/09/14/ssh-forward-agent/index.html</link><description>&lt;article class="post"&gt;
   &lt;header&gt;
     
     &lt;h1 class="posttitle"&gt;
