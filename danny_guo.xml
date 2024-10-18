@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 18 Oct 2024 01:00:02 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 18 Oct 2024 06:18:40 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>How to Get iCloud+ for Free</title><link>https://www.dannyguo.com/blog/how-to-get-icloud-plus-for-free</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get iCloud+ for Free&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -2206,7 +2206,93 @@ know&lt;/a&gt;. Which
 means there’s so much I shouldn’t judge without learning more.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/my-seatbelt-rule-for-judgment</guid><pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate></item><item><title>How to Get a Free S/MIME Certificate</title><link>https://www.dannyguo.com/blog/how-to-get-a-free-s-mime-certificate</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/my-seatbelt-rule-for-judgment</guid><pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate></item><item><title>How to Use a Samsung Galaxy Watch4 as a Heart Rate Monitor for a Peloton Bike</title><link>https://www.dannyguo.com/blog/how-to-use-a-samsung-galaxy-watch4-as-a-heart-rate-monitor-for-a-peloton-bike</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Use a Samsung Galaxy Watch4 as a Heart Rate Monitor for a Peloton Bike&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+                        Updated on &lt;time datetime="2024-04-04"&gt;
+                            April 4, 2024
+                        &lt;/time&gt;
+                         · 
+                    
+            Published on 
+            &lt;time datetime="2022-01-26"&gt;
+                January 26, 2022
+            &lt;/time&gt;
+            &lt;br&gt;
+            519 words  ·  ~3 minutes to read
+            
+                        &lt;br&gt;I may earn commissions from purchases made through
+                        affiliate links in this post.
+                    
+        &lt;/div&gt;
+
+        &lt;p&gt;To use a &lt;a href="https://www.amazon.com/Samsung-Electronics-Smartwatch-Detection-Bluetooth/dp/B096BJLZZM?&amp;amp;linkCode=ll1&amp;amp;tag=thdalo00-20&amp;amp;linkId=edd3ac30f2add8f2a278045edc1c8a84&amp;amp;language=en_US&amp;amp;ref_=as_li_ss_tl"&gt;Samsung Galaxy
+Watch4&lt;/a&gt;
+as a heart rate monitor for a &lt;a href="https://www.onepeloton.com/bikes"&gt;Peloton bike&lt;/a&gt;,
+install the &lt;a href="https://play.google.com/store/apps/details?id=com.onepeloton.callisto"&gt;Peloton app for
+WearOS&lt;/a&gt;.
+Another option is to install the free &lt;a href="https://play.google.com/store/apps/details?id=lukas.the.coder.heartforbluetooth"&gt;Heart for
+Bluetooth&lt;/a&gt;
+app. Beyond seeing your heart rate in real time, syncing your heart rate also
+allows you to use Peloton’s &lt;a href="https://blog.onepeloton.com/strive-score/"&gt;Strive
+Score&lt;/a&gt; feature.&lt;/p&gt;
+&lt;h2 id="peloton"&gt;Peloton&lt;a class="anchor" href="#peloton"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Peloton &lt;a href="https://www.onepeloton.com/blog/android-watch-app/"&gt;released an app for
+WearOS&lt;/a&gt; on April 4, 2023.
+The app lets you &lt;a href="https://support.onepeloton.com/s/article/11060651868692-WearOS-App-Tracking"&gt;use your watch as a heart rate
+monitor&lt;/a&gt;.
+But if you have any problems with the Peloton app or if you  want to send your
+heart rate to a non-Peloton device, you can try Heart for Bluetooth instead.&lt;/p&gt;
+&lt;h2 id="heart-for-bluetooth"&gt;Heart for Bluetooth&lt;a class="anchor" href="#heart-for-bluetooth"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;First &lt;a href="https://support.onepeloton.com/hc/en-us/articles/203418965-Pairing-Bluetooth-Headphones"&gt;pair your
+watch&lt;/a&gt;
+to your bike using Bluetooth.&lt;/p&gt;
+&lt;p&gt;Then open the Heart for Bluetooth app, and your bike should connect and pick up
+your heart rate. In my experience, it can be finicky to get this to work in
+subsequent sessions. After some trial and error, the most reliable method that
+I’ve found is to do the following.&lt;/p&gt;
+&lt;p&gt;Turn on the Peloton, but &lt;em&gt;don’t go into a class yet.&lt;/em&gt; Now open the app on your
+watch.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/eE0iGYV.png" alt="Screenshot of the app waiting for the heart rate"&gt;&lt;/p&gt;
+&lt;p&gt;It takes a few seconds to pick up your heart rate. Wait for it to finish.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/BK4e6ni.png" alt="Screenshot of the app with the heart rate"&gt;&lt;/p&gt;
+&lt;p&gt;In the meantime, you should see a “connecting” message on your bike.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/K713rap.jpg" alt="Screenshot of the Peloton connecting message"&gt;&lt;/p&gt;
+&lt;p&gt;Next, you might see a “couldn’t connect” message.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/BxVgnye.jpg" alt="Screenshot of the Peloton couldn't connect message"&gt;&lt;/p&gt;
+&lt;p&gt;If this happens, press the refresh button in the bottom right of the app to
+restart Bluetooth advertising. In a few seconds, the bike should try to connect
+again, and then you should see a “connected” message.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/HXxHTRd.jpg" alt="Screenshot of the Peloton connected message"&gt;&lt;/p&gt;
+&lt;p&gt;There should be a heart symbol in the top right.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://imgur.com/PBQG721.jpg" alt="Screenshot of the Peloton heart symbol"&gt;&lt;/p&gt;
+&lt;p&gt;Now you can start a class, and you should see your heart rate!&lt;/p&gt;
+&lt;p&gt;If you frequently get connection failures, try updating your watch to the latest
+version. The connection failures largely went away for me after an &lt;a href="https://www.xda-developers.com/galaxy-watch-4-update-samsung-health-improvements-march-patch/"&gt;April 2022
+update&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I have also experienced an issue where the heart rate updates would stop in the
+middle of the ride, so the heart rate on the bike would freeze at a particular
+number. At first, I was able to avoid the issue by turning on my watch’s always
+on display while I ride. I later noticed that the Heart for Bluetooth
+description has a fix for this issue. You need to go into the Galaxy Wearable
+app, go to the watch settings, go to the list of apps, go to Heart for
+Bluetooth, and turn on “Allow background activity.”&lt;/p&gt;
+&lt;p&gt;A final tip is that when you’re done with your ride, you can manually stop the
+Heart for Bluetooth app by pressing the flag button in the middle left. This
+lets you avoid draining your battery unnecessarily. You can also rely on the
+app’s timeout feature, which will end the session automatically after the set
+amount of time ends.&lt;/p&gt;
+&lt;h2 id="apple-watch"&gt;Apple Watch&lt;a class="anchor" href="#apple-watch"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you have an Apple Watch and a Bike+, syncing your heart rate is easy because
+Bike+ &lt;a href="https://support.onepeloton.com/s/article/360048773312-Apple-GymKit-On-The-Peloton-BikePlus"&gt;supports
+GymKit&lt;/a&gt;.
+If you have a regular Bike, you can try using the
+&lt;a href="https://www.heartcast.app/"&gt;HeartCast&lt;/a&gt; app.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-a-samsung-galaxy-watch4-as-a-heart-rate-monitor-for-a-peloton-bike</guid><pubDate>Thu, 04 Apr 2024 00:00:00 GMT</pubDate></item><item><title>How to Get a Free S/MIME Certificate</title><link>https://www.dannyguo.com/blog/how-to-get-a-free-s-mime-certificate</link><description>&lt;article&gt;
         &lt;h1&gt;How to Get a Free S/MIME Certificate&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
