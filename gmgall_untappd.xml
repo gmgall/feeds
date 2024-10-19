@@ -4,9 +4,39 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 19 Oct 2024 00:58:37 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Oct 2024 06:16:30 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Elixir Red Ale by Cervejaria Doutor Duranz</title>
+      <link>https://untappd.com/user/gmgall/checkin/1426628971</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+&lt;a class="label" href="/b/elixir-red-ale-cervejaria-doutor-duranz/2480912"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Elixir Red Ale label"&gt;&lt;/a&gt;
+&lt;div class="beer"&gt;
+&lt;p&gt;&lt;a href="/b/elixir-red-ale-cervejaria-doutor-duranz/2480912"&gt;Elixir Red Ale&lt;/a&gt;&lt;/p&gt;
+&lt;span&gt;&lt;a href="/DoutorDuranz"&gt;Cervejaria Doutor Duranz&lt;/a&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;p class="comment"&gt;
+&lt;abbr id="translate_1426628971"&gt;
+&lt;/abbr&gt;
+&lt;/p&gt;
+&lt;div class="rating-serving"&gt;
+&lt;p class="serving"&gt;
+&lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+&lt;span&gt;Bottle &lt;/span&gt;
+&lt;/p&gt;
+&lt;div class="caps"&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+&lt;div class="cap"&gt;&lt;/div&gt;
+&lt;/div&gt; &lt;/div&gt;
+&lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1426628971</guid>
+      <pubDate>Sat, 19 Oct 2024 03:36:39 GMT</pubDate>
+    </item>
     <item>
       <title>IPA Maracujá by Baden Baden</title>
       <link>https://untappd.com/user/gmgall/checkin/1421918661</link>
@@ -146,36 +176,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1415826895</guid>
       <pubDate>Sun, 08 Sep 2024 01:50:10 GMT</pubDate>
-    </item>
-    <item>
-      <title>Session IPA by Cervejaria Odin</title>
-      <link>https://untappd.com/user/gmgall/checkin/1415826804</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-&lt;a class="label" href="/b/session-ipa-cervejaria-odin/5417454"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Session IPA label"&gt;&lt;/a&gt;
-&lt;div class="beer"&gt;
-&lt;p&gt;&lt;a href="/b/session-ipa-cervejaria-odin/5417454"&gt;Session IPA&lt;/a&gt;&lt;/p&gt;
-&lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
-&lt;/div&gt;
-&lt;p class="comment"&gt;
-&lt;abbr id="translate_1415826804"&gt;
-&lt;/abbr&gt;
-&lt;/p&gt;
-&lt;div class="rating-serving"&gt;
-&lt;p class="serving"&gt;
-&lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-&lt;span&gt;Bottle &lt;/span&gt;
-&lt;/p&gt;
-&lt;div class="caps"&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;div class="cap"&gt;&lt;/div&gt;
-&lt;/div&gt; &lt;/div&gt;
-&lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1415826804</guid>
-      <pubDate>Sun, 08 Sep 2024 01:49:47 GMT</pubDate>
     </item>
   </channel>
 </rss>
