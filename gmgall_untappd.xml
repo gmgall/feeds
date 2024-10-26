@@ -4,9 +4,56 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Oct 2024 00:57:54 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 26 Oct 2024 06:17:19 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Goose IPA by Goose Island Beer Co.</title>
+      <link>https://untappd.com/user/gmgall/checkin/1428507626</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/goose-ipa-goose-island-beer-co/1353"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1353_b4d54_sm.jpeg" alt="Goose IPA label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/goose-ipa-goose-island-beer-co/1353"&gt;Goose IPA&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/gooseisland"&gt;Goose Island Beer Co.&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1428507626"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+            &lt;span&gt;Bottle &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-50"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_14thanniversaryuntappd.png" alt="Untappd 14th Anniversary"&gt;
+                  &lt;span&gt;Earned the Untappd 14th Anniversary badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1428507626</guid>
+      <pubDate>Sat, 26 Oct 2024 06:12:14 GMT</pubDate>
+    </item>
     <item>
       <title>Elixir Red Ale by Cervejaria Doutor Duranz</title>
       <link>https://untappd.com/user/gmgall/checkin/1426628971</link>
@@ -182,43 +229,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1416157036</guid>
       <pubDate>Mon, 09 Sep 2024 12:00:11 GMT</pubDate>
-    </item>
-    <item>
-      <title>IPA by Cervejaria Odin</title>
-      <link>https://untappd.com/user/gmgall/checkin/1415826895</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/ipa-cervejaria-odin/2155932"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2155932_01b2e_sm.jpeg" alt="IPA label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/ipa-cervejaria-odin/2155932"&gt;IPA&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/CervejariaOdin"&gt;Cervejaria Odin&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1415826895"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-            &lt;span&gt;Bottle &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1415826895</guid>
-      <pubDate>Sun, 08 Sep 2024 01:50:10 GMT</pubDate>
     </item>
   </channel>
 </rss>
