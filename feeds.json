@@ -36,9 +36,9 @@
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
   },
   {
-    "title": "Notícias — Câmara Municipal de Petrópolis",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id=\"content-core\"] --date-from-csss span[class=\"documentPublished\"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml",
     "link": "https://www.petropolis.rj.leg.br/institucional/noticias",
-    "description": "As notícias da Câmara Municipal de Petrópolis",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
   },
   {
