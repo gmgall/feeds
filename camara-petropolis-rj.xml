@@ -1,13 +1,834 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Failed to generate feed.</description><lastBuildDate>Mon, 28 Oct 2024 06:19:02 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Notícias — Câmara Municipal de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>As notícias da Câmara Municipal de Petrópolis</description><language>pt-BR</language><lastBuildDate>Mon, 28 Oct 2024 12:25:21 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Eleito Presidente da Câmara Municipal, Hingo Hammes assume interinamente a prefeitura</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura</link><description>&lt;div id="content-core"&gt;
+                                 
+    
 
-&lt;/pre&gt;</description></item></channel></rss>
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura/image_mini" alt="Eleito Presidente da Câmara Municipal, Hingo Hammes assume interinamente a prefeitura" title="" height="135" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Eleito presidente da Câmara Municipal em votação realizada no início da tarde desta sexta-feira (01/01), o vereador Hingo Hammes (DEM) é o primeiro presidente da Câmara Municipal a assumir interinamente o cargo de prefeito no início do mandato. A posse como prefeito é uma determinação do Tribunal Regional Eleitoral (TRE-RJ), seguindo o que prevê a Lei Orgânica Municipal em casos de impossibilidade de o nome mais votado nas eleições municipais assumir o cargo.&lt;/p&gt;
+&lt;p&gt;Já como prefeito interino, Hingo Hammes pediu o apoio dos demais vereadores para a administração da cidade e frisou a importância da união de todos na busca de soluções para questões urgentes, como o atendimento a pacientes com sintomas de covid-19. “É hora de deixarmos de lado qualquer questão político-partidária. Precisamos nos unir, trabalhar para administrar a cidade, garantindo que a população tenha acesso aos serviços públicos”, afirmou.&lt;/p&gt;
+&lt;p&gt;O compromisso é governar com transparência e diálogo, buscando o apoio de nomes fortes em cada área, que possam contribuir com a administração municipal. “Sabemos que são muitos os desafios, mas, com independência, serenidade e responsabilidade vamos buscar novas ideias. Queremos colocar em prática ações e projetos que efetivamente façam diferença no dia a dia da população, buscando novos caminhos e corrigindo os rumos sempre que necessário”.&lt;/p&gt;
+&lt;p&gt;Concorreram também ao cargo de presidente da Casa os vereadores Gilda Beatriz (PSD), Marcelo Lessa (SD), Yuri Moura (PSOL), Eduardo do Blog (Republicanos) e Octávio Sampaio (PSL). Hingo Hammes foi eleito com seis votos, contra dois de Gilda e Lessa e um único voto para os demais.&lt;/p&gt;
+&lt;p&gt;Após a escolha de Hammes, o colegiado elegeu Fred Procópio (PL) como 1º Vice-Presidente da CMP. Fred vai comandar o Legislativo nos próximos meses, até a definição da situação no Governo Municipal com a possível convocação de novas eleições municipais. Ambos foram empossados no mesmo dia em suas respectivas funções.&lt;/p&gt;
+&lt;p&gt;Em seguida, foram eleitos os demais membros da Mesa Diretora, que ficou composta ainda por Junior Coruja (PSD) como 2º Vice-Presidente, Yuri Moura (PSOL) como 1º Secretário e Junior Paixão (DC) como 2º Secretário. Ao final da sessão solene, a nova Mesa Diretora empossou o vereador Gil Magno (DC), na vaga deixada pelo vereador Paulo Igor, que faleceu nesta quinta-feira (31/12), vítima da Covid-19.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura</guid><pubDate>Wed, 31 Mar 2021 19:49:00 GMT</pubDate></item><item><title>Eleito Presidente da Câmara Municipal, Hingo Hammes assume interinamente a prefeitura</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura/image" alt="Eleito Presidente da Câmara Municipal, Hingo Hammes assume interinamente a prefeitura" title="Eleito Presidente da Câmara Municipal, Hingo Hammes assume interinamente a prefeitura" height="1197" width="1772"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/eleito-presidente-da-camara-municipal-hingo-hammes-assume-interinamente-a-prefeitura/image/image_view_fullscreen</guid></item><item><title>Câmara convoca Maurinho Branco para ocupar a vaga do Democratas</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas/image_mini" alt="Câmara convoca Maurinho Branco para ocupar a vaga do Democratas" title="" height="129" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis vai convocar o primeiro suplente do Democratas (DEM), Maurinho Branco, para ocupar a vaga do partido na Casa Legislativa. O vereador Hingo Hammes, titular da vaga, foi eleito presidente da Mesa Diretora na última sexta-feira, e consequentemente assumiu interinamente a chefia do Poder Executivo no município. Maurinho foi o segundo mais votado do DEM, com 1.944 votos, ficando na primeira suplência.&lt;/p&gt;
+&lt;p&gt;De acordo com o Regimento Interno da Câmara, no art. 12, II, o suplente deve ser convocado quando o titular do mandato é investido em outro cargo na administração pública direta ou indireta do município, em hipótese prevista na Lei Orgânica Municipal.&lt;/p&gt;
+&lt;p&gt;A decisão foi tomada em reunião da Mesa Diretora na tarde desta segunda (04/01), após consulta ao Departamento Jurídico do Poder Legislativo, em virtude de um requerimento protocolado pelo próprio vereador Maurinho Branco nesta mesma data, requerendo a sua convocação.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas</guid><pubDate>Wed, 31 Mar 2021 19:59:00 GMT</pubDate></item><item><title>Câmara convoca Maurinho Branco para ocupar a vaga do Democratas</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas/image" alt="Câmara convoca Maurinho Branco para ocupar a vaga do Democratas" title="Câmara convoca Maurinho Branco para ocupar a vaga do Democratas" height="1278" width="1971"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-convoca-maurinho-branco-para-ocupar-a-vaga-do-democratas/image/image_view_fullscreen</guid></item><item><title>Câmara suspende recesso de janeiro em apoio ao governo no enfrentamento da pandemia</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-suspende-recesso-de-janeiro-em-apoio-ao-governo-no-enfrentamento-da-pandemia</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis suspendeu o tradicional recesso parlamentar da primeira quinzena de janeiro em virtude da necessidade de atuação do parlamento municipal frente à pandemia do Covid-19. A decisão foi tomada em reunião da Mesa Diretora, realizada no início da semana, e oficializada por meio da Portaria 001/2021 nesta quarta (6/1) em publicação no Diário Oficial do Poder Legislativo.&lt;/p&gt;
+&lt;p&gt;O presidente interino da Câmara, vereador Fred Procópio (PL), falou da necessidade de adoção da medida, em face da necessidade de mobilização dos vereadores em votar as medidas mais urgentes a serem encaminhadas pelo governo no enfrentamento da pandemia em Petrópolis.&lt;/p&gt;
+&lt;p&gt;“Vivemos um momento difícil e o poder público tem a obrigação de direcionar todas as suas ações para combater o avanço da crise sanitária. Além disso, estamos juntos com o prefeito Hingo Hammes em uma gestão participativa, que possa atender as demandas da sociedade”, disse Fred Procópio.&lt;/p&gt;
+&lt;p&gt;Com isso, a Câmara retoma suas atividades já nesta quarta-feira, com sessão ordinária marcada para às 16 horas. A ordem do dia para a sessão pode ser acompanhada no site da Casa, em &lt;a href="http://www.cmp.rj.gov.br/index.php/ordem-do-dia"&gt;http://www.cmp.rj.gov.br/index.php/ordem-do-dia&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;De acordo com o Regimento Interno da Câmara, tradicionalmente são realizados dois recessos quinzenais, sendo um em janeiro e o segundo em julho. Entretanto, a Câmara não fecha suas portas. Os gabinetes e os setores administrativos continuam em pleno funcionamento, recebendo as demandas da comunidade, fiscalizando o Poder Executivo e mantendo os trabalhos realizados pelas comissões permanentes e provisórias.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-suspende-recesso-de-janeiro-em-apoio-ao-governo-no-enfrentamento-da-pandemia</guid><pubDate>Wed, 31 Mar 2021 20:00:00 GMT</pubDate></item><item><title>Definida a nova composição da Comissão de Justiça e Redação da Câmara Municipal</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/definida-a-nova-composicao-da-comissao-de-justica-e-redacao-da-camara-municipal</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Em reunião das lideranças partidárias realizada no início da semana, a Câmara Municipal de Petrópolis definiu a nova composição da Comissão de Justiça e Redação, umas das mais importantes do Poder Legislativo Municipal. A Comissão será presidida pelo vereador Gil Magno (DC), e terá também como membros os vereadores Junior Coruja e Gilda Beatriz (ambos do PSD), nas funções de vice-presidente e vogal, respectivamente.&lt;/p&gt;
+&lt;p&gt;O vereador Gil Magno agradeceu a confiança depositada pelas lideranças partidárias com a sua escolha como presidente desta importante comissão.  &lt;/p&gt;
+&lt;p&gt;“Será uma missão que prometo desempenhar com dedicação, responsabilidade e muita transparência. Vamos dar agilidade aos trabalhos dessa importante comissão, de forma especial às matérias que tragam relevante conteúdo social”, destacou o vereador.&lt;/p&gt;
+&lt;p&gt;A Comissão de Justiça e Redação é responsável pela análise constitucional, legal, jurídica, regimental ou de técnica legislativa de projetos, emendas ou substitutivos sujeitos à apreciação da Casa ou de suas Comissões, para efeito de admissibilidade e tramitação. Deve ela analisar praticamente todos os projetos de lei que tramitam no Legislativo Municipal, tanto de autoria do Executivo quanto do Legislativo.&lt;/p&gt;
+&lt;p&gt;Cabe à comissão analisar o aspecto das propostas conforme determinações previstas na Constituição Federal, na Lei Orgânica do Município e demais legislações pertinentes a cada proposição. E, somente após receber parecer favorável da Comissão de Justiça e Redação, o projeto estará apto a tramitar na Casa de Leis e posteriormente ser votado em plenário.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/definida-a-nova-composicao-da-comissao-de-justica-e-redacao-da-camara-municipal</guid><pubDate>Wed, 31 Mar 2021 20:02:00 GMT</pubDate></item><item><title>Secretário Estadual de Trabalho e Renda visita Câmara Municipal</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal/image_mini" alt="Secretário Estadual de Trabalho e Renda visita Câmara Municipal" title="Secretario Paulo Teixeira e Subsecretário Julio Saraiva acompanhados dos vereadores de Petrópolis (ASCOM-CMP)" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-0d5650ab40b149b4b3081b6f8eac3931"&gt;
+            Secretario Paulo Teixeira e Subsecretário Julio Saraiva acompanhados dos vereadores de Petrópolis (ASCOM-CMP)
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal recebeu na tarde desta quarta-feira (06/01) a visita do Capitão Paulo Teixeira, Secretário de Trabalho e Renda do Estado do Rio de Janeiro, e do subsecretário da pasta Julio Saraiva. Eles vieram a Petrópolis anunciar a abertura da Casa do Trabalhador, na próxima semana. O espaço vai funcionar na antiga rodoviária, Centro, no local antes ocupado pelo DETRAN/RJ. Os representantes do Governo Estadual foram recepcionados pelo presidente da Câmara em exercício, vereador Fred Procópio (PL), pelo vereador Eduardo do Blog, que é do mesmo partido do Secretário (Republicanos), e pelos demais vereadores.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal</guid><pubDate>Wed, 31 Mar 2021 20:05:00 GMT</pubDate></item><item><title>Secretário Estadual de Trabalho e Renda visita Câmara Municipal</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal/image" alt="Secretário Estadual de Trabalho e Renda visita Câmara Municipal" title="Secretário Estadual de Trabalho e Renda visita Câmara Municipal" height="852" width="1280"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/secretario-estadual-de-trabalho-e-renda-visita-camara-municipal/image/image_view_fullscreen</guid></item><item><title>Câmara renova medidas de segurança no combate à pandemia</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia/image_mini" alt="Câmara renova medidas de segurança no combate à pandemia" title="Protocolos de Combate à Covid-19 na entrada da Câmara (ASCOM-CMP)" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-ef66f07a3b154869b6486d16942d1909"&gt;
+            Protocolos de Combate à Covid-19 na entrada da Câmara (ASCOM-CMP)
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal publicou hoje a Portaria Administrativa 002/2021 que renova, até 31 de janeiro, os protocolos de segurança em relação ao combate à COVID-19 e à prevenção de contágio de servidores públicos.&lt;/p&gt;
+&lt;p&gt;A Casa mantém a medição de temperatura de quem entra no Palácio Amarelo, o uso obrigatório de máscaras, a disponibilização e orientação quanto ao uso de álcool em gel, além do distanciamento entre as equipes com a organização do trabalho por turnos, em horário de funcionamento que vai de segunda a sexta-feira das 9h às 18h.&lt;/p&gt;
+&lt;p&gt;Os gabinetes dos vereadores e os departamentos administrativos estão funcionando em sistema de revezamento, com no máximo quatro pessoas trabalhando ao mesmo tempo, em dois turnos. Os funcionários dos grupos de risco como aqueles com idade superior a 60 anos, foram dispensados do trabalho presencial, atuando em sistema home-office.&lt;/p&gt;
+&lt;p&gt;As sessões plenárias são presenciais e a Câmara Municipal está aberta à população com limite de 30% da capacidade tanto para atendimentos, quanto para assistir às sessões pessoalmente. No entanto, para quem desejar assistir as sessões à distância, elas são transmitidas pelo canal 98 na TV local, pelo site da Câmara (basta clicar no botão TV Câmara no menu direito), pelo Facebook e pelo Youtube.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia</guid><pubDate>Wed, 31 Mar 2021 20:17:00 GMT</pubDate></item><item><title>Câmara renova medidas de segurança no combate à pandemia</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia/image" alt="Câmara renova medidas de segurança no combate à pandemia" title="Câmara renova medidas de segurança no combate à pandemia" height="1181" width="1772"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-renova-medidas-de-seguranca-no-combate-a-pandemia/image/image_view_fullscreen</guid></item><item><title>Câmara cria Comissões Especiais para revisar Códigos de Obras, Posturas e do Contrato da Sinal Park</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park/image_mini" alt="Câmara cria Comissões Especiais para revisar Códigos de Obras, Posturas e do Contrato da Sinal Park" title="A iniciativa da criação das comissões partiu do presidente interino do Poder Legislativo, vereador Fred Procópio (PL)" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-c3c9f314e6e54d27bc8ea02519a2fd52"&gt;
+            A iniciativa da criação das comissões partiu do presidente interino do Poder Legislativo, vereador Fred Procópio (PL)
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis aprovou em regime de urgência especial, na sessão ordinária desta quarta-feira (06/01), a criação de três Comissões Especiais, que farão a Revisão dos Códigos de Obras e Posturas do município, e uma terceira que vai analisar a prorrogação do contrato com a Estar Petrópolis (Sinal Park Estacionamentos Rotativos), que foi prorrogado no mês de dezembro por mais 10 anos.&lt;/p&gt;
+&lt;p&gt;A iniciativa da criação das comissões partiu do presidente interino do Poder Legislativo, vereador Fred Procópio (PL), através das Requerimentos de nº 172/2021, 173/2021 e 237/2021. Para Fred Procópio, a criação das comissões representa uma medida urgente para o desenvolvimento do município, e a atualização das normas municipais trará benefícios em diversos setores da cidade.&lt;/p&gt;
+&lt;p&gt;“A criação dessas comissões na primeira sessão da legislatura demonstra a preocupação de todos nós vereadores em dar uma resposta mais contundente e mais célere às demandas que a sociedade nos apresenta. O contrato com a Sinal Park foi ação de final de governo que nos causou uma certa estranheza, e decidimos rever esse procedimento”, disse o vereador, que aproveitou para agradecer à Mesa Diretora e a todos os vereadores que aprovaram a urgência do requerimento e começam o ano de 2021 com toda essa densidade.     &lt;/p&gt;
+&lt;p&gt;Com relação ao Código de Obras, ela explica que essa revisão foi um compromisso seu de campanha, acolhida pela Câmara, e o intuito é desburocratizar o instrumento, permitindo que a construção civil cresça gerando emprego e renda no município, facilitando também a parte de legalização imobiliária.&lt;/p&gt;
+&lt;p&gt;O Código de Posturas reúne um conjunto de normas que regulam o uso do espaço urbano pelos cidadãos. A utilização de calçadas, letreiros, uso de espaços públicos, poluição sonora, entre outros.&lt;/p&gt;
+&lt;p&gt;A criação da comissão para a revisão do contrato com a empresa Sinal Park também foi aprovada por unanimidade e recebeu aplausos de vários vereadores. O vereador Ronaldo Ramos (PSB) parabenizou o presidente pela coragem e disse que a nova legislatura já dá um belo exemplo com essas iniciativas.&lt;/p&gt;
+&lt;p&gt;Cada Comissão Especial é composta por três vereadores  e tem a duração de 90 dias.&lt;/p&gt;
+&lt;p&gt;Veja como ficou a composição de cada Comissão:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comissão de Revisão do Código de Obras:&lt;/strong&gt;&lt;br&gt;Gil Magno (presidente), Marcelo Lessa (membro) e Marcelo Chitão (relator);&lt;br&gt;&lt;br&gt;&lt;strong&gt;Comissão de Revisão do Código de Posturas:&lt;/strong&gt;&lt;br&gt;Marcelo Lessa (presidente), Júnior Paixão (membro) e Junior Coruja (relator);&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Comissão de Revisão do Contrato da Sinal Park:&lt;/strong&gt;&lt;br&gt;Octavio Sampaio (presidente), Junior Coruja (membro) e Yuri Moura (relator).&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park</guid><pubDate>Wed, 31 Mar 2021 20:07:00 GMT</pubDate></item><item><title>Câmara cria Comissões Especiais para revisar Códigos de Obras, Posturas e do Contrato da Sinal Park</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park/image" alt="Câmara cria Comissões Especiais para revisar Códigos de Obras, Posturas e do Contrato da Sinal Park" title="Câmara cria Comissões Especiais para revisar Códigos de Obras, Posturas e do Contrato da Sinal Park" height="853" width="1280"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissoes-especiais-para-revisar-codigos-de-obras-posturas-e-do-contrato-da-sinal-park/image/image_view_fullscreen</guid></item><item><title>Câmara Verde: práticas sustentáveis em debate na Casa</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-verde-praticas-sustentaveis-em-debate-na-casa</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;Na sessão plenária desta quarta-feira (06/01), os vereadores aprovaram uma indicação legislativa à Mesa Diretora da Câmara Municipal de Petrópolis, de autoria da vereadora Gilda Beatriz (PSD), que busca a criação do programa “Câmara Verde”. A medida tem como objetivo a redução de lixo, adoção da coleta seletiva, uso racional de água, a aquisição de produtos que apresentam critérios ambientais, a diminuição do uso do papel e outras medidas importantes.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;“Estamos em um novo momento na Câmara e precisamos adotar boas práticas ambientais para poder transformar a forma que o trabalho legislativo é executado. O projeto Câmara Verde prevê a ampliação de ações que tenham consciência ambiental, como forma de contribuir com a sustentabilidade da nossa sociedade”, declarou a vereadora Gilda Beatriz.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;Na Câmara, ações como a não utilização de copos descartáveis já estão em vigor e a vereadora Gilda Beatriz é reconhecida por projetos desta natureza, como a proibição dos canudos plásticos na cidade de Petrópolis.&lt;/div&gt;
+&lt;/div&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-verde-praticas-sustentaveis-em-debate-na-casa</guid><pubDate>Wed, 31 Mar 2021 20:08:00 GMT</pubDate></item><item><title>Vereador pede melhorias para estradas vicinais dos distritos</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos/image_mini" alt="Vereador pede melhorias para estradas vicinais dos distritos" title="Governador em exercício Cláudio Castro e Vereador Júnior Paixão" height="200" width="194" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-49465832a7684a399adb9f6eaa61ea1f"&gt;
+            Governador em exercício Cláudio Castro e Vereador Júnior Paixão
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;O vereador Júnior Paixão (DC), entregou na manhã de ontem (12) ao Governador em exercício Cláudio Castro, durante a cerimônia de entrega de cheques do Agrofundo para dez famílias da região, realizada no Parque Municipal, em Itaipava, um ofício onde solicita melhorias para as estradas vicinais no distrito de Pedro do Rio. A entrega foi feita pessoalmente e o Governador prometeu avaliar com carinho as demandas apresentadas pelo parlamentar.&lt;/p&gt;
+&lt;p&gt;No ofício, ele pede melhorias para a RJ 123, que liga Petrópolis a Paraíba do Sul, incluindo asfaltamento e recuperação de três pontes nessa via, que é de jurisdição estadual. Além disso, solicitou apoio também no asfaltamento de vias municipais, como a Estrada Posse dos Coqueiros, Estrada de Anápolis, Estrada da Rocinha, todas na região de Secretário, e a Estrada Arnaldo Dickehoff, no Brejal, distrito da Posse.&lt;/p&gt;
+&lt;p&gt;"Nas quatro vias, a parte a ser recuperada totalizam aproximadamente 13 quilômetros que precisam de melhorias urgentes. O Governador foi muito solicito e tenho certeza que ele vai atender a nossa demanda", disse Paixão, destacando que as melhorias nessas importantes estradas vicinais vão facilitar muito o escoamento da produção rural, além de facilitar o desenvolvimento do turismo rural nessa região.&lt;/p&gt;
+&lt;p&gt;Junior Paixão foi eleito pelo partido Democracia Cristã (DC), no último pleito, e tem base eleitoral no quarto distrito. No governo passado, ele atuou como coordenador dos agentes regionais da região dos distritos (Itaipava e arredores). Foi eleito para 2º Secretário da Mesa Diretora da Câmara para o biênio 2021-2022.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos</guid><pubDate>Wed, 31 Mar 2021 20:10:00 GMT</pubDate></item><item><title>Vereador pede melhorias para estradas vicinais dos distritos</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos/image" alt="Vereador pede melhorias para estradas vicinais dos distritos" title="Vereador pede melhorias para estradas vicinais dos distritos" height="1217" width="1181"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-pede-melhorias-para-estradas-vicinais-dos-distritos/image/image_view_fullscreen</guid></item><item><title>Câmara cria Comissão Especial para Estudo e Revisão do Código de Ética e Decoro Parlamentar</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissao-especial-para-estudo-e-revisao-do-codigo-de-etica-e-decoro-parlamentar</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis anunciou na sessão desta quarta-feira (13) a criação de uma Comissão Especial para a revisão do Código de Ética e Decoro Parlamentar do Poder Legislativo. O requerimento foi apresentado pela vereadora Gilda Beatriz (PSD), e será publicado no Diário Oficial nos próximos dias.&lt;/p&gt;
+&lt;p&gt;Segundo a vereadora Gilda Beatriz, “existem referências no Código de Ética e Decoro Parlamentar que estão muito desatualizadas. O atual código foi instituído através da Resolução nº 005, de 13/03/2007, e realmente necessita ser atualizado para melhor aplicabilidade no Legislativo Petropolitano”.&lt;/p&gt;
+&lt;p&gt;A vereadora disse ser importante revisar os dispositivos, à luz de emendas já implementadas à Lei Orgânica Municipal (LOM), pois estas alteram de sobremaneira a interpretação e aplicação de suas normas.&lt;/p&gt;
+&lt;p&gt;Em reunião entre os vereadores, ficou definida a composição da Comissão, que terá como membros a própria vereadora Gilda Beatriz, além dos vereadores Yuri Moura (PSOL), Octávio Sampaio (PSL), Gil Magno (DC) e Eduardo do Blog (Republicanos). A Comissão terá 180 dias para a realização dos trabalhos.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-cria-comissao-especial-para-estudo-e-revisao-do-codigo-de-etica-e-decoro-parlamentar</guid><pubDate>Wed, 31 Mar 2021 20:11:00 GMT</pubDate></item><item><title>Um minuto de silêncio em homenagem às vítimas da tragédia das chuvas de 2011</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011/image_mini" alt="Um minuto de silêncio em homenagem às vítimas da tragédia das chuvas de 2011" title="" height="129" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;No início da primeira sessão ordinária realizada nesta quarta-feira (13), após a leitura da ata da reunião anterior, a pedido do presidente em exercício da Câmara, vereador Fred Procópio (PL), foi realizado um minuto de silêncio em homenagem às vítimas das chuvas de 2011, que completou dez anos na última segunda-feira.&lt;/p&gt;
+&lt;p&gt;A maior tragédia climática do país deixou mais de 500 mortos na Região Serrana no Estado do Rio, sendo muito destes na cidade de Petrópolis, principalmente na região do Vale do Cuiabá, no terceiro distrito. As homenagens começaram na madrugada de ontem (12), na sede do 15º GBM (Petrópolis), com a presença do governador em exercício Cláudio Castro, e do secretário de Estado de Defesa Civil e comandante-geral do CBMERJ, coronel Leandro Monteiro.&lt;/p&gt;
+&lt;p&gt;Um toque de silêncio - melodia utilizada para homenagear militares que morreram em serviço - foi executado de forma simultânea em todas as unidades do Corpo de Bombeiros do Estado em memória aos militares. Os vereadores Gil Magno, Dudu, Maurinho Branco e Marcelo Lessa também estiveram presentes nessa cerimônia.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011</guid><pubDate>Wed, 31 Mar 2021 20:12:00 GMT</pubDate></item><item><title>Um minuto de silêncio em homenagem às vítimas da tragédia das chuvas de 2011</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011/image" alt="Um minuto de silêncio em homenagem às vítimas da tragédia das chuvas de 2011" title="Um minuto de silêncio em homenagem às vítimas da tragédia das chuvas de 2011" height="827" width="1280"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/um-minuto-de-silencio-em-homenagem-as-vitimas-da-tragedia-das-chuvas-de-2011/image/image_view_fullscreen</guid></item><item><title>Indicação aprovada sugere abono para servidores do Pronto Socorro do Alto da Serra</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-aprovada-sugere-abono-para-servidores-do-pronto-socorro-do-alto-da-serra</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Em regime de inclusão, a Câmara Municipal aprovou na sessão desta quarta (15) uma indicação legislativa de autoria do vereador Marcelo Lessa (SD), que indica ao Governo Municipal o envio de projeto de lei à Casa assegurando aos profissionais de saúde que atuam no Pronto Socorro Leônidas Sampaio, no Alto da Serra, o abono que foi concedido por via judicial aos profissionais da saúde que atuam na linha de frente do Covid-19.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Segundo o vereador, em visita à unidade, essa demanda lhe foi apresentada pelos servidores do Pronto Socorro, desde os médicos às áreas administrativas, pessoas ficam expostas cada um em seu risco pessoal. “As condições de trabalho são adversas e tenho certeza que o prefeito vai olhar por esses profissionais, para que não haja necessidade de buscarem seus direitos pela via judicial”, disse Lessa.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O vereador destacou que os profissionais dos Hospital Municipal Nelson de Sá Earp e nas UPAs, que fazem atendimento vinculado à pandemia, já recebem o abono.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Ao final da segunda sessão do dia, o vereador Ronaldo Ramos (PSB) apresentou, também por inclusão, uma indicação legislativa estendendo o benefício a todas as unidades de saúde de pronto atendimento que fazem atendimento na área de Covid-19. As duas indicações foram aprovadas por unanimidade dos vereadores presentes à sessão.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-aprovada-sugere-abono-para-servidores-do-pronto-socorro-do-alto-da-serra</guid><pubDate>Wed, 31 Mar 2021 20:17:00 GMT</pubDate></item><item><title>Vereador quer informações sobre plano de imunização da Covid-19</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-informacoes-sobre-plano-de-imunizacao-da-covid-19</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;O vereador Yuri Moura (PSOL) protocolou esta semana na Câmara Municipal de Petrópolis um requerimento de informações ao Governo, solicitando informações sobre o Plano de Imunização para a Covid-19 em Petrópolis. Segundo o vereador, em meados de dezembro, com o aumento do número de casos na cidade, o Governo anunciou o plano de vacinação contra a covid-19 no município, mas o planejamento não foi apresentado oficialmente à Câmara.&lt;/p&gt;
+&lt;p&gt;“Precisamos acompanhar de perto e colaborar nas estratégias para vencer essa pandemia. Todo esse planejamento, desenvolvido pela equipe técnica da Secretaria de Saúde, deve contar com a participação da Câmara, que exerce a legítima representação popular”, destacou o vereador.&lt;/p&gt;
+&lt;p&gt;Na madrugada da última terça (12), ele acompanhou também a paralisação dos rodoviários da empresa Cidade Real, que afetou 29 linhas que atendem as regiões do Bingen, Mosela e arredores, como também a ligação entre a Rodoviária e o Centro da cidade.&lt;/p&gt;
+&lt;p&gt;Os rodoviários alegam descumprimento, por parte da empresa, no processo de reintegração de aproximadamente 80 trabalhadores, sendo cerca de 25 motoristas e 65 cobradores, que deveriam ter retornado as atividades no último dia 04 de janeiro. A recontratação deveria ter ocorrido com base no acordo assinado em agosto de 2020, também conforme informado pela categoria.&lt;/p&gt;
+&lt;p&gt;“Precisamos estar atentos a essa máfia que tomou conta do transporte público no Estado nos últimos anos. Considero um absurdo a nossa cidade renovar, ao longo dos anos, concessões e permissões para as empresas de ônibus sem nenhum debate público, sem nenhuma atualização sobre a lei do Sistema municipal de transporte público, que está totalmente defasada”, disse o parlamentar.&lt;/p&gt;
+&lt;p&gt;Yuri destaca ainda que a Câmara precisa ter acesso aos números apresentados pelo sindicato das empresas de ônibus (Setranspetro) de que durante a pandemia o número de usuários caiu drasticamente. “Política pública se faz com números. Cadê esses dados?”, questionou, lembrando que essas informações também foram solicitadas pelo seu gabinete durante reunião realizada na CPTrans.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-quer-informacoes-sobre-plano-de-imunizacao-da-covid-19</guid><pubDate>Wed, 31 Mar 2021 20:13:00 GMT</pubDate></item><item><title>Projeto visa dar maior organização e transparência no atendimento às vítimas da Covid-19</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-visa-dar-maior-organizacao-e-transparencia-no-atendimento-as-vitimas-da-covid-19</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;div&gt;A Câmara Municipal aprovou recentemente,  em regime de urgência, um projeto de lei de autoria do vereador Eduardo do Blog (Republicanos) que busca trazer maior transparência e organização para área da saúde em Petrópolis, já que obriga o município a divulgar as escalas de plantão e locais de atendimento médico dos vitimados pela Covid-19.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;No projeto de lei consta que o Poder Executivo deverá divulgar através de seu sítio eletrônico e redes sociais oficiais a escala de plantão e os locais de atendimento médico para os vitimados pelo coronavírus e que só será possível alterá-los após aviso prévio no prazo mínimo de 48 horas.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;Para Eduardo do Blog, a alteração constante dos locais e dos médicos que atendem casos de Covid-19 têm causado enormes transtornos à população. &lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;“A obrigação de notificar previamente estas alterações irá colaborar para que os possíveis contaminados não precisem perder tempo e dinheiro procurando as instalações médicas que realmente estão disponibilizando o tratamento adequado”, justifica o vereador.&lt;/div&gt;
+&lt;div&gt; &lt;/div&gt;
+&lt;div&gt;O projeto foi aprovado em primeira e segunda discussões e segue agora para o Poder Executivo para sanção ou veto.&lt;/div&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-visa-dar-maior-organizacao-e-transparencia-no-atendimento-as-vitimas-da-covid-19</guid><pubDate>Wed, 31 Mar 2021 20:13:00 GMT</pubDate></item><item><title>Vereadores acompanham a chegada da vacina em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereadores-acompanham-a-chegada-da-vacina-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal acompanhou, na tarde desta terça-feira (19/01), a chegada do primeiro lote de vacinas ao município. Os vereadores acompanharam o prefeito interino, Hingo Hammes, na chegada do helicóptero da Polícia Militar que trazia o lote de medicamentos, e aterrizou no campo do clube Petropolitano, no Valparaíso.&lt;/p&gt;
+&lt;p&gt;O Governo do Estado enviou para a cidade as primeiras 4.678 doses da vacina contra o coronavírus. Seguindo orientação do Ministério da Saúde, os primeiros imunizados serão os profissionais de saúde que atuam na linha de frente nessa grande batalha contra a COVID-19, idosos com mais de 60 anos asilados e pessoas com deficiência maiores de 18 anos internadas em instituições inclusivas.&lt;/p&gt;
+&lt;p&gt;Em seguida, os vereadores seguiram para o trono de Fátima, também no bairro Valparaíso, onde num ato simbólico, foram vacinados os dois primeiros petropolitanos: Maria de Fátima dos Passos, 57 anos, auxiliar de enfermagem no HMNSE há 14 anos, hipertensa; e Mario Cezar Wendling Nobis, residente no Lar Nossa Senhora Aparecida, 76 anos, também hipertenso.&lt;/p&gt;
+&lt;p&gt;Estiveram presentes os vereadores Fred Procópio (PL), Gilda Beatriz (PSD), Maurinho Branco (DEM), Júnior Coruja (PSD), Júnior Paixão (DC), Yuri Moura (PSOL) e Domingos Protetor (PSC).&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereadores-acompanham-a-chegada-da-vacina-em-petropolis</guid><pubDate>Wed, 31 Mar 2021 20:14:00 GMT</pubDate></item><item><title>Câmara apresenta novas composições das Comissões Permanentes</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-apresenta-novas-composicoes-das-comissoes-permanentes</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Na última semana, foram renovadas e apresentadas as composições das Comissões Permanentes da Câmara Municipal de Petrópolis que irão vigorar até o ano de 2022. Os grupos são responsáveis por votar e discutir proposições de acordo com o tema no qual atuam, fiscalizar e controlar os atos do Poder Executivo, realizar audiências públicas, promover conferências, exposições, palestras e seminários, além de receber petições e reclamações da sociedade.&lt;/p&gt;
+&lt;p&gt;A Comissão de Constituição, Justiça e Redação será presidida pelo vereador Gil Magno e terá como vice-presidente o vereador Octavio Sampaio. A vereadora Gilda Beatriz, Dr. Mauro Peralta e Yuri Moura ficarão como vogais. O vereador Eduardo do Blog será presidente da Comissão de Desenvolvimento Econômico, Tecnologia e Turismo, junto com o vice-presidente Gil Magno e Octavio Sampaio, como vogal.&lt;/p&gt;
+&lt;p&gt;O vereador Marcelo Chitão irá presidir a Comissão de Cultura, Juventude, Esporte e Lazer, que também terá Maurinho Branco na vice-presidência e Yuri Moura como vogal. Já a Comissão de Segurança Pública, Serviços Públicos e Defesa do Consumidor terá Octavio Sampaio como presidente, o vereador Domingos Protetor como vice-presidente e Junior Paixão como vogal.&lt;/p&gt;
+&lt;p&gt;Na Comissão de Trabalho e Defesa dos Servidores Públicos estará o vereador Dudu como presidente, Yuri Moura como vice e Dr Mauro Peralta como vogal. Junior Paixão irá comandar a Comissão de Obras e Assuntos Comunitários, junto com o vice-presidente Marcelo Chitão e o vogal Dudu.&lt;/p&gt;
+&lt;p&gt;A vereadora Gilda Beatriz estará na presidência da Comissão dos Direitos da Mulher. Seu vice será Gil Magno e Maurinho Branco estará como vogal. Yuri Moura estará à frente da Comissão de Educação, Assistência Social e Defesa dos Direitos Humanos, junto de Gilda Beatriz como vice-presidente e Domingos Protetor como vogal.&lt;/p&gt;
+&lt;p&gt;A Comissão de Defesa da Saúde será comandada pelo Dr. Mauro Peralta e seu vice-presidente Marcelo Lessa. Nesta, Gilda Beatriz será vogal. O vereador Ronaldo Ramos será presidente da Comissão de Defesa da Criança e do Adolescente, das Pessoas com Deficiência e do Idoso. Junior Paixão será o vice e Marcelo Chitão estará como vogal.&lt;/p&gt;
+&lt;p&gt;Na Comissão do Transporte Público e Mobilidade Urbana teremos Junior Coruja na presidência, Maurinho Branco como vice e Eduardo do Blog como vogal. O vereador Domingos Protetor será presidente da Comissão de Meio Ambiente, Defesa Civil e Proteção Animal e terá Eduardo do Blog como vice e Gil Magno como vogal. Por fim, a Comissão de Planejamento, Uso, Ocupação e Parcelamento do Solo, Política Agrícola, Urbanística e Habitação (COPERLUPOS) terá Marcelo Lessa como presidente, Junior Coruja como vice e Junior Paixão como vogal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-apresenta-novas-composicoes-das-comissoes-permanentes</guid><pubDate>Wed, 31 Mar 2021 20:14:00 GMT</pubDate></item><item><title>Câmara Municipal recebe secretário e debate temas relacionados à defesa Civil</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-recebe-secretario-e-debate-temas-relacionados-a-defesa-civil</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Na manhã a última terça-feira (26), o Presidente da Câmara Municipal, Fred Procópio (PL), se reuniu com o Secretário de Defesa Civil, Gil Kempers, e os vereadores Yuri Moura (PSOL), Junior Paixão (DC) e Domingos Protetor (PSC), para debater sobre a reforma do Plano Diretor, a proposta de reforma administrativa da Secretaria de Defesa Civil, o aluguel social e melhorias para a mobilidade da Defesa Civil em Petrópolis.&lt;/p&gt;
+&lt;p&gt;Com relação ao último tema acima, o presidente Fred Procópio, destacou que a Casa irá providenciar a cessão de um de seus veículos oficiais para que a Secretaria de Defesa Civil não deixe de atender ocorrências, entrega de medicamentos e questões administrativas.&lt;/p&gt;
+&lt;p&gt;O Presidente também informou que irá alinhar uma agenda com o Prefeito Interino Hingo Hammes e os secretários da Assistência Social, do Meio Ambiente e de Obras, com a participação da Câmara, para tentar unificar o sistema do aluguel social na cidade e torná-lo mais ágil.&lt;/p&gt;
+&lt;p&gt;Yuri Moura é o vereador que estará à frente do projeto e propõe a criação de uma comissão especial para rever o plano de habitação de interesse social. “A partir desta unificação dos mapeamentos vamos conseguir abrir caminho para mudar a política de moradia popular na cidade. A intenção é não depender somente de grandes condomínios, mas, sim, de um plano permanente, que acompanhe as famílias e dê conta das demandas a curto, médio e longo prazo”, finaliza Moura.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-recebe-secretario-e-debate-temas-relacionados-a-defesa-civil</guid><pubDate>Wed, 31 Mar 2021 20:15:00 GMT</pubDate></item><item><title>Aprovada Indicação Legislativa em defesa da saúde dos rodoviários</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovada-indicacao-legislativa-em-defesa-da-saude-dos-rodoviarios</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovada em caráter de urgência a Indicação Legislativa de autoria do vereador Júnior Coruja (PSD), tendo como relator o vereador Yuri Moura (PSOL), indicando ao Governo Municipal que coloque os trabalhadores do transporte coletivo no plano de imunização como grupo prioritário para receberem a vacina contra a COVID 19.&lt;/p&gt;
+&lt;p&gt;Tal pedido justifica-se, pois no plano nacional apresentado pelo Ministério da Saúde os trabalhadores do sistema de transporte coletivo fazem parte da 4ª fase prioritária de imunização. Já no plano municipal, esses profissionais não foram incluídos na mesma fase.&lt;/p&gt;
+&lt;p&gt;“Entende-se que o pedido é pertinente já que os rodoviários compartilham um mesmo ambiente fechado – ônibus – com cerca de 500 pessoas diariamente, sendo assim, mais suscetíveis ao contágio da COVID 19. Seguimos o trabalho com respeito e gratidão a toda essa categoria que diariamente transportam as vidas de nossos munícipes”, diz Júnior Coruja.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovada-indicacao-legislativa-em-defesa-da-saude-dos-rodoviarios</guid><pubDate>Wed, 31 Mar 2021 20:17:00 GMT</pubDate></item><item><title>Câmara Municipal debate sobre atualização do Código de Obras do município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-debate-sobre-atualizacao-do-codigo-de-obras-do-municipio</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi realizada na tarde desta quarta-feira (27), a primeira reunião da Comissão de Revisão do Código de Obras do Município de Petrópolis. A Comissão Especial, que terá como Presidente o vereador Marcelo Lessa (SD), Júnior Coruja (PSD) como relator e Júnior Paixão (DC) como vogal, debateu junto do Presidente da Câmara Municipal, Fred Procópio, a importância da atualização do Código de Obras, que data do ano de 1970, e os possíveis artigos a serem incluídos e retirados do documento.&lt;/p&gt;
+&lt;p&gt;O debate se deu a partir do momento em que foi verificado que diversos artigos do Código de Obras contradizem a ABNT e a NBR por serem muito antigos. A ideia é confrontar com normativas federais aquilo que estiver destoando e fazer prevalecer as cláusulas aprovadas pela Associação Brasileira de Normas Técnicas. “Temos uma legislação engessada e incompatível com aquilo que queremos para Petrópolis. A cidade precisa crescer e se desenvolver de forma sustentável, por isso, vamos modernizar o código, simplificar ao máximo o licenciamento de obras e tentar inserir nessa nova proposta um formato de autolicenciamento para os empreendimentos de baixo impacto. Isso fará com que a burocracia seja reduzida e o custo de legalização dos imóveis para as pessoas de baixa renda seja compatível com cada indivíduo”, explica Fred.&lt;/p&gt;
+&lt;p&gt;Para o vereador Marcelo Lessa, presidente da Comissão Especial, o novo código de obras vem para simplificar, agilizar e dar facilidade para pequenos empreendedores, construtores, arquitetos e engenheiros, tendo em vista que, atualmente, um alvará de obras leva cerca de 3 anos para ser aprovado.&lt;/p&gt;
+&lt;p&gt;A Câmara Municipal irá convocar a sociedade civil para participar das futuras discussões sobre o tema.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-debate-sobre-atualizacao-do-codigo-de-obras-do-municipio</guid><pubDate>Wed, 31 Mar 2021 20:16:00 GMT</pubDate></item><item><title>Comissão Especial para revisão do Contrato com a Sinal Park se reúne</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/comissao-especial-para-revisao-do-contrato-com-a-sinal-park-se-reune</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Comissão Especial para Revisão do Contrato com a empresa Sinal Park fez sua primeira reunião na tarde de hoje (28). A Comissão é composta pelos vereadores Octavio Sampaio (PSL) como presidente, Yuri Moura (PSOL) como relator e o vereador Júnior Coruja (PSD) como vogal.&lt;/p&gt;
+&lt;p&gt;A reunião foi convocada por Octavio Sampaio para apresentar aos demais integrantes uma visão geral sobre os documentos requisitados e já entregues pela CPTRANS. O processo administrativo que trata da renovação é composto por três grandes volumes, contendo atos administrativos, pareceres técnicos e administrativos, bem como planilhas contábeis. Após análise, será feito um relatório que será submetido ao plenário da Câmara.&lt;/p&gt;
+&lt;p&gt;A comissão poderá, se necessário, convocar e convidar para esclarecimentos funcionários que estiveram envolvidos no processo de renovação do contrato com a Sinal Park. “É preciso um aprofundamento maior antes de emitir qualquer juízo de valor, porém, como advogado, adianto que existem inconsistências que serão devidamente questionadas”, afirmou o vereador Octavio Sampaio.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/comissao-especial-para-revisao-do-contrato-com-a-sinal-park-se-reune</guid><pubDate>Wed, 31 Mar 2021 20:17:00 GMT</pubDate></item><item><title>Vereador se reúne para tratar da segurança das capivaras em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-se-reune-para-tratar-da-seguranca-das-capivaras-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;O vereador Domingos Protetor (PSC) se reuniu na tarde da quinta-feira (28) com a Procuradora da República, Vanessa Seguezzi, a CPTRANS, a Secretaria de Meio Ambiente, o Iphan e o Instituto Chico Mendes de Conservação da Biodiversidade – ICMBIO para debater sobre proteção das capivaras na cidade. A reunião teve como objetivo apontar os locais onde este animal mais se concentra e buscar formas de desviá-las do trânsito para minimizar e evitar acidentes.&lt;/p&gt;
+&lt;p&gt;A iniciativa partiu do Ministério Público Federal, que convidou o vereador, que hoje preside a Comissão de Meio Ambiente, Defesa Civil e Proteção Animal, para a conversa. “Expliquei qual o ciclo de reprodução destes animais silvestres, locais onde se concentram e o motivo pelo qual ficam na beira dos rios. É importante entendermos que elas são vítimas e não são agressivas, somente defendem a si e suas crias. Temos que protegê-las até mesmo para evitar acidentes não só com as capivaras, como também com pessoas”, explica Domingos Protetor.&lt;/p&gt;
+&lt;p&gt;Ficou decidido que no dia 5 de março haverá uma vistoria nos locais indicados para que seja estudada uma forma de desvio das capivaras. “Provavelmente, será um desvio natural ou com gradis dentro dos rios para que elas andem por um local mais seguro e não cheguem até o trânsito”, finaliza o vereador. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-se-reune-para-tratar-da-seguranca-das-capivaras-em-petropolis</guid><pubDate>Mon, 04 Jan 2021 13:16:00 GMT</pubDate></item><item><title>Vereador Junior Coruja é definido como líder do Governo na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-junior-coruja-e-definido-como-lider-do-governo-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Em reunião realizada na manhã desta sexta-feira (29/01), entre o prefeito em exercício Hingo Hammes e os vereadores da atual legislatura, foram definidos o líder e o vice-líder do Governo na Câmara Municipal. Na ocasião, foi anunciado o vereador Junior Coruja (PSD) como líder e o vereador Domingos Protetor (PSC) como vice-líder.&lt;/p&gt;
+&lt;p&gt;Entre as atribuições deles nessa função, está a de buscar informações e prestar esclarecimentos para os colegas, sendo o elo entre Executivo e Legislativo. O chefe do executivo deverá encaminhar em breve um ofício designando os nomes, para que seja protocolado na Câmara.&lt;/p&gt;
+&lt;p&gt;A presença do líder e do vice-líder do Governo é de fundamental importância para manter um relacionamento próximo e franco entre os dois poderes municipais, alinhando novos caminhos para a cidade de Petrópolis.&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-junior-coruja-e-definido-como-lider-do-governo-na-camara</guid><pubDate>Mon, 04 Jan 2021 13:17:00 GMT</pubDate></item><item><title>Câmara continua debate sobre a atualização do Código de Obras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras/image_mini" alt="Câmara continua debate sobre a atualização do Código de Obras" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Na tarde desta quarta-feira (10), o presidente da Câmara Municipal de Petrópolis, Fred Procópio (PL), novamente se reuniu com os vereadores Marcelo Lessa (SD), Júnior Coruja (PSD) e Júnior Paixão (DC), respectivamente presidente, relator e vogal da Comissão Especial de Revisão do Código de Obras, para dar andamento na atualização dos artigos que farão parte ou serão retirados do novo código.&lt;/p&gt;
+&lt;p&gt;O debate, de iniciativa do presidente Fred Procópio, também contou com a presença de representantes do CREA, CAU, Secretaria de Obras, Secretaria de Meio Ambiente, Construtoras Sola e Azul e diversos outros profissionais engenheiros e arquitetos atuantes na cidade, que ajudaram na análise de cada artigo existente no atual documento, que data do ano de 1976. "A intenção é atualizar, modernizar e simplificar o Código para agilizar a aprovação de obras em Petrópolis", explica Marcelo Lessa.&lt;/p&gt;
+&lt;p&gt;Para o vereador Junior Paixão, a atualização do Código de Obras também diminuirá a burocracia relacionada às obras no município. “A ideia é criar um centro administrativo que resolva todas as pendências relacionadas ao assunto”, comenta.  Já Junior Coruja defende a rapidez na revisão do documento. “Atualmente temos 1.724 processos parados na Secretaria de Obras. Precisamos executar essa missão o quanto antes para trazer recursos e empregos para a cidade”, pontua.&lt;/p&gt;
+&lt;p&gt;Esta foi a segunda reunião sobre o tema, na qual foi solicitado que os presentes analisassem do artigo 46 ao 69 do Código de Obras e trouxessem suas observações para o próximo encontro. Além disso, foi discutido se haveria a necessidade de alinhar totalmente o documento à Associação Brasileira de Normas Técnicas e a NBR, a existência do autolicenciamento e o calendário dos próximos encontros para definir as diretrizes do processo. “A próxima reunião será no dia 24 de fevereiro, às 14h, no Plenário da Casa e aproveitamos para convocar a sociedade civil para participar das futuras discussões”, finaliza Fred Procópio.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras</guid><pubDate>Mon, 04 Jan 2021 13:19:00 GMT</pubDate></item><item><title>Câmara continua debate sobre a atualização do Código de Obras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras/image" alt="Câmara continua debate sobre a atualização do Código de Obras" title="Câmara continua debate sobre a atualização do Código de Obras" height="798" width="1198"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-continua-debate-sobre-a-atualizacao-do-codigo-de-obras/image/image_view_fullscreen</guid></item><item><title>Comissão promoverá Audiência Pública para debater ensino remoto e processo seletivo da educação</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao/image_mini" alt="Comissão promoverá Audiência Pública para debater ensino remoto e processo seletivo da educação" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Comissão de Educação, Assistência Social e Direitos Humanos (CEADH) da Câmara Municipal de Petrópolis realizou sua segunda reunião na tarde desta quarta (10), com o objetivo de discutir um plano de trabalho para os próximos meses. No encontro, ficou definido também a realização de uma audiência pública no início de março, para debater a volta do calendário escolar com o ensino remoto e as carências apresentadas, além da convocação do processo seletivo da educação.&lt;/p&gt;
+&lt;p&gt;"Temos recebido muitas denúncias de servidores, de trabalhadores por RPA, assim como das próprias famílias dos alunos, que essa semana foram surpreendidos com o mesmo sistema que vinha sendo adotado no ano passado. Apesar de termos nos reunido com a Secretaria de Educação há quase três semanas, pedindo mudanças na plataforma que trouxessem melhorias, nada ainda foi cumprido", disse Yuri Moura (PSOL).&lt;/p&gt;
+&lt;p&gt;Ele explica que as principais demandas estão relacionadas à carga horária dos professores, a adoção de plataformas que melhorassem a interação com os alunos, entre outras. "Se não resolvermos o problema do ensino remoto, estaremos abrindo espaço para um diálogo covarde da volta antecipada do ensino presencial", completou.&lt;/p&gt;
+&lt;p&gt;O vereador destaca ainda que a Comissão criou um canal de comunicação com a comunidade escolar, para o recebimento de relatos de pais, alunos e professores, para que possam ser apuradas as situações relativas ao ensino remoto, facilitando assim a reunião das informações que já vem sendo apuradas pelos membros da comissão por meio dos gabinetes, pelas redes sociais e também pelo contato pessoal nas ruas.&lt;/p&gt;
+&lt;p&gt;Este canal servirá também para tirar as dúvidas daqueles que fizeram o processo seletivo da educação e não estando recebendo nenhum tipo de informação. O e-mail criado é o &lt;span id="cloak4d2ee1d40d9f02c24610598aa3a76485"&gt;&lt;a href="mailto:ceadh@cmp.rj.gov.br"&gt;ceadh@cmp.rj.gov.br&lt;/a&gt;&lt;/span&gt;. Além de Yuri Moura, que preside a CEADH, integram a Comissão os vereadores Gilda Beatriz (PSD), como vice-presidente e o vereador Domingos Protetor (PSC) como vogal.&lt;/p&gt;
+&lt;p&gt;Na reunião de hoje, ficou definido que a comissão vai funcionar com grupos de trabalho (GTs) envolvendo a sociedade civil. Foi aprovada a criação de um grupo sobre diversidade, a partir de encontro realizado com o grupo LGBTQIA+. A Comissão, dentro da sua atribuição de cuidar também dos temas relativos aos direitos humanos, poderá abraçar essas pautas, criando uma instância interna para que isso funcione e vire matéria legislativa.&lt;/p&gt;
+&lt;p&gt;Na reunião foi aprovada também a criação da logomarca da comissão, baseada na sigla CEADH, que será usada na divulgação dos trabalhos.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao</guid><pubDate>Mon, 04 Jan 2021 13:20:00 GMT</pubDate></item><item><title>Comissão promoverá Audiência Pública para debater ensino remoto e processo seletivo da educação</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao/image" alt="Comissão promoverá Audiência Pública para debater ensino remoto e processo seletivo da educação" title="Comissão promoverá Audiência Pública para debater ensino remoto e processo seletivo da educação" height="1154" width="1732"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/comissao-promovera-audiencia-publica-para-debater-ensino-remoto-e-processo-seletivo-da-educacao/image/image_view_fullscreen</guid></item><item><title>Câmara promove audiência pública para discutir o fim da concessão da BR-040</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-promove-audiencia-publica-para-discutir-o-fim-da-concessao-da-br-040</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis promoverá uma audiência pública na próxima segunda-feira (22 de fevereiro), às 19h, para tratar do fim da concessão da Concer na administração da rodovia BR-040. A audiência foi agendada pelo vereador Maurinho Branco (DEM), que é vice-presidente da Comissão de Transporte Público e Mobilidade Urbana da Casa, e contará com a presença do Secretário de Estado de Transportes Delmo Pinho, do superintendente do DNIT no Rio Robson Loures, entre outras autoridades da área.&lt;/p&gt;
+&lt;p&gt;A concessão vai terminar no próximo dia 28 de fevereiro, quando a rodovia passará a ser administrada pelo Departamento Nacional de Infraestrutura e Transporte (DNIT) enquanto o processo licitatório para a contratação de uma nova empresa não esteja concluído. Durante este período, a cobrança de pedágio também será suspensa.&lt;/p&gt;
+&lt;p&gt;Segundo Maurinho Branco, há uma grande preocupação por parte de vários setores da sociedade petropolitana com relação ao fim da concessão, tendo em vista a falta de estrutura do DNIT para administrar a rodovia. “Estarão em jogo a operacionalidade da principal via de acesso a Petrópolis e a segurança dos usuários”, explica o vereador, lembrando que por este motivo o tema precisa ser amplamente discutido.&lt;/p&gt;
+&lt;p&gt;A preocupação maior se baseia da capacidade de operação do DNIT. A Câmara vai buscar informações se a autarquia federal terá condições de oferecer um serviço apropriado, no que se refere a manutenção rotineira da via, o oferecimento de serviços de reboque e, principalmente, o socorro às vítimas de acidentes.&lt;/p&gt;
+&lt;p&gt;“Já foi informado que o serviço de ambulâncias vai ser prestado pelo Estado. Entretanto, será fundamental a existência de um posto fixo de socorro em um ponto estratégico da Serra, como por exemplo, na altura do Belvedere. Vamos cobrar a urgência dessa providência aos responsáveis”, explicou Maurinho.&lt;/p&gt;
+&lt;p&gt;A audiência deverá contar também com a presença dos deputados federais Vinícius Farah e Hugo Leal, assim como dos deputados estaduais ligados à cidade. A bancada do Rio no Congresso já estuda a disponibilização de recursos ao DNIT através de emendas parlamentares, para que o órgão tenha condições de prestar um serviço apropriado no período que vai do próximo dia 1º de março até que uma nova concessão esteja concluída.&lt;/p&gt;
+&lt;p&gt;A audiência pública será transmitida ao vivo pela TV Câmara (Canal 98), pelo site no &lt;span&gt;&lt;span&gt;&lt;a href="http://cmp.rj.gov.br/index.php/tv-camara" rel="noopener noreferrer" target="_blank"&gt;link&lt;/a&gt;&lt;/span&gt;&lt;/span&gt; e também pelas páginas do Poder Legislativo no Youtube e no Facebook.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-promove-audiencia-publica-para-discutir-o-fim-da-concessao-da-br-040</guid><pubDate>Mon, 04 Jan 2021 13:21:00 GMT</pubDate></item><item><title>Aprovado Projeto de Lei que obriga maior visibilidade na vacinação em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis/image_mini" alt="Aprovado Projeto de Lei que obriga maior visibilidade na vacinação em Petrópolis" title="" height="138" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis aprovou, na sessão desta quinta-feira (18), projeto de lei que dispõe sobre a obrigatoriedade da visibilidade no processo de vacinação no município. A proposta é do vereador Eduardo do Blog (Republicanos) e foi acatada em regime de urgência, com 12 votos favoráveis. Na mesma sessão, a Câmara aprovou também em regime de urgência duas indicações que solicitam o uso de crachás de identificação pelos profissionais que atuam diretamente nos postos de vacinação e a instalação de câmeras nestes locais. Essas propostas foram apresentadas pela vereadora Gilda Beatriz (PSD).&lt;/p&gt;
+&lt;p&gt;A ideia da primeira proposta é a adoção de protocolos de segurança no momento da vacinação, tais como a apresentação da ampola de vacinação devidamente preenchida com o líquido a ser aplicado; a apresentação da seringa descartável antes e depois da aplicação da vacina, comprovando que o conteúdo foi devidamente aplicado; a apresentação do número do lote, data de validade e laboratório que é fabricante do medicamento, quando solicitado pelo paciente ou tutor; entre outras.&lt;/p&gt;
+&lt;p&gt;Segundo Eduardo do Blog, a propositura tem por objetivo a devida transparência no processo de vacinação, tendo por base o Manual de Normas e Procedimentos para vacinação do Ministério da Saúde.&lt;/p&gt;
+&lt;p&gt;“Na última sexta-feira, a comunidade petropolitana foi surpreendida com uma notícia que ganhou repercussão nacional, onde uma cidadã pertencente ao grupo de idosos foi ludibriada com uma falsa aplicação de vacina. Cabe a nós, enquanto poder público, tentarmos dar maior garantia a essas ações por força de lei”, disse.&lt;/p&gt;
+&lt;p&gt;Com relação às indicações aprovadas, relativas a obrigatoriedade de crachás e câmeras de segurança, a autora da proposta, Gilda Beatriz, destaca “a necessidade de criar medidas que possam evitar que outras irregularidades como a que ocorreu na semana passada voltem a acontecer”.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis</guid><pubDate>Mon, 04 Jan 2021 13:22:00 GMT</pubDate></item><item><title>Aprovado Projeto de Lei que obriga maior visibilidade na vacinação em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis/image" alt="Aprovado Projeto de Lei que obriga maior visibilidade na vacinação em Petrópolis" title="Aprovado Projeto de Lei que obriga maior visibilidade na vacinação em Petrópolis" height="1312" width="1895"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovado-projeto-de-lei-que-obriga-maior-visibilidade-na-vacinacao-em-petropolis/image/image_view_fullscreen</guid></item><item><title>Câmara Municipal promove Audiência Pública para tratar da nova gestão da BR-040</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040/image_mini" alt="Câmara Municipal promove Audiência Pública para tratar da nova gestão da BR-040" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis realizou na noite desta segunda-feira (22) uma audiência pública para tratar da nova gestão da rodovia BR-040, com o fim da concessão da Concer a partir da próxima segunda-feira, dia 1º de março. A audiência foi convocada pelo vice-presidente da Comissão de Transporte Público e Mobilidade Urbana da Câmara, vereador Maurinho Branco (DEM). A discussão girou em torno da capacidade de operação do Departamento Nacional de Infra-Estrutura de Transportes (DNIT) nos próximos meses e dos planos para a nova concessão.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Estiveram presentes o Secretário de Estado de Transportes, Delmo Pinho, o deputado federal Vinícius Farah, o deputado estadual Marcus Vinícius Neskau, os prefeitos Hingo Hammes (Petrópolis) e Gutinho Bernardes (Areal), o presidente interino da Câmara, Fred Procópio (PL), os vereadores Ronaldo Ramos (PSB), Dr. Mauro Peralta (PRTB), Domingo Protetor (PSC), Junior Paixão (DC), Octavio Sampaio (PSL) Gilda Beatriz (PSD) e Yuri Moura (PSOL), além de demais autoridades do município.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A Câmara Municipal tem total preocupação com a gestão da rodovia, que afeta não só o dia-a-dia de milhares de petropolitanos que a utilizam diariamente, mas também setores importantes para o desenvolvimento da cidade, como o turismo, o comércio e a mobilidade urbana. O fim da concessão afetará também a capacidade de arrecadação do município, tendo em vista que Petrópolis perderá mais de R$ 3 milhões anuais em ISS.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;“Além da perda de receita, a falta de manutenção e o atendimento de socorro aos usuários estão entre as maiores preocupações do Poder Legislativo, assim como a situação social das famílias que vivem à margem da rodovia”, explicou o vereador Maurinho Branco.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Alguns vereadores também manifestaram preocupação com essa nova fase da rodovia. Junior Coruja, que preside a Comissão de Transporte e Mobilidade Urbana, questionou sobre ações que implicam maior segurança na rodovia. Ele lembrou de serviços básicos, como a capina no KM 65, no trevo de Araras, que evita muitos acidentes. Ronaldo Ramos lembrou do fim de um retorno antes existente onde hoje está situada a praça de pedágio em Pedro do Rio, que dificultou muito a vida dos moradores da Posse no acesso à rodovia.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Domingos Protetor cobrou respostas sobre como ficará o socorro aos animais atropelados na rodovia durante a operação do DNIT. Ele disse ainda que serão necessários projetos que protejam a fauna existente no entorno da estrada. Gilda Beatriz lamentou a ausência do DNIT na audiência e frisou a importância da união de esforços entre as diversas esferas do poder público em torno dos problemas da rodovia. Yuri Moura destacou a importância da participação da moradia popular e dos direitos humanos no encontro, e lembrou das famílias que foram muito prejudicadas pela gestão da rodovia ao longo dos anos.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Fred Procópio colocou a Câmara à disposição dos moradores do entrono da BR-040 e lembrou que a Concer maltratou muito Petrópolis com intervenções na rodovia em datas importantes do calendário de eventos da cidade. Ele pediu maior atenção para esse tema, não só por parte do DNIT nos próximos meses, como também da futura concessionária da rodovia, como forma de não atrapalhar a retomada da economia petropolitana.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O deputado federal Vinícius Farah explicou que a bancada fluminense na Câmara Federal irá apresentar uma emenda de R$ 50 milhões para que o DNIT tenha condições de manter os serviços operacionais antes oferecidos pela concessionária. “A BR-040 é o principal acesso a Petrópolis, fundamental para a economia de todas as cidades ao longo do trecho dentro do Estado do Rio e ainda importante para Minas Gerais,” lembrou Farah.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Ele disse ainda que, além do cálculo estimado de operação da via para os próximos 12 meses até que uma nova licitação aconteça, em torno de R$ 40 milhões, a bancada propôs mais R$ 10 milhões para que a própria autarquia federal reinicie as obras do túnel da nova pista.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O secretário Delmo Pinho disse que a rodovia precisa “ser pensada a longo prazo, pois o projeto atual não projeta o futuro, um aumento de fluxo, todo um conjunto de intervenções que trarão mobilidade adequada para Petrópolis e as demais cidades”.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Na conclusão dos debates, ficou definida a criação de uma comissão, formada por representantes de Petrópolis e Areal, que levará a Brasília as principais demandas dos respectivos municípios, com base no estudo já feito e apresentado pelo governo estadual na audiência.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040</guid><pubDate>Mon, 04 Jan 2021 13:24:00 GMT</pubDate></item><item><title>Câmara Municipal promove Audiência Pública para tratar da nova gestão da BR-040</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040/image" alt="Câmara Municipal promove Audiência Pública para tratar da nova gestão da BR-040" title="Câmara Municipal promove Audiência Pública para tratar da nova gestão da BR-040" height="853" width="1280"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-municipal-promove-audiencia-publica-para-tratar-da-nova-gestao-da-br-040/image/image_view_fullscreen</guid></item><item><title>Proposta que cria política de proteção dos direitos da Pessoa com Transtorno Espectro do Autismo tramita na Casa</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/proposta-que-cria-politica-de-protecao-dos-direitos-da-pessoa-com-transtorno-espectro-do-autismo-tramita-na-casa</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;Tramita na Câmara Municipal de Petrópolis (CMP) uma indicação legislativa que propõe ao Governo o envio de projeto de lei à Casa Legislativa estabelecendo a Política Municipal de Proteção dos Direitos da Pessoa com Transtorno Espectro do Autismo (TEA) no município. A proposta é do vereador Eduardo do Blog (Republicanos) e já recebeu parecer favorável da Comissão Constituição, Justiça e Redação.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;O autismo faz parte de um grupo de síndromes neuropsiquiátricas, formado por doenças que afetam o desenvolvimento cerebral. De acordo com a Organização Mundial da Saúde (OMS), cerca de 70 milhões de pessoas possuem Transtorno do Espectro Autista (TEA) - por volta de 1% da população mundial.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;Para Eduardo do Blog, “nesse sentido é fundamental que o município estabeleça uma política pública para resguardar o direito dessas pessoas, desenvolvendo práticas terapêuticas e educacionais mais eficazes, promovendo campanhas informando a população sobre o transtorno”. Além disso, segundo ele, é importante estimular a inserção dessas pessoas no mercado de trabalho, capacitando profissionais para o atendimento de pessoas com TEA e garantir o atendimento prioritário destes.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;Entre as diretrizes da Política Municipal de Proteção dos Direitos da Pessoa com Transtorno do Espectro Autista, apresentadas no anteprojeto que acompanha a indicação, estão a atenção integral às necessidades de saúde da pessoa com transtorno do espectro autista, objetivando o diagnóstico precoce, o atendimento multiprofissional e o acesso a medicamentos e alimentação adequada; o apoio social e psicológico aos familiares; a qualificação dos profissionais da educação de acordo com os mais recentes estudos científicos; entre outras.&lt;/div&gt;
+&lt;div dir="auto"&gt; &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="o9v6fnle cxmmr5t8 oygrvhab hcukyx3x c1et5uql ii04i59q"&gt;
+&lt;div dir="auto"&gt;“A proposta elenca ainda alguns direitos da pessoa com TEA, deixando sob a responsabilidade do poder público a divulgação de informações e a conscientização do público sobre direitos e deveres elencados na na indicação”, finaliza o vereador. A proposta 0857/2021 está sob a análise da Comissão de Defesa da Criança e do Adolescente, das Pessoas com Deficiência e do Idoso da Câmara Municipal e deverá ser votada em breve no plenário.&lt;/div&gt;
+&lt;/div&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/proposta-que-cria-politica-de-protecao-dos-direitos-da-pessoa-com-transtorno-espectro-do-autismo-tramita-na-casa</guid><pubDate>Mon, 04 Jan 2021 13:24:00 GMT</pubDate></item><item><title>Câmara de Vereadores avança trabalho de atualização do Código de Obras do município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio/image_mini" alt="Câmara de Vereadores avança trabalho de atualização do Código de Obras do município" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Foi realizada na tarde desta quarta-feira (24), na Câmara Municipal de Petrópolis, a terceira reunião da Comissão de Revisão do Código de Obras. Solicitado pelo presidente da Câmara de Vereadores, Fred Procópio (PL), o encontro analisou a redação dos artigos 1 ao 29 do Código de Obras proposto pelo Poder Executivo e definiu quais seriam suprimidos, mantidos ou atualizados.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A modernização do texto do Código de Obras tem como objetivo agilizar e simplificar a aprovação de obras em Petrópolis. "O licenciamento simplificado das obras na cidade contribuirá para o desenvolvimento do município e com a geração de empregos, além de ajudar arquitetos, engenheiros, empreendedores e construtores", diz Fred Procópio.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A análise contou com a ajuda do vereador Júnior Coruja (PSD), relator da Comissão, de membros do Conselho de Arquitetura e Urbanismo - CAU, construtoras da cidade, Secretaria de Meio Ambiente, Conselho Regional de Engenharia e Agronomia - CREA e da Secretaria de Obras. "As reuniões semanais tem sido de suma importância para definirmos o mais rápido possível a redação do novo Código de Obras. Isso fará com que processos sejam destravados e que novas construções não encontrem tantas burocracias para serem realizadas", comenta Coruja.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O próximo encontro da Comissão será aberto à sociedade civil e realizado no dia 03 de março, às 14h, no Plenário da Câmara Municipal.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio</guid><pubDate>Mon, 04 Jan 2021 13:25:00 GMT</pubDate></item><item><title>Câmara de Vereadores avança trabalho de atualização do Código de Obras do município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio/image" alt="Câmara de Vereadores avança trabalho de atualização do Código de Obras do município" title="Câmara de Vereadores avança trabalho de atualização do Código de Obras do município" height="1632" width="2449"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-vereadores-avanca-trabalho-de-atualizacao-do-codigo-de-obras-do-municipio/image/image_view_fullscreen</guid></item><item><title>Reuniões buscam discutir Políticas Públicas que garantam segurança às mulheres</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres/image_mini" alt="Reuniões buscam discutir Políticas Públicas que garantam segurança às mulheres" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A vereadora Gilda Beatriz (PSD) vem fazendo uma série de reuniões, durante todo o mês de fevereiro, para discutir políticas públicas que garantam a segurança das mulheres em Petrópolis. Uma audiência aberta ao público será realizada em 8 de março, às 18h, na Câmara Municipal, para que as propostas sejam debatidas com a sociedade.&lt;/p&gt;
+&lt;p&gt;“Geralmente, a gente usa esse dia para realizar homenagens. Dessa vez, a ideia é uma audiência pública para discutir o que já existe no atendimento a mulheres vítimas de violência no município e ouvir as pessoas capacitadas, que trabalham com isso, para melhorar cada vez mais esse atendimento”, explicou a vereadora.&lt;/p&gt;
+&lt;p&gt;Durante esse período de planejamento da audiência, Gilda Beatriz teve acesso a dados preocupantes. Ela explica que “são cerca de três atendimentos por dia a mulheres vítimas de violência e nem todas procuram a delegacia ou o CRAM”.&lt;/p&gt;
+&lt;p&gt;Segundo ela, ainda há casos de mulheres que precisam de tratamento, porém não tem sequer o dinheiro da passagem para buscar o apoio especializado. “Ou seja, temos que discutir como podemos encaixar essas peças para que o atendimento funcione bem. Será uma audiência para discutir soluções. Os índices de violência estão altíssimos e não dá para esperar mais”, completa.&lt;/p&gt;
+&lt;p&gt;Para dar andamento nos debates, a vereadora se reuniu com representantes do Centro de Referência em Atendimento à Mulher (CRAM), da Guarda Civil, da 105ª e da 106ª Delegacias; da Sala Violeta do Fórum de Itaipava; das Secretarias de Saúde, Assistência Social e Desenvolvimento Econômico, além de representantes da Coordenadoria de Relações Institucionais da Prefeitura e do Gabinete da Cidadania.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres</guid><pubDate>Mon, 04 Jan 2021 13:27:00 GMT</pubDate></item><item><title>Reuniões buscam discutir Políticas Públicas que garantam segurança às mulheres</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres/image" alt="Reuniões buscam discutir Políticas Públicas que garantam segurança às mulheres" title="Reuniões buscam discutir Políticas Públicas que garantam segurança às mulheres" height="4000" width="6000"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/reunioes-buscam-discutir-politicas-publicas-que-garantam-seguranca-as-mulheres/image/image_view_fullscreen</guid></item><item><title>Comissão recebe agentes de segurança pública em reunião</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao/image_mini" alt="Comissão recebe agentes de segurança pública em reunião" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Comissão de Segurança Pública, Serviços Públicos e Defesa do Consumidor da Câmara Municipal de Petrópolis (CMP) se reuniu na tarde desta quarta (24), na Sala das Comissões, para tratar de diversos temas, como as aglomerações noturnas de jovens na Rua 13 de Maio, nos finais de semana, alvo de muitas críticas de moradores e da população em geral.&lt;/p&gt;
+&lt;p&gt;O encontro foi capitaneado pelo vereador Octavio Sampaio (PSL), que preside a Comissão, e contou com a participação do Secretário de Defesa Civil e Ações Voluntárias, tenente-coronel Gil Kempers; da Secretária de Segurança e Ordem Pública, Karina Bronzo; do Superintendente Geral da Guarda Municipal, José Augusto Carvalho; do presidente da CPTrans, Luciano Moreira; e da Capitã Endgie Paquiela, que representou o 26º Batalhão da Polícia Militar.&lt;/p&gt;
+&lt;p&gt;O vereador iniciou a reunião pedindo esclarecimentos às autoridades sobre como vem sendo realizadas as fiscalizações na Rua 13 de Maio, principalmente nos fins de semana em horário noturno, quando ocorrem as frequentes aglomerações de jovens que, após o fechamento dos bares, permanecem no local ou nas imediações da Catedral e da Praça da Liberdade.&lt;/p&gt;
+&lt;p&gt;“Essa é uma dor de cabeça que vem se prolongando há anos, causando problemas para o trânsito no local e muita insatisfação para os moradores. Precisamos pensar com urgência em uma solução, que pode partir da intensificação dos choques de ordem no local e, a longo prazo, a busca por um espaço alternativo na cidade que atenda a juventude”, disse Octavio Sampaio.&lt;/p&gt;
+&lt;p&gt;Ele pediu esclarecimentos sobre os avanços relacionados ao Fundo Municipal de Segurança Pública, que foi aprovado na Câmara em 2019, através do qual a cidade conseguirá captar recursos junto ao governo federal, através do SUSP (Sistema Único de Segurança Pública), para serem investidos no desenvolvimento de projetos, capacitação de agentes e aquisição de equipamentos para a Guarda Civil.&lt;/p&gt;
+&lt;p&gt;A Comissão da Câmara recebeu ainda informações sobre o serviço de reboque de veículos, que deverá ser reativado em breve no município; sobre a nova estrutura que está preparada para receber o Centro Integrado de Operações de Petrópolis (Ciop), que deverá ser transferido para a sede da Defesa Civil; e cobrou medidas relativas à fiscalização do trânsito de motos sem escapamento, medida proibida por lei aprovada recentemente.&lt;/p&gt;
+&lt;p&gt;Participaram da reunião também o vereador Domingos Protetor (PSC), vice- presidente da Comissão; e representantes do gabinete do vereador Junior Paixão, vogal da mesma comissão. O vereador Octavio Sampaio agradeceu a presença das autoridades municipais e se disse satisfeito com a resposta do Executivo. “Tenho certeza que juntos vamos avançar bastante na solução dos problemas que foram hoje aqui abordados”, completou.&lt;/p&gt;
+&lt;p&gt;O próximo encontro acontecerá no dia 2 de março, às 14h, e para este serão convidados também representantes da Vara da Infância e da Juventude e do Conselho Tutelar. A ideia é que estes dois órgãos possam colaborar com o trabalho a partir de março.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao</guid><pubDate>Mon, 04 Jan 2021 13:28:00 GMT</pubDate></item><item><title>Comissão recebe agentes de segurança pública em reunião</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao/image" alt="Comissão recebe agentes de segurança pública em reunião" title="Comissão recebe agentes de segurança pública em reunião" height="4000" width="6000"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/comissao-recebe-agentes-de-seguranca-publica-em-reuniao/image/image_view_fullscreen</guid></item><item><title>Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta sexta-feira na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara/image_mini" alt="Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta sexta-feira na Câmara" title="Prefeitura Municipal de Petrópolis (ASCOM-PMP)" height="150" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-a441463a760b437e8d8cbf339f1357f4"&gt;
+            Prefeitura Municipal de Petrópolis (ASCOM-PMP)
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis (CMP) recebe as Secretarias de Fazenda e Saúde do município nesta sexta-feira (26), para a apresentação dos investimentos nas finanças e na saúde do município no terceiro quadrimestre de 2020. Os relatórios serão apresentados em audiências públicas, conforme determinação legal, de prestação de contas quadrimestral, segundo prevê a lei complementar federal 141/2012. Às 15h, a CMP recebe a Secretaria Municipal de Fazenda. Mais tarde, às 19h, é a vez da prestação de contas da Secretaria de Saúde.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A primeira audiência será a de Metas Fiscais. A Comissão de Finanças e Orçamento da Câmara, que foi apresentada esta semana, receberá os representantes da Secretaria de Fazenda para a apresentação dos números relativos ao terceiro Quadrimestre de 2020. A Comissão é formada pelo vereador Maurinho Branco (presidente), Junior Coruja (vice-presidente) e tem ainda como vogais os vereadores Junior Paixão, Marcelo Lessa e Gil Magno.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Mais tarde será a vez da apresentação do relatório da saúde no último quadrimestre do ano passado. Sob a coordenação da Comissão de Defesa da Saúde, presidida pelo vereador Dr. Mauro Peralta, e composta ainda pelos vereadores Marcelo Lessa (vice-presidente) e Gilda Beatriz (vogal), a audiência trará a conhecimento dos vereadores e da população os valores referentes aos investimentos em saúde entre setembro e dezembro do ano passado.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;As duas audiências poderão ser acompanhadas também pelo site da Câmara (www.cmp.rj.gov.br) e pelas redes sociais do Poder Legislativo, além da transmissão ao vivo pela TV Câmara (Canal 98).&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara</guid><pubDate>Mon, 04 Jan 2021 13:29:00 GMT</pubDate></item><item><title>Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta sexta-feira na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara/image" alt="Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta sexta-feira na Câmara" title="Prefeitura presta contas das Finanças e da Saúde de Petrópolis nesta sexta-feira na Câmara" height="960" width="1280"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/prefeitura-presta-contas-das-financas-e-da-saude-de-petropolis-nesta-sexta-feira-na-camara/image/image_view_fullscreen</guid></item><item><title>Aprovada indicação para criação de banco de dados digitalizado para chipagem de animais</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aprovada-indicacao-para-criacao-de-banco-de-dados-digitalizado-para-chipagem-de-animais</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Foi aprovada na sessão plenária da última terça-feira (23) indicação legislativa de autoria do vereador Domingos Protetor (PSC) solicitando que a Prefeitura de Petrópolis, por meio de seu departamento de informática, crie um banco de dados digitalizado para cadastro dos animais chipados na cidade. A indicação é o primeiro passo para o Projeto de Lei que o vereador irá propor requerendo a chipagem em massa dos animais domésticos e de grande porte no município.&lt;/p&gt;
+&lt;p&gt;Atualmente, existem mais de 5 mil animais com microchips de identificação em Petrópolis, como os cavalos que pertenciam às charretes, os animais apreendidos do Curral Municipal e os que já foram castrados pelo Castramóvel. Porém, o banco de dados que armazena estas informações é apenas físico, registrado em papel. A intenção é digitalizá-lo para que possa atender os futuros cadastros através de uma pesquisa automática. “A proposta final é realizar a chipagem em massa dos animais, justamente para controlar o abandono e facilitar o processo de achados e perdidos, porém, para isso, é necessário ter uma estrutura de fácil acesso, confiável e com informações completas”, explica Domingos.&lt;/p&gt;
+&lt;p&gt;O objetivo é que o banco de dados seja de domínio da Coordenadoria de Bem-Estar Animal – Cobea, mas que clínicas veterinárias autorizadas a realizarem a chipagem também possam acessar para cadastramento dos chips. “Neste cadastro irá constar as características do animal como raça e cor, histórico de atendimento médico, dados pessoais do proprietário, além de informações administradas somente pela Cobea, que irão informar sobre o estado do animal”, finaliza o vereador. &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aprovada-indicacao-para-criacao-de-banco-de-dados-digitalizado-para-chipagem-de-animais</guid><pubDate>Mon, 04 Jan 2021 13:30:00 GMT</pubDate></item><item><title>Vereador recebe trabalhadores da Economia Solidária e vai reinstalar Frente Parlamentar sobre o tema</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema/image_mini" alt="Vereador recebe trabalhadores da Economia Solidária e vai reinstalar Frente Parlamentar sobre o tema" title="Vereador Yuri Moura e representantes da Economia Solidária em Petrópolis" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            &lt;p class="discreet"&gt;
+              
+        &lt;span class="" id="parent-fieldname-imageCaption-976e745574e14675ae47560a55a6cdbf"&gt;
+            Vereador Yuri Moura e representantes da Economia Solidária em Petrópolis
+        &lt;/span&gt;
+    
+            &lt;/p&gt;
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p dir="ltr"&gt;Em um momento de grave crise econômica e em um contexto difícil para o mercado de trabalho, a economia solidária ganha força como modelo menos tradicional de geração de renda e empregabilidade. Em Petrópolis, o Fórum de Economia Popular e Solidária (FESP) vem trabalhando em prol dos produtores locais de diversos segmentos, como alimentação, artesanato, confecção e outros. Para ampliar essa atuação e consequentemente gerar oportunidades, o fórum esteve reunido com o vereador Yuri Moura (PSOL), na última terça-feira.&lt;/p&gt;
+&lt;p&gt;Dentre os temas debatidos, está a retomada da Frente Parlamentar de Economia Solidária, uma defesa de Yuri, antes mesmo do mandato. Em sessão, nesta semana, ele convidou os demais vereadores para contribuírem com os trabalhos da frente:&lt;/p&gt;
+&lt;p dir="ltr"&gt;“Reinstalar essa frente é um passo importante na construção de políticas para a economia popular e solidária, fundamental na geração de renda e emprego, cultura e turismo na cidade. Vai garantir que estes trabalhadores não sejam vítimas de ações institucionais indevidas. Vamos firmar em leis os pontos mais importantes para o segmento”, disse.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Para além da frente, a Comissão que revisa o Código de Posturas será outro instrumento fundamental na luta dos trabalhadores, permitindo maior atuação do segmento e da organização das feiras e eventos.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Outro avanço do encontro foi a decisão, amparada pelo presidente da Casa, Fred Procópio, e demais membros da mesa diretora, que permite a utilização das dependências da Câmara Municipal pelos trabalhadores da economia solidária. Uma forma de apoiar os eventos que ocorrem próximas ao prédio legislativo e indicar que as portas da casa estão abertas.&lt;/p&gt;
+&lt;p dir="ltr"&gt;“Para além da ajuda estrutural, com a utilização das dependências da Casa, como banheiros, abrir a Câmara para os trabalhadores é sempre uma atitude simbólica, demonstra que essa nova legislatura está aberta ao diálogo e que essa é a casa do povo”, disse Yuri.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Por fim, o encontro também discutiu a valorização dos trabalhadores do segmento, através da implementação do Prêmio Ivan Xavier e definiu a inclusão da Economia Solidária na Comissão da Câmara, presidida por Yuri, que trata também de educação, assistência social e direitos humanos. O próximo encontro entre o vereador e a FESP será no início de março.&lt;/p&gt;
+&lt;p dir="ltr"&gt;&lt;em&gt;(Texto enviado pela Assessoria do Vereador Yuri Moura)&lt;/em&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema</guid><pubDate>Mon, 04 Jan 2021 13:30:00 GMT</pubDate></item><item><title>Vereador recebe trabalhadores da Economia Solidária e vai reinstalar Frente Parlamentar sobre o tema</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema/image/image_view_fullscreen</link><description>&lt;div id="content-core"&gt;
+    
+
+    &lt;a href="https://www.petropolis.rj.leg.br"&gt;&lt;span&gt;Página Inicial&lt;/span&gt;&lt;br&gt;&lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema/image" alt="Vereador recebe trabalhadores da Economia Solidária e vai reinstalar Frente Parlamentar sobre o tema" title="Vereador recebe trabalhadores da Economia Solidária e vai reinstalar Frente Parlamentar sobre o tema" height="425" width="639"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+</description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/vereador-recebe-trabalhadores-da-economia-solidaria-e-vai-reinstalar-frente-parlamentar-sobre-o-tema/image/image_view_fullscreen</guid></item></channel></rss>
