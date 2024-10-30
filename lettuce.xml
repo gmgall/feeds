@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Tue, 29 Oct 2024 18:17:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
+<rss version="2.0"><channel><title>~lettuce posts on ctrl-c.club</title><link>https://ctrl-c.club/~lettuce/</link><description>/home/lettuce/public_html/index.html</description><language>en</language><lastBuildDate>Wed, 30 Oct 2024 01:00:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>students-on-gemini.html</title><link>https://ctrl-c.club/~lettuce/students-on-gemini.html</link><description>&lt;div&gt;&lt;h1&gt;Why would students use gemini?&lt;/h1&gt;
 
 &lt;p&gt;2023-08-31&lt;/p&gt;
 
@@ -2370,51 +2370,4 @@ END
 &lt;p&gt;You can leave a comment by emailing lettuce at the current domain and putting the word comment in the subject line.&lt;/p&gt;
 
 
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/tinybasic.html</guid><pubDate>Thu, 31 Mar 2022 00:00:00 GMT</pubDate></item><item><title>learning-open-source.html</title><link>https://ctrl-c.club/~lettuce/learning-open-source.html</link><description>&lt;div&gt;&lt;h1&gt;Helping Open Source Learners&lt;/h1&gt;
-
-&lt;p&gt;2022-03-23&lt;/p&gt;
-
-&lt;p&gt;Likely most folks browsing Gemini pages (or the simple web 1.0 version of this gemlog) will be familiar with open source software and the community around it, if not be an active participant in working on open source software or an amateur historian on its history and many foibles. &lt;/p&gt;
-
-&lt;p&gt;But what if you weren't? How do you get entry, so to speak?&lt;/p&gt;
-
-&lt;p&gt;Two weeks ago I received an email, excerpted and anonymized below. The exact software we're communicating about isn't essential to understanding the exchange:&lt;/p&gt;
-
-&lt;blockquote&gt;....I've returned to college to finish the BA degree...I'm back in Computer Science classes. For our class project, my group is building an internet radio gadget, and I came upon your **** project. I built it on my Mac, but I don't know how to run it. The doc says "just run *****" but I see no executable with that name. What am I missing? Thanks for your attention!"&lt;/blockquote&gt;
-
-&lt;p&gt;And my response:&lt;/p&gt;
-
-&lt;blockquote&gt;Hi X,   *** isn't my project but I wrote a tutorial on it a few years ago. Perhaps you came across that? (see link below). It's a command line application with no graphical user interface and no executable app to launch. It will work on Mac and Linux if you need a command line program, otherwise if you prefer a graphical user interface the free and open source Rhythmbox streams internet radio and is like a much lighter weight itunes or other media player. Best of luck.&lt;/blockquote&gt;
-
-&lt;p&gt;A few more back and forth emails ensued as I pointed out some more resources, then X wrote:&lt;/p&gt;
-
-&lt;blockquote&gt;The problem is that there is no resulting file called ***. I've looked and don't find an obvious candidate but I'll look again. Maybe I can find someone involved in the project. Thank you.&lt;/blockquote&gt;
-
-&lt;p&gt;I wrote:&lt;/p&gt;
-
-&lt;blockquote&gt;Since it's open source software, it's not considered best practices to contact the developer of the software this way. The onus is on the user to get it to work. Often times a little bit of debugging is required. Best to work with a local expert that can help you, such as your professor. I'm not on a Mac, so I don't know where it's installed on your system, but usually to launch it you would type: . Your linux skills will increase over time :) Some linux tutorials can be found here:  Technically, the Mac's built on a modified version of BSD but it's similar to regular Linux command line. &lt;/blockquote&gt;
-
-&lt;p&gt;X replied, saying their professor wasn't familiar with how to work on software this way (which surprises me) and thanking me for explaining this.&lt;/p&gt;
-
-&lt;p&gt;Okay, so at this point, I don't really remember my first steps in finding out about and using open source software. I've been using computers for almost 30 years and was a user of "shareware" games and software in the 90s, when I was a teen. I've been programming for less than a decade, but I can't remember my initial steps in Linux and open source software. My guess is that, like now, I spent hours each day reading tutorials and books, reading in forums, and testing things out. Perhaps my biggest learning moment was when I found an old computer in the trash at grad school and tried reviving it and installing various Linux distros and software on them, which to my surprise worked successfully, albeit with some challenges along the way.&lt;/p&gt;
-
-&lt;p&gt;On the one hand, it felt funny receiving that initial email from X asking for help, even if or especially if I had been the creator of the software. My hackles were something like: "how dare they try to reach out for help from the creator, the audacity!" But if you have no prior experience with open source software, how do you know the norms, culture or best way to get assistance? A lot of forums in open source software have aggressive or even hostile communication patterns for newbies. I don't blame someone reaching out to the person they thought created the software. Certainly, with commercial software, that's likely one of the steps a consumer might take. &lt;/p&gt;
-
-&lt;p&gt;This week I reached out to X saying I was following up to see how they've made out. They wrote me a nice note and told me they came across VLC and wrote their first little bash script to launch it and play some sound files. I wrote back and congratulated them on sticking with it and finding a solution. &lt;/p&gt;
-
-&lt;p&gt;I don't have a specific general prescription here other than some general open questions. &lt;/p&gt;
-
-&lt;ul&gt;&lt;li&gt;What are more ways to help newcomers to open source software get help?&lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;how do we help beginners find out what's available? &lt;/li&gt;&lt;/ul&gt;
-&lt;ul&gt;&lt;li&gt;how do we help them learn how to use (and debug!) software? (many tutorials assume more advanced knowledge)&lt;/li&gt;&lt;/ul&gt;
-
-&lt;p&gt;I'm also open to hearing feedback on different approaches I could have taken to this email exchange, or suggestions for the future. &lt;/p&gt;
-
-&lt;p&gt;&lt;a href="./index.html"&gt;Back to index&lt;/a&gt;&lt;/p&gt;
-
----
-
-&lt;p&gt;To leave a comment here, please email lettuce at the current domain and put comment in the subject line.&lt;/p&gt;
-
-
- &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/learning-open-source.html</guid><pubDate>Wed, 23 Mar 2022 00:00:00 GMT</pubDate></item></channel></rss>
+ &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~lettuce/tinybasic.html</guid><pubDate>Thu, 31 Mar 2022 00:00:00 GMT</pubDate></item></channel></rss>
