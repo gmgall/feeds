@@ -72,9 +72,9 @@
     "feed": "https://gmgall.github.io/feeds/diario_de_petropolis.xml"
   },
   {
-    "title": "escrevescreve – cecilia giannetti",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https?://escrevescreve.wordpress.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ -i .+/\\?share=.+ --follow --with-body --body-csss .entry-content --body-remove-csss #jp-post-flair --title-regex (.+) – escrevescreve --date-from-csss time --csss-date-fmt %d/%m/%Y --author-from-csss .author.vcard a https://escrevescreve.wordpress.com/ -o ./feeds/escrevescreve.xml",
     "link": "https://escrevescreve.wordpress.com/",
-    "description": "cecilia giannetti",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/escrevescreve.xml"
   },
   {
