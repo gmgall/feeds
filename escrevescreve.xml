@@ -1,13 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https?://escrevescreve.wordpress.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ -i .+/\?share=.+ --follow --with-body --body-csss .entry-content --body-remove-csss #jp-post-flair --title-regex (.+) – escrevescreve --date-from-csss time --csss-date-fmt %d/%m/%Y --author-from-csss .author.vcard a https://escrevescreve.wordpress.com/ -o ./feeds/escrevescreve.xml</title><link>https://escrevescreve.wordpress.com/</link><description>Failed to generate feed.</description><lastBuildDate>Thu, 31 Oct 2024 18:18:14 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https?://escrevescreve.wordpress.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ -i .+/\?share=.+ --follow --with-body --body-csss .entry-content --body-remove-csss #jp-post-flair --title-regex (.+) – escrevescreve --date-from-csss time --csss-date-fmt %d/%m/%Y --author-from-csss .author.vcard a https://escrevescreve.wordpress.com/ -o ./feeds/escrevescreve.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https?://escrevescreve.wordpress.com/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ -i .+/\?share=.+ --follow --with-body --body-csss .entry-content --body-remove-csss #jp-post-flair --title-regex (.+) – escrevescreve --date-from-csss time --csss-date-fmt %d/%m/%Y --author-from-csss .author.vcard a https://escrevescreve.wordpress.com/ -o ./feeds/escrevescreve.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>escrevescreve – cecilia giannetti</title><link>https://escrevescreve.wordpress.com/</link><description>cecilia giannetti</description><language>pt-BR</language><lastBuildDate>Fri, 01 Nov 2024 01:05:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Doutor</title><link>https://escrevescreve.wordpress.com/2022/08/07/doutor/</link><description>&lt;div class="entry-content"&gt;
+		
+&lt;p&gt;Frequentemente me imagino bem velha. Velha já sou. Em 2022, mulheres são velhas a partir dos 28. Talvez um ano a menos, se não morrerem pela maldição do rock dos 27. &lt;/p&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+
+
+&lt;p&gt;As pessoas, quando querem, quando bate um vento doido, elas são muito simpáticas. A moça da mesa à frente à minha sorriu para mim quando pediu a conta, só porque eu sorri para ela. Não sei por que sorri para a moça. Ela grita pela Cida. Cidaaá. Cida vem com a maquininha de cartão. Volto a pensar na velhice. &lt;/p&gt;
+
+
+
+&lt;p&gt;Não tenho medo de morrer antes delas. O pavor é que eu seja a última. Ou penúltima. &lt;/p&gt;
+
+
+
+&lt;p&gt;Há estudantes de medicina conversando em mesa próxima. Meu pai era médico, pneumologista, fumante compulsivo. Fumava, inclusive, durante consultas (início dos anos 80). Enfim, nessas ocasiões – com médicos próximos – desejo que os locais que frequento fossem ambientes onde esses profissionais e colegas deles fossem aceitos apenas *caso não comentassem em detalhes em tom tão alto mortes e acidentes terríveis*. &lt;/p&gt;
+
+
+
+&lt;p&gt;Mas já não sei mais o motivo de ter iniciado essa tentativa de censura aos médicos. Apenas que nunca entendi meu pai médico, e que estou velha e viva demais para compreender.&lt;/p&gt;
+
+
+
+&lt;p&gt;Tenho uma combinação com duas amigas infância: morar junto ou próximas, vizinhas, quando muito muito velhas. &lt;/p&gt;
+&lt;/div&gt;</description><author>Cecilia Barboza Giannetti</author><guid isPermaLink="true">https://escrevescreve.wordpress.com/2022/08/07/doutor/</guid><pubDate>Sun, 07 Aug 2022 00:00:00 GMT</pubDate></item><item><title>ALMA PENADA</title><link>https://escrevescreve.wordpress.com/2022/08/07/alma-penada/</link><description>&lt;div class="entry-content"&gt;
+		
+&lt;p&gt;Não é que eu tenha passado esse tempo todo sem escrever. Ando escrevendo outras coisas que não livros. Colaboro em roteiros e escrevo coisas também que não publiquei porque o tempo e o mercado não têm paciência – o próprio tempo não tem tempo – para dar a escritoras hesitantes. &lt;/p&gt;
+
+
+
+&lt;p&gt;Estou no meio de um &lt;strong&gt;de repente&lt;/strong&gt; que de repentino não tem nada. Porque faz tempo, tempo à beça. Publiquei meu primeiro, e até agora único romance em 2008. O livro foi indicado ao Prêmio São Paulo mas não ganhou. &lt;/p&gt;
+
+
+
+&lt;p&gt;Seguiu o baile, publiquei contos, crônicas em jornais e revistas, posts aqui e ali. Escrever para a TV juntou a (falta de) fome com a (falta de) vontade para comer, vamos dizer assim: me fez acreditar que a pancada da rotina dos roteiros era algo inviável de se conciliar com a escrita para qualquer outro meio. Enquanto eu achava que me faltava vontade de escrever ‘literatura’ (o peso da palavra me envergonha), ia crescendo um abismo, um monstro, um devorador de alma.&lt;/p&gt;
+
+
+
+&lt;p&gt;Até que algo que eu costumava dizer algumas vezes, lá quando comecei, novinha e arrogante, se mostrou mais verdadeiro do que nunca, agora que sou uma senhoUra. Que eu preciso escrever para não rasgar a minha pele, para não colocar os bofes de dentro pra fora por todos os poros, para não escalar as paredes do apartamentinho, para tentar entender, de alguma maneira, o que diabos aconteceu esses anos todos. &lt;/p&gt;
+
+
+
+&lt;p&gt;Escrever para sobreviver não quer dizer apenas produzir em troca de um salário. É para sobreviver a mim mesma, de verdade, e eu escrevo isso aqui sem romantismos, sem autopiedade, sem chororô. É uma constatação que me chegou quando nem as infinitas opções de seriados e filmes, em sei lá quantas plataformas de streaming que eu assino, dão conta de me anestesiar. Quando um domingo inteiro lendo um livro não me conforta o suficiente para eu ter uma noite de sono decente. &lt;/p&gt;
+
+
+
+&lt;p class="has-text-align-left"&gt;Existem muitos fantasmas na minha noite. O problema é que ele eles são workaholic e trabalham de dia também.&lt;/p&gt;
+
+
+
+&lt;p&gt;Toda vez que eu precisar lidar com eles, de hoje em diante, eu venho aqui e coloco por escrito o barulho deles puxando corrente pelo apartamentinho. Pronto, tá resolvido. Não é uma promessa para ninguém. É um berro, que eu preciso soltar e fazia muito muito tempo que eu negava. Não é truque, é feitiçaria. Necessária.&lt;/p&gt;
+&lt;/div&gt;</description><author>Cecilia Barboza Giannetti</author><guid isPermaLink="true">https://escrevescreve.wordpress.com/2022/08/07/alma-penada/</guid><pubDate>Sun, 07 Aug 2022 00:00:00 GMT</pubDate></item><item><title>Fumos de</title><link>https://escrevescreve.wordpress.com/2021/12/09/fumos-de/</link><description>&lt;div class="entry-content"&gt;
+		
+&lt;p&gt;Não é a nicotina que vicia&lt;/p&gt;
+
+
+
+&lt;p&gt;Vicia a respiração&lt;/p&gt;
+
+
+
+&lt;p&gt;instigada pela nicotina&lt;/p&gt;
+
+
+
+&lt;p&gt;Fumar é meditação&lt;/p&gt;
+
+
+
+&lt;p&gt;Inspira e expira&lt;/p&gt;
+&lt;/div&gt;</description><author>Cecilia Barboza Giannetti</author><guid isPermaLink="true">https://escrevescreve.wordpress.com/2021/12/09/fumos-de/</guid><pubDate>Thu, 09 Dec 2021 00:00:00 GMT</pubDate></item><item><title>Diário de viagem com mapa R$ 34,90￼</title><link>https://escrevescreve.wordpress.com/2021/12/06/diario-de-viagem-com-mapa-r-3490%ef%bf%bc/</link><description>&lt;div class="entry-content"&gt;
+		
+&lt;p&gt;Hoje fui à cozinha&lt;/p&gt;
+
+
+
+&lt;p&gt;Livre de trânsito, contei três gatos&lt;/p&gt;
+
+
+
+&lt;p&gt;É bom uma mulher que dirige&lt;/p&gt;
+
+
+
+&lt;p&gt;De óculos escuros, ao flanelinha seu trocado&lt;/p&gt;
+
+
+
+&lt;p&gt;Sorrio e sol, saio às quintas&lt;/p&gt;
+
+
+
+&lt;p&gt;Amanhã vou ao quarto&lt;/p&gt;
+
+
+
+&lt;p&gt;À lixeira todo dia&lt;/p&gt;
+
+
+
+&lt;p&gt;Poso sentada na latrina&lt;/p&gt;
+
+
+
+&lt;p&gt;Sob o arco de tijolos da sala&lt;/p&gt;
+
+
+
+&lt;p&gt;Bagatela!&lt;/p&gt;
+
+
+
+&lt;p&gt;Não se paga aluguel neste balneário&lt;/p&gt;
+
+
+
+&lt;p&gt;Não há tédio nesta ilha&lt;/p&gt;
+
+
+
+&lt;p&gt;Nem doenças, nem malas&lt;/p&gt;
+
+
+
+&lt;p&gt;Em lugar do tapete, 50 quilos de areia branquinha&lt;/p&gt;
+
+
+
+&lt;p&gt;A imobiliária notifica: fugiu o proprietário&lt;/p&gt;
+&lt;/div&gt;</description><author>Cecilia Barboza Giannetti</author><guid isPermaLink="true">https://escrevescreve.wordpress.com/2021/12/06/diario-de-viagem-com-mapa-r-3490%EF%BF%BC/</guid><pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate></item></channel></rss>
