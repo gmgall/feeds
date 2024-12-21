@@ -4,9 +4,60 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Dec 2024 18:17:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2024 00:58:53 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Black Forest by Alter</title>
+      <link>https://untappd.com/user/gmgall/checkin/1442784319</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/black-forest-alter/4925250"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Black Forest label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/black-forest-alter/4925250"&gt;Black Forest&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/w/alter/350009"&gt;Alter&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1442784319"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
+            &lt;span&gt;Draft &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 28)"&gt;
+                  &lt;span&gt;Earned the Middle of the Road (Level 28) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_AmazonAndAndes_sm.jpg" alt="Amazons &amp;amp; Andes (Level 40)"&gt;
+                  &lt;span&gt;Earned the Amazons &amp;amp; Andes (Level 40) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1442784319</guid>
+      <pubDate>Fri, 20 Dec 2024 23:27:10 GMT</pubDate>
+    </item>
     <item>
       <title>IPA Maracujá by Baden Baden</title>
       <link>https://untappd.com/user/gmgall/checkin/1442088402</link>
@@ -174,37 +225,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1438448592</guid>
       <pubDate>Wed, 04 Dec 2024 11:49:12 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pardal Pils by Vila de Secretário Cerveja Artesanal</title>
-      <link>https://untappd.com/user/gmgall/checkin/1430296794</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/pardal-pils-vila-de-secretario-cerveja-artesanal/2624785"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2624785_39a9d_sm.jpeg" alt="Pardal Pils label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/pardal-pils-vila-de-secretario-cerveja-artesanal/2624785"&gt;Pardal Pils&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/ViladeSecretrio"&gt;Vila de Secretário Cerveja Artesanal&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-        &lt;div class="rating-serving floating"&gt;
-                      &lt;p class="serving"&gt;
-              &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-              &lt;span&gt;Bottle &lt;/span&gt;
-            &lt;/p&gt;
-                    &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1430296794"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1430296794</guid>
-      <pubDate>Sat, 02 Nov 2024 00:29:09 GMT</pubDate>
     </item>
   </channel>
 </rss>
