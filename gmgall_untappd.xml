@@ -4,9 +4,46 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 24 Dec 2024 18:16:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 25 Dec 2024 00:59:10 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Torobayo by Compañia Cervecera Kunstmann</title>
+      <link>https://untappd.com/user/gmgall/checkin/1444338813</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/torobayo-compania-cervecera-kunstmann/35513"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-_35513_sm_dacf678eb47afd91cb6bf67f57a0e6.jpeg" alt="Torobayo label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/torobayo-compania-cervecera-kunstmann/35513"&gt;Torobayo&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/CerveceriaKunstmann"&gt;Compañia Cervecera Kunstmann&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1444338813"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+            &lt;span&gt;Bottle &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1444338813</guid>
+      <pubDate>Wed, 25 Dec 2024 00:56:41 GMT</pubDate>
+    </item>
     <item>
       <title>Black Forest by Alter</title>
       <link>https://untappd.com/user/gmgall/checkin/1442784319</link>
@@ -188,43 +225,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1439935327</guid>
       <pubDate>Sun, 08 Dec 2024 23:18:53 GMT</pubDate>
-    </item>
-    <item>
-      <title>Aura by Hocus Pocus</title>
-      <link>https://untappd.com/user/gmgall/checkin/1438448592</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/aura-hocus-pocus/4865813"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4865813_64f4a_sm.jpeg" alt="Aura label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/aura-hocus-pocus/4865813"&gt;Aura&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/Hocus_Pocus"&gt;Hocus Pocus&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1438448592"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-            &lt;span&gt;Bottle &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-30"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1438448592</guid>
-      <pubDate>Wed, 04 Dec 2024 11:49:12 GMT</pubDate>
     </item>
   </channel>
 </rss>
