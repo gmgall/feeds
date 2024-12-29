@@ -4,9 +4,46 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Dec 2024 01:05:34 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 29 Dec 2024 06:16:51 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Brewpoint American IPA by Cervejaria Brewpoint</title>
+      <link>https://untappd.com/user/gmgall/checkin/1445955850</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1867468_a151c_sm.jpeg" alt="Brewpoint American IPA label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/brewpoint-american-ipa-cervejaria-brewpoint/1867468"&gt;Brewpoint American IPA&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/CervejariaBrewpoint"&gt;Cervejaria Brewpoint&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1445955850"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+            &lt;span&gt;Bottle &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1445955850</guid>
+      <pubDate>Sun, 29 Dec 2024 02:22:04 GMT</pubDate>
+    </item>
     <item>
       <title>Torobayo by Compañia Cervecera Kunstmann</title>
       <link>https://untappd.com/user/gmgall/checkin/1444338813</link>
@@ -188,43 +225,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1439936550</guid>
       <pubDate>Sun, 08 Dec 2024 23:23:39 GMT</pubDate>
-    </item>
-    <item>
-      <title>Pure Gold by Stella Artois</title>
-      <link>https://untappd.com/user/gmgall/checkin/1439935327</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/pure-gold-stella-artois/5423491"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-5423491_fc432_sm.jpeg" alt="Pure Gold label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/pure-gold-stella-artois/5423491"&gt;Pure Gold&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/StellaArtois"&gt;Stella Artois&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1439935327"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/can@3x.png" alt="Can"&gt;
-            &lt;span&gt;Can &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1439935327</guid>
-      <pubDate>Sun, 08 Dec 2024 23:18:53 GMT</pubDate>
     </item>
   </channel>
 </rss>
