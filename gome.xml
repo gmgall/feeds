@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 02 Jan 2025 00:59:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — songwriting</title><link>https://ctrl-c.club/~gome/journal/songwriting.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 02 Jan 2025 06:18:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — bingle</title><link>https://ctrl-c.club/~gome/journal/bingle.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Bingle&lt;/h1&gt;
+      &lt;time datetime="Wed, 1 Jan 2024 22:30:00 CST"&gt;1 Jan. 2025, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        I think I first heard this word in a cat meme or something.
+        It’s a nice round six-letter word; it sounds fun and is easy to type.
+        Phonetically, there are no long vowels, giving it a bit of a casual vibe, and ending with the syllabic /l/ moves it into playful territory.
+      &lt;/p&gt;&lt;p&gt;
+        When programming, I often need a placeholder word, e.g., if I haven’t decided what to name a variable yet, or I need to print out a recognizable string for debugging, but it doesn’t matter what.
+        I used to use whatever word first popped into my head for this purpose, or even just random keyboard mashing.
+        I recall one time during a code review a co-worker caught a debugging statement of mine that just printed out the word “Gamecube”.
+      &lt;/p&gt;&lt;p&gt;
+        Over the last few years, I gradually converged on &lt;i&gt;bingle&lt;/i&gt; as my go-to placeholder word whenever I don’t know what to name something.
+        On top of its nice phonetic qualities (which I find valuable even if I’m just reading a word in my head), it’s really easy to type on a standard keyboard layout.
+        I have it so worked into my muscle memory at this point that I can just kind of let my hands fall on the keyboard and I’ll type it.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/mister_bingle.webp" width="377" height="500"&gt;
+        &lt;figcaption&gt;Apparently “&lt;a href="https://en.wikipedia.org/wiki/Mr._Bingle"&gt;Mister Bingle&lt;/a&gt;” is a snowman character specific to New Orleans Christmas. There’s a way cooler picture of him on the linked page&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        When I was deciding what to post about today, I opened up my text editor and started &lt;a href="update.html"&gt;copying over the HTML&lt;/a&gt; for a new post, as usual.
+        When it came time to replace the path to yesterday’s with one for today’s,
+        I found my fingers reflexively reaching for a nice, comfy &lt;i&gt;bingle&lt;/i&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        Normally, &lt;i&gt;bingle&lt;/i&gt; is ephemeral for me, quickly removed or replaced with some actual content.
+        So I thought, just for today, why don’t I let &lt;i&gt;bingle&lt;/i&gt; itself, my nonsense word, actually &lt;i&gt;be&lt;/i&gt; the content?
+      &lt;/p&gt;&lt;p&gt;
+        This made me curious if &lt;i&gt;bingle&lt;/i&gt; truly is just a nonsense word or not, so I did a quick Wiktionary search.
+        Apparently, &lt;a href="https://en.wiktionary.org/wiki/bingle"&gt;it really is&lt;/a&gt; a word with a handful of niche meanings!
+        It’s a hairstyle, a baseball term, and best of all, it’s used to mean a minor crash (like a fender bender) in Australia.
+        The idea of getting in a vehicular collision and saying “oh no, I’ve had a bingle” is so funny to me. What a world.
+      &lt;/p&gt;&lt;p&gt;
+        Do you have a go-to word, when programming, typing, or writing?
+        Is it nonsense or does it have a meaning?
+        How did you settle upon it?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/bingle.html</guid></item><item><title>gome — songwriting</title><link>https://ctrl-c.club/~gome/journal/songwriting.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Songwriting journey&lt;/h1&gt;
       &lt;time datetime="Tue, 31 Dec 2024 21:30:00 CST"&gt;31 Dec. 2024, 9:30 PM&lt;/time&gt;
@@ -93,7 +134,7 @@
         I think taking notes requires me to pay closer attention than I otherwise would have, and needing to phrase things in my own terms helps me add structure to the concepts I learn.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/notebooks-2.webp" width="403" height="512"&gt;
+        &lt;img src="img/notebooks_2.webp" width="403" height="512"&gt;
         &lt;figcaption&gt;Image credit: &lt;a href="https://commons.wikimedia.org/wiki/File:TAHIR_SHAH_NOTEBOOKS.jpg#Licensing"&gt;Tahir Shah&lt;/a&gt;&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
