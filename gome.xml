@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 03 Jan 2025 01:00:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — bingle</title><link>https://ctrl-c.club/~gome/journal/bingle.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 03 Jan 2025 06:19:07 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — mahjong</title><link>https://ctrl-c.club/~gome/journal/mahjong.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I learned American mahjong&lt;/h1&gt;
+      &lt;time datetime="Thu, 2 Jan 2025 22:30:00 CST"&gt;2 Jan. 2025, 10:30 PM&lt;/time&gt;
+      &lt;p class="note"&gt;
+        I didn’t write much on gomepage in 2024,
+        so this is the first of some posts I’ll do on things I did last year that are worth mentioning.
+      &lt;/p&gt;&lt;p&gt;
+        If you tell someone you play mahjong, the first thing they will usually say is “oh, is that like the computer game?”.
+        I, too, knew only of the Windows tile-matching version of the game when I began my mahjong journey.
+        With no more knowledge than that, last May I signed up for a community education class that promised to teach the game.
+      &lt;/p&gt;&lt;p&gt;
+        As I soon found out, mahjong is actually a variety of games using the same set of tiles, originating from China.
+        There are variations across China and the rest of East Asia.
+        There’s also an American version, the version we learned in my class.
+      &lt;/p&gt;
+      &lt;img src="img/mahjong.webp" width="550" height="310"&gt;
+      &lt;p&gt;
+        Rather than a single-player matching game, American mahjong (like the original Chinese game) is a four-player game somewhat like rummy on steroids.
+        Players draw and discard tiles in an attempt to create a winning hand of fourteen tiles.
+        There are seventy or so patterns that describe winning hands, given in a terse notation on a printed card, and these patterns change each year.
+      &lt;/p&gt;&lt;p&gt;
+        Mahjong is definitely not an easy game.
+        Learning so many patterns is difficult,
+        but figuring out how to match up your current hand to the best possible winning hand is even harder.
+        On top of that, even if you puzzle it out and hit upon something promising,
+        it’s possible your luck will just be crummy and you won’t be able to get the tiles you need.
+        One of the most remarkable things about mahjong to me is how it manages to be both so difficult and so luck-based at the same time.
+      &lt;/p&gt;&lt;p&gt;
+        That being said, I find it a lot of fun to play.
+        There are parts that take a lot of focus and thinking,
+        but then there are parts where once you have a handle on what’s going on,
+        you can mostly turn your brain off and play.
+        It’s also just fun to handle the tiles, and they all have cool art on them.
+      &lt;/p&gt;&lt;p&gt;
+        After taking the class, I went to a local weekly meetup to play the game some more,
+        but didn’t get in a regular habit of coming.
+        For Christmas, my parents got me my own set of mahjong tiles,
+        so now I can host my own games with friends.
+      &lt;/p&gt;&lt;p&gt;
+        I had a lot of fun teaching my family to play.
+        It was funny how those who tried it out found it ridiculously hard the first few times they played,
+        and then around their fifth game or so, it would click and they would start to enjoy it.
+        I look forward to getting more people over their first five games of mahjong.
+      &lt;/p&gt;&lt;p&gt;
+        Have you played American mahjong?
+        Have you played a different mahjong variant?
+        Have you ever learned a particularly challenging or rewarding tabletop game?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/mahjong.html</guid></item><item><title>gome — bingle</title><link>https://ctrl-c.club/~gome/journal/bingle.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Bingle&lt;/h1&gt;
       &lt;time datetime="Wed, 1 Jan 2024 22:30:00 CST"&gt;1 Jan. 2025, 10:30 PM&lt;/time&gt;
