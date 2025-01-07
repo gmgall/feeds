@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 07 Jan 2025 01:00:16 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — journal index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 07 Jan 2025 06:19:58 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — journal index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -1229,11 +1229,90 @@
       &lt;time datetime="Fri, 3 Jan 2025 21:30:00 CST"&gt;3 Jan. 2025, 9:30 PM&lt;/time&gt;
       &lt;p&gt;Slow is smooth, smooth is fast&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="undo.html"&gt;
+      &lt;h3&gt;Infinite undo&lt;/h3&gt;
+      &lt;div class="line stop-1"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 6 Jan 2025 22:00:00 CST"&gt;6 Jan. 2025, 10:00 PM&lt;/time&gt;
+      &lt;p&gt;A certain artistic preoccupation&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — slow</title><link>https://ctrl-c.club/~gome/journal/slow.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — undo</title><link>https://ctrl-c.club/~gome/journal/undo.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Infinite undo&lt;/h1&gt;
+      &lt;time datetime="Mon, 6 Jan 2025 21:00:00 CST"&gt;6 Jan. 2025, 9:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        Two of my main interests, both as a hobbyist and a professional, are writing music and writing code.
+        While I think there are some firmly fundamental differences between the two,
+        there are a number of interesting similarities which I am drawn to in both cases.
+        For example, both require you to acquire a new system of thinking,
+        and then try to use that new system fluently, sort of like a language.*
+      &lt;/p&gt;&lt;p&gt;
+        There’s another similarity which has piqued my interest since I first noticed it a year or two ago.
+        Both composing and programming are crafts of planning, so to speak.
+        The way I phrase it to myself is that they both have “infinite undo”.
+        Generally speaking, if you proceed carefully and save your work,
+        you can always choose to go back and try another path until you choose to “finalize” your work,
+        and even then, revisions can usually be made.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/newton.webp" width="550" height="423"&gt;
+        &lt;figcaption&gt;&lt;i&gt;Isaac Newton&lt;/i&gt; by William Blake — he’s not actually planning, he’s measuring, but I still felt like it resonates&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        In music, this usually looks like me taking lots of recordings and saving every scrap of paper I write an idea on.
+        Often, I don’t actually need these records, as I keep a pretty good model of the piece in my head as I work on it.
+        But I’m still managing that pathfinding process, just mentally.
+      &lt;/p&gt;&lt;p&gt;
+        In programming, this is handled through software:
+        the text editor and version control system both give you ways to undo your work or even manage multiple possibilities at once.
+        Even without those niceties, rewriting the code is always an option as well.
+        What matters is that it doesn’t have to be done until you say it’s done.
+      &lt;/p&gt;&lt;p&gt;
+        This “infinite undo” stands in contrast to many other kinds of art,
+        where you must hone some kind of realtime skill.
+        I think of potters or sculptors, whose actions on their works are irreversible.
+        They have to practice, to cultivate the skill of &lt;i&gt;doing&lt;/i&gt; something in the real world.
+        The same applies to actors, dancers, musicians, and any other kind of performing artist.
+        It’s a big part of what athletes do as well.
+      &lt;/p&gt;&lt;p&gt;
+        I think the perfectionist side of me is drawn to the idea that I could craft the “perfect plan”:
+        the perfect code that does exactly what I wanted it to do,
+        the perfect song that creates the moment I wanted to experience when I had the idea.
+        Before that perfect moment, I can do unlimited test runs, infinitely re-experiencing this event which hasn’t happened yet.
+        I can test my code or listen to what I’ve written over and over again,
+        reinforcing my confidence that it really will be what I want it to be.
+      &lt;/p&gt;&lt;p&gt;
+        On some level, this may be part of what initially drew me to coding and composition,
+        but I don’t think that perfectionism defines me, either.
+        In both cases, I’ve dropped some of the perfectionism as I’ve gotten older.
+        In my choral music specifically, I do still have a hard time with it.
+        But in my other music, as in my coding, I’m much better at focusing on getting things working first and going from there.
+      &lt;/p&gt;&lt;p&gt;
+        What’s more, I do also practice the kinds of realtime skill-based activities I mentioned above.
+        I’m a performer, formerly as an &lt;a href="theater.html"&gt;actor&lt;/a&gt; and now mainly as a musician.
+        For what it’s worth, I think my performance anxiety is pretty low compared to the median.
+        I generally don’t mind making mistakes; I can shake them off easily (maybe too easily, sometimes).
+      &lt;/p&gt;&lt;p&gt;
+        I don’t really know how deeply it’s worth analyzing,
+        but I do think something about having “infinite undo” appeals specifically to my personality type.
+        Maybe it’s an exaggeration of how I really am,
+        but I find the exaggerated language to be helpful.
+        It maps out at least one relevant framing of myself,
+        which I can then take or leave.
+      &lt;/p&gt;&lt;p&gt;
+        Do you prefer realtime activities or more planning-based ones that allow for “infinite undo”?
+        Are there things you wish you had “infinite undo” for?
+        Do you have a perfectionist streak?
+        Are you gradually getting over it?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;p class="footnote"&gt;* I don’t think I’ve ever put it that way before; that idea itself could be an interesting future post!&lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/undo.html</guid></item><item><title>gome — slow</title><link>https://ctrl-c.club/~gome/journal/slow.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I love being slow&lt;/h1&gt;
       &lt;time datetime="Fri, 3 Jan 2025 21:30:00 CST"&gt;3 Jan. 2025, 9:30 PM&lt;/time&gt;
@@ -1502,47 +1581,4 @@
       
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/notes-2.html</guid></item><item><title>gome — restart</title><link>https://ctrl-c.club/~gome/journal/restart.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I want to start blogging again&lt;/h1&gt;
-      &lt;time datetime="Mon, 9 Sep 2024 22:30:00 CDT"&gt;9 Sept. 2024, 10:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        This was the longest gap I’ve had in posts since starting my blog back in &lt;a href="ramen.html"&gt;September 2022&lt;/a&gt;.
-        During that time I’ve done and thought a lot of things worth talking about, but for various reasons, I felt like I shouldn’t prioritize the blog for a while.
-      &lt;/p&gt;&lt;p&gt;
-        I’ve been less involved in Ctrl-C in general this year, too.
-        But I still look back fondly on what I’ve done here, and the people I’ve met, and I miss being more active, chatting and corresponding.
-      &lt;/p&gt;&lt;p&gt;
-        I don’t like the idea of gomepage going generally dormant at this point.
-        I still have ideas for things to add, and I really do enjoy taking pride in crafting my little corner of the tildeverse.
-      &lt;/p&gt;&lt;p&gt;
-        What’s more, I miss blogging.
-        I miss having to sit down every day and get at least something out into the world.
-        Not every post I made was a winner, but I routinely wrote posts I am still proud of today.
-      &lt;/p&gt;&lt;p&gt;
-        I don’t have a similar outlet for writing anymore.
-        I tried for a while to start a music blog with my real name on it, but I felt a lot more pressure to make it into something.
-        With the low-stakes atmosphere of posting on gomepage, I feel free to explore topics and ideas I couldn’t with a more focused blog.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/revive.webp" width="288" height="312"&gt;
-        &lt;figcaption&gt;Horrifically dated meme that popped into my head while writing this. This will not be a regular occurrence&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;h3&gt;The plan for now: Songbook&lt;/h3&gt;
-      &lt;p&gt;
-        I added this section to my site a good while ago called “&lt;a href="../library/songbook"&gt;songbook&lt;/a&gt;”.
-        My idea was to encourage myself to write more about the songs I love.
-        It sat mostly half-finished for a year.
-        This year, I wanted to complete it as part of the &lt;a href="../library/webjam"&gt;2024 webpage jam&lt;/a&gt;.
-      &lt;/p&gt;&lt;p&gt;
-        But thus far, I haven’t followed through on my plan.
-        So my first order of business in revitalizing gomepage is starting work on that.
-        After that, I have an idea for a photo gallery, although I might put that on hold for a bit to re-establish a regular posting schedule.
-      &lt;/p&gt;
-        Have you ever restarted a blog or some other project after a long hiatus?
-        What were the challenges with getting going again?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/restart.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/notes-2.html</guid></item></channel></rss>
