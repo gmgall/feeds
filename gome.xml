@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 08 Jan 2025 01:00:17 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — journal index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 08 Jan 2025 06:18:52 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — journal index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -1235,11 +1235,63 @@
       &lt;time datetime="Mon, 6 Jan 2025 22:00:00 CST"&gt;6 Jan. 2025, 10:00 PM&lt;/time&gt;
       &lt;p&gt;A certain artistic preoccupation&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="sources.html"&gt;
+      &lt;h3&gt;Knowing your sources&lt;/h3&gt;
+      &lt;div class="line stop-2"&gt;&lt;/div&gt;
+      &lt;time datetime="Tue, 7 Jan 2025 23:30:00 CST"&gt;7 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;Content vs. context&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — undo</title><link>https://ctrl-c.club/~gome/journal/undo.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — sources</title><link>https://ctrl-c.club/~gome/journal/sources.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Knowing your sources&lt;/h1&gt;
+      &lt;time datetime="Tue, 7 Jan 2025 23:30:00 CST"&gt;7 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I was in high school, I remember hearing about and reading Reddit for the first time.
+        This was my first encounter with a site that had user-voted content.
+        It’s a little embarassing to admit now, but I remember thinking something like
+        “wow, that’s a great idea! All the best posts and ideas will get voted to the top!”
+      &lt;/p&gt;&lt;p&gt;
+        In hindsight, I think it was naive of me to think this way,
+        but on the other hand, that was clearly the logic behind such a system.
+        After having many years to use, overuse, tire of, and finally quit Reddit,
+        I managed to learn that what gets votes online does not generally correlate with genuine value.
+      &lt;/p&gt;&lt;p&gt;
+        But even if the principle behind Reddit were true, and the cream always rose to the top,
+        I think I would still have a more fundamental problem with such a system.
+        When you read something on Reddit, it usually doesn’t matter who they are.
+        With the exception of things like high-profile AMAs* or the rare gimmick account,
+        most users are not anyone you’d know from anyone else on the site.
+      &lt;/p&gt;&lt;p&gt;
+        Offline, when you talk to people, you usually know who you are talking to,
+        or you at least know &lt;i&gt;something&lt;/i&gt; about them.
+        This gives you critical context for how you interpret what they say and how you communicate with them.
+        On the open internet, lacking any distinguishing features between different users,
+        I find that the different voices start to blend together.
+      &lt;/p&gt;&lt;p&gt;
+        In this low-context mush, I wind up catching onto recurring patterns of ideas rather than specific users.
+        But without any knowledge of where these ideas are coming from,
+        it becomes difficult to intepret and respond in a reasonable way.
+        I think the feeling that you are directly interacting with ideas instead of real people you could know is a source of a lot of fighting on the internet.
+      &lt;/p&gt;&lt;p&gt;
+        Anyway, I’ve come to prefer websites and formats that come from sources I know and choose to return to,
+        whether that’s a blog, a channel, or a small community like &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt;.
+        These known sources end up having much higher quality and much lower volume than the infinite feeding trough of normal social media.
+        Best of all, their value comes not only from their content, but from the context you can only build up from repeated interaction,
+        so the longer you follow a specific source, the more value you’ll tend to get out of it.
+      &lt;/p&gt;&lt;p&gt;
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;p class="footnote"&gt;
+        * For the unfamiliar, “Ask Me Anything” is a part of Reddit where a user
+        (sometimes a celebrity or public figure) can host a big, open Q&amp;amp;A session with anyone on the site.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sources.html</guid></item><item><title>gome — undo</title><link>https://ctrl-c.club/~gome/journal/undo.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Infinite undo&lt;/h1&gt;
       &lt;time datetime="Mon, 6 Jan 2025 21:00:00 CST"&gt;6 Jan. 2025, 9:00 PM&lt;/time&gt;
@@ -1536,49 +1588,4 @@
       
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/goals-3.html</guid></item><item><title>gome — notes</title><link>https://ctrl-c.club/~gome/journal/notes-2.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Why don’t I review my notes?&lt;/h1&gt;
-      &lt;time datetime="Sun, 29 Dec 2024 22:00:00 CST"&gt;29 Dec. 2024, 10:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        I don’t think taking notes is a natural behavior for me.
-        In my earlier school years, I generally wouldn't take any notes at all.
-        After some classes where note-taking was a requirement, I started warming up to the practice a little more.
-        My note-taking habits are still inconsistent and unsystematic, but by the end of college I was much better about them than when I started out.
-      &lt;/p&gt;&lt;p&gt;
-        For me, the use in notes almost never lay in actually reviewing them.
-        Just the act of taking notes during class was enough to improve my retention.
-        I think taking notes requires me to pay closer attention than I otherwise would have, and needing to phrase things in my own terms helps me add structure to the concepts I learn.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/notebooks_2.webp" width="403" height="512"&gt;
-        &lt;figcaption&gt;Image credit: &lt;a href="https://commons.wikimedia.org/wiki/File:TAHIR_SHAH_NOTEBOOKS.jpg#Licensing"&gt;Tahir Shah&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        Nowadays, while I still do a lot of learning, I don’t take many notes for it (perhaps I should!).
-        But I do still take notes in the form of writing down ideas I have and saving bookmarks of webpages I visit.
-      &lt;/p&gt;&lt;p&gt;
-        A few years ago, around the time I joined Ctrl-C, I started a habit of bookmarking almost every site or article that I found interesting.
-        This helps somewhat with what you might call “open tab syndrome”, because you can tell yourself you’ll come back to things later.
-      &lt;/p&gt;&lt;p&gt;
-        But will you (“you” being me in this case)?
-        I find myself very rarely looking back through either my bookmarks or my idea notes.
-        If I do, I’m usually looking for something specific that I already remembered somewhat.
-        That certainly has its uses, but I wonder if I’m missing out on a lot of great things I squirreled away and then forgot about.
-      &lt;/p&gt;&lt;p&gt;
-        The problem is, looking up a specific note or bookmark feels urgent and relevant to the here and now, while reviewing all my notes in general mainly feels like a chore to me.
-        On second thought, more than just being a chore, I kind of feel like I’ll be crushed by the sheer volume of backlog that I’d like to get to one day, that requires follow-up from me.
-        I have just so many ideas and interests, and I can only really be interested in and committed to a few at a time.
-      &lt;/p&gt;&lt;p&gt;
-        But I do believe that if I just sat down and went through a bit every day,
-        I could get through a lot of the backlog pretty quickly.
-        What’s even better, I think I could reorganize and flesh out a lot of my notes, so that I feel comfortable leaving them for a while and then coming back to them when I’m ready.
-        When I put it that way, it sounds worth it just for the peace of mind.
-      &lt;/p&gt;
-        What are your note-taking habits like? Haphazard, or organized, or a little of both?
-        Do you come back to your notes regularly or sporadically?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/notes-2.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/goals-3.html</guid></item></channel></rss>
