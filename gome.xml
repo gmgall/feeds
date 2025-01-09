@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 09 Jan 2025 12:26:10 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — journal index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 09 Jan 2025 18:18:07 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -73,6 +73,7 @@
         &lt;li&gt;&lt;a href="dry-spell.html" class="post-link"&gt;Musical dry spell&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="when-it-rains.html" class="post-link"&gt;When it rains, it pours: dry spell revisited&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="preparation.html" class="post-link"&gt;Preparing to write a new piece&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="songwriting.html" class="post-link"&gt;Songwriting journey&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="singing"&gt;
@@ -140,6 +141,8 @@
         &lt;li&gt;&lt;a href="thinking.html" class="post-link"&gt;Maybe sometimes you shouldn’t think&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="incorrect.html" class="post-link favorite"&gt;Giving myself permission to be confidently incorrect&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="health.html" class="post-link"&gt;Basic health stack&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="slow.html" class="post-link"&gt;I love being slow&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="undo.html" class="post-link"&gt;Infinite undo&lt;/a&gt; — planning vs. action&lt;/li&gt;
         &lt;/ul&gt;&lt;h5&gt;Subseries: setting goals&lt;/h5&gt;&lt;ul&gt;
           &lt;li&gt;&lt;a href="goals.html" class="post-link"&gt;My goals for the year&lt;/a&gt; in 2023&lt;/li&gt;
           &lt;li&gt;&lt;a href="goals-2.html" class="post-link"&gt;The follow-up&lt;/a&gt; eight months later&lt;/li&gt;
@@ -195,6 +198,7 @@
         &lt;li&gt;&lt;a href="examples.html" class="post-link favorite"&gt;Start with examples&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="notes.html" class="post-link"&gt;Share your notes&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="garden-gate.html" class="post-link"&gt;Show us the garden, not the gate&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="sources.html" class="post-link"&gt;Knowing your sources&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;p class="footnote"&gt;
         * I don’t have an icon for this one yet, will add it eventually
@@ -321,6 +325,7 @@
         &lt;li&gt;&lt;a href="speedpost.html" class="post-link"&gt;11th-hour speedpost!&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="writing.html" class="post-link"&gt;I miss writing every day&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="restart.html" class="post-link"&gt;I want to start blogging again&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="steam.html" class="post-link"&gt;Losing steam&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="activities"&gt;
@@ -338,6 +343,7 @@
         &lt;li&gt;&lt;a href="candy.html" class="post-link"&gt;Trying new candy&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="spin-up.html" class="post-link"&gt;Hobby spin-up period&lt;/a&gt; — it takes time to learn new things&lt;/li&gt;
         &lt;li&gt;&lt;a href="camping.html" class="post-link"&gt;Back from the camping trip&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="mahjong.html" class="post-link"&gt;I learned American Mahjong&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;h5&gt;Things I might do&lt;/h5&gt;
       &lt;ul&gt;
@@ -359,13 +365,14 @@
         &lt;li&gt;&lt;a href="fireplaces.html" class="post-link favorite"&gt;Fireplace jokes&lt;/a&gt; — vagaries of interior design&lt;/li&gt;
         &lt;li&gt;&lt;a href="sleep.html" class="post-link"&gt;My relationship with sleep&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="postcard.html" class="post-link"&gt;They got me with this postcard&lt;/a&gt; — how’d they know I’d like this?&lt;/li&gt;
+        &lt;li&gt;My favorite nonsense word is &lt;a href="bingle.html" class="post-link"&gt;bingle&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
   
   &lt;footer&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/topical-index.html</guid></item><item><title>gome — journal</title><link>https://ctrl-c.club/~gome/journal/chronological-index.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/topical-index.html</guid></item><item><title>gome — chronological index</title><link>https://ctrl-c.club/~gome/journal/chronological-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Chronological index&lt;/h3&gt;
