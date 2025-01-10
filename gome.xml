@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 09 Jan 2025 18:18:07 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 10 Jan 2025 01:02:26 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -344,6 +344,7 @@
         &lt;li&gt;&lt;a href="spin-up.html" class="post-link"&gt;Hobby spin-up period&lt;/a&gt; — it takes time to learn new things&lt;/li&gt;
         &lt;li&gt;&lt;a href="camping.html" class="post-link"&gt;Back from the camping trip&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="mahjong.html" class="post-link"&gt;I learned American Mahjong&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="toastmasters.html" class="post-link"&gt;I joined Toastmasters&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;h5&gt;Things I might do&lt;/h5&gt;
       &lt;ul&gt;
@@ -1254,11 +1255,74 @@
       &lt;time datetime="Wed, 8 Jan 2025 22:30:00 CST"&gt;8 Jan. 2025, 10:30 PM&lt;/time&gt;
       &lt;p&gt;I am simply too tired to write.&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="toastmasters.html"&gt;
+      &lt;h3&gt;I joined Toastmasters&lt;/h3&gt;
+      &lt;div class="line stop-4"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 9 Jan 2025 16:30:00 CST"&gt;9 Jan. 2025, 4:30 PM&lt;/time&gt;
+      &lt;p&gt;“Hello, so, um —” &lt;i&gt;*BZZZZT*&lt;/i&gt;&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — sources</title><link>https://ctrl-c.club/~gome/journal/steam.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — Toastmasters</title><link>https://ctrl-c.club/~gome/journal/toastmasters.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I joined Toastmasters&lt;/h1&gt;
+      &lt;time datetime="Thu, 9 Jan 2025 16:30:00 CST"&gt;9 Jan. 2025, 4:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        &lt;a href="mahjong.html"&gt;Another&lt;/a&gt; thing I did in 2024 is join a Toastmasters group.
+        Toastmasters is an organization of clubs for learning public speaking.
+        The clubs use a common meeting structure based around speech-giving, constructive feedback,
+        and opportunities to speak off the cuff.
+      &lt;/p&gt;&lt;p&gt;
+        My dad was in a Toastmasters group about twenty-five years or so ago, through his workplace,
+        which is how I first heard of it.
+        I remember him telling me how if you were talking and you said “um”, someone would buzz a buzzer at you.
+        I thought that seemed like fun, if a little intense.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/interior-toastmasters.webp" width="550" height="365" alt="A man giving a speech next to a podium. Behind him is a banner with the Toastmasters International logo."&gt;
+        &lt;figcaption&gt;It turns out the U.S. Department of the Interior has its own Toastmasters group!&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        During 2024, I was between jobs and had moved relatively recently, so I was looking for more things to get involved in.
+        I thought about clubs I could join, and Toastmasters came to mind.
+        I’m not afraid of public speaking, but that doesn’t mean I’m particularly good at it, either.
+        I thought I could still stand to improve my skills in preparing and giving speeches.
+      &lt;/p&gt;&lt;p&gt;
+        Toastmasters is a big organization, so in any given city, there are usually multiple clubs.
+        It wasn’t difficult to find one really close to where I live.
+        In fact, it’s close enough that I can bike to meetings.
+      &lt;/p&gt;&lt;p&gt;
+        So far, I’ve had a great time with the club I joined.
+        Everyone is really friendly, and it’s nice to see the same faces every week.
+        I get the sense it’s one of the more laid-back clubs.
+        They don’t do the buzzer thing, which was both a little disappointing and a little relieving.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve only done one speech so far, but I’ve discovered that there’s a lot to be gained even when you’re not giving speeches.
+        For one, hearing other people give speeches has been really interesting, whether they’re for professional purposes or just for fun.
+        I find the details of &lt;a href="homes.html"&gt;other people’s jobs&lt;/a&gt; fascinating, and the people in my club have broad interests and hobbies too.
+      &lt;/p&gt;&lt;p&gt;
+        I also like getting to play various roles in the meetings.
+        Toastmasters meetings are structured with a number of roles, such as the General Evaluator, the Word of the Day Person, and the Toastmaster (sort of like an M.C.).
+        These roles are taken by different people every week, so by this point, I’ve had a chance to play nearly every role.
+        The nice thing about the roles is they cause you to pay attention to different aspects of the meeting,
+        keeping you engaged and learning something new every time.
+      &lt;/p&gt;&lt;p&gt;
+        If you are looking for a new club to join, regardless of your public speaking abilities,
+        I can highly recommend Toastmasters as a fun way to meet new people and improve your skills.
+        You can use the official Toastmasters &lt;a href="https://www.toastmasters.org/Find-a-Club/"&gt;Find a Club&lt;/a&gt; page to search for one near you.
+        I found one I liked right away and stuck with it,
+        but don’t be afraid to check out a few of them before you settle on one that feels like a good fit.
+      &lt;/p&gt;&lt;p&gt;
+        Have you been in Toastmasters before?
+        Have you been a part of some other large club organization?
+        Is there some other kind of club you’d like to join?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/toastmasters.html</guid></item><item><title>gome — steam</title><link>https://ctrl-c.club/~gome/journal/steam.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Losing steam&lt;/h1&gt;
       &lt;time datetime="Wed, 8 Jan 2025 22:30:00 CST"&gt;8 Jan. 2025, 10:30 PM&lt;/time&gt;
@@ -1582,40 +1646,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/bingle.html</guid></item><item><title>gome — songwriting</title><link>https://ctrl-c.club/~gome/journal/songwriting.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Songwriting journey&lt;/h1&gt;
-      &lt;time datetime="Tue, 31 Dec 2024 21:30:00 CST"&gt;31 Dec. 2024, 9:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        Earlier this year, my brother proposed an endeavor in which we would each write a song a week and show it to the other.
-        We are both musicians, but neither of us has a lot of experience with writing proper “songs”, so to speak.
-        Given that we both have a lot of love for various types of songwriting, we’ve talked before about wanting to develop our own songwriting skills.
-      &lt;/p&gt;&lt;p&gt;
-        I thought this sounded like a great idea, but logistically it hasn’t ended up happening yet.
-        My brother got busy with some other important things in his life, and without a partner to share progress and “compete” with, I didn’t really have as much drive to go it alone.
-      &lt;/p&gt;&lt;p&gt;
-        Fortunately, I at least managed to write one song.
-        The music for it takes inspiration from early Beatles music, especially &lt;i&gt;Nowhere Man&lt;/i&gt;.
-        I intentionally tried to keep the music simple to keep my focus on the lyrics.
-      &lt;/p&gt;
-      &lt;img src="img/carlos_gardel.webp" width="512" height="330"&gt;
-      &lt;p&gt;
-        Writing lyrics was definitely the less familiar process for me.
-        I tried writing some in high school, but I was never very good at it, and I mostly stopped trying by college.
-        Trying again now, I seem to have some better ideas about how to start, but I definitely wouldn’t call it easy for me.
-        I think writing words that will fit well to a song is a whole different skill set than either music or prose.
-      &lt;/p&gt;&lt;p&gt;
-        One problem I’ve written about before is my hesitancy to &lt;a href="spin-up.html"&gt;start learning new skills&lt;/a&gt;.
-        Lyrics and songwriting fall into that category of new skills I find daunting to take up.
-        Nonetheless, it’s something I’ve been telling myself I want to get better at for a while now.
-        And there’s no other way to do it but to keep trying.
-        Hopefully my brother and I will have a chance to restart our project sometime soon.
-      &lt;/p&gt;&lt;p&gt;
-        Have you attempted any song or lyric writing?
-        Have you ever been unsure how to acquire a new skill?
-        Have you ever tried to learn a new skill alongside another person like that?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/songwriting.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/bingle.html</guid></item></channel></rss>
