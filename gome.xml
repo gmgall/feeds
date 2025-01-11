@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 11 Jan 2025 01:00:58 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 11 Jan 2025 06:17:00 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -263,6 +263,7 @@
         &lt;li&gt;&lt;a href="skillet.html" class="post-link"&gt;Tater tot breakfast skillet&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;I tried to make &lt;a href="custard.html" class="post-link"&gt;custard&lt;/a&gt; — but it didn’t really work out&lt;/li&gt;
         &lt;li&gt;&lt;a href="udon.html" class="post-link"&gt;Udon sauce&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;I only discuss &lt;a href="slop.html" class="post-link"&gt;bachelor slop&lt;/a&gt; here, but eventually I’ll add a recipe too&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="just-intonation"&gt;
@@ -1261,11 +1262,56 @@
       &lt;time datetime="Thu, 9 Jan 2025 16:30:00 CST"&gt;9 Jan. 2025, 4:30 PM&lt;/time&gt;
       &lt;p&gt;“Hello, so, um —” &lt;i&gt;*BZZZZT*&lt;/i&gt;&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="slop.html"&gt;
+      &lt;h3&gt;Bachelor slop&lt;/h3&gt;
+      &lt;div class="line stop-5"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;I recommend crushed tomatoes&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — Toastmasters</title><link>https://ctrl-c.club/~gome/journal/toastmasters.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — slop</title><link>https://ctrl-c.club/~gome/journal/slop.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Bachelor slop&lt;/h1&gt;
+      &lt;time datetime="Thu, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        When I was a kid I was occasionally a picky eater, but at this point I’ve grown out of it.
+        If I don’t really enjoy something, I can still manage to eat it.
+        Because of this tolerance, when I’m cooking for myself I often like to experiment a bit.
+      &lt;/p&gt;&lt;p&gt;
+        Instead of making things by a recipe, I’ll just keep adding ingredients I like and see what happens.
+        Sometimes it’s not that good, and other times it’s genius, but what matters is that I tried something new,
+        I learned from it, and in any case I’m going to eat it.
+        This experiementation is the essence of what I call bachelor slop, a genre of weird food you’d usually only cook for yourself.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;figcaption&gt;Picture coming tomorrow&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        The other salient aspect of bachelor slop is the slop part.
+        I have a tendency to stir or mix or just fuss with my food the whole time as I cook it,
+        so whatever I’m making ends up combining into a relatively homogeneous mixture.
+        The consistency usually lands in the realm of a thick sauce or porridge.
+      &lt;/p&gt;&lt;p&gt;
+        If you’re making bachelor slop, I’ve found that a great can to have around is crushed tomatoes.
+        If your slop is on the dry side, they add some moisture.
+        If they make it too wet, it can always be cooked down a little.
+        Best of all, they add rich tomato flavor and a little acidity to the dish,
+        which can really punch up a bland dish.
+      &lt;/p&gt;&lt;p&gt;
+        Today’s post is a little shorter because it’s already almost midnight,
+        but sometime I might put up a recipe here for a bean-based version of bachelor slop I’ve made a few times and enjoyed.
+      &lt;/p&gt;&lt;p&gt;
+        Do you make bachelor slop?
+        Do you like to experiment when you cook?
+        Are you a less picky eater now then when you were a kid?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slop.html</guid></item><item><title>gome — Toastmasters</title><link>https://ctrl-c.club/~gome/journal/toastmasters.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I joined Toastmasters&lt;/h1&gt;
       &lt;time datetime="Thu, 9 Jan 2025 16:30:00 CST"&gt;9 Jan. 2025, 4:30 PM&lt;/time&gt;
@@ -1605,45 +1651,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/mahjong.html</guid></item><item><title>gome — bingle</title><link>https://ctrl-c.club/~gome/journal/bingle.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Bingle&lt;/h1&gt;
-      &lt;time datetime="Wed, 1 Jan 2024 22:30:00 CST"&gt;1 Jan. 2025, 10:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        I think I first heard this word in a cat meme or something.
-        It’s a nice round six-letter word; it sounds fun and is easy to type.
-        Phonetically, there are no long vowels, giving it a bit of a casual vibe, and ending with the syllabic /l/ moves it into playful territory.
-      &lt;/p&gt;&lt;p&gt;
-        When programming, I often need a placeholder word, e.g., if I haven’t decided what to name a variable yet, or I need to print out a recognizable string for debugging, but it doesn’t matter what.
-        I used to use whatever word first popped into my head for this purpose, or even just random keyboard mashing.
-        I recall one time during a code review a co-worker caught a debugging statement of mine that just printed out the word “Gamecube”.
-      &lt;/p&gt;&lt;p&gt;
-        Over the last few years, I gradually converged on &lt;i&gt;bingle&lt;/i&gt; as my go-to placeholder word whenever I don’t know what to name something.
-        On top of its nice phonetic qualities (which I find valuable even if I’m just reading a word in my head), it’s really easy to type on a standard keyboard layout.
-        I have it so worked into my muscle memory at this point that I can just kind of let my hands fall on the keyboard and I’ll type it.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/mister_bingle.webp" width="377" height="500"&gt;
-        &lt;figcaption&gt;Apparently “&lt;a href="https://en.wikipedia.org/wiki/Mr._Bingle"&gt;Mister Bingle&lt;/a&gt;” is a snowman character specific to New Orleans Christmas. There’s a way cooler picture of him on the linked page&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        When I was deciding what to post about today, I opened up my text editor and started &lt;a href="update.html"&gt;copying over the HTML&lt;/a&gt; for a new post, as usual.
-        When it came time to replace the path to yesterday’s with one for today’s,
-        I found my fingers reflexively reaching for a nice, comfy &lt;i&gt;bingle&lt;/i&gt;.
-      &lt;/p&gt;&lt;p&gt;
-        Normally, &lt;i&gt;bingle&lt;/i&gt; is ephemeral for me, quickly removed or replaced with some actual content.
-        So I thought, just for today, why don’t I let &lt;i&gt;bingle&lt;/i&gt; itself, my nonsense word, actually &lt;i&gt;be&lt;/i&gt; the content?
-      &lt;/p&gt;&lt;p&gt;
-        This made me curious if &lt;i&gt;bingle&lt;/i&gt; truly is just a nonsense word or not, so I did a quick Wiktionary search.
-        Apparently, &lt;a href="https://en.wiktionary.org/wiki/bingle"&gt;it really is&lt;/a&gt; a word with a handful of niche meanings!
-        It’s a hairstyle, a baseball term, and best of all, it’s used to mean a minor crash (like a fender bender) in Australia.
-        The idea of getting in a vehicular collision and saying “oh no, I’ve had a bingle” is so funny to me. What a world.
-      &lt;/p&gt;&lt;p&gt;
-        Do you have a go-to word, when programming, typing, or writing?
-        Is it nonsense or does it have a meaning?
-        How did you settle upon it?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/bingle.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/mahjong.html</guid></item></channel></rss>
