@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 14 Jan 2025 00:58:04 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 14 Jan 2025 06:17:49 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -344,8 +344,15 @@
         &lt;li&gt;&lt;a href="candy.html" class="post-link"&gt;Trying new candy&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="spin-up.html" class="post-link"&gt;Hobby spin-up period&lt;/a&gt; — it takes time to learn new things&lt;/li&gt;
         &lt;li&gt;&lt;a href="camping.html" class="post-link"&gt;Back from the camping trip&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;h5&gt;Subseries: things I did in 2024&lt;/h5&gt;
+      &lt;p&gt;
+        I didn’t post so much in 2024, so this is a subseries recapping what I got up to that year.
+      &lt;/p&gt;
+      &lt;ul&gt;
         &lt;li&gt;&lt;a href="mahjong.html" class="post-link"&gt;I learned American Mahjong&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="toastmasters.html" class="post-link"&gt;I joined Toastmasters&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="piano.html" class="post-link"&gt;I’m a piano teacher now&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;h5&gt;Things I might do&lt;/h5&gt;
       &lt;ul&gt;
@@ -1265,17 +1272,72 @@
     &lt;a class="journal-link" href="slop.html"&gt;
       &lt;h3&gt;Bachelor slop&lt;/h3&gt;
       &lt;div class="line stop-5"&gt;&lt;/div&gt;
-      &lt;time datetime="Thu, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;time datetime="Fri, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
       &lt;p&gt;I recommend crushed tomatoes&lt;/p&gt;
+    &lt;/a&gt;
+    &lt;a class="journal-link" href="piano.html"&gt;
+      &lt;h3&gt;I’m a piano teacher now&lt;/h3&gt;
+      &lt;div class="line stop-6"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 13 Jan 2025 21:00:00 CST"&gt;13 Jan. 2025, 9:00 PM&lt;/time&gt;
+      &lt;p&gt;I love seeing my students’ progress&lt;/p&gt;
     &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — slop</title><link>https://ctrl-c.club/~gome/journal/slop.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — piano</title><link>https://ctrl-c.club/~gome/journal/piano.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I’m a piano teacher now&lt;/h1&gt;
+      &lt;time datetime="Mon, 13 Jan 2025 21:00:00 CST"&gt;13 Jan. 2025, 9:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        After graduating with a music degree, I had to figure out what I would do for a living.
+        One common career path in music is to go into music education,
+        but I never felt drawn to that.
+        I didn’t think I had the level of organization required to teach a class,
+        and I didn’t really like the idea of wrangling a whole classroom of kids.
+      &lt;/p&gt;&lt;p&gt;
+        On the other hand, I do like to teach.
+        It’s really fun to tell other people about things I’m interested in.
+        I have two younger siblings, and I always talk their ears off about whatever I’m learning about.
+      &lt;/p&gt;
+      &lt;img src="img/piano.webp" width="500" height="333" alt="A sidelong view of the keys of an upright piano. The inscription reads “Lester, Philadelphia, U.S.A.”."&gt;
+      &lt;p&gt;
+        In the past, I’ve taught a couple music theory &amp;amp; composition students.
+        I didn’t always have the most organized lesson plans,
+        but I used my propensity for yakking to tell them about all sorts of
+        neat musical ideas they probably wouldn’t have heard of from another teacher,
+        because they’re specific interests of mine.
+      &lt;/p&gt;&lt;p&gt;
+        For a while now I’ve had it in mind to do more teaching,
+        in a one-on-one capacity.
+        That format seems to work better for me than a classroom setting.
+        Beyond theory &amp;amp; composition, I thought I could get some experience teaching piano &amp;amp; voice,
+        and maybe one day open my own studio.
+      &lt;/p&gt;&lt;p&gt;
+        In 2024, I had extra time on my hands, so I found a private lessons program in a nearby town,
+        and now I am officially a piano (and voice) teacher.
+        I wasn’t sure how I’d do at first.
+        I’m still not very organized, and I struggle with doing enough lesson planning lesson beforehand.
+      &lt;/p&gt;&lt;p&gt;
+        But it’s been a really rewarding experience.
+        I didn’t expect this at first, but I feel so proud of my students when they make progress.
+        On any given day, it doesn’t look like much is happening,
+        but when I look at where my students were at the start of the semester,
+        I can see the progress.
+        I love knowing that I am a part of these kids’ journeys as artists.
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever taught music lessons?
+        Have you taught lessons of a different kind?
+        Have you ever done something you’re good at in some ways,
+        but requires you to overcome other things you’re not so good at?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/piano.html</guid></item><item><title>gome — slop</title><link>https://ctrl-c.club/~gome/journal/slop.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Bachelor slop&lt;/h1&gt;
-      &lt;time datetime="Thu, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
+      &lt;time datetime="Fri, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
       &lt;p&gt;
         When I was a kid I was occasionally a picky eater, but at this point I’ve grown out of it.
         If I don’t really enjoy something, I can still manage to eat it.
@@ -1600,56 +1662,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slow.html</guid></item><item><title>gome — mahjong</title><link>https://ctrl-c.club/~gome/journal/mahjong.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I learned American mahjong&lt;/h1&gt;
-      &lt;time datetime="Thu, 2 Jan 2025 22:30:00 CST"&gt;2 Jan. 2025, 10:30 PM&lt;/time&gt;
-      &lt;p class="note"&gt;
-        I didn’t write much on gomepage in 2024,
-        so this is the first of some posts I’ll do on things I did last year that are worth mentioning.
-      &lt;/p&gt;&lt;p&gt;
-        If you tell someone you play mahjong, the first thing they will usually say is “oh, is that like the computer game?”.
-        I, too, knew only of the Windows tile-matching version of the game when I began my mahjong journey.
-        With no more knowledge than that, last May I signed up for a community education class that promised to teach the game.
-      &lt;/p&gt;&lt;p&gt;
-        As I soon found out, mahjong is actually a variety of games using the same set of tiles, originating from China.
-        There are variations across China and the rest of East Asia.
-        There’s also an American version, the version we learned in my class.
-      &lt;/p&gt;
-      &lt;img src="img/mahjong.webp" width="550" height="310"&gt;
-      &lt;p&gt;
-        Rather than a single-player matching game, American mahjong (like the original Chinese game) is a four-player game somewhat like rummy on steroids.
-        Players draw and discard tiles in an attempt to create a winning hand of fourteen tiles.
-        There are seventy or so patterns that describe winning hands, given in a terse notation on a printed card, and these patterns change each year.
-      &lt;/p&gt;&lt;p&gt;
-        Mahjong is definitely not an easy game.
-        Learning so many patterns is difficult,
-        but figuring out how to match up your current hand to the best possible winning hand is even harder.
-        On top of that, even if you puzzle it out and hit upon something promising,
-        it’s possible your luck will just be crummy and you won’t be able to get the tiles you need.
-        One of the most remarkable things about mahjong to me is how it manages to be both so difficult and so luck-based at the same time.
-      &lt;/p&gt;&lt;p&gt;
-        That being said, I find it a lot of fun to play.
-        There are parts that take a lot of focus and thinking,
-        but then there are parts where once you have a handle on what’s going on,
-        you can mostly turn your brain off and play.
-        It’s also just fun to handle the tiles, and they all have cool art on them.
-      &lt;/p&gt;&lt;p&gt;
-        After taking the class, I went to a local weekly meetup to play the game some more,
-        but didn’t get in a regular habit of coming.
-        For Christmas, my parents got me my own set of mahjong tiles,
-        so now I can host my own games with friends.
-      &lt;/p&gt;&lt;p&gt;
-        I had a lot of fun teaching my family to play.
-        It was funny how those who tried it out found it ridiculously hard the first few times they played,
-        and then around their fifth game or so, it would click and they would start to enjoy it.
-        I look forward to getting more people over their first five games of mahjong.
-      &lt;/p&gt;&lt;p&gt;
-        Have you played American mahjong?
-        Have you played a different mahjong variant?
-        Have you ever learned a particularly challenging or rewarding tabletop game?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/mahjong.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slow.html</guid></item></channel></rss>
