@@ -1,5 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 31 Jan 2025 12:23:35 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Prefer Numbered Lists to Bullets</title><link>https://www.dannyguo.com/blog/prefer-numbered-lists-to-bullets</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 31 Jan 2025 18:17:36 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
+        &lt;h1&gt;Beat the Drum&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2025-01-31"&gt;
+                January 31, 2025
+            &lt;/time&gt;
+             · 
+            678 words  ·  ~4 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;&lt;a href="https://www.linkedin.com/in/eric-burton-1a420015/"&gt;My former COO&lt;/a&gt; gave me a
+piece of advice when I became a manager. He said that leaders have to deliver
+the same message again and again and again to make sure it gets through to
+everyone in the organization. Sometimes, it’s also necessary to simplify the
+message and lose some nuance for it to actually sink in. The advice made sense
+to me at the time, but it became more concrete to me as I tried to apply it and
+as I noticed when leaders above me failed to do it. I brought it up to my former
+COO recently, and he put it in a fantastically pithy way by saying “yep, you
+have to beat the drum.”&lt;/p&gt;
+&lt;p&gt;In the past, some militaries &lt;a href="https://en.wikipedia.org/wiki/Military_drums"&gt;used
+drums&lt;/a&gt; as a form of communication.
+The drums kept armies aligned on messages as simple as “advance” and “retreat.”
+Similary, organizations need their leaders to continuously communicate to keep
+people in sync.&lt;/p&gt;
+&lt;p&gt;The larger the organization, the more important this idea is. In a startup with
+a few people, it’s easy for everyone to stay on the same page. In a massive
+company with thousands of people, everyone getting out of sync from each other
+is the default outcome. It takes work to get everyone to even hear a particular
+message, more work to get them to remember it, and even more work to get them to
+act on it.&lt;/p&gt;
+&lt;h2 id="failure-modes"&gt;Failure Modes&lt;a class="anchor" href="#failure-modes"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This may seem wrong. If the CEO wants to send a message to everyone, they just
+need to send a company-wide email or mention it in an all-hands meeting, right?
+Nope, because there are so many ways for such a simple thing to fail.&lt;/p&gt;
+&lt;p&gt;One person only skims their emails and didn’t bother reading the CEO’s detailed
+email.&lt;/p&gt;
+&lt;p&gt;Another person was on vacation during the all-hands and never bothered to try to
+catch up on it.&lt;/p&gt;
+&lt;p&gt;Another person was out sick and does want to catch up, but the all-hands wasn’t
+recorded, and nobody took notes. The person asked someone else what the CEO
+said, resulting in a &lt;a href="https://en.wikipedia.org/wiki/Chinese_whispers"&gt;game of
+telephone&lt;/a&gt; and a distorted
+message.&lt;/p&gt;
+&lt;p&gt;Another person got the message but then forgot it a few days later. This is the
+&lt;a href="https://en.wikipedia.org/wiki/Forgetting_curve"&gt;forgetting curve&lt;/a&gt; at work. If
+the CEO doesn’t repeat the message regularly, the memory of that message
+disappears. Especially if the message is complicated and has many points.&lt;/p&gt;
+&lt;p&gt;Another person disagreed with the message, ignored it, and nobody cared. This
+person eventually learned to just disregard everything the CEO says.&lt;/p&gt;
+&lt;p&gt;Another person doesn’t have all the context that the CEO does and as a result,
+fails to fully understand what the CEO said.&lt;/p&gt;
+&lt;p&gt;There are so many failure modes, even though the message is coming from the CEO,
+the person who should have the easiest time getting a message across. But even
+the CEO needs to repeat a message multiple times and figure out how to word it
+so that people truly get it.&lt;/p&gt;
+&lt;h2 id="empathy"&gt;Empathy&lt;a class="anchor" href="#empathy"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One reason it’s hard for leaders to actually do this (beyond the fact that it
+takes work) is that it’s an exercise in empathy, even though leaders tend to
+have big egos and to believe that everyone thinks what they have to say is
+particularly important and smart. But to communicate effectively, they have to
+put themselves in the mindset of their audience. And their audience may be so
+used to hearing nonsense that they develop a strong filter for what they hear.&lt;/p&gt;
+&lt;p&gt;When you come up with a message, it’s easy to understand and remember it because
+it’s your own creation. But that doesn’t mean it will be easy for someone else
+to digest it, retain it, and internalize it. You need to repeat it and ideally
+write it down somewhere for people to reference. If you do that and don’t keep
+changing what you say, people may actually start to believe that you mean it.&lt;/p&gt;
+&lt;p&gt;It’s a simple concept but takes discipline to apply. Figure out what’s
+important for people to know. Say it. Say it again. Say it in a different
+medium. Say it more simply. Say it to different people. Just don’t stop beating
+the drum.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/beat-the-drum</guid><pubDate>Fri, 31 Jan 2025 00:00:00 GMT</pubDate></item><item><title>Prefer Numbered Lists to Bullets</title><link>https://www.dannyguo.com/blog/prefer-numbered-lists-to-bullets</link><description>&lt;article&gt;
         &lt;h1&gt;Prefer Numbered Lists to Bullets&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -7323,131 +7400,4 @@ Overflow&lt;/a&gt;. It’s made by the &lt;a href="https://zenorocha.com/"&gt;sa
 person&lt;/a&gt; behind clipboard.js.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo</guid><pubDate>Fri, 22 Mar 2019 00:00:00 GMT</pubDate></item><item><title>Animated Multiline Link Underlines with CSS</title><link>https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css</link><description>&lt;article&gt;
-        &lt;h1&gt;Animated Multiline Link Underlines with CSS&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-                        Updated on &lt;time datetime="2019-01-29"&gt;
-                            January 29, 2019
-                        &lt;/time&gt;
-                         · 
-                    
-            Published on 
-            &lt;time datetime="2018-12-19"&gt;
-                December 19, 2018
-            &lt;/time&gt;
-            &lt;br&gt;
-            577 words  ·  ~3 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;One benefit of building my &lt;a href="https://www.dannyguo.com/"&gt;personal website&lt;/a&gt; from
-scratch instead of using a &lt;a href="https://themes.gohugo.io/"&gt;theme&lt;/a&gt; made by someone
-else is that I can start from the browser’s defaults and gradually add my own
-flourishes. I strive to keep my site lean, but making it personal is also kind
-of the point. There is a spectrum of gratuitous touches between the spartan
-pages of &lt;a href="https://news.ycombinator.com/"&gt;Hacker News&lt;/a&gt; and
-&lt;a href="https://newyork.craigslist.org/"&gt;Craigslist&lt;/a&gt; on one end and the sensory
-overload of &lt;a href="https://news.codecademy.com/myspace-and-the-coding-legacy/"&gt;old
-MySpace&lt;/a&gt; on the
-other.&lt;/p&gt;
-&lt;p&gt;I ran across a site that had fancy, animated underlines for links, and I wanted
-to add a similar effect to my site. It was important to me to use a pure CSS
-solution. For something as frivolous as this, I didn’t want to add JavaScript
-that has a risk of causing a performance issue or frustrating behavior (see
-&lt;a href="https://envato.com/blog/scroll-hijacking/"&gt;scroll hijacking&lt;/a&gt;).&lt;/p&gt;
-&lt;p&gt;Here’s what the effect looks like now.&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/2sKxENF.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;h2 id="implementation"&gt;Implementation&lt;a class="anchor" href="#implementation"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;The topic of drawing lines under text on the web can be &lt;a href="https://medium.design/crafting-link-underlines-on-medium-7c03a9274f9"&gt;surprisingly
-complicated&lt;/a&gt;,
-depending on how far you are willing to
-&lt;a href="https://css-tricks.com/styling-underlines-web/"&gt;stray&lt;/a&gt; from &lt;code&gt;text-decoration: underline&lt;/code&gt; and which details (like &lt;a href="https://stackoverflow.com/q/40008990/1481479"&gt;clearing
-descenders&lt;/a&gt;) you care about.&lt;/p&gt;
-&lt;p&gt;I investigated a few approaches:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://tobiasahlin.com/blog/css-trick-animating-link-underlines/"&gt;Animating Link Underlines&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="http://www.cssportal.com/blog/css-animated-underline-links/"&gt;CSS Animated Underline Links&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Both of them essentially remove the default
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration"&gt;text-decoration&lt;/a&gt;
-and add a simulated border using
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements"&gt;pseudo-elements&lt;/a&gt;.
-The border is then animated by &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions"&gt;CSS
-transitions&lt;/a&gt;.
-Unfortunately, these solutions have one drawback: they don’t work properly if
-the link spans more than one line. The underline only appears on the first line.&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/XWPhTQM.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;p&gt;I eventually found a &lt;a href="https://codepen.io/shshaw/pen/pdyJBW"&gt;CodePen&lt;/a&gt; by
-&lt;a href="https://twitter.com/shshaw"&gt;Shaw&lt;/a&gt; that doesn’t have this flaw. I modified the
-CSS until I got to a solution that looks good to me.&lt;/p&gt;
-&lt;video&gt;
-    &lt;source src="https://i.imgur.com/8pxxwkT.mp4" type="video/mp4"&gt;
-    &lt;p&gt;Your browser doesn't support this embedded video.&lt;/p&gt;
-&lt;/source&gt;&lt;/video&gt;
-&lt;p&gt;Here is the relevant code. You can use &lt;a href="https://repl.it/@dyguo/animated-multiline-link-underlines"&gt;this
-repl&lt;/a&gt; to play around
-with it.&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;text-decoration&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;none&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-image&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;linear-gradient&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;currentColor&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;currentColor&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-position&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;100&lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-repeat&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;no-repeat&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-size&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;transition&lt;/span&gt;&lt;span&gt;: background-size &lt;/span&gt;&lt;span&gt;.3&lt;/span&gt;&lt;span&gt;s&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;:hover&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;:focus&lt;/span&gt;&lt;span&gt; {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;background-size&lt;/span&gt;&lt;span&gt;: &lt;/span&gt;&lt;span&gt;100&lt;/span&gt;&lt;span&gt;%&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;px&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Let’s go through this approach part by part. First, we turn off the default
-&lt;code&gt;text-decoration&lt;/code&gt; for links.&lt;/p&gt;
-&lt;p&gt;We want to use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-image"&gt;background-image&lt;/a&gt;
-because it can span multiple lines. While we could supply an actual image, we
-only want to draw a line, so we use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient"&gt;linear-gradient&lt;/a&gt;,
-which generates an image for us. Normally, it’s used to create a gradient
-between two different colors, but I want the underline to just be the same color
-as the link, so I use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#currentColor_keyword"&gt;currentColor&lt;/a&gt;
-for both the beginning and the end of the gradient. &lt;code&gt;currentColor&lt;/code&gt; tells the
-browser to use the element’s computed
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color"&gt;color&lt;/a&gt; property.&lt;/p&gt;
-&lt;p&gt;We use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-position"&gt;background-position&lt;/a&gt;
-to place the image in the bottom left corner. &lt;code&gt;0%&lt;/code&gt; sets the horizontal position,
-and &lt;code&gt;100%&lt;/code&gt; sets the vertical position.&lt;/p&gt;
-&lt;p&gt;We turn off
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat"&gt;background-repeat&lt;/a&gt;
-to prevent it from creating multiple instances of the image to fill the entire
-background of the link.&lt;/p&gt;
-&lt;p&gt;We use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/background-size"&gt;background-size&lt;/a&gt;
-to make the image zero pixels wide and two pixels tall. It has zero width
-because the underline should only appear on hover.&lt;/p&gt;
-&lt;p&gt;We set a &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transition"&gt;transition&lt;/a&gt;
-on &lt;code&gt;background-size&lt;/code&gt;, so any change to the property will take &lt;code&gt;0.3&lt;/code&gt; seconds
-to complete.&lt;/p&gt;
-&lt;p&gt;On link &lt;a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:hover"&gt;hover&lt;/a&gt;, we
-change the width of the image to &lt;code&gt;100%&lt;/code&gt;, creating a full underline, and
-&lt;code&gt;transition&lt;/code&gt; takes care of the animation. As &lt;a href="https://www.reddit.com/r/web_design/comments/a7y701/animated_multiline_link_underlines_with_css/ec6pwel/"&gt;nickels55
-suggests&lt;/a&gt;,
-we also want the effect to happen on focus for those who use keyboard
-navigation. Thanks to nickels55 for keeping
-&lt;a href="https://en.wikipedia.org/wiki/Web_accessibility"&gt;accessibility&lt;/a&gt; in mind.&lt;/p&gt;
-&lt;p&gt;And that’s it! I was very happy with how small the
-&lt;a href="https://github.com/dguo/dannyguo.com/commit/14e51391329163fa414ac55d77fdf6da521ab644"&gt;commit&lt;/a&gt;
-ended up being. If you’d like to add something similar to your site, feel free
-to take this implementation, or check out some other &lt;a href="https://speckyboy.com/underline-text-effects-css/"&gt;animated underline
-effects&lt;/a&gt; for inspiration.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/animated-multiline-link-underlines-with-css</guid><pubDate>Tue, 29 Jan 2019 00:00:00 GMT</pubDate></item></channel></rss>
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-add-copy-to-clipboard-buttons-to-code-blocks-in-hugo</guid><pubDate>Fri, 22 Mar 2019 00:00:00 GMT</pubDate></item></channel></rss>
