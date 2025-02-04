@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 04 Feb 2025 00:59:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 04 Feb 2025 06:18:34 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -251,6 +251,7 @@
         &lt;li&gt;&lt;a href="rhombic-dodecahedron.html" class="post-link"&gt;Tessellating building units in Minecraft&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="exploration.html" class="post-link"&gt;How I like to play&lt;/a&gt; — on exploration games like &lt;i&gt;Hollow Knight&lt;/i&gt; &amp;amp; &lt;i&gt;Breath of the Wild&lt;/i&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="isometric.html" class="post-link"&gt;I love isometric graphics&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="sweepers.html" class="post-link"&gt;Sweeper-type games&lt;/a&gt; — &lt;a href="https://danielben.itch.io/dragonsweeper"&gt;&lt;i&gt;Dragonsweeper&lt;/i&gt;&lt;/a&gt; and &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="recipes"&gt;
@@ -414,7 +415,8 @@
       &lt;/div&gt;
       &lt;a href="#2025"&gt;2025&lt;/a&gt;
       &lt;div class="link-sublist"&gt;
-        &lt;a href="#2024-jan"&gt;January&lt;/a&gt;
+        &lt;a href="#2025-jan"&gt;January&lt;/a&gt;
+        &lt;a href="#2025-feb"&gt;February&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -438,6 +440,7 @@
         &lt;a href="#line-17"&gt;17.&lt;/a&gt;
         &lt;a href="#line-18"&gt;18.&lt;/a&gt;
         &lt;a href="#line-19"&gt;19.&lt;/a&gt;
+        &lt;a href="#line-20"&gt;20.&lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class="divider" id="line-1"&gt;1.&lt;/div&gt;
@@ -1285,11 +1288,87 @@
       &lt;h3&gt;Note: got sick&lt;/h3&gt;
       &lt;time datetime="Tue, 14 Jan 2025 20:00:00 CST"&gt;14 Jan. 2025&lt;/time&gt;
     &lt;/a&gt;
+    &lt;div class="divider" id="line-20"&gt;20.&lt;/div&gt;
+    &lt;h3 id="2025-feb"&gt;February 2025&lt;/h3&gt;
+    &lt;a class="journal-link" href="sweepers.html"&gt;
+      &lt;h3&gt;Sweeper-type games&lt;/h3&gt;
+      &lt;div class="line stop-0"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 3 Feb 2025 23:00:00 CST"&gt;3 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;Smart twists on a simple game&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — note: 14 Jan 2025 — sick</title><link>https://ctrl-c.club/~gome/journal/2025-01-14.sick.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — sweepers</title><link>https://ctrl-c.club/~gome/journal/sweepers.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Sweeper-type games&lt;/h1&gt;
+      &lt;time datetime="Mon, 3 Feb 2025 23:00:00 CST"&gt;3 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        I came across this game on itch.io the other day called &lt;a href="https://danielben.itch.io/dragonsweeper"&gt;&lt;i&gt;Dragonsweeper&lt;/i&gt;&lt;/a&gt;, a game somewhat based on &lt;a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)"&gt;&lt;i&gt;Minesweeper&lt;/i&gt;&lt;/a&gt;, the classic Windows game.
+        Instead of mines, you’re a knight clearing various fantasy monsters from a dungeon.
+        Some of these monsters are too strong for you to beat at first, so you have to carefully fight the weaker ones to level up.
+        It’s intended to be played blind, and you’re expected to learn as you go.
+        So if you want to try the game spoiler-free, don’t read past this paragraph until you’ve played it.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/mamono-sweeper.webp" width="352" height="238" alt="Retro pixel art of the words MAMONO SWEEPER surrounded by brown blocks. Above the blocks are five monsters: a blue blob, a red demon, a purple lizard, a yellow giant, and a green dragon."&gt;
+        &lt;figcaption&gt;From title screen of &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        I had a lot of fun with &lt;i&gt;Dragonsweeper&lt;/i&gt;.
+        I liked the graphics (especially the victory screen art), and the soundtrack made me feel like I was playing a Miniclip game back in 2007.
+        Like &lt;i&gt;Spelunky&lt;/i&gt;, the game has a sense of progression that isn’t so much about what happens in a single run,
+        but rather your learning process over multiple runs.
+        As you play, you gradually learn how the game works and gain insight about how to approach picking blocks.
+      &lt;/p&gt;&lt;p&gt;
+        On the one hand, there’s a basic factual discovery about the rules of the game:
+        how leveling up works,
+        what the different scrolls do,
+        the patterns monsters spawn in.
+        I appreciate that the game doesn’t hand all of this to you right away,
+        but instead invites you to learn it for yourself,
+        giving you just enough hints in the cryptic Monsternomicon.
+      &lt;/p&gt;&lt;p&gt;
+        But there’s also this second layer of discovery, which is the strategy you want to use.
+        When I first started playing, I was just hitting monsters and healing and leveling up at random,
+        just trying not to die.
+        I had my first breakthrough in the game when I realized that I should instead try to use up all my hearts before healing or leveling up.
+        With this realization, I had a conceptual key that unlocked more of the game for me.
+      &lt;/p&gt;&lt;p&gt;
+        Some of these breakthroughs not only helped me beat the game, but also made me appreciate its design.
+        For example, at some point I realized my hearts were kind of like a budget for resolving uncertainty.
+        If you have eight hearts, it’s safe for you to click a block where you might take up to eight hearts of damage,
+        as long as you have a level up or heart scroll to heal from it.
+        You can use this to your advantage as your level gets higher and higher,
+        allowing you to take greater risks and clear more of the board.
+      &lt;/p&gt;&lt;p&gt;
+        I played &lt;i&gt;Dragonsweeper&lt;/i&gt; until I could do a full clear of the board, achieving the max score of 303.
+        I noticed on the victory screen that it said it was inspired by “Mamono Sweeper”,
+        and I was curious to see another “sweeper-type” game and trace the influence it had on &lt;i&gt;Dragonsweeper&lt;/i&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt; (&lt;i&gt;mamono&lt;/i&gt; from Japanese &lt;a href="https://en.wiktionary.org/wiki/%E9%AD%94%E7%89%A9#Japanese"&gt;魔物&lt;/a&gt;: evil spirit) is a somewhat simpler game,
+        but still very satisfying to play.
+        Since there is no healing in this one, there’s less of an experience of budgeting uncertainty like in &lt;i&gt;Dragonsweeper&lt;/i&gt;,
+        but there are other kinds of deductions to learn.
+        &lt;i&gt;Mamono Sweeper&lt;/i&gt; has a very “pure” feel to it, like classic &lt;i&gt;Minesweeper&lt;/i&gt;, where the strategic insights almost feel like you’re doing math.*
+        I guess in a sense, that’s exactly what you’re doing, because most of the strategy revolves around properties of sums with different numbers of unknowns.
+      &lt;/p&gt;&lt;p&gt;
+        I love games like these that take an existing design and twist it.
+        Both of these “sweeper-type” games take advantage of their predecessor’s strengths and offer something new that fits the format well.
+        I liked seeing the simple but fruitful way &lt;i&gt;Mamono Sweeper&lt;/i&gt; builds on &lt;i&gt;Minesweeper&lt;/i&gt;,
+        and I liked being able to trace pieces of what I experienced in &lt;i&gt;Dragonsweeper&lt;/i&gt; back through &lt;i&gt;Mamono Sweeper&lt;/i&gt;.
+        That type of creative dialogue is something I really value about art in general.
+      &lt;/p&gt;&lt;p&gt;
+        Do you like &lt;i&gt;Minesweeper&lt;/i&gt;?
+        Did you try &lt;i&gt;Dragonsweeper&lt;/i&gt; and/or &lt;i&gt;Mamono Sweeper&lt;/i&gt;?
+        Did you enjoy them?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;p class="footnote"&gt;* To be clear, “feels like doing math” is a positive in my book&lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sweepers.html</guid></item><item><title>gome — note: 14 Jan 2025 — sick</title><link>https://ctrl-c.club/~gome/journal/2025-01-14.sick.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Note: got sick&lt;/h1&gt;
       &lt;time datetime="Tue, 14 Jan 2025 20:00:00 CST"&gt;14 Jan. 2025&lt;/time&gt;
@@ -1630,56 +1709,4 @@
       &lt;p class="footnote"&gt;* I don’t think I’ve ever put it that way before; that idea itself could be an interesting future post!&lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/undo.html</guid></item><item><title>gome — slow</title><link>https://ctrl-c.club/~gome/journal/slow.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I love being slow&lt;/h1&gt;
-      &lt;time datetime="Fri, 3 Jan 2025 21:30:00 CST"&gt;3 Jan. 2025, 9:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        When I was a kid and my parents were trying to take me anywhere,
-        I was often a huge hassle because I just could not be rushed.
-        I would get ready in the same unhurried fashion, regardless of the urgency of the situation.
-        I’d always take forever to tie my shoes.
-        As an adult, I can just imagine how annoying this probably was for my parents.
-      &lt;/p&gt;&lt;p&gt;
-        I’ve never really managed to break the habit, either.
-        I now have two modes for getting ready to go somewhere:
-        my customary easy pace, or a panic-induced rush if I’m really late.
-      &lt;/p&gt;&lt;p&gt;
-        My rushing isn’t even particularly effective:
-        I still usually end up wasting time, e.g., looking for something I need just before I get out the door.
-        It’s just that I’m also stressed about it the whole time.
-      &lt;/p&gt;&lt;p&gt;
-        Despite the trouble it causes me in time-sensitive situations,
-        I’ve come to realize that I really enjoy my slow pace when I can afford it.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/d%C3%BClmen.webp" width="330" height="440"&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/User:XRay"&gt;Dietmar Rabich&lt;/a&gt; / &lt;a href="https://commons.wikimedia.org/wiki/Main_Page"&gt;Wikimedia Commons&lt;/a&gt; / “&lt;a href="https://commons.wikimedia.org/wiki/File:D%C3%BClmen,_G%C3%B6versheide_--_2015_--_7718-22.jpg"&gt;Dülmen, Göversheide -- 2015 -- 7718-22&lt;/a&gt;” / &lt;a href="https://creativecommons.org/licenses/by-sa/4.0/"&gt;CC BY-SA 4.0&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        I am someone who needs time to process things internally.
-        I often fall into a bad pattern with this where my mind is racing,
-        trying to process all sorts of things,
-        while I’m also trying to do things in the real world at a normal pace.
-        My rushing mind causes me to pay less attention, or even worse, causes me to physically rush,
-        and I get less effective at both the thinking and the doing.
-      &lt;/p&gt;&lt;p&gt;
-        But there’s another way, where I give myself the space to do things at a more comfortable speed for me,
-        and I find it to be really luxurious.
-        If I go slowly, there’s room for me to reflect and process,
-        and at the same time I can focus on what I’m doing,
-        without feeling inattentive, pressured, or rushed.
-      &lt;/p&gt;&lt;p&gt;
-        The funny thing is that my rushed flailing creates more friction,
-        so it’s the “slower” way, where I intentionally and mindfully take my time,
-        that ends up being faster.
-        It reminds me of the saying “slow is smooth, smooth is fast”.
-      &lt;/p&gt;&lt;p&gt;
-        Are you particuarly fast or slow by nature?
-        Do you ever intentionally go faster or slower?
-        Do your thoughts affect how fast or slow you tend to go?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slow.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/undo.html</guid></item></channel></rss>
