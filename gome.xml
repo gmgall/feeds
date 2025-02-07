@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 07 Feb 2025 01:00:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 07 Feb 2025 06:18:51 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -347,7 +347,7 @@
         &lt;li&gt;&lt;a href="spin-up.html" class="post-link"&gt;Hobby spin-up period&lt;/a&gt; — it takes time to learn new things&lt;/li&gt;
         &lt;li&gt;I build upon the spin-up idea with &lt;a href="incompetence.html" class="post-link"&gt;Regularly doing something you’re bad at&lt;/a&gt; — sometimes you don’t have to try to get better&lt;/li&gt;
       &lt;/ul&gt;
-      &lt;h5&gt;Subseries: things I did in 2024&lt;/h5&gt;
+      &lt;h5 id="activities-2024"&gt;Subseries: things I did in 2024&lt;/h5&gt;
       &lt;p&gt;
         I didn’t post so much in 2024, so this is a subseries recapping what I got up to that year.
       &lt;/p&gt;
@@ -355,6 +355,7 @@
         &lt;li&gt;&lt;a href="mahjong.html" class="post-link"&gt;I learned American Mahjong&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="toastmasters.html" class="post-link"&gt;I joined Toastmasters&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="piano.html" class="post-link"&gt;I’m a piano teacher now&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="band.html" class="post-link"&gt;I joined a band&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
       &lt;h5&gt;Things I might do&lt;/h5&gt;
       &lt;ul&gt;
@@ -1303,11 +1304,62 @@
       &lt;time datetime="Tue, 4 Feb 2025 23:30:00 CST"&gt;4 Feb. 2025, 11:30 PM&lt;/time&gt;
       &lt;p&gt;Without hope of getting better&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="band.html"&gt;
+      &lt;h3&gt;I joined a band&lt;/h3&gt;
+      &lt;div class="line stop-2"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 6 Feb 2025 21:00:00 CST"&gt;6 Feb. 2025, 9:00 PM&lt;/time&gt;
+      &lt;p&gt;I missed collaborative music-making&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — incompetence</title><link>https://ctrl-c.club/~gome/journal/incompetence.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — band</title><link>https://ctrl-c.club/~gome/journal/band.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;I joined a band&lt;/h1&gt;
+      &lt;time datetime="Thu, 6 Feb 2025 21:00:00 CST"&gt;6 Feb. 2025, 9:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        In continuation of my series on &lt;a href="topical-index.html#activities-2024"&gt;things I did in 2024&lt;/a&gt;,
+        today I want to talk about the band I joined.
+        It was one of my favorite things I did in 2024, and in some ways I feel like it was a turning point in a difficult year for me.
+      &lt;/p&gt;&lt;p&gt;
+        In college, I joined an &lt;a href="a-cappella.html"&gt;a cappella group&lt;/a&gt;, an experience I always look back on fondly.
+        Arranging a large chunk of the group’s repertoire gave me valuable transcription and writing skills,
+        and leading a whole group of capable musicians taught me a lot about approaching music-making as a collective effort.
+        On top of that, it was just a ton of fun to work on cool music and perform with my friends.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/one-dimensional-creatures.webp" width="512" height="300"&gt;
+        &lt;figcaption&gt;This is not my band; this is just an example of what a band looks like.&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        After graduating with a degree in choral composition,
+        one thing I’ve struggled with is the &lt;a href="dry-spell.html"&gt;declining rate of my musical output&lt;/a&gt;.
+        I still love choral music, but I think I’m at a stage in my life where I’m less inclined towards solitary musical activities like solo composition.
+        For a while, I missed having something like my a cappella group, a space that was not only musically challenging, but socially fulfilling.
+      &lt;/p&gt;&lt;p&gt;
+        Fortunately, in the middle of last year, while I was stuck in this frustration of not being able to write choral music the way I wanted to,
+        a friend from my old a cappella group invited me to join his band.
+        He had started it with some college friends, including one of the beatboxers from our group, who had gone on to learn drumming.
+        I ended up joining, and I’m glad I did.
+      &lt;/p&gt;&lt;p&gt;
+        As I thought, working on music with people is just what I needed right now.
+        The performing aspect is always fun, but personally, I’m enjoying the planning-oriented aspects of being in a band (writing, arranging, recording) even more.
+        It’s refreshing to not be stuck with just my own ideas (or lack thereof).
+        Having other people’s ideas to work with and bounce off of energizes my own creativity.
+      &lt;/p&gt;&lt;p&gt;
+        Just recently, we did the first show we’ve had in a few months.
+        In that time, our old bassist left and a new one joined, and we took time to rework our set somewhat.
+        It was really satifying to see how much we accomplished just in that period of time,
+        and I’m excited to get back into the studio and start working on new stuff.
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever been in a band or musical group?
+        Have you ever appreciated the opportunity to do something collaboratively that you used to do alone?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/band.html</guid></item><item><title>gome — incompetence</title><link>https://ctrl-c.club/~gome/journal/incompetence.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Regularly doing something you’re bad at&lt;/h1&gt;
       &lt;time datetime="Tue, 4 Feb 2025 23:30:00 CST"&gt;4 Feb. 2025, 11:30 PM&lt;/time&gt;
@@ -1638,55 +1690,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/steam.html</guid></item><item><title>gome — sources</title><link>https://ctrl-c.club/~gome/journal/sources.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Knowing your sources&lt;/h1&gt;
-      &lt;time datetime="Tue, 7 Jan 2025 23:30:00 CST"&gt;7 Jan. 2025, 11:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        When I was in high school, I remember hearing about and reading Reddit for the first time.
-        This was my first encounter with a site that had user-voted content.
-        It’s a little embarassing to admit now, but I remember thinking something like
-        “wow, that’s a great idea! All the best posts and ideas will get voted to the top!”
-      &lt;/p&gt;&lt;p&gt;
-        In hindsight, I think it was naive of me to think this way,
-        but on the other hand, that was clearly the logic behind such a system.
-        After having many years to use, overuse, tire of, and finally quit Reddit,
-        I managed to learn that what gets votes online does not generally correlate with genuine value.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/taksebt.webp" width="500" height="375"&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:River_source_of_Taksebt_Water_dam_Kabylie_Algeria.jpg#Licensing"&gt;Omar le brave&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        But even if the principle behind Reddit were true, and the cream always rose to the top,
-        I think I would still have a more fundamental problem with such a system.
-        When you read something on Reddit, it usually doesn’t matter who they are.
-        With the exception of things like high-profile AMAs* or the rare gimmick account,
-        most users are not anyone you’d know from anyone else on the site.
-      &lt;/p&gt;&lt;p&gt;
-        Offline, when you talk to people, you usually know who you are talking to,
-        or you at least know &lt;i&gt;something&lt;/i&gt; about them.
-        This gives you critical context for how you interpret what they say and how you communicate with them.
-        On the open internet, lacking any distinguishing features between different users,
-        I find that the different voices start to blend together.
-      &lt;/p&gt;&lt;p&gt;
-        In this low-context mush, I wind up catching onto recurring patterns of ideas rather than specific users.
-        But without any knowledge of where these ideas are coming from,
-        it becomes difficult to intepret and respond in a reasonable way.
-        I think the feeling that you are directly interacting with ideas instead of real people you could know is a source of a lot of fighting on the internet.
-      &lt;/p&gt;&lt;p&gt;
-        Anyway, I’ve come to prefer websites and formats that come from sources I know and choose to return to,
-        whether that’s a blog, a channel, or a small community like &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt;.
-        These known sources end up having much higher quality and much lower volume than the infinite feeding trough of normal social media.
-        Best of all, their value comes not only from their content, but from the context you can only build up from repeated interaction,
-        so the longer you follow a specific source, the more value you’ll tend to get out of it.
-      &lt;/p&gt;&lt;p&gt;
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-      &lt;p class="footnote"&gt;
-        * For the unfamiliar, “Ask Me Anything” is a part of Reddit where a user
-        (sometimes a celebrity or public figure) can host a big, open Q&amp;amp;A session with anyone on the site.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sources.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/steam.html</guid></item></channel></rss>
