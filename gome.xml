@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 08 Feb 2025 00:58:17 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sat, 08 Feb 2025 06:16:37 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -328,6 +328,7 @@
         &lt;li&gt;&lt;a href="writing.html" class="post-link"&gt;I miss writing every day&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="restart.html" class="post-link"&gt;I want to start blogging again&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="steam.html" class="post-link"&gt;Losing steam&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="busy.html" class="post-link"&gt;Busy week for me&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="activities"&gt;
@@ -1310,11 +1311,47 @@
       &lt;time datetime="Thu, 6 Feb 2025 21:00:00 CST"&gt;6 Feb. 2025, 9:00 PM&lt;/time&gt;
       &lt;p&gt;I missed collaborative music-making&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="busy.html"&gt;
+      &lt;h3&gt;Busy week for me&lt;/h3&gt;
+      &lt;div class="line stop-3"&gt;&lt;/div&gt;
+      &lt;time datetime="Fri, 7 Feb 2025 23:00:00 CST"&gt;7 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;Reflecting on keeping up the writing habit&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — band</title><link>https://ctrl-c.club/~gome/journal/band.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — busy</title><link>https://ctrl-c.club/~gome/journal/busy.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Busy week for me&lt;/h1&gt;
+      &lt;time datetime="Fri, 7 Feb 2025 23:00:00 CST"&gt;7 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        It’s been a busy but fun week for me, and that’s made it harder than normal to put out posts.
+        Right now, I think it’s more important that I get to bed earlier and get some sleep than to try and get something written last-minute.
+        But maybe I’ll just dash out some thoughts quick and add an image later.
+      &lt;/p&gt;&lt;p&gt;
+        During the &lt;a href="challenge.html"&gt;100-day challenge&lt;/a&gt;, I made sure to write at least 100 words each day without exception,
+        as it was really important to me to be able to say I did the whole challenge.
+        But right now, I have no obligation to write posts; I just want to start doing it again.
+      &lt;/p&gt;&lt;p&gt;
+        Despite wanting to do it, it’s easy for me to put off writing on a day to day basis.
+        I get busy or distracted, and then it’s late and I’d rather go to bed.
+        So with that in mind, it’s helpful to have at least some kind of “rule” in place
+        to keep me committed to something I know want to keep doing.
+      &lt;/p&gt;&lt;p&gt;
+        But at this point in my life, perhaps the rule should be different than “every weekday, without exception, 100 words”.
+        I like having a relatively consistent hour in the evening to write;
+        perhaps I should plan to write on any day I have a spare hour in the evening.
+      &lt;/p&gt;&lt;p&gt;
+        For now, I think I’ll try and keep up with “every weekday” to the best of my ability,
+        because I think the daily effort gives me more momentum.
+        But it’s something I could experiment with if life gets more busy.
+      &lt;/p&gt;&lt;p&gt;
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/busy.html</guid></item><item><title>gome — band</title><link>https://ctrl-c.club/~gome/journal/band.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;I joined a band&lt;/h1&gt;
       &lt;time datetime="Thu, 6 Feb 2025 21:00:00 CST"&gt;6 Feb. 2025, 9:00 PM&lt;/time&gt;
@@ -1635,59 +1672,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/toastmasters.html</guid></item><item><title>gome — steam</title><link>https://ctrl-c.club/~gome/journal/steam.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Losing steam&lt;/h1&gt;
-      &lt;time datetime="Wed, 8 Jan 2025 22:30:00 CST"&gt;8 Jan. 2025, 10:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        When I did the whole &lt;a href="challenge.html"&gt;100-post challenge&lt;/a&gt;,
-        I had some days that I really struggled to write posts, especially early on.
-        After pushing through it a few times, I was surprised to discover that what had seemed like a wall of difficulty basically vanished.
-        By week three or four, whenever I had trouble coming up with a topic,
-        I had learned to stop worrying, because I knew I would be able to come up with at least 100 words of &lt;i&gt;something&lt;/i&gt;, at a bare minimum.
-      &lt;/p&gt;&lt;p&gt;
-        Now that I’m trying to re-establish the posting habit for the first time since dropping off,
-        I feel like I’m hitting that two-week resistance point again.
-        My lifestyle in 2023 made it pretty easy for me to spend an hour every evening writing a post,
-        but I’m in different circumstances now, which makes me wonder if there will also be some new challenges in gaining momentum here.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/tired.webp" width="600" height="384" alt='A postcard with an old black-and-white photo of a white puppy dog, with the caption "I am simply too tired to write."'&gt;
-        &lt;figcaption&gt;I had this printed off as a poster in my room in college&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        Another difference is that I’m not posting as part of a shared challenge, alongside other writers.
-        Before, seeing everyone else’s commitment and progress made me want to carry on as well.
-        Even if the day’s post wasn’t the best, it was part of something bigger,
-        so it was still worth doing: at the end I wanted to be able to proudly say I completed the challenge.
-      &lt;/p&gt;&lt;p&gt;
-        Now, if I feel up front like I don’t have a good post in me,
-        there’s a voice in my head that can say, “well, what’s the point?”
-        And I don’t necessarily have a good answer to that all the time.
-      &lt;/p&gt;&lt;p&gt;
-        At least for today, I decided to do what I normally do when I don’t have anything I feel like writing about,
-        which is to &lt;a href="http://gome.page/journal/topical-index.html#meta"&gt;go meta&lt;/a&gt;.
-        I try to avoid it, because it feels somewhat like a crutch, but it does help get me started,
-        because it lets me start with exactly what’s on my mind.
-      &lt;/p&gt;&lt;p&gt;
-        What’s interesting is that I thought I would write just write a bleak post about this feeling that I was losing steam,
-        and this doubting voice that makes me feel like there’s no value in these kinds of posts.
-        But when I try to put my thoughts into words,
-        my writing voice comes out much more hopeful.
-        It starts to remind me of things I was ignoring, like how even if I start with nothing interesting to say,
-        I always manage to work my way into one or two really interesting ideas that I’m glad I took the time to put down in words.
-      &lt;/p&gt;&lt;p&gt;
-        This is the really wonderful, comforting thing about writing, which I’m grateful to have discovered through this journal.
-        No matter how I feel when I start, the simple writing process itself helps draw something a little something valuable out of me,
-        even on my most uninspired days.
-        I can always just start from whatever’s top of mind and let my fingers do the magic.
-        With that in mind, I feel more confident saying there really is a point to keeping up the habit.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever hit a wall two weeks into trying to start a habit?
-        Do you find writing helpful in sorting out your thoughts?
-        Is your writing voice more hopeful than your inner voice?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/steam.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/toastmasters.html</guid></item></channel></rss>
