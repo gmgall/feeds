@@ -36,9 +36,9 @@
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id=\"content-core\"] --date-from-csss span[class=\"documentPublished\"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml",
+    "title": "Notícias — Câmara Municipal de Petrópolis",
     "link": "https://www.petropolis.rj.leg.br/institucional/noticias",
-    "description": "Failed to generate feed.",
+    "description": "Banco de notícias",
     "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
   },
   {
@@ -90,6 +90,12 @@
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
+    "title": "Guilherme Gall on Untappd",
+    "link": "https://untappd.com/user/gmgall",
+    "description": "Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.",
+    "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
+  },
+  {
     "title": "~gome posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~gome/journal/",
     "description": "gome — journal",
@@ -102,9 +108,9 @@
     "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
   },
   {
-    "title": "~lettuce posts on ctrl-c.club",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/~lettuce/.* -a ([0-9]{4}-[0-9]{2}-[0-9]{2}) - .* --text-date-fmt %Y-%m-%d --follow --require-dates --with-body --title ~lettuce posts on ctrl-c.club --title-regex /home/lettuce/public_html/(.*) https://ctrl-c.club/~lettuce/ -o ./feeds/lettuce.xml",
     "link": "https://ctrl-c.club/~lettuce/",
-    "description": "/home/lettuce/public_html/index.html",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/lettuce.xml"
   },
   {
