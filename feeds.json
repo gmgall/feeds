@@ -108,9 +108,9 @@
     "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .*/~lettuce/.* -a ([0-9]{4}-[0-9]{2}-[0-9]{2}) - .* --text-date-fmt %Y-%m-%d --follow --require-dates --with-body --title ~lettuce posts on ctrl-c.club --title-regex /home/lettuce/public_html/(.*) https://ctrl-c.club/~lettuce/ -o ./feeds/lettuce.xml",
+    "title": "~lettuce posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~lettuce/",
-    "description": "Failed to generate feed.",
+    "description": "/home/lettuce/public_html/index.html",
     "feed": "https://gmgall.github.io/feeds/lettuce.xml"
   },
   {
