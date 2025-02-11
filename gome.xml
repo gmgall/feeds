@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 11 Feb 2025 00:59:37 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 11 Feb 2025 06:19:13 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -300,6 +300,7 @@
         &lt;li&gt;&lt;a href="graveyard-2.html" class="post-link"&gt;My game graveyard, part two&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="graveyard-3.html" class="post-link"&gt;Game graveyard averted&lt;/a&gt; — when I called something “finished” for once&lt;/li&gt;
         &lt;li&gt;&lt;a href="notes-2.html" class="post-link"&gt;Why don’t I review my notes?&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="unreleased.html" class="post-link"&gt;Working on something&lt;/a&gt; — namely a game for the Ctrl-C server&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="linguistics"&gt;
@@ -1317,11 +1318,93 @@
       &lt;time datetime="Fri, 7 Feb 2025 23:00:00 CST"&gt;7 Feb. 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;Reflecting on keeping up the writing habit&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="unreleased.html"&gt;
+      &lt;h3&gt;Working on something&lt;/h3&gt;
+      &lt;div class="line stop-4"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 10 Feb 2025 23:00:00 CST"&gt;10 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;Vague details on a project for Ctrl-C&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — busy</title><link>https://ctrl-c.club/~gome/journal/busy.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — unreleased</title><link>https://ctrl-c.club/~gome/journal/unreleased.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Working on something&lt;/h1&gt;
+      &lt;time datetime="Mon, 10 Feb 2025 22:30:00 CST"&gt;10 Feb. 2025, 10:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        I wasn’t planning on talking about this project until I was ready to release it.
+        But I’ve been working on it all day, so it’s top of mind.
+        So this isn’t the official announcement, and who knows if I’ll even finish it,
+        but here’s some background on what I’m working on.
+      &lt;/p&gt;&lt;p&gt;
+        Back when I joined Ctrl-C, I was checking out all the cool small web stuff, both on here or elsewhere.
+        I was soon introduced to the world of &lt;a href="https://geminiprotocol.net/"&gt;Gemini&lt;/a&gt;, a simplified alternative to HTTP.
+        Most Gemini sites are static, but one really cool interactive project I found was &lt;a href="https://github.com/michael-lazar/astrobotany"&gt;astrobotany&lt;/a&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        Astrobotany is based on the command line game &lt;a href="https://github.com/jifunks/botany"&gt;botany&lt;/a&gt;, which I haven’t played.
+        You raise a plant by watering it regularly, and you can do other things like visit other users’ plants, collect petals,
+        write on the community message board, and buy badges.
+        I had fun playing it regularly for quite a while.
+      &lt;/p&gt;&lt;p&gt;
+        The second inspiration that drove my idea for a game was &lt;a href="https://github.com/Calamitous/iris"&gt;iris&lt;/a&gt;,
+        a forum software by &lt;a href="https://ctrl-c.club/~calamitous/"&gt;calamitous&lt;/a&gt;, the admin of Ctrl-C.
+        I like iris because it’s rare to find software that really takes advantage of a multi-user system in a fun way.
+        On top of that, it adds a reason to log into the Ctrl-C server regularly and fosters our sense of community.
+        It also feels kind of exclusive because it’s only accessible from the server, not on the general web.
+      &lt;/p&gt;&lt;p&gt;
+        The third thing I had in mind was &lt;a href="https://en.wikipedia.org/wiki/Webring"&gt;web rings&lt;/a&gt;.
+        I think most people interested in the small web understand the charm of web rings.
+        They make small websites more discoverable, and they make the web feel more lively and interconnected.
+        Since I’m such a big proponent of &lt;a href="webjam.html"&gt;personal web pages&lt;/a&gt;,
+        I’ve thought for a while it would be nice to have something like a web ring on Ctrl-C encouraging visitors to browse around the more actively maintained user pages.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/game-logo.webp" width="320" height="320" alt="The words サーバーのペッツ in pixel art bubble lettering."&gt;
+        &lt;figcaption&gt;Mock title screen I made for the game&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        So with all this in mind, I put together an idea for a multiplayer maintenance game like astrobotany, but local to one tilde server.
+        Specifically, I wanted to make a digital pet game, like Tomagotchi.
+        Players run a command in the shell to interact with their pets.
+        The game also provides a snippet of HTML to include on your site that displays the state of your pets.
+      &lt;/p&gt;&lt;p&gt;
+        The kicker is that when your pets are well cared-for, they travel to other users’ profiles, showing up on their HTML snippet.
+        Each pet links back to its owner, and the owner’s profile would link to the users their pets are visiting.
+        So you effectively have a web ring, but it’s somewhat stochastic and based on a user’s participation in the game.
+      &lt;/p&gt;&lt;p&gt;
+        I had this idea three years ago now, and I’ve always wanted to come back and finish it.
+        Early on, I wrote some C code that could handle the transport layer.
+        I released that separately as &lt;a href="https://tildegit.org/gome/localserv/"&gt;localserv&lt;/a&gt;.
+      &lt;/p&gt;&lt;p&gt;
+        I decided pretty early on I didn’t want to write the game code in C.
+        I found out Deno had a nice setup for calling C, so I put together some glue code and tried writing the core logic in Typescript.
+        But I got kind of bogged down in the whole client-server application layer,
+        and eventually I got tired of it and abandoned the project for a while.
+      &lt;/p&gt;&lt;p&gt;
+        Recently, I decided to try writing the project again in Zig.
+        I’ve had situations where I’ve gotten bogged down writing Zig programs before too,
+        so I’m not exactly sure why I thought that was a good idea.
+        But I keep wanting to come back to it, so here we are.
+      &lt;/p&gt;&lt;p&gt;
+        Fortunately, my approach to coding has changed since I last attempted this project.
+        I used to get stuck on trying to write really good abstractions when I coded.
+        Zig encourages you to write less abstractly and instead deal more directly with what you want the program to do.
+        There are still ways to avoid repeating yourself, but sometimes they might not be as pretty as other languages.
+        But I think the code ends up being more intelligible because it’s usually straightforward.
+      &lt;/p&gt;&lt;p&gt;
+        So, no word on when this will come out or whether I’ll just get bogged down and abandon it again,
+        but I’d really love to finish it this time.
+        As a final word, I will say: in an ideal world,
+        I’d love for the game to feature really cute pet sprites in a Game Boy Color pixel art style (maybe somewhat like &lt;a href="https://www.spriters-resource.com/game_boy_gbc/kawaiipetshop2/sheet/21122/"&gt;this&lt;/a&gt;),
+        inspired by my memories of playing the Tamagotchi Game Boy game.
+        But that would be a whole other effort on top of all this code.
+      &lt;/p&gt;&lt;p&gt;
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/unreleased.html</guid></item><item><title>gome — busy</title><link>https://ctrl-c.club/~gome/journal/busy.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Busy week for me&lt;/h1&gt;
       &lt;time datetime="Fri, 7 Feb 2025 23:00:00 CST"&gt;7 Feb. 2025, 11:00 PM&lt;/time&gt;
@@ -1615,61 +1698,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slop.html</guid></item><item><title>gome — Toastmasters</title><link>https://ctrl-c.club/~gome/journal/toastmasters.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I joined Toastmasters&lt;/h1&gt;
-      &lt;time datetime="Thu, 9 Jan 2025 16:30:00 CST"&gt;9 Jan. 2025, 4:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        &lt;a href="mahjong.html"&gt;Another&lt;/a&gt; thing I did in 2024 is join a Toastmasters group.
-        Toastmasters is an organization of clubs for learning public speaking.
-        The clubs use a common meeting structure based around speech-giving, constructive feedback,
-        and opportunities to speak off the cuff.
-      &lt;/p&gt;&lt;p&gt;
-        My dad was in a Toastmasters group about twenty-five years or so ago, through his workplace,
-        which is how I first heard of it.
-        I remember him telling me how if you were talking and you said “um”, someone would buzz a buzzer at you.
-        I thought that seemed like fun, if a little intense.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/interior-toastmasters.webp" width="550" height="365" alt="A man giving a speech next to a podium. Behind him is a banner with the Toastmasters International logo."&gt;
-        &lt;figcaption&gt;It turns out the U.S. Department of the Interior has its own Toastmasters group!&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        During 2024, I was between jobs and had moved relatively recently, so I was looking for more things to get involved in.
-        I thought about clubs I could join, and Toastmasters came to mind.
-        I’m not afraid of public speaking, but that doesn’t mean I’m particularly good at it, either.
-        I thought I could still stand to improve my skills in preparing and giving speeches.
-      &lt;/p&gt;&lt;p&gt;
-        Toastmasters is a big organization, so in any given city, there are usually multiple clubs.
-        It wasn’t difficult to find one really close to where I live.
-        In fact, it’s close enough that I can bike to meetings.
-      &lt;/p&gt;&lt;p&gt;
-        So far, I’ve had a great time with the club I joined.
-        Everyone is really friendly, and it’s nice to see the same faces every week.
-        I get the sense it’s one of the more laid-back clubs.
-        They don’t do the buzzer thing, which was both a little disappointing and a little relieving.
-      &lt;/p&gt;&lt;p&gt;
-        I’ve only done one speech so far, but I’ve discovered that there’s a lot to be gained even when you’re not giving speeches.
-        For one, hearing other people give speeches has been really interesting, whether they’re for professional purposes or just for fun.
-        I find the details of &lt;a href="homes.html"&gt;other people’s jobs&lt;/a&gt; fascinating, and the people in my club have broad interests and hobbies too.
-      &lt;/p&gt;&lt;p&gt;
-        I also like getting to play various roles in the meetings.
-        Toastmasters meetings are structured with a number of roles, such as the General Evaluator, the Word of the Day Person, and the Toastmaster (sort of like an M.C.).
-        These roles are taken by different people every week, so by this point, I’ve had a chance to play nearly every role.
-        The nice thing about the roles is they cause you to pay attention to different aspects of the meeting,
-        keeping you engaged and learning something new every time.
-      &lt;/p&gt;&lt;p&gt;
-        If you are looking for a new club to join, regardless of your public speaking abilities,
-        I can highly recommend Toastmasters as a fun way to meet new people and improve your skills.
-        You can use the official Toastmasters &lt;a href="https://www.toastmasters.org/Find-a-Club/"&gt;Find a Club&lt;/a&gt; page to search for one near you.
-        I found one I liked right away and stuck with it,
-        but don’t be afraid to check out a few of them before you settle on one that feels like a good fit.
-      &lt;/p&gt;&lt;p&gt;
-        Have you been in Toastmasters before?
-        Have you been a part of some other large club organization?
-        Is there some other kind of club you’d like to join?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/toastmasters.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slop.html</guid></item></channel></rss>
