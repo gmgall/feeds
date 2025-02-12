@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 12 Feb 2025 00:59:47 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 12 Feb 2025 06:19:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -64,6 +64,7 @@
       &lt;ul&gt;
         &lt;li&gt;&lt;a href="expression.html" class="post-link"&gt;Extensive vs. intensive expression&lt;/a&gt; — building music out vs. building it in&lt;/li&gt;
         &lt;li&gt;&lt;a href="toolbox.html" class="post-link favorite"&gt;Building the toolbox&lt;/a&gt; — thoughts on composer education&lt;/li&gt;
+        &lt;li&gt;Caustic is &lt;a href="caustic.html" class="post-link"&gt;my favorite music software&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;&lt;h5&gt;Subseries: relational aspects of music&lt;/h5&gt;&lt;ul&gt;
         &lt;li&gt;&lt;a href="reinterpretation.html" class="post-link"&gt;Feel free to change my music&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="dialogue.html" class="post-link"&gt;A model of musical dialogue&lt;/a&gt; — innovation and decadence&lt;/li&gt;
@@ -1324,11 +1325,74 @@
       &lt;time datetime="Mon, 10 Feb 2025 23:00:00 CST"&gt;10 Feb. 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;Vague details on a project for Ctrl-C&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="caustic.html"&gt;
+      &lt;h3&gt;My favorite music software&lt;/h3&gt;
+      &lt;div class="line stop-5"&gt;&lt;/div&gt;
+      &lt;time datetime="Tue, 11 Feb 2025 23:00:00 CST"&gt;11 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;A toy DAW that has been surprisingly useful for me&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — unreleased</title><link>https://ctrl-c.club/~gome/journal/unreleased.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — Caustic</title><link>https://ctrl-c.club/~gome/journal/caustic.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;My favorite music software&lt;/h1&gt;
+      &lt;time datetime="Tue, 11 Feb 2025 23:00:00 CST"&gt;11 Feb. 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        I started using Caustic around when I started college.
+        If memory serves, my first installation of it was actually the mobile version on a tablet I had bought for school.
+        I don’t remember how I discovered it; it’s possible my brother discovered it first and I got it from him.
+      &lt;/p&gt;&lt;p&gt;
+        Caustic is a music-making program that gives you access to a set of built-in instruments and effects.
+        The tools are all easy to use, but not necessarily as flexible or feature-packed as those in a professional DAW (digital audio workstation).
+        For this reason, I sometimes describe Caustic as a “toy DAW”.
+      &lt;/p&gt;
+      &lt;img src="img/caustic.webp" width="600" height="320" alt="Screenshot of the interface of the music program Caustic, showing various patterns for various instruments laid out on a timeline."&gt;
+      &lt;p&gt;
+        In my opinion, that’s not a negative; it’s one of its greatest strengths.
+        It’s way more fun and easy to make musical sketches in Caustic than in any other program I’ve used.
+        It doesn’t require any special configuration or setup, there’s less friction,
+        and generally, things feel very easy to change or tweak as you work on them.
+      &lt;/p&gt;&lt;p&gt;
+        The free mobile version of Caustic doesn’t allow saving your music, but the desktop version was free and did allow saving,
+        so I switched over to using that pretty soon.
+        There’s a little friction in the UI on desktop because it was designed for a touch screen, so you end up having to click for everything, while I’m used to having keyboard shortcuts.
+        But once you get used to the workflow, I still find it easier than a lot of things.
+      &lt;/p&gt;&lt;p&gt;
+        Using the desktop version of Caustic on my various computers over time, I built up a big library of little sketches and songs.
+        To this day, I still find it a fertile ground for incubating ideas,
+        as well as for reconnecting to the pure joy of making music just for fun.
+      &lt;/p&gt;&lt;p&gt;
+        Every so often, I will scroll back through my old songs (which I’ve kept around since college)
+        and bask in the hits of nostalgia from all these inspirations I had at different times in my life.
+        Observing how I’ve changed and refined my approach to putting these tracks together
+        reminds me of how much Caustic has helped me grow as a musician.
+      &lt;/p&gt;&lt;p&gt;
+        I wanted to get back into making things on Caustic more consistently last year,
+        so I made a page called &lt;a href="../library/daily-jingle/"&gt;Daily Jingle&lt;/a&gt; on here and posted songs for about a week or so.
+        After that, I left it behind, although maybe I’ll change it to Weekly Jingle or something.
+        Having some kind of requirement for myself to be creative regularly really does make a difference in my rate of good ideas.
+      &lt;/p&gt;&lt;p&gt;
+        If you want to use Caustic, it’s &lt;a href="https://apps.apple.com/us/app/caustic/id775735447"&gt;available for iOS&lt;/a&gt; still, but the Android app is gone from the store, and the old website is no longer accessible except by &lt;a href="https://web.archive.org/web/20231227040110/https://singlecellsoftware.com/caustic"&gt;archive&lt;/a&gt;. But you can still download the desktop version there!
+        Personally, I just copy around the same version of it onto every new computer I get,
+        along with my library of songs and presets, since I know it’s not likely to be updated any more.
+      &lt;/p&gt;&lt;p&gt;
+        Do you have a favorite music software?
+        Do you have another piece of creative software you enjoy playing with?
+        What do you like about it?
+        Have you used Caustic before?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/caustic_3d.webp" width="500" height="338"&gt;
+        &lt;figcaption&gt;
+          Bonus image: a cool 3D render from the old Caustic website 
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/caustic.html</guid></item><item><title>gome — unreleased</title><link>https://ctrl-c.club/~gome/journal/unreleased.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;Working on something&lt;/h1&gt;
       &lt;time datetime="Mon, 10 Feb 2025 22:30:00 CST"&gt;10 Feb. 2025, 10:30 PM&lt;/time&gt;
@@ -1360,7 +1424,7 @@
         I’ve thought for a while it would be nice to have something like a web ring on Ctrl-C encouraging visitors to browse around the more actively maintained user pages.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/game-logo.webp" width="320" height="320" alt="The words サーバーのペッツ in pixel art bubble lettering."&gt;
+        &lt;img src="img/game_logo.webp" width="320" height="320" alt="The words サーバーのペッツ in pixel art bubble lettering."&gt;
         &lt;figcaption&gt;Mock title screen I made for the game&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
@@ -1449,7 +1513,7 @@
         On top of that, it was just a ton of fun to work on cool music and perform with my friends.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/one-dimensional-creatures.webp" width="512" height="300"&gt;
+        &lt;img src="img/one_dimensional_creatures.webp" width="512" height="300"&gt;
         &lt;figcaption&gt;This is not my band; this is just an example of what a band looks like.&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
@@ -1496,7 +1560,7 @@
         in which I observed that you have to be able to enjoy the hike up the learning curve, not just being at the crest of it.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/tanners-hill.webp" width="360" height="480" alt="A mossy wall beside a descending path in a forest."&gt;
+        &lt;img src="img/tanners_hill.webp" width="360" height="480" alt="A mossy wall beside a descending path in a forest."&gt;
         &lt;figcaption&gt;Photo Credit: &lt;a href="https://commons.wikimedia.org/wiki/File:A_path_down_Tanners_Hill_-_geograph.org.uk_-_7050453.jpg#Licensing"&gt;&lt;i&gt;A path down Tanners Hill&lt;/i&gt;&lt;/a&gt; by Neil Owen&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
@@ -1537,7 +1601,7 @@
         So if you want to try the game spoiler-free, don’t read past this paragraph until you’ve played it.
       &lt;/p&gt;
       &lt;figure&gt;
-        &lt;img src="img/mamono-sweeper.webp" width="352" height="238" alt="Retro pixel art of the words MAMONO SWEEPER surrounded by brown blocks. Above the blocks are five monsters: a blue blob, a red demon, a purple lizard, a yellow giant, and a green dragon."&gt;
+        &lt;img src="img/mamono_sweeper.webp" width="352" height="238" alt="Retro pixel art of the words MAMONO SWEEPER surrounded by brown blocks. Above the blocks are five monsters: a blue blob, a red demon, a purple lizard, a yellow giant, and a green dragon."&gt;
         &lt;figcaption&gt;From title screen of &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt;&lt;/figcaption&gt;
       &lt;/figure&gt;
       &lt;p&gt;
@@ -1658,44 +1722,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/piano.html</guid></item><item><title>gome — slop</title><link>https://ctrl-c.club/~gome/journal/slop.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Bachelor slop&lt;/h1&gt;
-      &lt;time datetime="Fri, 10 Jan 2025 23:30:00 CST"&gt;10 Jan. 2025, 11:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        When I was a kid I was occasionally a picky eater, but at this point I’ve grown out of it.
-        If I don’t really enjoy something, I can still manage to eat it.
-        Because of this tolerance, when I’m cooking for myself I often like to experiment a bit.
-      &lt;/p&gt;&lt;p&gt;
-        Instead of making things by a recipe, I’ll just keep adding ingredients I like and see what happens.
-        Sometimes it’s not that good, and other times it’s genius, but what matters is that I tried something new,
-        I learned from it, and in any case I’m going to eat it.
-        This experiementation is the essence of what I call bachelor slop, a genre of weird food you’d usually only cook for yourself.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/slop.webp" width="375" height="500" alt="A pan containing a mixture of scrambled eggs, diced tomatoes, and cheerios."&gt;
-        &lt;figcaption&gt;I know it looks crazy, but cheerios were actually a good base for this dish!&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        The other salient aspect of bachelor slop is the slop part.
-        I have a tendency to stir or mix or just fuss with my food the whole time as I cook it,
-        so whatever I’m making ends up combining into a relatively homogeneous mixture.
-        The consistency usually lands in the realm of a thick sauce or porridge.
-      &lt;/p&gt;&lt;p&gt;
-        If you’re making bachelor slop, I’ve found that a great can to have around is crushed tomatoes.
-        If your slop is on the dry side, they add some moisture.
-        If they make it too wet, it can always be cooked down a little.
-        Best of all, they add rich tomato flavor and a little acidity to the dish,
-        which can really punch up a bland dish.
-      &lt;/p&gt;&lt;p&gt;
-        Today’s post is a little shorter because it’s already almost midnight,
-        but sometime I might put up a recipe here for a bean-based version of bachelor slop I’ve made a few times and enjoyed.
-      &lt;/p&gt;&lt;p&gt;
-        Do you make bachelor slop?
-        Do you like to experiment when you cook?
-        Are you a less picky eater now then when you were a kid?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/slop.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/piano.html</guid></item></channel></rss>
