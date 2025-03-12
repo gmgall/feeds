@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 12 Mar 2025 01:02:31 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Wed, 12 Mar 2025 06:20:03 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
         &lt;h1&gt;Beat the Drum&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -2417,85 +2417,7 @@ backslash (the &lt;code&gt;\\&lt;/code&gt; is necesssary for
 followed by a &lt;code&gt;n&lt;/code&gt; with a newline character. This worked for my use case.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-newlines-in-an-environment-variable-file-for-docker</guid><pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Break and Continue in Nested Loops in JavaScript</title><link>https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</link><description>&lt;article&gt;
-        &lt;h1&gt;How to Break and Continue in Nested Loops in JavaScript&lt;/h1&gt;
-
-        &lt;div class="subheader"&gt;
-            
-            
-            &lt;time datetime="2022-04-17"&gt;
-                April 17, 2022
-            &lt;/time&gt;
-             · 
-            224 words  ·  ~2 minutes to read
-            
-        &lt;/div&gt;
-
-        &lt;p&gt;The easiest way to &lt;code&gt;break&lt;/code&gt; out of nested loops in JavaScript is to use
-&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label"&gt;labels&lt;/a&gt;.
-By labeling a loop, you can use it in a &lt;code&gt;break&lt;/code&gt; statement to break out of not
-only the loop you’re in but also all the way out of the specified loop.&lt;/p&gt;
-&lt;p&gt;You can try out the examples in this post for yourself with &lt;a href="https://replit.com/@dyguo/how-to-break-and-continue-in-nested-loops-in-javascript"&gt;this
-Replit&lt;/a&gt;.&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunks &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;6&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;7&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;8&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;9&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;chunkLoop: &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunk &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunks) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunk) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (number &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;break&lt;/span&gt;&lt;span&gt; chunkLoop;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(number);&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;/*&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;Output:&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;3&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;4&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The output stops at 4 because when the code reaches 5, the code breaks all the
-way out of the outer loop (&lt;code&gt;chunkLoop&lt;/code&gt;).&lt;/p&gt;
-&lt;h2 id="continue"&gt;Continue&lt;a class="anchor" href="#continue"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;You can also use &lt;code&gt;continue&lt;/code&gt; with a label if you want to skip to the next
-iteration of an outer loop.&lt;/p&gt;
-&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunks &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; [&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;6&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;7&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;8&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;9&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;chunkLoop: &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunk &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunks) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunk) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (number &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;continue&lt;/span&gt;&lt;span&gt; chunkLoop;&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;        console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(number);&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;/*&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;Output:&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;3&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;4&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;7&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;8&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;9&lt;/span&gt;&lt;/span&gt;
-&lt;span class="line"&gt;&lt;span&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;5 and 6 aren’t in the output because when the code reaches 5, the code continues
-on to the next iteration of the chunk loop, which is the &lt;code&gt;[7, 8, 9]&lt;/code&gt; chunk.&lt;/p&gt;
-    &lt;/article&gt;
-
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</guid><pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Check if a JavaScript String Begins or Ends With a String</title><link>https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-newlines-in-an-environment-variable-file-for-docker</guid><pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Check if a JavaScript String Begins or Ends With a String</title><link>https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</link><description>&lt;article&gt;
         &lt;h1&gt;How to Check if a JavaScript String Begins or Ends With a String&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
