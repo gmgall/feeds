@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 06 Apr 2025 01:09:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 06 Apr 2025 06:19:13 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -302,6 +302,7 @@
         &lt;li&gt;&lt;a href="graveyard-3.html" class="post-link"&gt;Game graveyard averted&lt;/a&gt; — when I called something “finished” for once&lt;/li&gt;
         &lt;li&gt;&lt;a href="notes-2.html" class="post-link"&gt;Why don’t I review my notes?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="unreleased.html" class="post-link"&gt;Working on something&lt;/a&gt; — namely a game for the Ctrl-C server&lt;/li&gt;
+        &lt;li&gt;Overwork on the game led to &lt;a href="burnout.html" class="post-link"&gt;hobby project burnout&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="linguistics"&gt;
@@ -422,6 +423,7 @@
       &lt;div class="link-sublist"&gt;
         &lt;a href="#2025-jan"&gt;January&lt;/a&gt;
         &lt;a href="#2025-feb"&gt;February&lt;/a&gt;
+        &lt;a href="#2025-apr"&gt;April&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1331,11 +1333,83 @@
       &lt;time datetime="Tue, 11 Feb 2025 23:00:00 CST"&gt;11 Feb. 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;A toy DAW that has been surprisingly useful for me&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h3 id="2025-apr"&gt;April 2025&lt;/h3&gt;
+    &lt;a class="journal-link" href="burnout.html"&gt;
+      &lt;h3&gt;Hobby project burnout&lt;/h3&gt;
+      &lt;div class="line stop-6"&gt;&lt;/div&gt;
+      &lt;time datetime="Sat, 5 Apr 2025 23:00:00 CDT"&gt;5 April 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;A common hazard of my personality&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — Caustic</title><link>https://ctrl-c.club/~gome/journal/caustic.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — burnout</title><link>https://ctrl-c.club/~gome/journal/burnout.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Hobby project burnout&lt;/h1&gt;
+      &lt;time datetime="Sat, 5 Apr 2025 23:00:00 CDT"&gt;5 April 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        &lt;a href="unreleased.html"&gt;Previously on gomepage&lt;/a&gt;, I wrote a bit about &lt;i&gt;Server Pets&lt;/i&gt;, the then-unannounced pet game I was working on for the Ctrl-C server.
+        At that time, I said:
+      &lt;/p&gt;&lt;blockquote&gt;
+        &lt;i&gt;So, no word on when this will come out or whether I’ll just get bogged down and abandon it again, but I’d really love to finish it this time.&lt;/i&gt;
+      &lt;/blockquote&gt;&lt;p&gt;
+        Well, a bit of both happened.
+        Fortunately, I did finish and release the project this time, in some sense of those terms.
+        Unfortunately, I also got bogged down again and decided to step away from it for the time being.
+      &lt;/p&gt;&lt;p&gt;
+        Basically, after many false starts, and feeling the weight of my &lt;a href="completion.html"&gt;many other abandoned projects&lt;/a&gt;,
+        I pushed myself really hard to get &lt;i&gt;Server Pets&lt;/i&gt; done this time.
+        I spent the majority of my free time on it for the last two months.
+        I stopped writing posts on here, despite wanting to restart that habit, because I was devoting that time to development.
+        I got kind of fixated on it, spending more time on it than I should have, even when it wasn’t fun anymore,
+        just because I didn’t want to be stuck with another unfinished program I’d want to redo in another year.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/aude-fire.webp" width="600" height="320" alt="A stand of burned trees against a bright blue sky, surrounded partially by bare earth and partially by new green growth"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Burned_area_in_Massif_de_la_Clape_(4).jpg#Licensing"&gt; Krzysztof Golik&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+      &lt;/p&gt;&lt;p&gt;
+        Even then, I wasn’t very efficient with my time.
+        Since I was the only one working on this project, I kept trying to make the code as nice as I could make it.
+        I got sidetracked on optimizations that would never even make a difference in the final game experience.
+        I justified this by telling myself I was learning a lot more this way, which is true,
+        but it also kept pushing away my true goal of actually shipping the game,
+        and increasing the effort it would take to get there.
+      &lt;/p&gt;&lt;p&gt;
+        After a couple months of this, I finally got things to a place where I felt ready to do a public beta release.
+        So I put it on Ctrl-C and made an announcement post on Iris (#501 if you are on Ctrl-C and want to read it yourself).
+        There were a couple people trying it out, and things seemed to be going fine at first.
+        I was watching the server closely. Then I started getting reports that it wasn’t working for people.
+        The server was going down or just stalling randomly, and I didn’t really understand why.
+        Eventually, it got worse, and I couldn’t even start the server without it stalling instantly.
+      &lt;/p&gt;&lt;p&gt;
+        Now, when it comes down to it, I know all I really need to do is some more testing and debugging.
+        The setup is a little complicated, because I’m using
+        &lt;a href="https://en.wikipedia.org/wiki/Unix_domain_socket"&gt;Unix domain sockets&lt;/a&gt; and
+        &lt;a href="https://en.wikipedia.org/wiki/Pthreads"&gt;POSIX threads&lt;/a&gt;,
+        and both of these are kind of old APIs that I never fully grasped in the first place.
+        But it’s not anything I couldn’t overcome with some more time and effort.
+      &lt;/p&gt;&lt;p&gt;
+        But sadly, I’ve reached the end of my rope, at least for now.
+        I just really don’t want to work on this project anymore, because I went way past the point where I was having fun,
+        just for the sake of getting it done, and it’s still not done.
+        I still don’t even know if the final product will be fun for anyone, myself included.
+      &lt;/p&gt;&lt;p&gt;
+        I still haven’t ruled out just dumping my nice Zig codebase, with the fancy low-level client-server architecture,
+        and just hacking together a much simpler version in a goopy language like Javascript or Lua or Python.
+        But before I take drastic measures, I think I need to just take a breather and work on something else for a while.
+        For now, I’d like to focus on writing again!
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever burned out on a project you were just doing for fun?
+        Have you ever pushed yourself extra hard on a project because you were worried you wouldn’t finish it?
+        Have you ever put a lot of effort in and not gotten to the point you wanted to get to?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/burnout.html</guid></item><item><title>gome — Caustic</title><link>https://ctrl-c.club/~gome/journal/caustic.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;My favorite music software&lt;/h1&gt;
       &lt;time datetime="Tue, 11 Feb 2025 23:00:00 CST"&gt;11 Feb. 2025, 11:00 PM&lt;/time&gt;
@@ -1657,69 +1731,4 @@
       &lt;p class="footnote"&gt;* To be clear, “feels like doing math” is a positive in my book&lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sweepers.html</guid></item><item><title>gome — note: 14 Jan 2025 — sick</title><link>https://ctrl-c.club/~gome/journal/2025-01-14.sick.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Note: got sick&lt;/h1&gt;
-      &lt;time datetime="Tue, 14 Jan 2025 20:00:00 CST"&gt;14 Jan. 2025&lt;/time&gt;
-      &lt;p&gt;
-        I am sick today and couldn’t write a post.
-        Hopefully I can manage one tomorrow.
-      &lt;/p&gt;
-      &lt;h3&gt;Update 17 Jan. 2024&lt;/h3&gt;
-      &lt;p&gt;
-        I’m feeling better enough to write now,
-        but I have some other priorities in my life I need to focus on until the end of the month.
-        I’ll try to bring back regular posts in February.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/2025-01-14.sick.html</guid></item><item><title>gome — piano</title><link>https://ctrl-c.club/~gome/journal/piano.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I’m a piano teacher now&lt;/h1&gt;
-      &lt;time datetime="Mon, 13 Jan 2025 21:00:00 CST"&gt;13 Jan. 2025, 9:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        After graduating with a music degree, I had to figure out what I would do for a living.
-        One common career path in music is to go into music education,
-        but I never felt drawn to that.
-        I didn’t think I had the level of organization required to teach a class,
-        and I didn’t really like the idea of wrangling a whole classroom of kids.
-      &lt;/p&gt;&lt;p&gt;
-        On the other hand, I do like to teach.
-        It’s really fun to tell other people about things I’m interested in.
-        I have two younger siblings, and I always talk their ears off about whatever I’m learning about.
-      &lt;/p&gt;
-      &lt;img src="img/piano.webp" width="500" height="333" alt="A sidelong view of the keys of an upright piano. The inscription reads “Lester, Philadelphia, U.S.A.”."&gt;
-      &lt;p&gt;
-        In the past, I’ve taught a couple music theory &amp;amp; composition students.
-        I didn’t always have the most organized lesson plans,
-        but I used my propensity for yakking to tell them about all sorts of
-        neat musical ideas they probably wouldn’t have heard of from another teacher,
-        because they’re specific interests of mine.
-      &lt;/p&gt;&lt;p&gt;
-        For a while now I’ve had it in mind to do more teaching,
-        in a one-on-one capacity.
-        That format seems to work better for me than a classroom setting.
-        Beyond theory &amp;amp; composition, I thought I could get some experience teaching piano &amp;amp; voice,
-        and maybe one day open my own studio.
-      &lt;/p&gt;&lt;p&gt;
-        In 2024, I had extra time on my hands, so I found a private lessons program in a nearby town,
-        and now I am officially a piano (and voice) teacher.
-        I wasn’t sure how I’d do at first.
-        I’m still not very organized, and I struggle with doing enough lesson planning beforehand.
-      &lt;/p&gt;&lt;p&gt;
-        But it’s been a really rewarding experience.
-        I didn’t expect this at first, but I feel so proud of my students when they make progress.
-        On any given day, it doesn’t look like much is happening,
-        but when I look at where my students were at the start of the semester,
-        I can see the progress.
-        I love knowing that I am a part of these kids’ journeys as artists.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever taught music lessons?
-        Have you taught lessons of a different kind?
-        Have you ever done something you’re good at in some ways,
-        but requires you to overcome other things you’re not so good at?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/piano.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sweepers.html</guid></item></channel></rss>
