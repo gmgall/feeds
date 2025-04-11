@@ -4,9 +4,46 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Apr 2025 18:19:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 11 Apr 2025 01:05:15 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Obra-Prima by Cervejaria Doutor Duranz</title>
+      <link>https://untappd.com/user/gmgall/checkin/1469741509</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/obra-prima-cervejaria-doutor-duranz/1768906"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Obra-Prima label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/obra-prima-cervejaria-doutor-duranz/1768906"&gt;Obra-Prima&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/DoutorDuranz"&gt;Cervejaria Doutor Duranz&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1469741509"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
+            &lt;span&gt;Draft &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-80"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1469741509</guid>
+      <pubDate>Thu, 10 Apr 2025 18:53:32 GMT</pubDate>
+    </item>
     <item>
       <title>Preciosa by Cervejaria Doutor Duranz</title>
       <link>https://untappd.com/user/gmgall/checkin/1469579433</link>
@@ -186,43 +223,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1460775737</guid>
       <pubDate>Tue, 04 Mar 2025 02:23:43 GMT</pubDate>
-    </item>
-    <item>
-      <title>Imperial Blonde (Gengibre E Limão) by Cerveja Valley</title>
-      <link>https://untappd.com/user/gmgall/checkin/1460771735</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/imperial-blonde-gengibre-e-limao-cerveja-valley/6175854"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Imperial Blonde (Gengibre E Limão) label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/imperial-blonde-gengibre-e-limao-cerveja-valley/6175854"&gt;Imperial Blonde (Gengibre E Limão)&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/w/cerveja-valley/572896"&gt;Cerveja Valley&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1460771735"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1460771735</guid>
-      <pubDate>Tue, 04 Mar 2025 01:42:15 GMT</pubDate>
     </item>
   </channel>
 </rss>
