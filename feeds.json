@@ -84,16 +84,10 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
+    "title": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
+    "description": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
-  },
-  {
-    "title": "Guilherme Gall on Untappd",
-    "link": "https://untappd.com/user/gmgall",
-    "description": "Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.",
-    "feed": "https://gmgall.github.io/feeds/gmgall_untappd.xml"
   },
   {
     "title": "~gome posts on ctrl-c.club",
