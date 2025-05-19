@@ -4,9 +4,56 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 18 May 2025 18:18:25 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 May 2025 01:12:15 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>American IPA by Cruls Cervejaria</title>
+      <link>https://untappd.com/user/gmgall/checkin/1480303933</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/american-ipa-cruls-cervejaria/4373693"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4373693_197f7_sm.jpeg" alt="American IPA label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/american-ipa-cruls-cervejaria/4373693"&gt;American IPA&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/CrulsCervejaria"&gt;Cruls Cervejaria&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1480303933"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+            &lt;span&gt;Bottle &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-50"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_99Bottles_sm.jpg" alt="99 Bottles (Level 21)"&gt;
+                  &lt;span&gt;Earned the 99 Bottles (Level 21) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1480303933</guid>
+      <pubDate>Mon, 19 May 2025 00:34:52 GMT</pubDate>
+    </item>
     <item>
       <title>Obra-Prima by Cervejaria Doutor Duranz</title>
       <link>https://untappd.com/user/gmgall/checkin/1469741509</link>
@@ -186,43 +233,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1463760004</guid>
       <pubDate>Sun, 16 Mar 2025 02:36:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>BaronIPA by Imperatriz Bier</title>
-      <link>https://untappd.com/user/gmgall/checkin/1460775737</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/baronipa-imperatriz-bier/1321994"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1321994_90aef_sm.jpeg" alt="BaronIPA label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/baronipa-imperatriz-bier/1321994"&gt;BaronIPA&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/imperatrizbierpetropolis"&gt;Imperatriz Bier&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1460775737"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-50"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1460775737</guid>
-      <pubDate>Tue, 04 Mar 2025 02:23:43 GMT</pubDate>
     </item>
   </channel>
 </rss>
