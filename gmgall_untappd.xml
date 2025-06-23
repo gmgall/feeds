@@ -4,9 +4,54 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 22 Jun 2025 18:18:57 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Jun 2025 01:15:46 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Esplanada Zero Carb by Cervejaria Quatro Poderes</title>
+      <link>https://untappd.com/user/gmgall/checkin/1490184640</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/esplanada-zero-carb-cervejaria-quatro-poderes/5937934"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Esplanada Zero Carb label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/esplanada-zero-carb-cervejaria-quatro-poderes/5937934"&gt;Esplanada Zero Carb&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/CervejariaQuatroPoderes"&gt;Cervejaria Quatro Poderes&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+        &lt;div class="rating-serving floating"&gt;
+                      &lt;p class="serving"&gt;
+              &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+              &lt;span&gt;Bottle &lt;/span&gt;
+            &lt;/p&gt;
+                    &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1490184640"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_brewery_prioneer_sm.jpg" alt="Brewery Pioneer (Level 19)"&gt;
+                  &lt;span&gt;Earned the Brewery Pioneer (Level 19) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_LagerJack_sm.jpg" alt="Lager Jack (Level 10)"&gt;
+                  &lt;span&gt;Earned the Lager Jack (Level 10) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1490184640</guid>
+      <pubDate>Sun, 22 Jun 2025 20:19:16 GMT</pubDate>
+    </item>
     <item>
       <title>Midway IPA by Goose Island Beer Co.</title>
       <link>https://untappd.com/user/gmgall/checkin/1490082186</link>
@@ -174,43 +219,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1480303933</guid>
       <pubDate>Mon, 19 May 2025 00:34:52 GMT</pubDate>
-    </item>
-    <item>
-      <title>Obra-Prima by Cervejaria Doutor Duranz</title>
-      <link>https://untappd.com/user/gmgall/checkin/1469741509</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/obra-prima-cervejaria-doutor-duranz/1768906"&gt;&lt;img src="https://assets.untappd.com/site/assets/images/temp/badge-beer-default.png" alt="Obra-Prima label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/obra-prima-cervejaria-doutor-duranz/1768906"&gt;Obra-Prima&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/DoutorDuranz"&gt;Cervejaria Doutor Duranz&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1469741509"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1469741509</guid>
-      <pubDate>Thu, 10 Apr 2025 18:53:32 GMT</pubDate>
     </item>
   </channel>
 </rss>
