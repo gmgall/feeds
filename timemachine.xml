@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~timemachine posts on ctrl-c.club</title><link>https://ctrl-c.club/~timemachine/archives/</link><description>Writing</description><language>en-US</language><lastBuildDate>Thu, 26 Jun 2025 12:30:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>LetsEncrypt with Stingy cPanel Hosts</title><link>http://ctrl-c.club/~timemachine/2024/10/01/LetsEncrypt-with-Stingy-cPanel-Hosts/index.html</link><description>&lt;article class="post"&gt;
+<rss version="2.0"><channel><title>~timemachine posts on ctrl-c.club</title><link>https://ctrl-c.club/~timemachine/archives/</link><description>Writing</description><language>en-US</language><lastBuildDate>Thu, 26 Jun 2025 18:21:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>LetsEncrypt with Stingy cPanel Hosts</title><link>http://ctrl-c.club/~timemachine/2024/10/01/LetsEncrypt-with-Stingy-cPanel-Hosts/index.html</link><description>&lt;article class="post"&gt;
   &lt;header&gt;
     
     &lt;h1 class="posttitle"&gt;
@@ -74,8 +74,8 @@
 
 &lt;p&gt;The lengths and determination I take to save $100â¦ thanks for reading.&lt;/p&gt;
 &lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;Tools for automating and distributing tasks across clusters of servers. Ansible was released in 2012. Chef in 2009, well over a decade before my days running Yum commands in ssh terminals.&lt;/p&gt;
-&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;Crash cart&lt;/em&gt; is a piece of server room furniture. Usually a double decker table on wheels. On the top tier is a monitor, key board, and mouse for plugging into the a server and getting direct console access. Useful for when the machine is so broken it wonât accept connections over the network. The second shelf if home to network cables, a spare battery for the wireless phone, a tool bag to dismantle the server, and 5 or more empty diet coke cans. &lt;strong&gt;No food or drink in the server room!&lt;/strong&gt;&lt;/p&gt;
-&lt;a href="#fnref:2" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;Crash cart&lt;/em&gt; is a piece of server room furniture. Usually a double decker table on wheels. On the top tier is a monitor, key board, and mouse for plugging into the a server and getting direct console access. Useful for when the machine is so broken it wonât accept connections over the network. The second shelf if home to network cables, a spare battery for the wireless phone, a tool bag to dismantle the server, and 5 or more empty diet coke cans. &lt;strong&gt;No food or drink in the server room!&lt;/strong&gt;&lt;/p&gt;
+&lt;a href="#fnref:2" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/article&gt;
 
@@ -518,18 +518,18 @@ awful.&lt;/p&gt;
 them with links to any pull requests that result so that the reader can stay
 abreast of my contributions.&lt;/p&gt;
 &lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Update dependants; open PR.&lt;/p&gt;
-&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Pull request, re-adding the skipped test.&lt;/p&gt;
-&lt;a href="#fnref:2" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:3"&gt;&lt;span&gt;3.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;bad turn&lt;/em&gt; is when the browser/server/applicationâs event loop becomes
+&lt;a href="#fnref:1" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Pull request, re-adding the skipped test.&lt;/p&gt;
+&lt;a href="#fnref:2" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:3"&gt;&lt;span&gt;3.&lt;/span&gt;&lt;span&gt;&lt;p&gt;A &lt;em&gt;bad turn&lt;/em&gt; is when the browser/server/applicationâs event loop becomes
   blocked. When blocked the application will become unresponsive for some period
   of time until the block clears.&lt;/p&gt;
-&lt;a href="#fnref:3" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:4"&gt;&lt;span&gt;4.&lt;/span&gt;&lt;span&gt;&lt;p&gt;Roughly 1.0% of Browsers support XMLHttpRequest but not
+&lt;a href="#fnref:3" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:4"&gt;&lt;span&gt;4.&lt;/span&gt;&lt;span&gt;&lt;p&gt;Roughly 1.0% of Browsers support XMLHttpRequest but not
   Function.prototype.bind.&lt;/p&gt;
-&lt;a href="#fnref:4" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:5"&gt;&lt;span&gt;5.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;em&gt;Feature-Request-Duct-Tape&lt;/em&gt; is a quick code fix-up to fill a feature
+&lt;a href="#fnref:4" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:5"&gt;&lt;span&gt;5.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;em&gt;Feature-Request-Duct-Tape&lt;/em&gt; is a quick code fix-up to fill a feature
   request in the easiest possible way. Feature-Request-Duct-Tape usually smells
   of configuration based feature flags, copy-pasta, &lt;code&gt;if...return&lt;/code&gt; blocks, and
   unrelated &lt;code&gt;elseif&lt;/code&gt; predicates.&lt;/p&gt;
-&lt;a href="#fnref:5" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:6"&gt;&lt;span&gt;6.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Turn this in to a post with an example of &lt;code&gt;Error.prototype.toJSON()&lt;/code&gt;&lt;/p&gt;
-&lt;a href="#fnref:6" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;a href="#fnref:5" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:6"&gt;&lt;span&gt;6.&lt;/span&gt;&lt;span&gt;&lt;p&gt;TODO: Turn this in to a post with an example of &lt;code&gt;Error.prototype.toJSON()&lt;/code&gt;&lt;/p&gt;
+&lt;a href="#fnref:6" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/article&gt;
 
@@ -687,7 +687,7 @@ the CD-ROM for that here somewhere), I looked up the kernel version:
 &lt;p&gt;My next plan is to install Samba on the Raspberry pi so the family can take
 full advantage of the 4Tb Iâve connected to the network.&lt;/p&gt;
 &lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;&lt;a target="_blank" rel="noopener" href="https://timemachine.fandom.com/wiki/Vox"&gt;https://timemachine.fandom.com/wiki/Vox&lt;/a&gt;&lt;/p&gt;
-&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/article&gt;
 
@@ -774,7 +774,7 @@ full advantage of the 4Tb Iâve connected to the network.&lt;/p&gt;
 &lt;h2 id="Concussion"&gt;&lt;a href="#Concussion" class="headerlink" title="Concussion"&gt;&lt;/a&gt;Concussion&lt;/h2&gt;&lt;p&gt;We have shown how to use ssh-agent forwarding to allow us to use our local private keys on remote servers only when we are logged in over a secure and trusted connection. Then we showed how to verify that we are only using those keys if we can verify that the security of the connection has not been snooped on.&lt;/p&gt;
 &lt;p&gt;For a man in the middle to compromise my connection from Ctrl-c.club to Github they would need to not only compromise the Crtl-c.club server, but also the Github.com website and my local network. We can feel pretty confident at this point that our connections are secure.&lt;/p&gt;
 &lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:0"&gt;&lt;span&gt;0.&lt;/span&gt;&lt;span&gt;&lt;p&gt;After Lion.&lt;/p&gt;
-&lt;a href="#fnref:0" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;a href="#fnref:0" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/article&gt;
 
@@ -979,8 +979,8 @@ full advantage of the 4Tb Iâve connected to the network.&lt;/p&gt;
 
 
 &lt;div id="footnotes"&gt;&lt;hr&gt;&lt;div id="footnotelist"&gt;&lt;ol&gt;&lt;li id="fn:1"&gt;&lt;span&gt;1.&lt;/span&gt;&lt;span&gt;&lt;p&gt;This is never true.&lt;/p&gt;
-&lt;a href="#fnref:1" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;It is fine.&lt;/p&gt;
-&lt;a href="#fnref:2" rev="footnote"&gt; &amp;amp;hookleftarrow;&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;a href="#fnref:1" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;li id="fn:2"&gt;&lt;span&gt;2.&lt;/span&gt;&lt;span&gt;&lt;p&gt;It is fine.&lt;/p&gt;
+&lt;a href="#fnref:2" rev="footnote"&gt; ↩&lt;/a&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;&lt;/div&gt;
   &lt;/div&gt;
 &lt;/article&gt;
 
