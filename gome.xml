@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 27 Jun 2025 12:29:37 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 27 Jun 2025 18:20:57 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -65,6 +65,7 @@
         &lt;li&gt;&lt;a href="expression.html" class="post-link"&gt;Extensive vs. intensive expression&lt;/a&gt; — building music out vs. building it in&lt;/li&gt;
         &lt;li&gt;&lt;a href="toolbox.html" class="post-link favorite"&gt;Building the toolbox&lt;/a&gt; — thoughts on composer education&lt;/li&gt;
         &lt;li&gt;Caustic is &lt;a href="caustic.html" class="post-link"&gt;my favorite music software&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&amp;amp; what I want in a &lt;a href="engraving.html" class="post-link"&gt;music engraving software&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;&lt;h5&gt;Subseries: relational aspects of music&lt;/h5&gt;&lt;ul&gt;
         &lt;li&gt;&lt;a href="reinterpretation.html" class="post-link"&gt;Feel free to change my music&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="dialogue.html" class="post-link"&gt;A model of musical dialogue&lt;/a&gt; — innovation and decadence&lt;/li&gt;
@@ -424,6 +425,7 @@
         &lt;a href="#2025-jan"&gt;January&lt;/a&gt;
         &lt;a href="#2025-feb"&gt;February&lt;/a&gt;
         &lt;a href="#2025-apr"&gt;April&lt;/a&gt;
+        &lt;a href="#2025-may"&gt;May&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -448,6 +450,7 @@
         &lt;a href="#line-18"&gt;18.&lt;/a&gt;
         &lt;a href="#line-19"&gt;19.&lt;/a&gt;
         &lt;a href="#line-20"&gt;20.&lt;/a&gt;
+        &lt;a href="#line-21"&gt;21.&lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class="divider" id="line-1"&gt;1.&lt;/div&gt;
@@ -1340,11 +1343,79 @@
       &lt;time datetime="Sat, 5 Apr 2025 23:00:00 CDT"&gt;5 April 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;A common hazard of my personality&lt;/p&gt;
     &lt;/a&gt;
+    &lt;div class="divider" id="line-21"&gt;21.&lt;/div&gt;
+    &lt;h3 id="2025-may"&gt;May 2025&lt;/h3&gt;
+    &lt;a class="journal-link" href="engraving.html"&gt;
+      &lt;h3&gt;An idea for a music engraving software&lt;/h3&gt;
+      &lt;div class="line stop-0"&gt;&lt;/div&gt;
+      &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;The system I wish I had&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — burnout</title><link>https://ctrl-c.club/~gome/journal/burnout.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — engraving</title><link>https://ctrl-c.club/~gome/journal/engraving.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;An idea for a music engraving software&lt;/h1&gt;
+      &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
+      &lt;p class="note"&gt;
+        I wrote this over a month ago but didn’t publish it.
+        Realized after writing that I shouldn’t go down this particular rabbit hole right now,
+        and it felt like publishing would solidify the idea into a whole “new project” in my mind.
+        I still have the draft though, so enjoy! – 26 June 2025
+      &lt;/p&gt;&lt;p&gt;
+        &lt;a href="https://lilypond.org/"&gt;Lilypond&lt;/a&gt; has been my music notation tool of choice since high school.
+        It’s an open-source engraving system with pretty good-looking output,
+        especially compared to what I was getting out of the box with the program I used in middle school, Finale. (R.I.P.)
+      &lt;/p&gt;
+      &lt;img src="img/lilypond.webp" width="600" height="200" alt='The logo for the Lilypond music engraving system, a water lily over a musical score. Beside it is the text "Lilypond... music notation for everyone".'&gt;
+      &lt;p&gt;
+        One thing I’ve always liked about Lilypond is that it’s a text-based system.*
+        You input your music in a specialized programming language, and the program processes it into a PDF of the score.
+        For example, here’s a minimal example of a file you could feed into Lilypond:
+      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;pre&gt;&lt;code&gt;\version "2.24.3"
+\relative c'' { \key d \major r4 a fis e8 d e fis a, b d2 }&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;&lt;p&gt;
+        And the result would be:
+      &lt;/p&gt;
+      &lt;img src="img/orchard-glen-melody.webp" width="448" height="100" alt="Music notation showing a melody in D major"&gt;
+      &lt;p&gt;
+        If you aren’t used to programming, this might strike you as tedious or confusing.
+        It requires some up-front effort to learn and get comfortable with the code,
+        but in return, you get much more transparency and precision in how you control the software.
+      &lt;/p&gt;&lt;p&gt;
+        As much as I like Lilypond, I don’t consider it ideal, either.
+        For one, it’s not the fastest.
+        I can’t help but think a more efficient implementation running on contemporary hardware could give you near-instant feedback (as opposed to somewhere between one and ten seconds in my experience, depending on the score).
+        The system is also a bit old and arcane in some ways. Even with a lot of experience with the software,
+        I often can’t figure out how to get it to do certain things I want.
+        There are good resources for Lilypond online, but sometimes the thing I need is niche enough that I can’t find help for it.
+      &lt;/p&gt;&lt;p&gt;
+        Other problems are persistently fiddly, even if you know the ways of getting around them.
+        One big issue I run into is tweaking the positioning of things, especially ties and slurs.
+        In a GUI editor, this would be a simple matter of clicking and dragging.
+        In Lilypond, you have to manually type in a list of offsets to apply to the object, wait for your score to recompile, check the output, tweak the offsets again, and so on, until you’re happy.
+        But you’d better not change any of the music after that, or else Lilypond might redraw the object in a slightly different position, and now your offsets are wrong again.
+      &lt;/p&gt;&lt;p&gt;
+        Something I roll around in my head sometimes is the idea of making a new music engraving system that takes what I like from Lilypond.
+        Hopefully, it could be faster and a little simpler to understand (for me, at least).
+        I think it would be cool to have both a text-file-based interface like Lilypond,
+        as well as a graphical editor for the process of visually positioning things on the page.
+        I’d like to keep as much control exposed to the user as possible.
+      &lt;/p&gt;&lt;p&gt;
+        I’m thinking about how you could decompose the problem into separate layers,
+        like the music itself, the logical score, and then having layout as a separate step in the process.
+        The question is, how do you give the user control over the latter layers when they depend on earlier layers?
+      &lt;/p&gt;&lt;p&gt;
+        Do you use any music notation software?
+        Have you tried Lilypond?
+        Do you prefer working with text files or WYSIWYG editors?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;p class="footnote"&gt;* You might call it the &lt;a href="https://en.wikipedia.org/wiki/LaTeX"&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/a&gt; of music notation.&lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/engraving.html</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate></item><item><title>gome — burnout</title><link>https://ctrl-c.club/~gome/journal/burnout.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;Hobby project burnout&lt;/h1&gt;
       &lt;time datetime="Sat, 5 Apr 2025 23:00:00 CDT"&gt;5 April 2025, 11:00 PM&lt;/time&gt;
@@ -1663,72 +1734,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/incompetence.html</guid></item><item><title>gome — sweepers</title><link>https://ctrl-c.club/~gome/journal/sweepers.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Sweeper-type games&lt;/h1&gt;
-      &lt;time datetime="Mon, 3 Feb 2025 23:00:00 CST"&gt;3 Feb. 2025, 11:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        I came across this game on itch.io the other day called &lt;a href="https://danielben.itch.io/dragonsweeper"&gt;&lt;i&gt;Dragonsweeper&lt;/i&gt;&lt;/a&gt;, a game somewhat based on &lt;a href="https://en.wikipedia.org/wiki/Minesweeper_(video_game)"&gt;&lt;i&gt;Minesweeper&lt;/i&gt;&lt;/a&gt;, the classic Windows game.
-        Instead of mines, you’re a knight clearing various fantasy monsters from a dungeon.
-        Some of these monsters are too strong for you to beat at first, so you have to carefully fight the weaker ones to level up.
-        It’s intended to be played blind, and you’re expected to learn as you go.
-        So if you want to try the game spoiler-free, don’t read past this paragraph until you’ve played it.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/mamono_sweeper.webp" width="352" height="238" alt="Retro pixel art of the words MAMONO SWEEPER surrounded by brown blocks. Above the blocks are five monsters: a blue blob, a red demon, a purple lizard, a yellow giant, and a green dragon."&gt;
-        &lt;figcaption&gt;From title screen of &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        I had a lot of fun with &lt;i&gt;Dragonsweeper&lt;/i&gt;.
-        I liked the graphics (especially the victory screen art), and the soundtrack made me feel like I was playing a Miniclip game back in 2007.
-        Like &lt;i&gt;Spelunky&lt;/i&gt;, the game has a sense of progression that isn’t so much about what happens in a single run,
-        but rather your learning process over multiple runs.
-        As you play, you gradually learn how the game works and gain insight about how to approach picking blocks.
-      &lt;/p&gt;&lt;p&gt;
-        On the one hand, there’s a basic factual discovery about the rules of the game:
-        how leveling up works,
-        what the different scrolls do,
-        the patterns monsters spawn in.
-        I appreciate that the game doesn’t hand all of this to you right away,
-        but instead invites you to learn it for yourself,
-        giving you just enough hints in the cryptic Monsternomicon.
-      &lt;/p&gt;&lt;p&gt;
-        But there’s also this second layer of discovery, which is the strategy you want to use.
-        When I first started playing, I was just hitting monsters and healing and leveling up at random,
-        just trying not to die.
-        I had my first breakthrough in the game when I realized that I should instead try to use up all my hearts before healing or leveling up.
-        With this realization, I had a conceptual key that unlocked more of the game for me.
-      &lt;/p&gt;&lt;p&gt;
-        Some of these breakthroughs not only helped me beat the game, but also made me appreciate its design.
-        For example, at some point I realized my hearts were kind of like a budget for resolving uncertainty.
-        If you have eight hearts, it’s safe for you to click a block where you might take up to eight hearts of damage,
-        as long as you have a level up or heart scroll to heal from it.
-        You can use this to your advantage as your level gets higher and higher,
-        allowing you to take greater risks and clear more of the board.
-      &lt;/p&gt;&lt;p&gt;
-        I played &lt;i&gt;Dragonsweeper&lt;/i&gt; until I could do a full clear of the board, achieving the max score of 303.
-        I noticed on the victory screen that it said it was inspired by “Mamono Sweeper”,
-        and I was curious to see another “sweeper-type” game and trace the influence it had on &lt;i&gt;Dragonsweeper&lt;/i&gt;.
-      &lt;/p&gt;&lt;p&gt;
-        &lt;a href="https://hojamaka.com/games/mamono_sweeper/"&gt;&lt;i&gt;Mamono Sweeper&lt;/i&gt;&lt;/a&gt; (&lt;i&gt;mamono&lt;/i&gt; from Japanese &lt;a href="https://en.wiktionary.org/wiki/%E9%AD%94%E7%89%A9#Japanese"&gt;魔物&lt;/a&gt;: evil spirit) is a somewhat simpler game,
-        but still very satisfying to play.
-        Since there is no healing in this one, there’s less of an experience of budgeting uncertainty like in &lt;i&gt;Dragonsweeper&lt;/i&gt;,
-        but there are other kinds of deductions to learn.
-        &lt;i&gt;Mamono Sweeper&lt;/i&gt; has a very “pure” feel to it, like classic &lt;i&gt;Minesweeper&lt;/i&gt;, where the strategic insights almost feel like you’re doing math.*
-        I guess in a sense, that’s exactly what you’re doing, because most of the strategy revolves around properties of sums with different numbers of unknowns.
-      &lt;/p&gt;&lt;p&gt;
-        I love games like these that take an existing design and twist it.
-        Both of these “sweeper-type” games take advantage of their predecessor’s strengths and offer something new that fits the format well.
-        I liked seeing the simple but fruitful way &lt;i&gt;Mamono Sweeper&lt;/i&gt; builds on &lt;i&gt;Minesweeper&lt;/i&gt;,
-        and I liked being able to trace pieces of what I experienced in &lt;i&gt;Dragonsweeper&lt;/i&gt; back through &lt;i&gt;Mamono Sweeper&lt;/i&gt;.
-        That type of creative dialogue is something I really value about art in general.
-      &lt;/p&gt;&lt;p&gt;
-        Do you like &lt;i&gt;Minesweeper&lt;/i&gt;?
-        Did you try &lt;i&gt;Dragonsweeper&lt;/i&gt; and/or &lt;i&gt;Mamono Sweeper&lt;/i&gt;?
-        Did you enjoy them?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-      &lt;p class="footnote"&gt;* To be clear, “feels like doing math” is a positive in my book&lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/sweepers.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/incompetence.html</guid></item></channel></rss>
