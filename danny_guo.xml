@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Thu, 10 Jul 2025 18:22:17 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 11 Jul 2025 01:14:06 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
         &lt;h1&gt;Beat the Drum&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -1442,7 +1442,75 @@ system, I recommend doing it as early as possible. It will save you pain and
 make it easier to estimate how long things will take.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</guid><pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate></item><item><title>My Credit and Debit Card Collection</title><link>https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/start-with-a-minimum-viable-system</guid><pubDate>Wed, 09 Aug 2023 00:00:00 GMT</pubDate></item><item><title>How to Convert Any JavaScript Value to a Boolean</title><link>https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Convert Any JavaScript Value to a Boolean&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2023-06-17"&gt;
+                June 17, 2023
+            &lt;/time&gt;
+             · 
+            252 words  ·  ~2 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;The best way to convert a JavaScript value to a boolean is to use the
+&lt;code&gt;Boolean()&lt;/code&gt; function. It returns &lt;code&gt;false&lt;/code&gt; for any
+&lt;a href="https://developer.mozilla.org/en-US/docs/Glossary/Falsy"&gt;falsy&lt;/a&gt; value and
+&lt;code&gt;true&lt;/code&gt; otherwise (any value that is not falsy is
+&lt;a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy"&gt;truthy&lt;/a&gt;). You can try
+out the examples in this post with &lt;a href="https://replit.com/@dyguo/How-to-Convert-Any-JavaScript-Value-to-a-Boolean#index.js"&gt;this
+Replit&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// Falsy values&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; a &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;null&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; b &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; c &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;0&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; d &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;false&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// Truthy values&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; e &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;({});&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; f &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"foobar"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; g &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; h &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;true&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// The values are boolean primitives (`false` and `true`)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({a, b, c, d, e, f, g, h});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="not-operator"&gt;Not Operator&lt;a class="anchor" href="#not-operator"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;An alternative is to use the not operator (&lt;code&gt;!&lt;/code&gt;) twice. The first one returns a
+primitive boolean value, and then the second one flips the value to what you
+actually want.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fooString &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; fooBoolean &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;!!&lt;/span&gt;&lt;span&gt;fooString;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;// The value is `false`&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({fooBoolean});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This method takes fewer characters to write, but I prefer to use the &lt;code&gt;Boolean()&lt;/code&gt;
+method because I think it’s clearer and more readable. We should generally
+&lt;a href="https://thoughtbot.com/blog/write-code-to-be-read"&gt;optimize for reading code over writing
+code&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id="boolean-constructor"&gt;Boolean Constructor&lt;a class="anchor" href="#boolean-constructor"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Make sure you don’t use &lt;code&gt;Boolean&lt;/code&gt; as a constructor (using &lt;code&gt;new&lt;/code&gt;) because that
+creates an &lt;em&gt;object&lt;/em&gt;. You would have to use &lt;code&gt;.valueOf()&lt;/code&gt; to get a primitive
+value.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;// bar is an object&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; bar &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;new&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;Boolean&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (bar) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// So this would run because an object is truthy&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"in bar branch"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; barValue &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; bar.&lt;/span&gt;&lt;span&gt;valueOf&lt;/span&gt;&lt;span&gt;();&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (barValue) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;// But this wouldn't run because barValue is `false`&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(&lt;/span&gt;&lt;span&gt;"in barValue branch"&lt;/span&gt;&lt;span&gt;);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({bar, barValue});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</guid><pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate></item><item><title>My Credit and Debit Card Collection</title><link>https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</link><description>&lt;article&gt;
         &lt;h1&gt;My Credit and Debit Card Collection&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
