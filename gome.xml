@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 30 Jul 2025 01:18:08 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 30 Jul 2025 06:26:40 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -236,7 +236,7 @@
         &lt;li&gt;&lt;a href="update.html" class="post-link"&gt;How I update my site&lt;/a&gt; — I edit everything manually &amp;amp; push with git&lt;/li&gt;
         &lt;li&gt;I really think more people should &lt;a href="website.html" class="post-link favorite"&gt;build their own website&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="git.html" class="post-link"&gt;You don’t need GitHub&lt;/a&gt; — other ways to host git&lt;/li&gt;
-        &lt;li&gt;&lt;a href="webjam.html" class="post-link"&gt;I’m putting on a Jam&lt;/a&gt; — and here’s a link to &lt;a href="../library/webjam"&gt;the Webpage Jam&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="webjam.html" class="post-link"&gt;I’m putting on a Jam&lt;/a&gt; — and here’s a link to &lt;a href="../library/webjam"&gt;the Webpage Jam&lt;/a&gt; — and &lt;a href="webjam-2.html" class="post-link"&gt;What’s the point of the Jam?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="keyboard.html" class="post-link"&gt;I love my new keyboard&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
@@ -426,6 +426,7 @@
         &lt;a href="#2025-feb"&gt;February&lt;/a&gt;
         &lt;a href="#2025-apr"&gt;April&lt;/a&gt;
         &lt;a href="#2025-may"&gt;May&lt;/a&gt;
+        &lt;a href="#2025-jun"&gt;June&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1351,11 +1352,69 @@
       &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;The system I wish I had&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h3 id="2025-jun"&gt;June 2025&lt;/h3&gt;
+    &lt;a class="journal-link" href="webjam-2.html"&gt;
+      &lt;h3&gt;What is the point of the Webpage Jam?&lt;/h3&gt;
+      &lt;div class="line stop-1"&gt;&lt;/div&gt;
+      &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
+      &lt;p&gt;In response to a question from ~pgadey&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — engraving</title><link>https://ctrl-c.club/~gome/journal/engraving.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — webjam pt. 2</title><link>https://ctrl-c.club/~gome/journal/webjam-2.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;What is the point of the Webpage Jam?&lt;/h1&gt;
+      &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
+      &lt;blockquote&gt;
+        One thing I’m pondering: what’s the point of the webjam?
+        Is it to push your personal envelope and do something neat?
+        Is it to create something enjoyable for other people?
+        (Of course, it could be any/both/neither for different people.)
+        &lt;div&gt;~&lt;a href="https://ctrl-c.club/~pgadey/"&gt;pgadey&lt;/a&gt;&lt;/div&gt;
+      &lt;/blockquote&gt;&lt;p&gt;
+        ~&lt;a href="https://ctrl-c.club/~pgadey/"&gt;pgadey&lt;/a&gt; asked me to give my opinion about this question regarding the upcoming &lt;a href="../library/webjam/"&gt;Ctrl-C Webpage Jam&lt;/a&gt;,
+        so I thought I might just post my response for anyone curious to learn more about it.
+      &lt;/p&gt;&lt;p&gt;
+        I wrote up some similar thoughts in the journal when I first launched the Jam two years ago:
+      &lt;/p&gt;&lt;a class="journal-link" href="webjam.html"&gt;
+        &lt;h3&gt;I’m putting on a Jam&lt;/h3&gt;
+        &lt;div class="line stop-1"&gt;&lt;/div&gt;
+        &lt;time datetime="Thu, 6 Jul 2023 22:30:00 CDT"&gt;6 July 2023, 10:30 PM&lt;/time&gt;
+        &lt;p&gt;To encourage the web I want to see&lt;/p&gt;
+      &lt;/a&gt;&lt;p&gt;
+        but I think it’s worth revisiting with a fresh post.
+      &lt;/p&gt;&lt;p&gt;
+        I won’t repeat the basic details of the Jam here; for that, visit this page:
+      &lt;/p&gt;&lt;a class="library-link" href="../library/webjam"&gt;
+        &lt;svg width="24" height="24" class="icon stop-0"&gt;&lt;/svg&gt;
+        &lt;h3&gt;Ctrl-C Webpage Jam&lt;/h3&gt;
+        &lt;p&gt;Event open to Ctrl-C members&lt;/p&gt;
+      &lt;/a&gt;&lt;p&gt;
+        Alright, so what, in my eyes, is the point of the Webpage Jam?
+      &lt;/p&gt;
+      &lt;img src="img/berhthun.webp" width="366" height="366" class="no-border" alt="An animation of a beardless wizard typing at a computer"&gt;
+      &lt;p&gt;
+        If you participate in the Webpage Jam, what I would like for you is that you come away with something you are proud of.
+        Something you can show off to friends, or link to from your homepage,
+        or revisit from time to time to say, “wow, I’m glad I made that”.
+      &lt;/p&gt;&lt;p&gt;
+        I don’t want anyone to feel like it’s an assignment or a burden,
+        or that they have to be done with their chosen project in ten days for it to be a legitimate participation.
+        It’s nothing more than a gentle nudge from me, asking you to create something you and I might both enjoy checking out on the web.
+      &lt;/p&gt;&lt;p&gt;
+        Another framing might be: if you found it on someone else’s site,
+        would you want to bookmark the page?
+        Though that might depend on your bookmarking habits. I am admittedly a pretty &lt;a href="notes-2.html"&gt;heavy bookmarker&lt;/a&gt; myself, so the threshold for what I will bookmark is basically whether I could imagine myself ever wanting to come back to the page.
+      &lt;/p&gt;&lt;p&gt;
+        So, to more directly address ~pgadey’s questions: the point of the Webpage Jam is to make something you’re proud of. If you won’t be proud of it unless you push your personal envelope, then you gotta do that. It doesn’t have to be enjoyable for other people as long as you yourself like it, but I would selfishly ask that you consider making something that I, ~gome, might also enjoy, since I started this Webpage Jam for my own entertainment. And yes, the point may be different for different people. Feel free to disregard everything I’ve written here and just do what you want with the Webpage Jam. Just make a webpage. Happy jamming!
+      &lt;/p&gt;&lt;p&gt;
+        If you are a member of &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt;, please consider joining the &lt;a href="../library/webjam/"&gt;Webpage Jam&lt;/a&gt;. As always, you can let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam-2.html</guid></item><item><title>gome — engraving</title><link>https://ctrl-c.club/~gome/journal/engraving.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;An idea for a music engraving software&lt;/h1&gt;
       &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
@@ -1688,50 +1747,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/band.html</guid></item><item><title>gome — incompetence</title><link>https://ctrl-c.club/~gome/journal/incompetence.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Regularly doing something you’re bad at&lt;/h1&gt;
-      &lt;time datetime="Tue, 4 Feb 2025 23:30:00 CST"&gt;4 Feb. 2025, 11:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        There’s an inherent satisfaction to doing something well.
-        Even outside of their practical utility, people enjoy gaining skills and using them.
-        Some people will spend tons of time learning to play a video game as fast as humanly possible,
-        because they enjoy playing at their maximum capabilities.
-        The same can be said of musicians practicing or athletes training.
-        Even if they are doing these things professionally, they generally got into the profession because drew enjoyment from doing something really well.
-      &lt;/p&gt;&lt;p&gt;
-        Of course, in order to get good at something, you have to be bad at it first.
-        I’ve previously written a &lt;a href="spin-up.html"&gt;post&lt;/a&gt; on this idea,
-        in which I observed that you have to be able to enjoy the hike up the learning curve, not just being at the crest of it.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/tanners_hill.webp" width="360" height="480" alt="A mossy wall beside a descending path in a forest."&gt;
-        &lt;figcaption&gt;Photo Credit: &lt;a href="https://commons.wikimedia.org/wiki/File:A_path_down_Tanners_Hill_-_geograph.org.uk_-_7050453.jpg#Licensing"&gt;&lt;i&gt;A path down Tanners Hill&lt;/i&gt;&lt;/a&gt; by Neil Owen&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        But I also think it’s worth doing things you don’t even expect to get better at.
-        The other day I was thinking about how I used to draw every day as a child.
-        I wasn’t really drawing with the intent of getting better at it, and for the most part, I didn’t get better.
-        Much of what I drew was in a crude line-art style, without much attention to form, composition, or lighting.
-      &lt;/p&gt;&lt;p&gt;
-        But that wasn’t the point. I was doing it for fun, because it was fun to be creative, it was fun to tell stories with pictures.
-        Even now, I think it’s fun to look back through my old sketchbooks and see what ideas I entertained myself with.
-      &lt;/p&gt;&lt;p&gt;
-        Sometimes I see really good drawings and think I should try to seriously get better at drawing.
-        But then I wonder if that impulse to get better is even necessary, or if I just want to start doing it again for fun.
-        But there’s this creeping feeling that as an adult I would find it frustrating or embarassing how bad I am at it,
-        or that it would somehow not be fun to do it just for the sake of doing it, if I wasn’t trying to get better.
-      &lt;/p&gt;&lt;p&gt;
-        I wonder what changed from when I was a kid.
-        Partly, I probably have a clearer idea of the gap between my skills and what others are capable of.
-        But in spite of that, I think it would be a valuable thing if I would draw again just for fun, even without hope of improvement.
-        Learn to enjoy doing things you’re bad at is itself a skill worth cultivating.
-        It might just help increase your tolerance for climbing that learning curve.
-      &lt;/p&gt;&lt;p&gt;
-        Do you do something regularly that you’re not very good at?
-        Are you trying to improve, or are you just doing it for enjoyment? Maybe both?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/incompetence.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/band.html</guid></item></channel></rss>
