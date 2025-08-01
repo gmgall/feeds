@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 31 Jul 2025 18:24:04 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 01 Aug 2025 01:25:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -426,7 +426,7 @@
         &lt;a href="#2025-feb"&gt;February&lt;/a&gt;
         &lt;a href="#2025-apr"&gt;April&lt;/a&gt;
         &lt;a href="#2025-may"&gt;May&lt;/a&gt;
-        &lt;a href="#2025-jun"&gt;June&lt;/a&gt;
+        &lt;a href="#2025-jul"&gt;July&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1352,7 +1352,7 @@
       &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;The system I wish I had&lt;/p&gt;
     &lt;/a&gt;
-    &lt;h3 id="2025-jun"&gt;June 2025&lt;/h3&gt;
+    &lt;h3 id="2025-jul"&gt;July 2025&lt;/h3&gt;
     &lt;a class="journal-link" href="webjam-2.html"&gt;
       &lt;h3&gt;What is the point of the Webpage Jam?&lt;/h3&gt;
       &lt;div class="line stop-1"&gt;&lt;/div&gt;
