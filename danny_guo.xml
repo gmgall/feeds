@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Tue, 12 Aug 2025 01:11:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Tue, 12 Aug 2025 06:23:45 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
         &lt;h1&gt;Beat the Drum&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -1510,7 +1510,32 @@ value.&lt;/p&gt;
 &lt;span class="line"&gt;&lt;span&gt;console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;({bar, barValue});&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</guid><pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate></item><item><title>Forex Trading for Fun and Luckily Profit</title><link>https://www.dannyguo.com/blog/forex-trading-for-fun-and-luckily-profit</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-convert-any-javascript-value-to-a-boolean</guid><pubDate>Sat, 17 Jun 2023 00:00:00 GMT</pubDate></item><item><title>My Credit and Debit Card Collection</title><link>https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</link><description>&lt;article&gt;
+        &lt;h1&gt;My Credit and Debit Card Collection&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2023-05-09"&gt;
+                May 9, 2023
+            &lt;/time&gt;
+             · 
+            47 words  ·  ~1 minute to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;One of my hobbies is to take advantage of credit card rewards and sign up
+bonuses. Here is my collection of credit and debit cards (excluding any active
+ones). I’ve kept every card I’ve ever received, and I have over 100 cards in
+total.&lt;/p&gt;
+
+
+&lt;div id="gallery"&gt;&lt;/div&gt;
+
+
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/my-credit-and-debit-card-collection</guid><pubDate>Tue, 09 May 2023 00:00:00 GMT</pubDate></item><item><title>Forex Trading for Fun and Luckily Profit</title><link>https://www.dannyguo.com/blog/forex-trading-for-fun-and-luckily-profit</link><description>&lt;article&gt;
         &lt;h1&gt;Forex Trading for Fun and Luckily Profit&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -2392,7 +2417,85 @@ backslash (the &lt;code&gt;\\&lt;/code&gt; is necesssary for
 followed by a &lt;code&gt;n&lt;/code&gt; with a newline character. This worked for my use case.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-newlines-in-an-environment-variable-file-for-docker</guid><pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Check if a JavaScript String Begins or Ends With a String</title><link>https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-newlines-in-an-environment-variable-file-for-docker</guid><pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Break and Continue in Nested Loops in JavaScript</title><link>https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Break and Continue in Nested Loops in JavaScript&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2022-04-17"&gt;
+                April 17, 2022
+            &lt;/time&gt;
+             · 
+            224 words  ·  ~2 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;The easiest way to &lt;code&gt;break&lt;/code&gt; out of nested loops in JavaScript is to use
+&lt;a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/label"&gt;labels&lt;/a&gt;.
+By labeling a loop, you can use it in a &lt;code&gt;break&lt;/code&gt; statement to break out of not
+only the loop you’re in but also all the way out of the specified loop.&lt;/p&gt;
+&lt;p&gt;You can try out the examples in this post for yourself with &lt;a href="https://replit.com/@dyguo/how-to-break-and-continue-in-nested-loops-in-javascript"&gt;this
+Replit&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunks &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; [&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;6&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;7&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;8&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;9&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;chunkLoop: &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunk &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunks) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunk) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (number &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;break&lt;/span&gt;&lt;span&gt; chunkLoop;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(number);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;/*&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Output:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;3&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;4&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The output stops at 4 because when the code reaches 5, the code breaks all the
+way out of the outer loop (&lt;code&gt;chunkLoop&lt;/code&gt;).&lt;/p&gt;
+&lt;h2 id="continue"&gt;Continue&lt;a class="anchor" href="#continue"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can also use &lt;code&gt;continue&lt;/code&gt; with a label if you want to skip to the next
+iteration of an outer loop.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunks &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; [&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;6&lt;/span&gt;&lt;span&gt;],&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    [&lt;/span&gt;&lt;span&gt;7&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;8&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;9&lt;/span&gt;&lt;span&gt;]&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;];&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;chunkLoop: &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; chunk &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunks) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &lt;/span&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; (&lt;/span&gt;&lt;span&gt;const&lt;/span&gt;&lt;span&gt; number &lt;/span&gt;&lt;span&gt;of&lt;/span&gt;&lt;span&gt; chunk) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &lt;/span&gt;&lt;span&gt;if&lt;/span&gt;&lt;span&gt; (number &lt;/span&gt;&lt;span&gt;===&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;) {&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &lt;/span&gt;&lt;span&gt;continue&lt;/span&gt;&lt;span&gt; chunkLoop;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        console.&lt;/span&gt;&lt;span&gt;log&lt;/span&gt;&lt;span&gt;(number);&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    }&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;/*&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Output:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;2&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;3&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;4&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;7&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;8&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;9&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;*/&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;5 and 6 aren’t in the output because when the code reaches 5, the code continues
+on to the next iteration of the chunk loop, which is the &lt;code&gt;[7, 8, 9]&lt;/code&gt; chunk.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-break-and-continue-in-nested-loops-in-javascript</guid><pubDate>Sun, 17 Apr 2022 00:00:00 GMT</pubDate></item><item><title>How to Check if a JavaScript String Begins or Ends With a String</title><link>https://www.dannyguo.com/blog/how-to-check-if-a-javascript-string-begins-or-ends-with-a-string</link><description>&lt;article&gt;
         &lt;h1&gt;How to Check if a JavaScript String Begins or Ends With a String&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -2972,7 +3075,225 @@ more discussion.&lt;/p&gt;
 Fiddle&lt;/a&gt;.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-swap-column-values-in-sql</guid><pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate></item><item><title>How to Prevent a Website Page From Showing Up in Search Results</title><link>https://www.dannyguo.com/blog/how-to-prevent-a-website-page-from-showing-up-in-search-results</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-swap-column-values-in-sql</guid><pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate></item><item><title>How to Use Git Bisect for Debugging</title><link>https://daily.dev/blog/how-to-use-git-bisect-for-debugging</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Use Git Bisect for Debugging&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2021-05-27"&gt;
+                May 27, 2021
+            &lt;/time&gt;
+             · 
+            1,857 words  ·  ~10 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;&lt;em&gt;This post was originally written for
+&lt;a href="https://daily.dev/blog/how-to-use-git-bisect-for-debugging"&gt;daily.dev&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;While many programmers use &lt;a href="https://git-scm.com/"&gt;Git&lt;/a&gt; on a daily basis, some
+might not use much more than the basic commands like add, commit, push, and
+pull. Yet Git has dozens of high-level
+&lt;a href="https://git-scm.com/docs/git#_git_commands"&gt;commands&lt;/a&gt;. A particularly
+interesting one is bisect. It allows you to efficiently search through your
+commit history to identify when a change occurred. The most obvious use case for
+this is to find out when a bug was introduced.&lt;/p&gt;
+&lt;p&gt;At a high level, the way bisect works is that it lets you mark commits as “good”
+or “bad” until it can figure out the specific commit that caused the repository
+to flip from good to bad. To minimize the number of commits you have to inspect,
+it tries to stick to a &lt;a href="https://en.wikipedia.org/wiki/Binary_search_algorithm"&gt;binary
+search&lt;/a&gt; as much as
+possible. For an in-depth look at how bisect works under the hood, I recommend
+reading &lt;a href="https://git-scm.com/docs/git-bisect-lk2009"&gt;this paper&lt;/a&gt;, which
+discusses &lt;a href="https://git-scm.com/docs/git-bisect-lk2009#_git_bisect_details"&gt;how the bisection algorithm
+works&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Let’s think about when bisect can be useful. Then we’ll go through a tutorial.
+Lastly, I’ll cover some advanced features and go over some caveats.&lt;/p&gt;
+&lt;h2 id="when-to-use-bisect"&gt;When to Use Bisect&lt;a class="anchor" href="#when-to-use-bisect"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I don’t use bisect very often, but when I do, it’s usually when I’m trying to
+figure out a particularly tricky problem involving a bug with an unclear origin.
+Some bugs can be attributed to a very recent commit, and it’s obvious from a
+quick look which one caused the issue. If a commit from this morning changed a
+part of your system, and you start getting error alerts for that part, there’s a
+good chance the commit from this morning is the culprit.&lt;/p&gt;
+&lt;p&gt;But other bugs are subtle, and you might not discover them until long after
+their introduction to the codebase. In these cases, it can be challenging to go
+through the commit history and suss out the bad commit, especially if you don’t
+have a good idea of when exactly the issue started. The task can be even harder
+if you don’t have a descriptive, clean commit log to read because the commit
+messages are not &lt;a href="https://chris.beams.io/posts/git-commit/"&gt;written well&lt;/a&gt;.
+Imagine trying to pinpoint a problematic commit when the commit log is full of
+generic messages like “Fix issue” or “Clean up.”&lt;/p&gt;
+&lt;p&gt;Even when you have a decent commit log, many bugs have non-obvious causes.
+Bisect provides a way to avoid wasting time and get straight to figuring out the
+source of the problem. Whenever you find yourself asking when a change happened,
+bisect should be one of the techniques you consider using.&lt;/p&gt;
+&lt;h2 id="tutorial"&gt;Tutorial&lt;a class="anchor" href="#tutorial"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let’s go through an example. You can clone &lt;a href="https://github.com/dguo/git-bisect-demo"&gt;this
+repo&lt;/a&gt; if you want to try it out for
+yourself. It contains an &lt;code&gt;index.html&lt;/code&gt; file with the following content:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;&amp;lt;!&lt;/span&gt;&lt;span&gt;DOCTYPE&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;lang&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"esperanto"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;charset&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"utf-8"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"viewport"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;content&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"width=device-width, initial-scale=1.0"&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;Git bisect is awesome!&amp;lt;/&lt;/span&gt;&lt;span&gt;title&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;meta&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;name&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"description"&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;content&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"Git bisect can be a great debugging tool"&lt;/span&gt;&lt;span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;/&lt;/span&gt;&lt;span&gt;head&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;h1&lt;/span&gt;&lt;span&gt;&amp;gt;How to Use Git Bisect for Debugging&amp;lt;/&lt;/span&gt;&lt;span&gt;h1&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            &amp;lt;&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;href&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;"https://git-scm.com/"&lt;/span&gt;&lt;span&gt;&amp;gt;Git&amp;lt;/&lt;/span&gt;&lt;span&gt;a&lt;/span&gt;&lt;span&gt;&amp;gt; bisect can be a great way to&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            determine when a change was introduced into a codebase.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;            It's efficient because it uses binary search.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        &amp;lt;/&lt;/span&gt;&lt;span&gt;p&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;    &amp;lt;/&lt;/span&gt;&lt;span&gt;body&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&amp;lt;/&lt;/span&gt;&lt;span&gt;html&lt;/span&gt;&lt;span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might notice that the language is incorrectly set to
+&lt;a href="https://en.wikipedia.org/wiki/Esperanto"&gt;Esperanto&lt;/a&gt; instead of English. Let’s
+use bisect to find the commit where that happened. You can start a bisect
+session with &lt;code&gt;git bisect start&lt;/code&gt;. Note that you have to be at the top-level
+directory of the repository or else bisect will refuse to start. If you run &lt;code&gt;git status&lt;/code&gt;, you should see this message:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;You are currently bisecting, started from branch 'main'.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  (use "git bisect reset" to get back to the original branch)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;To end the bisect session at any point, run &lt;code&gt;git bisect reset&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Mark the current commit (HEAD) as bad with &lt;code&gt;git bisect bad&lt;/code&gt;. Next, you need to
+determine a commit that doesn’t have the problem. For a real world bug, maybe
+you think the problem started occurring about a month ago. You can &lt;code&gt;git checkout&lt;/code&gt; a commit from two months before and hopefully confirm the problem
+doesn’t occur with that commit. If it still does, you’ll need to go back even
+further. Once you find a good commit, you mark it with &lt;code&gt;git bisect good &amp;lt;commit&amp;gt;&lt;/code&gt;. You can also run just &lt;code&gt;git bisect good&lt;/code&gt; to mark the current commit.&lt;/p&gt;
+&lt;p&gt;For this repo, let’s go all the way back to the first commit and mark it as good
+with &lt;code&gt;git bisect good b35894eec380a1039f07f47c1d0b63fa0d015190&lt;/code&gt;. Now that Git
+has a start (the good commit) and an end (the bad commit) to work with, it can
+proceed with the bisection. You should see this message:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;Bisecting: 5 revisions left to test after this (roughly 3 steps)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;[d44fbe511a46fa78e7428077d74b0f18897ebe65] Add a meta description&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You’re now on a commit in the middle of the range, and you can confirm if the
+problem still exists or not. Open &lt;code&gt;index.html&lt;/code&gt; and check if the language is
+still set to “esperanto” or if it’s set to the correct value of “en.” Mark the
+commit with &lt;code&gt;git bisect bad&lt;/code&gt; or &lt;code&gt;git bisect good&lt;/code&gt;, and Git will put you on a new
+commit in the middle of the new search range. Repeat the process until Git
+determines the point at which one commit is good, and the following one is bad:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;e4203915d6639fdc7028d69a9cc773c2fc2b584b is the first bad commit&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;commit e4203915d6639fdc7028d69a9cc773c2fc2b584b&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Author: Danny Guo&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Date:   Fri Apr 30 23:52:49 2021 -0400&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        Make the page responsive&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;index.html | 3 ++-&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;1 file changed, 2 insertions(+), 1 deletion(-)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And that’s it! This commit changed the value from “en” to “esperanto.” Run &lt;code&gt;git bisect reset&lt;/code&gt; to end the session. In a real world situation, the changes in the
+identified commit will hopefully make it easy to determine the cause of the bug.&lt;/p&gt;
+&lt;h2 id="advanced-features"&gt;Advanced Features&lt;a class="anchor" href="#advanced-features"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A typical bisect session doesn’t require more than the &lt;code&gt;start&lt;/code&gt;, &lt;code&gt;bad&lt;/code&gt;, and
+&lt;code&gt;good&lt;/code&gt; subcommands, but there are some advanced features that even programmers
+who are familiar with bisect might not know about.&lt;/p&gt;
+&lt;h3 id="skip-commits"&gt;Skip Commits&lt;a class="anchor" href="#skip-commits"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;git bisect skip&lt;/code&gt; lets you skip a commit or range of commits if you know they
+aren’t relevant to what you’re trying to pinpoint. &lt;code&gt;git bisect skip&lt;/code&gt; will skip
+whatever commit you are currently on, while &lt;code&gt;git bisect skip &amp;lt;start-commit&amp;gt;..&amp;lt;end-commit&amp;gt;&lt;/code&gt; will skip every commit after &lt;code&gt;&amp;lt;start-commit&amp;gt;&lt;/code&gt;, up
+to and including &lt;code&gt;&amp;lt;end-commit&amp;gt;&lt;/code&gt;. If you want to also skip &lt;code&gt;&amp;lt;start-commit&amp;gt;&lt;/code&gt;, you
+can use &lt;code&gt;git bisect skip &amp;lt;start-commit&amp;gt; &amp;lt;start-commit&amp;gt;..&amp;lt;end-commit&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Skipping commits can make your session go faster, but be wary that it can also
+cause bisect to fail to identify a specific commit and issue a message like
+this:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;There are only 'skip'ped commits left to test.&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;The first bad commit could be any of:&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;87699539acfe49ff1307cd0fa794d8422ec830c5&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;9f3b97749781017b59f949f62042552fdb44c950&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;9fdb8c5dabcd8577f358986a27b80a9ffee6be62&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;We cannot bisect more!&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="redo-a-session"&gt;Redo a Session&lt;a class="anchor" href="#redo-a-session"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can use &lt;code&gt;git bisect log&lt;/code&gt; to produce a log of the current session. Here’s an
+example:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;git bisect start&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# bad: [73ab00c89f17ea5fa19478a9ce4a4488a2bb57fd] Add a README&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;git bisect bad 73ab00c89f17ea5fa19478a9ce4a4488a2bb57fd&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# good: [b35894eec380a1039f07f47c1d0b63fa0d015190] Initial commit&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;git bisect good b35894eec380a1039f07f47c1d0b63fa0d015190&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# good: [d44fbe511a46fa78e7428077d74b0f18897ebe65] Add a meta description&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;git bisect good d44fbe511a46fa78e7428077d74b0f18897ebe65&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# bad: [e4203915d6639fdc7028d69a9cc773c2fc2b584b] Make the page responsive&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;git bisect bad e4203915d6639fdc7028d69a9cc773c2fc2b584b&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If you save this output to a file with &lt;code&gt;git bisect log &amp;gt; bisect.txt&lt;/code&gt;, you can
+edit the text file manually, reset the session, and then redo the session with
+&lt;code&gt;git bisect replay bisect.txt&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;This is also a way to fix mistakes. You can edit &lt;code&gt;bisect.text&lt;/code&gt; before running
+the replay command.&lt;/p&gt;
+&lt;h3 id="run-a-script-or-command"&gt;Run a Script or Command&lt;a class="anchor" href="#run-a-script-or-command"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Bisect can automatically complete the session for you if you give it a command
+or script to run, so you don’t have to do it manually for each commit. You can
+try this with the example repo. Start a session and set the initial bad and good
+commits as before. Then run &lt;code&gt;git bisect run grep -q 'lang="en"' index.html&lt;/code&gt;.
+The &lt;code&gt;-q&lt;/code&gt; flag suppresses the &lt;a href="https://en.wikipedia.org/wiki/Grep"&gt;grep&lt;/a&gt; output.&lt;/p&gt;
+&lt;p&gt;Git will run the given command for each commit. If the command returns an exit
+code of 0, Git will mark the commit as good. If the command returns an exit code
+of 125, Git will mark the commit as skipped. And if the command returns any
+other exit code between 1 and 127 (inclusive), Git will mark the commit as bad.
+So in this case, the grep command will return 0 if it finds the correct
+language. When bisect is done, you should see this output:&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;running grep -q lang="en" index.html&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Bisecting: 2 revisions left to test after this (roughly 2 steps)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;[e4203915d6639fdc7028d69a9cc773c2fc2b584b] Make the page responsive&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;running grep -q lang="en" index.html&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Bisecting: 0 revisions left to test after this (roughly 1 step)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;[2003e4a84618a340616df6d214d10d7fe421871c] Add a paragraph&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;running grep -q lang="en" index.html&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;e4203915d6639fdc7028d69a9cc773c2fc2b584b is the first bad commit&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;commit e4203915d6639fdc7028d69a9cc773c2fc2b584b&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Author: Danny Guo&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;Date:   Fri Apr 30 23:52:49 2021 -0400&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;        Make the page responsive&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt; index.html | 3 ++-&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt; 1 file changed, 2 insertions(+), 1 deletion(-)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;bisect run success&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;So you get the same result without having to check commits one by one. You can
+imagine how useful this can be if you need to run bisect on a range of dozens,
+hundreds, or even thousands of commits.&lt;/p&gt;
+&lt;h3 id="change-terms"&gt;Change Terms&lt;a class="anchor" href="#change-terms"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;If the “bad” and “good” subcommand names don’t make sense for your use case, you
+can change the terms that bisect uses. Not every session involves bugs. Maybe
+you just want to know when you last updated a section of documentation. For
+these situations, Git also allows you to use “old” and “new” instead of “bad”
+and “good,” respectively. If even these don’t work, you can set custom terms
+using &lt;code&gt;git bisect start --term-old &amp;lt;old-substitute&amp;gt; --term-new &amp;lt;new-substitute&amp;gt;&lt;/code&gt;
+and then mark commits with &lt;code&gt;git bisect &amp;lt;old-substitute&amp;gt;&lt;/code&gt; and &lt;code&gt;git bisect &amp;lt;new-substitute&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="caveats"&gt;Caveats&lt;a class="anchor" href="#caveats"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;While bisect can be a powerful tool, it’s important to be aware of situations
+where it doesn’t work so well. The first is when you have bugs that aren’t
+reliably reproducible, making it difficult for bisect to pinpoint the start of
+the problem. Bisect only works if your determination of good and bad commits is
+accurate. If your bug is due to a &lt;a href="https://en.wikipedia.org/wiki/Race_condition"&gt;race
+condition&lt;/a&gt;, for example, you might
+incorrectly mark a commit as good or bad, depending on whether or not the race
+condition worked out in your favor. Bisect might fail to tell you the offending
+commit, but at least the failure indicates that a race condition or something
+like that is a possibility.&lt;/p&gt;
+&lt;p&gt;Another problem could be that the bug depends on something that is external to
+the codebase, such as an issue with a third party vendor or particular data in
+your production database that doesn’t come up in your local environment. Like a
+race condition, these circumstances can also make it hard to confidently mark
+commits as good or bad.&lt;/p&gt;
+&lt;p&gt;Lastly, it’s possible that the bug started occurring far enough in the past that
+for older commits, you can’t easily run the project in the necessary way to
+determine if the problem exists. Development environments evolve over time, and
+complex ones can make it difficult for you to work with old versions, slowing
+down your bisect session.&lt;/p&gt;
+&lt;h2 id="conclusion"&gt;Conclusion&lt;a class="anchor" href="#conclusion"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I didn’t learn about bisect until a few years into my first programming job. I
+wish I had learned it earlier! I appreciate it because it can be so useful for
+bugs that are hard to debug. Many bugs are fairly simple to figure out by just
+examining an error message, a stack trace, the current code, etc. But the
+trickier bugs can take hours if not days of investigation. Git bisect can cut
+that time down with satisfying efficiency.&lt;/p&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-use-git-bisect-for-debugging</guid><pubDate>Thu, 27 May 2021 00:00:00 GMT</pubDate></item><item><title>How to Prevent a Website Page From Showing Up in Search Results</title><link>https://www.dannyguo.com/blog/how-to-prevent-a-website-page-from-showing-up-in-search-results</link><description>&lt;article&gt;
         &lt;h1&gt;How to Prevent a Website Page From Showing Up in Search Results&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
