@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 15 Aug 2025 06:23:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
+<rss version="2.0"><channel><title>Danny Guo</title><link>https://www.dannyguo.com/blog</link><description>Danny Guo</description><language>en</language><lastBuildDate>Fri, 15 Aug 2025 12:29:55 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Beat the Drum</title><link>https://www.dannyguo.com/blog/beat-the-drum</link><description>&lt;article&gt;
         &lt;h1&gt;Beat the Drum&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
@@ -4083,7 +4083,100 @@ categorical difference in developing for Safari now versus developing for IE in
 the past. I, for one, am thankful for that.&lt;/p&gt;
     &lt;/article&gt;
 
-    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/is-safari-the-next-internet-explorer</guid><pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate></item><item><title>How to Improve Interface Responsiveness With Web Workers</title><link>https://blog.logrocket.com/how-to-improve-interface-responsiveness-with-web-workers/</link><description>&lt;article&gt;
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/is-safari-the-next-internet-explorer</guid><pubDate>Fri, 08 Jan 2021 00:00:00 GMT</pubDate></item><item><title>How to Concatenate Strings in Lua</title><link>https://www.dannyguo.com/blog/how-to-concatenate-strings-in-lua</link><description>&lt;article&gt;
+        &lt;h1&gt;How to Concatenate Strings in Lua&lt;/h1&gt;
+
+        &lt;div class="subheader"&gt;
+            
+            
+            &lt;time datetime="2020-12-28"&gt;
+                December 28, 2020
+            &lt;/time&gt;
+             · 
+            434 words  ·  ~3 minutes to read
+            
+        &lt;/div&gt;
+
+        &lt;p&gt;The most straightforward way to concatenate (or combine) strings in
+&lt;a href="https://www.lua.org/about.html"&gt;Lua&lt;/a&gt; is to use the dedicated &lt;a href="https://www.lua.org/pil/3.4.html"&gt;string
+concatenation operator&lt;/a&gt;, which is two periods
+(&lt;code&gt;..&lt;/code&gt;).&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Hello, " &lt;/span&gt;&lt;span&gt;..&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"world!"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message equals "Hello, World!"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Numbers are coerced to strings. For fine-grained control over number formatting,
+use
+&lt;a href="https://www.lua.org/manual/5.4/manual.html#pdf-string.format"&gt;string.format&lt;/a&gt;,
+which behaves mostly like C’s
+&lt;a href="https://www.cplusplus.com/reference/cstdio/printf/"&gt;printf&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;count &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;42&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"The count is: " &lt;/span&gt;&lt;span&gt;..&lt;/span&gt;&lt;span&gt; count&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message equals "The count is: 42"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Trying to concatenate other &lt;a href="https://www.lua.org/pil/2.html"&gt;types&lt;/a&gt;, like nil or
+a table, will result in an error.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;count &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;nil&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"The count is: " &lt;/span&gt;&lt;span&gt;..&lt;/span&gt;&lt;span&gt; count&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- results in an "attempt to concatenate a nil value" error&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that Lua &lt;a href="https://stackoverflow.com/q/20091779/1481479"&gt;doesn’t have&lt;/a&gt;
+syntactic sugar for &lt;a href="https://en.wikipedia.org/wiki/Augmented_assignment"&gt;augmented
+assignment&lt;/a&gt;. The following
+is invalid syntax.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Hello, "&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;..=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"world!"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- results in a "syntax error near '..'" error&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Strings in Lua are &lt;a href="https://www.lua.org/pil/2.4.html"&gt;immutable&lt;/a&gt;, so the
+concatenation result (&lt;code&gt;message&lt;/code&gt; in this example) is a brand new string.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;start &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Hello, "&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; start &lt;/span&gt;&lt;span&gt;..&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"world!"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;start &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;"Bye, "&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message still equals "Hello, World!"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="tableconcat"&gt;table.concat&lt;a class="anchor" href="#tableconcat"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you need to perform many concatenation operations, using the concatenation
+operator can be slow because Lua has to keep reallocating memory to create new
+strings.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;""&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;span&gt;100000&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;do&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; message &lt;/span&gt;&lt;span&gt;..&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;end&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;As a result, it &lt;a href="https://www.reddit.com/r/lua/comments/1t6ois/tableconcat_is_fast/"&gt;can be much
+faster&lt;/a&gt; to
+use &lt;a href="https://www.lua.org/manual/5.4/manual.html#6.6"&gt;table.concat&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;numbers &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; {}&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;span&gt;100000&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;do&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  numbers[i] &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;end&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;table.concat&lt;/span&gt;&lt;span&gt;(numbers)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here’s a benchmark comparsion (using
+&lt;a href="https://github.com/sharkdp/hyperfine"&gt;hyperfine&lt;/a&gt;) from running the &lt;code&gt;..&lt;/code&gt; example
+as &lt;code&gt;slow.lua&lt;/code&gt; and running the &lt;code&gt;table.concat&lt;/code&gt; example as &lt;code&gt;fast.lua&lt;/code&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;hyperfine&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'lua slow.lua'&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# Benchmark #1: lua slow.lua&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;#   Time (mean ± σ):      1.287 s ±  0.115 s    [User: 1.120 s, System: 0.078 s]&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;#   Range (min … max):    1.187 s …  1.528 s    10 runs&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;hyperfine&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;'lua fast.lua'&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;# Benchmark #1: lua fast.lua&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;#   Time (mean ± σ):      39.3 ms ±   3.8 ms    [User: 34.6 ms, System: 2.8 ms]&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;#   Range (min … max):    35.3 ms …  58.3 ms    48 runs&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The difference probably doesn’t matter in most cases, but it’s a good
+optimization to be aware of.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;table.concat&lt;/code&gt; can also be easier to use because it can take a separator
+argument to add between elements.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;table.concat&lt;/span&gt;&lt;span&gt;({&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;})&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message equals "12345"&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;table.concat&lt;/span&gt;&lt;span&gt;({&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;}, &lt;/span&gt;&lt;span&gt;", "&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message equals "1, 2, 3, 4, 5"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It can also take start and end indexes. Keep in mind that Lua arrays &lt;a href="https://www.lua.org/pil/11.1.html"&gt;start with
+index 1&lt;/a&gt;.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;message &lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;table.concat&lt;/span&gt;&lt;span&gt;({&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;3&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;5&lt;/span&gt;&lt;span&gt;}, &lt;/span&gt;&lt;span&gt;", "&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;2&lt;/span&gt;&lt;span&gt;, &lt;/span&gt;&lt;span&gt;4&lt;/span&gt;&lt;span&gt;)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;-- message equals "2, 3, 4"&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id="direct-approach"&gt;Direct Approach&lt;a class="anchor" href="#direct-approach"&gt;&lt;svg class="icon icon-link"&gt;&lt;/svg&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Depending on your use case, you might be able to save some memory usage over
+&lt;code&gt;table.concat&lt;/code&gt; by generating the result directly.&lt;/p&gt;
+&lt;pre class="astro-code monokai" tabindex="0"&gt;&lt;code&gt;&lt;span class="line"&gt;&lt;span&gt;for&lt;/span&gt;&lt;span&gt; i&lt;/span&gt;&lt;span&gt;=&lt;/span&gt;&lt;span&gt;1&lt;/span&gt;&lt;span&gt;,&lt;/span&gt;&lt;span&gt;100000&lt;/span&gt;&lt;span&gt; &lt;/span&gt;&lt;span&gt;do&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;  &lt;/span&gt;&lt;span&gt;io.stdout&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span&gt;write&lt;/span&gt;&lt;span&gt;(i)&lt;/span&gt;&lt;/span&gt;
+&lt;span class="line"&gt;&lt;span&gt;end&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+    &lt;/article&gt;
+
+    </description><guid isPermaLink="true">https://www.dannyguo.com/blog/how-to-concatenate-strings-in-lua</guid><pubDate>Mon, 28 Dec 2020 00:00:00 GMT</pubDate></item><item><title>How to Improve Interface Responsiveness With Web Workers</title><link>https://blog.logrocket.com/how-to-improve-interface-responsiveness-with-web-workers/</link><description>&lt;article&gt;
         &lt;h1&gt;How to Improve Interface Responsiveness With Web Workers&lt;/h1&gt;
 
         &lt;div class="subheader"&gt;
