@@ -4,9 +4,56 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 17 Aug 2025 01:17:26 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 17 Aug 2025 06:22:00 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Hibisco by Santa Dica</title>
+      <link>https://untappd.com/user/gmgall/checkin/1506247026</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/hibisco-santa-dica/1070490"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-1070490_609fd_sm.jpeg" alt="Hibisco label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/hibisco-santa-dica/1070490"&gt;Hibisco&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/w/santa-dica/200686"&gt;Santa Dica&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1506247026"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
+            &lt;span&gt;Bottle &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-30"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_beers-of-the-world_sm.jpg" alt="Beer of the World (Level 5)"&gt;
+                  &lt;span&gt;Earned the Beer of the World (Level 5) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1506247026</guid>
+      <pubDate>Sun, 17 Aug 2025 03:52:18 GMT</pubDate>
+    </item>
     <item>
       <title>Golden by Baden Baden</title>
       <link>https://untappd.com/user/gmgall/checkin/1504257942</link>
@@ -198,43 +245,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1490076708</guid>
       <pubDate>Sun, 22 Jun 2025 15:42:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>Leffe Blonde / Blond by Abbaye de Leffe</title>
-      <link>https://untappd.com/user/gmgall/checkin/1488225054</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/leffe-blonde-blond-abbaye-de-leffe/5940"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-5940_9118b_sm.jpeg" alt="Leffe Blonde / Blond label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/leffe-blonde-blond-abbaye-de-leffe/5940"&gt;Leffe Blonde / Blond&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/w/abbaye-de-leffe/5"&gt;Abbaye de Leffe&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1488225054"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-            &lt;span&gt;Bottle &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1488225054</guid>
-      <pubDate>Sun, 15 Jun 2025 22:27:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
