@@ -36,9 +36,9 @@
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id=\"content-core\"] --date-from-csss span[class=\"documentPublished\"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml",
+    "title": "Notícias — Câmara Municipal de Petrópolis",
     "link": "https://www.petropolis.rj.leg.br/institucional/noticias",
-    "description": "Failed to generate feed.",
+    "description": "Banco de notícias",
     "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
   },
   {
@@ -84,9 +84,9 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
+    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
+    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
