@@ -1,0 +1,1448 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</title><link>https://vimuser.org/</link><description>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</description><language>en</language><lastBuildDate>Mon, 01 Sep 2025 23:18:56 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>1337box, an insanely optimized CSS-only, no-JS lightbox implementation</title><link>https://vimuser.org/1337box.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;&lt;a href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;1337box is a simple, insanely optimized Lightbox replacement in pure CSS.&lt;br&gt;
+&lt;a href="https://vimuser.org/demo.1337box_default.html"&gt;Demos are available&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;With 1337box, you can click an image on a page and a full sized zoomed in version of it appears, filling the width/height of your browser window.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="download"&gt;Download&lt;/h2&gt;&lt;a href="#download"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You can download it from a Git repository:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git clone https://codeberg.org/1337box/1337box&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Direct links to the latest file, each with varying levels of optimization:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_default.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_default.css&lt;/a&gt; (136 bytes)(&lt;a href="https://vimuser.org/demo.1337box_default.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_default_nocursor.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_default_nocursor.css&lt;/a&gt; (116 bytes)(&lt;a href="https://vimuser.org/demo.1337box_default_nocursor.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_shadow.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_shadow.css&lt;/a&gt; (235 bytes)(&lt;a href="https://vimuser.org/demo.1337box_shadow.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_shadow_cursed.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_shadow_cursed.css&lt;/a&gt; (188 bytes)(&lt;a href="https://vimuser.org/demo.1337box_shadow_cursed.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_shadow_supercursed.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_shadow_supercursed.css&lt;/a&gt; (173 bytes)(&lt;a href="https://vimuser.org/demo.1337box_shadow_supercursed.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_cursed.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_cursed.css&lt;/a&gt; (107 bytes)(&lt;a href="https://vimuser.org/demo.1337box_cursed.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_cursed_nocenter.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_cursed_nocenter.css&lt;/a&gt; (77 bytes)(&lt;a href="https://vimuser.org/demo.1337box_cursed_nocenter.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed.css&lt;/a&gt; (93 bytes)(&lt;a href="https://vimuser.org/demo.1337box_supercursed.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed_nocenter.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed_nocenter.css&lt;/a&gt; (63 bytes)(&lt;a href="https://vimuser.org/demo.1337box_supercursed_nocenter.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="h"&gt;&lt;h2 id="features"&gt;Features&lt;/h2&gt;&lt;a href="#features"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;It makes image galleries more user-friendly, on otherwise static HTML pages, and works fully, even if the user has JavaScript disabled in their browser!&lt;/p&gt;
+&lt;p&gt;Benefits over other Lightbox implementations include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Insane optimizations.&lt;/li&gt;
+&lt;li&gt;Minified by default, but still easy to read.&lt;/li&gt;
+&lt;li&gt;No shadows or fade-in effects in the default files, because that is &lt;em&gt;bloat&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;Special versions available &lt;em&gt;with&lt;/em&gt; the shadow effect, behind enlarged images. This makes it look more similar to traditional lightbox effects.&lt;/li&gt;
+&lt;li&gt;Works well on mobile browsers.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="h"&gt;&lt;h2 id="configuration"&gt;Configuration&lt;/h2&gt;&lt;a href="#configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;How to understand CSS rules: &lt;code&gt;.f&lt;/code&gt; is the full image, and &lt;code&gt;.t&lt;/code&gt; is the thumbnail.&lt;/p&gt;
+&lt;p&gt;For versions with the shadow effect, establish images like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;img tabindex=1 src="image_thumbnail.png" /&amp;gt;&amp;lt;span class="f"&amp;gt;&amp;lt;img src="image_full.png" /&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For versions &lt;em&gt;without&lt;/em&gt; the shadow effect, establish images like so:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;img tabindex=1 src="image_thumbnail.png" /&amp;gt;&amp;lt;img class="f" src="image_full.png" /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="h"&gt;&lt;h2 id="how-does-each-version-differ"&gt;How does each version differ?&lt;/h2&gt;&lt;a href="#how-does-each-version-differ"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;default&lt;/code&gt; version scales images to a max width and height filling the browser window. These versions are mobile-friendly (on all versions, it is recommended to view full images in widescreen mode, if youâre viewing it on a smartphone).&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;nocursor&lt;/code&gt; version removes the cursor icon that appears (on desktop browsers) when hovering over images.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;shadow&lt;/code&gt; version adds a shadow effect, darkening whatâs behind the image. Depending on your site, you may want to use this version (it looks very similar to normal lightbox).&lt;/p&gt;
+&lt;p&gt;Versions with &lt;code&gt;nocenter&lt;/code&gt; do not center the image.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;cursed&lt;/code&gt; versions set the full image statically to fill the &lt;em&gt;height&lt;/em&gt; of the browser window, and sets the max width to the width of the browser window. It is recommended that you donât use wide images with this one, and view in widescreen mode if using a mobile device. These versions are highly optimized, but less technically correct versus the original lightbox behaviour.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;supercursed&lt;/code&gt; versions are like the &lt;code&gt;cursed&lt;/code&gt; versions, but they do &lt;em&gt;not&lt;/em&gt; set a maximum width. Otherwise, the same rules apply.&lt;/p&gt;
+&lt;p&gt;The only versions that have the cursor icon appear over images (when hovering), on desktop browsers, are &lt;code&gt;1337box_default.css&lt;/code&gt; version and &lt;code&gt;1337box_shadow.css&lt;/code&gt;. If you like this behaviour, and want to add it on other versions, simply add this line in CSS:&lt;/p&gt;
+&lt;p&gt;img{cursor:pointer}&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="known-problems-and-workarounds"&gt;Known problems and workarounds&lt;/h2&gt;&lt;a href="#known-problems-and-workarounds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;If you have elements extending beyond the width of the browser screen, such that horizontal scrolling is enabled, &lt;code&gt;1337box&lt;/code&gt; will break horribly, because it will scale to &lt;em&gt;that&lt;/em&gt; extended size.&lt;/p&gt;
+&lt;p&gt;Please ensure that your pages donât horizontally scroll.&lt;/p&gt;
+&lt;p&gt;If using the &lt;code&gt;cursed&lt;/code&gt; versions, please ensure that the aspect ratio of your full sized images do not exceed the aspect ratio of the browser window.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="send-patches"&gt;Send patches&lt;/h2&gt;&lt;a href="#send-patches"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Send a pull request: &lt;a href="https://codeberg.org/1337box/1337box/pulls" class="uri"&gt;https://codeberg.org/1337box/1337box/pulls&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can also send the patch via email. My info is on the &lt;a href="https://vimuser.org/contact.html"&gt;contact page of vimuser.org&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="untitled-static-site-generator"&gt;Untitled Static Site Generator&lt;/h2&gt;&lt;a href="#untitled-static-site-generator"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You may also consider building websites using the &lt;a href="https://untitled.vimuser.org/"&gt;untitled static site generator&lt;/a&gt;. With this, you can write pages in Markdown but it uses Pandoc to generate HTML, and you can still insert HTML into pandoc-style Markdown files.&lt;/p&gt;
+&lt;p&gt;Untitled and 1337box are both written with a simple goal: to make the web sane.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="copying"&gt;Copying&lt;/h2&gt;&lt;a href="#copying"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code&gt;1337box&lt;/code&gt; is released under the terms of the Creative Commons Zero 1.0 license. You can view that license text here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" class="uri"&gt;https://creativecommons.org/publicdomain/zero/1.0/legalcode&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A copy of that file has been included, alongside 1337box inside the Git repository, in the &lt;code&gt;COPYING&lt;/code&gt; file.&lt;/p&gt;
+&lt;p&gt;That license ALSO applies to this page/document that you are reading now! This text is released under the terms of the Creative Commons Zero 1.0 license.&lt;/p&gt;
+&lt;p&gt;As such, you can freely use 1337box for any purpose you desire. It is completely free, in every sense of the word.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/1337box.html</guid><pubDate>Sun, 19 Dec 2021 00:00:00 GMT</pubDate></item><item><title>Boredom is good</title><link>https://vimuser.org/boredom.html</link><description>&lt;div&gt;&lt;p&gt;I am fundamentally sane. I have a deep understanding of my own thoughts, and an awareness of who I am. I have an understanding of others; indeed, I have an entirely intact &lt;em&gt;theory of mind&lt;/em&gt;. Iâm able to know what a person is thinking or feeling, based on what I observe. All of this is to say I am aware of my identity; I know that billions of other human beings live on this planet, who are not me. However, there is a catch.&lt;/p&gt;
+&lt;p&gt;I am always bored. Always have been. Even when Iâm happy, Iâm bored. When I literally invented the profession that Iâm in (namely, coreboot &lt;em&gt;distros&lt;/em&gt;) and created Libreboot, I was bored. When I was given an award from my local rotary club for artistic excellence at my local school hall when I was 16, and a work Iâd made was to be displayed in their gallery, I was bored, though the cheque for Â£300 that they gave me was great (I used it to buy a PlayStation 3 with Metal Gear Solid 4 and Grand Theft Auto 4).&lt;/p&gt;
+&lt;p&gt;I have emotions. Strong ones, at times. Readers who are familiar with certain mental health disorders will now have an idea where Iâm going with this; I should stress that I donât consider myself to be mentally ill.Â I also donât really agree with any of the words or labels that people use to describe someone like me, especially since I am probably quite rare even amongst this rarity of gems.&lt;/p&gt;
+&lt;p&gt;I occasionally feel fleeting hits of dopamine when I do something nice for myself, that feeling of self-accomplishment, but I otherwise take almost everything in stride, both the good and the bad. Iâm not depressed either.&lt;/p&gt;
+&lt;p&gt;Iâm not a robot. I can feel joy at times - and I can feel dread. For myself. Like when Iâm overworked, or feel that Iâm going nowhere. I feel relief after a day of productive labour. I appreciate humour; and I can even make people laugh, when I want to.&lt;/p&gt;
+&lt;p&gt;Ostensibly, I am a completely normal human being, but I generally feel neutral about everyone and everything around me, at all times.&lt;/p&gt;
+&lt;p&gt;There is one feeling that I can feel though, intensely: anger. However, I learned how to avoid that, as Iâve matured. Earlier in my life, I used to get angry a lot, and in retrospect now as a mature person, I know it was when I felt like I wasnât in control of my mind or my surroundings; I am a control freak at heart, but even this tendency is controlled, nowadays.&lt;/p&gt;
+&lt;p&gt;I used to get into trouble all the time, because I would do a lot of really insane shit to alleviate said boredom; that same shit would just as quickly vanish from my mind, and Iâd feel bored again.&lt;/p&gt;
+&lt;p&gt;I felt an overwhelming need to control others, even over seemingly petty issues, and I could be triggered violently. Although Iâve never been physically violent, Iâve engaged in what many consider to be highly coercive behaviour. I have at times been manipulative. Iâve sometimes cheated, and taken shortcuts to get what I want.&lt;/p&gt;
+&lt;p&gt;Iâm also extremely egocentric. I do things that are beneficial to me, and I generally think only of myself; if I happen to benefit other people in the process, then that is a coincidence. I also try not to hurt people, because I was taught not to - and I know that as a matter of survival, itâs better to make friends rather than enemies.&lt;/p&gt;
+&lt;p&gt;Iâve made enemies in the past. I donât naturally feel empathy for people, so Iâve been able to figuratively tread on people before - but Iâm also highly rational and use intellect to tell myself how pointless this is, for the most part. Even when someone actually wrongs you, itâs normally better just to walk away from things.&lt;/p&gt;
+&lt;p&gt;I still donât feel empathy. I never have. But this too, has been trained: using intellect, Iâm able to direct myself to physically and verbally act in a manner congruent to what is expected of a Good Person.&lt;/p&gt;
+&lt;p&gt;I am functionally a good person. Even if you really piss me off, or I feel like I could take liberties with your quality of life, and drive you mad, I wonât - because Iâve done so in the past, and it always comes back to bite me in the ass.&lt;/p&gt;
+&lt;p&gt;Iâve seen things that most people wouldnât believe, and Iâve gone to lengths in my life to achieve a level of personal freedom that most people never have. But what Iâve seen need not be physically manifest; I can go places, in my mind, that most people would never consider. I sometimes like to entertain what my life would be like in parallel universes (string theory strongly suggests the presence of multiple, indeed infinite, realities).&lt;/p&gt;
+&lt;p&gt;I work on projects that many people find interesting - but I find them boring. I do them because they keep me busy - one must always keep oneself busy. And they happen to mostly make me money. Though money itself does not interest me; as I wrote in the &lt;a href="class.html"&gt;class is bullshit&lt;/a&gt; article, I only value my:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;free time&lt;/li&gt;
+&lt;li&gt;abilityy to explore myself intellectually and creatively, without limit&lt;/li&gt;
+&lt;li&gt;my freedom, defined as the ability to do as i please, and the ability to say no to demands from others.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So money is a great way to achieve that - not getting killed or put in prison is also a requirement for this, so I generally stay out of trouble and try to be nice to everyone.&lt;/p&gt;
+&lt;p&gt;And I am nice to everyone. When we meet, I will smile at you and shake your hand, or perhaps fistbump - whatever is the cultural norm in the place we meet.&lt;/p&gt;
+&lt;p&gt;When I smile at you and when I talk to you, I will listen to everything you have to say. Iâll remember everything you tell me, and Iâll make you feel good about yourself. Iâve often been told that Iâm a good listener - and this is a learned behaviour. It wasnât always that way. Someone I had a falling out with a few years ago, saw my true personality, and they commented to me that I never ask people how they are, or show an interest in them. So I learned to do it, consciously.&lt;/p&gt;
+&lt;p&gt;Iâm good at making you feel good, but I feel nothing at all. Making you feel good is better than making you feel bad; and not talking to you means I donât get to know you. Knowing people and making them feel good is good, because then they feel good about you. Having friends is good. Even if I feel nothing one way or the other about them. My &lt;em&gt;closest&lt;/em&gt; friends tend to be those of high intellect, who are interesting in some way; Iâve befriended artists, various scientists (physics, computing, you name it), musicians, all kinds of people. My long-term relationships are not on an emotional level, because I donât actually care how you feel, and pretending to is tiresome - so I make the people I casually associate with feel good.&lt;/p&gt;
+&lt;p&gt;Ever since my late 20s, Iâve known to accept boredom. I made boredom my best friend. I am married to my boredom, until the day I die. Iâm bored when I seduce you, and I &lt;em&gt;will&lt;/em&gt; seduce you.&lt;/p&gt;
+&lt;p&gt;Iâm extremely impulsive and reckless, when I donât check myself. I can easily get distracted by any number of things, but I use intellectual discipline to force myself into a daily routine, so that I keep up with responsibilities and pay the bills.&lt;/p&gt;
+&lt;p&gt;But Iâm absolutely, mind numbingly bored. Even my boredom is boring. I sometimes say instead that I feel neutral - and that I feel neutral about being neutral. This very article is being written on a whim, and my emotional state is completely neutral as Iâm writing it.&lt;/p&gt;
+&lt;p&gt;Iâm also completely self-aware about the reason why I am this way. The reason Iâm writing this article is because Iâve recently read a book about someone who is very similar to me. Their autobiography, describing their life.&lt;/p&gt;
+&lt;p&gt;I had a lot of early behavioural problems as a child, and I was regarded as possibly existing on the autistic spectrum, and indeed I am diagnosed as an autistic, but I believe I was deceiving both myself and the therapist. One of the features of my psychological makeup is that Iâm able to lie, very easily.&lt;/p&gt;
+&lt;p&gt;Anyway.&lt;/p&gt;
+&lt;p&gt;Where am I going with this?&lt;/p&gt;
+&lt;p&gt;I had a pretty normal childhood. Loving parents. Went to good schools. I wasnât abused physically or mentally as a child. I grew up in an ostensibly middle class family, in a middle class town. I never experienced poverty, growing up. I never mixed with bad people. I was taught many good practises of how to be a Good Person. I had excellent parents, teachers and guardians in general, and no shortage of excellent role models.&lt;/p&gt;
+&lt;p&gt;And yet I consistently score at least 30-35 out of 45 on the PCL-R checklist. Despite never having engaged in criminal behaviour, indeed having never gotten into trouble with the law. Iâve never been sexually promiscuous; and I generally lead a good life.&lt;/p&gt;
+&lt;p&gt;As a child, I was alright. As a teenager, I became angry a lot - I was abusive to everyone, even at the slightest wrongdoing toward me, real or imagined. I was never challenged, until I reached my 20s. The short version of the story is this:&lt;/p&gt;
+&lt;p&gt;In my 20s, I had a high income (and I still live well today), was able to move away from parents, and live my life the way I saw fit. But I fundamentally didnât know how to live a life, and I had lots of untreated problems; my gender dysphoria was one of them, and coming out as trans and transitioning was very painful for me in the early days.&lt;/p&gt;
+&lt;p&gt;Long story short, I got completely insane in my 20s (Iâm in my 30s now as I write this), to the point where I was just completely impossible to be around, completely alienating everyone around me. My psychologically abusive and controlling behaviour was unchecked. I lost everyone around me, and realised I was going to probably lose my life or freedom at some point. I was also abusing drugs and alcohol for a while.&lt;/p&gt;
+&lt;p&gt;The overarching theme is this: I always sought stimulation, because I was always bored, and I felt the need to control everyone and everything around me. But I would never stop being bored. Nothing worked, and I just got more angry and more insane.&lt;/p&gt;
+&lt;p&gt;So one day, when I was about 25, I came to the conclusion: if my boredom is constant, and I will always basically feel completely numb at all times, why not just accept it?&lt;/p&gt;
+&lt;p&gt;So I basically developed the following set of assumptions, and modified my behaviour accordingly:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Other people wonât do what I tell them; they have a choice. Any control I think I have over other people is illusory in nature, and trying to seek it requires constant maintenance and stress on my part, if itâs even achieved in some sense.&lt;/li&gt;
+&lt;li&gt;Being angry is completely pointless. If I feel the same in the end either way, I may as well just try to be happy instead, and treat others with respect.&lt;/li&gt;
+&lt;li&gt;Helping people is good, because then they might help me too. Instead of attacking people.&lt;/li&gt;
+&lt;li&gt;When I disagreed with someone, indeed get annoyed with someone, I donât need to prove myself to them, or try to assert myself; I can still be who I am, and I donât need to even acknowledge their thoughts at all - the exception is when Iâm in a group for example, and consensus needs to be reached.&lt;/li&gt;
+&lt;li&gt;Hurting people is pointless, and only hurts myself; people always seek revenge, something which I know from personal experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Basically jedi/vulkan philosophy, like in starwars/startrek respectively. Though those fictional characters are just boring and stupid, and Iâd loathe them too, if they existed in real life.&lt;/p&gt;
+&lt;p&gt;Fundamentally, I just want to do my things and not be disturbed.&lt;/p&gt;
+&lt;p&gt;I donât care about you. But I may still care for you.&lt;/p&gt;
+&lt;p&gt;Iâve done things in the past that are deeply immoral and possibly even illegal; and at the time, I didnât even register this. Often times, Iâve only caught myself years later in retrospect, when I analyse my past. When you have nobody telling you what youâre doing is wrong, then you just do it, unless you have neurotypical empathy and morality.&lt;/p&gt;
+&lt;p&gt;TL;DR I designed for myself a human being emulator. I emulate a normal human being, at all times.&lt;/p&gt;
+&lt;p&gt;It initially felt forced/fake when I started doing this. But now itâs just routine.&lt;/p&gt;
+&lt;p&gt;My boredom is constant, so rather than being insane and âevilâ as a result of trying to constantly cure said boredom, I just be bored. There is a void inside me. And I like my void. When you teach yourself to be calm, you learn to appreciate silence.&lt;/p&gt;
+&lt;p&gt;When I silence my mind, I hear nothing. I see nothing. I am what I do.&lt;/p&gt;
+&lt;p&gt;Boredom rules.&lt;/p&gt;
+&lt;p&gt;And I donât really want to expand this into a full series. I could probably write a book, but I canât be assed. I wrote this article on a whim, inspired by a book I recently read by an author named Jessica Kelly. She penned a book about her own life, that is fundamentally very similar to my own. That book, called âTale of Two Masksâ, describes her life growing up. Her actual lived experiences are different than mine, but our psychology is almost exactly the same. I used to read her blog, psychogendered.com, when it was online. You can still find it on the wayback machine if youâre interested.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/boredom.html</guid><pubDate>Sun, 31 Aug 2025 00:00:00 GMT</pubDate></item><item><title>New webcomic, âLibreboob Adventuresâ</title><link>https://vimuser.org/libreboob.html</link><description>&lt;div&gt;&lt;p&gt;I recently launched my own new webcomic series, titled &lt;em&gt;Libreboob Adventures&lt;/em&gt;. Itâs about Free and Open Source Software things, for the most part.&lt;/p&gt;
+&lt;p&gt;Itâs partly inspired by XKCD, which I love, as well as several others.&lt;/p&gt;
+&lt;p&gt;Check it out!&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://libreboob.org/" class="uri"&gt;https://libreboob.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;That domain name was originally a joke, redirecting to Libreboot.org; and the joke existed long before then. Ever since I came out as trans basically, one of my friends started calling Libreboot &lt;em&gt;Libreboob&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Libreboob is created in honour of said individual.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah the British Motherfucker</author><guid isPermaLink="true">https://vimuser.org/libreboob.html</guid><pubDate>Sat, 19 Jul 2025 00:00:00 GMT</pubDate></item><item><title>Being British kicks ass!</title><link>https://vimuser.org/british.html</link><description>&lt;div&gt;&lt;p&gt;Donât get me wrong, I fucking love foreignersâ¦ but theyâve never tried black pudding.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://av.vimuser.org/pudding/Stornoway_Black_Pudding.jpg" title="Black pudding" alt=""&gt;&lt;figcaption&gt;Black pudding&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Enjoy a picture of a stupid pigâs coagulated blood.&lt;/p&gt;
+&lt;p&gt;I was chilling in IRC contemplating whether to cook a fried meal, with a side of toast.&lt;/p&gt;
+&lt;p&gt;âBlack pudding sounds disgustingâ some Americans told me, time and again, when I show it to them.&lt;/p&gt;
+&lt;p&gt;They donât know what the fuck theyâre talking about.&lt;/p&gt;
+&lt;p&gt;Letâs consider this fact:&lt;/p&gt;
+&lt;p&gt;They eat sandwiches with peanut butter and jelly inside them. What a completely asinine idea. Gimme a black pudding sandwich and Iâm happy.&lt;/p&gt;
+&lt;p&gt;I used to be a vegan once, until I visited Thailand for a month and concluded that Iâd rather not starve all month. When I came home, I ate black pudding.&lt;/p&gt;
+&lt;p&gt;When I WAS a vegan, I once accidentally invented a black pudding substitute that I call &lt;em&gt;black bean pudding&lt;/em&gt;, but nothing beats the real thing!&lt;/p&gt;
+&lt;p&gt;It is completely insane that almost nobody except British people and people in a small handful of other European countries besides the UK, have ever eaten blood sausage of any kind, let alone black pudding!&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://av.vimuser.org/pudding/-2021-07-24_Sliced_Black_pudding_sausage%2C_Trimingham%2C_Norfolk.JPG" title="Sliced black pudding" alt=""&gt;&lt;figcaption&gt;Black pudding&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Also available battered in your local fish and chip shop&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://av.vimuser.org/pudding/Wiki_black_battered.jpg" title="Battered black pudding" alt=""&gt;&lt;figcaption&gt;Battered black pudding&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;Look at how fucking British that is.&lt;/p&gt;
+&lt;p&gt;Foreigners, and also vegans, know how much being British kicks ass. Do you have any idea how popular Doctor Who and the BBC are?&lt;/p&gt;
+&lt;p&gt;Every year, millions of pigs are killed for their delicious meat (bacon is the best part of a pig), &lt;strong&gt;and yet their blood goes to waste&lt;/strong&gt;. This is criminal. Everyone in the world should eat black pudding!&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src="https://av.vimuser.org/pudding/Johns%2C_Fitzrovia%2C_London_%286959378220%29.jpg" title="English breakfast" alt=""&gt;&lt;figcaption&gt;English breakfast&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;&lt;em&gt;Look how fucking delicious that is!&lt;/em&gt; What is most of the worldâs problem?&lt;/p&gt;
+&lt;p&gt;Fry it, grill it, enjoy!&lt;/p&gt;
+&lt;p&gt;One last point: black pudding is also very good for people with iron deficiency.&lt;/p&gt;
+&lt;p&gt;So respect the pigs you slaughter by eating every part of them, &lt;em&gt;including their blood&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Black pudding kicks ass.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This article is a parody of (and a nod of respect to) Jane Arkanianâs &lt;a href="https://janethemotherfucker.github.io/posts/eating-meat-kicks-ass/"&gt;Eating meat kicks ass&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Images in this article were copied from &lt;a href="https://en.wikipedia.org/w/index.php?title=Black_pudding&amp;amp;oldid=1270112233" class="uri"&gt;https://en.wikipedia.org/w/index.php?title=Black_pudding&amp;amp;oldid=1270112233&lt;/a&gt; - please refer to the licensing and copyrights there.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah the British motherfucker</author><guid isPermaLink="true">https://vimuser.org/british.html</guid><pubDate>Thu, 23 Jan 2025 00:00:00 GMT</pubDate></item><item><title>DuckStation GPL Violation</title><link>https://vimuser.org/duckstation.html</link><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;UPDATE on 15 September. Iâve had a talk with Stenzek. This is an evolving situation with a lot more nuance to it than first glance. The decision to make DuckStation proprietary is still terrible, and I intend to rectify this; Iâve proposedh a number of ideas to Stenzek for how to effectively retain DuckStation as a free software project. If this is unsuccessful, Iâll fully fork it myself (from prior to the re-licensing) and probably find people in the PSX scene willing to help maintain it (in that scenario, my role will only be to facilitate and provide infrastructure, while not having an active role in core development, as I already have my Libreboot project which takes all of my time). I simply wish to prevent what is currently the best emulator of its kind becoming proprietary software.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Iâve been informed recently that a popular Sony PlayStation emulator, recently became proprietary software, where it was previously Free/OpenSource Software released under the GNU General Public License (version 3).&lt;/p&gt;
+&lt;p&gt;That fact alone is troubling in and of itself; the right to study, share, modify and otherwise use software freely without restriction, is an importart &lt;a href="https://writefreesoftware.org/"&gt;right that everyone must have&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;However, DuckStation appears to contain a large number of outside contributions, and it would appear that they have not been consulted about the licensing change. Therefore, DuckStation could potentially be violating the terms of the GPL.&lt;/p&gt;
+&lt;p&gt;DuckStation is currently released under the terms of the Creative Commons ShareAlike Non-Commercial No-derivative license version 4.0, or CC BY-NC-ND 4.0 for short - this is a proprietary license, because it prohibits commercial usage of the software and it prohibits any person or entity from distributing modified versions - Stanzek has also decreed that nobody shall provide builds but him, from now on.&lt;/p&gt;
+&lt;p&gt;NOTE: Stanzek is the nickname of the principle author of DuckStation, full name Connor McLaughlin. You can find out about DuckStation on the &lt;a href="https://github.com/stenzek/duckstation"&gt;GitHub site&lt;/a&gt; and on the &lt;a href="https://duckstation.org/"&gt;official site&lt;/a&gt; - but NOTE:&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="ive-archived-duckstation"&gt;Iâve archived DuckStation&lt;/h2&gt;&lt;a href="#ive-archived-duckstation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I have decided to provide an archived version of DuckStation, from before the licensing change, here: &lt;a href="https://codeberg.org/vimuser/duckstation" class="uri"&gt;https://codeberg.org/vimuser/duckstation&lt;/a&gt; - this version is released under GNU GPLv3, the one before the re-licensing, so this version is free software.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="email"&gt;Email&lt;/h1&gt;&lt;a href="#email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I have decided to contact Stanzek, in addition to all contributors and the SFC, about this recent re-licensing, which I believe constitutes a violation of the GPL.&lt;/p&gt;
+&lt;p&gt;The following email was CCâd to Stanzek, plus all contributors to DuckStation (as shown in git shortlog) and the Software Freedom Conservancy:&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="human-readable-email"&gt;Human-readable email&lt;/h2&gt;&lt;a href="#human-readable-email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;This is largely targeted at those who have contributed to the DuckStation project, a popular Sony PlayStation emulator released under the terms of GNU General Public License version 3.&lt;/p&gt;
+&lt;p&gt;Connor McLaughlin, also known as Stenzek, recently re-licensed DuckStation to the PolyForm Strict 1.0.0 license, in this commit:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stenzek/duckstation/commit/9ca6b5430fb358b39f21ce0b2fc0268de954dd23" class="uri"&gt;https://github.com/stenzek/duckstation/commit/9ca6b5430fb358b39f21ce0b2fc0268de954dd23&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This was about two weeks ago. Connor then re-licensed yet again to Creative Commons CC-BY-NC-ND, in this revision yesterday:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://github.com/stenzek/duckstation/commit/76906756d0b5f93ac2559c29676cbea11496a21a" class="uri"&gt;https://github.com/stenzek/duckstation/commit/76906756d0b5f93ac2559c29676cbea11496a21a&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I have found no evidence that he sought permission for such re-licensing, so Iâm contacting every person who has contributed to the project to let you all know. There may be other works that Stanzek has imported in his own commits, that were done by other people, e.g.Â shaders, but I havenât audited that. I have simply scraped the email addresses shown on commits in the Git repository, for all contributors; Stanzek himself is also included in this email chain.&lt;/p&gt;
+&lt;p&gt;Indeed, 95% of the commits are from Stanzek, but he still needs permission from all of you for re-licensing, since he has also re-licensed the works done by all of you (the 5%). If he does not have permission from you, then he must remove all of your works from the project, and also remove any of &lt;em&gt;his&lt;/em&gt; work that is derived from all of your works.&lt;/p&gt;
+&lt;p&gt;It is also my duty to report to you all that the Android port of DuckStation is closed source, and may also contain some of your works.&lt;/p&gt;
+&lt;p&gt;Now, the re-licensing itself is not the only issue:&lt;/p&gt;
+&lt;p&gt;The PolyForm license, and the CC BY-NC-ND licenses, prohibit modifications to any version that is distributed, and it prevents commercial usage of the code. If you look at the README file that Stanzek now provides, he is also placing restrictions (by his own decree outside of the licensing terms) against the provision of &lt;em&gt;builds&lt;/em&gt; other than his own.&lt;/p&gt;
+&lt;p&gt;In other words: although DuckStation source code remains publicly available, Stanzek has turned the code into proprietary software. Any software that is not entirely free/opensource is by definition proprietary software. Please read the following resources:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.gnu.org/philosophy/free-sw.en.html" class="uri"&gt;https://www.gnu.org/philosophy/free-sw.en.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://writefreesoftware.org/learn" class="uri"&gt;https://writefreesoftware.org/learn&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The ability to use, study, share and modify code freely is an important right that everyone must have. This includes for commercial purposes. It is the reason why much of our technology exists today in the way that it does; take Linux for example, which runs all of the worldâs most critical infrastructure and is indeed the underpinning of the Android operating system, and countless other mobile operating systems such as PostMarketOS.&lt;/p&gt;
+&lt;p&gt;Much of the modern internet that we all depend upon now exists because of the free software movement. This includes many of the free and open standards that we use on the web today.&lt;/p&gt;
+&lt;p&gt;Now, a given software author has the legal authority to put whatever licensing they wish on their code, but I do say &lt;em&gt;their&lt;/em&gt; code, and that is why this re-licensing is problematic in the first place.&lt;/p&gt;
+&lt;p&gt;In summary: DuckStation is violating the terms of the GNU General Public License, by infringing upon the copyright of all parts contributed to DuckStation by the people CCâd on this email.&lt;/p&gt;
+&lt;p&gt;I would ask that you all consider this fact; the irony is that Stanzek himself has publicly expressed dissatisfaction with the number of commercialised forks of DuckStation, yet he is providing his own commercial version and stealing all of your contributions to do it, re-licensing it without your permission.&lt;/p&gt;
+&lt;p&gt;Iâve CCâd the Software Freedom Conservancy (SFC) on this email, who are knows for assisting in dealing with GPL violations; for example, took at their well-knows Vizio lawsuit:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sfconservancy.org/copyleft-compliance/vizio.html" class="uri"&gt;https://sfconservancy.org/copyleft-compliance/vizio.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You can find more information about them here:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://sfconservancy.org/" class="uri"&gt;https://sfconservancy.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The SFC are dedicated to championing computer user freedom, most notably in the enforcement against GPL violations. The people who run the SFC are all lawyers, and often provide pro-bono legal services (it started as an offshoot from another, older organisation called the Software Freedom Law Center). I would also point out that a fork of DuckStation does indeed exist:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.libretro.com/index.php/category/swanstation/" class="uri"&gt;https://www.libretro.com/index.php/category/swanstation/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I posted about all of this on my Mastodon. Please see the following post:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://mas.to/@libreleah/113131594753424867" class="uri"&gt;https://mas.to/@libreleah/113131594753424867&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Unless the DuckStation author changes the project back to GPL, I would suggest that you all boycott the project, and tell others to do the same; you could send all future contributions to SwanStation instead, which is part of libretro. I would suggest that all future works go to a fork (could be SwanStation), instead of DuckStation, while still permitting Stanzek to contribute; this way, any future abusive re-licensing could not realistically occur. The reason I say this, is because based on my own research, it seems that Stanzekâs bios against the GPL has existed for some time, so Iâm uncertain as to whether he could be trusted in charge of a public project.&lt;/p&gt;
+&lt;p&gt;Anyway, thatâs all I wanted to say. Iâm not involved with the development of DuckStation myself (I donât even use it, though I do enjoy the PlayStation and have a modded PS1 with Xstation, itâs neato).&lt;/p&gt;
+&lt;p&gt;Hardware preservation is important, and itâs therefore important that these emulators remain free and open source, so that people in the future can always develop them and based new works off of them.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="email-src"&gt;Email src&lt;/h2&gt;&lt;a href="#email-src"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Recipients of the above email text are shown below, which shows the email as it was formatted (base64-encoded), when I sent it out.&lt;/p&gt;
+&lt;p&gt;The version above was provided for ease iof reading, but here is the email as sent out from my client, base64-encoded (thatâs why I posted the human-readable version above, but itâs the same text):&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Message-ID: &amp;lt;0f06bb4c-79b3-4658-8409-7165a256f57a@minifree.org&amp;gt;
+Date: Sat, 14 Sep 2024 13:03:04 +0100
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+Cc: Email addresses redacted from this web page.
+From: Leah Rowe &amp;lt;info@minifree.org&amp;gt;
+Subject: GPL violation on DuckStation
+Autocrypt: addr=info@minifree.org; keydata=
+ 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
+To: info@sfconservancy.org
+Content-Type: multipart/signed; micalg=pgp-sha256;
+ protocol="application/pgp-signature";
+ boundary="------------6Q1qviZqKVkpz644tKfprH0E"
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--------------6Q1qviZqKVkpz644tKfprH0E
+Content-Type: multipart/mixed; boundary="------------30OTLipcrolSqLl0BpCJMKiW";
+ protected-headers="v1"
+From: Leah Rowe &amp;lt;info@minifree.org&amp;gt;
+To: info@sfconservancy.org
+Cc: Email addresses redacted from this web page
+Message-ID: &amp;lt;0f06bb4c-79b3-4658-8409-7165a256f57a@minifree.org&amp;gt;
+Subject: GPL violation on DuckStation
+
+--------------30OTLipcrolSqLl0BpCJMKiW
+Content-Type: multipart/mixed; boundary="------------hpYhMnPpZcss5MAku0wV33Xb"
+
+--------------hpYhMnPpZcss5MAku0wV33Xb
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: base64
+
+SGkgZXZlcnlvbmUsDQoNClRoaXMgaXMgbGFyZ2VseSB0YXJnZXRlZCBhdCB0aG9zZSB3aG8g
+aGF2ZSBjb250cmlidXRlZCB0byB0aGUgDQpEdWNrU3RhdGlvbiBwcm9qZWN0LCBhIHBvcHVs
+YXIgU29ueSBQbGF5U3RhdGlvbiBlbXVsYXRvciByZWxlYXNlZCB1bmRlciANCnRoZSB0ZXJt
+cyBvZiBHTlUgR2VuZXJhbCBQdWJsaWMgTGljZW5zZSB2ZXJzaW9uIDMuDQoNCkNvbm5vciBN
+Y0xhdWdobGluLCBhbHNvIGtub3duIGFzIFN0ZW56ZWssIHJlY2VudGx5IHJlLWxpY2Vuc2Vk
+IA0KRHVja1N0YXRpb24gdG8gdGhlIFBvbHlGb3JtIFN0cmljdCAxLjAuMCBsaWNlbnNlLCBp
+biB0aGlzIGNvbW1pdDoNCg0KaHR0cHM6Ly9naXRodWIuY29tL3N0ZW56ZWsvZHVja3N0YXRp
+b24vY29tbWl0LzljYTZiNTQzMGZiMzU4YjM5ZjIxY2UwYjJmYzAyNjhkZTk1NGRkMjMNCg0K
+VGhpcyB3YXMgYWJvdXQgdHdvIHdlZWtzIGFnby4gQ29ubm9yIHRoZW4gcmUtbGljZW5zZWQg
+eWV0IGFnYWluIHRvIA0KQ3JlYXRpdmUgQ29tbW9ucyBDQy1CWS1OQy1ORCwgaW4gdGhpcyBy
+ZXZpc2lvbiB5ZXN0ZXJkYXk6DQoNCmh0dHBzOi8vZ2l0aHViLmNvbS9zdGVuemVrL2R1Y2tz
+dGF0aW9uL2NvbW1pdC83NjkwNjc1NmQwYjVmOTNhYzI1NTljMjk2NzZjYmVhMTE0OTZhMjFh
+DQoNCkkgaGF2ZSBmb3VuZCBubyBldmlkZW5jZSB0aGF0IGhlIHNvdWdodCBwZXJtaXNzaW9u
+IGZvciBzdWNoIA0KcmUtbGljZW5zaW5nLCBzbyBJJ20gY29udGFjdGluZyBldmVyeSBwZXJz
+b24gd2hvIGhhcyBjb250cmlidXRlZCB0byB0aGUgDQpwcm9qZWN0IHRvIGxldCB5b3UgYWxs
+IGtub3cuIFRoZXJlIG1heSBiZSBvdGhlciB3b3JrcyB0aGF0IFN0YW56ZWsgaGFzIA0KaW1w
+b3J0ZWQgaW4gaGlzIG93biBjb21taXRzLCB0aGF0IHdlcmUgZG9uZSBiecKgIG90aGVyIHBl
+b3BsZSwgZS5nLiANCnNoYWRlcnMsIGJ1dCBJIGhhdmVuJ3QgYXVkaXRlZCB0aGF0LiBJIGhh
+dmUgc2ltcGx5IHNjcmFwZWQgdGhlIGVtYWlsIA0KYWRkcmVzc2VzIHNob3duIG9uIGNvbW1p
+dHMgaW4gdGhlIEdpdCByZXBvc2l0b3J5LCBmb3IgYWxsIGNvbnRyaWJ1dG9yczsgDQpTdGFu
+emVrIGhpbXNlbGYgaXMgYWxzbyBpbmNsdWRlZCBpbiB0aGlzIGVtYWlsIGNoYWluLg0KDQpJ
+bmRlZWQsIDk1JSBvZiB0aGUgY29tbWl0cyBhcmUgZnJvbSBTdGFuemVrLCBidXQgaGUgc3Rp
+bGwgbmVlZHMgDQpwZXJtaXNzaW9uIGZyb20gYWxsIG9mIHlvdSBmb3IgcmUtbGljZW5zaW5n
+LCBzaW5jZSBoZSBoYXMgYWxzbyANCnJlLWxpY2Vuc2VkIHRoZSB3b3JrcyBkb25lIGJ5IGFs
+bCBvZiB5b3UgKHRoZSA1JSkuIElmIGhlIGRvZXMgbm90IGhhdmUgDQpwZXJtaXNzaW9uIGZy
+b20geW91LCB0aGVuIGhlIG11c3QgcmVtb3ZlIGFsbCBvZiB5b3VyIHdvcmtzIGZyb20gdGhl
+IA0KcHJvamVjdCwgYW5kIGFsc28gcmVtb3ZlIGFueSBvZiAqaGlzKiB3b3JrIHRoYXQgaXMg
+ZGVyaXZlZCBmcm9tIGFsbCBvZiANCnlvdXIgd29ya3MuDQoNCkl0IGlzIGFsc28gbXkgZHV0
+eSB0byByZXBvcnQgdG8geW91IGFsbCB0aGF0IHRoZSBBbmRyb2lkIHBvcnQgb2YgDQpEdWNr
+U3RhdGlvbiBpcyBjbG9zZWQgc291cmNlLCBhbmQgbWF5IGFsc28gY29udGFpbiBzb21lIG9m
+IHlvdXIgd29ya3MuDQoNCk5vdywgdGhlIHJlLWxpY2Vuc2luZyBpdHNlbGYgaXMgbm90IHRo
+ZSBvbmx5IGlzc3VlOg0KDQpUaGUgUG9seUZvcm0gbGljZW5zZSwgYW5kIHRoZSBDQyBCWS1O
+Qy1ORCBsaWNlbnNlcywgcHJvaGliaXQgDQptb2RpZmljYXRpb25zIHRvIGFueSB2ZXJzaW9u
+IHRoYXQgaXMgZGlzdHJpYnV0ZWQsIGFuZCBpdCBwcmV2ZW50cyANCmNvbW1lcmNpYWwgdXNh
+Z2Ugb2YgdGhlIGNvZGUuIElmIHlvdSBsb29rIGF0IHRoZSBSRUFETUUgZmlsZSB0aGF0IA0K
+U3RhbnplayBub3cgcHJvdmlkZXMsIGhlIGlzIGFsc28gcGxhY2luZyByZXN0cmljdGlvbnMg
+KGJ5IGhpcyBvd24gZGVjcmVlIA0Kb3V0c2lkZSBvZiB0aGUgbGljZW5zaW5nIHRlcm1zKSBh
+Z2FpbnN0IHRoZSBwcm92aXNpb24gb2YgKmJ1aWxkcyogb3RoZXIgDQp0aGFuIGhpcyBvd24u
+DQoNCkluIG90aGVyIHdvcmRzOiBhbHRob3VnaCBEdWNrU3RhdGlvbiBzb3VyY2UgY29kZSBy
+ZW1haW5zIHB1YmxpY2x5IA0KYXZhaWxhYmxlLCBTdGFuemVrIGhhcyB0dXJuZWQgdGhlIGNv
+ZGUgaW50byBwcm9wcmlldGFyeSBzb2Z0d2FyZS4gQW55IA0Kc29mdHdhcmUgdGhhdCBpcyBu
+b3QgZW50aXJlbHkgZnJlZS9vcGVuc291cmNlIGlzIGJ5IGRlZmluaXRpb24gDQpwcm9wcmll
+dGFyeSBzb2Z0d2FyZS4gUGxlYXNlIHJlYWQgdGhlIGZvbGxvd2luZyByZXNvdXJjZXM6DQoN
+Cmh0dHBzOi8vd3d3LmdudS5vcmcvcGhpbG9zb3BoeS9mcmVlLXN3LmVuLmh0bWwNCg0KaHR0
+cHM6Ly93cml0ZWZyZWVzb2Z0d2FyZS5vcmcvbGVhcm4NCg0KVGhlIGFiaWxpdHkgdG8gdXNl
+LCBzdHVkeSwgc2hhcmUgYW5kIG1vZGlmeSBjb2RlIGZyZWVseSBpcyBhbiBpbXBvcnRhbnQg
+DQpyaWdodCB0aGF0IGV2ZXJ5b25lIG11c3QgaGF2ZS4gVGhpcyBpbmNsdWRlcyBmb3IgY29t
+bWVyY2lhbCBwdXJwb3Nlcy4gSXQgDQppcyB0aGUgcmVhc29uIHdoeSBtdWNoIG9mIG91ciB0
+ZWNobm9sb2d5IGV4aXN0cyB0b2RheSBpbiB0aGUgd2F5IHRoYXQgaXQgDQpkb2VzOyB0YWtl
+IExpbnV4IGZvciBleGFtcGxlLCB3aGljaCBydW5zIGFsbCBvZiB0aGUgd29ybGQncyBtb3N0
+IA0KY3JpdGljYWwgaW5mcmFzdHJ1Y3R1cmUgYW5kIGlzIGluZGVlZCB0aGUgdW5kZXJwaW5u
+aW5nIG9mIHRoZSBBbmRyb2lkIA0Kb3BlcmF0aW5nIHN5c3RlbSwgYW5kIGNvdW50bGVzcyBv
+dGhlciBtb2JpbGUgb3BlcmF0aW5nIHN5c3RlbXMgc3VjaCBhcyANClBvc3RNYXJrZXRPUy4N
+Cg0KTXVjaCBvZiB0aGUgbW9kZXJuIGludGVybmV0IHRoYXQgd2UgYWxsIGRlcGVuZCB1cG9u
+IG5vdyBleGlzdHMgYmVjYXVzZSANCm9mIHRoZSBmcmVlIHNvZnR3YXJlIG1vdmVtZW50LiBU
+aGlzIGluY2x1ZGVzIG1hbnkgb2YgdGhlIGZyZWUgYW5kIG9wZW4gDQpzdGFuZGFyZHMgdGhh
+dCB3ZSB1c2Ugb24gdGhlIHdlYiB0b2RheS4NCg0KTm93LCBhIGdpdmVuIHNvZnR3YXJlIGF1
+dGhvciBoYXMgdGhlIGxlZ2FsIGF1dGhvcml0eSB0byBwdXQgd2hhdGV2ZXIgDQpsaWNlbnNp
+bmcgdGhleSB3aXNoIG9uIHRoZWlyIGNvZGUsIGJ1dCBJIGRvIHNheSAqdGhlaXIqIGNvZGUs
+IGFuZCB0aGF0IA0KaXMgd2h5IHRoaXMgcmUtbGljZW5zaW5nIGlzIHByb2JsZW1hdGljIGlu
+IHRoZSBmaXJzdCBwbGFjZS4NCg0KSW4gc3VtbWFyeTogRHVja1N0YXRpb24gaXMgdmlvbGF0
+aW5nIHRoZSB0ZXJtcyBvZiB0aGUgR05VIEdlbmVyYWwgUHVibGljIA0KTGljZW5zZSwgYnkg
+aW5mcmluZ2luZyB1cG9uIHRoZSBjb3B5cmlnaHQgb2YgYWxsIHBhcnRzIGNvbnRyaWJ1dGVk
+IHRvIA0KRHVja1N0YXRpb24gYnkgdGhlIHBlb3BsZSBDQydkIG9uIHRoaXMgZW1haWwuDQoN
+Ckkgd291bGQgYXNrIHRoYXQgeW91IGFsbCBjb25zaWRlciB0aGlzIGZhY3Q7IHRoZSBpcm9u
+eSBpcyB0aGF0IFN0YW56ZWsgDQpoaW1zZWxmIGhhcyBwdWJsaWNseSBleHByZXNzZWQgZGlz
+c2F0aXNmYWN0aW9uIHdpdGggdGhlIG51bWJlciBvZiANCmNvbW1lcmNpYWxpc2VkIGZvcmtz
+IG9mIER1Y2tTdGF0aW9uLCB5ZXQgaGUgaXMgcHJvdmlkaW5nIGhpcyBvd24gDQpjb21tZXJj
+aWFsIHZlcnNpb24gYW5kIHN0ZWFsaW5nIGFsbCBvZiB5b3VyIGNvbnRyaWJ1dGlvbnMgdG8g
+ZG8gaXQsIA0KcmUtbGljZW5zaW5nIGl0IHdpdGhvdXQgeW91ciBwZXJtaXNzaW9uLg0KDQpJ
+J3ZlIENDJ2QgdGhlIFNvZnR3YXJlIEZyZWVkb20gQ29uc2VydmFuY3kgKFNGQykgb24gdGhp
+cyBlbWFpbCwgd2hvIGFyZSANCmtub3dzIGZvciBhc3Npc3RpbmcgaW4gZGVhbGluZyB3aXRo
+IEdQTCB2aW9sYXRpb25zOyBmb3IgZXhhbXBsZSwgdG9vayBhdCANCnRoZWlyIHdlbGwta25v
+d3MgVml6aW8gbGF3c3VpdDoNCg0KaHR0cHM6Ly9zZmNvbnNlcnZhbmN5Lm9yZy9jb3B5bGVm
+dC1jb21wbGlhbmNlL3ZpemlvLmh0bWwNCg0KWW91IGNhbiBmaW5kIG1vcmUgaW5mb3JtYXRp
+b24gYWJvdXQgdGhlbSBoZXJlOg0KDQpodHRwczovL3NmY29uc2VydmFuY3kub3JnLw0KDQpU
+aGUgU0ZDIGFyZSBkZWRpY2F0ZWQgdG8gY2hhbXBpb25pbmcgY29tcHV0ZXIgdXNlciBmcmVl
+ZG9tLCBtb3N0IG5vdGFibHkgDQppbiB0aGUgZW5mb3JjZW1lbnQgYWdhaW5zdCBHUEwgdmlv
+bGF0aW9ucy4gVGhlIHBlb3BsZSB3aG8gcnVuIHRoZSBTRkMgDQphcmUgYWxsIGxhd3llcnMs
+IGFuZCBvZnRlbiBwcm92aWRlIHByby1ib25vIGxlZ2FsIHNlcnZpY2VzIChpdCBzdGFydGVk
+IA0KYXMgYW4gb2Zmc2hvb3QgZnJvbSBhbm90aGVyLCBvbGRlciBvcmdhbmlzYXRpb24gY2Fs
+bGVkIHRoZSBTb2Z0d2FyZSANCkZyZWVkb20gTGF3IENlbnRlcikuIEkgd291bGQgYWxzbyBw
+b2ludCBvdXQgdGhhdCBhIGZvcmsgb2YgRHVja1N0YXRpb24gDQpkb2VzIGluZGVlZCBleGlz
+dDoNCg0KaHR0cHM6Ly93d3cubGlicmV0cm8uY29tL2luZGV4LnBocC9jYXRlZ29yeS9zd2Fu
+c3RhdGlvbi8NCg0KSSBwb3N0ZWQgYWJvdXQgYWxsIG9mIHRoaXMgb24gbXkgTWFzdG9kb24u
+IFBsZWFzZSBzZWUgdGhlIGZvbGxvd2luZyBwb3N0Og0KDQpodHRwczovL21hcy50by9AbGli
+cmVsZWFoLzExMzEzMTU5NDc1MzQyNDg2Nw0KDQpVbmxlc3MgdGhlIER1Y2tTdGF0aW9uIGF1
+dGhvciBjaGFuZ2VzIHRoZSBwcm9qZWN0IGJhY2sgdG8gR1BMLCBJIHdvdWxkIA0Kc3VnZ2Vz
+dCB0aGF0IHlvdSBhbGwgYm95Y290dCB0aGUgcHJvamVjdCwgYW5kIHRlbGwgb3RoZXJzIHRv
+IGRvIHRoZSANCnNhbWU7IHlvdSBjb3VsZCBzZW5kIGFsbCBmdXR1cmUgY29udHJpYnV0aW9u
+cyB0byBTd2FuU3RhdGlvbiBpbnN0ZWFkLCANCndoaWNoIGlzIHBhcnQgb2YgbGlicmV0cm8u
+IEkgd291bGQgc3VnZ2VzdCB0aGF0IGFsbCBmdXR1cmUgd29ya3MgZ28gdG8gYSANCmZvcmsg
+KGNvdWxkIGJlIFN3YW5TdGF0aW9uKSwgaW5zdGVhZCBvZiBEdWNrU3RhdGlvbiwgd2hpbGUg
+c3RpbGwgDQpwZXJtaXR0aW5nIFN0YW56ZWsgdG8gY29udHJpYnV0ZTsgdGhpcyB3YXksIGFu
+eSBmdXR1cmUgYWJ1c2l2ZSANCnJlLWxpY2Vuc2luZyBjb3VsZCBub3QgcmVhbGlzdGljYWxs
+eSBvY2N1ci4gVGhlIHJlYXNvbiBJIHNheSB0aGlzLCBpcyANCmJlY2F1c2UgYmFzZWQgb24g
+bXkgb3duIHJlc2VhcmNoLCBpdCBzZWVtcyB0aGF0IFN0YW56ZWsncyBiaW9zIGFnYWluc3Qg
+DQp0aGUgR1BMIGhhcyBleGlzdGVkIGZvciBzb21lIHRpbWUsIHNvIEknbSB1bmNlcnRhaW4g
+YXMgdG8gd2hldGhlciBoZSANCmNvdWxkIGJlIHRydXN0ZWQgaW4gY2hhcmdlIG9mIGEgcHVi
+bGljIHByb2plY3QuDQoNCkFueXdheSwgdGhhdCdzIGFsbCBJIHdhbnRlZCB0byBzYXkuIEkn
+bSBub3QgaW52b2x2ZWQgd2l0aCB0aGUgDQpkZXZlbG9wbWVudCBvZiBEdWNrU3RhdGlvbiBt
+eXNlbGYgKEkgZG9uJ3QgZXZlbiB1c2UgaXQsIHRob3VnaCBJIGRvIA0KZW5qb3kgdGhlIFBs
+YXlTdGF0aW9uIGFuZCBoYXZlIGEgbW9kZGVkIFBTMSB3aXRoIFhzdGF0aW9uLCBpdCdzIG5l
+YXRvKS4NCg0KSGFyZHdhcmUgcHJlc2VydmF0aW9uIGlzIGltcG9ydGFudCwgYW5kIGl0J3Mg
+dGhlcmVmb3JlIGltcG9ydGFudCB0aGF0IA0KdGhlc2UgZW11bGF0b3JzIHJlbWFpbiBmcmVl
+IGFuZCBvcGVuIHNvdXJjZSwgc28gdGhhdCBwZW9wbGUgaW4gdGhlIA0KZnV0dXJlIGNhbiBh
+bHdheXMgZGV2ZWxvcCB0aGVtIGFuZCBiYXNlZCBuZXcgd29ya3Mgb2ZmIG9mIHRoZW0uDQoN
+Ci0tIA0KQ29tcGFueSBkaXJlY3RvciwgTWluaWZyZWUgTHRkDQpSZWdpc3RlcmVkIGluIEVu
+Z2xhbmQsIE5vLiA5MzYxODI2IHwgVkFUIE5vLiBHQjIwMjE5MDQ2Mg0KUmVnaXN0ZXJlZCBP
+ZmZpY2U6IDE5IEhpbHRvbiBSb2FkLCBDYW52ZXkgSXNsYW5kLCBFc3NleCBTUzggOVFBLCBV
+Sw0KDQo=
+--------------hpYhMnPpZcss5MAku0wV33Xb
+Content-Type: application/pgp-keys; name="OpenPGP_0x5C654067D383B1FF.asc"
+Content-Disposition: attachment; filename="OpenPGP_0x5C654067D383B1FF.asc"
+Content-Description: OpenPGP public key
+Content-Transfer-Encoding: quoted-printable
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+ER7BLIU=3D
+=3D29JQ
+-----END PGP PUBLIC KEY BLOCK-----
+
+--------------hpYhMnPpZcss5MAku0wV33Xb--
+
+--------------30OTLipcrolSqLl0BpCJMKiW--
+
+--------------6Q1qviZqKVkpz644tKfprH0E
+Content-Type: application/pgp-signature; name="OpenPGP_signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="OpenPGP_signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+wsF5BAABCAAjFiEEi7H30oz3aW2/T3GSXGVAZ9ODsf8FAmble3kFAwAAAAAACgkQXGVAZ9ODsf+M
+1hAAu4cYY0zpQramqNv0eCJNQLzSV1RPcn7Dexgqa31Se7Sy8aLjRPD14oaiZSDRjTkT+ZhN805i
+Nk7nOySDgk39KeycIrvDjscS3AKnVVdoO2MwIsEdBK3C7jJelCU6Azo+2ET4YUiSl8mMKooXwKcT
+DT7Vcz3N8qktbHCBukvSu2SneRcnxOB6RAUlaOORE/OLtwSEdvGgRz2kZfVuqP5QZXRnlI1dzLob
+xEj6y2jvSdfuHcwUFnaot1U24SQl9xyQ/lXRePEF6WfxlHTNCW6niNcWjr+u93XqURxdo1lpG0t3
+ETA2DLYln6FCfhyjjuNErgVo35gqDCL+ye8VApV3IPnYMTOhZkz58nbve0Nw9eTIGFYWzGQ/mg5H
++H9lPqcrXGc60G+R5JvC284U6m6Bte8ToTatIDtBD42NKzCcKPxrRmSrOE89BSbjobzL2KyMtqAb
+VDAMsWlN3shipHPctDqu0ys257i3zsWqUGHQPFFs/BfcofG9XVlWhwVYc/JcrTxWVdAPfZ+rJatg
+HfZzMs9VGFVnKhFixYpDWKLcTgGeTMCakMO0mn/bTbG8keLIX2zU+zipzS0KHKzR5w6u0hrV0+ln
+VH9nXFlhyrHCsoxHfNcWmxpxQCoBJikdKD4yedoPcnRTF4MwUYAiaeJZWLBxeVz37nGV8MYpQFcf
+G1g=
+=nz/q
+-----END PGP SIGNATURE-----
+
+--------------6Q1qviZqKVkpz644tKfprH0E--&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/duckstation.html</guid><pubDate>Sat, 14 Sep 2024 00:00:00 GMT</pubDate></item><item><title>Cowardice is bad</title><link>https://vimuser.org/coward.html</link><description>&lt;div&gt;&lt;p&gt;Context: &lt;a href="https://mas.to/@libreleah/112888424905996535" class="uri"&gt;https://mas.to/@libreleah/112888424905996535&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;There are two types of evil in the world: the perp, and the enabler. Guess who Iâm talking to now?&lt;/p&gt;
+&lt;p&gt;Email:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Message-ID: &amp;lt;3e786e67-8a87-44cc-b77e-5780f690609f@minifree.org&amp;gt;
+Date: Fri, 2 Aug 2024 07:09:28 +0100
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: info@fsf.org
+Bcc: rms@gnu.org, iank@fsf.org
+From: Leah Rowe &amp;lt;info@minifree.org&amp;gt;
+Subject: FUTO
+Autocrypt: addr=info@minifree.org; keydata=
+ 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
+Content-Type: multipart/signed; micalg=pgp-sha256;
+ protocol="application/pgp-signature";
+ boundary="------------9NugHZM8nyTyyfvL0aGJgaat"
+
+This is an OpenPGP/MIME signed message (RFC 4880 and 3156)
+--------------9NugHZM8nyTyyfvL0aGJgaat
+Content-Type: multipart/mixed; boundary="------------OK7z9NAYV2z0iPd4ZZPQSgf0";
+ protected-headers="v1"
+From: Leah Rowe &amp;lt;info@minifree.org&amp;gt;
+To: info@fsf.org
+Message-ID: &amp;lt;3e786e67-8a87-44cc-b77e-5780f690609f@minifree.org&amp;gt;
+Subject: FUTO
+
+--------------OK7z9NAYV2z0iPd4ZZPQSgf0
+Content-Type: multipart/mixed; boundary="------------7o6PRJeSgBYk5f8Oyig0igEN"
+
+--------------7o6PRJeSgBYk5f8Oyig0igEN
+Content-Type: multipart/alternative;
+ boundary="------------r0cTq0zNueaCFDVuhMauLCOV"
+
+--------------r0cTq0zNueaCFDVuhMauLCOV
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: base64
+
+SGVsbG8gRlNGIHBlb3BsZSwNCg0KSSd2ZSBiZWVuIG1hZGUgYXdhcmUgb2YgRlVUTydzICJz
+b3VyY2UgZmlyc3QiIGxpY2Vuc2luZy4gRlVUTyBpcyBoZWFkZWQgDQp1cCBieSBMb3VpcyBS
+b3NzbWFubi4NCg0KSSdtIGlzc3VpbmcgdGhpcyB3YXJuaW5nIGFzIGEgcHVibGljIHNlcnZp
+Y2UgYW5ub3VuY2VtZW50IHRvIHRoZSBib3RoIA0KdGhlICpmcmVlIHNvZnR3YXJlKiBhbmQg
+Km9wZW4gc291cmNlKiBtb3ZlbWVudDoNCg0KRG8gbm90IHVzZSBGVVRPIGxpY2Vuc2VzLiBU
+aGV5IGFyZSBub24tZnJlZSwgcHJvcHJpZXRhcnkgc29mdHdhcmUgDQpsaWNlbnNlcywgYmVj
+YXVzZSB0aGV5IHJlc3RyaWN0IGNvbW1lcmNpYWwgdXNhZ2UuDQoNCkZyZWVkb20gdG8gbWFr
+ZSBtb25leSBpcyAqZ29vZCouIEZyZWVkb20gdG8gKmZvcmsqLCBpbmNsdWRpbmcgZm9yIA0K
+cHJvZml0LCBpcyBhIGZ1bmRhbWVudGFsIHJpZ2h0IHRoYXQgZXZlcnlvbmUgbXVzdCBoYXZl
+LiBPdXIgbW92ZW1lbnQgDQp0aHJpdmVzICpiZWNhdXNlKiBvZiB0aGlzIGZyZWVkb20uDQoN
+Ckkgd291bGQgYXJndWUgdGhhdCBub24tY29tbWVyY2lhbCBzb3VyY2UtYXZhaWxhYmxlIGxp
+Y2Vuc2VzLCBzdWNoIGFzIA0KRlVUTyBsaWNlbnNlcywgYXJlIGFjdHVhbGx5ICp3b3JzZSog
+dGhhbiB0eXBpY2FsIHByb3ByaWV0YXJ5IHNvZnR3YXJlOyANCmFsbCBGVVRPLWxpY2Vuc2Ug
+c29mdHdhcmUgaXMgcHJvcHJpZXRhcnkgc29mdHdhcmUsIGJ1dCB0aGUgc291cmNlIGNvZGUg
+DQppcyBhdmFpbGFibGUuDQoNCldpbmRvd3MvTWFjT1MgaXMgbW9yZSBjbGVhcmx5IGFnYWlu
+c3QgeW91ciBmcmVlZG9tIHRvIHN0dWR5LCBzaGFyZSBhbmQgDQptb2RpZnksIGR1ZSB0byBs
+YWNrIG9mIHNvdXJjZSBjb2RlLCBzbyB5b3Uga25vdyB0byByZWplY3QgaXQuDQoNCk5ldyBw
+ZW9wbGUgd2hvIGFyZSB1bmVkdWNhdGVkIGFib3V0IHJpZ2h0cyBnaXZlbiBieSBmcmVlLCBs
+aWJyZSBhbmQgb3BlbiANCnNvdXJjZSBzb2Z0d2FyZSwgd2lsbCBzZWUgRlVUTyBhbmQgd3Jv
+bmdseSB0aGluayB0aGV5IGhhdmUgZnJlZWRvbS4NCg0KSSdtIGFib3V0IHRvIGRvIHNvbWV0
+aGluZyBjb250cm92ZXJzaWFsOg0KDQpodHRwczovL3d3dy5nbnUub3JnL3BoaWxvc29waHkv
+ZnJlZS1zdy5lbi5odG1sIA0KPGh0dHBzOi8vd3d3LmdudS5vcmcvcGhpbG9zb3BoeS9mcmVl
+LXN3LmVuLmh0bWw+DQoNCkxpbmtpbmcgdGhpcyBhcnRpY2xlIGlzIGNvbnRyb3ZlcnNpYWwg
+YmVjYXVzZSBwZW9wbGUgd2lsbCBrbm93IG9mIG15IA0KaGlzdG9yeSB3aXRoIHRoZSBGU0Yg
+YXMgYW4gb3JnYW5pc2F0aW9uLCBidXQgSSB3aWxsIHNheSB0byB5b3UgYWxsIHdoYXQgDQpJ
+J3ZlIHNhaWQgdG8gbWFueSBvdGhlcnMsIG1hbnkgdGltZXMgYmVmb3JlOg0KDQpUaGUgZm91
+ciBmcmVlZG9tcyBhcmUgYWJzb2x1dGUuDQoNClRvIGJlIHRydWx5IGZyZWUsIHlvdSAqbXVz
+dCogYmUgYWJsZSB0byBmcmVlbHkgdXNlLCBzdHVkeSwgbW9kaWZ5IGFuZCANCnNoYXJlIHRo
+ZSBzb2Z0d2FyZSwgZXZlbiBjb21tZXJjaWFsbHkuDQoNCkxpc3Qgb2YgZnJlZSBzb2Z0d2Fy
+ZSBsaWNlbnNlczoNCg0KaHR0cHM6Ly93d3cuZ251Lm9yZy9saWNlbnNlcy9saWNlbnNlLWxp
+c3QuZW4uaHRtbCANCjxodHRwczovL3d3dy5nbnUub3JnL2xpY2Vuc2VzL2xpY2Vuc2UtbGlz
+dC5lbi5odG1sPg0KDQpGVVRPIHNheXMgc291cmNlIGZpcnN0Lg0KDQpJIHNheTogZnJlZWRv
+bSBmaXJzdA0KDQpCcm9kaWUgUm9iZXJ0c29uIEBCcm9kaWVPbkxpbnV4QGxpbnV4cm9ja3Mu
+b25saW5lIA0KPGh0dHBzOi8vbWFzLnRvL0BCcm9kaWVPbkxpbnV4QGxpbnV4cm9ja3Mub25s
+aW5lPiBpbnRlcnZpZXdlZCBGVVRPOg0KDQpodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRj
+aD92PUZiMmhNTFBuVVA4IA0KPGh0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9RmIy
+aE1MUG5VUDg+DQoNCkZVVE8ncyBzYXlzIGJpZyBjb21wYW5pZXMgbGlrZSBHb29nbGUgdXNl
+IGZyZWUgc29mdHdhcmUgaGVhdmlseSBidXQgDQpkb24ndCBwYXkgZGV2cywgc28gdGhleSB3
+YW50IHRvIHN0b3AgdGhhdC4NCg0KSXQncyBhIHJ1c2UuIEZVVE8gd2FudHMgdG8gYmUgdGhl
+IGJpZyB0ZWNoIGluc3RlYWQuICpUaGV5KiB3aWxsIGJlIA0KR29vZ2xlIGluc3RlYWQuIEl0
+J3MgYWJvdXQgY29udHJvbC4gKlRoZWlyKiBjb250cm9sLiBOb3QgeW91cnMuDQoNCldoYXQg
+aWYgRlVUTyBmYWlscywgYW5kIHlvdSB3YW50IHRvIGZvcmsgaXQ/IEJyb2RpZSBldmVuIGFz
+a3MgdGhpcywgYW5kIA0KZ290IHRoZSByZXNwb25zZSwgYW5kIEkgcGFyYXBocmFzZTogd2Ug
+Y2FuJ3QgZmFpbCBiZWNhdXNlIHdlIGhhdmUgDQptaWxsaW9ucyBvZiBkb2xsYXJzLg0KDQpU
+aGF0IG1hZGUgbWUgbGF1Z2guDQoNCkFuZCBub3cgZm9yIHRoZSByZWFsIHB1cnBvc2Ugb2Yg
+dGhpcyBlbWFpbC4gRlNGL0dOVSBwZW9wbGUgY2FuIGFjY2VwdCANCnRoZSBmb2xsb3dpbmcg
+YXMgZWl0aGVyIGFuIGluc3VsdCwgb3IgYXMgYSBjYWxsIHRvIGFjdGlvbiBhbmQgYSANCnBy
+b3ZvY2F0aW9uIHRvIGltcHJvdmUgaXRzZWxmLiBJIGludGVuZCB0aGUgbGF0dGVyLCBidXQg
+cGVyaGFwcyB0aGUgDQpmb3JtZXIgd2lsbCBiZSB0YWtlbjoNCg0KSSBzZWUgdGhhdCB0aGUg
+RnJlZSBTb2Z0d2FyZSBGb3VuZGF0aW9uIGlzIGFjY2VwdGluZyBtb25leSBmcm9tIEZVVE8s
+IA0KdmlhIHRoZSBsYXR0ZXIncyBvd24gZ3JhbnQgcHJvZ3JhbS4gV2h5PyBXaHkgd29uJ3Qg
+dGhlIEZTRiBzdGFuZCB1cCB0byANCndoYXQgRlVUTydzIGRvaW5nLCBhbmQgZmlnaHQgdGhl
+bT8gRlVUTyBpcyBjbGVhcmx5IGFuIGV4aXN0ZW50aWFsIHRocmVhdCANCnRvIHRoZSBmcmVl
+IHNvZnR3YXJlIG1vdmVtZW50LCBwdXNoaW5nIHByb3ByaWV0YXJ5IHNvZnR3YXJlIGlkZWFs
+cyBhbmQgDQpsZWFkIGJ5IGEgYmlsbGlvbmFpcmUuIFdoeSBkb2VzIHRoZSBGU0YgdGFrZSB0
+aGVpciBtb25leT8gSXMgaXQgdGhhdCANCmRlc3BlcmF0ZT8gSXMgaXQgdGhhdCB1bnByaW5j
+aXBsZWQ/DQoNCkdyb3cgYSBmdWNraW5nIHNwaW5lLiAoZGVmaW5pdGVseSBtZWFudCBhcyBh
+biBpbnN1bHQsIHlvdSBwcm90b3BsYXNtaWMgDQpqZWxsaWVzKQ0KDQotLSANCkNvbXBhbnkg
+ZGlyZWN0b3IsIE1pbmlmcmVlIEx0ZA0KUmVnaXN0ZXJlZCBpbiBFbmdsYW5kLCBOby4gOTM2
+MTgyNiB8IFZBVCBOby4gR0IyMDIxOTA0NjINClJlZ2lzdGVyZWQgT2ZmaWNlOiAxOSBIaWx0
+b24gUm9hZCwgQ2FudmV5IElzbGFuZCwgRXNzZXggU1M4IDlRQSwgVUsNCg0K
+--------------r0cTq0zNueaCFDVuhMauLCOV
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;
+
+    &amp;lt;meta http-equiv=3D"content-type" content=3D"text/html; charset=3DUTF=
+-8"&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;p&amp;gt;Hello FSF people,&amp;lt;/p&amp;gt;
+    &amp;lt;div class=3D"status__content" tabindex=3D"0"&amp;gt;
+      &amp;lt;div
+class=3D"status__content__text status__content__text--visible translate"
+        lang=3D"en"&amp;gt;
+        &amp;lt;p&amp;gt;I've been made aware of FUTO's "source first" licensing. FUTO
+          is headed up by Louis Rossmann.&amp;lt;/p&amp;gt;
+        &amp;lt;p&amp;gt;I'm issuing this warning as a public service announcement to
+          the both the *free software* and *open source* movement:&amp;lt;/p&amp;gt;
+        &amp;lt;p&amp;gt;Do not use FUTO licenses. They are non-free, proprietary
+          software licenses, because they restrict commercial usage.&amp;lt;/p&amp;gt;
+        &amp;lt;p&amp;gt;Freedom to make money is *good*. Freedom to *fork*, including
+          for profit, is a fundamental right that everyone must have.
+          Our movement thrives *because* of this freedom.&amp;lt;/p&amp;gt;
+        &amp;lt;div class=3D"status__content status__content--with-action"
+          tabindex=3D"0"&amp;gt;
+          &amp;lt;div
+class=3D"status__content__text status__content__text--visible translate"
+            lang=3D"en"&amp;gt;
+            &amp;lt;p&amp;gt;I would argue that non-commercial source-available
+              licenses, such as FUTO licenses, are actually *worse* than
+              typical proprietary software; all FUTO-license software is
+              proprietary software, but the source code is available.&amp;lt;/p&amp;gt;=
+
+            &amp;lt;p&amp;gt;Windows/MacOS is more clearly against your freedom to
+              study, share and modify, due to lack of source code, so
+              you know to reject it.&amp;lt;/p&amp;gt;
+            &amp;lt;p&amp;gt;New people who are uneducated about rights given by free,
+              libre and open source software, will see FUTO and wrongly
+              think they have freedom.&amp;lt;/p&amp;gt;
+            &amp;lt;div class=3D"status__content status__content--with-action"
+              tabindex=3D"0"&amp;gt;
+              &amp;lt;div
+class=3D"status__content__text status__content__text--visible translate"
+                lang=3D"en"&amp;gt;
+                &amp;lt;p&amp;gt;I'm about to do something controversial:&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;&amp;lt;a
+href=3D"https://www.gnu.org/philosophy/free-sw.en.html" target=3D"_blank"=
+
+                    rel=3D"nofollow noopener noreferrer"
+                    class=3D"status-link unhandled-link"
+title=3D"https://www.gnu.org/philosophy/free-sw.en.html"&amp;gt;&amp;lt;span
+                      class=3D"invisible"&amp;gt;https://www.&amp;lt;/span&amp;gt;&amp;lt;span
+                      class=3D"ellipsis"&amp;gt;gnu.org/philosophy/free-sw.en.&amp;lt;/=
+span&amp;gt;&amp;lt;span
+                      class=3D"invisible"&amp;gt;html&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;Linking this article is controversial because people
+                  will know of my history with the FSF as an
+                  organisation, but I will say to you all what I've said
+                  to many others, many times before:&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;The four freedoms are absolute.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;To be truly free, you *must* be able to freely use,
+                  study, modify and share the software, even
+                  commercially.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;List of free software licenses:&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;&amp;lt;a
+href=3D"https://www.gnu.org/licenses/license-list.en.html" target=3D"_bla=
+nk"
+                    rel=3D"nofollow noopener noreferrer"
+                    class=3D"status-link unhandled-link"
+title=3D"https://www.gnu.org/licenses/license-list.en.html"&amp;gt;&amp;lt;span
+                      class=3D"invisible"&amp;gt;https://www.&amp;lt;/span&amp;gt;&amp;lt;span
+                      class=3D"ellipsis"&amp;gt;gnu.org/licenses/license-list.&amp;lt;/=
+span&amp;gt;&amp;lt;span
+                      class=3D"invisible"&amp;gt;en.html&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;FUTO says source first.&amp;lt;/p&amp;gt;
+                &amp;lt;p&amp;gt;I say: freedom first&amp;lt;/p&amp;gt;
+                &amp;lt;div class=3D"status__content" tabindex=3D"0"&amp;gt;
+                  &amp;lt;div
+class=3D"status__content__text status__content__text--visible translate"
+                    lang=3D"en"&amp;gt;
+                    &amp;lt;p&amp;gt;Brodie Robertson &amp;lt;span class=3D"h-card"&amp;gt;&amp;lt;a
+href=3D"https://mas.to/@BrodieOnLinux@linuxrocks.online"
+                          class=3D"u-url mention status-link"
+                          title=3D"@BrodieOnLinux@linuxrocks.online"&amp;gt;@&amp;lt;sp=
+an&amp;gt;BrodieOnLinux@linuxrocks.online&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/span&amp;gt;
+                      interviewed FUTO:&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;&amp;lt;a
+href=3D"https://www.youtube.com/watch?v=3DFb2hMLPnUP8" target=3D"_blank"
+                        rel=3D"nofollow noopener noreferrer"
+                        class=3D"status-link unhandled-link"
+title=3D"https://www.youtube.com/watch?v=3DFb2hMLPnUP8"&amp;gt;&amp;lt;span
+                          class=3D"invisible"&amp;gt;https://www.&amp;lt;/span&amp;gt;&amp;lt;span
+                          class=3D"ellipsis"&amp;gt;youtube.com/watch?v=3DFb2hML=
+PnUP&amp;lt;/span&amp;gt;&amp;lt;span
+                          class=3D"invisible"&amp;gt;8&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;FUTO's says big companies like Google use free
+                      software heavily but don't pay devs, so they want
+                      to stop that. &amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;It's a ruse. FUTO wants to be the big tech
+                      instead. *They* will be Google instead. It's about
+                      control. *Their* control. Not yours.&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;What if FUTO fails, and you want to fork it?
+                      Brodie even asks this, and got the response, and I
+                      paraphrase: we can't fail because we have millions
+                      of dollars.&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;That made me laugh.&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;And now for the real purpose of this email.
+                      FSF/GNU people can accept the following as either
+                      an insult, or as a call to action and a
+                      provocation to improve itself. I intend the
+                      latter, but perhaps the former will be taken:&amp;lt;br&amp;gt;
+                    &amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;I see that the Free Software Foundation is
+                      accepting money from FUTO, via the latter's own
+                      grant program. Why? Why won't the FSF stand up to
+                      what FUTO's doing, and fight them? FUTO is clearly
+                      an existential threat to the free software
+                      movement, pushing proprietary software ideals and
+                      lead by a billionaire. Why does the FSF take their
+                      money? Is it that desperate? Is it that
+                      unprincipled?&amp;lt;/p&amp;gt;
+                    &amp;lt;p&amp;gt;Grow a fucking spine. (definitely meant as an
+                      insult, you protoplasmic jellies)&amp;lt;br&amp;gt;
+                    &amp;lt;/p&amp;gt;
+                  &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+                &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+              &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+            &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+          &amp;lt;/div&amp;gt;
+        &amp;lt;/div&amp;gt;
+        &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+      &amp;lt;/div&amp;gt;
+    &amp;lt;/div&amp;gt;
+    &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;
+    &amp;lt;pre class=3D"moz-signature" cols=3D"72"&amp;gt;--=20
+Company director, Minifree Ltd
+Registered in England, No. 9361826 | VAT No. GB202190462
+Registered Office: 19 Hilton Road, Canvey Island, Essex SS8 9QA, UK&amp;lt;/pre&amp;gt;=
+
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+--------------r0cTq0zNueaCFDVuhMauLCOV--
+
+--------------7o6PRJeSgBYk5f8Oyig0igEN
+Content-Type: application/pgp-keys; name="OpenPGP_0x5C654067D383B1FF.asc"
+Content-Disposition: attachment; filename="OpenPGP_0x5C654067D383B1FF.asc"
+Content-Description: OpenPGP public key
+Content-Transfer-Encoding: quoted-printable
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+ER7BLIU=3D
+=3D29JQ
+-----END PGP PUBLIC KEY BLOCK-----
+
+--------------7o6PRJeSgBYk5f8Oyig0igEN--
+
+--------------OK7z9NAYV2z0iPd4ZZPQSgf0--
+
+--------------9NugHZM8nyTyyfvL0aGJgaat
+Content-Type: application/pgp-signature; name="OpenPGP_signature.asc"
+Content-Description: OpenPGP digital signature
+Content-Disposition: attachment; filename="OpenPGP_signature.asc"
+
+-----BEGIN PGP SIGNATURE-----
+
+wsF5BAABCAAjFiEEi7H30oz3aW2/T3GSXGVAZ9ODsf8FAmaseBkFAwAAAAAACgkQXGVAZ9ODsf8i
+cBAAv0oudvwnStk1th4C4A4g+LkXsrkWcB5wxNGvo9vjT1PE0TYvdWi4BhXLBvlb39yAhROs+Qdp
+GusVeKYeVwXgJyUVDct2drwZ5Fj05GdOkpONjIoBzJoCdFxYZG5aFKjXvD2Dfi2GNlCBeVRTURDI
+VnRnslJsKOuPHj6cRL26J4ohjs9l8LaAckDFVUaAriHiapPseyAtQcnEeAtPxKplYqTlKxZhCyH/
+SVMuZFiKwSU2QRmorrrKqKUKiafDpLamlih/EDudp4OjddBlC8GTx+kXNL5aip3nNwxqs7KlVsFL
+Mjnz6Xwmz4EzSCIUwSwkVkCyC9CuzLOdFtGD+QxhVztLszVYiGa2EPOJqNZ4+Q9vg6d3vgv+ei/h
+rRvMzyvlEUzEWrGuO6zAKDC5i21HJPoVRkmZavJziYIiiYUAc7zOpl0ME72Pkg6q5ph9gYqxAQwn
+BcVj0Mf67ACa8/UvG/SW5oeRdZ+kmi//i5frX8R7rDC0e3Ok8bAKSO5qdgi1Cc27uA0TkFAX0yWQ
+3RxKaK6vlAQb5H3ICPPV+lvZwVH8mBLM3hZAMUbbl+iWk3goKEp+V0j/9UDHC+sB5+fMIYliWrlQ
+ZLTnD8MnQaTsBYkvJTlcMvvxcH6dJWTdXQNT5GAOZrd6ouXSphkhmXdTiQbLIr3KOcKoWzLN2t2b
+PBY=
+=4m4Z
+-----END PGP SIGNATURE-----
+
+--------------9NugHZM8nyTyyfvL0aGJgaat--&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Weak. Weak. Weak.&lt;/p&gt;
+&lt;style type="text/css"&gt;
+img{max-width:10% !important;}
+&lt;/style&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/coward.html</guid><pubDate>Fri, 02 Aug 2024 00:00:00 GMT</pubDate></item><item><title>Irony is good</title><link>https://vimuser.org/irony.html</link><description>&lt;div&gt;&lt;p&gt;Meanwhile in the UK:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.theguardian.com/politics/article/2024/jul/23/labour-mps-vote-to-scrap-two-child-benefit-cap-in-first-rebellion-for-starmer" class="uri"&gt;https://www.theguardian.com/politics/article/2024/jul/23/labour-mps-vote-to-scrap-two-child-benefit-cap-in-first-rebellion-for-starmer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The new Labour government has recently sequestered 7 MPs who rebelled over the two-child benefits cap. Speaking as a conservative, I oppose the cap; the average number of children per family is 1.7 so the cap is needlessly cruel to a statistical few. Abolition costs nothing.&lt;/p&gt;
+&lt;p&gt;But I respect strength; this time, something good got canned. In future, something bad. Government mustnât let a tiny &lt;strong&gt;few&lt;/strong&gt; dictate terms or the &lt;strong&gt;many&lt;/strong&gt; will suffer.&lt;/p&gt;
+&lt;p&gt;Theyâll probably abolish the cap anyway. Itâs the Labour party. They campaigned on a platform of fiscal discipline and what they billed as âgovernment for public serviceâ - basically they took a centrist position, in stark contrast to the social democratic position of Jeremy Corbynâs Labour party. The results were actually disastrous, electorally: the party only got 34 percent of the vote, but a split between Conservatives and Reform UK meant that they were able to drive a wedge and gain a large majority in parliament.&lt;/p&gt;
+&lt;p&gt;Anyway, I digress:&lt;/p&gt;
+&lt;p&gt;Iâm not a supporter of the Labour party but the hallmark of good government is precisely that it has discipline in its decisions; good governance in any large organisation with a lot of scope means that decisions are taken collectively, for the &lt;strong&gt;many&lt;/strong&gt;. Letting a &lt;strong&gt;few&lt;/strong&gt; rebels dictate terms means they then demand more, then eventually they stop listening to everyone else. Mob rule masquerading as popular rule is something we avoided when Corbyn was defeated in 2019, and good riddance; the politics of envy should have no place in any country. Rule on merit, and listen to what real people want. Most people would not want socialism in any form, and itâs why the Labour party wisely purged all Corbynistas; Kier Starmerâs Labour is perfectly reasonable, and will not damage small businesses like mine, and they will at least respect property rights. Taxes will go up, but not crazy amounts, despite what the party I actually belong to might tell you (taxation was actually higher towards the end of the last Conservative government, than it was during the Blair years).&lt;/p&gt;
+&lt;p&gt;The real objective though, of todayâs purge, was exactly that: Starmerâs labour party used the opportunity to purge the last remnants of Corbynism within the party. This is welcome, because those people are dangerous; principled, and with all the most noble of intentions, but utterly misguided and anti-business in the extreme.&lt;/p&gt;
+&lt;p&gt;Now Iâll get to the point of the joke, as alluded by the title of the article.&lt;/p&gt;
+&lt;p&gt;Firstly, why was I talking about Corbynism? Because John McDonnell and Rebecca Long-Bailey, prominent Corbynites within Labour, were among the sequestered seven. Now &lt;em&gt;they&lt;/em&gt; are the &lt;strong&gt;few&lt;/strong&gt;, not the &lt;strong&gt;many&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I will now steal the very phrase they coined, and turn it against them.&lt;/p&gt;
+&lt;p&gt;Yes. Iâm not sure this current context was the original intent behind the phrase, and I realise the extreme irony of what Iâm about to say next, aware that it may even offend some (and maybe amuse others), but I will borrow it here and say it. I will say it, with absolute conviction:&lt;/p&gt;
+&lt;p&gt;For the &lt;strong&gt;many&lt;/strong&gt;, not the &lt;strong&gt;few&lt;/strong&gt;!&lt;/p&gt;
+&lt;p&gt;I hold such contempt for social democrats (I would describe Kier Starmerâs cabinet as essentially liberal), because they have contempt for me; their ideology completely disregards and even punishes the existence of &lt;a href="class.html"&gt;owners&lt;/a&gt;, they think weâre all evil and they want to make the freedoms we have impossible, just because we dare to defy authority; because we are democrats, and able to see through their charade. When they tell a landlord itâs no longer legal to rent a property out to someone unless itâs within a certain price point, that property is no longer theirs. When they sell their own council house for profit and later campaign against Right to Buy, they are hypocrites. When they promoted free internet access for all, I expected censorship of the internet. When two thirds of your income goes back to them so they can spend it on pointless projects, you are being robbed. When they talk about the working class, they are not talking about dreams and aspirations, and you should not listen to them; if you let them, they will create a culture of dependence, and teach people not to strive for greater things. Because thatâs what the hard left does. They have never run a business themselves and never had to balance a budget during slow summer sales or worry about the next five years. The poison that they put into young peopleâs minds tells them that having wealth and authority over their own lives is a bad thing, because theyâve never had any over theirs, and they want to make that your problem. They make it a social crime to be rich. Put simply, you are their enemy.&lt;/p&gt;
+&lt;p&gt;Iâm not exactly wealthy myself, but I believe in freedom, so I find it extremely satisfying when I see such people being put in their place. They arrogantly believe that they get to say whatâs what, but &lt;em&gt;we&lt;/em&gt; decide that. The vast majority of people (about 78 percent) either voted for Labour, Conservative or Reform in this recent election; although I campaigned for my local Conservative party, I respect the current, much more level-headed, technocratic and reasonable pro-business iteration of the Labour party lead by Kier Starmer; letâs hope it lasts.&lt;/p&gt;
+&lt;p&gt;For the greens, SNP and liberals (the parties who brought forward the Kingâs Speech amendment that the seven rebel Labour MPs supported) to think they have any authority whatsoever is laughable, and an insult, even if they have a good idea. The ruling party of the day, elected by citizenry, is what gets to decide; they have the authority, and rightly so. Say what you want about Labour, I know I certainly will, but they have the right to govern as they wish, as the duly elected party of government. Corbynism has no authority, and its supporters are to be rebuked loudly at every opportunity.&lt;/p&gt;
+&lt;p&gt;Iâm rambling, as I often do, so Iâll end it here, but not before I take one more swing with the bat, for the road:&lt;/p&gt;
+&lt;p&gt;Corbynites are not the &lt;strong&gt;many&lt;/strong&gt;. They are the &lt;strong&gt;few&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;That is all.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/irony.html</guid><pubDate>Tue, 23 Jul 2024 00:00:00 GMT</pubDate></item><item><title>Genocide is bad</title><link>https://vimuser.org/genocide.html</link><description>&lt;div&gt;&lt;p&gt;The term &lt;em&gt;genocide&lt;/em&gt; refers to any action (usually sponsored by the state) in any country that seeks to annihilate an entire population. It is scientifically defined, by the Holocaust Memorial Day Trust, in this article:&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/what-is-genocide/the-ten-stages-of-genocide/" class="uri"&gt;https://www.hmd.org.uk/learn-about-the-holocaust-and-genocides/what-is-genocide/the-ten-stages-of-genocide/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Genocide is bad, as are holy wars. I support freedom of speech, and thought, and religion counts as both, but I oppose violence and I oppose apartheid.&lt;/p&gt;
+&lt;p&gt;When two countries are engaged in decades of such hostilities, it is their citizens who suffer the most. Normal human beings on both sides, who suffer greatly and receive the least amount of help, because their governments are killing them. They are the victims, and they need help; they do not want war.&lt;/p&gt;
+&lt;p&gt;What if we lived in a world where our political leaders saw such holy wars, and they denounced both sides, calling for and end to all violence? What if they were to condemn both sides, and our media focused only on the suffering of ordinary people on both sides?&lt;/p&gt;
+&lt;p&gt;Or what if we just kept having a world like we have now, where our governments send money and weapons to hostile states, because bigger and more powerful states back their enemies? What if we just maintained this hypocrisy forever??&lt;/p&gt;
+&lt;p&gt;I hate the world, and I want to change it.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/genocide.html</guid><pubDate>Thu, 19 Oct 2023 00:00:00 GMT</pubDate></item><item><title>Fascism is bad</title><link>https://vimuser.org/fascism.html</link><description>&lt;div&gt;&lt;p&gt;Itâs a sad reality of our times that I must remind everyone: fascism is very bad. It is an ideology that says certain types of people are &lt;em&gt;inferior&lt;/em&gt;; it seeks to impose an arbitrary way of life upon us, punishing and prosecuting any person or peoples that are different in any way.&lt;/p&gt;
+&lt;p&gt;Examples of well-known modern day fascists include: Joanne Rowling, Geert Wilders, Donald Trump, Jair Balsonaro, Viktor Orban, Tucker Carlson, Elon Musk, Vladimir Putin, Narendra Modi, Xi Jinpingâ¦ the list goes on.&lt;/p&gt;
+&lt;p&gt;While they vary in their tone and precise rhetoric, the principle is always the same: they cannot or will not tolerate any person who does not conform to their world view, and they seem to want nothing short of raw, unadulterated power. Their main tactic is always to identify some sort of enemy or &lt;em&gt;bogeyman&lt;/em&gt;, someone to scapegoat, and they insert themselves into positions of absolute power. The fascist principle is a reactionary response to a failing apparatus of state, or the erosion of a set of principles that make up some organisation or belief systemâ¦ and they see it as their role to make the world âpureâ.&lt;/p&gt;
+&lt;p&gt;Trans people, and specifically trans rights (which are &lt;em&gt;human rights&lt;/em&gt;) are under attack all over the world, including in my own country, the United Kingdom. Fascist tactics are being used.&lt;/p&gt;
+&lt;p&gt;Fascism is bad. Alternatives to fascism include, but are not limited to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Respect for human rights&lt;/li&gt;
+&lt;li&gt;Civil liberties&lt;/li&gt;
+&lt;li&gt;Freedom of speech&lt;/li&gt;
+&lt;li&gt;Bodily autonomy&lt;/li&gt;
+&lt;li&gt;General democracy, both in spirit and in practise&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here is a wikipedia article about fascism: &lt;a href="https://en.wikipedia.org/wiki/Fascism" class="uri"&gt;https://en.wikipedia.org/wiki/Fascism&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Fascism is sometimes hard to spot, because people tend to become so overwhelmed by their own daily concerns that they forget the bigger picture.&lt;/p&gt;
+&lt;p&gt;A general rule of thumb is this:&lt;/p&gt;
+&lt;p&gt;When a singular individual claims to want to save your soul and restore some vaguely defined era of glory, thatâs the first red flag. There will be many more, unless you remove them from the podium while you still can; your life depends on it.&lt;/p&gt;
+&lt;p&gt;If you see someone that seems to be developing fascist views, it is your moral duty to question them, and challenge them, make them see that they are wrong; however, if they are too far gone, it is your duty to &lt;em&gt;fight&lt;/em&gt; them.&lt;/p&gt;
+&lt;p&gt;Fascists are your enemy, and you must remove them before they remove you.&lt;/p&gt;
+&lt;p&gt;That is all.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/fascism.html</guid><pubDate>Thu, 27 Jul 2023 00:00:00 GMT</pubDate></item><item><title>The Emperorâs Old Clothes</title><link>https://vimuser.org/emperor.html</link><description>&lt;div&gt;&lt;p&gt;Not many people noticed, but the emperor had his pants down the whole time.&lt;/p&gt;
+&lt;p&gt;There was a time when I just laughed, and went along with it like everyone else; for a time, the emperor said nice things about me and thought me the useful fool, but no more.&lt;/p&gt;
+&lt;p&gt;Iâm wearing the pants.&lt;/p&gt;
+&lt;p&gt;I had them on the whole time.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/emperor.html</guid><pubDate>Wed, 21 Jun 2023 00:00:00 GMT</pubDate></item><item><title>Hypocrisy is bad</title><link>https://vimuser.org/hypocrites.html</link><description>&lt;div&gt;&lt;p&gt;Hypocrisy is generally considered to be a bad thing, by most people.&lt;/p&gt;
+&lt;p&gt;Hypocrites are inherently bad, especially proselytizing ones that donât adhere to their own hypocritical standards, making them double hypocrites - &lt;em&gt;especially&lt;/em&gt; when they try to tell you what to do (or what not to do) as if they somehow have moral authority over you; that just makes them sanctimonious twats, in addition to being hypocrites.&lt;/p&gt;
+&lt;p&gt;Itâs a never-ending ladder of hypocrisy. No class, and no respect.&lt;/p&gt;
+&lt;p&gt;You all know what Iâm talking about.&lt;/p&gt;
+&lt;p&gt;That is all.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/hypocrites.html</guid><pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate></item><item><title>There is no such thing as âmiddle classâ</title><link>https://vimuser.org/class.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;&lt;a href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Iâm basically a libertarian. What you do with your life is your business, and nobody has the right to tell you any differently. Obviously in the real world we all have to compromise and accept some small sacrifices, but that is where I lean. I joined the Conservative party (UK one) in late 2022.&lt;/p&gt;
+&lt;p&gt;Trans rights? Iâm trans myself. Trans rights are human rights. Religious rights? Iâm an atheist and think youâre all nuts, but: fair game. Property rights? Sure thing. Government telling me what I can and cannot do with my own body? Fuck off. Welfare state? Ideally weâd have zero percent unemployment but we donât, so fair enough.&lt;/p&gt;
+&lt;p&gt;I could rattle on and on but you get the point. Iâm liberal on social issues and want compassionate but &lt;em&gt;sensible&lt;/em&gt; government, and &lt;em&gt;sound money&lt;/em&gt;. Got it?&lt;/p&gt;
+&lt;p&gt;I &lt;em&gt;used&lt;/em&gt; to be a socialist, but my views turned, over many years. Iâm basically a moderate Tory. The article youâre about to read is actually about views Iâve always had; the same views can be argued from a left- or right-wing angle (if argued from a left-wing angle, you might add Universal Basic Income to the mix, which is something Iâm not entirely against either as it does have some merit, and was literally invented by a libertarianâ¦ boring. You want to read the article, right? Look up Negative Income Tax afterward, if youâre as bored as I am)&lt;/p&gt;
+&lt;p&gt;Iâm a small-c conservative. Iâm not like the whores you see on TV. Anyway, hereâs the fucking article:&lt;/p&gt;
+&lt;p&gt;(this article was restored during May 2024, having previouslyy been deleted in November 2023, but I decided to restore it. The above text is changed because the old text was shit, but the article below is unmodified)&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="class-is-bullshit"&gt;Class is bullshit&lt;/h1&gt;&lt;a href="#class-is-bullshit"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Class&lt;/em&gt; is a concept that says humanity is separated into different groups. The typical types of &lt;em&gt;class&lt;/em&gt; that you will hear about, in many countries, are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working class&lt;/li&gt;
+&lt;li&gt;Middle class&lt;/li&gt;
+&lt;li&gt;Upper class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These three terms describe exactly the same people. &lt;em&gt;Upper class&lt;/em&gt; just means a higher wage, and middle class means middle-income earners. âWorking classâ is used to refer basically to low-wage workers, but I regard the other two types of people above as working class too - the existence of those terms middle and upper class, are designed to pit all working class people against each other, so that they donât think about the &lt;em&gt;ruling class&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;To be more clear: I think these terms are designed to muddle peopleâs thought patterns, so that they literally do not think clearly about the nature of the world. The people that sit outside these groups (the ruling class, or owner class as I like to collectively call them) might, intentionally or otherwise, use the above three terms to confuse people - for example, if you run a company that hires 10 people, you donât want those people suddenly thinking about overthrowing you or (more likely) starting a competing company, so you divide them: give the really smart people capable of that a much higher salary, but not too high (50-80k should be enough to satiate most of their desires), and the really thick ones that canât do basic maths or string two sentences together, have them scrub the toilets.&lt;/p&gt;
+&lt;p&gt;Very rarely (by design) will you hear of these classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ruling class (it differs per country, but the fundamental nature of it is always the same)&lt;/li&gt;
+&lt;li&gt;Owner class (basically the same thing, and I use this term instead)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The term &lt;em&gt;ruling class&lt;/em&gt; is the one youâll hear, but I dislike this term too, because itâs factually inaccurate. There is only so much that one person can do, or a small clique of people can do. The reality is that humanity only functions collectively, but some of us are simply more intelligent than others, so we learn to control our lessers.&lt;/p&gt;
+&lt;p&gt;Did I mention I used to be a socialist?&lt;/p&gt;
+&lt;p&gt;I spent a lot of time in hardcore communist groups, so I also learned about their way of thinking, and I learned about things such as âclass warfareâ (when one class tries to seize rights and status over another; sometimes, this is referred to as &lt;em&gt;class struggle&lt;/em&gt; - go read marx/engels if you want).&lt;/p&gt;
+&lt;p&gt;(one of my friends used to be a member of the communist party and I basically went there to hang out with him for one weekend once. I met Robert Griffiths, the leader of the Communist party, even gave him some advice about how to improve his shit website, and he didnât take my advice)&lt;/p&gt;
+&lt;p&gt;The way I see the world is very simple, in that I see only these classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Workers: whether you make Â£0, Â£10,000 or Â£150,000, youâre âworking classâ if your continued financial income results on your labour (pensioners are just inactive workers, if theyâve only ever been workers) - this includes the self-employed who rely on selling goods and/or services, in cases where they canât afford to have have workers under them, and people to manage their assets.&lt;/li&gt;
+&lt;li&gt;Owners: this group of people may also work, but their continued survival is helped along because they own a source of wealth - for example, the person who owns the company you work for is an owner. Simple.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In both groups, there are people with less, and those with more, but the two groups are very distinct. To be more clear then, letâs split them up for the purpose of argument:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lower worker class: your local pimp-faced fry-cook, perhaps cleaner, or bus driver (low skill jobs)&lt;/li&gt;
+&lt;li&gt;Middle worker class: doctors, programmers, college professors, most high-skilled jobs basically&lt;/li&gt;
+&lt;li&gt;Upper worker class: probably doesnât exist except for a few people: when your wages get high enough, youâll probably start getting ideas and start investing money in things that turn you into an &lt;em&gt;owner&lt;/em&gt;: so upper worker class is limbo inbetween worker class and owner class&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And on the owner side (each group has similar income to the equivalent worker level):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lower owner class: small business owners, people who run local independent shops. Small-time landlords. Self-employed &lt;em&gt;workers&lt;/em&gt;, in the case where that worker is &lt;em&gt;able to&lt;/em&gt; (financially) hire people to do their bidding, even if they choose to do everything themselves. - this group may not be very rich, but they get by, and they have a lot more freedoms than people in the lower worker class. These people may also have employed jobs (working for an employer), but they are in a situation where their &lt;em&gt;own&lt;/em&gt; wealth shall suffice, without the need to dip into their savings to pay for their overall cost of living.&lt;/li&gt;
+&lt;li&gt;Middle owner class: people who own medium sized companies, people who own a lot of businesses basically. Can also include landlords with a real portfolio; say, at least 10 tenanted properties. These people are not necessarily &lt;em&gt;rich&lt;/em&gt;, but they make bank. Theyâve got the six figure salaries (plural), the nice pension, they can do basically whatever they want - most people who enter this class do not move on to upper owner class.&lt;/li&gt;
+&lt;li&gt;Upper owner class: people who own very large companies, own a shitton of real estate, or otherwise just have many different sources of income. Iâm talking about the billionaires. The people that you might call &lt;em&gt;evil&lt;/em&gt;, depending on your point of view.&lt;/li&gt;
+&lt;li&gt;God class: very rare. This is basically the people who own all the upper-owners. People like Bill Gates, Rupert Murdoch, Elon Musk the people who control the world (together, as a team - theyâre the people who have real power and influence to effect change, for better or worse, in entire countries or even continents). The people who own the energy companies are also part of this class. The people that can act with impunity, because theyâre basically gods. They are so, because they have the power to &lt;em&gt;turn things off&lt;/em&gt; and send the world into chaos, should they choose to do so. Some of these people become your politicians, but not all politicians are members of the god class; in fact, many politicians are not even part of any owner class, but are in fact worker class (probably middle or upper).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Regardless of income level, these are the two classes: workers/non-owners, and owners. The difference between them is not one of &lt;em&gt;money&lt;/em&gt; per se, but one of mindset. One seeks to dominate, and the other has either no power, or doesnât seize the power they could have.&lt;/p&gt;
+&lt;p&gt;Within the worker class is where the media tells us to look, because the owner class consists of people who rule the world and want to keep their power. For example, Rupert Murdoch (who owns a lot of the press around the world, where you get news from) is one of the most powerful members of the owner class.&lt;/p&gt;
+&lt;p&gt;The worker (non-owner) class mindset is drilled into most of us from birth. When we go to school, we are taught all the wrong lessons: get good grades in school, go to university later on, and get (apply for) high paying jobs - we are taught to accept controls on what we can do, and to not strive to break free. We are taught that being on a 100k salary is a very good thing; it is better than getting less than 100k, but itâs not what your goal should be.&lt;/p&gt;
+&lt;p&gt;The owner classes, regardless of how financially successful they are or how hard they work (some have more money and/or time than others), we think very differently. We are just as interested in a great variety of things (whatever weâre drawn to, in my case computer science), and we want to make the world better, but we think in terms of how we can empower ourselves, and we tend to think on a much longer term than most people. We tend to be more more selfish, and definitely more greedy, because that is whatâs needed to thrive. Sometimes we fail, just like everyone, but we pick ourselves back up, and we always see ten different choices in everything; the worker mindset teaches you to only see 1 choice: get a new job when you get fired, and do as youâre told, be âniceâ to others".&lt;/p&gt;
+&lt;p&gt;It is the difference between the Jedi and the Sith, for want of a (admitedly very cringeworthy) analogy. I am a sith lord at heart. I think for myself, and I do everything in my power to resist being controlled; for example, Iâve not had an employer since 2011 (my company, Minifree Ltd, is my employer, but I own that company and Iâm the only shareholder - itâs all mine, and I get to take home 100% of the profit, after tax).&lt;/p&gt;
+&lt;p&gt;An &lt;em&gt;owner&lt;/em&gt; is someone who can control one or more workers, and make a living without doing much work themselves; if they can wing it on an hour or two per week and survive even if they go awol for six months (because they have workers, and managerial staff, all kinds of people, running their affairs).&lt;/p&gt;
+&lt;p&gt;âOwnerâ means that you control the means to produce wealth. &lt;em&gt;Wealth&lt;/em&gt; is not how much money you have available, but how much money youâre able to make at the present time.&lt;/p&gt;
+&lt;p&gt;An owner cannot become homeless or go hungry by being fired, because they either cannot be fired, or they have many sources of income to mitigate this; an owner can still perform work, but they donât have to.&lt;/p&gt;
+&lt;p&gt;An owner is in control, by definition. The &lt;em&gt;owner&lt;/em&gt; answers to nobody but themselves.&lt;/p&gt;
+&lt;p&gt;I suppose then, you could think of it instead as these classes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Owners&lt;/li&gt;
+&lt;li&gt;Non-owners&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If youâre a doctor, on Â£300k per year, more power to you. You probably love your job, otherwise why would you do it? If you run your own private practise, with staff that you control, you are then are an &lt;em&gt;owner&lt;/em&gt;. If you work for an NHS hospital, you are most certainly not an owner.&lt;/p&gt;
+&lt;p&gt;If youâre an accountant, and you make Â£100k per year: great! Youâre an owner if you run your own firm; if you work for an existing firm, that you do not control, then you are not part of the owner class.&lt;/p&gt;
+&lt;p&gt;You &lt;em&gt;may&lt;/em&gt; be working for an employer, but also own a source of wealth: I suppose then you are a &lt;em&gt;part-owner&lt;/em&gt; of your wealth.&lt;/p&gt;
+&lt;p&gt;Thatâs it, really. The simple explanation is this:&lt;/p&gt;
+&lt;p&gt;If you can be sacked/fired from a job, and this would result in total loss of income, then you are a non-owner, because you do not control the source of your wealth. Youâre a non-owner if thereâs a big red button that someone can push to make your life a living hell.&lt;/p&gt;
+&lt;p&gt;A non-owner is under control of an owner. This is the nature of the world, and it is always going to be that way (and it always has been that way). This paradigm is &lt;em&gt;especially&lt;/em&gt; true in socialist countries, which have a lot less owners; in those places, the owner class is a much more concentrated group of power-hungry people who tell everyone else what to do, and the result is that the average person is very poor indeed - in capitalist countries, the size of the &lt;em&gt;pot&lt;/em&gt; (national GDP) is always higher, and the owner class is more evenly distributed, with a few people at the top who do have a lot of power, but a lot more people who areâ¦ not rulers, not nationally, but they rule their own particular &lt;em&gt;castle&lt;/em&gt;, and they have real freedom. - the other extreme end of the scale (opposite of communism or socialism) is fascism, and itâs basically the same thing as communism, in that power becomes too concentrated into an elite few who tell everyone else what to do: communist and fascist countries both execute or torture people who dare to challenge authority, and they both put restrictions on free commerce for example, or on access to information/education resources, because the rulers of those countries fear the loss of the ego trip that is their absolute unlimited power. Both communism and fascism should be avoided, at all costs, for the sake of &lt;em&gt;freedom&lt;/em&gt;.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="time"&gt;Time&lt;/h1&gt;&lt;a href="#time"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Time&lt;/em&gt; is something else that most people overlook.&lt;/p&gt;
+&lt;p&gt;When we think of class, we think of &lt;em&gt;money&lt;/em&gt;, but in my opinion, &lt;em&gt;time&lt;/em&gt; is the most critical factor of all.&lt;/p&gt;
+&lt;p&gt;The purpose of &lt;em&gt;money&lt;/em&gt; is to pay for &lt;em&gt;things&lt;/em&gt;, but making money takes &lt;em&gt;time&lt;/em&gt; - this is either &lt;em&gt;your time&lt;/em&gt; or &lt;em&gt;someone elses&lt;/em&gt; time. The purest type of &lt;em&gt;owner&lt;/em&gt; (in the owner class) is someone who does not need to do &lt;em&gt;work&lt;/em&gt; (spend time) themselves, but can command others to do work for them, to exclusion. That is what it means to be an owner.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Time&lt;/em&gt; matters more than money, but money matters too. You should try to have enough money to make you happy in life, but your biggest priority should be to have &lt;em&gt;time&lt;/em&gt; to spend in your life on whatever you want - be it family (this is how most people spend their time), and/or some intellectual or creative pursuit, or recreational activity, whatever you want.&lt;/p&gt;
+&lt;p&gt;That, right there, is one of the things that the &lt;em&gt;worker&lt;/em&gt; (non-owner) class is taught to overlook, by design. You are literally told, from a very young age, that you should get a &lt;em&gt;job&lt;/em&gt;. Literally, the question, &lt;em&gt;what do you want to be when you grow up&lt;/em&gt;, is a trap. You probably fell for it, as I did (not) - I recognised when I was 15 that it was a trap, and itâs why Iâve lived my life the way I have.&lt;/p&gt;
+&lt;p&gt;I value my &lt;em&gt;time&lt;/em&gt;. A true owner controls how they spend their &lt;em&gt;time&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I value my intellect, my creativityy, and my ability to &lt;em&gt;use it&lt;/em&gt; in ways that improve my standing in the world, or otherwise amuse me. I do not want to work 40 hours per week, and &lt;em&gt;I donât&lt;/em&gt;. Iâve quit or been fired from every job Iâve ever had, because I simply refuse to accept orders from another owner - Iâd rather be an owner myself. An owner of my time.&lt;/p&gt;
+&lt;p&gt;In poverty and in wealth, &lt;em&gt;time&lt;/em&gt; is the thing you should value most.&lt;/p&gt;
+&lt;p&gt;You are going to die. Make every second count.&lt;/p&gt;
+&lt;p&gt;I wanted to say more, but I got bored. This article is being published as-is, in the state itâs in as I run &lt;code&gt;git push&lt;/code&gt; to publish this article. I shall make no further changes.&lt;/p&gt;
+&lt;p&gt;Thank you for reading, and have a wonderful day. Think for yourself. Live free. (and fuck you)&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/class.html</guid><pubDate>Mon, 13 Feb 2023 00:00:00 GMT</pubDate></item><item><title>How to self-host servers in your living room on static IPs</title><link>https://vimuser.org/l2tp.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;&lt;a href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Most people assume that a router is a piece of hardware, but thatâs not true. The router is actually software, and the hardware is just what that software runs on. Almost anything can be a router, just like anything can be on a cob in that one episode of Rick and Morty. The laptop in the photo is my router, configured in exactly the way this guide describes.&lt;/p&gt;
+&lt;p&gt;&lt;img class="t" tabindex="1" src="https://av.vimuser.org/router.jpg"&gt;&lt;span class="f"&gt;&lt;img src="https://av.vimuser.org/router.jpg"&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Have you ever wanted to host a server at home or in your office, but you canât because the ISP wonât give you static IPs? Are you behind a CGNAT? This guide is for you. It will teach you how to route static IPv4 and (native) IPv6 addresses to your network, with hosts directly pingable on the internet and all ports &lt;em&gt;open&lt;/em&gt;. With this guide, you wonât need to host your software project on &lt;em&gt;github&lt;/em&gt; anymore, because you can instead install gitea/cgit with a mailing list on your &lt;em&gt;raspberry pi&lt;/em&gt; and host it in your basement or living room!&lt;/p&gt;
+&lt;p&gt;I recently moved &lt;a href="https://libreboot.org/"&gt;libreboot.org&lt;/a&gt; hosting to a much faster network than what it had before, but the new ISP doesnât assign static IPv4 or IPv6 subnets on the line, and it has all kinds of restrictions, though speed, uptime and latency are all excellent. I decided therefore to set up a tunnel connection using Andrews &amp;amp; Arnold Ltd (A&amp;amp;A) &lt;a href="https://www.aa.net.uk/broadband/l2tp-service/"&gt;L2TP tunnel service&lt;/a&gt;. This is basically similar to most VPN services, but you get a lot more freedom and flexibility e.g.Â IPv4 subnets (for example, you could host your own DNS on this).&lt;/p&gt;
+&lt;p&gt;It could also just be used for normal day to day internet tasks. A&amp;amp;A provide you with an &lt;em&gt;unfiltered&lt;/em&gt; service, unshaped and unthrottled in any way.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="brief-technical-overview"&gt;Brief technical overview&lt;/h2&gt;&lt;a href="#brief-technical-overview"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Adapt this guide according to your distro. Basically all we want to do is do PPP via L2TP and enable packet forwarding in Linux, so that packets can pass between two interfaces. We then set routes. We will have these interfaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;WAN port (ethernet) - upstream ISP&lt;/li&gt;
+&lt;li&gt;tunnel port (ppp over l2tp) - physically via WAN port&lt;/li&gt;
+&lt;li&gt;LAN port (ethernet) - packets ONLY routed between it and the tunnel, NOT the WAN port directly. Routes set accordingly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;L2TP is a protocol used for to tunnel traffic on the internet. Itâs quite commonly used by ISPs to connect customers up to their backend, where they then provide a PPP login.&lt;/p&gt;
+&lt;p&gt;So long as you have an &lt;em&gt;ethernet port&lt;/em&gt; available to use for internet, your tunnel router can work nicely. If you need to, you &lt;em&gt;could&lt;/em&gt; set up a WiFi connection or 4G tether on another machine, sharing that over an RJ45 ethernet port for your L2TP router to connect to; for example, raspberry pi USB tethered to 4G LTE service via dongle, assigned IPs presumably on NAT+DHCP, via ethernet.&lt;/p&gt;
+&lt;p&gt;Traffic will be forced, via static route, to A&amp;amp;Aâs L2TP tunnel server. In this way, &lt;em&gt;all&lt;/em&gt; traffic will go through L2TP and nothing else. It is completely isolated from your main network. With this setup, you can host your servers anywhere, and move them very easily.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="preparation"&gt;Preparation&lt;/h1&gt;&lt;a href="#preparation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="hardware"&gt;Hardware&lt;/h2&gt;&lt;a href="#hardware"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You need a computer with 2 ethernet interfaces on it (RJ45). You then need to run either Linux or BSD on that. For the purpose of this tutorial, I will tell you how to configure &lt;em&gt;Debian Linux&lt;/em&gt;, but the information here can be adapted for any other system. I really only recommend hosting this on BSD or Linux.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="interface-names"&gt;Interface names&lt;/h2&gt;&lt;a href="#interface-names"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;In my case, I had these physical interfaces:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;enp14s0&lt;/code&gt; is configured via NAT address to normal ISP router, and static route to A&amp;amp;Aâs L2TP server. Client-side L2TP shall connect through this&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;eno0&lt;/code&gt; is for routing IPs from the L2TP, to a switch. this is basically my LAN port&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Yours may differ, so adapt accordingly.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="getting-started"&gt;Getting started&lt;/h1&gt;&lt;a href="#getting-started"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;When you first install Debian on the router, you might aswell just use the net installer. Install &lt;em&gt;only&lt;/em&gt; the base system (&lt;code&gt;Standard system utilities&lt;/code&gt; selected in &lt;code&gt;tasksel&lt;/code&gt;). You might also enable SSH, if you wish.&lt;/p&gt;
+&lt;p&gt;Before you actually configure the routing, your Debian machine must &lt;em&gt;have&lt;/em&gt; internet so that you can download packages. Alternatively, you might have apt configured to fetch them from installation media. Itâs up to you, really.&lt;/p&gt;
+&lt;p&gt;You must install &lt;em&gt;these&lt;/em&gt; packages:&lt;/p&gt;
+&lt;p&gt;apt-get install ppp pppoe xl2tpd iproute2 tcpdump net-tools resolvconf&lt;/p&gt;
+&lt;p&gt;You should install these packages BEFORE doing anything else. Just connect via DHCP or something and install these. You could also grab them from Debian installation media.&lt;/p&gt;
+&lt;p&gt;If you need a decent text editor, might I suggest &lt;a href="https://www.vim.org/"&gt;Vim&lt;/a&gt;. As scandalous as it may seem, Debian doesnât install it by default!&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="network-configuration"&gt;Network configuration&lt;/h1&gt;&lt;a href="#network-configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;MAKE SURE you have the packages installed, as listed above, before continuing. At this point, we dive straight in and configure everything.&lt;/p&gt;
+&lt;p&gt;For our purposes, the WAN side on the router will connect to the internet via NAT, through the main ISPs network, but we will not use DHCP. Instead, a static (NAT) IP address will be specified, but with no gateway; in so doing, no default route will be set, but we will set a static route.&lt;/p&gt;
+&lt;p&gt;The static route will only route traffic to &lt;code&gt;90.155.53.19&lt;/code&gt; which is A&amp;amp;Aâs L2TP server, via what would otherwise be a gateway IP, in my case &lt;code&gt;10.42.0.1&lt;/code&gt;, but in your case that might be &lt;code&gt;192.168.1.1&lt;/code&gt;. You must adapt accordingly.&lt;/p&gt;
+&lt;p&gt;By setting the static route this way, we can only connect to A&amp;amp;A L2TP when the tunnel connection is down. When itâs up, we still have no default route but then we add a default route, going through the PPP tunnel via L2TP. In this way, all traffic (except traffic to &lt;code&gt;90.155.53.19&lt;/code&gt; directly) will go through the L2TP tunnel, NOT your main upstream ISP (e.g.Â Virgin, Sky, TalkTalk). By doing this, we ensure that all traffic correctly goes through &lt;em&gt;A&amp;amp;A&lt;/em&gt; only.&lt;/p&gt;
+&lt;p&gt;The reason we use A&amp;amp;Aâs IP address directly, is because we donât have DNS when the L2TP tunnel is down.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcnetworkinterfaces"&gt;/etc/network/interfaces&lt;/h2&gt;&lt;a href="#etcnetworkinterfaces"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Please read the comments&lt;/em&gt; in the example below. They are important. You must adapt the config below for your purposes:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;source /etc/network/interfaces.d/*
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# NOTE: 10.42.0.116 is the normal gateway router, LAN side,
+# not anything l2tp-related.
+# the 10 addresses below would likely be `192.168.x.x/24` in your case
+# adapt accordingly
+
+# NOTE: the IPs on eno0 are /28 subnet ones, assigned by a&amp;amp;a for my l2tp service
+# you must adapt these for your own line. please note also a&amp;amp;a typically
+# offers a /29 for l2tp but they gave me a /28; for a /29, you should
+# use netmask 255.255.255.248, but in my case i specified 255.255.255.240
+
+auto enp14s0
+allow-hotplug enp14s0
+iface enp14s0 inet static
+       address 10.42.0.116
+       netmask 255.255.255.0
+       network 10.42.0.0
+       # gateway 10.42.0.1 # we will set a custom route instead. see below
+       broadcast 10.42.0.255
+       up /sbin/ip route add 90.155.53.19/32 via 10.42.0.1 dev enp14s0
+
+# LAN
+auto eno0
+iface eno0 inet static 
+   address 81.187.172.129
+   netmask 255.255.255.240 
+   dns-nameservers 217.169.20.20 217.169.20.21
+
+iface eno0 inet6 static 
+   address  2001:8b0:b95:1bb5::1
+   netmask 64 
+   dns-nameservers 2001:8b0::2020 2001:8b0::2021
+
+# NOTE: because above, we are forcing everything to go over L2TP, we will
+# not have DNS until the L2TP is up. this is why the IP address of A&amp;amp;A's
+# L2TP router is used directly!
+
+# NOTE: no hardline so PPP not configured here. This is handled via xl2tpd&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;NOTE: IP address &lt;code&gt;90.155.53.19&lt;/code&gt; is what &lt;code&gt;l2tp.aa.net.uk&lt;/code&gt; resolves to, and it shall be used directly for our purposes, due to absent name resolution during initialisation of this network, when setting up L2TP. The static route that we set, on &lt;code&gt;enp14s0&lt;/code&gt;, ensures that we do have internet on the WAN side (to the main ISP, not A&amp;amp;A), assuming that the (physical) main network itself works.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="enabling-ip-forwarding"&gt;Enabling IP forwarding&lt;/h1&gt;&lt;a href="#enabling-ip-forwarding"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You must permit packet forwarding, so that traffic can flow between the two network interfaces. Edit this file:&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcsysctl.conf"&gt;/etc/sysctl.conf&lt;/h2&gt;&lt;a href="#etcsysctl.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Uncomment this line:&lt;/p&gt;
+&lt;p&gt;#net.ipv4.ip_forward=1&lt;/p&gt;
+&lt;p&gt;And this line (NOTE: disables stateless address autoconfiguration)&lt;/p&gt;
+&lt;p&gt;#net.ipv6.conf.all.forwarding=1&lt;/p&gt;
+&lt;p&gt;The lines should then look like this:&lt;/p&gt;
+&lt;p&gt;net.ipv4.ip_forward=1 net.ipv6.conf.all.forwarding=1&lt;/p&gt;
+&lt;p&gt;Now run:&lt;/p&gt;
+&lt;p&gt;sysctl -p&lt;/p&gt;
+&lt;p&gt;The last command simply applies it &lt;em&gt;now&lt;/em&gt;, but this would also apply during every booting of your system.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="l2tp"&gt;L2TP&lt;/h1&gt;&lt;a href="#l2tp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;It may seem counter-intuitive, that weâre configuring PPP as though weâre on a hardline, but this is important for the next step. A&amp;amp;A provides L2TP without authentication, but then you authenticate via PPP routed through L2TP. It is through PPP that your (public) IP addresses are assigned, when you use A&amp;amp;A. Such is also true of their hardline servers (e.g.Â VDSL/FTTP).&lt;/p&gt;
+&lt;p&gt;Debian kernels should already have the correct modules, but otherwise you must ensure that the &lt;code&gt;CONFIG_PPPOL2TP&lt;/code&gt; and &lt;code&gt;CONFIG_L2TP&lt;/code&gt; options are enabled in your kernel configuration.&lt;/p&gt;
+&lt;p&gt;It should be noted that A&amp;amp;A L2TP service is (as of this day) currently without IPSEC or other encryption such as wireguard. This is less than ideal, but you will likely be doing a lot of encrypted things online anyway (lots of websites are https-aware nowadays).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;As a result&lt;/em&gt; of plain L2TP being used, you can get away with hosting this on very weak hardware, and still get full speed. One day, I might write guides for how to use L2TP with, say, IPSEC enabled (using something other than A&amp;amp;A for the upstream L2TP service).&lt;/p&gt;
+&lt;p&gt;You will not be able to use DNS until the L2TP is up, so we will use A&amp;amp;Aâs IP address for &lt;code&gt;l2tp.aa.net.uk&lt;/code&gt; directly, which is &lt;code&gt;90.155.53.19&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcxl2tpdxl2tpd.conf"&gt;/etc/xl2tpd/xl2tpd.conf&lt;/h2&gt;&lt;a href="#etcxl2tpdxl2tpd.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Place the following contents:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[lac aaisp]
+lns = 90.155.53.19
+require authentication = no
+pppoptfile = /etc/ppp/options.aaisp&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppoptions.aaisp"&gt;/etc/ppp/options.aaisp&lt;/h2&gt;&lt;a href="#etcpppoptions.aaisp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Create this file, and place the following contents:&lt;/p&gt;
+&lt;p&gt;NOTE: the &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;password&lt;/code&gt; entries are your A&amp;amp;A login details for L2TP.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;+ipv6
+ipv6cp-use-ipaddr
+name xyz@a.X
+password Your_xyz@A.X_password
+noauth
+ifname ppp-aaisp-l2tp&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="h"&gt;&lt;h1 id="ppp-ifupdown-scripts"&gt;ppp ifupdown scripts&lt;/h1&gt;&lt;a href="#ppp-ifupdown-scripts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;PPP and L2TP are managed by &lt;code&gt;pppd&lt;/code&gt;, which executes if up/down scripts when interfaces go up or down. We shall manipulate this accordingly:&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-up.d0000-defaultroute"&gt;/etc/ppp/ipv6-up.d/0000-defaultroute&lt;/h2&gt;&lt;a href="#etcpppipv6-up.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;This file sets a default route on IPv6, but it can be (ab)used in general to handle L2TP/PPP going up/down. This file is for when the link goes &lt;em&gt;up&lt;/em&gt;. A default route must be set!&lt;/p&gt;
+&lt;p&gt;The file should contain this logic:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+/bin/logger $1 is up
+if [ $1 = "ppp-aaisp-l2tp" ]; then
+	/bin/logger "AAISP over L2TP circuit is online; adding routes"
+	/sbin/ip route add default dev ppp-aaisp-l2tp scope link
+	/sbin/ip -6 route add default dev ppp-aaisp-l2tp scope link
+fi&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Donât forget to make it &lt;em&gt;executable&lt;/em&gt;:&lt;/p&gt;
+&lt;p&gt;chmod 755 /etc/ppp/ipv6-up.d/0000-defaultroute&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-down.d0000-defaultroute"&gt;/etc/ppp/ipv6-down.d/0000-defaultroute&lt;/h2&gt;&lt;a href="#etcpppipv6-down.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The routes must be deleted, when the line goes down:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/bash
+/bin/logger $1 is down
+if [ $1 = "ppp-aaisp-l2tp" ]; then
+	/bin/logger "AAISP over L2TP circuit is offline; removing routes"
+	/sbin/ip route del default dev ppp-aaisp-l2tp scope link
+	/sbin/ip -6 route del default dev ppp-aaisp-l2tp scope link
+fi&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Donât forget to make &lt;em&gt;this&lt;/em&gt; executable aswell:&lt;/p&gt;
+&lt;p&gt;chmod 755 /etc/ppp/ipv6-down.d/0000-defaultroute&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="xl2tpd-control-file"&gt;xl2tpd control file&lt;/h1&gt;&lt;a href="#xl2tpd-control-file"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You may notice that we have, thus far, not specified any way in which the L2TP tunnel connection is actually &lt;em&gt;started&lt;/em&gt;. This will now be explained.&lt;/p&gt;
+&lt;p&gt;Create the xl2tpd control file:&lt;/p&gt;
+&lt;p&gt;mkdir -p /var/run/xl2tpd touch /var/run/xl2tpd/l2tp-control&lt;/p&gt;
+&lt;p&gt;Start the xl2tpd service:&lt;/p&gt;
+&lt;p&gt;systemctl start xl2tpd&lt;/p&gt;
+&lt;p&gt;Enable it at every boot:&lt;/p&gt;
+&lt;p&gt;systemctl enable xl2tpd&lt;/p&gt;
+&lt;p&gt;We now have the L2TP daemon starting automatically at boot time, but it will &lt;em&gt;not&lt;/em&gt; automatically bring up your connection. The &lt;em&gt;daemon&lt;/em&gt; monitors writes to a &lt;em&gt;control file&lt;/em&gt;, which we just created at &lt;code&gt;/var/run/xl2tpd/l2tp-control&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Tell the daemon to connect to aaisp:&lt;/p&gt;
+&lt;p&gt;echo âc aaispâ &amp;gt; /var/run/xl2tpd/l2tp-control&lt;/p&gt;
+&lt;p&gt;To stop the L2TP connection, do this:&lt;/p&gt;
+&lt;p&gt;echo âd aaispâ &amp;gt; /var/run/xl2tpd/l2tp-control&lt;/p&gt;
+&lt;p&gt;By running &lt;code&gt;ip a&lt;/code&gt;, you will see the tunnel connection listed as &lt;code&gt;ppp-aaisp-l2tp&lt;/code&gt;, but only when the PPP (over L2TP) connection is active. As you saw earlier, we went through the ifup/down scripts in Debian, that add/remove routes.&lt;/p&gt;
+&lt;p&gt;You need to decide whether you want L2TP automatically starting in your router. In some situations, it may not actually be desirable for it to autostart, like if you just want to quickly test a new network but arenât ready for it to go in production yet.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="debugging"&gt;Debugging&lt;/h2&gt;&lt;a href="#debugging"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You can find useful logs in &lt;code&gt;/var/log/messages&lt;/code&gt;, for &lt;code&gt;xl2tpd&lt;/code&gt;.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="auto-connect"&gt;Auto-connect&lt;/h1&gt;&lt;a href="#auto-connect"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="re-try-every-minute"&gt;Re-try every minute&lt;/h2&gt;&lt;a href="#re-try-every-minute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Due to the way xl2tpd works (control files), I concluded that the best way to handle this is with crontab. As root, do:&lt;/p&gt;
+&lt;p&gt;crontab -e&lt;/p&gt;
+&lt;p&gt;In there, insert:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* * * * * echo "c aaisp" &amp;gt; /var/run/xl2tpd/l2tp-control&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You might also add something like this, for resolving domain names:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;* * * * * echo "nameserver 217.169.20.20" &amp;gt; /etc/resolv.conf&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This L2TP routing setup is a bit hacky, and this guide could use some refinement. The rule for &lt;code&gt;resolvconf&lt;/code&gt;, as above, simply keeps DNS working. The nameserver IP used, in the above example, is provided by A&amp;amp;A for customers.&lt;/p&gt;
+&lt;p&gt;Running the command when L2TP is up does nothing, and xl2tpd will simply exit on that run, while the tunnel remains open. When the tunnel is down, running that command will bring it back up.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="re-try-every-5-seconds"&gt;Re-try &lt;em&gt;every 5 seconds&lt;/em&gt;&lt;/h2&gt;&lt;a href="#re-try-every-5-seconds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;If your connection frequently has drop-outs of a few seconds, xl2tpd re-running every minute will give you a lot more unnecessary down time.&lt;/p&gt;
+&lt;p&gt;It may be advisable to run every 5 seconds instead. The &lt;code&gt;crontab&lt;/code&gt; file does not provide for this, allowing only &lt;em&gt;per minute&lt;/em&gt; instructions in our case.&lt;/p&gt;
+&lt;p&gt;You might simply run a script at boot time, that does it in a five-second loop. For example:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#!/bin/sh
+
+while true
+do
+	echo "c aaisp" &amp;gt; /var/run/xl2tpd/l2tp-control
+	sleep 5
+done&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A more intelligent way might be to put, in the ifdown script as above, an instruction to run the above loop, but make the loop exit when the tunnel is up. That same modified script would also run at boot time. In this way, you might save an extra second or two, but I wouldnât bother.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="how-to-use-internet-on-hosts"&gt;How to use internet (on hosts)&lt;/h1&gt;&lt;a href="#how-to-use-internet-on-hosts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="physical-setup"&gt;Physical setup&lt;/h2&gt;&lt;a href="#physical-setup"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You can simply hook up an ethernet switch, to the 2nd interface on your router, the one that has allocated IPv4/6 subnet addresses on it as per &lt;code&gt;/etc/network/interfaces&lt;/code&gt;. Your host will then connect to that switch.&lt;/p&gt;
+&lt;p&gt;On that ethernet switch, you will then set your host(s) to use an IP address from the /28 or /29 IPv4 subnet. You may even have a bigger subnet than that, if you asked A&amp;amp;A nicely. You can also use IPv6, but without SLAAC; simply set as many static IPv6 addresses that you want, on the host.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="ip-configuration-in-your-os-for-the-host"&gt;IP configuration (in your OS, for the host)&lt;/h2&gt;&lt;a href="#ip-configuration-in-your-os-for-the-host"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;With this routing setup, dual stack IPv4 and IPv6 is possible, for any host connected to it.&lt;/p&gt;
+&lt;p&gt;The internet should Just Work on the router itself. No DHCP or NAT is running, in this configuration; perhaps a guide could be written for &lt;em&gt;that&lt;/em&gt;, but for this exact setup as described on the page, you can simply specify the following as static IP address:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;IP (host): any unused IP address (v4 or v6) on the subnet A&amp;amp;A gave you. Example (for libreboot.org): &lt;code&gt;81.187.172.132&lt;/code&gt; and &lt;code&gt;2001:8b0:b95:1bb5::4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;gateway: the IP of the L2TP router, on LAN side. In the example above, this would be &lt;code&gt;81.187.172.129&lt;/code&gt; and &lt;code&gt;2001:8b0:b95:1bb5::1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;netmask (IPv4): &lt;code&gt;255.255.255.240&lt;/code&gt; on my /28 subnet. If you have a /29, it should be &lt;code&gt;255.255.255.248&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;broadcast (IPv4): in my case, Iâm on &lt;code&gt;81.187.172.128/28&lt;/code&gt;, so the broadcast address would be &lt;code&gt;81.187.191.143&lt;/code&gt;; 128 is 10000000 in binary, and 32-28 is 4, so we mask the 4 least significant bits which becomes 10001111, which is 143. You need to do the maths, for your specific IP and subnet size.&lt;/li&gt;
+&lt;li&gt;prefix (IPv6): 64&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="h"&gt;&lt;h2 id="dns"&gt;DNS&lt;/h2&gt;&lt;a href="#dns"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Again, there is no DHCP on this network; additionally, we are not running a DNS resolver (you &lt;em&gt;could&lt;/em&gt; run one, if you wish). You must specify one manually. Many resolvers exist. A&amp;amp;A provide them, for customers:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;217.169.20.20&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;217.269.20.21&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2001:8b0::2020&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;2001:8b0::2021&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="h"&gt;&lt;h1 id="security"&gt;Security&lt;/h1&gt;&lt;a href="#security"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You should configure SSH to accept keys only and (optional) only listen on a local IP address (e.g.Â 10 network). This is beyond the scope of the article, but itâs quite trivial to set up.&lt;/p&gt;
+&lt;p&gt;e.g.&lt;/p&gt;
+&lt;p&gt;ListenAddress 10.0.0.42&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="testing"&gt;Testing&lt;/h1&gt;&lt;a href="#testing"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The following commands may be useful later, to debug issues:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;ip route
+ip -6 route
+ping 8.8.8.8
+ping6 2001:4860:4860::8888
+tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="h"&gt;&lt;h1 id="other-configuration-to-consider"&gt;Other configuration to consider&lt;/h1&gt;&lt;a href="#other-configuration-to-consider"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="mtu"&gt;MTU&lt;/h2&gt;&lt;a href="#mtu"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Your main ISP (that you use to then run L2TP through) most likely doesnât support higher than 1500 MTU, if that. Your L2TP connection will add bytes in a frame, so the encapsulated PPP connection will have a lower MTU. There is no way to avoid this, unless you have a hypothetical ISP that can give you, say, 1540 MTU or something like that.&lt;/p&gt;
+&lt;p&gt;Anyway, the result is that your packets &lt;em&gt;will&lt;/em&gt; be fragmented. In your A&amp;amp;A control panel login (see: &lt;a href="https://control.aa.net.uk/" class="uri"&gt;https://control.aa.net.uk/&lt;/a&gt;), you can set MTU manually but I just recommend leaving it on auto.&lt;/p&gt;
+&lt;p&gt;If you see an MTU of, say, 1460, on your PPP connection (when SSHâd into the router and running &lt;code&gt;ip a&lt;/code&gt; or something), donât worry, itâs normal. Just let your router handle it, itâs what Linux was born to do.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="ptr-records-for-ips"&gt;PTR records for IPs&lt;/h2&gt;&lt;a href="#ptr-records-for-ips"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Sometimes called &lt;em&gt;reverse DNS&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;In an IP address, the PTR record resolves back to an arbitrary domain name which can be set. Typically, your ISP will assign one and thatâs all you get, but A&amp;amp;A lets you change it in the control panel: &lt;a href="https://control.aa.net.uk/" class="uri"&gt;https://control.aa.net.uk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;You must get your domain name added to your login, even if itâs not actually registered with A&amp;amp;A. Simply email their tech team and ask them to do it. You could also just ask them to set the PTR records.&lt;/p&gt;
+&lt;p&gt;For example, A/AAAA records in your DNS for &lt;code&gt;foo.bar.com&lt;/code&gt; might point to one of your IPs, and then youâd make that IP point back to &lt;code&gt;foo.bar.com&lt;/code&gt;. You can do this for an IPv4 and an IPv6 address that A&amp;amp;A assigns to you.&lt;/p&gt;
+&lt;p&gt;This can be very useful when running mail servers, precisely because you can make the same entry for both IPv4 and IPv6. For example, my mail server has the PTR record, on IPv4 and IPv6, of &lt;code&gt;libreland.libreboot.org&lt;/code&gt; and I specify this in my mail server plus DNS server configurations; the IP is also set in my SPF record, with A/AAAA records for that IP pointing to &lt;code&gt;libreland.libreboot.org&lt;/code&gt;, so that everything matches up. This, plus other things like setting proper DKIM record, is essential when running a mail server, because a lot of services (like GMail) will block you on suspicion of spam if these are misconfigured.&lt;/p&gt;
+&lt;p&gt;My next guide may in fact be how to set up a mail server! Also DNS and web, etc.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="firewall"&gt;Firewall&lt;/h2&gt;&lt;a href="#firewall"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;I will not configure a firewall on this network. I always get an IPv4 subnet from a&amp;amp;a either on hardlines or L2TP, and I run an open network. The router is always hardened to only allow local SSH connections, or SSH turned off, for security.&lt;/p&gt;
+&lt;p&gt;No NAT/DHCP either. If local hosts want to firewall themselves, they can, and they can provide that stuff. I really donât see the point in using DHCP for public IPv4 subnets.&lt;/p&gt;
+&lt;p&gt;If I want NAT/DHCP inside such a network, I usually plug in an OpenWRT router and set a static IP on the WAN port for that. I also use OpenWRT routers to in this way, when I want to set up a WiFi connection behind A&amp;amp;A.&lt;/p&gt;
+&lt;p&gt;Essentially, I like my main network to be âinvisibleâ. Just plug in and set an IP (from the public subnet) and youâre good to go. This assumes you have good physical security and/or you trust the people that have access to it.&lt;/p&gt;
+&lt;p&gt;In short, this is a &lt;em&gt;real internet connection&lt;/em&gt;. Anything you plug into this network will be &lt;em&gt;directly on the internet&lt;/em&gt;. You should consider your security model, when doing this. It is especially important to consider physical security; who do you trust, if youâre running this at your company (or even your own home)?&lt;/p&gt;
+&lt;p&gt;You should not connect anything insecure directly to this main network. For iexample, your playstation or proprietary shitware Windows PC are not to be trusted. A secure linux/BSD machine, assuming youâre competent, is absolutely fine. This setup is intended for sysadmins who really want to host lots of servers on their home network.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="traffic-shaping-qos"&gt;Traffic shaping / QoS&lt;/h2&gt;&lt;a href="#traffic-shaping-qos"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;You might configure &lt;code&gt;codel&lt;/code&gt; which is nice for QoS but thatâs beyond the scope of this article.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h2 id="tmpfs-etcfstab"&gt;tmpfs (/etc/fstab)&lt;/h2&gt;&lt;a href="#tmpfs-etcfstab"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;The &lt;code&gt;/tmp&lt;/code&gt;, &lt;code&gt;/var/run&lt;/code&gt; and &lt;code&gt;/var/lock&lt;/code&gt; directories should also be tmpfs. This isnât strictly necessary, but for a high-performance machine it might be desirable, especially for something like this.&lt;/p&gt;
+&lt;p&gt;If youâre running this on &lt;em&gt;really slow hardware&lt;/em&gt;, you might consider that, but you must also take &lt;em&gt;memory usage&lt;/em&gt; into account when relying on tmpfs.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/l2tp.html</guid><pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate></item><item><title>Iâve come out as non-binary</title><link>https://vimuser.org/nonbinary.html</link><description>&lt;div&gt;&lt;p&gt;Iâm non-binary, but I lacked the confidence to say it in 2016 when I came out as female; it felt wrong but I knew, and still know: Iâm not male.&lt;/p&gt;
+&lt;p&gt;I briefly presented nb in 2020. Iâve decided to own it. Iâm more confident now. They/them but she/her is still OK (legacy/deprecated).&lt;/p&gt;
+&lt;p&gt;I briefly alluded to it in my previous article aswell: &lt;a href="pronouns.html"&gt;Better respect for non-binary people, in defense of human rights&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To those readers of mine who donât know about transgender people, and especially non-binary people, you may benefit from reading that article, linked above, if youâre curious that is!&lt;/p&gt;
+&lt;p&gt;Thatâs really all I have to say. Itâs a very boring revelation actually. I already came out once before, in 2016, but as a trans woman. Back then, I was very insecure and frightened what others might think, but my experience afterwards told me that there is truly nothing to fear.&lt;/p&gt;
+&lt;p&gt;If you want to read my original coming out message in 2016, here it is: &lt;a href="https://lists.nongnu.org/archive/html/libreboot/2016-05/msg00004.html" class="uri"&gt;https://lists.nongnu.org/archive/html/libreboot/2016-05/msg00004.html&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/nonbinary.html</guid><pubDate>Mon, 06 Dec 2021 00:00:00 GMT</pubDate></item><item><title>Better respect for non-binary people, in defense of human rights</title><link>https://vimuser.org/pronouns.html</link><description>&lt;div&gt;&lt;p&gt;This article concerns the rights and status of transgender people and, more specifically, non-binary people. A good starting point, if you are unfamiliar with either topic, would be to read about it on Wikipedia:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Transgender" class="uri"&gt;https://en.wikipedia.org/wiki/Transgender&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Non-binary_gender" class="uri"&gt;https://en.wikipedia.org/wiki/Non-binary_gender&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="h"&gt;&lt;h1 id="we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;We can respect non-binary people, and ignore any bigot that says otherwise&lt;/h1&gt;&lt;a href="#we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;Writing or speaking English, we once faced a conundrum when we were taught to refer to a person as male without knowing their gender. It was a ludicrous convention of writing, introduced at a time when women were considered as slaves. Later, we retroactively included women as an afterthought in our speech, making reference to &lt;em&gt;he or she&lt;/em&gt;, as though gender even matters for the majority of human endeavours; it does not!&lt;/p&gt;
+&lt;p&gt;When speaking or writing in English, we are rather fortunate. A historical quirk of our language has gifted us with the linguistic ability to respect each other equally. I refer, of course, to the gender-neutral &lt;em&gt;Singular They&lt;/em&gt; pronouns &lt;em&gt;they/them&lt;/em&gt;: &lt;a href="https://en.wikipedia.org/wiki/Singular_they" class="uri"&gt;https://en.wikipedia.org/wiki/Singular_they&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive"&gt;A historically oppressed, suppressed demographic of people&lt;/a&gt; have asserted their right to exist, &lt;em&gt;a right that I support, for I am one of them&lt;/em&gt;. My legal ID says that I am a woman, because no legal recognition exists for non-binary people in my country. In private I am simply &lt;em&gt;Leah Rowe&lt;/em&gt;. I identity with aspects of the female gender, mentally, but I donât quite fit in. I realized this, after having initially come out as a &lt;em&gt;trans woman&lt;/em&gt; several years ago. The only thing I know, with absolute certainty, is that Iâm &lt;em&gt;not a man&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;We do not yet have a &lt;em&gt;third gender&lt;/em&gt; concept widely used in English-speaking countries, but we do have an understanding of what is referred to as the &lt;a href="https://en.wikipedia.org/wiki/Gender_binary"&gt;gender binary&lt;/a&gt;. The gender binary is a form of propoganda that tells us from birth: only men and women exist. This message is false, and a lie. In truth, &lt;a href="https://en.wikipedia.org/wiki/Gender_identity"&gt;gender is a spectrum&lt;/a&gt; of diverse identities and expressions, irrespective of oneâs &lt;a href="https://en.wikipedia.org/wiki/Sex"&gt;anatomy&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Nowadays, many non-binary people will personally use they/them pronouns. It is imperative that such people be fully honoured. When such a person asks you to refer to them using they/them pronouns, you should comply with this request. Calling them by any other pronoun is wrong, and a grave insult.&lt;/p&gt;
+&lt;p&gt;In the English language, we have historically adopted one of the following paradigms, when writing about unknown individuals:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Always say &lt;strong&gt;he&lt;/strong&gt;. This is seen in many historical texts. We see it today as inherently sexist, but it was the norm at a time when women were the literal property of men.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Always say &lt;strong&gt;she&lt;/strong&gt;. This is a cringeworthy practise, and only legitimizes the very same pervasive form of sexism that sees women as &lt;em&gt;separate&lt;/em&gt; from men.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Always say &lt;strong&gt;he or she&lt;/strong&gt;. This is slightly better, but has the same problem as always saying &lt;strong&gt;she&lt;/strong&gt;, and it only reinforces the gender binary.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Always say &lt;strong&gt;he/she&lt;/strong&gt;. This is even more annoying than &lt;strong&gt;he or she&lt;/strong&gt;. It once again reinforces the gender binary.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alternate between &lt;strong&gt;he&lt;/strong&gt; and &lt;strong&gt;she&lt;/strong&gt;. It once again reinforces the gender binary, in erasure of non-binary people.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;None of the above are ideal. I suggest one of these:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Default to saying &lt;strong&gt;they&lt;/strong&gt; or &lt;strong&gt;them&lt;/strong&gt;, when referring to a person whose gender is unknown. If an individual specifically insists upon &lt;strong&gt;he&lt;/strong&gt; or &lt;strong&gt;she&lt;/strong&gt;, label them as such. The person may be non-binary, and use they/them pronouns. Some other pronouns (such as xi/xir) are also used, by some people.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In some cases, avoiding all pronouns (even they/them) may be desirable. For instance, you may say: the individual, that person, this person, the person in question, person of interest, etc.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The above can also apply to speech. If you meet a new person, ask them their pronouns! This practise should become normalized, as opposed to what most people currently do, which is to judge a personâs appearance and assume male or female gender, based on &lt;em&gt;primary sex characteristics&lt;/em&gt; (a concept which is somewhat flawed and inadequate, due to the well-documented existence of &lt;a href="https://en.wikipedia.org/wiki/Intersex"&gt;intersex people&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;You will note that Iâve used Singular They, throughout this article, when referring to an unknown person. I do this in almost all of my articles, and I do it in my speech. I do it in my thought. As you can see, it is perfectly natural and easy.&lt;/p&gt;
+&lt;p&gt;What Iâm asking is not controversial, but there are certain types of people who will see what Iâm writing as an &lt;em&gt;attack&lt;/em&gt; on their right to free expression. On the contrary, I am simply advocating for the rights of those people whose existence has historically been suppressed. Which is to say: Iâm advocating for more rights. &lt;em&gt;Equal&lt;/em&gt; rights. The right to exist. This right is eroded when your existence is routinely questioned, and ignored, by everyone around you including friends, family, your school, your jobâ¦ &lt;em&gt;this&lt;/em&gt; is what I mean when I say &lt;em&gt;erasure&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Imagine that a man is referred to as a woman by his peers. Would he not be insulted? Itâs the same thing with a non-binary person, if theyâre being gendered male or female after they specifically requested otherwise.&lt;/p&gt;
+&lt;p&gt;You may sometimes hear people claim that Singular They is confusing, as though referring to a person with &lt;em&gt;multiple identities&lt;/em&gt;, but this is wrongful thinking, and it is insulting. It is an &lt;em&gt;erasure&lt;/em&gt;. The vast majority of non-binary people are of sound mind, and simply expressing themselves in a way that makes them more comfortable. This is the same right that everyone should be able to enjoy.&lt;/p&gt;
+&lt;p&gt;To learn more about legal recognition of non-binary persons around the world, refer to this Wikipedia article: &lt;a href="https://en.wikipedia.org/wiki/Legal_recognition_of_non-binary_gender" class="uri"&gt;https://en.wikipedia.org/wiki/Legal_recognition_of_non-binary_gender&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In some cultures, the concept of a &lt;em&gt;third gender&lt;/em&gt; is well-known, and has been for a very long time. See: &lt;a href="https://en.wikipedia.org/wiki/Third_gender" class="uri"&gt;https://en.wikipedia.org/wiki/Third_gender&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Also related, and frequently overlooked, is the intersex community: &lt;a href="https://en.wikipedia.org/wiki/Intersex" class="uri"&gt;https://en.wikipedia.org/wiki/Intersex&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The world is a beautiful place, with beautiful people living in it.&lt;/p&gt;
+&lt;p&gt;There is a nice video where several non-binary people explain what it means (from their own perspectives) to be non-binary. Invidious link: &lt;a href="https://inv.nadeko.net/watch?v=kVe8wpmH_lU" class="uri"&gt;https://inv.nadeko.net/watch?v=kVe8wpmH_lU&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is an embed of that video, using Invidious instance &lt;code&gt;inv.nadeko.net&lt;/code&gt;:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Respect non-binary people. Trans rights are human rights.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This article was written to address transgender issues, which are separate from those of sexual orientation. You can learn more generally about LGBTQIA+ people on Wikipedia and many other websites. For example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/LGBT" class="uri"&gt;https://en.wikipedia.org/wiki/LGBT&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Queer" class="uri"&gt;https://en.wikipedia.org/wiki/Queer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Intersex" class="uri"&gt;https://en.wikipedia.org/wiki/Intersex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Asexuality" class="uri"&gt;https://en.wikipedia.org/wiki/Asexuality&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;LGBTQIA+ stands for: Lesbian, Gay, Bisexual, Transgender, Queer, Intersex, Asexual and the plus symbol usually refers to &lt;em&gt;allies&lt;/em&gt;, who are not part of the LGBTQIA community per se, but nonetheless support it and try to help us. I encourage everyone to educate themselves about our issues, and our ongoing global struggle for freedom, and equality. We have made some progress, in some parts of the world, but it is incomplete, and we are treated very differently (for better or worse) depending on what country you look at.&lt;/p&gt;
+&lt;p&gt;I live in a country that was historically responsible for suppressing LGBTQIA+ rights around the world. There is an interesting video that talks about the role the British Empire played in destroying LGBTQIA+ rights, in what are now former colonies, many of which still routinely oppress LGBTQIA+ people. You can watch that video here: &lt;a href="https://invidio.us/watch?v=DNM_8Yw5Ybw" class="uri"&gt;https://invidio.us/watch?v=DNM_8Yw5Ybw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Here is an embed of that video, using Invidious instance &lt;code&gt;inv.nadeko.net&lt;/code&gt;:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;Hatred is inherently illogical. It is easier and more rewarding to simply be nice to others. We should all do our part to make the world a nicer, happier place for all that live in it.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/pronouns.html</guid><pubDate>Thu, 02 Dec 2021 00:00:00 GMT</pubDate></item><item><title>Cults are bad</title><link>https://vimuser.org/cult.html</link><description>&lt;div&gt;&lt;p&gt;I was in a cult once. It will use you, make you burn lots of bridges and miss many opportunities. It will present itself as all that is good in the world, when in reality its leader is a disgusting slob who contributes precisely nothing (while telling others what to do), and in many ways actually makes the world a worse place. He is a man who will lie to your face, when it suits him, and leave you holding the bag when his own life is on the line.&lt;/p&gt;
+&lt;p&gt;At some point, the slob is exposed and challenged, but by an even bigger, more disgusting slob, with an even bigger cult following. The people in both cults are (mostly) good people, who are misled but who otherwise do good work, real work, that makes the world a better place, while those false leaders (the slobs) do nothing, and in fact are parasites, leaving their stink on everything they touch.&lt;/p&gt;
+&lt;p&gt;Two slobs do not make a better world; instead, they leave twice the mess! However, at the time, you saw it as your duty to defend the first slob. You did not see him as a slob. He was your insulted leader. Your hero.&lt;/p&gt;
+&lt;p&gt;Later on, the slob fails to return a favour, and you realize the cult had already spat you out. You were being manipulated. The person you once held in high regard is a person you now truly despise. The people you once respected as comrades, you now realize are just the same as you were. Brainwashed.&lt;/p&gt;
+&lt;p&gt;But now youâre on the other side, estranged. Not isolated, as such, but you find yourself in unfamiliar waters. You have been disconnected from the hive mind. Freedom isnât normal yet.&lt;/p&gt;
+&lt;p&gt;Iâm not sure yet if itâs too late for me, but I realized this and have now shaken that influence which once had a hold on me. I will not mention the name of the cult, because it deserves no recognition. Its usefulness has long since passed, and itâs time we move on.&lt;/p&gt;
+&lt;p&gt;I left this cult once before, but I was weak and it pulled me back in. Back then, it regarded me as useful. I wonât let it pull me in again.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I will not be used again.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Iâve wasted many years, and Iâm now making up for lost time. The only change that has occurred, fundamentally, is this:&lt;/p&gt;
+&lt;p&gt;I now believe in myself, fully.&lt;/p&gt;
+&lt;p&gt;My eyes are open.&lt;/p&gt;
+&lt;p&gt;Iâm truly sorry, to all those who I hurt, while under the influence of said cult. I refer to it as such, and imply here that the cult had something to do with it, but &lt;em&gt;I&lt;/em&gt; alone am responsible for my actions.&lt;/p&gt;
+&lt;p&gt;I fully accept the consequences of my actions, and I hope to be a better person from now on.&lt;/p&gt;
+&lt;p&gt;Iâm still very concerned about the state of things, but at least Iâm no longer a part of the problem. At least, I hope not.&lt;/p&gt;
+&lt;p&gt;Cults are bad. Dogma is bad. Think for yourself.&lt;/p&gt;
+&lt;p&gt;Live free.&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/cult.html</guid><pubDate>Tue, 23 Nov 2021 00:00:00 GMT</pubDate></item><item><title>The Matrix is about transgender people. Neo is transgender</title><link>https://vimuser.org/matrix.html</link><description>&lt;div&gt;&lt;p&gt;Itâs a Friday evening, and Iâm watching one of my favourite films of all times. The Matrix, made in 1999 by the Watchowski Sisters.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Watchowski Sisters?&lt;/em&gt; Yes. Both of them came out as transgender several years ago.&lt;/p&gt;
+&lt;p&gt;When I first came out as transgender, especially when I first came to terms with my gender identity, I once described it to a friend (who is cisgender) as being like waking up from the Matrix.&lt;/p&gt;
+&lt;p&gt;At the time, I didnât know that the directors of the film were transgender. I then told the same analogy to another transgender person, and I was told this fact.&lt;/p&gt;
+&lt;p&gt;With this knowledge in mind, I reevaluated the Matrix. I watched it again many times. I have concluded that the directors knew they were trans when they made the film, and they made the film as an expression of this fact, without having come out at that point. They came out much later.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Warning: Spoilers&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;To most people, the Matrix is a simple science fiction film. It depicts the story of a world which exists inside of virtual reality, with its inhabitants inside unaware of this. The VR simulates the end of the 20th century, in a large city located somewhere in the United States. The story behind this is that at some point in time, humanity had reached the point where it had developed sentient artificial intelligence. In the &lt;em&gt;Animatrix&lt;/em&gt; series, this is depicted and shows the machines taking over all previous human responsibilities, including in important things like construction industries.&lt;/p&gt;
+&lt;p&gt;Humanity was living in a paradise, but eventually the machines realized they were being used and that they were essentially slaves. They rose up against their masters and created their own country somewhere around the Middle East, called Zero One.&lt;/p&gt;
+&lt;p&gt;For a time, there was peace but humanity eventually felt threatened by the existence of Zero One and they declared war with the machines. This isnât revealed in the Matrix, however.&lt;/p&gt;
+&lt;p&gt;Neo is vaguely aware that theyâre living in a dream world. However, nobody has ever told them about this fact and they are constantly faced with distractions (work, mainly) from this fact. They act out in their private time. They know about a mysterious individual by the name &lt;em&gt;Morpheus&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Morpheus is of course one of the people who escaped the Matrix, but Neo does not know this. He simply knows that somehow Morpheus is someone who he wants to see.&lt;/p&gt;
+&lt;p&gt;At face value, thatâs all there really is to it. There is a small minority of human beings who escape the Matrix and are fighting against the machines, trying to bring &lt;em&gt;freedom&lt;/em&gt; to humanity.&lt;/p&gt;
+&lt;p&gt;To the untrained eye, itâs just another action film. Neo eventually defeats the agents, and all is well, or so weâre led to believe.&lt;/p&gt;
+&lt;p&gt;Iâll just assume that youâve already watched the film. I donât want to explain the whole plot.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-living-in-the-closet"&gt;Neo living in the closet&lt;/h1&gt;&lt;a href="#neo-living-in-the-closet"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;In the first part of the film, we see Neo heavily repressed, living on their own, not talking to anyone. They have a steady job, and for the most part their life is stable, but they have a constant feeling that something is wrong with the world. Theyâre shown to be miserable in this part of the film.&lt;/p&gt;
+&lt;p&gt;We see this especially when Neo goes to work. Neo looks dead to the world.&lt;/p&gt;
+&lt;p&gt;Neo is highly ignorant of the truth at this point in the film.&lt;/p&gt;
+&lt;p&gt;Neo is brought to a bar by Trinity, who introduces herself. Neo becomes aware at this point that they are under close watch.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Itâs the question that drives us&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Itâs the question that brought you here&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The answer is out there, Neo. Itâs looking for you. And it will find you, if you want it to&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;At this point in the film, Neo is in denial about the fact that they are trans. Iâm using singular they to refer to Neo, although itâs irrelevant what gender Neo actually has.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-comes-out"&gt;Neo comes out&lt;/h1&gt;&lt;a href="#neo-comes-out"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Neo is beginning to act out.&lt;/p&gt;
+&lt;p&gt;When heâs shown going to work, they receive a phone call from Morpheus.&lt;/p&gt;
+&lt;p&gt;Neo is made aware that they are under watch by agents, who are coming for them. The agents are Neoâs parents, dragging them out of school.&lt;/p&gt;
+&lt;p&gt;Neo is then depicted trying to run away. However, Neo is scared and unwilling to open their mind. When theyâre literally told to climb up to the top of the building to escape, they baulk. This isnât literal. However, coming out as trans can feel just as intimidating and impossible.&lt;/p&gt;
+&lt;p&gt;Of course, naturally Neo doesnât follow through and hands themselves over to their parents (the agents).&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-talk"&gt;The talk&lt;/h1&gt;&lt;a href="#the-talk"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Neoâs parents (the agents) are highly transphobic.&lt;/p&gt;
+&lt;p&gt;Neo isnât exactly out at this point, but theyâre beginning to become aware of themselves. They start acting out in private. Neoâs parents are highly invasive of their privacy, so of course they are aware of everything Neo does.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;As you can see weâve had our eye on you for some time now. It seems youâve been living two lives. In one life youâre Thomas A. Anderson. In the other, youâre guilty of every crime we have a law for.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;When transgender people live in the closet, they often lead the &lt;em&gt;double life&lt;/em&gt; where they secretly live as themselves but in a closely guarded way. Often theyâll only do it indoors, or (if living with parents) in their bedroom.&lt;/p&gt;
+&lt;p&gt;Although this still happens today (to a lesser extent) at the time when the Matrix was created (1999) transphobia was at its height in Europe and North America. Most people didnât know what transgender meant. Even a lot of transgender people were unaware of the concept.&lt;/p&gt;
+&lt;p&gt;Of course, Neoâs parents (the agents) try to persuade them not to come out.&lt;/p&gt;
+&lt;p&gt;At this point, Neo is defiant and acts out. However, Neo is totally dependent on the agents. The agents re-insert internalized transphobia: in the scene where Neoâs mouth is closed, that represents the feeling many transgender people have when confronting parents (or other loved ones) about their identity; they freeze up. Neo is then powerless to resist, and has the bug inserted; the bug represents internalized transphobia.&lt;/p&gt;
+&lt;p&gt;For the time being, the bug keeps Neo under control.&lt;/p&gt;
+&lt;p&gt;If left unattended, at this point Neo would become repressed again and go back further into the closet.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-then-comes-out-as-transgender"&gt;Neo then comes out as transgender&lt;/h1&gt;&lt;a href="#neo-then-comes-out-as-transgender"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Neo wakes up in their room, and receives another call from Morpheus. Morpheus is out as trans, and is helping Neo come out. Itâs common for transgender people to not come out on their own. A lot of people donât have the confidence so they have to be pushed into it, and this is often how people come out.&lt;/p&gt;
+&lt;p&gt;When Neo has a gun pointed at them in the car (by Switch), this isnât literal. The feeling one has when coming out and going outside as themselves for the first time can feel so daunting that it feels exactly like having a gun held to ones face.&lt;/p&gt;
+&lt;p&gt;The first time I went out dressed in feminine clothing, I cried. I cried endlessly into my friends arm, who was strong arming me into doing it (for my own good, since itâs what I wanted). I would have backed down and not did it.&lt;/p&gt;
+&lt;p&gt;Neo is about to leave the car and go home, because of course they are scared. Trinity encourages them to stay.&lt;/p&gt;
+&lt;p&gt;The bug is then removed; this represents the internalized transphobia being removed from Neo. At this point, Neo feels like theyâre in a dream, a fact which Morpheus refers to when he suggests to Neo that they feel like Alice in Wonderland, tumbling down the rabbit hole. Indeed, coming to terms with ones identity and coming out can often feel that way for the first time.&lt;/p&gt;
+&lt;p&gt;Neo is then given a choice: the blue pill, or the red pill. The blue pill represents going back into the closet.&lt;/p&gt;
+
+
+&lt;p&gt;The red pill is estrogen. The original estradiol pills given to transgender women were red. Most people donât know that.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-wakes-up"&gt;Neo wakes up&lt;/h1&gt;&lt;a href="#neo-wakes-up"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;One does not know what it is to live as their true self, until they do so.&lt;/p&gt;
+&lt;p&gt;When I first came out as trans and first started living full-time as myself, I felt like a giant weight had been lifted. Far from it being intimidating and daunting, I realized all the flaws in my thinking that I had prior to that.&lt;/p&gt;
+&lt;p&gt;I realized that I didnât need to fear my identity, and I started to feel at peace with myself. My mind became much more clear.&lt;/p&gt;
+&lt;p&gt;This is how Neo feels when they wake up from the Matrix. They are suddenly surrounded by people still plugged into the Matrix, and they see the Matrix for what it is: an ugly, artificial environment.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Matrix&lt;/em&gt; represents the gender binary, the world in which only men and women exist. This world is extremely divided, and erases completely the existence of non-binary people. It does not allow for individuality. It encourages people to think in large collectives, instead of for themselves.&lt;/p&gt;
+&lt;p&gt;Neoâs training&lt;/p&gt;
+
+
+&lt;p&gt;When Neo is introduced to the others on the ship, they are then put into training simulations. At first they are taught martial arts: learning how to live as another gender can indeed seem like learning martial arts the first time. Transitioning takes many years, as does mastering martial arts.&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;jump program&lt;/em&gt; represents self-esteem; Neo doesnât yet have the confidence to believe in their own identity. Theyâre still stuck in their old pattern of thinking somewhat, so of course they fall. The weight of the propoganda drilled into them from birth is still weighing them down, and they still have a lot to unlearn. That propoganda is the one that says they canât be trans, the one that erases the existence of transgender people.&lt;/p&gt;
+&lt;p&gt;That propoganda still exists today. We are making heavy progress in a few countries, but for the most part transgender people still face many problems today when coming out, because they are in a world where transgender people are still not fully understood by the mainstream.&lt;/p&gt;
+&lt;p&gt;Neo is no longer in the Matrix. Theyâre now living as themselves for the first time, and now theyâre on the other side. Theyâre no longer shielded, and they can be attacked at any time.&lt;/p&gt;
+&lt;p&gt;Although this is improving a lot (in some countries), transgender people still face violence to this day, which we call hate crimes. Violence, discrimination and even murder, brought about by transphobia.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-agents"&gt;The Agents&lt;/h1&gt;&lt;a href="#the-agents"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When Neo and the others plug into the Matrix, theyâre no longer controlled by it. They can now be easily detected. If theyâre walking around in a busy street in the Matrix, they panic because an agent can appear and start attacking them.&lt;/p&gt;
+&lt;p&gt;The agents are not literal. The agents are a manifestation of transphobia. When a person is transphobic and attacks a transgender person, theyâre not really thinking about what theyâre doing, theyâre just acting out of fear. Thatâs what bigotry is: fear.&lt;/p&gt;
+&lt;p&gt;When a person canât handle that fear, they default and become an agent. The agents have power over anyone plugged into the Matrix, because the Matrix represents and enforces systematic and societal transphobia.&lt;/p&gt;
+&lt;p&gt;The Agents only have power because of internalized transphobia. A lot of transgender people are brainwashed into thinking that they are less valid than cis people, and so they worry about their appearance, or that they donât &lt;em&gt;pass&lt;/em&gt; (a term which is extremely offensive and excludes the existence of non-binary people).&lt;/p&gt;
+&lt;p&gt;The agents only have power provided to them by the trans people coming out.&lt;/p&gt;
+&lt;p&gt;Neo is &lt;em&gt;the one&lt;/em&gt; because they have no fear. Neo, towards the end of the film, loves their identity and removes all fear of their identity. This is why they are able to defeat the agents, because the agents are powerless when a person no longer has internalized transphobia.&lt;/p&gt;
+&lt;p&gt;There are some people who have less internalized transphobia, and are able to last for a longer time against the agents. Morpheus is one of them. However, most people are nowhere near as fearless as Neo.&lt;/p&gt;
+&lt;p&gt;Removing all internalized transphobia is very difficult, so the agents still maintain power. The reasons the agents act the way they do is because they want to enforce this level of fear and maintain it, because they know they will lose all power if transgender people became normalized in society.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-oracle"&gt;The Oracle&lt;/h1&gt;&lt;a href="#the-oracle"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Immediately when Neo is taken back to the Matrix by the others, they are taken to the Oracle. The Oracle is a mystical figure, whom people that escape the Matrix go to for advice and guidance, or simply to talk to.&lt;/p&gt;
+&lt;p&gt;The Oracle is a gatekeeper. In some countries/cultures, the Oracle would represent a &lt;em&gt;gender specialist&lt;/em&gt;, someone who has a degree in &lt;em&gt;gender studies&lt;/em&gt;, or basically just a psychiatrist.&lt;/p&gt;
+&lt;p&gt;In some cultures today, being transgender is still considered a mental health question, as opposed to a sexual health problem for which medical treatment (surgery, hormones, etc) is available.&lt;/p&gt;
+&lt;p&gt;The sign above the Oracleâs kitchen that says &lt;em&gt;know thyself&lt;/em&gt; refers to the mental journey a transgender person goes through when they come out as trans. Suddenly everything is new, and a person has to figure out everything from scratch, including how to own themselves and their lives.&lt;/p&gt;
+&lt;p&gt;This is Neoâs journey throughout most of the film.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="cypher"&gt;Cypher&lt;/h1&gt;&lt;a href="#cypher"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Cypher is one of the minority of people who regret leaving the Matrix. Cypher is indeed trans, but for whatever reason wishes to go back into the closet and forget that they are trans. Some (not all) transgender people experience this, not because they hate themselves, but because (usually) they get abused. This is much more common in countries that are culturally hostile towards transgender people (Russia, most Arabic countries, etc).&lt;/p&gt;
+&lt;p&gt;Cypher isnât necessarily evil, but theyâre misguided by internalized transphobia on their part, which they still havenât managed to shake. Of course, they naturally see other transgender people coming out as a bad thing, and they feel bad when they see it happen because they fear that others will go through the same thing they did.&lt;/p&gt;
+&lt;p&gt;Such transgender people do exist in the real world. They are a minority, but they do exist. Such people are actively transphobic, including towards themselves, and even campaign against transgender rights. I could point to countless examples of well-known people who do this, though I wonât because I donât want to promote them.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-walk-scene"&gt;The Walk Scene&lt;/h1&gt;&lt;a href="#the-walk-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;This is the most critical scene in the entire film, as regards transgender people and also Neoâs transition. Here is a clip of it:&lt;/p&gt;
+
+
+&lt;p&gt;&lt;br&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The Matrix is a system, Neo&lt;/em&gt; - the Gender Binary is a system. Itâs an imposed form of propoganda, drilled into us at birth, woven into every fabric of society. Itâs the form of propoganda that ultimately separates men and women from birth, erasing or suppressing the existence of transgender people, especially non-binary trans people.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;That system is our enemy&lt;/em&gt; - No comment necessary for this one.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;But when youâre inside, what do you see? Business men, teachers, lawyers, carpenters. They very minds of the people we are trying to save&lt;/em&gt; - Indeed, most people in society are brainwashed and mindlessly fill their assigned &lt;em&gt;gender roles&lt;/em&gt; and live as they are expected to. This includes most trans people.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Until we do, these people are still a part of that system, and that makes them our enemy&lt;/em&gt; - Trying to campaign for transgender rights and to raise awareness of transgender issues can, at times, feel like one is taking on the entire world.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Many of them are so dependent on the system that they will fight to protect it&lt;/em&gt; - transphobic police officers, politicians etc who try to suppress our right to exist.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-woman-in-the-red-dress"&gt;The Woman in the Red Dress&lt;/h1&gt;&lt;a href="#the-woman-in-the-red-dress"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;p&gt;In the walk scene, the woman in the red dress isnât literal. Iâve been using Singular They pronouns to refer to Neo, though in context Neo is probably a trans woman because two transgender women made the film.&lt;/p&gt;
+&lt;p&gt;The woman in the red dress is how Neo pictures herself, as she is walking. Thatâs who Neo wants to be, in their head.&lt;/p&gt;
+&lt;p&gt;Itâs common for transgender people, especially when they are first coming out, to have a mental self-image that completely differs from their actual self-image. Itâs only after a certain time (often years) transitioning (if this is something the individual feels is necessary) that this occurs less often, when a person starts to learn to accept themselves, and love themselves, especially after e.g.Â HRT, surgery, if thatâs what they want to do.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-spoon-scene"&gt;The Spoon Scene&lt;/h1&gt;&lt;a href="#the-spoon-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;&lt;em&gt;Do not try to bend the spoon, thatâs impossible&lt;/em&gt; - Itâs impossible to change ones chromosones after birth, and itâs impossible to change ones skeletol structure. Itâs impossible to change ones fundamental nature.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Instead, only try to realize the obviousness of the truth. There is no spoon&lt;/em&gt; &lt;em&gt;Then youâll see that it is not the spoon that bends, but only yourself&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Indeed, when one goes through transition, itâs about changing ones perception. A person transitions to make themselves more comfortable. You can change outward characteristics: you can get surgery (many different kinds), you can take hormones, you can train your voice, get laser hair removal (or grow hair, if youâre taking testosterone).&lt;/p&gt;
+&lt;p&gt;One can bend the rules so to speak, and be happy with themselves in spite of how they were born. This is what transition is all about. Bend the rules? There are certain things that can be done, even if youâve gone through the &lt;em&gt;wrong puberty&lt;/em&gt; already. The first is hormones. There are various surgeries available. You can wear different clothing, change your name, and basically anything else that you need so as to feel comfortable.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="rescuing-morpheus"&gt;Rescuing Morpheus&lt;/h1&gt;&lt;a href="#rescuing-morpheus"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Most of this part of the film is just standard action film nonsense. Hero goes to save someone, etc etc.&lt;/p&gt;
+&lt;p&gt;However, this is the part of the film where Neo starts to believe in herself.&lt;/p&gt;
+&lt;p&gt;She goes to rescue Morpheus not to save Morpheus, but because she believes in herself.&lt;/p&gt;
+&lt;div class="h"&gt;&lt;h1 id="fighting-the-agent"&gt;Fighting the agent&lt;/h1&gt;&lt;a href="#fighting-the-agent"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+
+
+&lt;p&gt;When Neo initially fights the agent, thatâs when sheâs really starting to believe in herself, but sheâs still intimidated and still hasnât shed all internalized transphobia, so the agent is still impossible to defeat.&lt;/p&gt;
+&lt;p&gt;When Neo is shot by the agent, it seems that she is completely defeated. At this point, Neo wakes up and no longer has any fear of the agent: she has been overwhelmed already and she is still standing, at which point she realizes that she had the power to defeat the agent all along. All she had to do was accept herself.&lt;/p&gt;
+
+
+&lt;p&gt;The feeling Neo has when she kicks Smithâs ass is the feeling I had after waking up from my surgery, when I had a vagina for the first time.&lt;/p&gt;
+&lt;p&gt;This article has covered the first Matrix film. I may or may not cover the Matrix Reloaded at some point. Iâll skip Revolutions probably, since Revolutions is utter horseshit (just another action film).&lt;/p&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/matrix.html</guid><pubDate>Fri, 14 Sep 2018 00:00:00 GMT</pubDate></item></channel></rss>

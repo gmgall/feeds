@@ -108,6 +108,12 @@
     "feed": "https://gmgall.github.io/feeds/i00nsu.xml"
   },
   {
+    "title": "Free Federation, Free Society! - Leah Rowe's Sleepless Rants",
+    "link": "https://vimuser.org/",
+    "description": "Free Federation, Free Society! - Leah Rowe's Sleepless Rants",
+    "feed": "https://gmgall.github.io/feeds/leahrowe.xml"
+  },
+  {
     "title": "~lettuce posts on ctrl-c.club",
     "link": "https://ctrl-c.club/~lettuce/",
     "description": "/home/lettuce/public_html/index.html",
