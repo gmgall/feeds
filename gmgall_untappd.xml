@@ -4,9 +4,46 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 12:29:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Sep 2025 18:18:45 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+    <item>
+      <title>Wienbier 52 Bitter Ale by Cervejaria NewAge</title>
+      <link>https://untappd.com/user/gmgall/checkin/1510484939</link>
+      <description>&lt;div class="checkin-info pad-it"&gt;
+
+      &lt;a class="label" href="/b/wienbier-52-bitter-ale-cervejaria-newage/4496823"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-4496823_7aadb_sm.jpeg" alt="Wienbier 52 Bitter Ale label"&gt;&lt;/a&gt;
+      &lt;div class="beer"&gt;
+        &lt;p&gt;&lt;a href="/b/wienbier-52-bitter-ale-cervejaria-newage/4496823"&gt;Wienbier 52 Bitter Ale&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/cervejarianewage"&gt;Cervejaria NewAge&lt;/a&gt;&lt;/span&gt;
+      &lt;/div&gt;
+
+      
+      &lt;p class="comment"&gt;
+                  &lt;abbr id="translate_1510484939"&gt;
+                      &lt;/abbr&gt;
+                &lt;/p&gt;
+
+      
+      &lt;div class="rating-serving"&gt;
+                  &lt;p class="serving"&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/can@3x.png" alt="Can"&gt;
+            &lt;span&gt;Can &lt;/span&gt;
+          &lt;/p&gt;
+          &lt;div class="caps"&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
+	&lt;/div&gt;      &lt;/div&gt;
+
+        
+    &lt;/div&gt;</description>
+      <author>Guilherme Gall</author>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1510484939</guid>
+      <pubDate>Tue, 02 Sep 2025 14:22:54 GMT</pubDate>
+    </item>
     <item>
       <title>Wienbier 56 Black by Cervejaria NewAge</title>
       <link>https://untappd.com/user/gmgall/checkin/1507643575</link>
@@ -216,53 +253,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1490184640</guid>
       <pubDate>Sun, 22 Jun 2025 20:19:16 GMT</pubDate>
-    </item>
-    <item>
-      <title>Midway IPA by Goose Island Beer Co.</title>
-      <link>https://untappd.com/user/gmgall/checkin/1490082186</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/midway-ipa-goose-island-beer-co/2036410"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2036410_1be3d_sm.jpeg" alt="Midway IPA label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/midway-ipa-goose-island-beer-co/2036410"&gt;Midway IPA&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/gooseisland"&gt;Goose Island Beer Co.&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1490082186"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/bottle@3x.png" alt="Bottle"&gt;
-            &lt;span&gt;Bottle &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-            &lt;div class="badges-unlocked"&gt;
-
-                            &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/BeerGear-Summer-2025-Badge_1000x1000.jpg" alt="Beer Gear Summer Giveaway"&gt;
-                  &lt;span&gt;Earned the Beer Gear Summer Giveaway badge!&lt;/span&gt;
-                &lt;/span&gt;
-                
-            &lt;/div&gt;
-
-          
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1490082186</guid>
-      <pubDate>Sun, 22 Jun 2025 15:59:57 GMT</pubDate>
     </item>
   </channel>
 </rss>
