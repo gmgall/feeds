@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 08 Dec 2025 12:32:25 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 08 Dec 2025 18:24:03 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -167,6 +167,7 @@
         &lt;li&gt;&lt;a href="screens.html" class="post-link"&gt;A little sick of being on the computer&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="long-winter.html" class="post-link"&gt;Long winter effect&lt;/a&gt; — I was really getting sick of it at this point&lt;/li&gt;
         &lt;li&gt;&lt;a href="spring.html" class="post-link"&gt;The spring melt&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="cold-write.html" class="post-link"&gt;When it’s cold, I write!&lt;/a&gt; — continuing to talk about winter in 2025&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="localism"&gt;
@@ -333,6 +334,7 @@
         &lt;li&gt;&lt;a href="restart.html" class="post-link"&gt;I want to start blogging again&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="steam.html" class="post-link"&gt;Losing steam&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="busy.html" class="post-link"&gt;Busy week for me&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="cold-write.html" class="post-link"&gt;When it’s cold, I write!&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="activities"&gt;
@@ -427,6 +429,7 @@
         &lt;a href="#2025-apr"&gt;April&lt;/a&gt;
         &lt;a href="#2025-may"&gt;May&lt;/a&gt;
         &lt;a href="#2025-jul"&gt;July&lt;/a&gt;
+        &lt;a href="#2025-dec"&gt;December&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1359,11 +1362,73 @@
       &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
       &lt;p&gt;In response to a question from ~pgadey&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h3 id="2025-dec"&gt;December 2025&lt;/h3&gt;
+    &lt;a class="journal-link" href="cold-write.html"&gt;
+      &lt;h3&gt;When it’s cold, I write!&lt;/h3&gt;
+      &lt;div class="line stop-2"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
+      &lt;p&gt;And I’m freezing in here!!!&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — webjam pt. 2</title><link>https://ctrl-c.club/~gome/journal/webjam-2.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — cold write</title><link>https://ctrl-c.club/~gome/journal/cold-write.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;When it’s cold, I write!&lt;/h1&gt;
+      &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
+      &lt;p&gt;
+        Hello, it’s gome, back for what is hopefully another good solid run of daily posting.
+        I received a nice message recently that made me remember I wanted to get back in the habit,
+        so thanks for that (you know who you are)!
+        And I’ll use this as a reminder that I really do like to receive email from people who see the site.
+        I almost always reply, unless your mail provider doesn’t allow delivery of mail from the ctrl-c.club domain.
+      &lt;/p&gt;&lt;p&gt;
+        It seems I tend to do the most writing on gomepage when the winter comes around.
+        The &lt;a href="challenge.html"&gt;100-day challenge&lt;/a&gt; went over the winter,
+        and last year when I had some free time around Christmas and New Year’s,
+        I brought the habit back again for about a month.
+      &lt;/p&gt;&lt;p&gt;
+        Well, today my thermostat went out and I woke up to sub 60°F (15°C) temperatures in my house.
+        So, what better time to start my cold-posting spell than right now!
+        No wonder so many of my posts are about &lt;a href="topical-index.html#winter"&gt;winter&lt;/a&gt;.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/ice-flower.webp" width="512" height="341" alt="Photo of a tidal ice formation, backlit by orange sunset light."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Tide_ice_formations_in_Brofjorden_at_Sandvik_5.jpg#Licensing"&gt;W.carter&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        This year, rather than writing, I spent a lot of my gomepage time working on two games.*
+        One was &lt;a href="unreleased.html"&gt;Server Pets&lt;/a&gt;, which &lt;a href="burnout.html"&gt;broke my heart&lt;/a&gt; and which I haven’t been able to return to yet.
+        The other was more successful: a &lt;a href="../library/block-game/"&gt;Panel de Pon inspired game&lt;/a&gt; which I released as part of the &lt;a href="../library/webjam/2025.html"&gt;Webpage Jam&lt;/a&gt; this year.
+      &lt;/p&gt;&lt;p&gt;
+        I didn’t write the whole game just over the course of the jam:
+        I had been working on a version of the game written in Lua (using the &lt;a href="https://www.love2d.org/"&gt;LÖVE&lt;/a&gt; framework) with my brother since the beginning of the year,
+        so pretty much all the core representation and logic was in place already.
+        The webpage jam project was more of a matter of porting the code to Javascript using &lt;a href="https://pixijs.com/"&gt;Pixi&lt;/a&gt;,
+        which was actually a lot easier than I expected, and then building a webpage around it.
+      &lt;/p&gt;&lt;p&gt;
+        I’m glad I worked on that this year; it’s my first time actually putting out a completed game project for people to play.
+        And thanks to everyone who’s tried it and given me nice feedback about it!
+      &lt;/p&gt;&lt;p&gt;
+        But now it’s time to write for a while again.
+        I love going back through my posts and remembering what I’ve thought about,
+        in a much more concrete way than vague memories usually afford.
+        The older they get, the more precious my old posts feel to me.
+        It makes me want to have a slightly bigger pile of these little gems waiting for me to peruse next year.
+      &lt;/p&gt;&lt;p&gt;
+        Do you have a writing habit you want to get back into?
+        Do you have another habit you want to get back into?
+        Is it getting really cold where you live?
+        Have you published something you’re proud of this year?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;&lt;p class="footnote"&gt;
+        * Honorable mention to the writing I did on &lt;a href="../library/songbook/"&gt;songbook&lt;/a&gt;, a mini-blog I added to practice writing about music I like.
+        It’s been sporadic, and I’d like to do more of it, but I’m happy with the number of posts I have on there for now.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/cold-write.html</guid></item><item><title>gome — webjam pt. 2</title><link>https://ctrl-c.club/~gome/journal/webjam-2.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;What is the point of the Webpage Jam?&lt;/h1&gt;
       &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
@@ -1702,49 +1767,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/busy.html</guid></item><item><title>gome — band</title><link>https://ctrl-c.club/~gome/journal/band.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;I joined a band&lt;/h1&gt;
-      &lt;time datetime="Thu, 6 Feb 2025 21:00:00 CST"&gt;6 Feb. 2025, 9:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        In continuation of my series on &lt;a href="topical-index.html#activities-2024"&gt;things I did in 2024&lt;/a&gt;,
-        today I want to talk about the band I joined.
-        It was one of my favorite things I did in 2024, and in some ways I feel like it was a turning point in a difficult year for me.
-      &lt;/p&gt;&lt;p&gt;
-        In college, I joined an &lt;a href="a-cappella.html"&gt;a cappella group&lt;/a&gt;, an experience I always look back on fondly.
-        Arranging a large chunk of the group’s repertoire gave me valuable transcription and writing skills,
-        and leading a whole group of capable musicians taught me a lot about approaching music-making as a collective effort.
-        On top of that, it was just a ton of fun to work on cool music and perform with my friends.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/one_dimensional_creatures.webp" width="512" height="300"&gt;
-        &lt;figcaption&gt;This is not my band; this is just an example of what a band looks like.&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        After graduating with a degree in choral composition,
-        one thing I’ve struggled with is the &lt;a href="dry-spell.html"&gt;declining rate of my musical output&lt;/a&gt;.
-        I still love choral music, but I think I’m at a stage in my life where I’m less inclined towards solitary musical activities like solo composition.
-        For a while, I missed having something like my a cappella group, a space that was not only musically challenging, but socially fulfilling.
-      &lt;/p&gt;&lt;p&gt;
-        Fortunately, in the middle of last year, while I was stuck in this frustration of not being able to write choral music the way I wanted to,
-        a friend from my old a cappella group invited me to join his band.
-        He had started it with some college friends, including one of the beatboxers from our group, who had gone on to learn drumming.
-        I ended up joining, and I’m glad I did.
-      &lt;/p&gt;&lt;p&gt;
-        As I thought, working on music with people is just what I needed right now.
-        The performing aspect is always fun, but personally, I’m enjoying the planning-oriented aspects of being in a band (writing, arranging, recording) even more.
-        It’s refreshing to not be stuck with just my own ideas (or lack thereof).
-        Having other people’s ideas to work with and bounce off of energizes my own creativity.
-      &lt;/p&gt;&lt;p&gt;
-        Just recently, we did the first show we’ve had in a few months.
-        In that time, our old bassist left and a new one joined, and we took time to rework our set somewhat.
-        It was really satifying to see how much we accomplished just in that period of time,
-        and I’m excited to get back into the studio and start working on new stuff.
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever been in a band or musical group?
-        Have you ever appreciated the opportunity to do something collaboratively that you used to do alone?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/band.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/busy.html</guid></item></channel></rss>
