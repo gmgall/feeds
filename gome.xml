@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 09 Dec 2025 12:33:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 09 Dec 2025 18:20:24 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -239,6 +239,7 @@
         &lt;li&gt;&lt;a href="git.html" class="post-link"&gt;You don’t need GitHub&lt;/a&gt; — other ways to host git&lt;/li&gt;
         &lt;li&gt;&lt;a href="webjam.html" class="post-link"&gt;I’m putting on a Jam&lt;/a&gt; — and here’s a link to &lt;a href="../library/webjam"&gt;the Webpage Jam&lt;/a&gt; — and &lt;a href="webjam-2.html" class="post-link"&gt;What’s the point of the Jam?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="keyboard.html" class="post-link"&gt;I love my new keyboard&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="architecture.html" class="post-link"&gt;Website architecture&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="gaming"&gt;
@@ -1369,11 +1370,69 @@
       &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
       &lt;p&gt;And I’m freezing in here!!!&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="architecture.html"&gt;
+      &lt;h3&gt;Website architecture&lt;/h3&gt;
+      &lt;div class="line stop-3"&gt;&lt;/div&gt;
+      &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
+      &lt;p&gt;Building out a structure&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — cold write</title><link>https://ctrl-c.club/~gome/journal/cold-write.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — architecture</title><link>https://ctrl-c.club/~gome/journal/architecture.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Website architecture&lt;/h1&gt;
+      &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
+      &lt;p&gt;
+        When I &lt;a href="gomepage.html"&gt;started building gomepage&lt;/a&gt;, I had only the front page.
+        Despite not having any content, I added &lt;a href="unfinished.html"&gt;stub pages&lt;/a&gt; for sections of the site I knew I wanted to add.
+        Each of these served as a persistent prompt to me to eventually add that section of site.
+        There’s no shame in having unfinished parts of your personal site (it’s a work in progress!),
+        but I knew I would be embarassed to have those stubs up forever.
+        It was a way of pushing my future self to follow through.
+      &lt;/p&gt;&lt;p&gt;
+        This worked out pretty well for me, and I’ve continued to use use stubs for new parts of the site as I build.
+        If you’re building a personal site, I’d encourage you to consider a similar approach.
+      &lt;/p&gt;&lt;p&gt;
+        Web design seems a little like architecture to me: obviously you have to know what your building will be used for (in a site, that’s your content). With that in mind, you have to design the structure: you may have various rooms (pages) for different purposes, and they may fit together into larger substructures within your building.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/fin-garden.webp" width="576" height="554" alt="Photo of the interior of a building at Fin Garden in Kashan, Iran."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Fin_Garden,_Kashan,_Iran.jpg#Licensing"&gt;Amirpashaei&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        You have to consider how these pieces fit and flow together, how someone is expected to move through the building and make use of it. You also have to consider the overall experience and feeling of the building, which is helped along by all the small details and stylistic choices.
+      &lt;/p&gt;&lt;p&gt;
+        One neat advantage you have in making a website is you aren’t limited spatially.
+        With hyperlinks, your pages can connect in any way you want to specify.
+        Imagine a building where every room had a door to every other room, or a straight hallway that somehow loops back on itself.
+      &lt;/p&gt;&lt;p&gt;
+        Often, in a website, it makes sense to fall back on familiar conventions for ease of navigation, like hierarchical organization or linear sequences of pages.
+        But it’s nice to keep in mind how much freedom you have when it comes to structure in web design,
+        and to consider whether a less conventional structure might fit your needs.
+      &lt;/p&gt;&lt;p&gt;
+        Keep in mind that with hyperlinks, multiple structures can coexist alongside one another.
+        For example, my journal has three indices:
+      &lt;/p&gt;&lt;ol&gt;
+        &lt;li&gt;the &lt;a href="index.html"&gt;default index&lt;/a&gt;, which show the most recent posts and links to the other indices,&lt;/li&gt;
+        &lt;li&gt;the &lt;a href="topical-index.html"&gt;topical index&lt;/a&gt;, which organizes posts by category along with little bits of commentary,&lt;/li&gt;
+        &lt;li&gt;the &lt;a href="chronological-index.html"&gt;chronological index&lt;/a&gt;, which shows all posts from oldest to newest, with links to jump to a specific month or year.&lt;/li&gt;
+      &lt;/ol&gt;&lt;p&gt;
+        Each index serves a different purpose and provides a different type of structure over the same set of pages.
+      &lt;/p&gt;&lt;p&gt;
+        I would like to experiement more with coexisting structures like this,
+        but I would like for the structure to emerge organically from the functional needs of the site, rather than me adding it for its own sake.
+        I’ll be on the lookout for more opportunities to try it out, though!
+      &lt;/p&gt;&lt;p&gt;
+        Are you building or thinking about building a website?
+        Have you considered it from an architectural or structural perspective?
+        Do you have any ideas for novel ways to structure a site?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/architecture.html</guid></item><item><title>gome — cold write</title><link>https://ctrl-c.club/~gome/journal/cold-write.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;When it’s cold, I write!&lt;/h1&gt;
       &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
@@ -1737,34 +1796,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/unreleased.html</guid></item><item><title>gome — busy</title><link>https://ctrl-c.club/~gome/journal/busy.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Busy week for me&lt;/h1&gt;
-      &lt;time datetime="Fri, 7 Feb 2025 23:00:00 CST"&gt;7 Feb. 2025, 11:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        It’s been a busy but fun week for me, and that’s made it harder than normal to put out posts.
-        Right now, I think it’s more important that I get to bed earlier and get some sleep than to try and get something written last-minute.
-        But maybe I’ll just dash out some thoughts quick and add an image later.
-      &lt;/p&gt;&lt;p&gt;
-        During the &lt;a href="challenge.html"&gt;100-day challenge&lt;/a&gt;, I made sure to write at least 100 words each day without exception,
-        as it was really important to me to be able to say I did the whole challenge.
-        But right now, I have no obligation to write posts; I just want to start doing it again.
-      &lt;/p&gt;&lt;p&gt;
-        Despite wanting to do it, it’s easy for me to put off writing on a day to day basis.
-        I get busy or distracted, and then it’s late and I’d rather go to bed.
-        So with that in mind, it’s helpful to have at least some kind of “rule” in place
-        to keep me committed to something I know want to keep doing.
-      &lt;/p&gt;&lt;p&gt;
-        But at this point in my life, perhaps the rule should be different than “every weekday, without exception, 100 words”.
-        I like having a relatively consistent hour in the evening to write;
-        perhaps I should plan to write on any day I have a spare hour in the evening.
-      &lt;/p&gt;&lt;p&gt;
-        For now, I think I’ll try and keep up with “every weekday” to the best of my ability,
-        because I think the daily effort gives me more momentum.
-        But it’s something I could experiment with if life gets more busy.
-      &lt;/p&gt;&lt;p&gt;
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/busy.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/unreleased.html</guid></item></channel></rss>
