@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 10 Dec 2025 12:33:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Wed, 10 Dec 2025 18:24:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -145,12 +145,12 @@
         &lt;li&gt;&lt;a href="health.html" class="post-link"&gt;Basic health stack&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="slow.html" class="post-link"&gt;I love being slow&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="undo.html" class="post-link"&gt;Infinite undo&lt;/a&gt; — planning vs. action&lt;/li&gt;
-        &lt;/ul&gt;&lt;h5&gt;Subseries: setting goals&lt;/h5&gt;&lt;ul&gt;
+        &lt;li&gt;&lt;a href="habits-2.html" class="post-link"&gt;Becoming a creature of habit&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;&lt;h5&gt;Subseries: setting goals&lt;/h5&gt;&lt;ul&gt;
           &lt;li&gt;&lt;a href="goals.html" class="post-link"&gt;My goals for the year&lt;/a&gt; in 2023&lt;/li&gt;
           &lt;li&gt;&lt;a href="goals-2.html" class="post-link"&gt;The follow-up&lt;/a&gt; eight months later&lt;/li&gt;
           &lt;li&gt;About &lt;a href="goals-3.html" class="post-link"&gt;not setting resolutions&lt;/a&gt; for 2025&lt;/li&gt;
-        &lt;/ul&gt;
-      
+      &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="winter"&gt;
       &lt;h3&gt;Winter&lt;img class="category-icon" src="img/topic-icons/winter.webp" width="64" height="64"&gt;&lt;/h3&gt;
@@ -1376,11 +1376,61 @@
       &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
       &lt;p&gt;Building out a structure&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="habits-2.html"&gt;
+      &lt;h3&gt;Becoming a creature of habit&lt;/h3&gt;
+      &lt;div class="line stop-4"&gt;&lt;/div&gt;
+      &lt;time datetime="Wed, 10 Dec 2025 09:30:00 CST"&gt;10 Dec. 2025, 9:30 AM&lt;/time&gt;
+      &lt;p&gt;Can I do it?&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — architecture</title><link>https://ctrl-c.club/~gome/journal/architecture.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — habits</title><link>https://ctrl-c.club/~gome/journal/habits-2.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Becoming a creature of habit&lt;/h1&gt;
+      &lt;time datetime="Wed, 10 Dec 2025 09:00:00 CST"&gt;10 Dec. 2025, 9:00 AM&lt;/time&gt;
+      &lt;p&gt;
+        In general, I am not a creature of habit.
+        I tend to live a pretty unstructured life when there’s nothing external requiring me to maintain structure.
+      &lt;/p&gt;&lt;p&gt;
+        If I make a priority of establishing a routine for some goal, I can usually do it for a while.
+        For example, I didn’t have too much trouble getting started writing posts here again.
+        But before I got a nice message from a reader of the journal, I only had vague intentions to start again.
+        The impetus came from outside me.
+      &lt;/p&gt;&lt;p&gt;
+        Lately, I’ve been in a season of life where very little daily structure is imposed on me.
+        And it’s been hard to accomplish things!
+        I’ve been thinking for a while that more routine would be really helpful,
+        but it’s much harder when it’s not coming from external requirements.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/beaver.webp" width="512" height="381" alt="A beaver in tall grass eating leaves off a stick."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Bever_-_Eurasian_beaver_-_Castor_fiber_3.jpg#Licensing"&gt;Bouke ten Cate&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        However, I’m potentially heading towards a near future where that will all change quickly,
+        and I’m pondering what it will take for me to become a creature of habit, perhaps even more than I ever have before.
+        It might be difficult for me to make the switch, now that I’ve gotten so used to a lack of structure and expectations.
+      &lt;/p&gt;&lt;p&gt;
+        On the other hand, I don’t know if the problem has ever been that I’m incapable of maintaining structure,
+        only that I haven’t been placing myself in the right conditions for structure to flourish.
+        So I think that if I get a clear picture in my head of what is required of me,
+        and what I need to require of myself to make that work, I’ll be able to make the switch.
+      &lt;/p&gt;&lt;p&gt;
+        It will certainly feel different, though.
+        The picture of myself in a regular, functional, daily routine feels like it’s from a completely different life than mine.
+        When I get there, looking back on this time might feel equally unreal and dreamlike.
+        It’s a strange feeling when you think your personality’s about to change.
+      &lt;/p&gt;&lt;p&gt;
+        Are you a creature of habit?
+        Is it by nature or by necessity?
+        Are you on the cusp of a life change?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/habits-2.html</guid></item><item><title>gome — architecture</title><link>https://ctrl-c.club/~gome/journal/architecture.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;Website architecture&lt;/h1&gt;
       &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
@@ -1720,80 +1770,4 @@
       &lt;/figure&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/caustic.html</guid></item><item><title>gome — unreleased</title><link>https://ctrl-c.club/~gome/journal/unreleased.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1&gt;Working on something&lt;/h1&gt;
-      &lt;time datetime="Mon, 10 Feb 2025 22:30:00 CST"&gt;10 Feb. 2025, 10:30 PM&lt;/time&gt;
-      &lt;p&gt;
-        I wasn’t planning on talking about this project until I was ready to release it.
-        But I’ve been working on it all day, so it’s top of mind.
-        So this isn’t the official announcement, and who knows if I’ll even finish it,
-        but here’s some background on what I’m working on.
-      &lt;/p&gt;&lt;p&gt;
-        Back when I joined Ctrl-C, I was checking out all the cool small web stuff, both on here or elsewhere.
-        I was soon introduced to the world of &lt;a href="https://geminiprotocol.net/"&gt;Gemini&lt;/a&gt;, a simplified alternative to HTTP.
-        Most Gemini sites are static, but one really cool interactive project I found was &lt;a href="https://github.com/michael-lazar/astrobotany"&gt;astrobotany&lt;/a&gt;.
-      &lt;/p&gt;&lt;p&gt;
-        Astrobotany is based on the command line game &lt;a href="https://github.com/jifunks/botany"&gt;botany&lt;/a&gt;, which I haven’t played.
-        You raise a plant by watering it regularly, and you can do other things like visit other users’ plants, collect petals,
-        write on the community message board, and buy badges.
-        I had fun playing it regularly for quite a while.
-      &lt;/p&gt;&lt;p&gt;
-        The second inspiration that drove my idea for a game was &lt;a href="https://github.com/Calamitous/iris"&gt;iris&lt;/a&gt;,
-        a forum software by &lt;a href="https://ctrl-c.club/~calamitous/"&gt;calamitous&lt;/a&gt;, the admin of Ctrl-C.
-        I like iris because it’s rare to find software that really takes advantage of a multi-user system in a fun way.
-        On top of that, it adds a reason to log into the Ctrl-C server regularly and fosters our sense of community.
-        It also feels kind of exclusive because it’s only accessible from the server, not on the general web.
-      &lt;/p&gt;&lt;p&gt;
-        The third thing I had in mind was &lt;a href="https://en.wikipedia.org/wiki/Webring"&gt;web rings&lt;/a&gt;.
-        I think most people interested in the small web understand the charm of web rings.
-        They make small websites more discoverable, and they make the web feel more lively and interconnected.
-        Since I’m such a big proponent of &lt;a href="webjam.html"&gt;personal web pages&lt;/a&gt;,
-        I’ve thought for a while it would be nice to have something like a web ring on Ctrl-C encouraging visitors to browse around the more actively maintained user pages.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/game_logo.webp" width="320" height="320" alt="The words サーバーのペッツ in pixel art bubble lettering."&gt;
-        &lt;figcaption&gt;Mock title screen I made for the game&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        So with all this in mind, I put together an idea for a multiplayer maintenance game like astrobotany, but local to one tilde server.
-        Specifically, I wanted to make a digital pet game, like Tomagotchi.
-        Players run a command in the shell to interact with their pets.
-        The game also provides a snippet of HTML to include on your site that displays the state of your pets.
-      &lt;/p&gt;&lt;p&gt;
-        The kicker is that when your pets are well cared-for, they travel to other users’ profiles, showing up on their HTML snippet.
-        Each pet links back to its owner, and the owner’s profile would link to the users their pets are visiting.
-        So you effectively have a web ring, but it’s somewhat stochastic and based on a user’s participation in the game.
-      &lt;/p&gt;&lt;p&gt;
-        I had this idea three years ago now, and I’ve always wanted to come back and finish it.
-        Early on, I wrote some C code that could handle the transport layer.
-        I released that separately as &lt;a href="https://tildegit.org/gome/localserv/"&gt;localserv&lt;/a&gt;.
-      &lt;/p&gt;&lt;p&gt;
-        I decided pretty early on I didn’t want to write the game code in C.
-        I found out Deno had a nice setup for calling C, so I put together some glue code and tried writing the core logic in Typescript.
-        But I got kind of bogged down in the whole client-server application layer,
-        and eventually I got tired of it and abandoned the project for a while.
-      &lt;/p&gt;&lt;p&gt;
-        Recently, I decided to try writing the project again in Zig.
-        I’ve had situations where I’ve gotten bogged down writing Zig programs before too,
-        so I’m not exactly sure why I thought that was a good idea.
-        But I keep wanting to come back to it, so here we are.
-      &lt;/p&gt;&lt;p&gt;
-        Fortunately, my approach to coding has changed since I last attempted this project.
-        I used to get stuck on trying to write really good abstractions when I coded.
-        Zig encourages you to write less abstractly and instead deal more directly with what you want the program to do.
-        There are still ways to avoid repeating yourself, but sometimes they might not be as pretty as other languages.
-        But I think the code ends up being more intelligible because it’s usually straightforward.
-      &lt;/p&gt;&lt;p&gt;
-        So, no word on when this will come out or whether I’ll just get bogged down and abandon it again,
-        but I’d really love to finish it this time.
-        As a final word, I will say: in an ideal world,
-        I’d love for the game to feature really cute pet sprites in a Game Boy Color pixel art style (maybe somewhat like &lt;a href="https://www.spriters-resource.com/game_boy_gbc/kawaiipetshop2/sheet/21122/"&gt;this&lt;/a&gt;),
-        inspired by my memories of playing the Tamagotchi Game Boy game.
-        But that would be a whole other effort on top of all this code.
-      &lt;/p&gt;&lt;p&gt;
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/unreleased.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/caustic.html</guid></item></channel></rss>
