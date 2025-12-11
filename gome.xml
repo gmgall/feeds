@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 11 Dec 2025 12:34:39 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Thu, 11 Dec 2025 18:22:45 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -306,6 +306,7 @@
         &lt;li&gt;&lt;a href="notes-2.html" class="post-link"&gt;Why don’t I review my notes?&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="unreleased.html" class="post-link"&gt;Working on something&lt;/a&gt; — namely a game for the Ctrl-C server&lt;/li&gt;
         &lt;li&gt;Overwork on the game led to &lt;a href="burnout.html" class="post-link"&gt;hobby project burnout&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="loops.html" class="post-link"&gt;Too many open loops&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="linguistics"&gt;
@@ -1382,11 +1383,74 @@
       &lt;time datetime="Wed, 10 Dec 2025 09:30:00 CST"&gt;10 Dec. 2025, 9:30 AM&lt;/time&gt;
       &lt;p&gt;Can I do it?&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="loops.html"&gt;
+      &lt;h3&gt;Too many open loops&lt;/h3&gt;
+      &lt;div class="line stop-5"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 11 Dec 2025 10:00:00 CST"&gt;11 Dec. 2025, 10:00 AM&lt;/time&gt;
+      &lt;p&gt;I love starting projects&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — habits</title><link>https://ctrl-c.club/~gome/journal/habits-2.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — loops</title><link>https://ctrl-c.club/~gome/journal/loops.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1&gt;Too many open loops&lt;/h1&gt;
+      &lt;time datetime="Thu, 11 Dec 2025 10:00:00 CST"&gt;11 Dec. 2025, 10:00 AM&lt;/time&gt;
+      &lt;p&gt;
+        I have been on a run of starting projects and not finishing them.
+        Now, that’s been true basically my whole life.
+        But lately, I have more of what I’d call “open loops” than normal.
+        I don’t really know where that phrase comes from, or what exactly it means,
+        but it seems descriptive of a situation I often find myself in.
+      &lt;/p&gt;&lt;p&gt;
+        If you do a lot of projects,
+        it’s a good idea to always leave any given project in a state where it’s easy to pick back up after a break.
+        You might take notes about what you were trying to do,
+        or take thorough recordings of your music,
+        or make sure your code is in a working state.
+        You want to keep it easy to come back and restore context.
+      &lt;/p&gt;&lt;p&gt;
+        Often, if I think I’ll be coming back to the project very soon, maybe the next day,
+        I might put less effort into “closing the loop”,
+        since I expect to reopen it very soon and I won’t forget what I’m doing.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/lashing.webp" width="512" height="341" alt="A close shot of a large ship, with ropes wound intricately along a series of hooks on the side of the ship."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Rope_Lashing_Aboard_Ship_in_Long_Beach_Ca.jpg#Licensing"&gt;Aeastabrook33&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Well, sometimes I get busy, and sometimes I get interested in starting a new project, but in any case,
+        I’ve now gotten to that point where I’ve left too many loops open.
+        At this point I’m not sure I know how many projects I’m leaving floating in the back of my mind.
+        It might help to try and enumerate them here.
+      &lt;/p&gt;&lt;p&gt;
+        This list is mostly for myself, but it might be a fun sneak peak into the kinds of things I work on.
+      &lt;/p&gt;&lt;ul&gt;
+        &lt;li&gt;hamster game&lt;/li&gt;
+        &lt;li&gt;Alpine Linux web hosting server&lt;/li&gt;
+        &lt;li&gt;confidential choral music project&lt;/li&gt;
+        &lt;li&gt;generative cello quartet project&lt;/li&gt;
+        &lt;li&gt;block game roguelike&lt;/li&gt;
+        &lt;li&gt;MIDI visualizer&lt;/li&gt;
+        &lt;li&gt;autoreminder journal&lt;/li&gt;
+        &lt;li&gt;gomeposting tools&lt;/li&gt;
+      &lt;/ul&gt;&lt;p&gt;
+        And then, of course, there is the daily open loop of trying to write a gomepost!
+        Which naturally eats into my time for these other projects.
+      &lt;/p&gt;&lt;p&gt;
+        Realistically, I don’t expect to make progress on all of these anytime soon.
+        I’d just like to get them all in a comfortable place
+        where I can come back to them in three months and still know what I’m doing.
+      &lt;/p&gt;&lt;p&gt;
+        Do you start a lot of side projects?
+        Do you keep the loops open or do you do a good job of closing them?
+        Do you have a list of everything you’re working on currently?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/loops.html</guid></item><item><title>gome — habits</title><link>https://ctrl-c.club/~gome/journal/habits-2.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1&gt;Becoming a creature of habit&lt;/h1&gt;
       &lt;time datetime="Wed, 10 Dec 2025 09:00:00 CST"&gt;10 Dec. 2025, 9:00 AM&lt;/time&gt;
@@ -1713,61 +1777,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/burnout.html</guid></item><item><title>gome — Caustic</title><link>https://ctrl-c.club/~gome/journal/caustic.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1&gt;My favorite music software&lt;/h1&gt;
-      &lt;time datetime="Tue, 11 Feb 2025 23:00:00 CST"&gt;11 Feb. 2025, 11:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        I started using Caustic around when I started college.
-        If memory serves, my first installation of it was actually the mobile version on a tablet I had bought for school.
-        I don’t remember how I discovered it; it’s possible my brother discovered it first and I got it from him.
-      &lt;/p&gt;&lt;p&gt;
-        Caustic is a music-making program that gives you access to a set of built-in instruments and effects.
-        The tools are all easy to use, but not necessarily as flexible or feature-packed as those in a professional DAW (digital audio workstation).
-        For this reason, I sometimes describe Caustic as a “toy DAW”.
-      &lt;/p&gt;
-      &lt;img src="img/caustic.webp" width="600" height="320" alt="Screenshot of the interface of the music program Caustic, showing various patterns for various instruments laid out on a timeline."&gt;
-      &lt;p&gt;
-        In my opinion, that’s not a negative; it’s one of its greatest strengths.
-        It’s way more fun and easy to make musical sketches in Caustic than in any other program I’ve used.
-        It doesn’t require any special configuration or setup, there’s less friction,
-        and generally, things feel very easy to change or tweak as you work on them.
-      &lt;/p&gt;&lt;p&gt;
-        The free mobile version of Caustic doesn’t allow saving your music, but the desktop version was free and did allow saving,
-        so I switched over to using that pretty soon.
-        There’s a little friction in the UI on desktop because it was designed for a touch screen, so you end up having to click for everything, while I’m used to having keyboard shortcuts.
-        But once you get used to the workflow, I still find it easier than a lot of things.
-      &lt;/p&gt;&lt;p&gt;
-        Using the desktop version of Caustic on my various computers over time, I built up a big library of little sketches and songs.
-        To this day, I still find it a fertile ground for incubating ideas,
-        as well as for reconnecting to the pure joy of making music just for fun.
-      &lt;/p&gt;&lt;p&gt;
-        Every so often, I will scroll back through my old songs (which I’ve kept around since college)
-        and bask in the hits of nostalgia from all these inspirations I had at different times in my life.
-        Observing how I’ve changed and refined my approach to putting these tracks together
-        reminds me of how much Caustic has helped me grow as a musician.
-      &lt;/p&gt;&lt;p&gt;
-        I wanted to get back into making things on Caustic more consistently last year,
-        so I made a page called &lt;a href="../library/daily-jingle/"&gt;Daily Jingle&lt;/a&gt; on here and posted songs for about a week or so.
-        After that, I left it behind, although maybe I’ll change it to Weekly Jingle or something.
-        Having some kind of requirement for myself to be creative regularly really does make a difference in my rate of good ideas.
-      &lt;/p&gt;&lt;p&gt;
-        If you want to use Caustic, it’s &lt;a href="https://apps.apple.com/us/app/caustic/id775735447"&gt;available for iOS&lt;/a&gt; still, but the Android app is gone from the store, and the old website is no longer accessible except by &lt;a href="https://web.archive.org/web/20231227040110/https://singlecellsoftware.com/caustic"&gt;archive&lt;/a&gt;. But you can still download the desktop version there!
-        Personally, I just copy around the same version of it onto every new computer I get,
-        along with my library of songs and presets, since I know it’s not likely to be updated any more.
-      &lt;/p&gt;&lt;p&gt;
-        Do you have a favorite music software?
-        Do you have another piece of creative software you enjoy playing with?
-        What do you like about it?
-        Have you used Caustic before?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/caustic_3d.webp" width="500" height="338"&gt;
-        &lt;figcaption&gt;
-          Bonus image: a cool 3D render from the old Caustic website 
-        &lt;/figcaption&gt;
-      &lt;/figure&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/caustic.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/burnout.html</guid></item></channel></rss>
