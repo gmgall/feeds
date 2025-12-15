@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 14 Dec 2025 18:21:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 15 Dec 2025 01:15:44 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -1764,69 +1764,4 @@
       &lt;p class="footnote"&gt;* You might call it the &lt;a href="https://en.wikipedia.org/wiki/LaTeX"&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/a&gt; of music notation.&lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/engraving.html</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate></item><item><title>gome — burnout</title><link>https://ctrl-c.club/~gome/journal/burnout.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1&gt;Hobby project burnout&lt;/h1&gt;
-      &lt;time datetime="Sat, 5 Apr 2025 23:00:00 CDT"&gt;5 April 2025, 11:00 PM&lt;/time&gt;
-      &lt;p&gt;
-        &lt;a href="unreleased.html"&gt;Previously on gomepage&lt;/a&gt;, I wrote a bit about &lt;i&gt;Server Pets&lt;/i&gt;, the then-unannounced pet game I was working on for the Ctrl-C server.
-        At that time, I said:
-      &lt;/p&gt;&lt;blockquote&gt;
-        &lt;i&gt;So, no word on when this will come out or whether I’ll just get bogged down and abandon it again, but I’d really love to finish it this time.&lt;/i&gt;
-      &lt;/blockquote&gt;&lt;p&gt;
-        Well, a bit of both happened.
-        Fortunately, I did finish and release the project this time, in some sense of those terms.
-        Unfortunately, I also got bogged down again and decided to step away from it for the time being.
-      &lt;/p&gt;&lt;p&gt;
-        Basically, after many false starts, and feeling the weight of my &lt;a href="completion.html"&gt;many other abandoned projects&lt;/a&gt;,
-        I pushed myself really hard to get &lt;i&gt;Server Pets&lt;/i&gt; done this time.
-        I spent the majority of my free time on it for the last two months.
-        I stopped writing posts on here, despite wanting to restart that habit, because I was devoting that time to development.
-        I got kind of fixated on it, spending more time on it than I should have, even when it wasn’t fun anymore,
-        just because I didn’t want to be stuck with another unfinished program I’d want to redo in another year.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/aude-fire.webp" width="600" height="320" alt="A stand of burned trees against a bright blue sky, surrounded partially by bare earth and partially by new green growth"&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Burned_area_in_Massif_de_la_Clape_(4).jpg#Licensing"&gt; Krzysztof Golik&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-      &lt;/p&gt;&lt;p&gt;
-        Even then, I wasn’t very efficient with my time.
-        Since I was the only one working on this project, I kept trying to make the code as nice as I could make it.
-        I got sidetracked on optimizations that would never even make a difference in the final game experience.
-        I justified this by telling myself I was learning a lot more this way, which is true,
-        but it also kept pushing away my true goal of actually shipping the game,
-        and increasing the effort it would take to get there.
-      &lt;/p&gt;&lt;p&gt;
-        After a couple months of this, I finally got things to a place where I felt ready to do a public beta release.
-        So I put it on Ctrl-C and made an announcement post on Iris (#501 if you are on Ctrl-C and want to read it yourself).
-        There were a couple people trying it out, and things seemed to be going fine at first.
-        I was watching the server closely. Then I started getting reports that it wasn’t working for people.
-        The server was going down or just stalling randomly, and I didn’t really understand why.
-        Eventually, it got worse, and I couldn’t even start the server without it stalling instantly.
-      &lt;/p&gt;&lt;p&gt;
-        Now, when it comes down to it, I know all I really need to do is some more testing and debugging.
-        The setup is a little complicated, because I’m using
-        &lt;a href="https://en.wikipedia.org/wiki/Unix_domain_socket"&gt;Unix domain sockets&lt;/a&gt; and
-        &lt;a href="https://en.wikipedia.org/wiki/Pthreads"&gt;POSIX threads&lt;/a&gt;,
-        and both of these are kind of old APIs that I never fully grasped in the first place.
-        But it’s not anything I couldn’t overcome with some more time and effort.
-      &lt;/p&gt;&lt;p&gt;
-        But sadly, I’ve reached the end of my rope, at least for now.
-        I just really don’t want to work on this project anymore, because I went way past the point where I was having fun,
-        just for the sake of getting it done, and it’s still not done.
-        I still don’t even know if the final product will be fun for anyone, myself included.
-      &lt;/p&gt;&lt;p&gt;
-        I still haven’t ruled out just dumping my nice Zig codebase, with the fancy low-level client-server architecture,
-        and just hacking together a much simpler version in a goopy language like Javascript or Lua or Python.
-        But before I take drastic measures, I think I need to just take a breather and work on something else for a while.
-        For now, I’d like to focus on writing again!
-      &lt;/p&gt;&lt;p&gt;
-        Have you ever burned out on a project you were just doing for fun?
-        Have you ever pushed yourself extra hard on a project because you were worried you wouldn’t finish it?
-        Have you ever put a lot of effort in and not gotten to the point you wanted to get to?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/burnout.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/engraving.html</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate></item></channel></rss>
