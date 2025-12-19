@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 19 Dec 2025 12:31:36 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 19 Dec 2025 18:23:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -151,6 +151,7 @@
           &lt;li&gt;&lt;a href="goals.html" class="post-link"&gt;My goals for the year&lt;/a&gt; in 2023&lt;/li&gt;
           &lt;li&gt;&lt;a href="goals-2.html" class="post-link"&gt;The follow-up&lt;/a&gt; eight months later&lt;/li&gt;
           &lt;li&gt;About &lt;a href="goals-3.html" class="post-link"&gt;not setting resolutions&lt;/a&gt; for 2025&lt;/li&gt;
+          &lt;li&gt;&lt;a href="goals-4.html" class="post-link"&gt;The retrospective&lt;/a&gt; for 2025 (and “prospective”? for 2026)&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="winter"&gt;
@@ -458,6 +459,7 @@
         &lt;a href="#line-19"&gt;19.&lt;/a&gt;
         &lt;a href="#line-20"&gt;20.&lt;/a&gt;
         &lt;a href="#line-21"&gt;21.&lt;/a&gt;
+        &lt;a href="#line-22"&gt;22.&lt;/a&gt;
       &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class="divider" id="line-1"&gt;1.&lt;/div&gt;
@@ -1396,13 +1398,83 @@
       &lt;time datetime="Fri, 12 Dec 2025 10:30:00 CST"&gt;12 Dec. 2025, 10:30 AM&lt;/time&gt;
       &lt;p&gt;It’s an ever-evolving problem&lt;/p&gt;
     &lt;/a&gt;
+    &lt;div class="divider" id="line-22"&gt;22.&lt;/div&gt;
+    &lt;a class="journal-link" href="goals-4.html"&gt;
+      &lt;h3&gt;Goals retrospective 2025&lt;/h3&gt;
+      &lt;div class="line stop-0"&gt;&lt;/div&gt;
+      &lt;time datetime="Fri, 19 Dec 2025 11:30:00 CST"&gt;19 Dec. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;Another partial success, and a reflection on my present challenges&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — music</title><link>https://ctrl-c.club/~gome/journal/music.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — goals pt. 4</title><link>https://ctrl-c.club/~gome/journal/goals-4.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;Writing music is hard!&lt;/h1&gt;
+      &lt;h1 id="title"&gt;Goals retrospective 2025&lt;/h1&gt;
+      &lt;time datetime="Fri, 19 Dec 2025 11:30:00 CST"&gt;19 Dec. 2025, 11:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        In my last &lt;a href="goals-3.html"&gt;goalpost&lt;/a&gt;, I said I would check back in in the spring about how my winter goals went,
+        and set new ones for the coming season.
+        I didn’t do that! Nonetheless, I had at least partial success with my winter goals.
+      &lt;/p&gt;&lt;ul&gt;
+        &lt;li&gt;My exercise routine was never super regular, but I saw some progress from lifting weights over the course of this year.&lt;/li&gt;
+        &lt;li&gt;The singing-focused event never materialized, but later this year, I managed to get a group of like-minded composers together for the first time.&lt;/li&gt;
+        &lt;li&gt;I posted for a bit with gomepage before getting sidelined by &lt;a href="burnout.html"&gt;overfocus on another project&lt;/a&gt;. But I’m trying again here!&lt;/li&gt;
+        &lt;li&gt;I did indeed finish the choral piece I’d been working on, and it turned out pretty good! I unfortunately have not prioritized writing throughout the rest of the year. But I have another official project that will be in the works soon.&lt;/li&gt;
+        &lt;li&gt;I honestly don’t remember what other goals I had set that I didn’t mention in the original post. Documentation is important!&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;img src="img/sydney-skyline.webp" width="512" height="384" alt="A picture of the Sydney skyline near sunset, as seen from Victoria Park."&gt;
+      &lt;p&gt;
+        Despite not setting it as an official seasonal goal, I also managed to whittle down my social media usage pretty dramatically this year.
+        I partake of just a little slice of YouTube, mostly one channel, mostly via audio, with no logging in or reccomendation feed.
+        I also still read a small handful of accounts on Twitter, again, without logging in, via an alternative frontend, but that’s something I’d really like to kick still.
+      &lt;/p&gt;&lt;p&gt;
+        Strangely enough, one of my biggest vices right now might be hobby coding.
+        On the one hand, it’s ostensibly useful, since I’m making software I myself or others can use,
+        and I’m learning new things and building skills.
+        I kind of think of hobby coding as akin to a video game:
+        I get the same kind of satisfaction out of it as I do out of gaming,
+        but I’d rather sink a lot of hours into something potentially productive rather than ephemeral achievement in a game.
+      &lt;/p&gt;&lt;p&gt;
+        But I do spend a lot of time on it that I really could put towards
+        music or cooking or reading or exercise or going for walks or socializing,
+        or just generally finding ways to be a more well-rounded person.
+        Since it’s arguably “useful”, I give myself permission to be totally immoderate in pursuing my coding projects,
+        but then I waste a lot of time on projects I won’t end up finishing,
+        or doing things in particular, inefficient ways just because I want to.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve talked about this before, but obsession seems to be part of my personality.
+        A big part of maturing for me has been becoming more aware of obsession in the various places it comes up in my life,
+        and then using that awareness to gradually shed whatever underlying anxiety led to it.
+      &lt;/p&gt;&lt;p&gt;
+        Obsession deserves some credit; it’s why I’m any good at things like music and coding.
+        But it’s kind of a dirty fuel; it doesn’t play nice with the rest of your life, almost by definition.
+        And I’m still struggling with knowing how to proceed when I lose obsession:
+        I’m just not as fixated on music as I used to be,
+        but I wish I was still as intrinsically motivated to write music, and to learn more about it.
+      &lt;/p&gt;&lt;p&gt;
+        This has been a long &amp;amp; meandering post, but I think the reflection was useful for discovering what I’d like to focus on this winter.
+      &lt;/p&gt;&lt;ul&gt;
+        &lt;li&gt;Quit reading Twitter&lt;/li&gt;
+        &lt;li&gt;Listen to three audiobooks: I like having some verbal audio while I do chores, and this would help me diversify my audio diet.&lt;/li&gt;
+        &lt;li&gt;Organize and timebox my coding projects: I’ll spend a limited amount of time on them each week, perhaps drawing from a shared time budget with video games.&lt;/li&gt;
+        &lt;li&gt;Make a daily habit of playing piano just for fun! That’s how I fell in love with music in the first place.&lt;/li&gt;
+      &lt;/ul&gt;&lt;p&gt;
+        I still like this seasonal goal-setting structure.
+        It lets me be modest and realistic in the goals I set.
+        I reserve the right to revise or expand this list.
+        By March 20th, 2026, I intend to come back, review, and set new goals.
+      &lt;/p&gt;&lt;p&gt;
+        How did your goals go in 2025?
+        Are you setting new ones for the coming year or season?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/goals-4.html</guid></item><item><title>gome — music</title><link>https://ctrl-c.club/~gome/journal/music.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Writing music is hard!&lt;/h1&gt;
       &lt;time datetime="Fri, 12 Dec 2025 10:30:00 CST"&gt;12 Dec. 2025, 10:30 AM&lt;/time&gt;
       &lt;p&gt;
         Writing code is fairly straightforward for me.
@@ -1447,7 +1519,7 @@
   
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/music.html</guid></item><item><title>gome — loops</title><link>https://ctrl-c.club/~gome/journal/loops.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;Too many open loops&lt;/h1&gt;
+      &lt;h1 id="title"&gt;Too many open loops&lt;/h1&gt;
       &lt;time datetime="Thu, 11 Dec 2025 10:00:00 CST"&gt;11 Dec. 2025, 10:00 AM&lt;/time&gt;
       &lt;p&gt;
         I have been on a run of starting projects and not finishing them.
@@ -1504,7 +1576,7 @@
   
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/loops.html</guid></item><item><title>gome — habits</title><link>https://ctrl-c.club/~gome/journal/habits-2.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;Becoming a creature of habit&lt;/h1&gt;
+      &lt;h1 id="title"&gt;Becoming a creature of habit&lt;/h1&gt;
       &lt;time datetime="Wed, 10 Dec 2025 09:00:00 CST"&gt;10 Dec. 2025, 9:00 AM&lt;/time&gt;
       &lt;p&gt;
         In general, I am not a creature of habit.
@@ -1548,7 +1620,7 @@
   
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/habits-2.html</guid></item><item><title>gome — architecture</title><link>https://ctrl-c.club/~gome/journal/architecture.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;Website architecture&lt;/h1&gt;
+      &lt;h1 id="title"&gt;Website architecture&lt;/h1&gt;
       &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
       &lt;p&gt;
         When I &lt;a href="gomepage.html"&gt;started building gomepage&lt;/a&gt;, I had only the front page.
@@ -1600,7 +1672,7 @@
   
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/architecture.html</guid></item><item><title>gome — cold write</title><link>https://ctrl-c.club/~gome/journal/cold-write.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;When it’s cold, I write!&lt;/h1&gt;
+      &lt;h1 id="title"&gt;When it’s cold, I write!&lt;/h1&gt;
       &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
       &lt;p&gt;
         Hello, it’s gome, back for what is hopefully another good solid run of daily posting.
@@ -1655,7 +1727,7 @@
   
 &lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/cold-write.html</guid></item><item><title>gome — webjam pt. 2</title><link>https://ctrl-c.club/~gome/journal/webjam-2.html</link><description>&lt;div&gt;
     &lt;article&gt;
-      &lt;h1&gt;What is the point of the Webpage Jam?&lt;/h1&gt;
+      &lt;h1 id="title"&gt;What is the point of the Webpage Jam?&lt;/h1&gt;
       &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
       &lt;blockquote&gt;
         One thing I’m pondering: what’s the point of the webjam?
@@ -1704,64 +1776,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam-2.html</guid></item><item><title>gome — engraving</title><link>https://ctrl-c.club/~gome/journal/engraving.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1&gt;An idea for a music engraving software&lt;/h1&gt;
-      &lt;time datetime="Wed, 14 May 2025 23:00:00 CDT"&gt;14 May 2025, 11:00 PM&lt;/time&gt;
-      &lt;p class="note"&gt;
-        I wrote this over a month ago but didn’t publish it.
-        Realized after writing that I shouldn’t go down this particular rabbit hole right now,
-        and it felt like publishing would solidify the idea into a whole “new project” in my mind.
-        I still have the draft though, so enjoy! – &lt;span class="oldstyle-nums"&gt;26 June 2025&lt;/span&gt;
-      &lt;/p&gt;&lt;p&gt;
-        &lt;a href="https://lilypond.org/"&gt;Lilypond&lt;/a&gt; has been my music notation tool of choice since high school.
-        It’s an open-source engraving system with pretty good-looking output,
-        especially compared to what I was getting out of the box with the program I used in middle school, Finale. (R.I.P.)
-      &lt;/p&gt;
-      &lt;img src="img/lilypond.webp" width="600" height="200" alt='The logo for the Lilypond music engraving system, a water lily over a musical score. Beside it is the text "Lilypond... music notation for everyone".'&gt;
-      &lt;p&gt;
-        One thing I’ve always liked about Lilypond is that it’s a text-based system.*
-        You input your music in a specialized programming language, and the program processes it into a PDF of the score.
-        For example, here’s a minimal example of a file you could feed into Lilypond:
-      &lt;/p&gt;&lt;blockquote class="highlight"&gt;&lt;pre&gt;&lt;code&gt;\version "2.24.3"
-\relative c'' { \key d \major r4 a fis e8 d e fis a, b d2 }&lt;/code&gt;&lt;/pre&gt;&lt;/blockquote&gt;&lt;p&gt;
-        And the result would be:
-      &lt;/p&gt;
-      &lt;img src="img/orchard-glen-melody.webp" width="448" height="100" alt="Music notation showing a melody in D major"&gt;
-      &lt;p&gt;
-        If you aren’t used to programming, this might strike you as tedious or confusing.
-        It requires some up-front effort to learn and get comfortable with the code,
-        but in return, you get much more transparency and precision in how you control the software.
-      &lt;/p&gt;&lt;p&gt;
-        As much as I like Lilypond, I don’t consider it ideal, either.
-        For one, it’s not the fastest.
-        I can’t help but think a more efficient implementation running on contemporary hardware could give you near-instant feedback (as opposed to somewhere between one and ten seconds in my experience, depending on the score).
-        The system is also a bit old and arcane in some ways. Even with a lot of experience with the software,
-        I often can’t figure out how to get it to do certain things I want.
-        There are good resources for Lilypond online, but sometimes the thing I need is niche enough that I can’t find help for it.
-      &lt;/p&gt;&lt;p&gt;
-        Other problems are persistently fiddly, even if you know the ways of getting around them.
-        One big issue I run into is tweaking the positioning of things, especially ties and slurs.
-        In a GUI editor, this would be a simple matter of clicking and dragging.
-        In Lilypond, you have to manually type in a list of offsets to apply to the object, wait for your score to recompile, check the output, tweak the offsets again, and so on, until you’re happy.
-        But you’d better not change any of the music after that, or else Lilypond might redraw the object in a slightly different position, and now your offsets are wrong again.
-      &lt;/p&gt;&lt;p&gt;
-        Something I roll around in my head sometimes is the idea of making a new music engraving system that takes what I like from Lilypond.
-        Hopefully, it could be faster and a little simpler to understand (for me, at least).
-        I think it would be cool to have both a text-file-based interface like Lilypond,
-        as well as a graphical editor for the process of visually positioning things on the page.
-        I’d like to keep as much control exposed to the user as possible.
-      &lt;/p&gt;&lt;p&gt;
-        I’m thinking about how you could decompose the problem into separate layers,
-        like the music itself, the logical score, and then having layout as a separate step in the process.
-        The question is, how do you give the user control over the latter layers when they depend on earlier layers?
-      &lt;/p&gt;&lt;p&gt;
-        Do you use any music notation software?
-        Have you tried Lilypond?
-        Do you prefer working with text files or WYSIWYG editors?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-      &lt;p class="footnote"&gt;* You might call it the &lt;a href="https://en.wikipedia.org/wiki/LaTeX"&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/a&gt; of music notation.&lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/engraving.html</guid><pubDate>Wed, 14 May 2025 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam-2.html</guid></item></channel></rss>

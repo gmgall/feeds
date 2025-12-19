@@ -1,13 +1,806 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml</title><link>https://www.aconteceempetropolis.com.br/</link><description>Failed to generate feed.</description><lastBuildDate>Fri, 19 Dec 2025 12:31:20 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial</title><link>https://www.aconteceempetropolis.com.br/</link><description>ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial</description><language>pt-BR</language><lastBuildDate>Fri, 19 Dec 2025 18:23:10 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Petrópolis recebe a Caravana Natal Encantado neste sábado com espetáculo de luzes e coral na Praça da Catedral – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/19/petropolis-recebe-caravana-natal-encantado-neste-sabado-com-espetaculo-de-luzes-e-coral-na-praca-da-catedral/</link><description>&lt;div class="entry-content entry clearfix"&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+			
+			&lt;p&gt;Neste sábado (20), Petrópolis recebe a Caravana Natal Encantado 2025, um projeto da Secretaria de Estado de Turismo do Rio de Janeiro (Setur-RJ) que transforma espaços públicos em grandes palcos de celebração.&lt;/p&gt;
+&lt;p&gt;A principal atração é um ônibus cenográfico totalmente ambientado e iluminado, que estará na Praça Princesa Isabel, em frente à Catedral São Pedro de Alcântara, das 18h às 22h.&lt;/p&gt;
+&lt;p&gt;O público também vai poder conferir a apresentação do Coral Encantado, conduzido pelo Coral Estrelas do Sul, sob a direção de Cecília Reis, além de personagens lúdicos como duendes, renas, soldadinhos e a Mamãe Noel. O ponto alto da noite será o cortejo especial com a chegada do Papai Noel, que estará disponível para receber cartinhas e tirar fotos com as crianças.&lt;/p&gt;
+&lt;div&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Local: Praça Princesa Isabel (em frente à Catedral São Pedro de Alcântara) – Centro&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;Data: 20 de dezembro (sábado)&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Horário: Das 18h às 22h&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Entrada: Gratuita&lt;/p&gt;
+&lt;/div&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/caravana-natalina/" rel="tag"&gt;caravana natalina&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/natal-em-petropolis/" rel="tag"&gt;natal em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/19/petropolis-recebe-caravana-natal-encantado-neste-sabado-com-espetaculo-de-luzes-e-coral-na-praca-da-catedral/</guid></item><item><title>Após estragos provocados pela chuva, Bazar da APPO reabre nesta sexta no Centro – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/19/apos-estragos-provocados-pela-chuva-bazar-da-appo-reabre-nesta-sexta-no-centro/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta sexta-feira (19), o Bazar da Associação Petropolitana dos Pacientes Oncológicos (APPO), localizado no Centro Histórico, reabre as portas, após ter sido atingido pela forte chuva da última quarta-feira (17). O grande volume de água ocasionou danos em parte do material exposto no espaço, exigindo esforços imediatos da equipe para reorganização e recuperação do ambiente.&lt;/p&gt;
+&lt;p&gt;“Assim como toda a cidade, também fomos surpreendidos pela força da chuva e parte do nosso material foi danificado, mas a APPO não desiste! O bazar é fundamental para o custeio das atividades da associação e, com muito empenho, conseguimos nos reorganizar para reabrir o espaço. Estamos prontos para receber a comunidade novamente”, comenta Ana Cristina Mattos, vice-presidente voluntária da instituição.&lt;/p&gt;
+&lt;p&gt;O bazar da APPO é mais do que um espaço de consumo consciente. Roupas, acessórios e itens diversos compõem um acervo que promove a moda circular e a sustentabilidade, além de ser uma boa oportunidade para encontrar presentes de Natal que cabem no bolso. Toda a renda obtida é revertida para a manutenção dos serviços oferecidos pela instituição aos pacientes oncológicos e familiares, incluindo hospedagem, transporte, apoio psicossocial e ações assistenciais.&lt;/p&gt;
+&lt;p&gt;O bazar funciona na Rua do Imperador, 842 – Loja 4, no Centro Histórico, de segunda a sexta-feira, das 9h às 18h, na galeria ao lado do restaurante Spoleto.&lt;/p&gt;
+&lt;p&gt;Mais informações sobre a APPO podem ser obtidas na sede localizada na Rua Visconde da Penha, nº 72 – Centro, por meio do telefone fixo (24) 2242-0956, do WhatsApp (24) 99274-1377, do site &lt;a href="http://www.appo.org.br/"&gt;www.appo.org.br&lt;/a&gt;, e-mail &lt;a href="mailto:appo@appo.org.br"&gt;appo@appo.org.br&lt;/a&gt; ou ainda das mídias sociais Facebook @appo.org e Instagram @associacaopetropolitana.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/appo/" rel="tag"&gt;APPO&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bazar-beneficente/" rel="tag"&gt;bazar beneficente&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/19/apos-estragos-provocados-pela-chuva-bazar-da-appo-reabre-nesta-sexta-no-centro/</guid></item><item><title>Câmara aprova Reforma da Previdência Municipal de Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/19/camara-aprova-reforma-da-previdencia-municipal-de-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta última quinta-feira (18), a Câmara Municipal aprovou o projeto de Reforma da Previdência Municipal. O projeto foi construído pelo Governo Municipal, junto a representantes de diversas categorias de servidores públicos de Petrópolis e vereadores. A reforma contempla exigências do Ministério da Previdência Social e do Tribunal de Contas do Estado do Rio de Janeiro (TCE-RJ) e demandas do funcionalismo petropolitano, e busca dar ao Instituto de Previdência e Assistência Social do Município de Petrópolis (Inpas) condições para garantir os direitos de aposentados e pensionistas no futuro.&lt;/p&gt;
+&lt;p&gt;A Reforma da Previdência Municipal é uma obrigação desde que foi aprovada a Emenda Constitucional 103, em 2019, que promoveu a Reforma da Previdência em âmbito federal.&lt;/p&gt;
+&lt;p&gt;Uma primeira versão da Reforma foi apresentada à Câmara em abril e, em seguida, um grupo de trabalho foi instituído, composto pelo Executivo Municipal, Inpas, vereadores e representantes do Sindicato dos Servidores Públicos de Petrópolis (Sisep), Sindicato Estadual dos Profissionais da Educação – Petrópolis (Sepe-Petrópolis), Associação dos Guardas Civis Municipais de Petrópolis (AGCMP), ASMVida (Associação dos Servidores Municipais de Petrópolis pela Qualidade de Vida), Sindicato dos Fiscais Municipais de Petrópolis (Sindfisc) e de aposentados. Pelo menos 10 reuniões foram realizadas nesse período para debater democraticamente a proposta e chegar à versão apresentada. Também houve uma audiência pública em setembro, que aconteceu na Casa dos Conselhos Augusto Ângelo Zanatta.&lt;/p&gt;
+&lt;p&gt;De acordo com a prefeitura, a Reforma da Previdência é o principal passo para corrigir o déficit do Inpas, mas outras medidas já foram tomadas em 2025, como as lei que institui o Regime Municipal de Recuperação Previdenciária e que cria o Plano de Amortização do Déficit Atuarial, ambas aprovadas no mês de julho.&lt;/p&gt;
+&lt;p&gt;Entre os fatores que vão continuar a pressionar a previdência municipal estão a chegada de novos concursados e o aumento da expectativa de vida, ou seja, futuramente, o Inpas terá mais beneficiários para assegurar, por mais tempo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Entenda a Reforma da Previdência Municipal&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Alíquotas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Hoje, 6.047 servidores ativos contribuem para a Previdência Municipal. Já o número de inativos, ou seja, aposentados e pensionistas, é de 4.222. Atualmente, são cinco faixas de contribuição: 11%, 12%, 14%, 16% e 18%. A alíquota média da contribuição dos servidores é de 11,58%.&lt;/p&gt;
+&lt;p&gt;A Emenda Constitucional 103/2019, que promoveu a Reforma da Previdência Nacional, determinou que as previdências municipais que tinham déficit atuarial (como é o caso de Petrópolis) deveriam estabelecer uma alíquota mínima de 14%.&lt;/p&gt;
+&lt;p&gt;Um entendimento do TCE-RJ também dava a possibilidade para que os municípios adotassem alíquota progressiva, desde que a arrecadação financeira fosse a mesma que teria caso adotasse a alíquota de 14%. Houve estudos desse cenário e uma proposta foi apresentada ao grupo de trabalho.&lt;/p&gt;
+&lt;p&gt;Neste cenário, uma pequena parte dos servidores seria elegível para alíquotas menores (cerca de 1,5% do total de servidores teria alíquota de 13%). Na prática, a maior parte dos servidores (55% do total) iria para as faixas de contribuição entre 15% e 17%.&lt;/p&gt;
+&lt;p&gt;Por isso, após intenso diálogo e diversas análises técnicas, Petrópolis decidiu adotar o modelo de alíquota única de 14%. A nova alíquota entra em vigor 90 dias após a publicação da lei.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Idade mínima e tempo de contribuição&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Reforma da Previdência Municipal estabelece idade mínima e tempo de contribuição para aposentadoria: no caso de homens, 65 anos de idade e 35 anos de contribuição; para mulheres, 62 anos e 30 anos de contribuição.&lt;/p&gt;
+&lt;p&gt;Para professores, a idade e o tempo de contribuição foram reduzidos em cinco anos: professores homens, 60 anos de idade e 30 anos de contribuição; professoras, 57 anos e 25 anos de contribuição.&lt;/p&gt;
+&lt;p&gt;As regras de idade mínima trazidas pela Reforma seguem a regra nacional. Já o tempo de contribuição (em todos os casos) permanece igual ao estabelecido na Lei Orgânica do Município (L.O.M.).&lt;/p&gt;
+&lt;p&gt;Nas discussões com representantes dos servidores, um dos cenários estudados foi a exclusão da idade mínima. No entanto, para isso seria necessário adotar uma alíquota de contribuição linear de 18,43%. Ou seja, a combinação de idade mínima e tempo de contribuição garante a alíquota de 14%.&lt;/p&gt;
+&lt;p&gt;As regras da idade mínima e do tempo de contribuição se aplicam para os funcionários que ingressarem no serviço público após a lei entrar em vigor – para quem já é servidor, valem as regras de transição.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Regras transição: servidores poderão escolher a possibilidade mais benéfica&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Reforma da Previdência prevê duas regras de transição para aposentadoria dos trabalhadores que já atuavam no serviço público municipal antes da entrada em vigor da lei. Cada funcionário poderá escolher, entre essas duas opções, aquela que for mais benéfica.&lt;/p&gt;
+&lt;p&gt;Uma das regras é por pontos (soma da idade e do tempo de contribuição). Outra é por adicional de tempo de contribuição, com duas regras distintas, uma para quem ingressou no serviço público até o fim de 2003 e outra para quem começou a trabalhar como servidor a partir de 2004. Entenda:&lt;/p&gt;
+&lt;p&gt;Na regra por pontos, o servidor deve:&lt;br&gt;
+•⁠ ⁠no caso de mulher: ter no mínimo 57 anos de idade e 30 anos de contribuição e somar 92 pontos;&lt;br&gt;
+•⁠ ⁠no caso de professora: ter no mínimo 52 anos e 25 anos de contribuição e somar 87 pontos;&lt;br&gt;
+•⁠ ⁠no caso de homens: ter no mínimo 62 anos de idade e 35 anos contribuição e somar 102 pontos;&lt;br&gt;
+•⁠ ⁠no caso de professor (homem): ter no mínimo 57 anos e 30 anos contribuição e somar 98 pontos.&lt;/p&gt;
+&lt;p&gt;A pontuação aumenta um ponto por ano a partir de 2026 até atingir: 100 pontos para mulheres; 92 para professoras; 105 para homens; e 100 para professor (homem).&lt;/p&gt;
+&lt;p&gt;Nessa regra, há um critério adicional para o caso de funcionários que entraram para o serviço público antes de 16/12/1998: para cada ano que exceder o tempo mínimo de contribuição, será reduzido um ano de idade para aposentadoria. A data segue a estabelecida pela Emenda Constitucional 47/2005.&lt;/p&gt;
+&lt;p&gt;Na regra de adicional de tempo de contribuição, para servidores que ingressaram no serviço público até o dia 31 de dezembro de 2003, será acrescentado 30% do tempo de contribuição.&lt;/p&gt;
+&lt;p&gt;A mesma lógica se aplica para quem entrou no serviço público a partir de 1º de janeiro de 2004, mas o tempo de contribuição será acrescentado em 50%.&lt;/p&gt;
+&lt;p&gt;Entenda melhor com esses exemplos, que são de casos reais de servidores. Cada caso é descrito com data de nascimento e de ingresso no serviço público e quando poderia se aposentar se optasse pela regra de transição por pontos ou por adicional de tempo de contribuição:&lt;/p&gt;
+&lt;p&gt;Servidor A: nasceu em 25/03/1992 (33 anos) e ingressou no serviço público em 03/02/2015.&lt;br&gt;
+Regra por pontos: pode se aposentar em 2053, com 61 anos de idade (quando vai atingir 100 pontos).&lt;br&gt;
+Adicional de 30% de tempo de contribuição: não se aplica (regra para quem entrou no serviço público até o fim de 2003).&lt;br&gt;
+Adicional de 50% de tempo de contribuição: pode se aposentar em 2055, com 63 anos (20 anos de contribuição + 50% = 30 anos de contribuição).&lt;/p&gt;
+&lt;p&gt;Servidor B (professora): nasceu em 30/04/1977 (48 anos) e ingressou no serviço público em 09/06/2004.&lt;br&gt;
+Regra por pontos: pode se aposentar em 2036, aos 58 anos de idade (quando vai atingir 92 pontos).&lt;br&gt;
+Adicional de 30% de tempo de contribuição: não se aplica (regra para quem entrou no serviço público até o fim de 2003).&lt;br&gt;
+Adicional de 50% de tempo de contribuição: pode se aposentar em 2031, aos 54 anos de idade (4 anos de contribuição + 50% = 6 anos de contribuição).&lt;/p&gt;
+&lt;p&gt;Servidor C: nasceu em 19/03/1973 (52 anos) e ingressou no serviço público em 31/10/1996.&lt;br&gt;
+Regra por pontos: pode se aposentar em 2035, aos 62 anos de idade (quando vai atingir 92 pontos).&lt;br&gt;
+Adicional de 30% de tempo de contribuição: pode se aposentar em 2031, aos 60 anos de idade (6 anos de contribuição + 30% = 8 anos e 9 meses de contribuição).&lt;br&gt;
+Adicional de 50% de tempo de contribuição: não se aplica (regra para quem entrou no serviço público a partir de 2004).&lt;/p&gt;
+&lt;p&gt;Ou seja, para o servidor A, o mais benéfico é a transição por pontos; já para os servidores B (professora) e C, o melhor cenário é o de adicional de tempo de contribuição.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pensão&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A pensão por morte será equivalente a 70% do valor da aposentadoria recebida ou que o servidor teria direito, acrescida de um ponto percentual para cada ano de contribuição, até o limite de 100%. Caso o dependente seja inválido ou pessoa com deficiência intelectual, mental ou grave, a pensão pode ser de 100% do valor da aposentadoria que servidor recebida ou que teria direito.&lt;/p&gt;
+&lt;p&gt;Impactos financeiros: economia de R$ 6,5 milhões por ano aos cofres públicos&lt;/p&gt;
+&lt;p&gt;Atualmente, a folha mensal da Previdência de Petrópolis é de cerca de R$ 18,5 milhões (R$ 240,5 milhões/ano).&lt;/p&gt;
+&lt;p&gt;O Inpas tem arrecadação R$ 5,5 milhões (R$ 71,5 milhões): contribuições do funcionalismo alcança R$ 1,8 milhões (R$ 23,4 milhões) e patronal alcança R$ 3,7 milhões (R$ 48,1 milhões). Ou seja, o município precisa complementar R$ 13 milhões todo mês (ou R$ 169 milhões por ano).&lt;/p&gt;
+&lt;p&gt;Com as mudanças trazidas pela Reforma, a arrecadação da Previdência vai aumentar quase R$ 1,5 milhão por mês, ou seja, vai para quase R$ 7 milhões por mês. Dessa forma, o município terá que complementar R$ 11,5 milhões por mês (R$ 149,5 milhões por ano).&lt;/p&gt;
+&lt;p&gt;Isso representa uma economia de R$ 6,5 milhões por ano, que podem ser investidos em outras áreas fundamentais da cidade, como saúde, educação, infraestrutura, entre outras.&lt;/p&gt;
+&lt;p&gt;Um estudo atuarial encomendado pelo Inpas e feito considerando as regras previstas pela Reforma da Previdência aponta que o Plano Previdenciário (que compreende servidores que ingressaram no serviço público após 2015) sairia de déficit de R$ 111,7 milhões para superávit de R$ 174,6 milhões em 35 anos. Já o Plano Financeiro (que compreende servidores que iniciaram o serviço público antes de 2015) reduz o déficit de R$ 4,3 bilhões para R$ 3,3 bilhões no mesmo prazo de 35 anos (queda de 24,23%).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Próximos passos&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A aprovação da Reforma da Previdência antes do encerramento de 2025 vai garantir que o município obtenha a Certidão de Regularidade Previdenciária (CRP), que vai contribuir para que a liberação de mais verbas federais para Petrópolis.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/camara-de-vereadores/" rel="tag"&gt;câmara de vereadores&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/camara-municipal-de-petropolis/" rel="tag"&gt;câmara municipal de petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/19/camara-aprova-reforma-da-previdencia-municipal-de-petropolis/</guid></item><item><title>Celular Seguro passa a bloquear aparelhos sem o aplicativo instalado – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/19/celular-seguro-passa-a-bloquear-aparelhos-sem-o-aplicativo-instalado/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A partir de agora, quem for vítima de furto ou roubo de celular ou quem perdeu o aparelho pode registrar a ocorrência pelo aplicativo Celular Seguro usando outro aparelho telefônico, tablet ou computador. E não é mais necessário informar o IMEI do celular, uma espécie de CPF do aparelho, nem ter registro prévio no aplicativo. &lt;img src="https://agenciabrasil.ebc.com.br/ebc.png?id=1671914&amp;amp;o=node"&gt;&lt;img src="https://agenciabrasil.ebc.com.br/ebc.gif?id=1671914&amp;amp;o=node"&gt;A informação foi divulgada pelo Ministério da Justiça e Segurança Pública.&lt;/p&gt;
+&lt;p&gt;Basta baixar o app e entrar no Celular Seguro por meio de outro dispositivo, fazer o registro em até 15 dias, indicando a data e o horário do ocorrido, bem como a linha telefônica utilizada no celular.&lt;/p&gt;
+&lt;p&gt;Segundo o Ministério da Justiça, com isso, é possível bloquear a linha telefônica, os aplicativos financeiros, o IMEI do aparelho ou, ainda, cadastrar no modo recuperação.&lt;/p&gt;
+&lt;p&gt;Lançado em dezembro de 2023, o Celular Seguro tem hoje 3,6 milhões de pessoas cadastradas, de acordo com o governo. O objetivo é que o usuário, a partir do aplicativo, emita um único alerta para agilizar o bloqueio de aparelhos, reduzindo prejuízos financeiros por golpes digitais, além de facilitar a recuperação de celulares pelas polícias estaduais.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Fonte: Agência Brasil&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/app-celular-seguro/" rel="tag"&gt;app celular seguro&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/19/celular-seguro-passa-a-bloquear-aparelhos-sem-o-aplicativo-instalado/</guid></item><item><title>Enel informa que mais de 940 clientes estão com problemas no fornecimento de energia – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/18/enel-informa-que-mais-de-940-clientes-estao-com-problemas-no-fornecimento-de-energia/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Devido à chuva desta última quarta-feira (17), 949 clientes (o que representa 0,54% do total de clientes) estão com problemas no fornecimento de energia, segundo a concessionária Enel.&lt;/p&gt;
+&lt;p&gt;O Centro Cultural Sesc Quitandinha, por exemplo, informou em suas redes sociais que está fechado à visitação nesta quinta-feira (18) devido à falta de energia.&lt;/p&gt;
+&lt;p&gt;Por isso, algumas regiões também estão com o abastecimento de água prejudicado, que afeta a unidade de bombeamento da comunidade do Alemão na parte baixa, e na Alameda Aclimação em Itaipava.&lt;/p&gt;
+&lt;p&gt;No transporte público, duas linhas permanecem com operação parcial:&lt;br&gt;
+– Linha 149 (Roncoroni): não está atendendo a Rua Eugênio Werneck, no Morin&lt;br&gt;
+– Linha 630 – Jardim Salvador, operando somente até a entrada da região. Ao todo, os ônibus estão deixando de atender 1,3 quilômetro&lt;/p&gt;
+&lt;p&gt;As equipes da Comdep continuam nas ruas fazendo a limpeza e desobstrução das vias. Os trabalhos na manhã desta quinta-feira (18/12), se concentraram na Estrada da Saudade, Bingen, Atílio Marotti, Quarteirão Brasileiro, Estrada Mineira, Corrêas, Estrada União e Indústria, Quissamã, Itamarati, Mosela, Bataillard e Pedras Brancas. Cerca de 200 trabalhadores e 21 maquinários – entre retroescavadeiras e caminhões – estão envolvidos nas ações.&lt;/p&gt;
+&lt;p&gt;Equipes da Defesa Civil de Petrópolis já atenderam 95% das ocorrências registradas. No total, foram 50 ocorrências – entre deslizamentos, quedas de árvores e muros, e destelhamentos. Também foram registrados alagamentos e inundações em diversos pontos da cidade. Dois carros foram retirados do Rio Palatino, no Centro da Cidade.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bombeiros buscam uma pessoa desaparecida &lt;/strong&gt;&lt;/p&gt;
+&lt;div&gt;A Companhia Petropolitana de Trânsito e Transportes (CPTrans) informa que um servidor, concursado da Companhia, está desaparecido após a forte chuva registrada na quarta-feira (17/12).&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;O veículo que foi arrastado pela correnteza durante o episódio está registrado em nome do servidor.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;As equipes de resgate do Corpo de Bombeiros realizam as buscas por toda região. A CPTrans acompanha a situação e presta apoio às autoridades envolvidas.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;A CPTrans informou que também mantém contato com os familiares e está prestando todo apoio necessário.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Novas informações serão divulgadas assim que confirmadas oficialmente.&lt;/div&gt;
+&lt;p&gt;
+
+			&lt;/p&gt;&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/defesa-civil-de-petropolis/" rel="tag"&gt;Defesa Civil de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/18/enel-informa-que-mais-de-940-clientes-estao-com-problemas-no-fornecimento-de-energia/</guid></item><item><title>Bazar de Natal acontece no Terra Santa nesta sexta – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/18/bazar-de-natal-acontece-no-terra-santa-nesta-sexta/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta sexta-feira (19), o Rio Expo Eventos promove um Bazar de Natal no Espaço Terra Santa, das 10h às 21h. A entrada e o estacionamento são gratuitos.&lt;/p&gt;
+&lt;p&gt;No espaço, haverá artesanato, moda feminina, artigos de Natal, artigos religiosos, tarot, gastronomia, e muito mais.&lt;/p&gt;
+&lt;p&gt;O Espaço Terra Santa fica na rua Monsenhor Bacelar, 590 – Valparaíso.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bazar-de-natal/" rel="tag"&gt;bazar de natal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/centro-educacional-terra-santa/" rel="tag"&gt;centro educacional terra santa&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/18/bazar-de-natal-acontece-no-terra-santa-nesta-sexta/</guid></item><item><title>“Avatar: Fogo e Cinzas” em cartaz em Petrópolis; confira a programação da semana – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/18/avatar-fogo-e-cinzas-em-cartaz-em-petropolis-confira-a-programacao-da-semana/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta semana, os filmes “Avatar: Fogo e Cinzas”,  “Five Nights at Freddy’s 2”, “DP4 – O Fantástico Reino de Ondion”, “Zootopia 2”, “Truque de Mestre 3” e “O Agente Secreto” estão em cartaz nos cinemas de Petrópolis.&lt;/p&gt;
+&lt;p class="p1"&gt;Lembrando que exceto o Cine Show, os demais cinemas não funcionam às segundas. Os ingressos podem ser adquiridos &lt;a href="https://www.ingresso.com/cinemas?city=petropolis&amp;amp;partnership=home"&gt;neste link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O Cine Show funcionará em horário especial no dia 24/12.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O Cine Itaipava funcionará normalmente na segunda-feira (22) e não funcionará nos dias 24/12 e 25/12. A programação será retomada normalmente na terça-feira (26).&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O Cinemaxx Bauhaus Exclusive não funciona nos dias 22, 24 e 25/12.&lt;/strong&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;&lt;strong&gt;CINE SHOW PETRÓPOLIS&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Avatar: fogos e cinzas – fantasia – estreia – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 14 anos&lt;/p&gt;
+&lt;p&gt;Horários: 14h (VIP LEG – somente quarta) / 14h10 (3D) / 14h20 (3D – somente quarta) / 15h10 (VIP – exceto quarta) / 15h40 (3D – exceto quarta) / 18h (3D – exceto quarta) / 18h30 (VIP – exceto quarta) / 19h (VIP LEG – exceto quarta) / 19h30 (LEG – exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Após a devastadora guerra contra a RDA e a perda do seu filho mais velho, Jake Sully e Neytiri devem enfrentar uma nova ameaça: o Povo das Cinzas, uma nova e agressiva tribo Na’vi, conhecida por sua violência extrema e sede de poder. O misterioso clã é composto por guerreiros que controlam o fogo e cuja lealdade pode desequilibrar o destino do planeta.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Truque de Mestre 3 – suspense – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 12 anos&lt;/p&gt;
+&lt;p&gt;Horário: 21h10 (exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Os Quatro Cavaleiros estão de volta com uma nova geração de ilusionistas e uma trama cheia de reviravoltas, mágicas e surpresas, que promete ser diferente de tudo o que já foi mostrado na franquia&lt;/span&gt;&lt;span&gt;.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zootopia 2 – animação – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Horários: 14h40 (exceto quarta) / 15h45 (somente quarta) / 16h50 (exceto quarta) / 19h (exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Os detetives Judy Hopps (voz em inglês de Ginnifer Goodwin e em português de Monica Iozzi) e Nick Wilde (voz em inglês de Jason Bateman e em português de Rodrigo Lombardi) se encontram na trilha sinuosa de um réptil misterioso que chega a Zootopia e vira a metrópole animal de cabeça para baixo. Para desvendar o caso, Judy e Nick devem se infiltrar em novas e inesperadas partes da cidade, onde sua crescente parceria será testada como nunca.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Five Nights at Freddy’s 2 – terror – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 14 anos&lt;/p&gt;
+&lt;p&gt;Horários: 15h50 (somente quarta) / 17h05 (exceto quarta) / 19h10 (exceto quarta) / 21h15 (exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Um ano após o pesadelo no restaurante Freddy Fazbear’s Pizza, rumores distorcidos e histórias exageradas e sensacionalistas sobre o que aconteceu ali viraram lendas locais, dando origem ao primeiro Fazfest da cidade. Enquanto o vigia noturno Mike (Josh Hutcherson) e a policial Vanessa (Elizabeth Lail) escondem a verdade da irmã de 11 anos de Mike sobre o destino dos animatrônicos, a jovem Abby (Piper Rubio) recebe um chamado dos terríveis brinquedos. Ao se reconectar com Freddy, Bonnie, Chica e Foxy, a menina desperta um mal trágico na cidade, desencadeando uma série de eventos assustadores. No meio desse horror há muito esquecido, segredos sombrios sobre a origem da pizzaria Freddy’s são revelados.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DP4 – O Fantástico Reino de Ondion – infantil/aventura – nacional&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Horário: 14h45 (exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: Dois terços do time de Detetives do Prédio Azul precisarão encarar uma nova aventura e decifrar enigmas perigosos em um mundo colorido repleto de duendes e outros seres mágicos que vivem numa floresta encantada. Depois que Max some misteriosamente, Mel e Zeca vão em busca do amigo numa missão super arriscada que os coloca no meio do reino de Ondion após atravessarem o portal do apartamento 333 do Prédio Azul. Para descobrirem o paradeiro de Max, a dupla de investigadores embarca numa jornada pela vila mágica e lúdica onde existem castelos, barracas que vendem biscoitos flutuantes, flores falantes e frutas malabaristas. Enquanto tentam localizar o companheiro, o vilão Juks arma um plano do mal junto com o bruxo Rumorum para roubar o Cetro Onírion, que tem o poder de realizar os mais impossíveis desejos, e dominar o reino bruxesco. Uma grande missão aguarda os três amigos que precisarão se juntar com Leocádia, Berenice, Berta e Brisa para salvar o reino das garras de um grande mal.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O Agente Secreto – policial – nacional&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 16 anos&lt;/p&gt;
+&lt;p&gt;Horários: 15h (VIP – somente quarta) / 15h30 (VIP – exceto quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: No Brasil de 1977, Marcelo (Wagner Moura), um homem de 40 anos que trabalha como professor especializado em tecnologia, sai da movimentada São Paulo e vai para Recife. Ele tenta fugir do seu passado violento e misterioso, com a intenção de começar uma nova vida. Ali, ele chega na semana do Carnaval, então logo a paz e a calmaria da cidade vai se esvaindo, e com o decorrer do tempo percebe que atraiu para si o caos do qual ele sempre quis fugir. Para piorar a situação, além de Marcelo estar sendo espionado pelo seus vizinhos, vê que a cidade que achou que o acolheria ficou muito longe de ser o seu refúgio.&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;&lt;strong&gt;CINE ITAIPAVA&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Avatar: fogos e cinzas – fantasia – estreia &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 16 anos&lt;/p&gt;
+&lt;p&gt;Horários: 15h (dublado) / 18h40 (legendado)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Após a devastadora guerra contra a RDA e a perda do seu filho mais velho, Jake Sully e Neytiri devem enfrentar uma nova ameaça: o Povo das Cinzas, uma nova e agressiva tribo Na’vi, conhecida por sua violência extrema e sede de poder. O misterioso clã é composto por guerreiros que controlam o fogo e cuja lealdade pode desequilibrar o destino do planeta.&lt;/span&gt;&lt;/p&gt;
+&lt;h4&gt;&lt;span&gt;&lt;strong&gt;CINEMAXX BAUHAUS EXCLUSIVE&lt;/strong&gt;&lt;/span&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;Jesus, a luz do mundo – animação – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Horários: 15h30 – somente sexta e terça-feira&lt;/p&gt;
+&lt;p&gt;Sinopse: Quando a família do pequeno João passava por dificuldades financeiras para pagar os impostos, ele buscou ajuda e encontrou alguém que mudaria a vida de todos: seu nome era Jesus. Desconhecido, mas com um dom especial, esse homem passou a ser seguido por outros discípulos, além de João, como Pedro e Tiago em uma aventura surpreendente que marcaria a história da humanidade para sempre.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Zootopia 2 – animação – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Horários: 15h30 (somente sábado e domingo) / 17h40 (exceto segunda e quarta)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Os detetives Judy Hopps (voz em inglês de Ginnifer Goodwin e em português de Monica Iozzi) e Nick Wilde (voz em inglês de Jason Bateman e em português de Rodrigo Lombardi) se encontram na trilha sinuosa de um réptil misterioso que chega a Zootopia e vira a metrópole animal de cabeça para baixo. Para desvendar o caso, Judy e Nick devem se infiltrar em novas e inesperadas partes da cidade, onde sua crescente parceria será testada como nunca.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Five Nights at Freddy’s 2 – terror – dublado&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Classificação: 14 anos&lt;/p&gt;
+&lt;p&gt;Horário: 19h50 (exceto segunda e quarta-feira)&lt;/p&gt;
+&lt;p&gt;Sinopse: &lt;span&gt;Um ano após o pesadelo no restaurante Freddy Fazbear’s Pizza, rumores distorcidos e histórias exageradas e sensacionalistas sobre o que aconteceu ali viraram lendas locais, dando origem ao primeiro Fazfest da cidade. Enquanto o vigia noturno Mike (Josh Hutcherson) e a policial Vanessa (Elizabeth Lail) escondem a verdade da irmã de 11 anos de Mike sobre o destino dos animatrônicos, a jovem Abby (Piper Rubio) recebe um chamado dos terríveis brinquedos. Ao se reconectar com Freddy, Bonnie, Chica e Foxy, a menina desperta um mal trágico na cidade, desencadeando uma série de eventos assustadores. No meio desse horror há muito esquecido, segredos sombrios sobre a origem da pizzaria Freddy’s são revelados.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;*Matéria atualizada às 19h20&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cine-itaipava/" rel="tag"&gt;cine itaipava&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cine-show-petropolis/" rel="tag"&gt;cine show petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cinema-em-petropolis/" rel="tag"&gt;cinema em Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cinemaxx-bauhaus-exclusive/" rel="tag"&gt;Cinemaxx Bauhaus Exclusive&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/18/avatar-fogo-e-cinzas-em-cartaz-em-petropolis-confira-a-programacao-da-semana/</guid></item><item><title>Defesa Civil registra 50 ocorrências nesta quarta – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/defesa-civil-registra-50-ocorrencias-nesta-quarta/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A Defesa Civil de Petrópolis registrou 50 ocorrências – entre deslizamentos, quedas de árvores e muros, e destelhamentos – por conta da forte chuva que atingiu a cidade nesta quarta-feira (17/12). Também foram registrados alagamentos e inundações em diversos pontos da cidade. Dois carros foram retirados do Rio Palatino, no Centro da cidade.&lt;/p&gt;
+&lt;p&gt;As aulas na rede municipal de educação retornam normalmente nesta quinta-feira (17/12).&lt;/p&gt;
+&lt;p&gt;As equipes da Comdep já concluíram os serviços nas ruas Coronel Veiga, Washington Luiz, Avenida Imperatriz, Dr. Sá Earp, Teresa, Souza Franco e Ipiranga. Os trabalhos seguem em execução na Rua Felipe Camarão, no Retiro e no Centro Histórico.&lt;/p&gt;
+&lt;p&gt;A Defesa Civil segue monitorando as condições do tempo e pede que a população evite deslocamentos sem necessidade, fique atenta aos comunicados e alertas oficiais e, em caso de emergência, ligue 199.&lt;/p&gt;
+&lt;p&gt;Estágio operacional: Atenção&lt;/p&gt;
+&lt;p&gt;Aulas rede municipal: Retornam normalmente nesta quinta-feira (18/12)&lt;/p&gt;
+&lt;p&gt;Pontos de apoio: Todos desmobilizados&lt;/p&gt;
+&lt;p&gt;Abastecimento de água:&lt;br&gt;
+Águas do Imperador informa que algumas regiões estão com o abastecimento de água prejudicado em razão da falta de energia elétrica que impactou unidades operacionais da concessionária. A situação afeta o Retiro, nas localidades do Vale dos Esquilos, Comunidade do Neylor e Comunidade da Cocada, além de todo o Carangola.&lt;/p&gt;
+&lt;p&gt;Abastecimento de energia:&lt;br&gt;
+4.558 clientes (o que representa 2,61% do total de clientes) estão com problemas no fornecimento de energia, segundo a concessionária Enel&lt;/p&gt;
+&lt;p&gt;Transporte público:&lt;br&gt;
+Linhas que permanecem com operação parcial&lt;br&gt;
+– Linha 149 (Roncoroni) não está atendendo a Rua Eugênio Werneck, no Morin&lt;br&gt;
+– Linhas 175 (Independência/José Chaves via Alto da Serra) e 176 (Independência/José Chaves via Cel. Veiga) continuam sem atendimento na Rua José Chaves&lt;br&gt;
+– Linha 176 permanece parando na Rua Cacilda Becker, em frente ao acesso para a Rua Antônio da Silva Ligeiro. Já o coletivo da linha 175, da Cacilda Becker, continua seguindo direto para o Centro via Taquara/Alto da Serra.&lt;/p&gt;
+&lt;p&gt;Situação atual: Céu encoberto com chuva fraca&lt;/p&gt;
+&lt;p&gt;Previsão para as próximas horas: Céu encoberto, com chuva fraca a moderada&lt;/p&gt;
+&lt;p&gt;Maiores acumulados na última hora:&lt;br&gt;
+– Independência2: 2,37mm (Cemaden BR)&lt;br&gt;
+– LNCC-Geo: 1,6mm (Cemaden BR)&lt;br&gt;
+– Dr. Thouzet: 1,4mm (Cemaden BR)&lt;/p&gt;
+&lt;p&gt;Maiores acumulados em 24h:&lt;br&gt;
+– São Sebastião1-Vital: 178,8mm (Cemaden RJ)&lt;br&gt;
+– Independência2: 178,57mm (Cemaden BR)&lt;br&gt;
+– Vila Felipe1-Campinho: 151,4mm (Cemaden RJ)&lt;/p&gt;
+&lt;p&gt;Maiores acumulados em 72h:&lt;br&gt;
+– São Sebastião1-Vital: 182mm (Cemaden RJ)&lt;br&gt;
+– Independência2: 179,77mm (Cemaden BR)&lt;br&gt;
+– Vila Felipe1-Campinho: 153,2mm (Cemaden RJ)&lt;/p&gt;
+&lt;p&gt;Maiores acumulados em 96h:&lt;br&gt;
+– São Sebastião1-Vital: 182mm (Cemaden RJ)&lt;br&gt;
+– Independência2: 180,17mm (Cemaden BR)&lt;br&gt;
+– Vila Felipe1-Campinho: 153,2mmm (Cemaden RJ)&lt;/p&gt;
+&lt;p&gt;Recomendações da Defesa Civil:&lt;br&gt;
+A Defesa Civil reforça a importância de que moradores em áreas de risco mantenham a atenção redobrada:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Evite permanecer em locais interditados.&lt;/li&gt;
+&lt;li&gt;Não transite por áreas alagadas.&lt;/li&gt;
+&lt;li&gt;Fique atento a sinais de deslizamentos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Em caso de ventos fortes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Feche todas as janelas, basculantes e portas de armários para evitar o ingresso de vento e a formação de correntes de ar.&lt;/li&gt;
+&lt;li&gt;Feche persianas, cortinas ou blecautes para proteger os vidros e evitar a dispersão de estilhaços em caso de quebra.&lt;/li&gt;
+&lt;li&gt;Desligue aparelhos elétricos e feche o registro de gás para evitar riscos em caso de queda de árvores ou postes.&lt;/li&gt;
+&lt;li&gt;Evite deixar objetos soltos em locais altos que possam ser arremessados pelo vento.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Em caso de emergência, ligue para o número 199.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/defesa-civil-de-petropolis/" rel="tag"&gt;Defesa Civil de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/defesa-civil-registra-50-ocorrencias-nesta-quarta/</guid></item><item><title>Programação desta quarta do Natal Imperial é cancelada – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/programacao-desta-quarta-do-natal-imperial-e-cancelada/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A programação do Natal Imperial 2025 desta quarta-feira (17/12) está cancelada. O Palácio de Cristal permanece aberto para visitação pública, com ambientação sonora mecânica.&lt;/p&gt;
+&lt;p&gt;A partir desta quinta-feira (18/12), a programação segue normalmente, conforme divulgado.&lt;/p&gt;
+&lt;p&gt;A Prefeitura de Petrópolis reforça que a medida visa garantir a segurança do público, dos artistas e dos trabalhadores envolvidos no evento.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/natal-imperial/" rel="tag"&gt;Natal Imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palacio-de-cristal/" rel="tag"&gt;palácio de cristal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/programacao-desta-quarta-do-natal-imperial-e-cancelada/</guid></item><item><title>Defesa Civil registra 40 ocorrências por conta da chuva desta quarta-feira – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/defesa-civil-registra-40-ocorrencias-por-conta-da-chuva-desta-quarta-feira/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;div&gt;A Defesa Civil de Petrópolis registrou 40 ocorrências – entre deslizamentos, quedas de árvores e muros, e destelhamentos – por conta da forte chuva que atinge a cidade nesta quarta-feira (17/12). Também foram registrados alagamentos e inundações em diversos pontos da cidade.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Equipes da Comdep estão nas ruas fazendo a limpeza e desobstrução das vias. Vias já limpas: Alfredo Schilick, Cardoso Fontes, Coronel Veiga, Teresa e Paulo Barbosa. Em limpeza: Rua do Imperador.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;As equipes da Defesa Civil também estão nas ruas fazendo os atendimentos. A Defesa Civil segue monitorando as condições do tempo e pede que a população evite deslocamentos sem necessidade, fique atenta aos comunicados e alertas oficiais e, em caso de emergência, ligue 199.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Equipes do Corpo de Bombeiros estão fazendo buscas pelo ocupante de um carro que foi retirado do Rio Palatino, na altura do Túnel Extravasor, no Centro.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Estágio operacional: Alerta&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Ponto de apoio aberto:&lt;br&gt;
+Siméria&lt;br&gt;
+E.M. Rosalina NicolayFamílias desalojadas: Seis famílias abrigadas no ponto de apoio
+&lt;p&gt;Transporte coletivo:&lt;br&gt;
+– Linha 148 – Alto Pedro Ivo está parando 300 metros antes do ponto final&lt;br&gt;
+– Linha 149 – Roncoroni está impossibilitada de atender a Rua Eugênio Werneck, no Morin&lt;br&gt;
+– Linha 176 – Independência operação interrompida&lt;br&gt;
+– Linha 175 – Independência está impossibilitada de atender a um trecho de 450 metros&lt;br&gt;
+– Linha 630 – Jardim Salvador está operando somente até a entrada da localidade. Ônibus estão deixando de atender 1,3 quilômetro&lt;/p&gt;
+&lt;p&gt;Abastecimento de água: Normalizado&lt;/p&gt;
+&lt;p&gt;Abastecimento de energia:&lt;br&gt;
+4.294 (o que representa 2,46% dos clientes) estão com problemas no fornecimento de energia, segundo a concessionária Enel&lt;/p&gt;
+&lt;p&gt;Previsão para as próximas horas:&lt;br&gt;
+Céu encoberto, com chuva moderada a ocasionalmente forte até o período da noite&lt;/p&gt;
+&lt;p&gt;Situação atual: Céu encoberto com chuva fraca&lt;/p&gt;
+&lt;p&gt;Maiores acumulados na última hora:&lt;br&gt;
+– 24 de maio1-Rua Nova: 1,2mm (Cemaden RJ)&lt;br&gt;
+– Morin: 0,6mm (Cemaden BR)&lt;br&gt;
+– Vila Constância: 0,4mm (Cemaden BR)&lt;/p&gt;
+&lt;p&gt;Maiores acumulados em 24h:&lt;br&gt;
+– São Sebastião1-Vital: 172,4mm (Cemaden RJ)&lt;br&gt;
+– Independência2: 171,84mm (Cemaden BR)&lt;br&gt;
+– Vila Felipe1-Campinho: 151,4mm (Cemaden RJ)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;Recomendações da Defesa Civil:&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;A Defesa Civil reforça a importância de que moradores em áreas de risco mantenham a atenção redobrada:&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;•Evite permanecer em locais interditados.&lt;br&gt;
+•Não transite por áreas alagadas.&lt;br&gt;
+•Fique atento a sinais de deslizamentos.Em caso de ventos fortes:
+&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;•Feche todas as janelas, basculantes e portas de armários para evitar o ingresso de vento e a formação de correntes de ar.&lt;/div&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;
+&lt;p&gt;•Feche persianas, cortinas ou blecautes para proteger os vidros e evitar a dispersão de estilhaços em caso de quebra.&lt;/p&gt;
+&lt;p&gt;•Desligue aparelhos elétricos e feche o registro de gás para evitar riscos em caso de queda de árvores ou postes.&lt;/p&gt;
+&lt;p&gt;•Evite deixar objetos soltos em locais altos que possam ser arremessados pelo vento.&lt;/p&gt;
+&lt;p&gt;Em caso de emergência, ligue para o número 199.&lt;/p&gt;
+&lt;/div&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/chuva/" rel="tag"&gt;chuva&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/defesa-civil-de-petropolis/" rel="tag"&gt;Defesa Civil de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/defesa-civil-registra-40-ocorrencias-por-conta-da-chuva-desta-quarta-feira/</guid></item><item><title>Veja como está a operação de ônibus em Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/veja-como-esta-operacao-de-onibus-em-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Setranspetro informa que cinco linhas de ônibus estão com a operação afetada, diante da forte chuva que atingiu o município de Petrópolis, nesta quarta-feira (17).&lt;/p&gt;
+&lt;p&gt;– A linha 148 – Alto Pedro Ivo, da Cidade Real, está parando 300 metros antes do ponto final, devido à possibilidade de queda de árvore na subida da Rua Manoel Maia Filho;&lt;/p&gt;
+&lt;p&gt;– A linha 149 – Roncoroni, da Cidade Real, está impossibilitada de atender a Rua Eugênio Werneck, no Morin, por conta de um buraco aberto na via;&lt;/p&gt;
+&lt;p&gt;– A linha 176 – Independência, da Cidade Real, está retida no bairro e com a operação completamente interrompida, devido à queda de fios na Rua José Chaves. Com isso, a 175 – Independência está impossibilitada de atender a um trecho de 450 metros;&lt;/p&gt;
+&lt;p&gt;– A linha 630 – Jardim Salvador, da Turp Transporte, está operando somente até a entrada do bairro, por conta da abertura de um buraco na Rua Juiz Castro e Silva. Ao todo, os ônibus estão deixando de atender 1,3 quilômetro.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/onibus-em-petropolis/" rel="tag"&gt;ônibus em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/veja-como-esta-operacao-de-onibus-em-petropolis/</guid></item><item><title>Ruas do primeiro distrito são liberadas ao trânsito de veículos – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/ruas-do-primeiro-distrito-sao-liberadas-ao-transito-de-veiculos/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A Defesa Civil informa que às 09h30 desta quarta-feira (17/12), as principais ruas do primeiro distrito estão liberadas ao trânsito de veículos.&lt;/p&gt;
+&lt;p&gt;Vias liberadas:&lt;br&gt;
+Avenida Imperatriz&lt;br&gt;
+Avenida Tiradentes&lt;br&gt;
+Ponte Fones&lt;br&gt;
+Rua Chácara Flora&lt;br&gt;
+Rua Teresa&lt;br&gt;
+Rua Padre Feijó&lt;br&gt;
+Rua Visconde de Itaboraí&lt;br&gt;
+Rua Caldas Viana&lt;br&gt;
+Rua do Imperador (lado ímpar)&lt;br&gt;
+Rua Souza Franco&lt;br&gt;
+Rua Coronel Veiga&lt;br&gt;
+Rua Porciúncula&lt;br&gt;
+Rua Benjamin Constant&lt;br&gt;
+Rua Washington Luiz&lt;br&gt;
+Avenida Koeler&lt;br&gt;
+Rua Roberto da Silveira&lt;br&gt;
+Rua 7 de Abril&lt;br&gt;
+Rua Montecaseros&lt;/p&gt;
+&lt;p&gt;Vias que seguem interditadas:&lt;br&gt;
+Rua do Imperador (lado par)&lt;br&gt;
+Rua Sargento Boening&lt;br&gt;
+Rua Bingen&lt;br&gt;
+Estrada da Saudade&lt;br&gt;
+Avenida Barão do Rio Branco&lt;br&gt;
+Estrada União e Indústria – Corrêas/Montreal&lt;/p&gt;
+&lt;p&gt;O funcionamento do transporte público também foi normalizado.&lt;/p&gt;
+&lt;p&gt;Fique atento aos sinais de deslizamentos e não enfrente áreas inundadas/alagadas. Em caso de emergência, ligue 199.&lt;/p&gt;
+&lt;p&gt;A Defesa Civil segue monitorando as condições do tempo e pode emitir alertas a qualquer momento. Em caso de emergência ligue 199.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/ruas-do-primeiro-distrito-sao-liberadas-ao-transito-de-veiculos/</guid></item><item><title>Diogo Almeida se apresenta em Petrópolis em janeiro – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/15/diogo-almeida-se-apresenta-em-petropolis-em-janeiro/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Teatro Imperial vai iniciar a programação de 2026 com três apresentações de “Volta às aulas”, novo espetáculo de Diogo Almeida, no dia 23 de janeiro. Os ingressos para as sessões das 19h e 21h30 já esgotaram, mas ainda é possível garantir presença para a sessão das 16h30.&lt;/p&gt;
+&lt;p&gt;No show inédito, Diogo Almeida retorna aos palcos, junto com a professora Marli e outros personagens, para contar histórias sobre o universo pedagógico e transformar em muitas risadas o momento mais temido do calendário escolar: o fim das férias.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Local: Rua&lt;span class="LrzXr"&gt; General Osório, 192 – Centro&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Data: 23 de janeiro de 2026 (sexta-feira)&lt;/p&gt;
+&lt;p&gt;Horários: 16h30 / 19h / 21h30&lt;/p&gt;
+&lt;p&gt;Classificação: 14 anos&lt;/p&gt;
+&lt;p&gt;Ingressos: R$ 70,00 – R$ 2000,00&lt;/p&gt;
+&lt;p&gt;Venda: &lt;a href="https://ingressodigital.com/evento/18753/diogo-almeida-volta-as-aulas-2026"&gt;https://ingressodigital.com/evento/18753/diogo-almeida-volta-as-aulas-2026&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/diogo-almeida/" rel="tag"&gt;Diogo Almeida&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/teatro-imperial/" rel="tag"&gt;teatro imperial&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/15/diogo-almeida-se-apresenta-em-petropolis-em-janeiro/</guid></item><item><title>Orquestra de Câmara da Fiocruz se apresenta no Museu Imperial nesta terça – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/15/orquestra-de-camara-da-fiocruz-se-apresenta-no-museu-imperial-nesta-terca/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta terça-feira (16), a Orquestra de Câmara da Fiocruz fará uma apresentação especial de fim de ano às 18h30, no Cine Teatro do Museu Imperial. A atividade marca o encerramento do ciclo formativo de 2025 e celebra o percurso artístico dos jovens participantes do projeto. A entrada é gratuita, com abertura dos portões a partir das 18h15. As vagas são limitadas e os interessados em assistir a apresentação deverão preencher o formulário &lt;a id="m_-7585365796694393244OWA4510c1fd-e3b6-3c32-2ba4-c44f0eaf9170" href="https://share.teamforms.app/form/NzlkNmUxMTQtMGYyMC00YTE1LWIzYWItODFmM2Q5MjE2NzViOmJjMzcyMWE2LTgwNjEtNGUxOS1hM2I0LTMxZTIwOTNlMjA5YTo2NTdjMTU4NC1hZWIyLTRlNDYtYjIxNy0xOTczYTkyY2M2MDk=" target="_blank" rel="noreferrer noopener"&gt;neste link.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A programação terá início com o recital de instrumento e piano de seis alunos formandos, seguido pela apresentação da Camerata e da Orquestra. O repertório traz uma seleção que percorre diferentes períodos e estilos musicais, incluindo obras de Georg Friedrich Haendel, Luigi Boccherini, Niccolò &lt;wbr&gt;&lt;/wbr&gt;Paganini, Piotr Ilich Tchaikovsky, além de compositores brasileiros contemporâneos e clássicos natalinos.&lt;/p&gt;
+&lt;p&gt;Desde 2013, a Orquestra de Câmara da Fiocruz oferece formação musical gratuita a jovens de escolas públicas, democratiza o acesso à música de concerto e incentiva a profissionalização de novos talentos. Sustentado por três pilares — formação de qualidade, acesso democrático à música de concerto e apoio às trajetórias musicais — o programa fortalece vínculos comunitários e abre novos caminhos para estes jovens. Para 2026, está prevista a abertura de novas vagas para a Orquestra de Câmara da Fiocruz.&lt;/p&gt;
+&lt;div&gt;&lt;/div&gt;
+&lt;div&gt;&lt;b&gt;Serviço &lt;/b&gt;&lt;/div&gt;
+&lt;div dir="ltr"&gt;
+&lt;p&gt;Apresentação Orquestra de Câmara do Palácio Itaboraí&lt;br&gt;
+Local: CineTeatro do Museu Imperial&lt;br&gt;
+Data e Horário: Terça-feira, dia 16 de dezembro, às 18h30&lt;br&gt;
+Ingressos: &lt;a id="m_-7585365796694393244OWA7ea6963e-7adb-eb27-f250-e5f8c7cdb686" href="https://share.teamforms.app/form/NzlkNmUxMTQtMGYyMC00YTE1LWIzYWItODFmM2Q5MjE2NzViOmJjMzcyMWE2LTgwNjEtNGUxOS1hM2I0LTMxZTIwOTNlMjA5YTo2NTdjMTU4NC1hZWIyLTRlNDYtYjIxNy0xOTczYTkyY2M2MDk=" target="_blank" rel="noreferrer noopener"&gt;Formulário&lt;/a&gt;&lt;br&gt;
+Mais informações: &lt;a id="m_-7585365796694393244OWA0ffc66c1-07f2-65dd-6e2b-a3015eac7661" href="https://forumitaborai.fiocruz.br/ocfcinemuseu2025" target="_blank" rel="noreferrer noopener"&gt;https://forumitaborai.fiocruz.&lt;wbr&gt;&lt;/wbr&gt;br/ocfcinemuseu2025&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/orquestra-de-camara-do-palacio-itaborai/" rel="tag"&gt;Orquestra de Câmara do Palácio Itaboraí&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/15/orquestra-de-camara-da-fiocruz-se-apresenta-no-museu-imperial-nesta-terca/</guid></item><item><title>Orquestra de Câmara da Fiocruz se apresenta no Palácio de Cristal neste domingo – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/14/orquestra-de-camara-da-fiocruz-se-apresenta-no-palacio-de-cristal-neste-domingo/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Neste domingo (14), a Orquestra de Câmara da Fiocruz (Orquestra de Câmara do Palácio Itaboraí) fará uma apresentação especial no Palácio de Cristal, às 16h30, como parte da programação do Natal Imperial.&lt;/p&gt;
+&lt;p&gt;A apresentação destaca o trabalho desenvolvido ao longo do ano pelo projeto, que oferece formação musical gratuita a jovens da rede pública. Durante o concerto, o público vai conferir um repertório que reúne clássicos natalinos, obras do repertório erudito e peças de compositores brasileiros.&lt;/p&gt;
+&lt;p&gt;Na programação, estão canções de Johann A. Bach, Giovanni Battista Pergolesi,  F. Mendelssohn, além de compositores brasileiros como Sandra Mohr.&lt;/p&gt;
+&lt;p&gt;A coordenadora executiva da Orquestra de Câmara da Fiocruz, Nina Mayer, destaca que este será um momento especial de celebração, mostrando todo o talento, dedicação e crescimento desses jovens músicos. “A entrada é totalmente gratuita, permitindo que toda a comunidade participe, apoie e se emocione com essa apresentação que valoriza a arte, a juventude e a importância da música como instrumento de transformação social”, afirma.&lt;/p&gt;
+&lt;p&gt;A Orquestra de Câmara da Fiocruz oferece formação artística de excelência e democratiza o acesso à música de concerto para jovens de Petrópolis. Com educação musical continuada e apresentações abertas ao público, o projeto impulsiona talentos, fortalece trajetórias e aproxima a Fiocruz das comunidades por meio da arte.&lt;/p&gt;
+&lt;p&gt;A programação completa do Natal Imperial pode ser acessada &lt;a id="m_8672616586475350548yiv0093185740OWAffcacdf2-f79c-b0ef-8668-5a8e2b035a8d" href="https://web2.petropolis.rj.gov.br/natal-imperial/" target="_blank" rel="nofollow noopener noreferrer"&gt;neste link&lt;/a&gt;.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/natal-imperial/" rel="tag"&gt;Natal Imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/orquestra-de-camara-do-palacio-itaborai/" rel="tag"&gt;Orquestra de Câmara do Palácio Itaboraí&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palacio-de-cristal/" rel="tag"&gt;palácio de cristal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/14/orquestra-de-camara-da-fiocruz-se-apresenta-no-palacio-de-cristal-neste-domingo/</guid></item><item><title>Inscrições abertas para cursos de férias em janeiro de 2026 – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/17/inscricoes-abertas-para-cursos-de-ferias-em-janeiro-de-2026/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A UNIFASE/FMP está com inscrições abertas para uma ampla programação de cursos de férias, que serão realizados ao longo do mês de janeiro de 2026.&lt;/p&gt;
+&lt;p&gt;Os cursos serão realizados no Campus Barão, que fica na Avenida Barão do Rio Branco, 1.003 – Centro; no Ambulatório Escola da UNIFASE/FMP, que fica na Rua Hyvio Naliato, 869 – Cascatinha ou on-line.&lt;/p&gt;
+&lt;p&gt;As inscrições para todos os cursos podem ser realizadas pelo site: &lt;a href="https://www.unifase-rj.edu.br/extensao/cursos-de-extensao" target="_blank" rel="noopener"&gt;https://www.unifase-rj.&lt;wbr&gt;&lt;/wbr&gt;edu.br/extensao/cursos-de-&lt;wbr&gt;&lt;/wbr&gt;extensao&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Confira os cursos disponíveis:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Primeiro Banho do Bebê e Técnicas de Relaxamento&lt;/strong&gt;&lt;br&gt;
+Dia: 12 de janeiro de 2026, de 9h às 13h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: estudantes do 3º ano do Ensino Médio, pessoas com Ensino Médio completo, estudantes de escola técnica e profissionais da Enfermagem.&lt;br&gt;
+Professora: Gabriela Estevam Satiro dos Santos&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Conforto e Segurança do Paciente Acamado e Domiciliado &lt;/strong&gt;&lt;br&gt;
+1ª Turma – Dia: 15 de janeiro de 2026, de 9h às 13h&lt;br&gt;
+2ª Turma –  Dia: 22 de janeiro de 2026, de 13h às 17h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: estudantes do Ensino Médio, estudantes de cursos técnicos e profissionais de Enfermagem.&lt;br&gt;
+Professoras: Gabriela Estevam Satiro dos Santos e Adalaine Tavares dos Santos Celestino&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Abordagem Médica da Via Aérea&lt;/strong&gt;&lt;br&gt;
+Dia: 15 de janeiro de 2026, de 12h às 20h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: estudantes, residentes e médicos.&lt;br&gt;
+Professor: Thiago Pereira de Carvalho&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gestão Essencial para Pequenos Negócios: Finanças, Comunicação e Tecnologia&lt;/strong&gt;&lt;br&gt;
+Dia: 15 e 22 de janeiro, de 19h às 21h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo:  Alunos do 2º ao 8º período de administração; profissionais e empresários que necessitem profissionalizar a gestão de suas empresas.&lt;br&gt;
+Professor: Anthony Coelho Sadkowski&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Como o Cérebro Aprende: estratégias para um estudo mais eficiente&lt;/strong&gt;&lt;br&gt;
+Dia: 16 a 31 de janeiro, aulas assíncronas&lt;br&gt;
+Público-alvo: estudantes do Ensino Médio e Superior, candidatos a provas e concursos, e educadores interessados em aprimorar estratégias e aprendizagem.&lt;br&gt;
+Professora: Daiana de Souza Perce da Silva&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suporte Básico de Vida com Ênfase em Emergências Cardiológicas&lt;/strong&gt;&lt;br&gt;
+Dia: 17 de janeiro de 2026, de 8h às 12h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: enfermeiros, acadêmicos e técnicos de enfermagem.&lt;br&gt;
+Professor: Roberto Lima Costa&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hands-on Ressuscitação Cardiopulmonar: Atualizações do ACLS (2025)&lt;/strong&gt;&lt;br&gt;
+Dia: 19 de janeiro de 2026, de 8h às 16h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: estudantes e residentes de medicina e enfermagem, médicos e enfermeiros.&lt;br&gt;
+Professor: Thiago Pereira de Carvalho&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cozinha Verde&lt;/strong&gt;&lt;br&gt;
+Dia: 19 a 22 de janeiro de 2026, aulas assíncronas&lt;br&gt;
+Público-alvo: Profissionais de serviços de alimentação (cozinheiros, auxiliares, nutricionistas, gestores); Estudantes de Gastronomia, Nutrição e áreas afins; Empreendedores de restaurantes, cafeterias, empresas de marmitas, cozinhas industriais ou negócios verdes.&lt;br&gt;
+Professora:  Nathalia Raposo Barreiros Coelho&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hall Technique: Curso Teórico-Laboratorial com Demonstração Clínica&lt;/strong&gt;&lt;br&gt;
+Dia: 21 de janeiro de 2026, de 9h às 16h&lt;br&gt;
+Presencial – Ambulatório Escola da UNIFASE/FMP (AMBE)&lt;br&gt;
+Público-alvo: alunos de graduação, pós-graduação e cirurgiões-dentistas.&lt;br&gt;
+Professoras: Roberta Costa Jorge, Bianca Mattos dos Santos Guerra e Vera Mendes Soviero&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Nutrição em Pediatria: condutas clínicas no atendimento de crianças com seletividade alimentar e TARE&lt;/strong&gt;&lt;br&gt;
+Dia: 21 de janeiro de 2026, de 16h às 19h&lt;br&gt;
+On-line ao vivo – Google Meet&lt;br&gt;
+Público-alvo: estudantes de nutrição, psicologia, medicina, enfermagem e interessados com conhecimento na área.&lt;br&gt;
+Professora: Juliana Gouvea Schaefer&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;O Uso de Gerenciadores de Referências na Escrita Acadêmica&lt;/strong&gt;&lt;br&gt;
+Dia: 22 de janeiro de 2026, de 9h às 13h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: comunidade interna da UNIFASE e público externo.&lt;br&gt;
+Professora: Roberta Costa Jorge&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cosméticos e Cosmecêuticos no Cuidado da Pele&lt;/strong&gt;&lt;br&gt;
+Dia: 22 de janeiro de 2026, de 19h às 22h&lt;br&gt;
+On-line ao vivo – Google Meet&lt;br&gt;
+Público-alvo: estudantes da área da saúde.&lt;br&gt;
+Professora: Ana Paula Bonvini Meneses&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Técnicas de Aperfeiçoamento em Posicionamento de Mamografia &lt;/strong&gt;&lt;br&gt;
+Dia: 26 de janeiro de 2026, de 18h30 às 21h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: Profissionais e estudantes de Radiologia.&lt;br&gt;
+Professora: Natália da Silva Moreira&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Desmistificando a Amamentação&lt;/strong&gt;&lt;br&gt;
+Dia: 30 de janeiro de 2026, de 9h às 13h&lt;br&gt;
+Presencial – Campus Barão&lt;br&gt;
+Público-alvo: estudantes do Ensino Médio, estudantes de escola técnica e profissionais da Enfermagem.&lt;br&gt;
+Professora: Gabriela Estevam Satiro dos Santos&lt;/li&gt;
+&lt;/ul&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cursos-de-ferias/" rel="tag"&gt;cursos de férias&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/unifase-fmp/" rel="tag"&gt;UNIFASE/FMP&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/17/inscricoes-abertas-para-cursos-de-ferias-em-janeiro-de-2026/</guid></item><item><title>Inscrições abertas para pós-graduação em Alergia e Imunologia Clínica – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/16/inscricoes-abertas-para-pos-graduacao-em-alergia-e-imunologia-clinica/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A UNIFASE/FMP está com inscrições abertas para o processo seletivo da pós-graduação Lato Sensu em Alergia e Imunologia Clínica, oferecida em parceria com o Hospital Central do Exército (HCE), no Rio de Janeiro. O curso terá duração de 25 meses e será realizado integralmente no formato presencial.&lt;/p&gt;
+&lt;p&gt;A formação é voltada para médicos com, no mínimo, dois anos de experiência clínica, preferencialmente com residência ou especialização em áreas como Clínica Médica, Pediatria, Medicina de Família, Pneumologia, Otorrinolaringologia, Dermatologia ou Reumatologia. O curso capacita o profissional para atuar com segurança e atualização científica no diagnóstico e tratamento das principais doenças imunoalérgicas, acompanhando os avanços mais recentes em terapêutica e investigação clínica.&lt;/p&gt;
+&lt;p&gt;“A especialização em alergia e imunologia é recomendada para médicos de diversas áreas clínicas porque a imunologia está cada vez mais presente na compreensão e tratamento de doenças em todas as especialidades médicas. A inflamação, um fenômeno imunológico, está na base de muitas doenças, como as cardiovasculares, endocrinológicas, reumatológicas, gastrointestinais, etc. A especialização oferece conhecimentos que aprofundam a compreensão de diversas especialidades, além de ter interfaces com praticamente todas as áreas da medicina, beneficiando o diagnóstico e tratamento de pacientes de todas as idades”, ressaltou o coordenador do curso, o professor da UNIFASE/FMP José Luiz de Magalhães Rios, doutor em Clínica Médica pela UFRJ, com ampla atuação em alergia alimentar, asma, dermatite atópica, rinite, poluição ambiental e estudos epidemiológicos. Ele também integra a diretoria da ASBAI/RJ e é diretor médico da Clínica Anticorpos.&lt;/p&gt;
+&lt;p&gt;O curso é credenciado pela Associação Brasileira de Alergia e Imunologia (ASBAI) e mantém uma tradição acadêmica de mais de 60 anos, anteriormente sediada na Policlínica Geral do Rio de Janeiro, sob direção dos renomados Dr. Brum Negreiros e Dr. João Bosco de Magalhães Rios. O professor José Rios ainda destaca os diferenciais da Pós-graduação.&lt;/p&gt;
+&lt;p&gt;“Nossa pós-graduação em Alergia e Imunologia Clínica se destaca pela intensa carga prática, com diversos turnos de ambulatório supervisionados por preceptores altamente qualificados. Como o curso funciona no Hospital Central do Exército, temos acesso rápido a exames e resultados, o que permite acompanhar casos de forma dinâmica, muito próxima da prática real de consultório. Também realizamos sessões clínicas semanais, em que cada aluno apresenta um caso para discussão com toda a equipe. Esse encontro é riquíssimo para definir diagnósticos e condutas e é um diferencial importante, já que muitos cursos oferecem esse tipo de atividade apenas mensalmente. Outro ponto forte é o aprofundamento em alergia alimentar e alergia a medicamentos, áreas em franca expansão e que exigem domínio de técnicas e testes especializados, como os testes de provocação oral. Com professores pesquisadores de ponta e ampla vivência prática, nosso objetivo é formar profissionais plenamente preparados para atuar na área e gerir seu próprio consultório de alergia e imunologia clínica”, disse ele.&lt;/p&gt;
+&lt;p&gt;As inscrições podem ser realizadas até o dia 27 de janeiro de 2026 e estão disponíveis no site:&lt;br&gt;
+&lt;a href="https://www.unifase-rj.edu.br/posgraduacao/alergia-e-imunologia-clinica" target="_blank" rel="noopener"&gt;https://www.unifase-rj.edu.br/&lt;wbr&gt;&lt;/wbr&gt;posgraduacao/alergia-e-&lt;wbr&gt;&lt;/wbr&gt;imunologia-clinica&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/pos-graduacao-em-petropolis/" rel="tag"&gt;Pós-graduação em Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/unifase-fmp/" rel="tag"&gt;UNIFASE/FMP&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/16/inscricoes-abertas-para-pos-graduacao-em-alergia-e-imunologia-clinica/</guid></item><item><title>Inscrições abertas para Pós-Graduação em Dermatologia – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/09/inscricoes-abertas-para-pos-graduacao-em-dermatologia/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A UNIFASE/FMP está com as inscrições abertas para o curso de Pós-Graduação &lt;em&gt;Lato Sensu&lt;/em&gt; em Dermatologia, que será realizado em parceria com o Hospital Central do Exército (HCE). Os interessados podem se inscrever até o dia 23 de janeiro de 2026, pelo link: &lt;a href="https://www.unifase-rj.edu.br/posgraduacao/dermatologia"&gt;https://www.unifase-rj.edu.br/posgraduacao/dermatologia&lt;/a&gt;. O início das aulas está previsto para 2 de março de 2026, no próprio HCE.&lt;/p&gt;
+&lt;p&gt;Reconhecido e credenciado pela Sociedade Brasileira de Dermatologia (SBD), o curso tem como propósito formar médicos altamente capacitados para diagnosticar e tratar doenças que afetam pele, cabelos, unhas, mucosas visíveis e as diversas subáreas da especialidade, como a dermatologia pediátrica, ambulatórios específicos de unhas, cabelos, psoríase, imunossupressores, biológicos, Cosmiatria, e laboratório de micologia.&lt;/p&gt;
+&lt;p&gt;A coordenação do curso é da professora da UNIFASE/FMP, Leninha Valério do Nascimento, pós-doutora em Dermatologia pela Faculdade de Medicina Lariboisière Saint-Louis e referência na área. “Nosso serviço conta com um Laboratório de Micologia exclusivo, o que amplia significativamente a qualidade da formação prática dos alunos. Outro diferencial é que nossa prova de seleção é composta por questões de Clínica Médica, e não de Dermatologia, garantindo uma avaliação mais justa e alinhada à base que todo candidato deve ter. As disciplinas contam com avaliações três vezes ao ano, promovendo acompanhamento contínuo do aprendizado. Além disso, o Hospital Central do Exército é um hospital geral, com todas as especialidades médicas e pós-graduações em todas as áreas, proporcionando um ambiente de formação completo e integrado para os nossos pós-graduandos”, ressalta a professora.&lt;/p&gt;
+&lt;p&gt;A pós também prepara o aluno para o concurso de obtenção do título de especialista pela SBD/Associação Médica Brasileira, mais um diferencial importante para a carreira.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/dermatologia/" rel="tag"&gt;dermatologia&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/pos-graduacao-em-petropolis/" rel="tag"&gt;Pós-graduação em Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/unifase-fmp/" rel="tag"&gt;UNIFASE/FMP&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/09/inscricoes-abertas-para-pos-graduacao-em-dermatologia/</guid></item><item><title>Inscrições abertas para vagas gratuitas em cursos de qualificação com início nos primeiros meses de 2026 – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/08/inscricoes-abertas-para-vagas-gratuitas-em-cursos-de-qualificacao-com-inicio-nos-primeiros-meses-de-2026/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A Firjan SENAI está com inscrições abertas para mais de 380 vagas gratuitas em cursos de qualificação profissional em Petrópolis, para 16 cursos com início previsto entre janeiro e abril de 2026, a depender de cada turma.&lt;/p&gt;
+&lt;p&gt;As aulas abrangem diferentes formatos (presencial, semipresencial e EAD). As inscrições já estão abertas e devem ser feitas presencialmente na unidade do Bingen (Rua Bingen, 130 – Bingen). &lt;a href="https://firjansenai.com.br/editaisgratuitos"&gt;Os detalhes estão disponíveis no edital neste link.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;As inscrições serão encerradas automaticamente para cada oferta assim que o número de inscritos atingir o limite de vagas. As oportunidades são para os cursos: Mecânico de Manutenção, Operador de Máquinas Operatrizes, Operador de Sistemas Computacionais em Rede, Programador Front-End, Modelista, Confeccionador de Bolsas em Tecido, Eletricista Industrial, Operador de Sistemas, Computacionais em Rede, Programador Back-End, Padeiro, Auxiliar de Padaria e Confeitaria, Programador Mobile, Almoxarife e Instalador de Sistemas Drywall.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pré-requisitos e inscrições&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Para participar, os candidatos devem preencher os pré-requisitos específicos dos cursos desejados, incluindo idade e escolaridade, além de renda familiar mensal per capita bruta de até 1,5 salário-mínimo federal, comprovada por meio de uma autodeclaração. É fundamental também ter acesso a um computador ou notebook, já que parte dos cursos será realizada de forma on-line, seguindo a estratégia EAD.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/firjan-senai/" rel="tag"&gt;firjan senai&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/08/inscricoes-abertas-para-vagas-gratuitas-em-cursos-de-qualificacao-com-inicio-nos-primeiros-meses-de-2026/</guid></item><item><title>Atendimento suspenso na UBS Vicenzo Rivetti – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/10/atendimento-suspenso-na-ubs-vicenzo-rivetti/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A Secretaria de Saúde informa que, em razão dos fortes ventos registrados na madrugada desta quarta-feira (10), a Unidade Básica de Saúde (UBS) Vicenzo Rivetti precisou ser fechada temporariamente e permanecerá sem atendimento até a próxima segunda-feira (15/12).&lt;/p&gt;
+&lt;p&gt;Parte do telhado da unidade foi danificada pelo vento, sendo necessários reparos imediatos para garantir a segurança de pacientes e profissionais.&lt;/p&gt;
+&lt;p&gt;As consultas agendadas para esta semana foram canceladas e os pacientes já foram comunicados.&lt;/p&gt;
+&lt;p&gt;Para atendimento ambulatorial, os moradores da região devem se dirigir às unidades do Carangola, Vale do Carangola ou à UBS do Retiro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Defesa Civil de Petrópolis registra 22 ocorrências por conta dos ventos fortes &lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A Defesa Civil de Petrópolis registrou 22 ocorrências por conta dos ventos fortes entre a noite de terça-feira (9) e esta quarta (10). Foram registradas quedas de árvores, destelhamentos e queda de telhado em vários pontos da cidade. Nenhuma ocorrência grave foi registrada.&lt;/p&gt;
+&lt;p&gt;As equipes da Defesa Civil e da Comdep estão atuando nas ocorrências desde a noite de terça-feira.&lt;/p&gt;
+&lt;p&gt;Ventos: 52,56 km/h&lt;/p&gt;
+&lt;p&gt;Rajadas de vento: 105,12 km/h&lt;/p&gt;
+&lt;p&gt;Estágio operacional: Observação&lt;/p&gt;
+&lt;p&gt;Previsão para as próximas horas: Céu nublado com chuva fraca a moderada e ventos moderados a fortes.&lt;/p&gt;
+&lt;p&gt;Confira as linhas de ônibus afetadas:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cidade Real&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linha 101 – Rocio&lt;br&gt;
+Sem acesso ao ponto final&lt;/p&gt;
+&lt;p&gt;Linha 127 – Mosela (noturno)&lt;br&gt;
+parando na Rua Mosela&lt;/p&gt;
+&lt;p&gt;Linhas 106, 134 e 136 – Bataillard e João Balter&lt;br&gt;
+Sem operar em um quilômetro, parando na Rua Mosela&lt;/p&gt;
+&lt;p&gt;Linha 107 – Manoel Torres&lt;br&gt;
+Acessando pela Rua Alice Hervê, deixando de atender trecho de 280 metros&lt;/p&gt;
+&lt;p&gt;Linha 115 – Campo do Serrano&lt;br&gt;
+Parando no antigo ponto final, 450 metros antes&lt;/p&gt;
+&lt;p&gt;Linhas 122 e 137 – Fazenda Inglesa&lt;br&gt;
+Fazendo retorno no antigo ponto final (BR-040, km 74). Cerca de 3,1 quilômetros sem atendimento&lt;/p&gt;
+&lt;p&gt;Linhas 148 – Alto Pedro Ivo e 149 – Roncoroni&lt;br&gt;
+Itinerário desviado pela Rua Deputado Euvaldo Loddi&lt;/p&gt;
+&lt;p&gt;Linha 194 – Santa Isabel&lt;br&gt;
+Trecho de 1,2 quilômetro sem atendimento&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Cidade das Hortênsias&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linha 302 – Floresta&lt;br&gt;
+Operação totalmente interrompida na Rua Henrique Paixão&lt;/p&gt;
+&lt;p&gt;Linha 529 – Débora Couto Sucupira&lt;br&gt;
+Sem operação na Rua Emídio de Souza Tavares&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Turp&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Linhas 602 e 605 – Vale das Videiras&lt;br&gt;
+Operação interrompida no Vale das Videiras, coletivos estão parando na região do Malta&lt;/p&gt;
+&lt;p&gt;Linha 653 – Venezuela Passando pelo Hotel Quitandinha, subindo a Rua Getúlio Vargas. Ao todo, dois quilômetros sem atendimento&lt;/p&gt;
+&lt;p&gt;Linha 726 – Madame Machado&lt;br&gt;
+Sem operação por um trecho de dois quilômetros. Coletivo manobrando no ponto final da linha 704 – Madame Machado&lt;/p&gt;
+&lt;p&gt;A Defesa Civil reforça que moradores em áreas de risco mantenham a atenção redobrada:&lt;/p&gt;
+&lt;p&gt;•Evite permanecer em locais interditados.&lt;br&gt;
+•Não transite por áreas alagadas.&lt;br&gt;
+•Fique atento a sinais de deslizamentos.&lt;/p&gt;
+&lt;p&gt;Em caso de ventos fortes:&lt;/p&gt;
+&lt;p&gt;•Feche todas as janelas, basculantes e portas de armários para evitar o ingresso de vento e a formação de correntes de ar.&lt;/p&gt;
+&lt;p&gt;•Feche persianas, cortinas ou blecautes para proteger os vidros e evitar a dispersão de estilhaços em caso de quebra.&lt;/p&gt;
+&lt;p&gt;•Desligue aparelhos elétricos e feche o registro de gás para evitar riscos em caso de queda de árvores ou postes.&lt;/p&gt;
+&lt;p&gt;•Evite deixar objetos soltos em locais altos que possam ser arremessados pelo vento.&lt;/p&gt;
+&lt;p&gt;Em caso de emergência, ligue para o número 199.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/defesa-civil-de-petropolis/" rel="tag"&gt;Defesa Civil de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/ubs-vicenzo-rivetti/" rel="tag"&gt;UBS Vicenzo Rivetti&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/10/atendimento-suspenso-na-ubs-vicenzo-rivetti/</guid></item><item><title>Petrópolis inicia vacinação contra o Vírus Sincicial Respiratório (VSR) para gestantes – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/09/petropolis-inicia-vacinacao-contra-o-virus-sincicial-respiratorio-vsr-para-gestantes/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;A Secretaria Municipal de Saúde iniciou a estratégia de vacinação contra o Vírus Sincicial Respiratório (VSR), após ter recebido o primeiro lote contendo quase 900 doses do imunizante do Ministério da Saúde. A vacina é indicada especificamente para gestantes e tem como objetivo principal a proteção dos recém-nascidos contra infecções respiratórias graves.&lt;/p&gt;
+&lt;p&gt;A vacina deve ser administrada em gestantes que estejam entre a 28ª e a 36ª semana de gestação (a partir do sétimo mês). Ao ser imunizada, a mãe transfere anticorpos para o feto, garantindo que o bebê nasça protegido contra o vírus.&lt;/p&gt;
+&lt;p&gt;“Essa vacina é muito importante, pois ela previne o recém-nascido dos casos de bronquiolite, uma infecção que, infelizmente, é uma das principais causas de internação de bebês em UTIs neonatais”, explica o médico Aloisio Barbosa, secretário de Saúde.&lt;/p&gt;
+&lt;p&gt;As doses já estão disponíveis nas 16 salas de vacinação distribuídas pelo município. Para receber o imunizante, a gestante deve apresentar:&lt;br&gt;
+• Documento de identificação com foto (RG/CPF);&lt;br&gt;
+• Comprovante da idade gestacional (Cartão de pré-natal, laudo de ultrassonografia ou documento médico que ateste estar a partir da 28ª semana).&lt;/p&gt;
+&lt;p&gt;A Secretaria de Saúde reforça que a vacinação é segura e essencial para reduzir a mortalidade e as hospitalizações infantis por doenças respiratórias na cidade.&lt;/p&gt;
+&lt;p&gt;Confira os postos que estarão aplicando o imunizante:&lt;/p&gt;
+&lt;p&gt;• Centro de Saúde Coletiva&lt;br&gt;
+• UBS Itaipava&lt;br&gt;
+• Centro de Saúde Itamarati&lt;br&gt;
+• UBS Quitandinha&lt;br&gt;
+• PSF Posse&lt;br&gt;
+• UBS Morin&lt;br&gt;
+• UBS Alto Independência&lt;br&gt;
+• UBS Araras&lt;br&gt;
+• Ambulatório Escola – FMP/FASE&lt;br&gt;
+• Ambulatório do Hospital Alcides Carneiro&lt;br&gt;
+• UBS Pedro do Rio&lt;br&gt;
+• PSF Alto da Serra&lt;br&gt;
+• UBS Mosela&lt;br&gt;
+• UBS Retiro&lt;br&gt;
+• UBS Bairro da Glória&lt;br&gt;
+• UBS Vicenzo Rivetti&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/gravidas/" rel="tag"&gt;grávidas&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/vacina-contra-o-virus-sincicial-respiratorio/" rel="tag"&gt;vacina contra o vírus sincicial respiratório&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/09/petropolis-inicia-vacinacao-contra-o-virus-sincicial-respiratorio-vsr-para-gestantes/</guid></item><item><title>Petrópolis se destaca pelos avanços na eliminação da transmissão vertical de HIV, sífilis e hepatite B – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/05/petropolis-se-destaca-pelos-avancos-na-eliminacao-da-transmissao-vertical-de-hiv-sifilis-e-hepatite-b/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Servidores da Secretaria Municipal de Saúde marcaram presença na Cerimônia Nacional de Certificação da Eliminação da Transmissão Vertical de HIV, sífilis e hepatite B e na entrega dos Selos de Boas Práticas Rumo à Eliminação, realizada pelo Ministério da Saúde, em Brasília. O evento reuniu representantes de todo o país para reconhecer políticas públicas que têm transformado a realidade da saúde materno-infantil no Brasil.&lt;/p&gt;
+&lt;p&gt;A coordenadora do Serviço de Assistência Especializada Dra. Susie Andries Nogueira, Sandra Pinto; o farmacêutico Fernando Emídio e a enfermeira Rayane Becker participaram da cerimônia. Eles integraram a Equipe Nacional de Validação, responsável por avaliar e certificar estados e municípios que atingem critérios rigorosos para a eliminação dessas infecções na transmissão da mãe para o bebê durante a gestação, o parto ou a amamentação.&lt;/p&gt;
+&lt;p&gt;“A participação de Petrópolis no encontro nacional simboliza o protagonismo técnico do município na construção de um Brasil mais saudável desde o nascimento”, comentou a coordenadora Sandra Pinto.&lt;/p&gt;
+&lt;p&gt;O trabalho desenvolvido pelas equipes locais tem impacto direto na prevenção, no diagnóstico precoce e no tratamento adequado, pilares fundamentais para que crianças nasçam livres de infecções evitáveis. Para o município, a certificação é também um reconhecimento do esforço coletivo que envolve profissionais da atenção básica, maternidades, vigilância em saúde e laboratórios.&lt;/p&gt;
+&lt;p&gt;“Cada indicador alcançado representa uma vida protegida e um futuro com mais oportunidades. Nosso compromisso com a ciência e a vida se traduz em resultados concretos, com mais cuidado, prevenção e esperança para as novas gerações”, destacou o secretário de Saúde,  Aloisio Barbosa.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/aids/" rel="tag"&gt;aids&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/05/petropolis-se-destaca-pelos-avancos-na-eliminacao-da-transmissao-vertical-de-hiv-sifilis-e-hepatite-b/</guid></item><item><title>Artesãs de Petrópolis doam polvos feitos de crochê para bebês prematuros internados no HAC – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/11/30/artesas-de-petropolis-doam-polvos-feitos-de-croche-para-bebes-prematuros-internados-no-hac/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Os bebês internados na UTI Neonatal do Hospital Alcides Carneiro (HAC) receberam polvos de crochê, feitos por mulheres que fazem parte da Feira de Empreendedorismo Feminino e Economia Criativa de Petrópolis. Os polvos proporcionam conforto e segurança aos recém-nascidos, pois seus tentáculos remetem ao cordão umbilical, ajudando a acalmá-los e a reduzir a agitação e o estresse.&lt;/p&gt;
+&lt;p&gt;A ação faz parte da Campanha Novembro Roxo, mês de conscientização da prematuridade de bebês. As integrantes da Feira de Empreendedorismo foram pessoalmente entregar os bichinhos no hospital e se encantaram com o trabalho feito pela equipe de enfermagem. Ao todo, foram confeccionados 31 polvinhos de crochê para serem doados aos bebês internados. Especialistas acreditam que isso melhora a frequência cardíaca, a saturação de oxigênio e a qualidade do sono dos bebês.&lt;/p&gt;
+&lt;p&gt;“Em Petrópolis, temos um compromisso permanente com o cuidado e a proteção das nossas crianças, especialmente aquelas que chegam ao mundo antes do tempo. E precisamos falar sobre prematuridade, apoiar as famílias e de valorizar o trabalho excepcional realizado por nossas equipes de saúde”, comentou o secretário de Saúde, o médico Aloisio Barbosa.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Novembro Roxo&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;No Brasil, um a cada dez nascimentos ocorre antes das 37 semanas, um dos maiores índices de partos prematuros no mundo. “A prematuridade precisa ser conscientizada como fenômeno que deve ser evitado ou previsto, sempre com acesso integral das gestantes a um acompanhamento pré-natal de qualidade”, afirma a médica Ana Paula Perié, Coordenadora e Rotina Médica da UTI neonatal e pediátrica do Hospital Santa Teresa (HST).&lt;/p&gt;
+&lt;p&gt;Em muitos casos, porém, eventos desfavoráveis maternos e/ou fetais podem ser inevitáveis e evoluírem para o desfecho de um nascimento prematuro. Nesses casos, cabe à equipe assistencial agir da melhor forma em prol do bem-estar do bebê e da gestante. “A prematuridade não é destino, é ponto de partida”, conclui a especialista do Hospital Santa Teresa.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/novembro-roxo/" rel="tag"&gt;novembro roxo&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/uti-neonatal/" rel="tag"&gt;uti neonatal&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/11/30/artesas-de-petropolis-doam-polvos-feitos-de-croche-para-bebes-prematuros-internados-no-hac/</guid></item><item><title>Ações voltadas à saúde do homem acontecem neste fim de semana – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/11/28/cto-e-laboratorio-de-correas-oferecem-exames-gratuitos-de-psa-neste-sabado/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p dir="ltr"&gt;Neste sábado (29), o Centro de Terapia Oncológica (CTO) e o Laboratório de Corrêas, em parceria com a Secretaria Municipal de Saúde, vão oferecer exames gratuitos de PSA dentro da campanha do Novembro Azul. O objetivo é conscientizar os homens sobre a importância do diagnóstico precoce do câncer de próstata. A ação vai ocorrer na unidade do CTO do SUS, que fica no Hospital Alcides Carneiro, das 8h às 11h30.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Podem participar homens com mais de 45 anos, caso haja histórico familiar da doença, e, homens negros também a partir desta idade, devido ao maior risco para o câncer de próstata. Homens acima de 50 anos, sem histórico familiar, também podem fazer o exame. Para isso, é necessário preencher o cadastro disponível &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfkMAvOit2eGUASvbtjurClZ-X528FjGsjmGUPlYxYzbUAzYg/viewform?usp=dialog" target="_blank" rel="noopener"&gt;neste link&lt;/a&gt;. As vagas são limitadas. O CTO do HAC fica na Rua Vigário Corrêa, nº 1.345, em Corrêas.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Neste ano, a campanha conta com uma novidade que é a disponibilização de uma van, saindo do Museu Imperial em três horários: às 7h, 8h e 9h da manhã. A medida visa atender moradores do Centro de Petrópolis e arredores no deslocamento até a unidade do CTO SUS, em Corrêas.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Ainda neste sábado acontece o Dia D com oferta de consultas médicas e de enfermagem, testes rápidos, aferição de pressão, glicemias e outras ações de orientação e cuidado em 34 unidades de saúde. O atendimento é das 8h às 14h.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Neste domingo (30) acontece o “Movimento Azul”, em frente à Catedral de São Pedro de Alcântara, com exposição de carros antigos na Avenida Tiradentes. Vai ter também aferição de pressão arterial, de glicemia, vacinação, testes rápidos e orientações de promoção em saúde. O evento acontece das 8h às 12h e é importante levar o Cartão de Vacinação.&lt;/p&gt;
+&lt;p dir="ltr"&gt;Confira a lista das unidades:&lt;/p&gt;
+&lt;p&gt;1. ESF Oswaldo Cruz&lt;br&gt;
+2. ESF Estrada da Saudade&lt;br&gt;
+3. ESF São João Batista&lt;br&gt;
+4. ESF Castelo São Manoel&lt;br&gt;
+5. ESF Meio da Serra&lt;br&gt;
+6. ESF Águas Lindas&lt;br&gt;
+7. ESF Fazenda Inglesa&lt;br&gt;
+8. UBS Quitandinha&lt;br&gt;
+9. ESF Posse&lt;br&gt;
+10. ESF Vale do Carangola&lt;br&gt;
+11. UBS Brejal Arlindo de Carvalho&lt;br&gt;
+12. UBS Mosela&lt;br&gt;
+13. UBS Sebastião Ismerio Cardoso&lt;br&gt;
+14. ESF Alto da Serra&lt;br&gt;
+15. ESF Alto do Siméria&lt;br&gt;
+16. ESF Vicenzo Rivette&lt;br&gt;
+17. ESF 1º de Maio&lt;br&gt;
+18. ESF Carangola&lt;br&gt;
+19. UBS Itamarati&lt;br&gt;
+20. Consultório na Rua&lt;br&gt;
+21. ESF Boa Esperança&lt;br&gt;
+22. UBS Retiro&lt;br&gt;
+23. ESF Caxambu Lusitano&lt;br&gt;
+24. UBS Araras&lt;br&gt;
+25. ESF Bataillard&lt;br&gt;
+26. UBS Corrêas&lt;br&gt;
+27. UBS Morin&lt;br&gt;
+28. ESF Bingen&lt;br&gt;
+29. ESF Santíssima Trindade&lt;br&gt;
+30. ESF São Sebastião&lt;br&gt;
+31. ESF Castrioto&lt;br&gt;
+32. ESF Vila Felipe&lt;br&gt;
+33. ESF Amazonas&lt;br&gt;
+34. ESF Vila Saúde&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cto-petropolis/" rel="tag"&gt;CTO Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/novembro-azul/" rel="tag"&gt;novembro azul&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/11/28/cto-e-laboratorio-de-correas-oferecem-exames-gratuitos-de-psa-neste-sabado/</guid></item><item><title>Museu Imperial realiza restauração de cadernetas de d. Pedro II – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/08/17/museu-imperial-realiza-restauracao-de-cadernetas-de-d-pedro-ii/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Museu Imperial recebeu a visita do Ministério Público Federal (MPF) para a vistoria e acompanhamento dos trabalhos de conservação e restauro de 38 cadernetas de viagem do imperador d. Pedro II.&lt;/p&gt;
+&lt;p&gt;O conjunto, reconhecido pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco) como patrimônio documental da humanidade, passa por um minucioso processo de preservação que inclui higienização, restauração, reconstituição, encadernação, acabamento e tratamentos específicos para reparo de perdas e danos.&lt;/p&gt;
+&lt;p&gt;O projeto foi viabilizado por recursos financeiros oriundos de acordo firmado com MPF, a partir de proposta apresentada pelo Museu Imperial.&lt;/p&gt;
+&lt;p&gt;Muitas das peças apresentam estado frágil devido à ação do tempo, mas reúnem anotações que oferecem um retrato detalhado das transformações ocorridas no século XIX, incluindo inovações tecnológicas e referências culturais que marcaram a transição para a Modernidade.&lt;/p&gt;
+&lt;p&gt;A execução do trabalho ocorre no Laboratório de Conservação e Restauração do Museu Imperial, sob supervisão de sua equipe técnica e está a cargo da empresa R C Gonçalves Encadernações e Restauro “Obra Rara”. O prazo estimado para a conclusão é de quatro meses, ao final dos quais será elaborado relatório técnico detalhado do processo.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/museu-imperial/" rel="tag"&gt;museu imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/restauracao/" rel="tag"&gt;restauração&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/08/17/museu-imperial-realiza-restauracao-de-cadernetas-de-d-pedro-ii/</guid></item><item><title>Você conhece os grupos de dança germânica de Petrópolis? – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/07/13/voce-conhece-os-grupos-de-danca-germanica-de-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Sem dúvidas, um dos grandes destaques da Bauernfest são os grupos germânicos que chamam a atenção de turistas e moradores com trajes típicos alemães do século XIX e com as apresentações das danças folclóricas. O primeiro deles foi o Bergstadt, fundado por jovens idealistas em 25 de agosto de 1990, pouco tempo depois da primeira edição da Festa do Colono Alemão. Hoje já são sete grupos que fazem parte da Associação dos Grupos Folclóricos Alemães de Petrópolis (AGFAP), fundada em 4 de outubro de 2000.&lt;/p&gt;
+&lt;p&gt;Os grupos se apresentam durante a Bauernfest no palco Koblenz, nos jardins do Palácio de Cristal e assim resgatam, por meio das danças e músicas típicas da época, a tradição dos primeiros colonos que chegaram à Petrópolis em 1845. Para garantir a fidelidade histórica das apresentações, eles fazem pesquisas de figurino, hábitos, regiões, coreografias e trilhas sonoras de época, trazidas ao Brasil pelos antepassados germânicos. Cada categoria tem suas danças e trajes específicos, a fim de transmitir ao público uma projeção folclórica mais autêntica possível.&lt;/p&gt;
+&lt;p&gt;“Mais do que uma simples apresentação artística, esses grupos são uma forma de resistência, de memória e de pertencimento. Eles educam as novas gerações, promovem o respeito à diversidade e fortalecem os laços comunitários”, explicou o presidente da Associação dos Grupos Folclóricos Alemães de Petrópolis, William da Silva Cardoso.&lt;/p&gt;
+&lt;p&gt;Alguns grupos se dividem em categorias, que vão do infantil ao master. Eles participam e promovem eventos que tenham como fundamento a cultura alemã, através da dança, comércio de alimentos, bebidas típicas, vendas de souvenirs, materiais históricos e demais atividades. Ao longo do ano participam de mais de 100 apresentações pelo Brasil.&lt;/p&gt;
+&lt;p&gt;Conheça os grupos Folclóricos de Petrópolis:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bergstadt&lt;/strong&gt; – Foi o primeiro grupo da cidade, fundado por jovens idealistas em 25 de agosto de 1990. O objetivo foi, através do cultivo de danças e músicas folclóricas alemäes, resgatar as tradições trazidas pelos antepassados germânicos. Cada categoria tem suas danças e trajes específicos, sempre com a preocupação de pesquisar através de fontes seguras, no Brasil e na Alemanha, informações corretas sobre coreografias e indumentária, a fim de transmitir para o público uma projeção folclórica mais autêntica possível. o grupo conta com quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bauerngruppe&lt;/strong&gt; – Foi fundado em primeiro de abril de 1991, o nome significa grupo camponês e faz menção a tradicional Bauernfest. O grupo já ultrapassou a marca de 1.300 apresentações em mais de 35 cidades de cinco estados brasileiros. O grupo tem dois gigantescos painéis cenográficos que criam uma identidade visual, propiciando um fantástico dinamismo no intervalo entre as danças. São quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mosel Volkstanze&lt;/strong&gt; – Fundado no dia 14 de novembro de 1991, é o terceiro grupo da cidade. O nome Mosel faz referência a um rio, o Mosela (em francês Moselle, em alemão Mosel e em luxemburguês Musel) que é um rio do nordeste da França, de Luxemburgo e do oeste da Alemanha. O grupo conta apenas com a categoria adulta.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rheinland Pfalz&lt;/strong&gt; – Fundado em 22 de outubro de 1994, o grupo recebeu este nome que faz referência a exata região de onde vieram os primeiros colonos que trabalharam no ambicioso projeto urbanístico do engenheiro Júlio Frederico Koeler para construção de Petrópolis. O grupo é caracterizado por danças alegres e descontraídas, valorizando as diferentes regiões germânicas. O grupo conta com as categorias: infantil, juvenil e adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Petrópolis Danças Folclóricas&lt;/strong&gt; – Fundado em 24 de fevereiro de 1996 com o intuito do resgate das tradições dos vários povos, raças e culturas que compõem o Brasil e com o propósito de divulgar a cidade de Petrópolis. O grupo se diferencia dos demais por ser assumidamente multinacional e em suas apresentações e se prestar a mostrar para o público a cultura de vários povos, levando o espectador à uma viagem pelo tempo e espaço. As apresentações do Petrópolis Danças Folclóricas são alegres e vibrantes e conta com as categorias: infanto-juvenil e adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kaiserstadt Kulturkreis&lt;/strong&gt; – Fundado em primeiro de fevereiro de 1996 por um grupo de jovens que se reuniu para falar de seu entusiasmo e do desejo de arregaçar as mangas para fazer a diferença, resgatando os costumes culturais dos imigrantes alemães. Em fevereiro de 1997 criaram o “Centro Cultural Cidade Imperial” e também foram iniciados os trabalhos com teatro. O grupo conta com duas categorias: infanto-juvenil e Adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blumenberg Volkstanz Blumenberg&lt;/strong&gt; – Fundado em seis de janeiro de 2001, conta com integrantes de quatro a 60 anos. Os trajes selecionados para as categorias são, em sua maioria, originários da região sul da Alemanha e da Áustria, possuindo também o Monchguter Fischertracht – traje de pescadores originário da ilha de Rugen, na Pomerânia. O grupo possui um repertório de danças tradicionais e de difícil execução, onde se destacam os Schuhplattler e Landler. São quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bauernfest/" rel="tag"&gt;bauernfest&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/grupos-germanicos/" rel="tag"&gt;grupos germânicos&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/07/13/voce-conhece-os-grupos-de-danca-germanica-de-petropolis/</guid></item><item><title>[Você sabia?] Por que a Bauernfest é realizada no Palácio de Cristal? – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/07/02/voce-sabia-por-que-a-bauernfest-e-realizada-no-palacio-de-cristal/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Segunda maior festa alemã do Brasil, a Bauernfest acontece em Petrópolis há 36 anos, como uma maneira de celebrar a cultura germânica trazida pelos primeiros colonos que chegaram para construir a cidade em 1845. A primeira edição foi em 1990, mas muito antes as famílias de descendentes dos colonos já se reuniam para celebrar a cultura e a gastronomia alemã.&lt;/p&gt;
+&lt;p&gt;Em meados do século XX, eram organizadas pequenas quermesses em casas e barracões. Mas foi em 1982 que a festa começou, ainda pequena, com o nome de “Festival Germânico”, inaugurada pela presidente do Instituto Histórico, Ruth Judice, numa parceria com o Clube 29 de Junho, por iniciativa de nomes como Carlos Rheingantz, Ildefonso Troyack e Emygdia Hoeltz. O local escolhido para a festa foi o &lt;a href="https://aconteceempetropolis.com.br/2016/09/05/voce-sabia-finalidade-do-palacio-de-cristal-era-servir-como-pavilhao-para-exposicoes-de-flores-e-produtos-agricolas/"&gt;&lt;strong&gt;Palácio de Cristal&lt;/strong&gt;&lt;/a&gt;, que fica localizado na Praça Koblenz, atual Praça da Confluência, onde os primeiros colonos costumavam se encontrar na cidade.&lt;/p&gt;
+&lt;p&gt;De acordo com o &lt;a href="https://ihp.org.br/bauer-e-petropolis/"&gt;artigo “Bauer e Petrópolis”&lt;/a&gt;, escrito por Maria das Graças Duvanel Rodrigues e disponível no site do Instituto Histórico de Petrópolis (IHP), a festa passou a ser chamada de “Bauernfest” em 1990, por sugestão de Liane Bauer, neta do historiador descendente de imigrantes alemães, Gustavo Ernesto Bauer. Desta forma, o nome da festa é uma homenagem ao historiador que é um dos fundadores do Clube 29 de junho e também criador do Museu Casa do Colono. O nome “Bauer” também significa “agricultor” em alemão e faz uma relação com os trabalhadores rurais que colonizaram a cidade.&lt;/p&gt;
+&lt;p&gt;“É uma festa da cultura, mas acima de tudo em memória dos colonos que aqui chegaram. Nós temos que relembrar os nossos antepassados porque, se estamos aqui hoje, é porque eles se dedicaram e trabalharam para construir Petrópolis”, comentou Márcio Haubrich, atual presidente do Clube 29 de Junho.&lt;/p&gt;
+&lt;p&gt;O evento traz uma programação de grupos de danças folclóricas, corais, bandas tradicionais germânicas, concurso de chope em metro, comidas e bebidas típicas. Hoje a festa cresceu tanto que é considerada a maior do município serrano e de grande importância para o calendário turístico e cultural do estado e do país.&lt;/p&gt;
+&lt;p&gt;A 36ª Bauernfest segue até 13 de julho no Palácio de Cristal e arredores. Promovida pela Prefeitura de Petrópolis e Clube 29 de Junho, a Bauernfest tem o patrocínio da Águas do Imperador, Embratur, Caixa, TurisRio, Governo do Estado do Rio de Janeiro e Ministério da Cultura. A Império é a fornecedora do chope oficial da Bauern.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bauernfest/" rel="tag"&gt;bauernfest&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/curiosidades-de-petropolis/" rel="tag"&gt;curiosidades de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palacio-de-cristal/" rel="tag"&gt;palácio de cristal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/07/02/voce-sabia-por-que-a-bauernfest-e-realizada-no-palacio-de-cristal/</guid></item><item><title>Confira quais foram os livros mais vendidos do 2º Flipetrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/03/confira-quais-foram-os-livros-mais-vendidos-do-2o-flipetropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O livro mais vendido da segunda edição do Festival Literário Internacional de Petrópolis – Flipetrópolis foi “Tomara que você seja deportado”, de Jamil Chade, seguido de “Coração sem medo”, de Itamar Vieira Junior e “Uma história da velhice no Brasil”, de Mary del Priore. Confira os dez destaques de vendas no 2.º Flipetrópolis:&lt;/p&gt;
+&lt;p&gt;1º – “Tomara que você seja deportado”, de Jamil Chade (Nós)&lt;/p&gt;
+&lt;p&gt;2º – “Coração sem medo”, de Itamar Vieira Junior (Todavia)&lt;/p&gt;
+&lt;p&gt;3º – “Uma história da velhice no Brasil”, de Mary del Priore (Vestígio)&lt;/p&gt;
+&lt;p&gt;4º – “Meridiana”, de Eliana Alves Cruz (Companhia das Letras)&lt;/p&gt;
+&lt;p&gt;5º – “Lélia Gonzalez: um retrato”, de Sueli Carneiro (Zahar)&lt;/p&gt;
+&lt;p&gt;6º – “Awon Baba”, de Teresa Cárdenas (Pallas)&lt;/p&gt;
+&lt;p&gt;7º – “A franja do fim do mundo”, de Sérgio Abranches (Faria e Silva)&lt;/p&gt;
+&lt;p&gt;8º – “Insubmissas lágrimas de mulheres”, de Conceição Evaristo (Malê)&lt;/p&gt;
+&lt;p&gt;9º – “Agressão: a escalada da violência doméstica”, de Ana Paula Araújo (Globo Livros)&lt;/p&gt;
+&lt;p&gt;10º – “Olhos D’Água”, de Conceição Evaristo (Pallas)&lt;/p&gt;
+&lt;p&gt;O evento foi realizado graças à Lei Rouanet, do Ministério da Cultura, com o Patrocínio Máster da GE Aerospace e o apoio da Zeiss, da Caixa, da Academia Petropolitana de Letras, do Ipeafro e da Prefeitura de Petrópolis. Parceria de Mídia: Amado Mundo.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/flipetropolis/" rel="tag"&gt;flipetropolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/03/confira-quais-foram-os-livros-mais-vendidos-do-2o-flipetropolis/</guid></item><item><title>Inspirada na história de seu pai, escritora Aline Silva lança livro com cenas ambientadas em Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/10/15/inspirada-na-historia-de-seu-pai-escritora-aline-silva-lanca-livro-com-cenas-ambientadas-em-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;blockquote&gt;
+&lt;p&gt;Enquanto subia a serra até Petrópolis, via a paisagem verde/nublada, borrada por lágrimas nostálgicas, eu via os vários passados vividos ali. No reencontro com a casa — minha antiga morada — eu estava emocionada e acho que meu olhar marejado desobstruiu os canais lacrimais do Seo Damião. Naquela tarde de 2023, fomos passear nos jardins do Museu Imperial, palco do namoro dos meus pais, na década de 1970. “Nunca mais vim aqui”, ele disse, “Como o tempo passa!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Saindo do agreste de Pernambuco tendo Petrópolis como destino final, a obra “O vento roubou o meu chapéu”, primeiro livro da escritora e psicanalista Aline Silva, conta a trajetória de seu pai, Seo Damião, desde suas origens até a vida que construiu na Cidade Imperial.&lt;/p&gt;
+&lt;p&gt;Aline começou a escrever a história em 2019, a partir de conversas com seu pai, num período em que ele se recuperava de um tratamento cirúrgico. “Eu mergulhei na ancestralidade da família, e isso incluiu uma conexão com minha avó paterna, que era parteira no agreste pernambucano, além de conversas com minha filha de 8 anos e suas sábias perguntas infantis sobre as relações familiares”, conta a autora.&lt;/p&gt;
+&lt;p&gt;Escrito em primeira pessoa, sob o ponto de vista de Aline, a obra conta com cenas ambientadas em Petrópolis. “Há duas cenas importantes que se passam na cidade. A primeira, nos jardins do Museu Imperial, e a segunda, no cemitério da cidade. Outras menções mais passageiras são feitas sobre a antiga Lojas Pernambucanas, localizada na rua do Imperador, onde Seo Damião trabalhou e conheceu sua esposa Marlene, e sobre o comércio dele, que ganhou seu sobrenome, o Mercadinho Ferreira, localizado no Quarteirão Brasileiro, com 50 anos de existência, completados em 2025”, revela.&lt;/p&gt;
+&lt;p class="p1"&gt;&lt;span class="s1"&gt;Ao falar sobre o livro, Aline menciona uma coincidência entre a história de seu pai e a do escritor &lt;/span&gt;&lt;a href="https://aconteceempetropolis.com.br/2020/10/19/poetas-em-petropolis-manuel-bandeira/"&gt;&lt;strong&gt;Manuel Bandeira&lt;/strong&gt;&lt;/a&gt;, cuja conexão com Petrópolis é evidenciada em vários poemas de sua autoria. “Seo Damião é residente da rua Mosela, no exato endereço onde o também pernambucano Manuel Bandeira residiu enquanto esteve na região serrana. Ali, o grande poeta e escritor modernista escreveu seu belo poema ‘Noturno Mosela’, no qual lamenta a passagem impiedosa do tempo. O mesmo pesar parece ecoar na voz de Damião, cujas falas seguem a mesma direção e sobressaem em várias passagens do livro”, explica.&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;div&gt;
+&lt;p&gt;O livro será lançado no &lt;a href="https://aconteceempetropolis.com.br/2025/09/20/2a-edicao-do-flipetropolis-acontece-em-novembro/"&gt;&lt;strong&gt;Flipetrópolis&lt;/strong&gt;&lt;/a&gt;, que neste ano acontece de 26 a 30 de novembro, no Palácio de Cristal. Porém, os exemplares já podem ser adquiridos no Mercadinho Ferreira (localizado na Rua Professor Stroeller, 914 – Quarteirão Brasileiro), na livraria Nobel da Rua 16 de Março (onde foi o livro mais vendido do mês de agosto/2025), no Instagram da autora @silvalines e no site da editora Impressões de Minas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/flipetropolis/" rel="tag"&gt;flipetropolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/lancamento-de-livro/" rel="tag"&gt;lançamento de livro&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/10/15/inspirada-na-historia-de-seu-pai-escritora-aline-silva-lanca-livro-com-cenas-ambientadas-em-petropolis/</guid></item><item><title>[Você sabia?] Petrópolis é mencionada no livro “Ainda estou aqui” – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2024/11/26/voce-sabia-petropolis-e-mencionada-no-livro-ainda-estou-aqui/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Não há nada mais cruel do que o desaparecimento de uma pessoa. Conviver com as incertezas, passar a vida em busca de respostas, nutrindo esperanças (por mais ínfimas que sejam), sem nunca ter um ponto final.&lt;/p&gt;
+&lt;p&gt;Em “Ainda estou aqui”, de Marcelo Rubens Paiva, conhecemos um pouco sobre a vida familiar antes e depois do desaparecimento de seu pai, a luta de sua mãe Eunice em busca de respostas sobre o que aconteceu com seu marido, e a batalha final contra o Alzheimer.&lt;/p&gt;
+&lt;p&gt;No dia 20 de janeiro de 1971, Rubens Paiva é levado para prestar depoimento aos militares. No dia seguinte, Eunice e uma de suas filhas, Eliana, também são levadas. É neste contexto que Petrópolis é mencionada pela primeira vez na obra.&lt;/p&gt;
+&lt;p&gt;Para proteger os netos, a avó materna tira as crianças que haviam ficado na casa do Leblon e os leva para lugares diferentes. Dois deles na região serrana do Rio de Janeiro.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“O caminho, reconheci na hora. Avenida Brasil, entrada à direita, estrada de Petrópolis. Me levava para a região serrana. Fiz algumas vezes aquela viagem. Petrópolis, Teresópolis, Araras… Muitos pais de amigos tinham casas lá. É perto do Rio, é fresco, é lindo, é imperial. (…) Subimos a serra de Petrópolis pela BR-040. A entrada para Nova Friburgo ficou para trás. Cruzamos Petrópolis à direita. Fomos em frente. Antes da estrada para Teresópolis, entramos à esquerda. Araras era o destino”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Marcelo ficou na residência do casal Mindlin, “numa casa que era modelo de arquitetura modernista”. Já sua irmã Nalu estava “em Petrópolis, na casa do Marcílio Marques Moreira”, que foi Ministro da Fazenda durante o governo de Fernando Collor e presidente da Comissão Ética Pública do governo Lula.&lt;/p&gt;
+&lt;p&gt;Petrópolis volta a ser mencionada no final do livro, mais precisamente no último capítulo que apresenta a denúncia enviada pela família Paiva ao Ministério Público Federal. No tópico “quadrilha armada desenvolvida no contexto de organização criminosa”, destaca-se o seguinte trecho que menciona a Casa da Morte, localizada no bairro Caxambu:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Ainda que os denunciados e demais integrantes da quadrilha agissem em nome do Estado, os crimes por eles cometidos não estavam, de nenhum modo, amparados pelo direito vigente à época, nem mesmo por aquele emanado do próprio movimento golpista. Os sequestros cometidos por integrantes da organização eram antijurídicos porque as prisões não eram seguidas de comunicação à autoridade judicial, como já determinava a lei vigente à época, havendo nos autos, ainda, provas de que, a partir de 1971, presos políticos foram levados a um centro clandestino de torturas mantido pelo CIE em Petrópolis, hoje conhecido como &lt;strong&gt;‘Casa da Morte’&lt;/strong&gt;”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Um dos acusados pela morte de Rubens Paiva chegou a confessar que foi responsável por manter &lt;a href="https://aconteceempetropolis.com.br/2017/08/15/coluna-ines-etienne-romeu-testemunha-da-casa-da-morte/"&gt;Inês Etienne Romeu&lt;/a&gt; no local. Ela foi a única sobrevivente da Casa da Morte.&lt;/p&gt;
+&lt;p&gt;Em agosto deste ano, o Governo Federal publicou o termo de convênio com a Prefeitura de Petrópolis para transformar a “Casa da Morte” em Memorial de Liberdade, Verdade e Justiça.&lt;/p&gt;
+&lt;figure id="attachment_99994" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2024/11/ainda-estou-aqui.jpg"&gt;&lt;img class=" wp-image-99994" src="https://aconteceempetropolis.com.br/wp-content/uploads/2024/11/ainda-estou-aqui.jpg" alt="" width="710" height="596"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-99994" class="wp-caption-text"&gt;Foto: Alile Dara Onawale / Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Sobre o filme&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;“Ainda estou aqui”, com direção de Walter Salles, levou o prêmio de “Melhor Roteiro” no Festival de Cinema de Veneza e se tornou elegível para a categoria de Melhor Filme Estrangeiro do Oscar. Fernanda Torres também aparece entre as cotadas para a categoria de Melhor Atriz, a mesma que sua mãe disputou em 1999 por “Central do Brasil”, do mesmo diretor.&lt;/p&gt;
+&lt;p&gt;De acordo com dados da ComScore, em seu terceiro fim de semana de exibição, no período de 21 a 24/11, o filme voltou a liderança da bilheteria nacional, levando 390 mil pessoas às salas de cinema. Desde sua estreia, mais de 1,7 milhão de espectadores já foram ver o longa.&lt;/p&gt;
+&lt;p&gt;Enquanto no livro temos mais informações e trechos de documentos sobre o que aconteceu com Rubens Paiva, além de falar mais sobre a luta de Eunice contra o Alzheimer, o filme traz uma atmosfera mais afetuosa, inserindo o público no ambiente familiar antes e depois do desaparecimento. Ambos se complementam e merecem ser conferidos.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/ainda-estou-aqui/" rel="tag"&gt;ainda estou aqui&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2024/11/26/voce-sabia-petropolis-e-mencionada-no-livro-ainda-estou-aqui/</guid></item><item><title>Craques do futebol se reúnem em ações solidárias em Petrópolis em prol de famílias em vulnerabilidade social – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/04/craques-do-futebol-se-reunem-em-acoes-solidarias-em-petropolis-em-prol-de-familias-em-vulnerabilidade-social/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;&lt;span&gt;O atacante do Los Angeles Galaxy e ex-Vasco, Gabriel Pec está à frente de uma iniciativa que promete mobilizar Petrópolis em torno do esporte e da solidariedade neste fim de semana. Ao lado do conterrâneo Leozinho, do Athletico Paranaense, Gabriel retorna à cidade natal para comandar o jogo beneficente “Craques Contra a Fome”, evento criado para apoiar famílias em situação de vulnerabilidade nos dias 6 e 7 de dezembro.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A ação tem o objetivo de arrecadar uma tonelada de alimentos, cerca de 300 cestas básicas, e garantir R$ 5 mil em presentes de Natal para crianças carentes. Para isso, a programação se estende por dois dias e reúne uma série de atividades que vão muito além das quatro linhas: partidas de futebol e futsal, tarde de autógrafos, apresentações musicais, leilão solidário e interação com o público.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“Voltar para Petrópolis e usar o futebol para fazer diferença na vida de outras pessoas é especial demais. A gente sabe da força que o esporte tem. Cada pessoa que participa, doa e apoia está ajudando a transformar um Natal que poderia ser difícil em um momento de esperança”, diz Gabriel Pec.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A expectativa dos organizadores é reunir cerca de mil pessoas e envolver toda a comunidade. O evento contará ainda com iniciativas voltadas a crianças, sorteios, estandes de marcas parceiras, ações de patrocinadores e transmissão ao vivo. As doações poderão ser feitas por ingresso solidário, PIX do Bem ou lances no leilão de itens autografados.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Para garantir a segurança e a transparência, toda a estrutura será profissional: segurança credenciada, equipe médica com ambulância, seguro para participantes e público, uniformes oficiais, sonorização completa, press kit e cobertura audiovisual. Após o encerramento, será divulgado um relatório oficial de prestação de contas, reunindo números, recibos e registros da entrega das doações.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Confira a programação:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;span&gt;*Os horários podem sofrer pequenos ajustes&lt;/span&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Dia 06 – Abertura • Futsal&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Local: Sport Club Magnólia&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Formato: Noite de futsal, clima de resenha de boleiro e encontros que inspiram — um pontapé inicial para transformar paixão em gesto concreto no fim do ano.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Programação prevista:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Abertura dos portões: 13h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Preliminar escolinhas da cidade: 14h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Apresentação musical: 17h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Partida oficial CRAQUES CONTRA FOME (futsal): 18h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Homenagens do dia: 19h30&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Link para compra de ingresso: &lt;a href="https://www.sympla.com.br/evento/craques-contra-fome-futsal/3219245"&gt;https://www.sympla.com.br/evento/craques-contra-fome-futsal/3219245&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Dia 07 – Encerramento • Futebol &amp;amp; Emoção&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Local: Estádio Atílio Marotti – Serrano Futebol Clube&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Formato: Manhã de futebol, vibração de arquibancada e o encontro final que amarra a mensagem: disciplina, renúncia, união — e um fim de ano com mais alegria na mesa de quem precisa.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Programação prevista:&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Abertura dos portões: 7h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Preliminar das escolinhas da cidade: 8h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Apresentação Musical: 9h30&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Partida oficial CRAQUES CONTRA FOME (futebol): 10h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Leilão solidário: 10h50&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Homenagens: 12h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Fotos e Autógrafos: 13h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Encerramento: 14h&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Link para compra de ingresso: &lt;a href="https://www.sympla.com.br/evento/craques-contra-fome-futebol/3219266"&gt;https://www.sympla.com.br/evento/craques-contra-fome-futebol/3219266&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/estadio-atilio-marotti/" rel="tag"&gt;estádio atílio marotti&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/04/craques-do-futebol-se-reunem-em-acoes-solidarias-em-petropolis-em-prol-de-familias-em-vulnerabilidade-social/</guid></item><item><title>Torneio de Xadrez de Olho no Futuro acontece neste sábado – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/11/28/torneio-de-xadrez-de-olho-no-futuro-acontece-neste-sabado/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Neste sábado (29), 20 estudantes das escolas municipais Heitor Borges e Rotary, integrantes do Programa de Xadrez Escolar, participam do Torneio Xadrez de Olho no Futuro, organizado pela UERJ em parceria com a Prefeitura. O encontro será realizado na UERJ Petrópolis, na Avenida Ipiranga, número 544, no Centro, das 13h às 16h30.&lt;/p&gt;
+&lt;p&gt;A atividade reúne participantes em um encontro voltado ao estímulo de práticas cognitivas, com seis rodadas previstas no sistema suíço. Todos os competidores receberão premiação. “O torneio consolida o empenho de toda a equipe e amplia o alcance do trabalho desenvolvido nas unidades escolares”, disse a secretária de Educação, Poliana Ferrarez.&lt;/p&gt;
+&lt;p&gt;O coordenador do Programa de Xadrez Escolar, Ronaldo Yallouz, explicou que o torneio integra esforços de incentivo à prática contínua. “A participação dos alunos demonstra dedicação e reforça a construção de trajetórias formativas dentro e fora das escolas”, declarou.&lt;/p&gt;
+&lt;p&gt;A iniciativa tem apoio da Rede Sirius, da Biblioteca CTC/P, da Biblioteca Central Gabriela Mistral e de equipes responsáveis pelas ações de xadrez nas escolas participantes.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/uerj-petropolis/" rel="tag"&gt;uerj petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/xadrez/" rel="tag"&gt;xadrez&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/11/28/torneio-de-xadrez-de-olho-no-futuro-acontece-neste-sabado/</guid></item><item><title>Petrópolis conquista a prata e o bronze no Araruama Chess Grand Prix – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/11/23/petropolis-conquista-a-prata-e-o-bronze-no-araruama-chess-grand-prix/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;As equipes das escolas municipais Dr. Paula Buarque e Maria Campos Silva alcançaram, respectivamente, o segundo e o terceiro lugar no Araruama Chess Grand Prix, realizado na última semana. O torneio de xadrez reuniu grupos de diferentes municípios em disputas por categorias, consolidando a participação da Rede Municipal de Petrópolis no circuito competitivo.&lt;/p&gt;
+&lt;p&gt;O evento marcou a presença de doze estudantes das escolas Germano Valente, Maria Campos e Dr. Paula Buarque, integrantes do Programa de Xadrez Escolar. As disputas envolveram as categorias sub-12 e sub-16, com acompanhamento dos professores Leonardo Mussel e Ronaldo Yallouz. A delegação compôs três equipes distribuídas conforme a organização da competição.&lt;/p&gt;
+&lt;p&gt;A equipe sub-12 da Escola Dr. Paula Buarque foi formada por Alexandre Cardoso Ramos Silva, Eduarda de Oliveira Melo Valentim, Jonas Tavares Andrade Mello e Tatiane Tavares Vieira. O grupo garantiu o segundo lugar após seis rodadas, somando desempenho decisivo para o resultado final do torneio.&lt;/p&gt;
+&lt;p&gt;No sub-16, Petrópolis contou com duas equipes. A Escola Germano Valente levou Gabriel de Sousa da Silva Costa, Kauê Freitas de Oliveira, Maria Clarah Dominguez Augusto e Sofia Medeiros Furtado da Costa. Já a Escola Maria Campos competiu com Bernardo Truci da Cunha, João Vitor Gonçalves de Vasconcellos, Lucas Baptista Pereira de Mello e Victor Troyack Grunewald. A Escola Maria Campos garantiu o terceiro lugar após as rodadas classificatórias.&lt;/p&gt;
+&lt;p&gt;“A expansão do programa permitiu que o município aumentasse o número de equipes no torneio e consolidasse uma trajetória construída em parceria com as escolas e com o apoio institucional”, concluiu o professor Ronaldo Yallouz, coordenador do programa de xadrez na rede municipal.&lt;/p&gt;
+&lt;p&gt;Os estudantes do programa municipal de xadrez participaram neste ano dos Jogos Estudantis Unificados de Petrópolis (Jeups) e dos Jogos Estudantis Municipais (Jems). Foram 182 estudantes divididos em três categorias. O volume de participantes demonstra o engajamento crescente das escolas e amplia a projeção do xadrez como ferramenta de aprendizagem.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/xadrez/" rel="tag"&gt;xadrez&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/11/23/petropolis-conquista-a-prata-e-o-bronze-no-araruama-chess-grand-prix/</guid></item></channel></rss>
