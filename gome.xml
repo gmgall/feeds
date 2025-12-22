@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 22 Dec 2025 12:33:19 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 22 Dec 2025 18:24:23 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -309,6 +309,7 @@
         &lt;li&gt;&lt;a href="unreleased.html" class="post-link"&gt;Working on something&lt;/a&gt; — namely a game for the Ctrl-C server&lt;/li&gt;
         &lt;li&gt;Overwork on the game led to &lt;a href="burnout.html" class="post-link"&gt;hobby project burnout&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="loops.html" class="post-link"&gt;Too many open loops&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="hamster.html" class="post-link"&gt;The ghost of hamster game haunts me&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="linguistics"&gt;
@@ -1405,11 +1406,89 @@
       &lt;time datetime="Fri, 19 Dec 2025 11:30:00 CST"&gt;19 Dec. 2025, 11:30 PM&lt;/time&gt;
       &lt;p&gt;Another partial success, and a reflection on my present challenges&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="hamster.html"&gt;
+      &lt;h3&gt;The ghost of hamster game haunts me&lt;/h3&gt;
+      &lt;div class="line stop-1"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 22 Dec 2025 11:30:00 CST"&gt;22 Dec. 2025, 11:30 AM&lt;/time&gt;
+      &lt;p&gt;The colorful tunnels call to me&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — goals pt. 4</title><link>https://ctrl-c.club/~gome/journal/goals-4.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — hamster</title><link>https://ctrl-c.club/~gome/journal/hamster.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;The ghost of hamster game haunts me&lt;/h1&gt;
+      &lt;time datetime="Mon, 22 Dec 2025 11:30:00 CST"&gt;22 Dec. 2025, 11:30 AM&lt;/time&gt;
+      &lt;p&gt;
+        As mentioned in &lt;a href="goals-4.html"&gt;yesterday’s post&lt;/a&gt;,
+        I have a penchant for starting coding projects.
+        Some I finish, or mostly finish; others I do not.
+        And in general, I’m starting to believe I spend a little too much time on these projects in general,
+        at the expense of being a more well-rounded person.
+      &lt;/p&gt;&lt;p&gt;
+        But even if I try to restrain myself, ideas for new projects haunt me.
+        They float around my head poping out from behind corners in my mind,
+        with the promise of actualizing some aesthetic vision I’ve had lying around, ill-defined, in my head for a long time.
+      &lt;/p&gt;&lt;p&gt;
+        The latest ghost haunting my mind is an idea for a hamster-keeping game.
+        The aesthetic vision is a nostalgic one for me,
+        inspired by things like Hamtaro, or the Tamagotchi game I had in elementary school.
+        My concept for &lt;a href="unreleased.html"&gt;Server Pets&lt;/a&gt; (another as-of-yet unfinished project)
+        fits in a similar slot in my mind.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/hamtaro.webp" width="480" height="432" class="pixel-art"&gt;
+        &lt;figcaption&gt;
+          Screenshot from &lt;cite&gt;Hamtaro: Ham-Hams Unite&lt;/cite&gt; for the Game Boy Color.
+          Rip credit to Guille Skye, via &lt;a href="https://www.spriters-resource.com/game_boy_gbc/hamtaroham/asset/12436/"&gt;The Spriters Resource&lt;/a&gt;
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Whenever I get ghosts of projects like this, I know they are just dreams.
+        It’s not just the idea of the software I want to make, it’s the feeling it represents to me.
+        If I made the game, it would only capture some of that vision.
+      &lt;/p&gt;&lt;p&gt;
+        On the other hand, that’s what a lot of art does: points to some vision or dream beyond itself.
+        My gomepage started as a similar sort of ghost, and I’m pretty satisfied with how I brought it to life.
+        So it’s not realistic to pretend I couldn’t execute on the hamster game either.
+        The bottom line is that it just might not be a wise use of my time right now.
+      &lt;/p&gt;&lt;p&gt;
+        I’ve had some success in the past with “exorcising” ghosts of projects I want to work on by writing about them,
+        for example, an idea for &lt;a href="engraving.html"&gt;music engraving software&lt;/a&gt;
+        that was unrealistic for me to make on my own.
+        In that spirit, here’s the core idea I have for the hamster game.
+        Perhaps I will come back to it, or perhaps writing it down will scratch the itch.
+      &lt;/p&gt;&lt;p&gt;
+        The game would have some typical pet-raising mechanics, like feeding your pet and playing with it in a daily rhythm.
+        The reward for consistent interaction with your pet would be a growing collection of interconnecting pipe pieces,
+        which you could build a whole crazy hamster course out of.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/pawhut.webp" width="512" height="512"&gt;
+        &lt;figcaption&gt;
+          For example...
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        I think the hamster run would be the main meat and potatoes of the game:
+        drag-and-drop pieces to build up a course,
+        which you can watch your hamster run around and explore.
+        The hamster might have particular rule-based behaviors for how it moves through the course,
+        and by understanding its movements and building around them,
+        you can trigger special conditions or find new things.
+      &lt;/p&gt;&lt;p&gt;
+        It does sound like it’d be fun to make.
+        I might end up allocating some (limited!) time to it when I have a chance.
+      &lt;/p&gt;&lt;p&gt;
+        Are you haunted by visions of potential projects?
+        Do you follow those ghosts, or resist them?
+        Are you interested in playing the hamster game?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/hamster.html</guid></item><item><title>gome — goals pt. 4</title><link>https://ctrl-c.club/~gome/journal/goals-4.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Goals retrospective 2025&lt;/h1&gt;
       &lt;time datetime="Fri, 19 Dec 2025 11:30:00 CST"&gt;19 Dec. 2025, 11:30 PM&lt;/time&gt;
@@ -1725,55 +1804,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/cold-write.html</guid></item><item><title>gome — webjam pt. 2</title><link>https://ctrl-c.club/~gome/journal/webjam-2.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;What is the point of the Webpage Jam?&lt;/h1&gt;
-      &lt;time datetime="Tue, 29 Jul 2025 23:00:00 CDT"&gt;29 July 2025, 11:00 PM&lt;/time&gt;
-      &lt;blockquote&gt;
-        One thing I’m pondering: what’s the point of the webjam?
-        Is it to push your personal envelope and do something neat?
-        Is it to create something enjoyable for other people?
-        (Of course, it could be any/both/neither for different people.)
-        &lt;div&gt;~&lt;a href="https://ctrl-c.club/~pgadey/"&gt;pgadey&lt;/a&gt;&lt;/div&gt;
-      &lt;/blockquote&gt;&lt;p&gt;
-        ~&lt;a href="https://ctrl-c.club/~pgadey/"&gt;pgadey&lt;/a&gt; asked me to give my opinion about this question regarding the upcoming &lt;a href="../library/webjam/"&gt;Ctrl-C Webpage Jam&lt;/a&gt;,
-        so I thought I might just post my response for anyone curious to learn more about it.
-      &lt;/p&gt;&lt;p&gt;
-        I wrote up some similar thoughts in the journal when I first launched the Jam two years ago:
-      &lt;/p&gt;&lt;a class="journal-link" href="webjam.html"&gt;
-        &lt;h3&gt;I’m putting on a Jam&lt;/h3&gt;
-        &lt;div class="line stop-1"&gt;&lt;/div&gt;
-        &lt;time datetime="Thu, 6 Jul 2023 22:30:00 CDT"&gt;6 July 2023, 10:30 PM&lt;/time&gt;
-        &lt;p&gt;To encourage the web I want to see&lt;/p&gt;
-      &lt;/a&gt;&lt;p&gt;
-        but I think it’s worth revisiting with a fresh post.
-      &lt;/p&gt;&lt;p&gt;
-        I won’t repeat the basic details of the Jam here; for that, visit this page:
-      &lt;/p&gt;&lt;a class="library-link" href="../library/webjam"&gt;
-        &lt;svg width="24" height="24" class="icon stop-0"&gt;&lt;/svg&gt;
-        &lt;h3&gt;Ctrl-C Webpage Jam&lt;/h3&gt;
-        &lt;p&gt;Event open to Ctrl-C members&lt;/p&gt;
-      &lt;/a&gt;&lt;p&gt;
-        Alright, so what, in my eyes, is the point of the Webpage Jam?
-      &lt;/p&gt;
-      &lt;img src="img/berhthun.webp" width="366" height="366" class="no-border" alt="An animation of a beardless wizard typing at a computer"&gt;
-      &lt;p&gt;
-        If you participate in the Webpage Jam, what I would like for you is that you come away with something you are proud of.
-        Something you can show off to friends, or link to from your homepage,
-        or revisit from time to time to say, “wow, I’m glad I made that”.
-      &lt;/p&gt;&lt;p&gt;
-        I don’t want anyone to feel like it’s an assignment or a burden,
-        or that they have to be done with their chosen project in ten days for it to be a legitimate participation.
-        It’s nothing more than a gentle nudge from me, asking you to create something you and I might both enjoy checking out on the web.
-      &lt;/p&gt;&lt;p&gt;
-        Another framing might be: if you found it on someone else’s site,
-        would you want to bookmark the page?
-        Though that might depend on your bookmarking habits. I am admittedly a pretty &lt;a href="notes-2.html"&gt;heavy bookmarker&lt;/a&gt; myself, so the threshold for what I will bookmark is basically whether I could imagine myself ever wanting to come back to the page.
-      &lt;/p&gt;&lt;p&gt;
-        So, to more directly address ~pgadey’s questions: the point of the Webpage Jam is to make something you’re proud of. If you won’t be proud of it unless you push your personal envelope, then you gotta do that. It doesn’t have to be enjoyable for other people as long as you yourself like it, but I would selfishly ask that you consider making something that I, ~gome, might also enjoy, since I started this Webpage Jam for my own entertainment. And yes, the point may be different for different people. Feel free to disregard everything I’ve written here and just do what you want with the Webpage Jam. Just make a webpage. Happy jamming!
-      &lt;/p&gt;&lt;p&gt;
-        If you are a member of &lt;a href="https://ctrl-c.club/"&gt;Ctrl-C&lt;/a&gt;, please consider joining the &lt;a href="../library/webjam/"&gt;Webpage Jam&lt;/a&gt;. As always, you can let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/webjam-2.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/cold-write.html</guid></item></channel></rss>
