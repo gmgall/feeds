@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 28 Dec 2025 01:22:46 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Sun, 28 Dec 2025 06:24:39 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -1428,7 +1428,7 @@
         at the expense of being a more well-rounded person.
       &lt;/p&gt;&lt;p&gt;
         But even if I try to restrain myself, ideas for new projects haunt me.
-        They float around my head poping out from behind corners in my mind,
+        They float around my head popping out from behind corners in my mind,
         with the promise of actualizing some aesthetic vision I’ve had lying around, ill-defined, in my head for a long time.
       &lt;/p&gt;&lt;p&gt;
         The latest ghost haunting my mind is an idea for a hamster-keeping game.
@@ -1473,7 +1473,7 @@
       &lt;p&gt;
         I think the hamster run would be the main meat and potatoes of the game:
         drag-and-drop pieces to build up a course,
-        which you can watch your hamster run around and explore.
+        which you can watch your hamster run around and explore.*
         The hamster might have particular rule-based behaviors for how it moves through the course,
         and by understanding its movements and building around them,
         you can trigger special conditions or find new things.
@@ -1485,6 +1485,11 @@
         Do you follow those ghosts, or resist them?
         Are you interested in playing the hamster game?
         Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;&lt;p class="footnote"&gt;
+        * I would be remiss if I didn’t mention a suggestion I got from my father:
+        if you don’t ensure the entire course is sealed, your hamster can escape.
+        Later, it might come back as a feral hamster and cause you trouble.
+        The feral hamsters wear leather jackets and ride motorcycles.
       &lt;/p&gt;
     &lt;/article&gt;
   
@@ -1704,7 +1709,7 @@
       &lt;p&gt;
         When I &lt;a href="gomepage.html"&gt;started building gomepage&lt;/a&gt;, I had only the front page.
         Despite not having any content, I added &lt;a href="unfinished.html"&gt;stub pages&lt;/a&gt; for sections of the site I knew I wanted to add.
-        Each of these served as a persistent prompt to me to eventually add that section of site.
+        Each of these served as a persistent prompt to me to eventually add that section of the site.
         There’s no shame in having unfinished parts of your personal site (it’s a work in progress!),
         but I knew I would be embarassed to have those stubs up forever.
         It was a way of pushing my future self to follow through.
@@ -1732,7 +1737,7 @@
         Keep in mind that with hyperlinks, multiple structures can coexist alongside one another.
         For example, my journal has three indices:
       &lt;/p&gt;&lt;ol&gt;
-        &lt;li&gt;the &lt;a href="index.html"&gt;default index&lt;/a&gt;, which show the most recent posts and links to the other indices,&lt;/li&gt;
+        &lt;li&gt;the &lt;a href="index.html"&gt;default index&lt;/a&gt;, which shows the most recent posts and links to the other indices,&lt;/li&gt;
         &lt;li&gt;the &lt;a href="topical-index.html"&gt;topical index&lt;/a&gt;, which organizes posts by category along with little bits of commentary,&lt;/li&gt;
         &lt;li&gt;the &lt;a href="chronological-index.html"&gt;chronological index&lt;/a&gt;, which shows all posts from oldest to newest, with links to jump to a specific month or year.&lt;/li&gt;
       &lt;/ol&gt;&lt;p&gt;
