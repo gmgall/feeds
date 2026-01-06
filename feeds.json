@@ -12,9 +12,9 @@
     "feed": "https://gmgall.github.io/feeds/Triz3n.xml"
   },
   {
-    "title": "ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml",
     "link": "https://www.aconteceempetropolis.com.br/",
-    "description": "ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/acontece_em_petropolis.xml"
   },
   {
@@ -36,9 +36,9 @@
     "feed": "https://gmgall.github.io/feeds/beehiveth.xml"
   },
   {
-    "title": "Notícias — Câmara Municipal de Petrópolis",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id=\"content-core\"] --date-from-csss span[class=\"documentPublished\"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml",
     "link": "https://www.petropolis.rj.leg.br/institucional/noticias",
-    "description": "Banco de notícias",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/camara-petropolis-rj.xml"
   },
   {
@@ -48,9 +48,9 @@
     "feed": "https://gmgall.github.io/feeds/captaindrewboy.xml"
   },
   {
-    "title": "Carlos André Moreira em Sler",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https://sler.com.br/.*/ -i .+/colunistas/.* -i .+/colunas/.* -i .+/artigos/.* -i .+/trilhas/.* -i .+/category/.* --follow https://sler.com.br/colunistas/carlos-andre-moreira/ --with-body --body-csss div[itemprop=\"articleBody\"] --body-remove-csss div[class=\"heateor_ffc_facebook_comments\"] -T Carlos André Moreira em Sler --title-regex (.+) - Sler --author-from-csss span[class*=\"meta-author\"] > a -n 15 -o ./feeds/carlos-andre-moreira-sler.xml",
     "link": "https://sler.com.br/colunistas/carlos-andre-moreira/",
-    "description": "Carlos André Moreira é natural de São Gabriel (RS). Jornalista e escritor, é formado em Comunicação Social (UFRGS) e mestre em Literatura Portuguesa (UFRGS). Atua desde 2002 como crítico literário. É autor do romance",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/carlos-andre-moreira-sler.xml"
   },
   {
@@ -84,9 +84,9 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
+    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
+    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
