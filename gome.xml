@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 16 Jan 2026 01:16:53 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 16 Jan 2026 06:27:56 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -340,6 +340,7 @@
         &lt;li&gt;&lt;a href="steam.html" class="post-link"&gt;Losing steam&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="busy.html" class="post-link"&gt;Busy week for me&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="cold-write.html" class="post-link"&gt;When it’s cold, I write!&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="bus.html" class="post-link"&gt;Letters from the bus&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="activities"&gt;
@@ -435,6 +436,10 @@
         &lt;a href="#2025-may"&gt;May&lt;/a&gt;
         &lt;a href="#2025-jul"&gt;July&lt;/a&gt;
         &lt;a href="#2025-dec"&gt;December&lt;/a&gt;
+      &lt;/div&gt;
+      &lt;a href="#2026"&gt;2026&lt;/a&gt;
+      &lt;div class="link-sublist"&gt;
+        &lt;a href="#2026-jan"&gt;January&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1412,11 +1417,54 @@
       &lt;time datetime="Mon, 22 Dec 2025 11:30:00 CST"&gt;22 Dec. 2025, 11:30 AM&lt;/time&gt;
       &lt;p&gt;The colorful tunnels call to me&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h2 id="2026"&gt;2026&lt;/h2&gt;
+    &lt;h3 id="2026-jan"&gt;January 2026&lt;/h3&gt;
+    &lt;a class="journal-link" href="bus.html"&gt;
+      &lt;h3&gt;Letters from the bus&lt;/h3&gt;
+      &lt;div class="line stop-2"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 15 Jan 2025 19:30:00 CST"&gt;15 Jan. 2026, 7:30 PM&lt;/time&gt;
+      &lt;p&gt;An evolution in gomeposting&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — hamster</title><link>https://ctrl-c.club/~gome/journal/hamster.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — bus</title><link>https://ctrl-c.club/~gome/journal/bus.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Letters from the bus&lt;/h1&gt;
+      &lt;time datetime="Thu, 15 Jan 2025 19:30:00 CST"&gt;15 Jan. 2026, 7:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        I recently started a new job, and I am taking the bus to work most days during the week.
+        I’m still getting used to the new routine.
+        One thing I’ve been pondering is whether I can still fit post writing into my current lifestyle.
+        Before starting this job, I was experimenting with writing posts first thing in the morning, which worked well for me.
+        But if I were to do that now, I’d have to be waking up really early.
+      &lt;/p&gt;&lt;p&gt;
+        Today I’m trying a completely new approach: writing on the bus right on my phone.
+        Since I &lt;a href="update.html"&gt;hand-edit my HTML&lt;/a&gt;, I will need to do some of the process manually when I get home after work,
+        like adding links and images and updating my indexes.
+        And obviously typing on a phone is nowhere near as pleasant as ripping on my beloved clacky keyboard.
+        And I sometimes get bus sick if I don't look out the window enough...
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/bus.webp" width="512" height="341" alt="An abandoned bus in the Atacama desert outside of the oasis town of San Pedro de Atacama"&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Abandoned_bus_in_San_Pedro_de_Atacama_(Unsplash).jpg#Licensing"&gt;Pablo Garcia Saldaña&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        Nonetheless, today’s post is kind of a test run, and it seems to be working alright so far.
+        The key thing is whether I can think through what I want to say and get the words down, and that all seems possible on the bus.
+        I do wonder if it will affect how polished the writing is, but my writing’s never that polished in the first place, so who cares!
+      &lt;/p&gt;&lt;p&gt;
+        I don’t know if it will be easy to keep up as a habit,
+        but I’m glad I came up with a way to write posts that might work for me where I’m at.
+      &lt;/p&gt;&lt;p&gt;
+        Have you ever come up with a creative way to keep a habit going despite life changes?
+        Do you have a favorite place to write?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/bus.html</guid></item><item><title>gome — hamster</title><link>https://ctrl-c.club/~gome/journal/hamster.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;The ghost of hamster game haunts me&lt;/h1&gt;
       &lt;time datetime="Mon, 22 Dec 2025 11:30:00 CST"&gt;22 Dec. 2025, 11:30 AM&lt;/time&gt;
@@ -1754,59 +1802,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/architecture.html</guid></item><item><title>gome — cold write</title><link>https://ctrl-c.club/~gome/journal/cold-write.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;When it’s cold, I write!&lt;/h1&gt;
-      &lt;time datetime="Mon, 8 Dec 2025 10:00:00 CST"&gt;8 Dec. 2025, 10:00 AM&lt;/time&gt;
-      &lt;p&gt;
-        Hello, it’s gome, back for what is hopefully another good solid run of daily posting.
-        I received a nice message recently that made me remember I wanted to get back in the habit,
-        so thanks for that (you know who you are)!
-        And I’ll use this as a reminder that I really do like to receive email from people who see the site.
-        I almost always reply, unless your mail provider doesn’t allow delivery of mail from the ctrl-c.club domain.
-      &lt;/p&gt;&lt;p&gt;
-        It seems I tend to do the most writing on gomepage when the winter comes around.
-        The &lt;a href="challenge.html"&gt;100-day challenge&lt;/a&gt; went over the winter,
-        and last year when I had some free time around Christmas and New Year’s,
-        I brought the habit back again for about a month.
-      &lt;/p&gt;&lt;p&gt;
-        Well, today my thermostat went out and I woke up to sub 60°F (15°C) temperatures in my house.
-        So, what better time to start my cold-posting spell than right now!
-        No wonder so many of my posts are about &lt;a href="topical-index.html#winter"&gt;winter&lt;/a&gt;.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/ice-flower.webp" width="512" height="341" alt="Photo of a tidal ice formation, backlit by orange sunset light."&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Tide_ice_formations_in_Brofjorden_at_Sandvik_5.jpg#Licensing"&gt;W.carter&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        This year, rather than writing, I spent a lot of my gomepage time working on two games.*
-        One was &lt;a href="unreleased.html"&gt;Server Pets&lt;/a&gt;, which &lt;a href="burnout.html"&gt;broke my heart&lt;/a&gt; and which I haven’t been able to return to yet.
-        The other was more successful: a &lt;a href="../library/block-game/"&gt;Panel de Pon inspired game&lt;/a&gt; which I released as part of the &lt;a href="../library/webjam/2025.html"&gt;Webpage Jam&lt;/a&gt; this year.
-      &lt;/p&gt;&lt;p&gt;
-        I didn’t write the whole game just over the course of the jam:
-        I had been working on a version of the game written in Lua (using the &lt;a href="https://www.love2d.org/"&gt;LÖVE&lt;/a&gt; framework) with my brother since the beginning of the year,
-        so pretty much all the core representation and logic was in place already.
-        The webpage jam project was more of a matter of porting the code to Javascript using &lt;a href="https://pixijs.com/"&gt;Pixi&lt;/a&gt;,
-        which was actually a lot easier than I expected, and then building a webpage around it.
-      &lt;/p&gt;&lt;p&gt;
-        I’m glad I worked on that this year; it’s my first time actually putting out a completed game project for people to play.
-        And thanks to everyone who’s tried it and given me nice feedback about it!
-      &lt;/p&gt;&lt;p&gt;
-        But now it’s time to write for a while again.
-        I love going back through my posts and remembering what I’ve thought about,
-        in a much more concrete way than vague memories usually afford.
-        The older they get, the more precious my old posts feel to me.
-        It makes me want to have a slightly bigger pile of these little gems waiting for me to peruse next year.
-      &lt;/p&gt;&lt;p&gt;
-        Do you have a writing habit you want to get back into?
-        Do you have another habit you want to get back into?
-        Is it getting really cold where you live?
-        Have you published something you’re proud of this year?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;&lt;p class="footnote"&gt;
-        * Honorable mention to the writing I did on &lt;a href="../library/songbook/"&gt;songbook&lt;/a&gt;, a mini-blog I added to practice writing about music I like.
-        It’s been sporadic, and I’d like to do more of it, but I’m happy with the number of posts I have on there for now.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/cold-write.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/architecture.html</guid></item></channel></rss>
