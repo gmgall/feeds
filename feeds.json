@@ -48,9 +48,9 @@
     "feed": "https://gmgall.github.io/feeds/captaindrewboy.xml"
   },
   {
-    "title": "Carlos André Moreira em Sler",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https://sler.com.br/.*/ -i .+/colunistas/.* -i .+/colunas/.* -i .+/artigos/.* -i .+/trilhas/.* -i .+/category/.* --follow https://sler.com.br/colunistas/carlos-andre-moreira/ --with-body --body-csss div[itemprop=\"articleBody\"] --body-remove-csss div[class=\"heateor_ffc_facebook_comments\"] -T Carlos André Moreira em Sler --title-regex (.+) - Sler --author-from-csss span[class*=\"meta-author\"] > a -n 15 -o ./feeds/carlos-andre-moreira-sler.xml",
     "link": "https://sler.com.br/colunistas/carlos-andre-moreira/",
-    "description": "Carlos André Moreira é natural de São Gabriel (RS). Jornalista e escritor, é formado em Comunicação Social (UFRGS) e mestre em Literatura Portuguesa (UFRGS). Atua desde 2002 como crítico literário. É autor do romance",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/carlos-andre-moreira-sler.xml"
   },
   {
@@ -84,9 +84,9 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
+    "title": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
+    "description": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
