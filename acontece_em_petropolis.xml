@@ -1,13 +1,661 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml</title><link>https://www.aconteceempetropolis.com.br/</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 18 Feb 2026 01:45:54 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/[0-9]{4}/[0-9]{2}/[0-9]{2}/.+ --follow --http-timeout 20 --with-body --body-csss .entry-content.entry.clearfix --title-regex (.+) · AeP https://www.aconteceempetropolis.com.br/ -o ./feeds/acontece_em_petropolis.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial</title><link>https://www.aconteceempetropolis.com.br/</link><description>ACONTECE EM PETRÓPOLIS – O seu site de notícias da Cidade Imperial</description><language>pt-BR</language><lastBuildDate>Wed, 18 Feb 2026 06:56:04 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>IV Jornada da Virada Climática abre programação com atividade gratuita na próxima semana – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/18/iv-jornada-da-virada-climatica-abre-programacao-com-atividade-gratuita-na-proxima-semana/</link><description>&lt;div class="entry-content entry clearfix"&gt;
 
-&lt;/pre&gt;</description></item></channel></rss>
+			
+			&lt;p&gt;No próxima semana tem início a 4ª edição da Jornada da Virada Climática da UNIFASE/FMP, com o tema “Cuidar, Cooperar e Transformar: o caminho para uma transição justa e regenerativa”.&lt;/p&gt;
+&lt;p&gt;A programação de abertura, que ocorre no dia 23 de fevereiro, contará com um Cine Debate, com a exibição do curta-metragem “Ilha das Flores”. A atividade acontece das 14h às 17h, na Sala Arthur de Sá Earp Neto, no campus Barão, localizado na Avenida Barão do Rio Branco, nº 1.003. O evento é aberto ao público e tem entrada gratuita, sendo necessária apenas inscrição prévia pelo site: &lt;a href="https://www.unifase-rj.edu.br/evento-de-extensao/iv-jornada-da-virada-climatica"&gt;https://www.unifase-rj.&lt;wbr&gt;&lt;/wbr&gt;edu.br/evento-de-extensao/iv-&lt;wbr&gt;&lt;/wbr&gt;jornada-da-virada-climatica&lt;/a&gt;. O cine debate será conduzido pelos organizadores do evento, professor Ricardo Tammela, coordenador de Extensão da UNIFASE/FMP e o médico Paulo Sá, professor de Saúde Planetária e Cultura Regenerativa nos cursos de Medicina e Psicologia da UNIFASE/FMP.&lt;/p&gt;
+&lt;p&gt;Criada a partir do compromisso da UNIFASE/FMP com Petrópolis e da necessidade de refletir sobre os impactos das mudanças climáticas, intensificados após as tragédias ocorridas em fevereiro e março de 2022, a Jornada se consolidou como um espaço de escuta, mobilização e construção coletiva de respostas, sendo reconhecido pelo &lt;a href="https://aconteceempetropolis.com.br/2026/01/11/unifase-fmp-vai-receber-o-selo-ods-educacao/"&gt;Selo ODS Educação 2025&lt;/a&gt;. Entre as iniciativas vinculadas ao evento está o projeto de extensão &lt;a href="https://aconteceempetropolis.com.br/2025/11/30/projeto-comunidade-cuida-da-vida-da-unifase-fmp-e-premiado-no-premio-jovem-cientista-2025/"&gt;“Comunidade que Cuida da Vida”, que recentemente ganhou o Prêmio Jovem Cientista 2025&lt;/a&gt;, na categoria Ensino Superior.&lt;/p&gt;
+&lt;p&gt;“O Selo ODS Educação reforça que a Jornada da Virada Climática é fruto de um trabalho coletivo e integrado, que articula ensino, pesquisa e extensão a partir das demandas reais dos territórios. É um evento conectado às questões sociais e ambientais do nosso tempo, que promove aprendizado mútuo, amplia o diálogo com a sociedade e gera impacto concreto na vida das pessoas”, destaca Ricardo Tammela.&lt;/p&gt;
+&lt;p&gt;O evento do dia 23 de março busca reunir uma ampla diversidade de ações, como conferências, rodas de conversa, oficinas, painéis, exibições, performances, práticas sensoriais, intervenções urbanas, feiras, experiências imersivas e atividades em territórios, com foco na construção de soluções colaborativas, criativas e regenerativas para os desafios climáticos contemporâneos.&lt;/p&gt;
+&lt;p&gt;“Podemos escolher continuar à deriva, baixando os olhos para o sofrimento e se submetendo a uma ordem de desunião e destruição, ou arregaçar as mangas e vir para o debate em busca de soluções reais para o enfrentamento do problema”, comenta Paulo Sá.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Local: Sala Arthur de Sá Earp Neto – UNIFASE/FMP (Campus Barão)&lt;/p&gt;
+&lt;p&gt;Data: 23 de fevereiro de 2026&lt;/p&gt;
+&lt;p&gt;Horário: 14h às 17h&lt;/p&gt;
+&lt;p&gt;Programação completa e inscrições: &lt;a href="https://www.unifase-rj.edu.br/evento-de-extensao/iv-jornada-da-virada-climatica"&gt;https://www.unifase-rj.edu.br/evento-de-extensao/iv-jornada-da-virada-climatica&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/jornada-da-virada-climatica/" rel="tag"&gt;Jornada da Virada Climática&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/unifase-fmp/" rel="tag"&gt;UNIFASE/FMP&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/18/iv-jornada-da-virada-climatica-abre-programacao-com-atividade-gratuita-na-proxima-semana/</guid></item><item><title>Teatro Imperial celebra o Dia Internacional da Mulher com show em homenagem a grandes divas – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/18/teatro-imperial-celebra-o-dia-internacional-da-mulher-com-show-em-homenagem-a-grandes-divas/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Em março, o Dia Internacional da Mulher (08/03) será celebrado no Teatro Imperial com o show “Camilla Marotti canta Divas”, às 19h.&lt;/p&gt;
+&lt;p&gt;A apresentação propõe uma verdadeira viagem musical por meio de um repertório cuidadosamente selecionado, que perpassa pelo jazz, homenageando nomes como Etta James e Nina Simone, pelo pop/soul de Alicia Keys, e pelo pop rock eternizado em vozes como a de Tina Turner. O espetáculo também celebra clássicos brasileiros, da MPB ao samba, enaltecendo artistas como Marisa Monte e Alcione.&lt;/p&gt;
+&lt;p&gt;“O show homenageia grandes divas nacionais e internacionais, vozes femininas que marcaram época e ajudaram a construir a história da música. A ideia é celebrar a força, a sensibilidade e a representatividade das mulheres na arte”, destaca a cantora petropolitana.&lt;/p&gt;
+&lt;p&gt;Camilla Marotti ganhou projeção nacional ao participar do The Voice Brasil 2019, chegando às quartas de final nos times de Lulu Santos e Ivete Sangalo. Sua trajetória inclui atuações em produções de teatro musical, além de projetos que transitam entre o jazz, soul, R&amp;amp;B e a música popular brasileira. Com carreira autoral em expansão, Camilla se consolida como uma artista completa, versátil e conectada com seu tempo.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Local: Rua&lt;span class="LrzXr"&gt; General Osório, 192 – Centro&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Data: 8 de março de 2026 (domingo)&lt;/p&gt;
+&lt;p&gt;Horário: 19h&lt;/p&gt;
+&lt;p&gt;Classificação: livre&lt;/p&gt;
+&lt;p&gt;Ingressos: R$ 30,00 – R$ 80,00&lt;/p&gt;
+&lt;p&gt;Venda: &lt;a href="https://ingressodigital.com/evento/19740/camilla-marotti-canta-divas"&gt;https://ingressodigital.com/evento/19740/camilla-marotti-canta-divas&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/camilla-marotti/" rel="tag"&gt;Camilla Marotti&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/teatro-imperial/" rel="tag"&gt;teatro imperial&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/18/teatro-imperial-celebra-o-dia-internacional-da-mulher-com-show-em-homenagem-a-grandes-divas/</guid></item><item><title>Escola do Trabalhador 4.0 oferece cursos gratuitos em tecnologia e Inteligência Artificial – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/18/escola-do-trabalhador-4-0-oferece-cursos-gratuitos-em-tecnologia-e-inteligencia-artificial/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;&lt;em&gt;Fonte: Agência Brasil e Escola do Trabalhador&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;A Escola do Trabalhador 4.0, iniciativa do Ministério do Trabalho e Emprego (MTE) em parceria com a Microsoft, ampliou a oferta de cursos gratuitos nas áreas de tecnologia, inteligência artificial, produtividade e competências digitais.&lt;/p&gt;
+&lt;p&gt;Para participar, basta realizar o cadastro na plataforma (&lt;a href="https://ead.escoladotrabalhador40.com.br/"&gt;ead.escoladotrabalhador40.com.br&lt;/a&gt;) e se matricular em algum dos cursos de interesse.&lt;/p&gt;
+&lt;p&gt;A Escola do Trabalhador 4.0 faz parte do programa Caminho Digital, do MTE e foi criada para preparar os trabalhadores brasileiros para os desafios da Economia 4.0, ampliando oportunidades de qualificação e empregabilidade. O programa conta com 39 trilhas educacionais e 190 cursos gratuitos, com certificação, divididos em 9 categorias temáticas. Os cursos oferecem aos participantes a autonomia para finalizá-los no seu próprio ritmo, sem prazos estabelecidos para conclusão.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/cursos-gratuitos/" rel="tag"&gt;cursos gratuitos&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/18/escola-do-trabalhador-4-0-oferece-cursos-gratuitos-em-tecnologia-e-inteligencia-artificial/</guid></item><item><title>Grupo Tá na Mente se apresenta em Petrópolis nesta terça-feira – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/17/grupo-ta-na-mente-se-apresenta-em-petropolis-nesta-terca-feira/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Encerrando a programação da Folia Imperial, o Tá na Mente se apresenta na Deguste, na Praça Visconde de Mauá, nesta terça-feira (17), às 21h. Com mais de 20 anos de trajetória, o grupo é referência com sucessos como “Fica”, “Dorme com Deus” e “Displicente”.&lt;/p&gt;
+&lt;p&gt;O &lt;a href="https://aconteceempetropolis.com.br/2026/02/14/tribo-de-gonzaga-promove-o-tradicional-carnaval-da-liberdade-a-partir-deste-domingo/"&gt;&lt;strong&gt;Carnaval da Liberdade&lt;/strong&gt;&lt;/a&gt;, na Praça da Liberdade, e o &lt;a href="https://aconteceempetropolis.com.br/2026/02/14/taruira-anima-o-carnaval-do-vilarejo-a-partir-deste-domingo/"&gt;&lt;strong&gt;Carnaval do Taruíra&lt;/strong&gt;&lt;/a&gt;, no Shopping Vilarejo, em Itaipava, também chegam ao fim nesta terça.&lt;/p&gt;
+&lt;p&gt;A programação que encerra o Carnaval ainda tem várias atrações no Palácio de Cristal e na Desguste, além dos blocos Secos e Molhados (Correas), Bloco do Jairo (Meio da Serra), Unidos do Oswaldo Cruz (Valparaíso), Vai dar M (Centro) e Bloco do Caolho (concentração no Casarão Odin)em Nogueira, a diversão tem lugar marcado na Praça do bairro.&lt;/p&gt;
+&lt;p&gt;Confira a programação completa do Folia Imperial nesta terça-feira (17):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Palácio de Cristal&lt;/strong&gt;&lt;br&gt;
+Horário: 13h às 23h&lt;br&gt;
+Atrações: Recreação (13h) / Bloco Vai dar M (18h) / Bloco do Tim (20h)&lt;br&gt;
+Local: Centro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deguste&lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 23h&lt;br&gt;
+Atrações: Baile do Zen (15h) / Mayara Ferreira 20h) / Tá na Mente (21h)&lt;br&gt;
+Local: Praça da Águia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco do Caolho&lt;/strong&gt;&lt;br&gt;
+Horário: 10h30 às 16h&lt;br&gt;
+Local: Casarão Odin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco Secos e Molhados&lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 22h&lt;br&gt;
+Local: Praça de Corrêas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco do Jairo&lt;/strong&gt;&lt;br&gt;
+Horário: 18h às 23h&lt;br&gt;
+Local: Meio da Serra (Vila do Correio)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Carnaval de Nogueira&lt;/strong&gt;&lt;br&gt;
+Horário: 14h às 23h&lt;br&gt;
+Local: Praça de Nogueira&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco Vai dar M&lt;/strong&gt;&lt;br&gt;
+Horário: 16h&lt;br&gt;
+Local: Centro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unidos do Oswaldo Cruz&lt;/strong&gt;&lt;br&gt;
+Horário: 16h às 23h&lt;br&gt;
+Local: Valparaíso&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/deguste/" rel="tag"&gt;Deguste&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/folia-imperial/" rel="tag"&gt;Folia Imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/17/grupo-ta-na-mente-se-apresenta-em-petropolis-nesta-terca-feira/</guid></item><item><title>Novas regras de segurança do Pix já estão em vigor; veja as mudanças – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/17/novas-regras-de-seguranca-do-pix-ja-estao-em-vigor-veja-mudancas/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;&lt;strong&gt;Fonte: Agência Brasil&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Já estão em vigor as novas regras de segurança do Pix definidas pelo Banco Central (BC), com foco na recuperação mais rápida dos valores transferidos de forma indevida.&lt;img src="https://agenciabrasil.ebc.com.br/ebc.png?id=1676799&amp;amp;o=node"&gt;&lt;img src="https://agenciabrasil.ebc.com.br/ebc.gif?id=1676799&amp;amp;o=node"&gt; Foram reforçados mecanismos de combate a golpes, fraudes e casos de coerção. A principal novidade é a atualização do Mecanismo Especial de Devolução (MED), que passa a permitir o acompanhamento mais eficiente do caminho do dinheiro.&lt;/p&gt;
+&lt;p&gt;Os recursos serão rastreados, mesmo quando são rapidamente transferidos para outras contas, prática comum em crimes financeiros.&lt;/p&gt;
+&lt;p&gt;Com o novo modelo, a expectativa do Banco Central é aumentar significativamente a taxa de recuperação dos valores e reduzir o sucesso das fraudes. Especialistas estimam que as mudanças podem diminuir em até 40% os golpes considerados bem-sucedidos.&lt;/p&gt;
+&lt;p&gt;Outra frente importante é o reforço da integração entre bancos, instituições de pagamento e órgãos de segurança, além da ampliação do uso do autoatendimento nos aplicativos, o que torna a contestação mais simples e rápida para o usuário.&lt;/p&gt;
+&lt;p&gt;O BC esclarece que o MED só deve ser acionado em caso de fraude, suspeita de fraude ou erro operacional das instituições financeiras. &lt;span&gt;A ferramenta não pode ser usada no caso de Pix a destinatários errados digitados pelo usuário.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Em outubro, o Banco Central havia determinado que todas as instituições financeiras oferecessem o MED por meio de um botão de contestação em seus aplicativos. A medida preparou o sistema para a adoção das novas regras.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que muda com as novas regras do Pix&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;MED passa a ser obrigatório&lt;/strong&gt;: todos os bancos e instituições de pagamento que operam o Pix devem adotar a versão 2.0 do Mecanismo Especial de Devolução.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rastreamento do dinheiro entre contas&lt;/strong&gt;: a devolução não fica mais restrita à conta que recebeu inicialmente o valor. O sistema passa a rastrear transferências para contas intermediárias.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloqueio automático de contas suspeitas:&lt;/strong&gt; contas com denúncia de fraude podem ser bloqueadas de forma imediata, antes mesmo da conclusão da análise.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Prazo menor para devolução:&lt;/strong&gt; o Banco Central estima que os valores possam ser recuperados em até 11 dias após a contestação, prazo mais curto do que o praticado anteriormente.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Compartilhamento de informações entre instituições: &lt;/strong&gt;bancos passam a trocar dados sobre o caminho do dinheiro, o que facilita o bloqueio e a restituição dos recursos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Autoatendimento para contestação:&lt;/strong&gt; A vítima pode solicitar a devolução diretamente pelo aplicativo do banco, sem necessidade de contato humano.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O que o correntista deve fazer em caso de golpe:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;O cliente deve contestar a transação o quanto antes pelos canais oficiais do banco;&lt;/li&gt;
+&lt;li&gt;a instituição de origem comunica a instituição recebedora em até 30 minutos;&lt;/li&gt;
+&lt;li&gt;Os recursos são bloqueados na conta do suspeito;&lt;/li&gt;
+&lt;li&gt;As instituições analisam o caso;&lt;/li&gt;
+&lt;li&gt;Se confirmada a fraude, o valor é devolvido;&lt;/li&gt;
+&lt;li&gt;Se não houver indícios, o dinheiro é liberado ao recebedor.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Criado em 2021, o MED é um dos principais pilares de segurança do Pix. Com as novas regras, o Banco Central espera desestimular o uso recorrente de contas para crimes financeiros e ampliar a proteção dos usuários do sistema de pagamentos instantâneos.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Leia também:&lt;/em&gt; &lt;a href="https://aconteceempetropolis.com.br/2026/02/16/ferramenta-do-governo-possibilita-autoexclusao-de-contas-em-sites-de-apostas/"&gt;Ferramenta do governo possibilita autoexclusão de contas em sites de apostas&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/pix/" rel="tag"&gt;PIX&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/17/novas-regras-de-seguranca-do-pix-ja-estao-em-vigor-veja-mudancas/</guid></item><item><title>DigiTech da Firjan SENAI abre vagas gratuitas em curso on-line de Inteligência Artificial Industrial – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/17/digitech-da-firjan-senai-abre-vagas-gratuitas-em-curso-on-line-de-inteligencia-artificial-industrial/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Considerada pelo Governo Federal como uma questão de soberania nacional, a Inteligência Artificial será alvo dos estudos do primeiro curso gratuito, 100% on-line e aberto ao público com certificação do recém-inaugurado Centro de Referência em Tecnologia da Informação e Comunicação (DigiTech) da Firjan SENAI. São 500 vagas gratuitas para pessoas em situação de baixa renda, e as inscrições estão abertas até 27 de fevereiro &lt;a href="https://www.firjansenai.com.br/editaisgratuitos"&gt;exclusivamente neste link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;O curso de “Qualificação Básica em Inteligência Artificial Industrial” é dedicado a alunos que queiram aprender a desenvolver soluções de Inteligência Artificial aplicadas ao ambiente industrial, com ênfase em análise de dados e visão computacional. Com duração de quatro meses, as aulas começam em 9 de março e serão divididas em cinco módulos: “Fundamentos de Python para IA”, “Data Science”, “Machine Learning”, “Visão Computacional” e “Projeto Integrador”.&lt;/p&gt;
+&lt;p&gt;Neles, os alunos aprenderão, respectivamente, a criar programas capazes de automatizar tarefas e desenvolver soluções; coletar, limpar, organizar e visualizar dados que identifiquem problemas, melhorem processos e reduzam desperdícios; criar sistemas que aprendam com os dados, desenvolvendo modelos capazes de prever falhas em máquinas e detectar padrões anormais, por exemplo; e ensinar o computador a “enxergar” imagens e vídeos, substituindo inspeções manuais. Ao final do curso, os alunos deverão desenvolver uma solução de IA aplicada à Indústria.&lt;/p&gt;
+&lt;p&gt;Segundo a Universidade de Stanford, nos EUA, o uso da IA nas organizações registrou um salto de 55% entre 2023 e 2024. Outros estudos estimam que até o ano que vem, 69 milhões de novos postos de trabalho serão criados, e 83 milhões poderão ser realocados ou substituídos – num mercado que deve crescer 21% em quatro anos. Este crescimento é impulsionado pela expansão do uso de IA em contextos industriais, com destaque para ciência de dados e visão computacional, tecnologias que sustentam sistemas de inspeção automatizada, manutenção preditiva e controle de qualidade por imagem – justamente áreas abordadas no curso do DigiTech.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Inscrições&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;As vagas são voltadas para pessoas com renda familiar mensal per capita bruta de até 1,5 salário-mínimo federal, comprovada por meio de uma autodeclaração. Os pré-requisitos mínimos incluem ainda idade a partir dos 16 anos; estar cursando Ensino Médio; acesso a computador e à Internet; e ter conhecimento básico de lógica de programação – e para isso há um &lt;a href="https://www.futuro.digital/dn-logica-de-programacao-ini017-118-14h-85/p"&gt;curso gratuito on-line de “Lógica de Programação”, disponível na plataforma de ensino do SENAI Futuro Digital&lt;/a&gt;. As vagas serão encerradas quando o número de matriculados para o programa atingir o número de vagas previstas.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rio: Capital da Inteligência Artificial&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O curso faz parte do Programa IA Industrial, iniciativa do Departamento Nacional do SENAI que une diagnóstico, formação e aplicação prática de IA para acelerar a transformação digital da indústria brasileira. Com foco tanto em trabalhadores quanto em empresas, o programa estrutura trilhas formativas personalizadas, adaptadas ao nível de maturidade tecnológica de cada participante. No âmbito da Firjan SENAI, o programa prevê, além do curso de IA com certificado do DigiTech, imersões de empresas sobre como usar a IA em seus negócios.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/firjan-senai/" rel="tag"&gt;firjan senai&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/inteligencia-artificial/" rel="tag"&gt;inteligência artificial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/17/digitech-da-firjan-senai-abre-vagas-gratuitas-em-curso-on-line-de-inteligencia-artificial-industrial/</guid></item><item><title>Ferramenta do governo possibilita autoexclusão de contas em sites de apostas – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/16/ferramenta-do-governo-possibilita-autoexclusao-de-contas-em-sites-de-apostas/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;&lt;strong&gt;Fonte: Agência Brasil&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Quem quiser parar de apostar já pode bloquear, ao mesmo tempo, todas as suas contas em sites de apostas por meio da Plataforma Centralizada de Autoexclusão.&lt;img src="https://agenciabrasil.ebc.com.br/ebc.png?id=1672224&amp;amp;o=node"&gt;&lt;img src="https://agenciabrasil.ebc.com.br/ebc.gif?id=1672224&amp;amp;o=node"&gt;&lt;/p&gt;
+&lt;p&gt;O cadastro pode ser feito pelo endereço eletrônico &lt;a href="https://www.gov.br/fazenda/pt-br/composicao/orgaos/secretaria-de-premios-e-apostas/autoexclusao" target="_blank" rel="noopener"&gt;gov.br/autoexclusaoapostas&lt;/a&gt;, utilizando a conta gov.br de nível prata ou ouro, segundo o Ministério da Fazenda.&lt;/p&gt;
+&lt;p&gt;Após se cadastrar, o usuário tem todas as contas ativas bloqueadas, fica impedido de abrir novos cadastros e deixa de receber publicidade de plataformas de apostas.&lt;/p&gt;
+&lt;p&gt;O site também tem outras ferramentas de proteção da vida financeira dos apostadores, como explicou o secretário de Prêmios e Apostas do Ministério da Fazenda, Regis Dudena.&lt;/p&gt;
+&lt;p&gt;“Também neste site, os cidadãos vão encontrar informações, entender que aposta é uma mera forma de entretenimento, uma forma de gastar dinheiro, de perder dinheiro, para o entretenimento. Aposta não é uma forma de se enriquecer, não é complementação de renda ou coisas dessa natureza”.&lt;/p&gt;
+&lt;p&gt;Segundo o secretário, ainda existem testes na plataforma que ajudam a identificar a condição da pessoa em relação às apostas.&lt;/p&gt;
+&lt;p&gt;“Nós disponibilizamos tanto um teste de saúde, quanto um teste de saúde financeira. Então, também nessa plataforma, o cidadão vai poder se deixar testar, pra entender se ele já tem uma tendência de problema de saúde mental associado à atividade do jogo e se ele tem algum problema, algum indicativo de saúde financeira afetado por essa atividade”.&lt;/p&gt;
+&lt;p&gt;Para bloquear as contas, a pessoa precisa escolher por quanto tempo deseja permanecer afastada, entre 1 e 12 meses, ou optar pelo período indeterminado.&lt;/p&gt;
+&lt;p&gt;É necessário ainda apontar o motivo da solicitação, como decisão voluntária, dificuldade financeira, perda de controle ao jogar, saúde mental. No fim, é gerado um registro que confirma a autoexclusão.&lt;/p&gt;
+&lt;p&gt;A partir daí, as operadoras têm até 72 horas para fazer o bloqueio. &lt;span&gt;A ferramenta também pode ser usada por quem nunca apostou para evitar o uso indevido de dados pessoais por plataformas de apostas.&lt;/span&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/16/ferramenta-do-governo-possibilita-autoexclusao-de-contas-em-sites-de-apostas/</guid></item><item><title>Inscrições abertas para a realeza da Bauernfest 2026 – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/16/inscricoes-abertas-para-a-realeza-da-bauernfest-2026/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Estão abertas as inscrições para a realeza da Bauernfest 2026. A eleição acontece no dia 16 de março, dia do aniversário da cidade. As inscrições devem ser feitas no site da Prefeitura (&lt;a href="http://petropolis.rj.gov.br/" target="_blank" rel="noopener"&gt;petropolis.rj.gov.br&lt;/a&gt;) até às 16h59 do dia 10 de março.&lt;/p&gt;
+&lt;p&gt;Para se inscrever é preciso ter idade entre 18 e 35 anos apurados no dia do concurso; ser residente na cidade de Petrópolis há, no mínimo, 12 meses consecutivos anteriores à publicação do edital; ser descendente de alemães e/ou fazer parte de um grupo folclórico germânico de Petrópolis e ter algum vínculo com a história e o significado da Bauernfest.&lt;/p&gt;
+&lt;p&gt;“A Bauernfest é um dos nossos grandes atrativos e a eleição da rainha e princesas valorizam a nossa história, mantendo a tradição alemã viva, além delas serem as nossas anfitriãs nos eventos de divulgação da cidade nos eventos que participamos”, afirmou o secretário de Turismo, Nei Carvalho.&lt;/p&gt;
+&lt;p&gt;A rainha receberá o prêmio de R$ 5 mil; a primeira Princesa ganhará R$ 3 mil e a segunda Princesa terá um prêmio de R$ 2 mil.&lt;/p&gt;
+&lt;p&gt;Dúvidas e pedidos de informações deverão ser enviadas exclusivamente para o e-mail &lt;a href="mailto:realezabauernfest@gmail.com" target="_blank" rel="noopener"&gt;realezabauernfest@gmail.com&lt;/a&gt;.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/realeza-da-bauernfest/" rel="tag"&gt;realeza da bauernfest&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/16/inscricoes-abertas-para-a-realeza-da-bauernfest-2026/</guid></item><item><title>“Bravo Tenores in Concert” se apresenta em Petrópolis em março – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/16/bravo-tenores-in-concert-se-apresenta-em-petropolis-em-marco/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Pela primeira vez em Petrópolis, o espetáculo “Bravo Tenores in Concert” se apresenta no Teatro Imperial no dia 27 de março, às 20h.&lt;/p&gt;
+&lt;p&gt;Os tenores Marcello Vannucci, Tenor Leone e CaJunior serão acompanhados por uma orquestra sob a regência do maestro Renato Misiuk, em uma noite dedicada aos maiores clássicos da ópera.&lt;/p&gt;
+&lt;p&gt;Criado em 2015, o grande diferencial do espetáculo é o chamado “Crossover de estilos”, que permite encontros artísticos. Em um mesmo palco, o público poderá ouvir a harmonia entre o protagonista do musical “O Rei Leão” e um solista da Ópera de Manaus, ou ainda a união de um cantor oficial da Disney com o solista da tradicional Festa de San Gennaro.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Local: Rua&lt;span class="LrzXr"&gt; General Osório, 192 – Centro&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Data: 27 de março de 2026 (sexta)&lt;/p&gt;
+&lt;p&gt;Horário: 20h&lt;/p&gt;
+&lt;p&gt;Classificação: 10 anos&lt;/p&gt;
+&lt;p&gt;Ingressos: R$ 80,00 – R$ 240,00&lt;/p&gt;
+&lt;p&gt;Venda: &lt;a href="https://ingressodigital.com/evento/19572/bravo-tenores-in-concert"&gt;https://ingressodigital.com/evento/19572/bravo-tenores-in-concert&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bravo-tenores-in-concert/" rel="tag"&gt;Bravo Tenores in Concert&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/teatro-imperial/" rel="tag"&gt;teatro imperial&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/16/bravo-tenores-in-concert-se-apresenta-em-petropolis-em-marco/</guid></item><item><title>Cordão do Bola Preta e Renato da Rocinha são atrações do Folia Imperial nesta segunda – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/16/cordao-do-bola-preta-e-renato-da-rocinha-sao-atracoes-do-folia-imperial-nesta-segunda/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta segunda-feira (16), o Palácio de Cristal recebe o Cordão da Bola Preta, às 18h, enquanto Renato da Rocinha sobe ao palco da Deguste, na Praça da Águia, às 19h. A programação de carnaval ainda tem blocos espalhados pelos bairros da cidade.&lt;/p&gt;
+&lt;p&gt;O Cordão do Bola Preta tem mais de um século de história e embala os carnavais com uma das marchinhas mais conhecidas do país: “Quem não chora não mama! Segura, meu bem, a chupeta. Lugar quente é na cama. Ou então no Bola Preta”. Esse e outros sucessos serão levados ao Palácio de Cristal.&lt;/p&gt;
+&lt;p&gt;Renato da Rocinha é cantor e compositor marcado pelo samba de raiz e pagode romântico. Ele traz no nome artístico a comunidade onde nasceu, cresceu e conheceu o samba. Ele trabalhou em uma rádio comunitária, em que entrevistou vários sambistas, e foi voz da Acadêmicos da Rocinha por três anos. Entre suas músicas mais conhecidas estão “Castelo de um Quarto Só”, “Moleque Bom” e “Moro Lá”.&lt;/p&gt;
+&lt;p&gt;Confira a programação completa do Folia Imperial nesta segunda-feira (16):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Palácio de Cristal &lt;/strong&gt;&lt;br&gt;
+Horário: 13h às 23h&lt;br&gt;
+Atrações: Palhaço (13h) / Cordão do Bola Preta (18h) / Sambalaço (20h)&lt;br&gt;
+Local: Centro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deguste&lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 23h&lt;br&gt;
+Atrações: Nívea Sabra (15h) / Renato da Rocinha (19h) / Pedro Ribeiro (20h)&lt;br&gt;
+Local: Praça da Águia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco Secos e Molhados&lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 22h&lt;br&gt;
+Local: Praça de Corrêas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco do Jairo&lt;/strong&gt;&lt;br&gt;
+Horário: 18h às 23h&lt;br&gt;
+Local: Meio da Serra (Vila do Correio)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Carnaval de Nogueira &lt;/strong&gt;&lt;br&gt;
+Horário: 14h às 23h&lt;br&gt;
+Local: Praça de Nogueira&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unidos do Oswaldo Cruz&lt;/strong&gt;&lt;br&gt;
+Horário: 16h às 23h&lt;br&gt;
+Local: Valparaíso&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13 de Maio&lt;/strong&gt;&lt;br&gt;
+Horário: 14h às 19h&lt;br&gt;
+Local: Rua 13 de Maio&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval-em-petropolis/" rel="tag"&gt;carnaval em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/folia-imperial/" rel="tag"&gt;Folia Imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palacio-de-cristal/" rel="tag"&gt;palácio de cristal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/16/cordao-do-bola-preta-e-renato-da-rocinha-sao-atracoes-do-folia-imperial-nesta-segunda/</guid></item><item><title>Arlindinho é a atração principal deste domingo – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/15/arlindinho-e-a-atracao-principal-deste-domingo/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Neste domingo (15), o cantor, compositor e multi-instrumentista Arlindinho sobe ao palco da Deguste, na Praça da Águia, às 21h. Também tem início o &lt;a href="https://aconteceempetropolis.com.br/2026/02/14/tribo-de-gonzaga-promove-o-tradicional-carnaval-da-liberdade-a-partir-deste-domingo/"&gt;&lt;strong&gt;Carnaval da Liberdade&lt;/strong&gt;&lt;/a&gt;, na Praça da Liberdade, e o &lt;a href="https://aconteceempetropolis.com.br/2026/02/14/taruira-anima-o-carnaval-do-vilarejo-a-partir-deste-domingo/"&gt;&lt;strong&gt;Carnaval do Taruíra&lt;/strong&gt;&lt;/a&gt;, no Shopping Vilarejo, em Itaipava.&lt;/p&gt;
+&lt;p&gt;Filho de Arlindo Cruz, criou um estilo próprio em mais de 15 anos de carreira, sem deixar de valorizar a história do pai. Dono de vários sucessos, como “Bom Aprendiz”, “Meu Caminho”, “Filho do Quitandeiro” e “Onde a Gente se Perdeu”, ele também se destaca no Carnaval carioca já tendo assinado a composição de samba-enredo da São Clemente e Império Serrano, pela qual ganhou Estandarte de Ouro em 2012 pelo melhor samba-enredo do Grupo de Acesso.&lt;/p&gt;
+&lt;p&gt;A programação da Folia Imperial tem outros destaques, como o tradicional Banho à Fantasia, que acontece no Itamarati. O Palácio de Cristal conta com espaço kids, área de alimentação e várias atrações, como Axé Folia, Guerreiros da Vinte e Juninho Martins. No Parque Cremerie, tem matinê infantil. Os blocos deste domingo são o Secos e Molhados (Corrêas), Bloco do Jairo (Meio da Serra), Unidos do Oswaldo Cruz (Valparaíso), Guerreiros da Vinte (24 de Maio) e Pintando a 7 (Rua 7 de Abril). Em Secretário, a folia é comandada pelo Instituto Caminhos da Roça; em Nogueira, a diversão tem lugar marcado na Praça do bairro. No mesmo dia, quem for às compras na feira livre do Alto da Serra vai curtir o Samba da Feira.&lt;/p&gt;
+&lt;p&gt;O Folia Imperial tem patrocínio do Governo do Estado do Rio de Janeiro através da Funarj, secretaria de Cultura e Economia Criativa e da subsecretaria de Grandes Eventos e organização da Prefeitura de Petrópolis.&lt;/p&gt;
+&lt;p&gt;Confira os horários e locais das atrações de Carnaval em Petrópolis neste domingo (15):&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Palácio de Cristal&lt;/strong&gt;&lt;br&gt;
+Horário: 13h às 23h&lt;br&gt;
+Atrações: Axé Folia (13h) / Bloco Guerreiros da Vinte (18h) / Juninho Martins (20h)&lt;br&gt;
+Local: Centro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Deguste&lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 23h&lt;br&gt;
+Atrações: Juninho Martins (15h) / Pedro Ribeiro (20h) / Arlindinho (21h)&lt;br&gt;
+Local: Praça da Águia&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco Secos e Molhados &lt;/strong&gt;&lt;br&gt;
+Horário: 11h às 22h&lt;br&gt;
+Local: Praça de Corrêas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco do Jairo&lt;/strong&gt;&lt;br&gt;
+Horário: 18h às 23h&lt;br&gt;
+Local: Meio da Serra (Vila do Correio)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Carnaval de Nogueira&lt;/strong&gt;&lt;br&gt;
+Horário: 14h às 23h&lt;br&gt;
+Local: Praça de Nogueira&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Instituto Caminhos da Roça&lt;/strong&gt;&lt;br&gt;
+Horário: 19h à 00h&lt;br&gt;
+Local: Praça de Secretário&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bloco Guerreiros da Vinte &lt;/strong&gt;&lt;br&gt;
+Horário: 10h às 20h&lt;br&gt;
+Local: 24 de Maio&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Pintando a 7&lt;/strong&gt;&lt;br&gt;
+Horário: 15h às 21h&lt;br&gt;
+Local: Rua 7 de Abril&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Banho à Fantasia&lt;/strong&gt;&lt;br&gt;
+Horário: 12h às 16h&lt;br&gt;
+Local: Itamarati&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Samba da Feira&lt;/strong&gt;&lt;br&gt;
+Horário: 07h às 19h&lt;br&gt;
+Local: Alto da Serra&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Unidos do Oswaldo Cruz&lt;/strong&gt;&lt;br&gt;
+Horário: 16h às 23h&lt;br&gt;
+Local: Valparaíso&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Matinê do Cremerie&lt;/strong&gt;&lt;br&gt;
+Horário: 13h às 17h&lt;br&gt;
+Local: Parque Cremerie (Independência)&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval-em-petropolis/" rel="tag"&gt;carnaval em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/deguste/" rel="tag"&gt;Deguste&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/15/arlindinho-e-a-atracao-principal-deste-domingo/</guid></item><item><title>Quatro anos após a tragédia, obras no Morro da Oficina são concluídas – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/15/quatro-anos-apos-a-tragedia-obras-no-morro-da-oficina-sao-concluidas/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O município concluiu as obras no Morro da Oficina, no Alto da Serra, que foi o local mais afetado pela chuva de 2022, quando a cidade viveu o maior desastre natural de sua história.  Agora tem início o reflorestamento de toda a área.&lt;/p&gt;
+&lt;p&gt;Em 2025, as obras da área 3 foram as primeiras a serem concluídas. Nessa área, foi construída uma estrutura de contenção (grelha de concreto armado) na parte mais alta, onde houve deslizamento e desplacamento de rochas, que provocaram os problemas mais graves no Morro da Oficina. Também foram feitas duas descidas d’água, uma em concreto armado, que leva até a segunda descida, feita em gabiões. As duas descidas foram feitas em degraus, o que vai ajudar para reduzir a velocidade da passagem das águas pluviais nos dias de chuva mais intensa. A água que passa por essas descidas é conduzida até uma nova rede pluvial.&lt;/p&gt;
+&lt;p&gt;A encosta da área 3 teve retaludamento, reduzindo a inclinação e dando maior estabilidade ao solo. Nesse mesmo local, foram feitas várias pequenas canaletas, que servem para direcionar a água da chuva para a nova descida. E na área da encosta, houve instalação de uma biomanta com hidrossemeadura. Essa biomanta é uma tela feita de material vegetal, que retém água; já a hidrossemeadura é o plantio de sementes, que vão germinar graças à água retida pela biomanta. Essas duas soluções atuam em conjunto e vão permitir nascer no local uma vegetação que vai contribuir no controle do processo de erosão do solo e ajudar na estabilização dos taludes.&lt;/p&gt;
+&lt;p&gt;Também foi construído um grande muro de gabião, que percorre e fará a contenção das áreas 2 e 3, totalizando mais de 250 metros de extensão. Na área dois, foram construídas novas redes de captação de águas pluviais, que foram conectadas à rede principal que passa pelo Morro da Oficina. Também foi implantada uma nova rede pluvial em uma servidão com acesso pela Rua Frei Leão, com colocação de manilhas e caixas de ralo.&lt;/p&gt;
+&lt;p&gt;No entorno da Rua Frei Leão, houve a construção de mais um muro de gabião, retaludamento e de mais um canal de águas pluviais chamada de “Pedreira” e, por último, a pavimentação. Com isso, a obra fica totalmente concluída.&lt;/p&gt;
+&lt;p&gt;Apesar da obra ter sido encerrada, ainda tem mais trabalho previsto para a região. A Prefeitura iniciou o reflorestamento da região, serviço que será liderado pela Secretaria de Meio Ambiente. Está previsto o plantio de cerca de 3,9 mil mudas em 45 mil m² ao longo do Morro da Oficina. O serviço vai contar com plantio de mais de 100 espécies diferentes, entre espécies nativas de Mata Atlântica, exóticas e frutíferas. Esse trabalho acontece a partir de uma compensação ambiental devida por uma empresa e o projeto elaborado foi acompanhado de perto pela Secretaria para se adaptar à realidade local. No futuro, é possível que isso repita, revertendo novas ações de compensação ambiental em reflorestamento de mais áreas no Morro da Oficina.&lt;/p&gt;
+&lt;p&gt;“O reflorestamento tem vários objetivos, entre eles, dar uma nova cara ao Morro da Oficina. Com o plantio das mudas, nós vamos transformar esse local, que é uma ferida aberta na história da nossa cidade, trazendo mais vida. A ideia é que esse ambiente seja um convite à população para preservação desse local, que a comunidade se aproprie e faça parte da preservação ambiental desse espaço. E que, dessa forma, possamos evitar novas ocupações por aqui”, conclui o secretário de Meio Ambiente, Pedro Alcântara.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/chuvas-2022/" rel="tag"&gt;chuvas 2022&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/morro-da-oficina/" rel="tag"&gt;morro da oficina&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/15/quatro-anos-apos-a-tragedia-obras-no-morro-da-oficina-sao-concluidas/</guid></item><item><title>Taruíra anima o Carnaval do Vilarejo a partir deste domingo – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/14/taruira-anima-o-carnaval-do-vilarejo-a-partir-deste-domingo/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Com uma programação que reúne o tradicional baile do Taruíra, atrações circenses e o Carnavau Au Au ao longo de quatro dias, a folia no Shopping Vilarejo, em Itaipava, acontece de 14 a 17 de fevereiro. A entrada é gratuita.&lt;/p&gt;
+&lt;p&gt;A abertura acontece neste sábado (14), às 15h, com o Carnavau Au Au, matinê ao som da banda Bicho Solto, na qual crianças e animais de estimação participam de um divertido desfile de fantasias com premiações para primeiro e segundo colocados.&lt;/p&gt;
+&lt;p&gt;A partir de domingo (15), a Praça do Sol recebe o tradicional Carnaval do Taruíra, sempre das 17h às 21h, mantendo viva a essência do carnaval popular com muita música e animação. Antes dos bailes, o público confere apresentações circenses a partir das 16h.&lt;/p&gt;
+&lt;p&gt;No domingo, a programação começa com o Espetáculo Circense Solo Protocolo, com Ricardo Gadelha. Em seguida, o Taruíra anima a festa com participação especial da cantora Melissa Maluly, além de uma intervenção mágica com Nathan Ilusionista durante o baile.&lt;/p&gt;
+&lt;p&gt;Na segunda-feira (16), o espetáculo Brincadeira de Palhaços, com os Palhastônicos, abre a tarde, seguido do Taruíra com a cantora Maria Swenson e uma intervenção com bolhas mágicas gigantes.&lt;/p&gt;
+&lt;p&gt;Já na terça-feira (17), o público confere o Circo do Seu’Leo, com Léo Gaviole, antes do último baile do Taruíra, que terá participação da cantora Nívea Seabra e intervenção especial com pernaltas e palhaços de pernas de pau.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval/" rel="tag"&gt;carnaval&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval-em-petropolis/" rel="tag"&gt;carnaval em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/taruira/" rel="tag"&gt;taruíra&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/14/taruira-anima-o-carnaval-do-vilarejo-a-partir-deste-domingo/</guid></item><item><title>Confira os locais que vão oferecer programação de Carnaval em Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/13/confira-a-programacao-do-carnaval-2026-em-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Além da programação da Folia Imperial que você confere &lt;a href="https://aconteceempetropolis.com.br/2026/02/09/confira-a-programacao-da-folia-imperial-2026/"&gt;&lt;strong&gt;nesta matéria&lt;/strong&gt;&lt;/a&gt;, outros locais também vão oferecer programação de Carnaval para todas as idades. Confira:&lt;/p&gt;
+&lt;figure id="attachment_102862" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2025/06/palacio-de-cristal.jpg"&gt;&lt;img class=" wp-image-102862" src="https://aconteceempetropolis.com.br/wp-content/uploads/2025/06/palacio-de-cristal.jpg" alt="" width="620" height="316"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-102862" class="wp-caption-text"&gt;Foto: Ascom PMP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Folia Imperial – Palácio de Cristal&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;18h – Escola de samba Acadêmicos do Salgueiro Mirim&lt;/li&gt;
+&lt;li&gt;20h – Forma Certa&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;14 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;13h – Trio da Folia&lt;/li&gt;
+&lt;li&gt;18h – Bloco do Tim&lt;/li&gt;
+&lt;li&gt;20h – Banda África&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;15 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;13h – Axé Folia&lt;/li&gt;
+&lt;li&gt;18h – Bloco Guerreiros da 20&lt;/li&gt;
+&lt;li&gt;20h – Juninho Martins&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;16 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;13h – Palhaço&lt;/li&gt;
+&lt;li&gt;18h – Cordão da Bola Preta&lt;/li&gt;
+&lt;li&gt;20h – Sambalanço&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;17 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;13h – Recreação&lt;/li&gt;
+&lt;li&gt;18h – Bloco Vai Dar M&lt;/li&gt;
+&lt;li&gt;20h – Bloco do Tim&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Carnaval da Família no Castelo de Itaipava&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Atrações: Circo do SeuLeo + DJ + Banda + Personagens Infantis&lt;/p&gt;
+&lt;p&gt;Datas: 15 e 16 de fevereiro de 2026&lt;/p&gt;
+&lt;p&gt;Horário: 12h às 18h&lt;/p&gt;
+&lt;p&gt;Ingressos: R$ 35,00. Crianças até 12 anos não pagam.&lt;/p&gt;
+&lt;p&gt;Venda: &lt;a href="https://www.sympla.com.br/evento/carnaval-da-familia-no-castelo-de-itaipava-2026/3283126"&gt;https://www.sympla.com.br/evento/carnaval-da-familia-no-castelo-de-itaipava-2026/3283126&lt;/a&gt;&lt;/p&gt;
+&lt;figure id="attachment_106536" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2026/02/creuzebeck-mamonas.jpg"&gt;&lt;img class="size-full wp-image-106536" src="https://aconteceempetropolis.com.br/wp-content/uploads/2026/02/creuzebeck-mamonas.jpg" alt="" width="1244" height="606"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-106536" class="wp-caption-text"&gt;Foto: AeP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Hipershopping Petrópolis&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;13 de fevereiro de 2026&lt;br&gt;
+19h: Samba na Praça com Marcos Paulo e Maquininha&lt;/p&gt;
+&lt;p&gt;14 de fevereiro de 2026&lt;br&gt;
+15h: Bailinho Pet com Cãocurso de Fantasias – traga seu cãozinho fantasiado&lt;br&gt;
+16h: Bailinho de Carnaval&lt;br&gt;
+19h: Cover dos Mamonas – Creuzebeck no Palco Hiper da Praça de Alimentação&lt;/p&gt;
+&lt;p&gt;15 de fevereiro de 2026&lt;br&gt;
+16h: Bailinho de Carnaval&lt;br&gt;
+19h: Samba na Praça com Pedro Ribeiro&lt;/p&gt;
+&lt;p&gt;16 de fevereiro de 2026&lt;br&gt;
+16h: Bailinho de Carnaval&lt;br&gt;
+19h: Samba na Praça com Mayara Ferreira&lt;/p&gt;
+&lt;p&gt;17 de fevereiro de 2026&lt;br&gt;
+16h: Bailinho de Carnaval&lt;br&gt;
+19h: Samba na Praça com Marcos Paulo e Maquininha&lt;/p&gt;
+&lt;p&gt;21 de fevereiro de 2026&lt;br&gt;
+16h: Baile da Ressaquinha&lt;/p&gt;
+&lt;figure id="attachment_106352" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2026/01/deguste-3.jpg"&gt;&lt;img class="size-full wp-image-106352" src="https://aconteceempetropolis.com.br/wp-content/uploads/2026/01/deguste-3.jpg" alt="" width="1354" height="611"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-106352" class="wp-caption-text"&gt;Foto: AeP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Deguste Folia&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;DJ Marco Rock nos intervalos&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;20h: Samba de Mãos Dadas&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;15h: Bloco da Kika&lt;/p&gt;
+&lt;p&gt;20h: Puro Pecado&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;15 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;15h: Juninho Martins&lt;/p&gt;
+&lt;p&gt;20h: Jonatan Francisco&lt;/p&gt;
+&lt;p&gt;22h: Arlindinho&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;15h: Nívea Seabra&lt;/p&gt;
+&lt;p&gt;19h: Renato da Rocinha&lt;/p&gt;
+&lt;p&gt;22h: Pedro Ribeiro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;17 de fevereiro de 2026&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;15h: Baile do Zen&lt;/p&gt;
+&lt;p&gt;19h: Mayara Ferreira&lt;/p&gt;
+&lt;p&gt;22h: Tá na Mente&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Pátio Petrópolis Shopping&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;No dia 14 de fevereiro (sábado) acontece a 2ª edição do &lt;strong&gt;Baile Charme &amp;amp; Flash Back&lt;/strong&gt;, das 18h às 21h, sob o comando dos DJs Marcio Rodrigues e Marcio Moreira. Já o domingo de Carnaval, 15 de fevereiro, a partir das 16h, o shopping recebe a &lt;strong&gt;Escola de Samba Império de Petrópolis&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Entre os dias 14 e 17 de fevereiro haverá programação infantil no Piso 2. Todas as oficinas e bailinhos são gratuitos, com inscrições realizadas presencialmente no local. Com atividades sempre das 15h às 19h, a programação infantil inclui:&lt;/p&gt;
+&lt;p&gt;14/02 (Sábado): Oficina de máscaras de carnaval.&lt;/p&gt;
+&lt;p&gt;15/02 (Domingo): Oficina de criação de lança-confete.&lt;/p&gt;
+&lt;p&gt;16 e 17/02 (Segunda e Terça): O tradicional Bailinho de Carnaval infantil.&lt;/p&gt;
+&lt;figure id="attachment_101422" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2025/03/taruira-carnaval-vilarejo-3.jpg"&gt;&lt;img class="size-full wp-image-101422" src="https://aconteceempetropolis.com.br/wp-content/uploads/2025/03/taruira-carnaval-vilarejo-3.jpg" alt="" width="1265" height="573"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-101422" class="wp-caption-text"&gt;Foto: AeP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Shopping Vilarejo – Itaipava&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Dias 15, 16 e 17 de fevereiro: &lt;strong&gt;Carnaval do Taruíra&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Horário: das 17h às 21h&lt;/p&gt;
+&lt;p&gt;15/2 – Participação especial: cantora Melissa Maluly&lt;br&gt;
+Intervenção circense: mágica com Nathan Ilusionista&lt;/p&gt;
+&lt;p&gt;16/2 – Participação especial: cantora Maria Swenson&lt;br&gt;
+Intervenção circense: bolhas mágicas gigantes&lt;/p&gt;
+&lt;p&gt;17/2 – Participação especial: cantora Nívea Seabra&lt;br&gt;
+Intervenção circense: pernaltas e palhaços de pernas de pau&lt;/p&gt;
+&lt;p&gt;Sábado (14/2) – Carnavau Au Au – 15h&lt;br&gt;
+Atração: Matinê com a banda Bicho Solto e desfile pet com premiação&lt;/p&gt;
+&lt;p&gt;Domingo (15/2) – 16h&lt;br&gt;
+Apresentação circense – Espetáculo Solo Protocolo, com Ricardo Gadelha&lt;/p&gt;
+&lt;p&gt;Segunda-feira (16/2) – 16h&lt;br&gt;
+Apresentação circense – Espetáculo Brincadeira de Palhaços, com os Palhastônicos&lt;/p&gt;
+&lt;p&gt;Terça-feira (17/2) – 16h&lt;br&gt;
+Apresentação circense – Circo do Seu’Leo, com Léo Gaviole&lt;/p&gt;
+&lt;figure id="attachment_105982" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2025/12/centro-cultural-sesc-quitandinha.jpg"&gt;&lt;img class="size-full wp-image-105982" src="https://aconteceempetropolis.com.br/wp-content/uploads/2025/12/centro-cultural-sesc-quitandinha.jpg" alt="" width="1334" height="603"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-105982" class="wp-caption-text"&gt;Foto: AeP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;a href="https://aconteceempetropolis.com.br/2026/02/11/centro-cultural-sesc-quitandinha-com-programacao-infantil-oficinas-e-exposicoes-durante-o-carnaval/"&gt;&lt;span&gt;&lt;strong&gt;Centro Cultural Sesc Quitandinha&lt;/strong&gt;&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No Quitandinha haverá opções gratuitas para a criançada:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14 de fevereiro (sábado)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;11h – Carnaval de Histórias (literatura infantil)&lt;/p&gt;
+&lt;p&gt;16h – Cucaracha e Theobalda (música infantil)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;15 de fevereiro (domingo)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;11h – A Casa do Fantasminha, com a Cia Papa Vento (literatura infantil)&lt;/p&gt;
+&lt;p&gt;16h – Super Fantásticos (música infantil)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16 de fevereiro (segunda-feira)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;16h – Cortejo Brincante Auê da Graça (circo infantil)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;17 de fevereiro (terça-feira)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;16h – A Rua é o Baile (circo infantil)&lt;/p&gt;
+&lt;figure id="attachment_94423" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2023/10/cremerie.jpg"&gt;&lt;img class=" wp-image-94423" src="https://aconteceempetropolis.com.br/wp-content/uploads/2023/10/cremerie.jpg" alt="" width="624" height="387"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-94423" class="wp-caption-text"&gt;Crédito: AeP&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Parque Cremerie &lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O Parque Cremerie também vai contar com matinês para as famílias. A programação gratuita acontece no sábado e domingo (14 e 15 de fevereiro), das 13h às 17h.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Carnaval da Liberdade&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Nos dias 15, 16 e 17 de fevereiro, a Tribo de Gonzaga se apresenta na Praça da Liberdade, às 16h no domingo, e às 19h na segunda e na terça. A partir das 15h terá música mecânica.&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Carnaval no Bosque dos Vales – Itaipava&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De 13 a 17 de fevereiro, o Bosque dos Vales oferecerá uma programação especial, das 13h às 20h, com recreação infantil, música ao vivo e feira criativa. Os pets também são bem-vindos!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;13 de fevereiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Jantar especial Pratos da Boa Lembrança no Restaurante 2 Vales + Bruna Souza com chorinho e samba raiz, às 19h30&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;14 de fevereiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;13h às 18h – recreação infantil&lt;/p&gt;
+&lt;p&gt;13h30 – música ao vivo com Pedro Ribeiro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;15 de fevereiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Feijoada do Horto&lt;/p&gt;
+&lt;p&gt;13h às 18h – recreação infantil&lt;/p&gt;
+&lt;p&gt;13h30 – Marcos Paullo e Maquininha&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;16 de fevereiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;13h às 18h – recreação infantil&lt;/p&gt;
+&lt;p&gt;13h30 – Bloco do Jota&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;17 de fevereiro&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;13h às 18h – recreação infantil&lt;/p&gt;
+&lt;p&gt;13h30 – Bruna Souza&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Estação Locanda – Itaipava&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Das 16h às 19h&lt;/p&gt;
+&lt;p&gt;14/2 – Baile dos Piratas&lt;/p&gt;
+&lt;p&gt;15/2 – Baile dos Aqualoucos&lt;/p&gt;
+&lt;p&gt;16/2 – Baile Tropical&lt;/p&gt;
+&lt;p&gt;17/2 – Baile da Colombina&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;&lt;strong&gt;Instituto Caminho da Roça&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p dir="ltr"&gt;No dia 14 de fevereiro, às 14h, o Instituto Caminho da Roça promove a &lt;strong&gt;Oficina de Adereços&lt;/strong&gt;, com Dafne Souza e Elisabeth Silveira, na sede do ICR, em Secretário. A atividade convida moradores e participantes a criarem adereços carnavalescos de forma colaborativa, incentivando a criatividade e a construção coletiva da identidade do bloco.&lt;/p&gt;
+&lt;p dir="ltr"&gt;No domingo de Carnaval, 15/02, a partir das 16h, haverá apresentação do grupo petropolitano &lt;strong&gt;Baque Mulher&lt;/strong&gt;, que traz o maracatu, importante manifestação cultural afro-brasileira. Na sequência, a banda Sambalanço resgata as marchinhas tradicionais da folia e, junto ao Bloco Caminho da Roça, ocupa as ruas de Secretário.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval/" rel="tag"&gt;carnaval&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/carnaval-em-petropolis/" rel="tag"&gt;carnaval em petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/castelo-de-itaipava/" rel="tag"&gt;castelo de itaipava&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/centro-cultural-sesc-quitandinha/" rel="tag"&gt;Centro Cultural Sesc Quitandinha&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/deguste/" rel="tag"&gt;Deguste&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/hipershopping-petropolis/" rel="tag"&gt;hipershopping petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/o-que-fazer-em-petropolis/" rel="tag"&gt;o que fazer em Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/patio-petropolis-shopping/" rel="tag"&gt;Pátio Petrópolis Shopping&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/shopping-vilarejo/" rel="tag"&gt;Shopping Vilarejo&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/13/confira-a-programacao-do-carnaval-2026-em-petropolis/</guid></item><item><title>Petrópolis lança abaixo-assinado pela candidatura ao supercomputador do PBIA – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/11/petropolis-lanca-abaixo-assinado-pela-candidatura-ao-supercomputador-do-pbia/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta semana, a Prefeitura de Petrópolis lançou a campanha institucional de defesa da candidatura do município para sediar o supercomputador de inteligência artificial do Plano Brasileiro de Inteligência Artificial (PBIA). A iniciativa é em conjunto com o Conselho Municipal de Inovação (CMI).&lt;/p&gt;
+&lt;p&gt;A campanha tem o objetivo de reforçar o compromisso da cidade com a inovação e a tecnologia, posicionando Petrópolis como candidata estratégica para receber o equipamento de alto desempenho, que integra a política nacional de fortalecimento da infraestrutura de inteligência artificial no Brasil.&lt;/p&gt;
+&lt;p&gt;Durante o evento foi lançada uma página oficial com abertura de um abaixo-assinado, permitindo que a população manifeste apoio à candidatura do município. Os interessados podem participar pelo link: &lt;a href="https://super-computador.biomob.app/pt" target="_blank" rel="noopener"&gt;https://super-computador.&lt;wbr&gt;&lt;/wbr&gt;biomob.app/pt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;A cerimônia destacou ainda os principais diferenciais da cidade para receber o equipamento, como a experiência do município com o supercomputador Santos Dumont, instalado no Laboratório Nacional de Computação Científica (LNCC), o clima ameno, a localização estratégica próxima aos principais polos tecnológicos do país e a qualidade do ensino superior nas áreas de ciência e tecnologia.&lt;/p&gt;
+&lt;p&gt;“O grande diferencial de Petrópolis é a presença do LNCC, que há décadas opera com reconhecimento internacional. Somam-se a isso o clima ameno e as condições técnicas ideais, que fazem do município o local mais adequado para a instalação do supercomputador”, afirmou Marcelo Soares, vice-presidente da Associação Comercial e Empresarial de Petrópolis (Acep).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Sobre o supercomputador&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O supercomputador integra o Plano Brasileiro de Inteligência Artificial (PBIA), estratégia nacional que prevê investimentos de R$ 23 bilhões para ampliar a infraestrutura de IA no país. O plano contempla a aquisição de um dos cinco supercomputadores mais potentes do mundo, destinado a impulsionar pesquisas avançadas, inovação tecnológica e aplicações de alto impacto.&lt;/p&gt;
+&lt;p&gt;Em outubro de 2025, o prefeito Hingo Hammes entregou à ministra da Ciência, Tecnologia e Inovação, Luciana Santos, um manifesto assinado por autoridades municipais, representantes do Governo do Estado e da comunidade científica, solicitando que o novo supercomputador de IA seja instalado em Petrópolis, no LNCC, que já abriga o supercomputador Santos Dumont.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/inteligencia-artificial/" rel="tag"&gt;inteligência artificial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/supercomputador/" rel="tag"&gt;supercomputador&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/11/petropolis-lanca-abaixo-assinado-pela-candidatura-ao-supercomputador-do-pbia/</guid></item><item><title>Município abre cadastro para a primeira etapa de castração de cães e gatos de 2026 – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/09/municipio-abre-cadastro-para-a-primeira-etapa-de-castracao-de-caes-e-gatos-de-2026/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta segunda-feira (9) começa o cadastro para tutores que desejam castrar seus animais na primeira etapa do programa de castração gratuita de cães e gatos, promovido pela Prefeitura de Petrópolis. Nesta fase inicial, serão disponibilizadas 1.200 vagas para atender moradores das regiões do Caxambu, Morin, Alto da Serra, Meio da Serra e Centro.&lt;/p&gt;
+&lt;p&gt;O cadastro será realizado em dias específicos, em unidades de saúde e associações de moradores parceiras. A cirurgia é gratuita e o tutor já sairá com o dia e o horário do procedimento agendados. Para se inscrever, é necessário apresentar identidade, CPF e comprovante de residência atualizado. Não é preciso levar o animal no momento do cadastro.&lt;/p&gt;
+&lt;p&gt;“Estruturamos os pontos de cadastramento em diferentes regiões para garantir que mais moradores consigam participar. Além disso, o agendamento imediato da cirurgia traz mais comodidade e segurança para os tutores”, esclareceu o secretário de Saúde, Aloisio Barbosa.&lt;/p&gt;
+&lt;p&gt;As cirurgias estão previstas para acontecer entre os dias 3 e 10 de março, na quadra do Sisep, localizada na Rua Buarque de Macedo, nº 116, no Centro.&lt;/p&gt;
+&lt;p&gt;Confira a data e os locais de cadastramento:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data: 09/02&lt;/strong&gt;&lt;br&gt;
+PSF Santa Isabel – 9h às 16h&lt;br&gt;
+Estrada José de Almeida Amado, s/n – Santa Isabel&lt;/p&gt;
+&lt;p&gt;PSF Lusitano – 9h às 16h&lt;br&gt;
+Rua Flávio Cavalcanti, nº 154 – Caxambu&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data: 10/02&lt;/strong&gt;&lt;br&gt;
+PSF Vila Felipe – 9h às 16h&lt;br&gt;
+Rua Permínio Schmidt, s/n – Vila Felipe&lt;/p&gt;
+&lt;p&gt;Associação de Moradores Chácara Flora – 9h às 12h&lt;br&gt;
+Rua Carmem da Ponte Marcolino, nº 823 – Chácara Flora&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data: 11/02&lt;/strong&gt;&lt;br&gt;
+PSF Meio da Serra – 9h às 12h&lt;br&gt;
+Estrada Velha da Estrela, s/n – Meio da Serra&lt;/p&gt;
+&lt;p&gt;Escola Municipal Geraldo Ventura – 13h às 16h&lt;br&gt;
+Estrada Velha da Estrela, nº 3.100 – Lopes Trovão – Meio da Serra&lt;/p&gt;
+&lt;p&gt;PSF 24 de Maio – 9h às 16h&lt;br&gt;
+Rua 24 de Maio, nº 01 – Centro&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data: 12/02&lt;/strong&gt;&lt;br&gt;
+PSF Alto da Serra – 9h às 16h&lt;br&gt;
+Rua Alyntor Werneck, nº 68 – Alto da Serra&lt;/p&gt;
+&lt;p&gt;UBS Morin – 9h às 16h&lt;br&gt;
+Rua Pedro Ivo, nº 81 – Morin&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Data: 23/02&lt;/strong&gt;&lt;br&gt;
+Departamento de Vigilância em Saúde (Vigilância Ambiental) – 9h às 16h&lt;br&gt;
+Rua Dr. Sá Earp, nº 433 – Morin&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/castracao-de-caes-e-gatos/" rel="tag"&gt;castração de cães e gatos&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/09/municipio-abre-cadastro-para-a-primeira-etapa-de-castracao-de-caes-e-gatos-de-2026/</guid></item><item><title>Especialistas esclarecem os principais pontos sobre o vírus Nipah – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/08/especialistas-esclarecem-os-principais-pontos-sobre-o-virus-nipah/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O vírus Nipah voltou ao noticiário internacional após a confirmação de dois casos na província indiana de Bengala Ocidental. Segundo a Organização Mundial da Saúde (OMS), o Nipah foi descoberto em 1999, em um surto entre criadores de porcos na Malásia, e é detectado com regularidade em Bangladesh e na Índia. O vírus chama atenção pela alta taxa de letalidade, que pode chegar a 75%, e pela ausência de vacina ou tratamento específico.&lt;/p&gt;
+&lt;p&gt;Transmitida principalmente por morcegos frugívoros, o vírus é uma doença zoonótica emergente, e que também pode infectar outros animais e humanos. Segundo Alice Del Colletto, doutora em Ciências e coordenadora de Biomedicina da Estácio, a transmissão ocorre pelo consumo de alimentos contaminados, como frutas ou seiva crua, e pelo contato direto entre pessoas, por meio de secreções respiratórias. A infecção pode variar de quadros leves até manifestações graves, como encefalite aguda.&lt;/p&gt;
+&lt;p&gt;De acordo com Alice, os sintomas iniciais incluem febre, dor de cabeça, dores musculares, náuseas e vômitos, podendo evoluir rapidamente para confusão mental, convulsões, coma e morte. “Embora o risco de uma pandemia seja considerado baixo, já que a transmissão entre humanos é limitada, o monitoramento é essencial, especialmente em regiões com surtos recorrentes, como partes do Sul e Sudeste da Ásia”, destaca.&lt;/p&gt;
+&lt;p&gt;“No Brasil não temos registro da doença e contamos com sistemas de vigilância epidemiológica preparados para identificar rapidamente qualquer caso importado”, afirma Silvia Nunes Szente Fonseca, médica infectologista e docente do IDOMED (Instituto de Educação Médica). De acordo com ela, o acompanhamento de viajantes vindos de áreas com surtos ativos e a capacidade de resposta do sistema de saúde contribuem para reduzir o risco de disseminação no país.&lt;/p&gt;
+&lt;p&gt;A infectologista informa que, sem vacina ou tratamento específico, a prevenção continua sendo a principal estratégia. “Medidas simples, como higienização adequada das mãos, cuidado no consumo de alimentos, especialmente frutas, e a busca por atendimento médico diante de febre persistente associada a sintomas respiratórios ou neurológicos, sobretudo após viagens internacionais, são fundamentais”, orienta.&lt;/p&gt;
+&lt;p&gt;Para as especialistas, informação de qualidade e vigilância constante são as principais ferramentas no enfrentamento de vírus emergentes. “O Brasil está atento e a população não precisa mudar sua rotina. O momento é de atenção responsável, não de alarme”, conclui Dra. Silvia.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;*Com informações da Agência Brasil&lt;/em&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/virus-nipah/" rel="tag"&gt;vírus nipah&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/08/especialistas-esclarecem-os-principais-pontos-sobre-o-virus-nipah/</guid></item><item><title>Ambulatório Escola passa a oferecer alinhadores invisíveis na Clínica de Ortodontia – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/05/ambulatorio-escola-passa-a-oferecer-alinhadores-invisiveis-na-clinica-de-ortodontia/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Dizem que “o sorriso é o nosso cartão de visita”, e hoje em dia não faltam recursos para que possamos cuidar dele da melhor maneira possível. Para isso, a população de Petrópolis e região passa a contar com mais uma opção de tratamento odontológico no Ambulatório Escola da UNIFASE/FMP, que agora passa a oferecer o serviço de alinhadores invisíveis na Clínica de Ortodontia.&lt;/p&gt;
+&lt;p&gt;Os alinhadores invisíveis são placas transparentes e removíveis, confeccionadas sob medida para cada paciente, que realizam movimentações dentárias progressivas ao longo do tratamento. A técnica é indicada para correções ortodônticas leves a moderadas, como apinhamento, dentes tortos, espaçamentos, ajustes de alinhamento e alterações de mordida, sempre após avaliação clínica inicial para verificar a indicação do tratamento e a solicitação dos exames necessários, que deve ser agendada via central de agendamento do Ambulatório Escola – AMBE (WhatsApp).&lt;/p&gt;
+&lt;p&gt;“Os alinhadores têm o mesmo objetivo dos aparelhos ortodônticos convencionais, mas oferecem vantagens importantes, como maior conforto, estética mais discreta e a possibilidade de remoção para alimentação e higiene bucal. Além disso, o planejamento digital permite mais previsibilidade dos resultados”, explica Rafael Leite, coordenador do curso de Especialização em Ortodontia da UNIFASE, mestre e especialista em Ortodontia e especialista em DTM e Dor Orofacial.&lt;/p&gt;
+&lt;p&gt;Reforçando o compromisso da instituição com a formação prática e a qualidade assistencial, os atendimentos são realizados por alunos da pós-graduação em Ortodontia, sob supervisão direta de professores e profissionais especialistas da área. Em um espaço que conta com duas clínicas odontológicas, totalizando 52 consultórios, sistema de prontuário eletrônico, fluxo digital com scanner intraoral e laboratório com fresadora e impressora 3D (Dentsply Sirona). Além de recursos como laser de alta e baixa potência e microscópio endodôntico.&lt;/p&gt;
+&lt;p&gt;O Ambulatório Escola da UNIFASE/FMP conta ainda com um Centro de Imagem moderno, equipado com radiografia digital e tomografia odontológica, além da realização de exames de ultrassonografia, ressonância magnética e tomografia computadorizada, todos com valores acessíveis à população.&lt;/p&gt;
+&lt;p&gt;O AMBE está localizado na Rua Hyvio Naliato, 869, no bairro Cascatinha. O agendamento pode ser realizado de segunda a sexta-feira, das 7h às 18h, pelo WhatsApp (24) 99268-5877.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Especialização em Ortodontia com inscrições abertas&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Estão abertas as inscrições para a Especialização em Ortodontia da UNIFASE/FMP, voltada a cirurgiões-dentistas que desejam aprofundar a formação clínica, com foco em técnicas contemporâneas, planejamento digital e uso de alinhadores invisíveis.&lt;/p&gt;
+&lt;p&gt;A nova turma tem início previsto para 9 de abril de 2026 e conta com condições especiais na primeira parcela:&lt;br&gt;
+– 20% de desconto para pagamentos até 8 de fevereiro de 2026&lt;br&gt;
+– 10% de desconto para pagamentos até 1º de março de 2026.&lt;/p&gt;
+&lt;p&gt;Saiba mais: &lt;a href="https://www.unifase-rj.edu.br/posgraduacao/ortodontia?utm_source=chatgpt.com" target="_blank" rel="noopener noreferrer"&gt;https://www.unifase-rj.&lt;wbr&gt;&lt;/wbr&gt;edu.br/posgraduacao/ortodontia&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/ambulatorio-escola/" rel="tag"&gt;ambulatório escola&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/clinica-odontologica/" rel="tag"&gt;clínica odontológica&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/05/ambulatorio-escola-passa-a-oferecer-alinhadores-invisiveis-na-clinica-de-ortodontia/</guid></item><item><title>UNIFASE implanta chatbot na Central de Agendamento do Ambulatório Escola – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/03/unifase-implanta-chatbot-na-central-de-agendamento-do-ambulatorio-escola/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Centro Universitário Arthur Sá Earp Neto/Faculdade de Medicina de Petrópolis deu mais um passo na modernização do atendimento em saúde com a implantação de um chatbot no WhatsApp da Central de Agendamento do Ambulatório Escola (AMBE). A ferramenta funciona desde setembro de 2025, como um atendimento inicial automatizado, que orienta o paciente, identifica a demanda e direciona o contato para a equipe responsável.&lt;/p&gt;
+&lt;p&gt;“A implantação desse sistema trouxe mais organização ao fluxo de atendimento da Central de Agendamento, permitindo identificar rapidamente a demanda de cada paciente e direcioná-la de forma mais eficiente. Isso impacta diretamente na redução do tempo de espera e no melhor aproveitamento das vagas disponíveis. Os resultados já apareceram na avaliação dos usuários: 25% dos pacientes que utilizaram a ferramenta responderam à pesquisa, demonstrando alto grau de satisfação com a ferramenta”, comentou Aluisio Pinheiro Barros, diretor do Ambulatório Escola.&lt;/p&gt;
+&lt;p&gt;Credenciado ao Sistema Único de Saúde (SUS) desde 1998, o AMBE é um espaço de assistência, ensino, extensão e pesquisa, onde estudantes de graduação e pós-graduação da área da saúde atuam de forma supervisionada. Em 2025, o ambulatório atendeu mais de 82 mil pacientes e tem mais de 115 mil usuários cadastrados, oferecendo assistência básica e especializada à população usuária do SUS. Sua estrutura é composta por salas de atendimento, consultórios odontológicos, salas de exames, salas para pequenas cirurgias, sala de vacinas, sala de curativos, centro de imagem e espaços para atividades em grupo. O ambulatório conta ainda com recepção informatizada, prontuário eletrônico, climatização de ambientes, wi-fi, máquina de conveniências e infraestrutura acessível, incluindo sanitários adaptados para pessoas com deficiência e fraldário.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Atendimento à população&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Os atendimentos do AMBE são realizados através de convênio com o SUS, para exames, consultas da atenção básica e atenção especializada, conforme critérios de regulação, definidos pela Secretaria Municipal de Saúde de Petrópolis. Além disso, o Ambulatório Escola também oferta consultas e exames a preços populares&lt;strong&gt; &lt;/strong&gt;e possui convênio com instituições da cidade de Petrópolis (Associação Comercial e Empresarial de Petrópolis, Associação de Taxistas de Petrópolis, Câmara de Dirigentes Lojistas de Petrópolis, Clínica Check Up, Clínica Doctor MED, Pastore Assist, Sindicato dos Professores de Petrópolis e Região, Smart 60 e Unimed Petrópolis).&lt;/p&gt;
+&lt;p&gt;Confira a lista de consultas e exames a preços populares:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Consultas:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Odontologia&lt;/li&gt;
+&lt;li&gt;Psicologia&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exames:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ultrassonografia&lt;/li&gt;
+&lt;li&gt;Tomografia Computadorizada&lt;/li&gt;
+&lt;li&gt;Ressonância Nuclear Magnética&lt;/li&gt;
+&lt;li&gt;Radiografia Odontológica&lt;/li&gt;
+&lt;li&gt;Tomografia Odontológica&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Serviço&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Ambulatório Escola – Central de Agendamento&lt;br&gt;
+&lt;/strong&gt;Telefone: (24) 2017-9000&lt;br&gt;
+WhatsApp: (24) 99268-5877*&lt;br&gt;
+*O número de WhatsApp não recebe ligações nem mensagens de voz.&lt;br&gt;
+Atendimento: segunda a sexta-feira, das 7h às 18h&lt;br&gt;
+Endereço: Rua Hyvio Naliato, 869 – Cascatinha&lt;br&gt;
+Mais informações: &lt;a href="http://www.unifase-rj.edu.br/ambulatorio-escola-ambe" target="_blank" rel="noopener noreferrer"&gt;www.unifase-rj.&lt;wbr&gt;&lt;/wbr&gt;edu.br/ambulatorio-escola-ambe&lt;/a&gt;&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/ambulatorio-escola/" rel="tag"&gt;ambulatório escola&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/unifase-fmp/" rel="tag"&gt;UNIFASE/FMP&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/03/unifase-implanta-chatbot-na-central-de-agendamento-do-ambulatorio-escola/</guid></item><item><title>Projeto Acalanto usa a palhaçaria como auxílio para a recuperação de pacientes em unidades de saúde de Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/01/30/projeto-acalanto-usa-a-palhacaria-como-auxilio-para-a-recuperacao-de-pacientes-em-unidades-de-saude-de-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Com a proposta de levar alegria e bem-estar a pacientes hospitalizados, o projeto “Acalanto – Risos, Afetos e Encontros” será inaugurado no próximo dia 2 de fevereiro, às 14h, no anfiteatro do Pavilhão de Ensino da UNIFASE, no Hospital de Ensino Alcides Carneiro. A palestra “Sentidos do Riso na Saúde”, ministrada pela atriz, diretora e professora, Ana Achcar, dará início à iniciativa que pretende levar arte e alegria para o ambiente hospitalar e instituições de assistência em saúde de Petrópolis. Com a produção dos grupos Palhastônicos e Teatro Circense Andança, o projeto é uma realização do Ministério da Cultura, viabilizado pela Lei de Incentivo à Cultura – Lei Rouanet.&lt;/p&gt;
+&lt;p&gt;Através da palhaçaria, o projeto visa auxiliar no tratamento de pessoas hospitalizadas ou que se encontram em processo de tratamento de saúde. Ao longo do ano, o grupo de artistas formado por palhaços, atores, produtores musicais, de teatro e contadores de história, realizará intervenções artísticas no Hospital de Ensino Alcides Carneiro e Associação Petropolitana dos Pacientes Oncológicos (APPO). As ações em unidades de saúde, voltadas aos pacientes, começam no dia 6 de fevereiro e serão realizadas semanalmente, toda segunda, terça e sexta-feira. A proposta é auxiliar na recuperação dos pacientes, proporcionando, através do riso, o bem-estar dos pacientes, acompanhantes e profissionais de saúde.&lt;/p&gt;
+&lt;p&gt;“O projeto tem como proposta levar a arte da palhaçaria para dentro dos hospitais, promovendo encontros afetuosos e transformadores entre palhaços e pacientes, familiares e profissionais da saúde. O nome ‘Acalanto’ evoca o cuidado, o carinho e a delicadeza, princípios fundamentais da nossa atuação”, enfatizou o coordenador do projeto, Léo Gaviole, palhaço, ator, professor e pesquisador, que destaca ainda o objetivo do projeto em contribuir para o enfrentamento da dor, fortalecimento do sistema imunológico e especialmente, humanização dos atendimentos em saúde.&lt;/p&gt;
+&lt;p&gt;O projeto, fundamentado em pesquisas que comprovam os benefícios da prática artística em unidades de saúde, visa a melhoria da qualidade de vida das pessoas em tratamentos prolongados. Com o patrocínio da GE Aerospace, parceria da APPO, UNIFASE e Hospital de Ensino Alcides Carneiro e apoio do SEHAC e da Prefeitura de Petrópolis, o grupo de artistas visa proporcionar novas experiências aos pacientes.&lt;/p&gt;
+&lt;p&gt;As intervenções serão realizadas por artistas locais, profissionais das artes cênicas que atuam e pesquisam a arte do circo e do riso. Além de Léo Gaviole, os multiartistas Andressa Hazboun, Dalus Gonçalves, Renata Alves e Madson José integram o elenco. Juntos, utilizam a música para embalar suas apresentações recheadas de malabarismo, mágicas, fantoches, bolhas de sabão, improvisação e muita empatia.&lt;/p&gt;
+&lt;p&gt;Além do trabalho de atuação em campo, o projeto oferece formação em palhaçaria em ambiente hospitalar para alunos da UNIFASE, oficinas de palhaçaria para o público em geral e vivências palhacescas para as equipes de saúde dos territórios de atuação. Informações sobre o projeto podem ser conferidas no perfil do Instagram @projeto.acalanto_ ou pelo site &lt;a href="http://www.projetoacalanto.com.br/" target="_blank" rel="noopener"&gt;www.projetoacalanto.com.br&lt;/a&gt;.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palhacaria/" rel="tag"&gt;Palhaçaria&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palhastronicos/" rel="tag"&gt;palhastrônicos&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/01/30/projeto-acalanto-usa-a-palhacaria-como-auxilio-para-a-recuperacao-de-pacientes-em-unidades-de-saude-de-petropolis/</guid></item><item><title>Museu Imperial realiza restauração de cadernetas de d. Pedro II – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/08/17/museu-imperial-realiza-restauracao-de-cadernetas-de-d-pedro-ii/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Museu Imperial recebeu a visita do Ministério Público Federal (MPF) para a vistoria e acompanhamento dos trabalhos de conservação e restauro de 38 cadernetas de viagem do imperador d. Pedro II.&lt;/p&gt;
+&lt;p&gt;O conjunto, reconhecido pela Organização das Nações Unidas para a Educação, a Ciência e a Cultura (Unesco) como patrimônio documental da humanidade, passa por um minucioso processo de preservação que inclui higienização, restauração, reconstituição, encadernação, acabamento e tratamentos específicos para reparo de perdas e danos.&lt;/p&gt;
+&lt;p&gt;O projeto foi viabilizado por recursos financeiros oriundos de acordo firmado com MPF, a partir de proposta apresentada pelo Museu Imperial.&lt;/p&gt;
+&lt;p&gt;Muitas das peças apresentam estado frágil devido à ação do tempo, mas reúnem anotações que oferecem um retrato detalhado das transformações ocorridas no século XIX, incluindo inovações tecnológicas e referências culturais que marcaram a transição para a Modernidade.&lt;/p&gt;
+&lt;p&gt;A execução do trabalho ocorre no Laboratório de Conservação e Restauração do Museu Imperial, sob supervisão de sua equipe técnica e está a cargo da empresa R C Gonçalves Encadernações e Restauro “Obra Rara”. O prazo estimado para a conclusão é de quatro meses, ao final dos quais será elaborado relatório técnico detalhado do processo.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/museu-imperial/" rel="tag"&gt;museu imperial&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/restauracao/" rel="tag"&gt;restauração&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/08/17/museu-imperial-realiza-restauracao-de-cadernetas-de-d-pedro-ii/</guid></item><item><title>Você conhece os grupos de dança germânica de Petrópolis? – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/07/13/voce-conhece-os-grupos-de-danca-germanica-de-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Sem dúvidas, um dos grandes destaques da Bauernfest são os grupos germânicos que chamam a atenção de turistas e moradores com trajes típicos alemães do século XIX e com as apresentações das danças folclóricas. O primeiro deles foi o Bergstadt, fundado por jovens idealistas em 25 de agosto de 1990, pouco tempo depois da primeira edição da Festa do Colono Alemão. Hoje já são sete grupos que fazem parte da Associação dos Grupos Folclóricos Alemães de Petrópolis (AGFAP), fundada em 4 de outubro de 2000.&lt;/p&gt;
+&lt;p&gt;Os grupos se apresentam durante a Bauernfest no palco Koblenz, nos jardins do Palácio de Cristal e assim resgatam, por meio das danças e músicas típicas da época, a tradição dos primeiros colonos que chegaram à Petrópolis em 1845. Para garantir a fidelidade histórica das apresentações, eles fazem pesquisas de figurino, hábitos, regiões, coreografias e trilhas sonoras de época, trazidas ao Brasil pelos antepassados germânicos. Cada categoria tem suas danças e trajes específicos, a fim de transmitir ao público uma projeção folclórica mais autêntica possível.&lt;/p&gt;
+&lt;p&gt;“Mais do que uma simples apresentação artística, esses grupos são uma forma de resistência, de memória e de pertencimento. Eles educam as novas gerações, promovem o respeito à diversidade e fortalecem os laços comunitários”, explicou o presidente da Associação dos Grupos Folclóricos Alemães de Petrópolis, William da Silva Cardoso.&lt;/p&gt;
+&lt;p&gt;Alguns grupos se dividem em categorias, que vão do infantil ao master. Eles participam e promovem eventos que tenham como fundamento a cultura alemã, através da dança, comércio de alimentos, bebidas típicas, vendas de souvenirs, materiais históricos e demais atividades. Ao longo do ano participam de mais de 100 apresentações pelo Brasil.&lt;/p&gt;
+&lt;p&gt;Conheça os grupos Folclóricos de Petrópolis:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bergstadt&lt;/strong&gt; – Foi o primeiro grupo da cidade, fundado por jovens idealistas em 25 de agosto de 1990. O objetivo foi, através do cultivo de danças e músicas folclóricas alemäes, resgatar as tradições trazidas pelos antepassados germânicos. Cada categoria tem suas danças e trajes específicos, sempre com a preocupação de pesquisar através de fontes seguras, no Brasil e na Alemanha, informações corretas sobre coreografias e indumentária, a fim de transmitir para o público uma projeção folclórica mais autêntica possível. o grupo conta com quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Bauerngruppe&lt;/strong&gt; – Foi fundado em primeiro de abril de 1991, o nome significa grupo camponês e faz menção a tradicional Bauernfest. O grupo já ultrapassou a marca de 1.300 apresentações em mais de 35 cidades de cinco estados brasileiros. O grupo tem dois gigantescos painéis cenográficos que criam uma identidade visual, propiciando um fantástico dinamismo no intervalo entre as danças. São quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Mosel Volkstanze&lt;/strong&gt; – Fundado no dia 14 de novembro de 1991, é o terceiro grupo da cidade. O nome Mosel faz referência a um rio, o Mosela (em francês Moselle, em alemão Mosel e em luxemburguês Musel) que é um rio do nordeste da França, de Luxemburgo e do oeste da Alemanha. O grupo conta apenas com a categoria adulta.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Rheinland Pfalz&lt;/strong&gt; – Fundado em 22 de outubro de 1994, o grupo recebeu este nome que faz referência a exata região de onde vieram os primeiros colonos que trabalharam no ambicioso projeto urbanístico do engenheiro Júlio Frederico Koeler para construção de Petrópolis. O grupo é caracterizado por danças alegres e descontraídas, valorizando as diferentes regiões germânicas. O grupo conta com as categorias: infantil, juvenil e adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Petrópolis Danças Folclóricas&lt;/strong&gt; – Fundado em 24 de fevereiro de 1996 com o intuito do resgate das tradições dos vários povos, raças e culturas que compõem o Brasil e com o propósito de divulgar a cidade de Petrópolis. O grupo se diferencia dos demais por ser assumidamente multinacional e em suas apresentações e se prestar a mostrar para o público a cultura de vários povos, levando o espectador à uma viagem pelo tempo e espaço. As apresentações do Petrópolis Danças Folclóricas são alegres e vibrantes e conta com as categorias: infanto-juvenil e adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Kaiserstadt Kulturkreis&lt;/strong&gt; – Fundado em primeiro de fevereiro de 1996 por um grupo de jovens que se reuniu para falar de seu entusiasmo e do desejo de arregaçar as mangas para fazer a diferença, resgatando os costumes culturais dos imigrantes alemães. Em fevereiro de 1997 criaram o “Centro Cultural Cidade Imperial” e também foram iniciados os trabalhos com teatro. O grupo conta com duas categorias: infanto-juvenil e Adulto.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Blumenberg Volkstanz Blumenberg&lt;/strong&gt; – Fundado em seis de janeiro de 2001, conta com integrantes de quatro a 60 anos. Os trajes selecionados para as categorias são, em sua maioria, originários da região sul da Alemanha e da Áustria, possuindo também o Monchguter Fischertracht – traje de pescadores originário da ilha de Rugen, na Pomerânia. O grupo possui um repertório de danças tradicionais e de difícil execução, onde se destacam os Schuhplattler e Landler. São quatro categorias: infantil, juvenil, adulto e master.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bauernfest/" rel="tag"&gt;bauernfest&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/grupos-germanicos/" rel="tag"&gt;grupos germânicos&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/07/13/voce-conhece-os-grupos-de-danca-germanica-de-petropolis/</guid></item><item><title>[Você sabia?] Por que a Bauernfest é realizada no Palácio de Cristal? – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/07/02/voce-sabia-por-que-a-bauernfest-e-realizada-no-palacio-de-cristal/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Segunda maior festa alemã do Brasil, a Bauernfest acontece em Petrópolis há 36 anos, como uma maneira de celebrar a cultura germânica trazida pelos primeiros colonos que chegaram para construir a cidade em 1845. A primeira edição foi em 1990, mas muito antes as famílias de descendentes dos colonos já se reuniam para celebrar a cultura e a gastronomia alemã.&lt;/p&gt;
+&lt;p&gt;Em meados do século XX, eram organizadas pequenas quermesses em casas e barracões. Mas foi em 1982 que a festa começou, ainda pequena, com o nome de “Festival Germânico”, inaugurada pela presidente do Instituto Histórico, Ruth Judice, numa parceria com o Clube 29 de Junho, por iniciativa de nomes como Carlos Rheingantz, Ildefonso Troyack e Emygdia Hoeltz. O local escolhido para a festa foi o &lt;a href="https://aconteceempetropolis.com.br/2016/09/05/voce-sabia-finalidade-do-palacio-de-cristal-era-servir-como-pavilhao-para-exposicoes-de-flores-e-produtos-agricolas/"&gt;&lt;strong&gt;Palácio de Cristal&lt;/strong&gt;&lt;/a&gt;, que fica localizado na Praça Koblenz, atual Praça da Confluência, onde os primeiros colonos costumavam se encontrar na cidade.&lt;/p&gt;
+&lt;p&gt;De acordo com o &lt;a href="https://ihp.org.br/bauer-e-petropolis/"&gt;artigo “Bauer e Petrópolis”&lt;/a&gt;, escrito por Maria das Graças Duvanel Rodrigues e disponível no site do Instituto Histórico de Petrópolis (IHP), a festa passou a ser chamada de “Bauernfest” em 1990, por sugestão de Liane Bauer, neta do historiador descendente de imigrantes alemães, Gustavo Ernesto Bauer. Desta forma, o nome da festa é uma homenagem ao historiador que é um dos fundadores do Clube 29 de junho e também criador do Museu Casa do Colono. O nome “Bauer” também significa “agricultor” em alemão e faz uma relação com os trabalhadores rurais que colonizaram a cidade.&lt;/p&gt;
+&lt;p&gt;“É uma festa da cultura, mas acima de tudo em memória dos colonos que aqui chegaram. Nós temos que relembrar os nossos antepassados porque, se estamos aqui hoje, é porque eles se dedicaram e trabalharam para construir Petrópolis”, comentou Márcio Haubrich, atual presidente do Clube 29 de Junho.&lt;/p&gt;
+&lt;p&gt;O evento traz uma programação de grupos de danças folclóricas, corais, bandas tradicionais germânicas, concurso de chope em metro, comidas e bebidas típicas. Hoje a festa cresceu tanto que é considerada a maior do município serrano e de grande importância para o calendário turístico e cultural do estado e do país.&lt;/p&gt;
+&lt;p&gt;A 36ª Bauernfest segue até 13 de julho no Palácio de Cristal e arredores. Promovida pela Prefeitura de Petrópolis e Clube 29 de Junho, a Bauernfest tem o patrocínio da Águas do Imperador, Embratur, Caixa, TurisRio, Governo do Estado do Rio de Janeiro e Ministério da Cultura. A Império é a fornecedora do chope oficial da Bauern.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/bauernfest/" rel="tag"&gt;bauernfest&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/curiosidades-de-petropolis/" rel="tag"&gt;curiosidades de Petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/palacio-de-cristal/" rel="tag"&gt;palácio de cristal&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/07/02/voce-sabia-por-que-a-bauernfest-e-realizada-no-palacio-de-cristal/</guid></item><item><title>Confira quais foram os livros mais vendidos do 2º Flipetrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/12/03/confira-quais-foram-os-livros-mais-vendidos-do-2o-flipetropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O livro mais vendido da segunda edição do Festival Literário Internacional de Petrópolis – Flipetrópolis foi “Tomara que você seja deportado”, de Jamil Chade, seguido de “Coração sem medo”, de Itamar Vieira Junior e “Uma história da velhice no Brasil”, de Mary del Priore. Confira os dez destaques de vendas no 2.º Flipetrópolis:&lt;/p&gt;
+&lt;p&gt;1º – “Tomara que você seja deportado”, de Jamil Chade (Nós)&lt;/p&gt;
+&lt;p&gt;2º – “Coração sem medo”, de Itamar Vieira Junior (Todavia)&lt;/p&gt;
+&lt;p&gt;3º – “Uma história da velhice no Brasil”, de Mary del Priore (Vestígio)&lt;/p&gt;
+&lt;p&gt;4º – “Meridiana”, de Eliana Alves Cruz (Companhia das Letras)&lt;/p&gt;
+&lt;p&gt;5º – “Lélia Gonzalez: um retrato”, de Sueli Carneiro (Zahar)&lt;/p&gt;
+&lt;p&gt;6º – “Awon Baba”, de Teresa Cárdenas (Pallas)&lt;/p&gt;
+&lt;p&gt;7º – “A franja do fim do mundo”, de Sérgio Abranches (Faria e Silva)&lt;/p&gt;
+&lt;p&gt;8º – “Insubmissas lágrimas de mulheres”, de Conceição Evaristo (Malê)&lt;/p&gt;
+&lt;p&gt;9º – “Agressão: a escalada da violência doméstica”, de Ana Paula Araújo (Globo Livros)&lt;/p&gt;
+&lt;p&gt;10º – “Olhos D’Água”, de Conceição Evaristo (Pallas)&lt;/p&gt;
+&lt;p&gt;O evento foi realizado graças à Lei Rouanet, do Ministério da Cultura, com o Patrocínio Máster da GE Aerospace e o apoio da Zeiss, da Caixa, da Academia Petropolitana de Letras, do Ipeafro e da Prefeitura de Petrópolis. Parceria de Mídia: Amado Mundo.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/flipetropolis/" rel="tag"&gt;flipetropolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/12/03/confira-quais-foram-os-livros-mais-vendidos-do-2o-flipetropolis/</guid></item><item><title>Inspirada na história de seu pai, escritora Aline Silva lança livro com cenas ambientadas em Petrópolis – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2025/10/15/inspirada-na-historia-de-seu-pai-escritora-aline-silva-lanca-livro-com-cenas-ambientadas-em-petropolis/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;blockquote&gt;
+&lt;p&gt;Enquanto subia a serra até Petrópolis, via a paisagem verde/nublada, borrada por lágrimas nostálgicas, eu via os vários passados vividos ali. No reencontro com a casa — minha antiga morada — eu estava emocionada e acho que meu olhar marejado desobstruiu os canais lacrimais do Seo Damião. Naquela tarde de 2023, fomos passear nos jardins do Museu Imperial, palco do namoro dos meus pais, na década de 1970. “Nunca mais vim aqui”, ele disse, “Como o tempo passa!”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Saindo do agreste de Pernambuco tendo Petrópolis como destino final, a obra “O vento roubou o meu chapéu”, primeiro livro da escritora e psicanalista Aline Silva, conta a trajetória de seu pai, Seo Damião, desde suas origens até a vida que construiu na Cidade Imperial.&lt;/p&gt;
+&lt;p&gt;Aline começou a escrever a história em 2019, a partir de conversas com seu pai, num período em que ele se recuperava de um tratamento cirúrgico. “Eu mergulhei na ancestralidade da família, e isso incluiu uma conexão com minha avó paterna, que era parteira no agreste pernambucano, além de conversas com minha filha de 8 anos e suas sábias perguntas infantis sobre as relações familiares”, conta a autora.&lt;/p&gt;
+&lt;p&gt;Escrito em primeira pessoa, sob o ponto de vista de Aline, a obra conta com cenas ambientadas em Petrópolis. “Há duas cenas importantes que se passam na cidade. A primeira, nos jardins do Museu Imperial, e a segunda, no cemitério da cidade. Outras menções mais passageiras são feitas sobre a antiga Lojas Pernambucanas, localizada na rua do Imperador, onde Seo Damião trabalhou e conheceu sua esposa Marlene, e sobre o comércio dele, que ganhou seu sobrenome, o Mercadinho Ferreira, localizado no Quarteirão Brasileiro, com 50 anos de existência, completados em 2025”, revela.&lt;/p&gt;
+&lt;p class="p1"&gt;&lt;span class="s1"&gt;Ao falar sobre o livro, Aline menciona uma coincidência entre a história de seu pai e a do escritor &lt;/span&gt;&lt;a href="https://aconteceempetropolis.com.br/2020/10/19/poetas-em-petropolis-manuel-bandeira/"&gt;&lt;strong&gt;Manuel Bandeira&lt;/strong&gt;&lt;/a&gt;, cuja conexão com Petrópolis é evidenciada em vários poemas de sua autoria. “Seo Damião é residente da rua Mosela, no exato endereço onde o também pernambucano Manuel Bandeira residiu enquanto esteve na região serrana. Ali, o grande poeta e escritor modernista escreveu seu belo poema ‘Noturno Mosela’, no qual lamenta a passagem impiedosa do tempo. O mesmo pesar parece ecoar na voz de Damião, cujas falas seguem a mesma direção e sobressaem em várias passagens do livro”, explica.&lt;/p&gt;
+&lt;div dir="auto"&gt;
+&lt;div&gt;
+&lt;p&gt;O livro será lançado no &lt;a href="https://aconteceempetropolis.com.br/2025/09/20/2a-edicao-do-flipetropolis-acontece-em-novembro/"&gt;&lt;strong&gt;Flipetrópolis&lt;/strong&gt;&lt;/a&gt;, que neste ano acontece de 26 a 30 de novembro, no Palácio de Cristal. Porém, os exemplares já podem ser adquiridos no Mercadinho Ferreira (localizado na Rua Professor Stroeller, 914 – Quarteirão Brasileiro), na livraria Nobel da Rua 16 de Março (onde foi o livro mais vendido do mês de agosto/2025), no Instagram da autora @silvalines e no site da editora Impressões de Minas.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/flipetropolis/" rel="tag"&gt;flipetropolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/lancamento-de-livro/" rel="tag"&gt;lançamento de livro&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2025/10/15/inspirada-na-historia-de-seu-pai-escritora-aline-silva-lanca-livro-com-cenas-ambientadas-em-petropolis/</guid></item><item><title>[Você sabia?] Petrópolis é mencionada no livro “Ainda estou aqui” – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2024/11/26/voce-sabia-petropolis-e-mencionada-no-livro-ainda-estou-aqui/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Não há nada mais cruel do que o desaparecimento de uma pessoa. Conviver com as incertezas, passar a vida em busca de respostas, nutrindo esperanças (por mais ínfimas que sejam), sem nunca ter um ponto final.&lt;/p&gt;
+&lt;p&gt;Em “Ainda estou aqui”, de Marcelo Rubens Paiva, conhecemos um pouco sobre a vida familiar antes e depois do desaparecimento de seu pai, a luta de sua mãe Eunice em busca de respostas sobre o que aconteceu com seu marido, e a batalha final contra o Alzheimer.&lt;/p&gt;
+&lt;p&gt;No dia 20 de janeiro de 1971, Rubens Paiva é levado para prestar depoimento aos militares. No dia seguinte, Eunice e uma de suas filhas, Eliana, também são levadas. É neste contexto que Petrópolis é mencionada pela primeira vez na obra.&lt;/p&gt;
+&lt;p&gt;Para proteger os netos, a avó materna tira as crianças que haviam ficado na casa do Leblon e os leva para lugares diferentes. Dois deles na região serrana do Rio de Janeiro.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“O caminho, reconheci na hora. Avenida Brasil, entrada à direita, estrada de Petrópolis. Me levava para a região serrana. Fiz algumas vezes aquela viagem. Petrópolis, Teresópolis, Araras… Muitos pais de amigos tinham casas lá. É perto do Rio, é fresco, é lindo, é imperial. (…) Subimos a serra de Petrópolis pela BR-040. A entrada para Nova Friburgo ficou para trás. Cruzamos Petrópolis à direita. Fomos em frente. Antes da estrada para Teresópolis, entramos à esquerda. Araras era o destino”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Marcelo ficou na residência do casal Mindlin, “numa casa que era modelo de arquitetura modernista”. Já sua irmã Nalu estava “em Petrópolis, na casa do Marcílio Marques Moreira”, que foi Ministro da Fazenda durante o governo de Fernando Collor e presidente da Comissão Ética Pública do governo Lula.&lt;/p&gt;
+&lt;p&gt;Petrópolis volta a ser mencionada no final do livro, mais precisamente no último capítulo que apresenta a denúncia enviada pela família Paiva ao Ministério Público Federal. No tópico “quadrilha armada desenvolvida no contexto de organização criminosa”, destaca-se o seguinte trecho que menciona a Casa da Morte, localizada no bairro Caxambu:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Ainda que os denunciados e demais integrantes da quadrilha agissem em nome do Estado, os crimes por eles cometidos não estavam, de nenhum modo, amparados pelo direito vigente à época, nem mesmo por aquele emanado do próprio movimento golpista. Os sequestros cometidos por integrantes da organização eram antijurídicos porque as prisões não eram seguidas de comunicação à autoridade judicial, como já determinava a lei vigente à época, havendo nos autos, ainda, provas de que, a partir de 1971, presos políticos foram levados a um centro clandestino de torturas mantido pelo CIE em Petrópolis, hoje conhecido como &lt;strong&gt;‘Casa da Morte’&lt;/strong&gt;”.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Um dos acusados pela morte de Rubens Paiva chegou a confessar que foi responsável por manter &lt;a href="https://aconteceempetropolis.com.br/2017/08/15/coluna-ines-etienne-romeu-testemunha-da-casa-da-morte/"&gt;Inês Etienne Romeu&lt;/a&gt; no local. Ela foi a única sobrevivente da Casa da Morte.&lt;/p&gt;
+&lt;p&gt;Em agosto deste ano, o Governo Federal publicou o termo de convênio com a Prefeitura de Petrópolis para transformar a “Casa da Morte” em Memorial de Liberdade, Verdade e Justiça.&lt;/p&gt;
+&lt;figure id="attachment_99994" class="wp-caption aligncenter"&gt;&lt;a href="https://aconteceempetropolis.com.br/wp-content/uploads/2024/11/ainda-estou-aqui.jpg"&gt;&lt;img class=" wp-image-99994" src="https://aconteceempetropolis.com.br/wp-content/uploads/2024/11/ainda-estou-aqui.jpg" alt="" width="710" height="596"&gt;&lt;/a&gt;&lt;figcaption id="caption-attachment-99994" class="wp-caption-text"&gt;Foto: Alile Dara Onawale / Divulgação&lt;/figcaption&gt;&lt;/figure&gt;
+&lt;p&gt;&lt;strong&gt;Sobre o filme&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;“Ainda estou aqui”, com direção de Walter Salles, levou o prêmio de “Melhor Roteiro” no Festival de Cinema de Veneza e se tornou elegível para a categoria de Melhor Filme Estrangeiro do Oscar. Fernanda Torres também aparece entre as cotadas para a categoria de Melhor Atriz, a mesma que sua mãe disputou em 1999 por “Central do Brasil”, do mesmo diretor.&lt;/p&gt;
+&lt;p&gt;De acordo com dados da ComScore, em seu terceiro fim de semana de exibição, no período de 21 a 24/11, o filme voltou a liderança da bilheteria nacional, levando 390 mil pessoas às salas de cinema. Desde sua estreia, mais de 1,7 milhão de espectadores já foram ver o longa.&lt;/p&gt;
+&lt;p&gt;Enquanto no livro temos mais informações e trechos de documentos sobre o que aconteceu com Rubens Paiva, além de falar mais sobre a luta de Eunice contra o Alzheimer, o filme traz uma atmosfera mais afetuosa, inserindo o público no ambiente familiar antes e depois do desaparecimento. Ambos se complementam e merecem ser conferidos.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/ainda-estou-aqui/" rel="tag"&gt;ainda estou aqui&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2024/11/26/voce-sabia-petropolis-e-mencionada-no-livro-ainda-estou-aqui/</guid></item><item><title>Academia da Saúde promove aulão de Carnaval no Parque Cremerie nesta quarta – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/02/10/academia-da-saude-promove-aulao-de-carnaval-no-parque-cremerie-nesta-quarta/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;Nesta quarta-feira (11), a Academia da Saúde do Parque Cremerie promove um aulão de Carnaval, voltado à promoção da saúde, do bem-estar e integração social. O evento está marcado para as 9h30 e será aberto para toda a população, mesmo aqueles que não estão inscritos na Academia.&lt;/p&gt;
+&lt;p&gt;A programação inclui uma série de atividades físicas conduzidas de maneira dinâmica e acessível, como dança com marchinhas de carnaval, step, jump, alongamento ritmado e variações de agachamento com exercícios abdominais. Os participantes são incentivados a participar do aulão fantasiados e a melhor fantasia será premiada.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Parque Cremerie na programação da Folia Imperial&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;O Parque Cremerie também vai contar com matinês para as famílias. A programação gratuita acontece no sábado e domingo (14 e 15 de fevereiro), das 13h às 17h.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/academia-da-saude/" rel="tag"&gt;academia da saúde&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/parque-cremerie/" rel="tag"&gt;parque cremerie&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/02/10/academia-da-saude-promove-aulao-de-carnaval-no-parque-cremerie-nesta-quarta/</guid></item><item><title>Atividades do Agita Petrópolis estão distribuídas em 11 núcleos – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/01/28/atividades-do-agita-petropolis-estao-distribuidas-em-11-nucleos/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;As atividades do programa Agita Petrópolis voltaram neste mês, com aula de dança realizada na sede da Secretaria de Esporte, no Centro.&lt;/p&gt;
+&lt;p&gt;Atualmente, o programa oferece aulas de core, karatê, alongamento, dança de salão, ginástica funcional, ginástica localizada, dança, defesa pessoal, mobilidade, taekwondo, jiu-jitsu, ritmos e 60+. As atividades estão distribuídas em 11 núcleos: Secretaria de Esportes (Centro – Rua 16 de Março), CIE Caxambu, Vila São José, Fábrica do Saber, Mosela (Igreja São Judas Tadeu), Centro de Cultura Raul de Leoni (Centro – Praça Visconde de Mauá), Madame Machado (Igreja Nossa Senhora de Fátima), Pedro do Rio (CEI Nilo Peçanha), Vicenzo Rivetti (Igreja Divino Espírito Santo), Itamarati (Igreja Wesleyana) e CEU da Posse.&lt;/p&gt;
+&lt;p&gt;As vagas são limitadas. Os interessados podem se inscrever presencialmente na Rua 16 de Março, 183 – 2º andar – Centro, das 9h às 17h e tirar dúvidas por meio do telefone (24) 2249-6803.&lt;/p&gt;
+&lt;p&gt;O Programa Agita Petrópolis foi retomado em janeiro de 2025. Durante o ano, mais de duas mil pessoas foram abraçados pelo projeto em aulas de diversas modalidades. “Nós que somos da educação e do esporte priorizamos sempre saúde e integração. Poder oferecer qualidade para toda a cidade em mais de 10 núcleos diferentes é um dos maiores orgulhos em estar à frente dessa Secretaria”, ressaltou o secretário de Esportes Leandro Kronenberger.&lt;/p&gt;
+&lt;p&gt;O Programa funciona em parceria com outros projetos como o Conviver, Renascer e Gerações em Movimento, buscando atender cada vez mais pessoas e mais localidades.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/agita-petropolis/" rel="tag"&gt;agita petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/01/28/atividades-do-agita-petropolis-estao-distribuidas-em-11-nucleos/</guid></item><item><title>Agita Petrópolis retorna neste mês com inclusão da Capoeira no cronograma de atividades – ACONTECE EM PETRÓPOLIS</title><link>https://aconteceempetropolis.com.br/2026/01/12/agita-petropolis-retorna-neste-mes-com-inclusao-da-capoeira-no-cronograma-de-atividades/</link><description>&lt;div class="entry-content entry clearfix"&gt;
+
+			
+			&lt;p&gt;O Agita Petrópolis retorna no próximo dia 19 de janeiro com uma novidade: aulas de capoeira. O programa, que já ultrapassou a marca de dois mil alunos atendidos em 2025, segue em expansão e promete ainda mais desenvolvimento social por meio do esporte em 2026.&lt;/p&gt;
+&lt;p&gt;Ao longo de 2025, o programa contou com diversas atividades, incluindo artes marciais, danças e ginásticas, tornando-se um espaço de acolhimento e aprendizado para milhares de alunos, sempre com o acompanhamento de professores capacitados.&lt;/p&gt;
+&lt;p&gt;“Um dos maiores orgulhos do programa foi a capacidade de alcançar alunos atípicos e oferecer um atendimento especializado. Seguimos empenhados em promover a inclusão e a socialização por meio do esporte”, afirmou o secretário de Esportes, Lazer, Pessoa com Deficiência e Mobilidade Reduzida, Leandro Kronenberger.&lt;/p&gt;
+&lt;p&gt;A capoeira será ministrada pelo instrutor Kako, com aulas às segundas-feiras, das 16h às 17h30, e às quartas-feiras, das 17h às 18h. “A capoeira gera vários benefícios físicos, mentais, culturais e sociais, como equilíbrio, força, Coordenação motora, lateralidade, reduzindo a ansiedade, aumentando a autoestima, disciplina, respeito, trabalho em grupo, socialização, musicalidade e vários outros. Uma modalidade que pode ser adaptada para crianças, adultos e idosos promovendo desenvolvimento motor e qualidade de vida”, explicou o instrutor.&lt;/p&gt;
+&lt;p&gt;Atualmente, o programa Agita Petrópolis oferece aulas de core, karatê, alongamento, dança de salão, ginástica funcional, ginástica localizada, dança, defesa pessoal, mobilidade, taekwondo, jiu-jitsu, ritmos e 60+. As atividades estão distribuídas em 11 núcleos: Secretaria de Esportes (Centro – Rua 16 de Março), Caxambu, Vila São José, Fábrica do Saber, Mosela, Centro de Cultura Raul de Leoni (Centro – Praça Visconde de Mauá), Madame Machado, Pedro do Rio, Vicenzo Rivetti, Itamarati e Posse.&lt;/p&gt;
+&lt;p&gt;As inscrições já estão abertas e as vagas são limitadas. Os interessados podem se inscrever pelo telefone (24) 2249-6803 ou presencialmente na Rua 16 de Março, 183 – 2º andar – Centro, das 9h às 17h.&lt;/p&gt;
+
+			&lt;div class="post-bottom-meta post-bottom-tags post-tags-modern"&gt;&lt;div class="post-bottom-meta-title"&gt;&lt;span class="tie-icon-tags"&gt;&lt;/span&gt; Etiquetas&lt;/div&gt;&lt;span class="tagcloud"&gt;&lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/agita-petropolis/" rel="tag"&gt;agita petrópolis&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/destacado/" rel="tag"&gt;destacado&lt;/a&gt; &lt;a href="https://aconteceempetropolis.com.br/noticias-petropolis/petropolis/" rel="tag"&gt;petrópolis&lt;/a&gt;&lt;/span&gt;&lt;/div&gt;
+		&lt;/div&gt;</description><guid isPermaLink="true">https://aconteceempetropolis.com.br/2026/01/12/agita-petropolis-retorna-neste-mes-com-inclusao-da-capoeira-no-cronograma-de-atividades/</guid></item></channel></rss>
