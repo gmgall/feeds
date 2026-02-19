@@ -1,2 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/</title><link>https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/</link><description>https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/</description><lastBuildDate>Thu, 19 Feb 2026 12:52:44 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
+<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/noticia/[0-9]{4}/[0-9]{2}/.+html -i .+/geral/.+ --with-body --body-csss .article --follow https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/ -o ./feeds/gauchazh.xml</title><link>https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/</link><description>Failed to generate feed.</description><lastBuildDate>Thu, 19 Feb 2026 18:43:40 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: HTTPSConnectionPool(host='gauchazh.clicrbs.com.br', port=443): R</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/noticia/[0-9]{4}/[0-9]{2}/.+html -i .+/geral/.+ --with-body --body-csss .article --follow https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/ -o ./feeds/gauchazh.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/noticia/[0-9]{4}/[0-9]{2}/.+html -i .+/geral/.+ --with-body --body-csss .article --follow https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/ -o ./feeds/gauchazh.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; HTTPSConnectionPool(host='gauchazh.clicrbs.com.br', port=443): Read timed out.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 903, in _error_catcher
+    yield
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 1421, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 1363, in _handle_chunk
+    returned_chunk = self._fp._safe_read(self.chunk_left)  # type: ignore[union-attr]
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/http/client.py", line 631, in _safe_read
+    data = self.fp.read(amt)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/socket.py", line 705, in readinto
+    return self._sock.recv_into(b)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/ssl.py", line 1274, in recv_into
+    return self.read(nbytes, buffer)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/ssl.py", line 1130, in read
+    return self._sslobj.read(len, buffer)
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/models.py", line 820, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 1250, in stream
+    yield from self.read_chunked(amt, decode_content=decode_content)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 1397, in read_chunked
+    with self._error_catcher():
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/urllib3/response.py", line 908, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.") from e  # type: ignore[arg-type]
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='gauchazh.clicrbs.com.br', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
+    make_feed(args)
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 946, in make_feed
+    ret_item = make_feed_item_follow(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 668, in make_feed_item_follow
+    page_text, req = do_session_http_get(
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 646, in do_session_http_get
+    for chunk in req.iter_content(chunk_size=chunk_size, decode_unicode=True):
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/utils.py", line 562, in stream_decode_response_unicode
+    for chunk in iterator:
+  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/site-packages/requests/models.py", line 826, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='gauchazh.clicrbs.com.br', port=443): Read timed out.
+
+&lt;/pre&gt;</description></item></channel></rss>
