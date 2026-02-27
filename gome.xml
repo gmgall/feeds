@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 27 Feb 2026 01:27:38 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Fri, 27 Feb 2026 06:45:28 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -391,6 +391,7 @@
         &lt;li&gt;&lt;a href="sleep.html" class="post-link"&gt;My relationship with sleep&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="postcard.html" class="post-link"&gt;They got me with this postcard&lt;/a&gt; — how’d they know I’d like this?&lt;/li&gt;
         &lt;li&gt;My favorite nonsense word is &lt;a href="bingle.html" class="post-link"&gt;bingle&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="character.html" class="post-link"&gt;Breaking character&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
   
@@ -1425,11 +1426,58 @@
       &lt;time datetime="Thu, 15 Jan 2025 19:30:00 CST"&gt;15 Jan. 2026, 7:30 PM&lt;/time&gt;
       &lt;p&gt;An evolution in gomeposting&lt;/p&gt;
     &lt;/a&gt;
+    &lt;a class="journal-link" href="character.html"&gt;
+      &lt;h3&gt;Breaking character&lt;/h3&gt;
+      &lt;div class="line stop-3"&gt;&lt;/div&gt;
+      &lt;time datetime="Thu, 26 Feb 2026 22:00:00 CST"&gt;26 Feb. 2026, 10:00 PM&lt;/time&gt;
+      &lt;p&gt;Do something dumb&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — bus</title><link>https://ctrl-c.club/~gome/journal/bus.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — character</title><link>https://ctrl-c.club/~gome/journal/character.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Breaking character&lt;/h1&gt;
+      &lt;time datetime="Thu, 26 Feb 2026 22:00:00 CST"&gt;26 Feb. 2026, 10:00 PM&lt;/time&gt;
+      &lt;p&gt;
+        As a general rule, I almost never buy things on impulse.
+        If I see something and want it, I make myself wait,
+        remembering that I can always come back and get it later if I still want it.
+        Most of the time, I don’t end up wanting it later (or I just forget about it).
+        It’s a good rule to follow, because it helps me avoid wastefully buying junk I don’t really need.
+      &lt;/p&gt;&lt;p&gt;
+        I tend to be a fairly conscientious person about some things, but sometimes it’s to a fault.
+        Rather than being merely thoughtful, I can end up wasting a lot of time worrying about what I should or shouldn’t do.
+        Occasionally this is exhausting and makes me wish I could loosen up a bit.
+      &lt;/p&gt;&lt;p&gt;
+        Today I was grocery shopping and they happened to have some Pokémon plushies at the store.
+        On top of the impulse-buying rule, I also have a heuristic against buying branded merchandise
+        (why give a company free advertising?).
+        On the other hand, the plushies took me back to when I was a kid playing the original Pokémon games.
+        I thought of how much I used to like Pikachu, and how I used to have some other little Pikachu-themed toy I can’t recall anymore.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/pikachu.webp" width="450" height="600" alt="A Pikachu plushie sitting in a green dish."&gt;
+        &lt;figcaption&gt;Ain’t he cute?&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        So I decided I could go against my rule today.
+        I’ve been looking for something fun to have on my desk at work anyways.
+        I put him in the front seat of my car with me as I finished my errands,
+        and he put a smile on my face every time I looked over.
+      &lt;/p&gt;&lt;p&gt;
+        Beyond just the simple fun of it, it felt good to do something that felt a little dumb to me.
+        I have a normal script for myself as a careful person who considers his actions,
+        but breaking with that script in a harmless way made me feel a little more free and a little less locked into the pattern of worry I found myself in.
+      &lt;/p&gt;&lt;p&gt;
+        Have you “broken character” recently?
+        What is a script you tend to follow that you wish you could disrupt?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/character.html</guid></item><item><title>gome — bus</title><link>https://ctrl-c.club/~gome/journal/bus.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Letters from the bus&lt;/h1&gt;
       &lt;time datetime="Thu, 15 Jan 2025 19:30:00 CST"&gt;15 Jan. 2026, 7:30 PM&lt;/time&gt;
@@ -1750,56 +1798,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/habits-2.html</guid></item><item><title>gome — architecture</title><link>https://ctrl-c.club/~gome/journal/architecture.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Website architecture&lt;/h1&gt;
-      &lt;time datetime="Tue, 9 Dec 2025 11:00:00 CST"&gt;9 Dec. 2025, 11:00 AM&lt;/time&gt;
-      &lt;p&gt;
-        When I &lt;a href="gomepage.html"&gt;started building gomepage&lt;/a&gt;, I had only the front page.
-        Despite not having any content, I added &lt;a href="unfinished.html"&gt;stub pages&lt;/a&gt; for sections of the site I knew I wanted to add.
-        Each of these served as a persistent prompt to me to eventually add that section of the site.
-        There’s no shame in having unfinished parts of your personal site (it’s a work in progress!),
-        but I knew I would be embarassed to have those stubs up forever.
-        It was a way of pushing my future self to follow through.
-      &lt;/p&gt;&lt;p&gt;
-        This worked out pretty well for me, and I’ve continued to use use stubs for new parts of the site as I build.
-        If you’re building a personal site, I’d encourage you to consider a similar approach.
-      &lt;/p&gt;&lt;p&gt;
-        Web design seems a little like architecture to me: obviously you have to know what your building will be used for (in a site, that’s your content). With that in mind, you have to design the structure: you may have various rooms (pages) for different purposes, and they may fit together into larger substructures within your building.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/fin-garden.webp" width="576" height="554" alt="Photo of the interior of a building at Fin Garden in Kashan, Iran."&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Fin_Garden,_Kashan,_Iran.jpg#Licensing"&gt;Amirpashaei&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        You have to consider how these pieces fit and flow together, how someone is expected to move through the building and make use of it. You also have to consider the overall experience and feeling of the building, which is helped along by all the small details and stylistic choices.
-      &lt;/p&gt;&lt;p&gt;
-        One neat advantage you have in making a website is you aren’t limited spatially.
-        With hyperlinks, your pages can connect in any way you want to specify.
-        Imagine a building where every room had a door to every other room, or a straight hallway that somehow loops back on itself.
-      &lt;/p&gt;&lt;p&gt;
-        Often, in a website, it makes sense to fall back on familiar conventions for ease of navigation, like hierarchical organization or linear sequences of pages.
-        But it’s nice to keep in mind how much freedom you have when it comes to structure in web design,
-        and to consider whether a less conventional structure might fit your needs.
-      &lt;/p&gt;&lt;p&gt;
-        Keep in mind that with hyperlinks, multiple structures can coexist alongside one another.
-        For example, my journal has three indices:
-      &lt;/p&gt;&lt;ol&gt;
-        &lt;li&gt;the &lt;a href="index.html"&gt;default index&lt;/a&gt;, which shows the most recent posts and links to the other indices,&lt;/li&gt;
-        &lt;li&gt;the &lt;a href="topical-index.html"&gt;topical index&lt;/a&gt;, which organizes posts by category along with little bits of commentary,&lt;/li&gt;
-        &lt;li&gt;the &lt;a href="chronological-index.html"&gt;chronological index&lt;/a&gt;, which shows all posts from oldest to newest, with links to jump to a specific month or year.&lt;/li&gt;
-      &lt;/ol&gt;&lt;p&gt;
-        Each index serves a different purpose and provides a different type of structure over the same set of pages.
-      &lt;/p&gt;&lt;p&gt;
-        I would like to experiement more with coexisting structures like this,
-        but I would like for the structure to emerge organically from the functional needs of the site, rather than me adding it for its own sake.
-        I’ll be on the lookout for more opportunities to try it out, though!
-      &lt;/p&gt;&lt;p&gt;
-        Are you building or thinking about building a website?
-        Have you considered it from an architectural or structural perspective?
-        Do you have any ideas for novel ways to structure a site?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/architecture.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/habits-2.html</guid></item></channel></rss>
