@@ -1,13 +1,700 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Failed to generate feed.</description><lastBuildDate>Sun, 15 Mar 2026 01:52:18 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Notícias — Câmara Municipal de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Banco de notícias </description><language>pt-BR</language><lastBuildDate>Sun, 15 Mar 2026 06:49:37 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>AGORA É LEI: Política Municipal Antidrogas é implementada em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-politica-municipal-antidrogas-e-implementada-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
 
-&lt;/pre&gt;</description></item></channel></rss>
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-politica-municipal-antidrogas-e-implementada-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-politica-municipal-antidrogas-e-implementada-em-petropolis/image_mini" alt="AGORA É LEI: Política Municipal Antidrogas é implementada em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Lei nº 9.210, de autoria do vereador Octávio Sampaio, institui a Política Municipal Antidrogas (PMAD) em Petrópolis, estabelecendo diretrizes para ações de prevenção ao uso de drogas, atendimento a usuários e dependentes químicos e iniciativas de reinserção social no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova legislação prevê a articulação e integração de políticas públicas nas áreas de saúde, assistência social, educação e segurança, com o objetivo de reduzir a demanda por drogas e minimizar os impactos sociais provocados pelo consumo e pelo tráfico de entorpecentes.&lt;/p&gt;
+&lt;p&gt;Entre as medidas previstas estão o desenvolvimento de ações educativas e preventivas voltadas ao desestímulo do uso de drogas, a capacitação contínua de profissionais da rede municipal de atendimento e a integração das ações com o Sistema Único de Saúde (SUS) e o Sistema Único de Assistência Social (SUAS).&lt;/p&gt;
+&lt;p&gt;A lei também incentiva o fortalecimento da rede de apoio e tratamento por meio de parcerias com entidades públicas e privadas, além de apoiar diferentes métodos terapêuticos e estratégias de redução de danos no atendimento aos usuários.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante é a criação do selo “Escola Sem Drogas”, que poderá ser concedido pelo município às instituições de ensino que se destacarem em ações educativas e de conscientização sobre os riscos do uso de entorpecentes no ambiente escolar.&lt;/p&gt;
+&lt;p&gt;A iniciativa também prevê ações voltadas à reinserção social, com estímulo ao acesso a políticas de trabalho, qualificação profissional e geração de renda para pessoas em processo de recuperação.&lt;/p&gt;
+&lt;p&gt;“A prevenção e o combate às drogas precisam ser tratados de forma séria e integrada, envolvendo educação, saúde, assistência social e segurança. Essa política cria diretrizes importantes para que Petrópolis avance na proteção das famílias e na construção de uma sociedade mais consciente e segura”, destacou o vereador Octávio Sampaio.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-politica-municipal-antidrogas-e-implementada-em-petropolis</guid><pubDate>Fri, 13 Mar 2026 13:59:00 GMT</pubDate></item><item><title>AGORA É LEI: Petrópolis passa a contar com Política Municipal das Trilhas de Caminhada</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada/image_mini" alt="AGORA É LEI: Petrópolis passa a contar com Política Municipal das Trilhas de Caminhada" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Lei nº 9.214, de autoria do vereador Gil Magno, estabelece a Política Municipal das Trilhas de Caminhada no município de Petrópolis, com o objetivo de reconhecer, organizar e incentivar o uso das trilhas ecológicas já existentes na cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova legislação define diretrizes para o mapeamento, preservação e utilização das trilhas como espaços de lazer, esporte, educação ambiental e turismo sustentável. A política também busca aproximar a população do contato com a natureza, promovendo qualidade de vida e conscientização sobre a preservação ambiental.&lt;/p&gt;
+&lt;p&gt;Entre os objetivos da lei estão a valorização das trilhas como instrumento de educação ambiental, a proteção de áreas naturais de relevância ecológica, histórica e cultural, além do estímulo ao turismo ecológico e de aventura no município.&lt;/p&gt;
+&lt;p&gt;A iniciativa também prevê a elaboração de orientações para os usuários, incentivo à criação de novas trilhas e a participação da sociedade civil no planejamento e gestão desses espaços. Outro ponto importante é o incentivo ao turismo rural e à geração de emprego e renda por meio de atividades ligadas ao ecoturismo.&lt;/p&gt;
+&lt;p&gt;A política ainda reforça a importância da preservação ambiental durante a prática de caminhadas e atividades esportivas nas trilhas, estabelecendo que os usuários devem respeitar as normas ambientais e contribuir para a conservação da fauna, da flora e das paisagens naturais.&lt;/p&gt;
+&lt;p&gt;“Petrópolis possui um enorme potencial natural e turístico. Com essa lei, queremos valorizar nossas trilhas, incentivar o contato com a natureza e fortalecer o turismo ecológico de forma responsável, preservando o meio ambiente e promovendo qualidade de vida para a população”, destacou o vereador Gil Magno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada</guid><pubDate>Thu, 03 Dec 2026 11:49:00 GMT</pubDate></item><item><title>AGORA É LEI: Programa de Incentivo ao Esporte Amador é criado em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-incentivo-ao-esporte-amador-e-criado-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-incentivo-ao-esporte-amador-e-criado-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-incentivo-ao-esporte-amador-e-criado-em-petropolis/image_mini" alt="AGORA É LEI: Programa de Incentivo ao Esporte Amador é criado em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Lei nº 9.211, de autoria do vereador Júnior Paixão, institui o Programa de Incentivo ao Esporte Amador no município de Petrópolis, com o objetivo de fomentar e apoiar o desenvolvimento das práticas esportivas amadoras na cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Com a criação do programa, ligas, associações e equipes esportivas sem fins lucrativos poderão contar com apoio do poder público para a realização de competições e atividades esportivas em diversas modalidades. Entre os esportes contemplados estão futebol de campo, futsal, futebol society, futevôlei, basquete, handebol, voleibol, rugby, skate, bicicross e beach tennis, além de modalidades paralímpicas como basquete em cadeira de rodas, goalball, futebol para cegos e vôlei sentado.&lt;/p&gt;
+&lt;p&gt;O programa prevê a disponibilização de serviços de arbitragem, premiações e materiais de estrutura básica para a realização das atividades esportivas. Entre os itens que poderão ser fornecidos estão bolas, redes, uniformes, coletes e formulários de súmula.&lt;/p&gt;
+&lt;p&gt;A iniciativa também estabelece que o programa poderá ser realizado em parceria com entidades sociais, associações comunitárias e representantes de equipes esportivas legalmente constituídas no município.&lt;/p&gt;
+&lt;p&gt;O objetivo é fortalecer o esporte amador como ferramenta de inclusão social, promoção da saúde e integração comunitária, além de valorizar as competições esportivas que fazem parte da tradição de diversos bairros da cidade.&lt;/p&gt;
+&lt;p&gt;“Sabemos da importância do esporte amador para os bairros da nossa cidade. Muitas equipes e competições sobrevivem com muito esforço da comunidade. Com essa lei, buscamos fortalecer essas iniciativas e garantir mais apoio para quem mantém o esporte vivo em Petrópolis”, destacou o vereador Júnior Paixão.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-incentivo-ao-esporte-amador-e-criado-em-petropolis</guid><pubDate>Thu, 03 Dec 2026 11:14:00 GMT</pubDate></item><item><title>AGORA É LEI: Programa de Rotas Sinalizadas para Corrida e Caminhada é instituído em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-rotas-sinalizadas-para-corrida-e-caminhada-e-instituido-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-rotas-sinalizadas-para-corrida-e-caminhada-e-instituido-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-rotas-sinalizadas-para-corrida-e-caminhada-e-instituido-em-petropolis/image_mini" alt="AGORA É LEI: Programa de Rotas Sinalizadas para Corrida e Caminhada é instituído em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Lei nº 9.207, de autoria do vereador Júnior Paixão, institui o Programa Municipal de Rotas Sinalizadas para Corrida e Caminhada em Petrópolis, com o objetivo de incentivar a prática esportiva, promover saúde e bem-estar e estimular a utilização dos espaços públicos pela população.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Com a criação do programa, o município passará a contar com percursos específicos para corrida e caminhada, devidamente sinalizados com marcações de distância em intervalos regulares. A proposta é facilitar o planejamento das atividades físicas por parte dos usuários e incentivar a prática regular de exercícios ao ar livre.&lt;/p&gt;
+&lt;p&gt;Além da marcação dos percursos, o programa também prevê a instalação de placas informativas ao longo das rotas, com orientações sobre alongamento, hidratação e cuidados durante a prática esportiva. A sinalização também deverá passar por manutenção periódica para garantir segurança, organização e conservação dos trajetos.&lt;/p&gt;
+&lt;p&gt;Os primeiros locais a receberem as rotas sinalizadas serão indicados pelo Conselho Municipal de Esportes e Lazer, com participação das comunidades locais e garantindo que os cinco distritos de Petrópolis sejam contemplados.&lt;/p&gt;
+&lt;p&gt;A execução do programa será coordenada pela Secretaria de Esportes, Promoção da Saúde, Juventude, Idoso e Lazer, em parceria com outras secretarias municipais, podendo ainda contar com cooperação de entidades esportivas, academias e organizações da sociedade civil.&lt;/p&gt;
+&lt;p&gt;A iniciativa busca ampliar o acesso da população à prática esportiva, estimular hábitos saudáveis e contribuir para a prevenção de doenças, além de fortalecer o turismo esportivo e movimentar o comércio local ligado ao setor.&lt;/p&gt;
+&lt;p&gt;“Nosso objetivo é incentivar cada vez mais as pessoas a utilizarem os espaços públicos para a prática de atividades físicas. Com rotas sinalizadas, damos mais organização e segurança para quem gosta de correr ou caminhar, além de promover mais qualidade de vida para a população de Petrópolis”, destacou o vereador Júnior Paixão.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-de-rotas-sinalizadas-para-corrida-e-caminhada-e-instituido-em-petropolis</guid><pubDate>Thu, 03 Dec 2026 11:05:00 GMT</pubDate></item><item><title>AGORA É LEI: Programa Descomplica Petrópolis vai facilitar abertura de pequenos negócios</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-descomplica-petropolis-vai-facilitar-abertura-de-pequenos-negocios</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-descomplica-petropolis-vai-facilitar-abertura-de-pequenos-negocios/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-descomplica-petropolis-vai-facilitar-abertura-de-pequenos-negocios/image_mini" alt="AGORA É LEI: Programa Descomplica Petrópolis vai facilitar abertura de pequenos negócios" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Lei nº 9.206, de autoria do presidente do presidente da Câmara, vereador Júnior Coruja, institui o programa “Descomplica Petrópolis – Licenciamento Econômico Acelerado”, que tem como objetivo reduzir a burocracia e facilitar a abertura e o funcionamento de pequenos negócios e atividades econômicas de baixo risco no município.&lt;/p&gt;
+&lt;p&gt;Com a criação do programa, microempreendedores individuais, microempresas e empresas de pequeno porte poderão contar com procedimentos mais simples e rápidos para obter autorização de funcionamento, prevendo autorização provisória para que essas atividades possam começar a operar enquanto os órgãos responsáveis realizam as análises e inspeções necessárias.&lt;/p&gt;
+&lt;p&gt;Outra medida importante é a possibilidade de isenção de taxas municipais relacionadas ao funcionamento e ao alvará durante os primeiros doze meses de atividade, respeitando o limite de faturamento das microempresas.&lt;/p&gt;
+&lt;p&gt;O programa também prevê a criação de um canal digital gratuito para solicitação e acompanhamento de licenças e documentos, além de parcerias com instituições de apoio ao empreendedor, como o Serviço Brasileiro de Apoio às Micro e Pequenas Empresas, que poderão oferecer capacitações sobre gestão, marketing digital e educação financeira.&lt;/p&gt;
+&lt;p&gt;A iniciativa prioriza ainda regiões do município com maior índice de informalidade econômica, contribuindo para ampliar oportunidades e fortalecer o desenvolvimento local.&lt;/p&gt;
+&lt;p&gt;“Nosso objetivo é facilitar a vida de quem quer empreender, gerar renda e movimentar a economia da cidade. Com menos burocracia e mais apoio, damos um passo importante para incentivar novos negócios em Petrópolis”, destacou o vereador Júnior Coruja.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-programa-descomplica-petropolis-vai-facilitar-abertura-de-pequenos-negocios</guid><pubDate>Thu, 03 Dec 2026 09:22:00 GMT</pubDate></item><item><title>Contas e informativos podem trazer mensagens de combate ao feminicídio em Petrópoli</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/contas-e-informativos-podem-trazer-mensagens-de-combate-ao-feminicidio-em-petropoli</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/contas-e-informativos-podem-trazer-mensagens-de-combate-ao-feminicidio-em-petropoli/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/contas-e-informativos-podem-trazer-mensagens-de-combate-ao-feminicidio-em-petropoli/image_mini" alt="Contas e informativos podem trazer mensagens de combate ao feminicídio em Petrópoli" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um projeto de lei aprovado na Câmara Municipal de Petrópolis quer ampliar a divulgação de informações sobre o enfrentamento ao feminicídio. A proposta, apresentada pelo vereador Léo França, prevê que materiais publicitários, informativos ou de cobrança do poder público e de concessionárias de serviços passem a incluir mensagens de conscientização sobre o tema.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa estabelece que materiais publicitários, informativos ou de cobrança, como campanhas institucionais, comunicados e contas de serviços, passem a trazer mensagens de orientação e conscientização sobre o enfrentamento do feminicídio. A medida se aplicaria à Prefeitura, à Câmara Municipal, às autarquias e fundações, além das concessionárias ou permissionárias de serviços públicos que atuam na cidade.&lt;/p&gt;
+&lt;p&gt;Também está previsto que as empresas que operam em Petrópolis, mesmo que tenham sede em outros municípios, adaptem seus materiais quando forem destinados à população petropolitana. A proposta determina ainda a utilização do símbolo oficial presente no Manual de Uso da Marca do Pacto Nacional Brasil Contra o Feminicídio, iniciativa voltada ao fortalecimento das políticas públicas de combate à violência contra a mulher.&lt;/p&gt;
+&lt;p&gt;Segundo o vereador Léo França, o objetivo é ampliar o acesso da população a informações que ajudem a prevenir e combater esse tipo de crime. “Muitas vezes as vítimas ou pessoas próximas não sabem onde buscar ajuda. Ao incluir essas informações em materiais que já chegam diariamente às casas da população, conseguimos ampliar o alcance da conscientização e estimular a denúncia”, destacou o parlamentar.&lt;/p&gt;
+&lt;p&gt;A proposta também ressalta que a medida não deve gerar custos adicionais relevantes, já que prevê apenas a inclusão de mensagens e símbolos em materiais que já são produzidos regularmente pelos órgãos públicos e pelas empresas que prestam serviços no município.&lt;/p&gt;
+&lt;p&gt;O texto segue agora para análise do Poder Executivo, que poderá sancioná-lo ou vetá-lo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/contas-e-informativos-podem-trazer-mensagens-de-combate-ao-feminicidio-em-petropoli</guid><pubDate>Thu, 03 Sep 2026 10:31:00 GMT</pubDate></item><item><title>Proposta busca viabilizar construção da DEAM em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/proposta-busca-viabilizar-construcao-da-deam-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-busca-viabilizar-construcao-da-deam-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-busca-viabilizar-construcao-da-deam-em-petropolis/image_mini" alt="Proposta busca viabilizar construção da DEAM em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis pode dar um passo importante no fortalecimento da rede de proteção às mulheres. A Câmara Municipal aprovou, na sessão da última quinta-feira (05), um projeto de lei de autoria da vereadora Professora Lívia que autoriza o município a doar um terreno ao Governo do Estado do Rio de Janeiro para a construção de uma Delegacia Especializada de Atendimento à Mulher (DEAM).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa busca viabilizar a implantação de uma unidade especializada no atendimento a mulheres vítimas de violência, oferecendo um espaço voltado ao registro de ocorrências, acolhimento e orientação às vítimas.&lt;/p&gt;
+&lt;p&gt;O texto estabelece algumas condições para a efetivação da doação. O Governo do Estado deverá apresentar o projeto executivo da delegacia em até 120 dias, incluindo o plano arquitetônico e o cronograma das etapas da obra. Após a aprovação do projeto, o prazo previsto para o início da construção é de até 180 dias.&lt;/p&gt;
+&lt;p&gt;Caso os prazos não sejam cumpridos, o imóvel retornará ao patrimônio do município, sem direito a indenização por eventuais benfeitorias realizadas. A proposta também determina que as despesas relacionadas à escritura de doação e registros fiquem sob responsabilidade do Governo do Estado.&lt;/p&gt;
+&lt;p&gt;Segundo a vereadora Professora Lívia, a criação de uma Delegacia Especializada de Atendimento à Mulher é uma medida importante diante do cenário de violência registrado no município. _“Petrópolis apresenta índices preocupantes de violência contra a mulher, e fortalecer a rede de atendimento é fundamental para garantir acolhimento adequado e mais segurança para as vítimas”_, destacou a parlamentar.&lt;/p&gt;
+&lt;p&gt;A proposta também considera dados do Dossiê Mulher, que apontam Petrópolis entre os municípios com altos índices de violência de gênero no estado. Atualmente, o atendimento especializado funciona apenas em horário comercial, enquanto muitos casos de violência acontecem durante a noite e aos fins de semana.&lt;/p&gt;
+&lt;p&gt;O texto segue agora para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/proposta-busca-viabilizar-construcao-da-deam-em-petropolis</guid><pubDate>Thu, 03 Sep 2026 10:21:00 GMT</pubDate></item><item><title>Lei de animais de grande porte pode ganhar novas regras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/lei-de-animais-de-grande-porte-pode-ganhar-novas-regras</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/lei-de-animais-de-grande-porte-pode-ganhar-novas-regras/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/lei-de-animais-de-grande-porte-pode-ganhar-novas-regras/image_mini" alt="Lei de animais de grande porte pode ganhar novas regras" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um projeto de lei de autoria do vereador Domingos Protetor foi aprovado na sessão desta quinta-feira (05) na Câmara Municipal de Petrópolis e propõe alterações na Lei nº 7.410/2016, que trata da circulação e permanência de animais de grande porte em locais públicos, vias públicas e terrenos baldios do município. A proposta tem como objetivo aprimorar os procedimentos de fiscalização, apreensão e manejo desses animais, ampliando a atuação conjunta de órgãos municipais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Entre as mudanças previstas no projeto está a inclusão da Guarda Civil Municipal e da Companhia Petropolitana de Trânsito e Transportes (Cptrans) nas ações de fiscalização e apoio às atividades da Coordenadoria de Bem-Estar Animal (COBEA), vinculada à Secretaria de Saúde. Com isso, eventos que envolvam animais de grande porte passarão a contar com fiscalização também desses órgãos, reforçando o controle e a segurança nessas atividades.&lt;/p&gt;
+&lt;p&gt;O texto também atualiza os procedimentos em casos de apreensão de animais nas vias públicas. De acordo com a proposta, após a apreensão, os agentes fiscalizadores deverão acionar a COBEA, a Guarda Civil Municipal e a Cptrans para que, de forma conjunta, providenciem a remoção do animal para o curral de apreensão do município, onde será colocado em quarentena e passará por avaliação veterinária, incluindo exames obrigatórios para doenças como Anemia Infecciosa Equina e Mormo.&lt;/p&gt;
+&lt;p&gt;Autor da proposta, o vereador Domingos Protetor destacou que as alterações buscam tornar o atendimento mais eficiente e ampliar o suporte às equipes responsáveis pela proteção animal. “Essa atualização da lei fortalece o trabalho de resgate e fiscalização, garantindo mais agilidade nas ações e mais proteção tanto para os animais quanto para a população”, afirmou o parlamentar.&lt;/p&gt;
+&lt;p&gt;O texto aprovado ainda segue para análise do Poder Executivo, que decidirá sobre a sanção para que a medida passe a valer.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/lei-de-animais-de-grande-porte-pode-ganhar-novas-regras</guid><pubDate>Wed, 03 Jun 2026 18:20:00 GMT</pubDate></item><item><title>Reconhecimento para quem luta contra a violência contra a mulher</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/reconhecimento-para-quem-luta-contra-a-violencia-contra-a-mulher</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/reconhecimento-para-quem-luta-contra-a-violencia-contra-a-mulher/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/reconhecimento-para-quem-luta-contra-a-violencia-contra-a-mulher/image_mini" alt="Reconhecimento para quem luta contra a violência contra a mulher" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Mulheres que atuam no enfrentamento à violência de gênero podem ganhar um reconhecimento oficial no município. A Câmara Municipal aprovou uma Indicação Legislativa apresentada pelos vereadores Léo França, Gilda Beatriz, Júlia Casamasso e Professora Lívia, que cria o Prêmio Agosto Lilás.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo homenagear mulheres que se destacam na defesa dos direitos femininos e no combate à violência contra a mulher. O reconhecimento será concedido anualmente durante o mês de agosto, período marcado pela campanha nacional Agosto Lilás, dedicada à conscientização e ao enfrentamento desse tipo de violência.&lt;/p&gt;
+&lt;p&gt;Poderão ser indicadas mulheres que desenvolvam projetos sociais, ações educativas ou atividades comunitárias voltadas à prevenção da violência de gênero. Lideranças comunitárias, profissionais, ativistas, voluntárias e representantes de instituições que atuam na proteção das mulheres também poderão receber a homenagem.&lt;/p&gt;
+&lt;p&gt;O texto prevê que até duas mulheres sejam reconhecidas por ano, por meio de indicação dos vereadores. A cerimônia de entrega está prevista para ocorrer no dia 7 de agosto, data que marca a sanção da Lei Maria da Penha, considerada um dos principais marcos no combate à violência doméstica e familiar no Brasil.&lt;/p&gt;
+&lt;p&gt;Para os autores da iniciativa, o prêmio também busca incentivar novas ações e dar visibilidade a mulheres que dedicam seu trabalho à proteção de outras mulheres. “A homenagem valoriza quem está na linha de frente dessa luta e ajuda a fortalecer a rede de apoio e conscientização em nossa cidade”, afirmou o vereador Léo França.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/reconhecimento-para-quem-luta-contra-a-violencia-contra-a-mulher</guid><pubDate>Wed, 03 Jun 2026 17:55:00 GMT</pubDate></item><item><title>Aplicativo para monitorar horários e trajetos de ônibus é sugerido em proposta na Câmara</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/aplicativo-para-monitorar-horarios-e-trajetos-de-onibus-e-sugerido-em-proposta-na-camara</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/aplicativo-para-monitorar-horarios-e-trajetos-de-onibus-e-sugerido-em-proposta-na-camara/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/aplicativo-para-monitorar-horarios-e-trajetos-de-onibus-e-sugerido-em-proposta-na-camara/image_mini" alt="Aplicativo para monitorar horários e trajetos de ônibus é sugerido em proposta na Câmara" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma proposta aprovada na Câmara, na sessão desta quinta-feira (05), sugere a criação de um aplicativo para que usuários do transporte coletivo possam acompanhar, em tempo real, a circulação dos ônibus que operam no município. A ideia foi apresentada por meio de Indicação Legislativa do vereador Gil Magno e solicita ao Poder Executivo o envio de um projeto de lei para viabilizar a implantação da ferramenta digital.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a indicação, o aplicativo deverá utilizar o sistema de GPS instalado nos veículos para permitir que os usuários visualizem a localização dos ônibus e identifiquem a linha em operação no momento. A ferramenta deverá estar disponível para diferentes plataformas digitais, como smartphones, tablets e computadores, com funcionamento nos sistemas Android e iOS.&lt;/p&gt;
+&lt;p&gt;Segundo o vereador Gil Magno, a iniciativa busca modernizar o sistema de mobilidade urbana de Petrópolis, alinhando o município ao conceito de cidades inteligentes. A medida pretende facilitar o planejamento das viagens pelos usuários, reduzir o tempo de espera nos pontos de ônibus e tornar o serviço de transporte coletivo mais eficiente e acessível para a população.&lt;/p&gt;
+&lt;p&gt;A proposta também estabelece que as empresas responsáveis pelo transporte coletivo deverão disponibilizar o aplicativo no prazo de até 180 dias após a publicação da lei. O sistema deverá permitir a visualização simultânea de todos os veículos que circulam em determinada linha, oferecendo mais transparência e previsibilidade para os passageiros.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/aplicativo-para-monitorar-horarios-e-trajetos-de-onibus-e-sugerido-em-proposta-na-camara</guid><pubDate>Sun, 03 May 2026 18:55:00 GMT</pubDate></item><item><title>Indicação propõe criação do Programa Municipal de Gestão Integrada de Resíduos Sólidos</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-municipal-de-gestao-integrada-de-residuos-solidos</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-municipal-de-gestao-integrada-de-residuos-solidos/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-municipal-de-gestao-integrada-de-residuos-solidos/image_mini" alt="Indicação propõe criação do Programa Municipal de Gestão Integrada de Resíduos Sólidos" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A vereadora Professora Lívia solicitou ao Poder Executivo a elaboração de um projeto de lei para a criação do Programa Municipal de Gestão Integrada de Resíduos Sólidos (PMGIRS). A indicação legislativa, aprovada na sessão desta quinta-feira (05), tem como objetivo estruturar políticas públicas voltadas à redução, reutilização, reciclagem e destinação adequada dos resíduos gerados no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com a proposta, o programa deverá ser elaborado por uma comissão de trabalho formada por representantes da sociedade civil e do poder público, incluindo membros do Conselho Municipal de Meio Ambiente (COMDEMA), servidores da Secretaria de Meio Ambiente, representantes da Companhia Municipal de Desenvolvimento de Petrópolis (COMDEP) e integrantes da Comissão de Meio Ambiente da Câmara Municipal.&lt;/p&gt;
+&lt;p&gt;O grupo terá prazo de até 180 dias para elaborar o documento, que deverá incluir diagnóstico da situação dos resíduos sólidos na cidade, definição de objetivos e metas, políticas de coleta seletiva e reciclagem, implantação de sistemas de logística reversa e a definição das responsabilidades para a implementação e operacionalização do programa.&lt;/p&gt;
+&lt;p&gt;A proposta também prevê a realização de quatro audiências públicas para garantir a participação da sociedade civil na construção do plano, fortalecendo a transparência e o controle social. Após a sanção do prefeito, o documento final deverá ser divulgado no site oficial da Prefeitura de Petrópolis.&lt;/p&gt;
+&lt;p&gt;Segundo a vereadora Professora Lívia, a iniciativa busca fortalecer a gestão ambiental do município e alinhar Petrópolis às diretrizes da Política Nacional de Resíduos Sólidos. A parlamentar destaca que uma gestão eficiente dos resíduos contribui para a proteção da saúde pública, evita a poluição do solo e da água, reduz a emissão de gases de efeito estufa e promove o desenvolvimento sustentável, além de possibilitar a geração de emprego e renda por meio da reciclagem e da economia circular.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-municipal-de-gestao-integrada-de-residuos-solidos</guid><pubDate>Sun, 03 May 2026 18:51:00 GMT</pubDate></item><item><title>AGORA É LEI: Churrascaria Majórica é reconhecida como Patrimônio Gastronômico de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis/image_mini" alt="AGORA É LEI: Churrascaria Majórica é reconhecida como Patrimônio Gastronômico de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A tradicional Churrascaria Majórica, localizada na Rua do Imperador, passou a ser oficialmente reconhecida como Bem Cultural Material e Patrimônio Gastronômico do Município de Petrópolis. O reconhecimento foi estabelecido pela Lei Municipal nº 9.198, de autoria do vereador Thiago Damaceno, que destaca a relevância histórica, cultural e social do estabelecimento para a cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Fundada em 1961 por imigrantes espanhóis, a Majórica se consolidou ao longo de mais de seis décadas como uma das principais referências da gastronomia petropolitana, integrando a memória afetiva de moradores e visitantes.&lt;/p&gt;
+&lt;p&gt;Entre os fatores que justificam o reconhecimento estão a tradição culinária preservada ao longo de gerações, a manutenção de receitas e métodos de preparo originais, além do forte vínculo construído com trabalhadores, colaboradores e clientes ao longo do tempo.&lt;/p&gt;
+&lt;p&gt;Atualmente, a gestão familiar do restaurante é conduzida por Ângela e Angélica, sucessoras do fundador Nelson Rodrigues, mantendo viva a tradição que atravessa gerações e faz parte da história da cidade.&lt;/p&gt;
+&lt;p&gt;A lei possui caráter declaratório, ou seja, o reconhecimento não implica tombamento do imóvel, nem cria novas obrigações administrativas ou despesas para o município, preservando a livre iniciativa e o funcionamento regular do estabelecimento.&lt;/p&gt;
+&lt;p&gt;Com a medida, o município valoriza e preserva uma referência histórica da culinária local, reforçando a identidade cultural e gastronômica de Petrópolis.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-churrascaria-majorica-e-reconhecida-como-patrimonio-gastronomico-de-petropolis</guid><pubDate>Sun, 03 May 2026 14:56:00 GMT</pubDate></item><item><title>AGORA É LEI: Moto Fest é reconhecido como Patrimônio Cultural Imaterial de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-moto-fest-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-moto-fest-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-moto-fest-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis/image_mini" alt="AGORA É LEI: Moto Fest é reconhecido como Patrimônio Cultural Imaterial de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Já está em vigor a Lei Municipal nº 9.200, de autoria do vereador Gil Magno, que declara o Moto Fest como Patrimônio Cultural Imaterial do Município de Petrópolis. O evento, realizado anualmente, reúne motociclistas, motoclubes, expositores, comerciantes, artistas e o público em geral, promovendo cultura, lazer e movimentação econômica na cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa reconhece a importância do Moto Fest para o calendário de eventos do município, destacando seu papel na valorização da cultura do motociclismo e na integração entre música, entretenimento e turismo.&lt;/p&gt;
+&lt;p&gt;Entre as atrações do evento estão shows de rock, batalhas de bandas, apresentações com DJs, gincanas motociclísticas, exposições de motos, estandes de marcas e acessórios e apresentações de manobras radicais, reunindo participantes de diversas regiões.&lt;/p&gt;
+&lt;p&gt;O festival também conta com área gastronômica com food trucks e cervejas artesanais, proporcionando uma experiência completa para os visitantes. A entrada é gratuita, mediante a doação voluntária de 1 kg de alimento não perecível, que é destinado a instituições e projetos sociais da região.&lt;/p&gt;
+&lt;p&gt;Com o reconhecimento como patrimônio cultural imaterial, o Moto Fest passa a integrar o calendário oficial do município, fortalecendo o turismo, incentivando a economia local e consolidando Petrópolis como destino para grandes eventos culturais.&lt;/p&gt;
+&lt;p&gt;Ao comentar a iniciativa, o vereador Gil Magno destacou:&lt;br&gt;“Reconhecer o Moto Fest como patrimônio cultural é valorizar um evento que já faz parte da vida da cidade, reunindo pessoas, fomentando a cultura, o turismo e ainda promovendo solidariedade com a arrecadação de alimentos.”&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-moto-fest-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis</guid><pubDate>Sun, 03 May 2026 14:47:00 GMT</pubDate></item><item><title>AGORA É LEI: Quadra de esportes no Meio da Serra recebe nome de Geraldo de Mello</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-quadra-de-esportes-no-meio-da-serra-recebe-nome-de-geraldo-de-mello</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-quadra-de-esportes-no-meio-da-serra-recebe-nome-de-geraldo-de-mello/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-quadra-de-esportes-no-meio-da-serra-recebe-nome-de-geraldo-de-mello/image_mini" alt="AGORA É LEI: Quadra de esportes no Meio da Serra recebe nome de Geraldo de Mello" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A quadra pública de esportes localizada na Estrada Velha da Estrela, próximo ao número 155, no bairro Meio da Serra, região do Açude, passa a se chamar “Quadra Geraldo de Mello”. A denominação foi oficializada por meio da Lei Municipal nº 9.199, de autoria do vereador Dudu.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A homenagem reconhece a trajetória de Geraldo de Mello, morador muito respeitado pela comunidade e lembrado pelo seu forte incentivo ao esporte local. Ao longo de muitos anos, ele esteve presente em atividades esportivas do bairro, apoiando jovens atletas e contribuindo para a realização de campeonatos, eventos e diversas práticas esportivas.&lt;/p&gt;
+&lt;p&gt;Seu envolvimento com o esporte sempre foi marcado por solidariedade, dedicação e compromisso com o desenvolvimento social da comunidade, utilizando o esporte como ferramenta de inclusão e formação para os jovens da região.&lt;/p&gt;
+&lt;p&gt;Com a nova legislação, a Prefeitura de Petrópolis deverá providenciar o emplacamento oficial da quadra, garantindo que o espaço passe a carregar o nome de quem tanto contribuiu para o fortalecimento do esporte no bairro.&lt;/p&gt;
+&lt;p&gt;Ao comentar a homenagem, Dudu destacou que “Geraldo de Mello foi uma pessoa muito querida na comunidade e sempre incentivou o esporte como caminho para oportunidades e cidadania. Dar o nome dele a essa quadra é uma forma de reconhecer tudo o que ele fez pelos jovens e manter viva a sua história no bairro”.&lt;/p&gt;
+&lt;p&gt;A iniciativa preserva a memória de Geraldo de Mello e mantém vivo o exemplo de quem dedicou parte da vida ao incentivo ao esporte e ao bem-estar da comunidade.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-quadra-de-esportes-no-meio-da-serra-recebe-nome-de-geraldo-de-mello</guid><pubDate>Sun, 03 May 2026 14:40:00 GMT</pubDate></item><item><title>Indicação propõe criação do Programa Zelador de Praças Comunitário</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-zelador-de-pracas-comunitario</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-zelador-de-pracas-comunitario/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-zelador-de-pracas-comunitario/image_mini" alt="Indicação propõe criação do Programa Zelador de Praças Comunitário" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis aprovou a Indicação Legislativa, de autoria do vereador Júnior Paixão, que solicita ao Poder Executivo a criação do Programa Zelador de Praças Comunitário em Petrópolis. A proposta prevê que o programa seja vinculado à Secretaria Municipal de Serviços, Segurança e Ordem Pública e tenha como principal objetivo reforçar a conservação, limpeza e vigilância das praças públicas e áreas acessórias, garantindo mais segurança e bem-estar à população.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O Zelador de Praças Comunitário será responsável por zelar pelo patrimônio público, inspecionar as condições de iluminação, brinquedos, bancos, jardins, equipamentos esportivos e demais estruturas, realizar pequenos reparos, comunicar à Administração quando houver necessidade de serviços especializados e emitir relatórios mensais sobre as condições do espaço.&lt;/p&gt;
+&lt;p&gt;Um dos diferenciais da proposta é que o zelador deverá ser, comprovadamente, morador da própria comunidade onde atuará, fortalecendo o vínculo local e estimulando o sentimento de pertencimento e cuidado coletivo. A função terá carga horária de 44 horas semanais, regime estatutário e exigência mínima de 18 anos e 1º grau incompleto.&lt;/p&gt;
+&lt;p&gt;Paixão destaca que as praças públicas são espaços fundamentais de lazer e convivência, especialmente para famílias que possuem poucas alternativas de entretenimento. Segundo o vereador, apesar dos esforços do poder público, o desgaste natural e o mau uso acabam comprometendo a qualidade desses locais, tornando necessária uma atuação mais próxima e permanente.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-criacao-do-programa-zelador-de-pracas-comunitario</guid><pubDate>Sun, 03 May 2026 10:18:00 GMT</pubDate></item><item><title>AGORA É LEI: Município terá campanha permanente de prevenção à saúde da mulher</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-tera-campanha-permanente-de-prevencao-a-saude-da-mulher</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-tera-campanha-permanente-de-prevencao-a-saude-da-mulher/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-tera-campanha-permanente-de-prevencao-a-saude-da-mulher/image_mini" alt="AGORA É LEI: Município terá campanha permanente de prevenção à saúde da mulher" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;Já está em vigor a Lei Municipal nº 9.196, de autoria do presidente da Câmara, o vereador Júnior Coruja, que institui a Campanha Alerta Mulher no município de Petrópolis. A nova legislação cria uma campanha permanente de prevenção e diagnóstico precoce de doenças que atingem as mulheres, promovendo conscientização e incentivando a realização regular de exames ao longo de todo o ano.&lt;/p&gt;
+&lt;p&gt;Entre as ações previstas estão o incentivo à realização de exames de imagem, como mamografia, ultrassonografia e ressonância magnética, conforme indicação médica. Os atendimentos deverão ocorrer, preferencialmente, nas unidades mais próximas da residência ou do local de trabalho da mulher.&lt;/p&gt;
+&lt;p&gt;A Campanha Alerta Mulher se diferencia de iniciativas pontuais, como o Outubro Rosa, por ter caráter contínuo e abrangente, estimulando a prevenção de diversas doenças durante todo o ano.&lt;/p&gt;
+&lt;p&gt;Ao comentar a sanção da lei, o vereador Júnior Coruja destacou: “A prevenção é o caminho mais eficaz para salvar vidas. Com a Campanha Alerta Mulher, garantimos que a conscientização e o incentivo aos exames não fiquem restritos a um único mês, mas sejam permanentes. Estamos fortalecendo a saúde preventiva e cuidando das mulheres da nossa cidade durante todo o ano.”&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-tera-campanha-permanente-de-prevencao-a-saude-da-mulher</guid><pubDate>Fri, 03 Apr 2026 18:26:00 GMT</pubDate></item><item><title>Indicação propõe valorização da história agrícola com criação de museu</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-valorizacao-da-historia-agricola-com-criacao-de-museu</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-valorizacao-da-historia-agricola-com-criacao-de-museu/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-valorizacao-da-historia-agricola-com-criacao-de-museu/image_mini" alt="Indicação propõe valorização da história agrícola com criação de museu" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis aprovou, nesta quarta-feira (04), a Indicação Legislativa de autoria do vereador Júnior Paixão que solicita ao Poder Executivo a criação do Museu do Agricultor de Petrópolis. A proposta busca preservar e valorizar a história da agricultura no município, reconhecendo a trajetória de homens e mulheres que desbravaram o território petropolitano e contribuíram para a formação econômica, social e cultural da cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Paixão destaca marcos históricos como a antiga Fazenda Quitandinha, que deu origem ao nome do bairro Quitandinha e ao famoso Palácio Quitandinha; as plantações de uva dos imigrantes italianos que formaram o Vale das Videiras; as técnicas de cultivo em terraço trazidas por imigrantes portugueses no Caxambu; a produção de flores no Bonfim e Taquaril; além da atuação dos tropeiros do Brejal, que escoavam a produção agrícola até a estação ferroviária.&lt;/p&gt;
+&lt;p&gt;O vereador também ressalta que, embora o município conte com o Museu Casa do Colono, dedicado à memória dos imigrantes alemães, há espaço para um equipamento cultural específico voltado à história e às tradições da agricultura local como um todo.&lt;/p&gt;
+&lt;p&gt;A indicação sugere a criação de um grupo de estudo para avaliar a viabilidade do projeto, incluindo levantamento de recursos, formação de acervo e definição de espaço físico, podendo inclusive utilizar área do Parque Municipal Prefeito Paulo Rattes.&lt;/p&gt;
+&lt;p&gt;Além do resgate histórico, a proposta destaca o potencial turístico do futuro museu, considerando que grande parte da população brasileira tem origem rural e mantém vínculos afetivos com a memória do campo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-valorizacao-da-historia-agricola-com-criacao-de-museu</guid><pubDate>Fri, 03 Apr 2026 16:47:00 GMT</pubDate></item><item><title>Iniciativa destaca importância turística e gastronômica da Oktoberfest</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-destaca-importancia-turistica-e-gastronomica-da-oktoberfest</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-destaca-importancia-turistica-e-gastronomica-da-oktoberfest/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-destaca-importancia-turistica-e-gastronomica-da-oktoberfest/image_mini" alt="Iniciativa destaca importância turística e gastronômica da Oktoberfest" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A valorização das tradições germânicas ganhou destaque no Legislativo nesta terça-feira (03). Foi aprovado o Projeto de Lei, de autoria do vereador Gil Magno, que propõe declarar a Oktoberfest como Patrimônio Cultural Imaterial, Turístico e Gastronômico do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta reconhece oficialmente a relevância da festividade, realizada anualmente com o objetivo de preservar e valorizar as raízes da cultura alemã na cidade.&lt;/p&gt;
+&lt;p&gt;O texto estabelece que o evento passe a integrar o calendário oficial do município e considera como manifestações culturais da festa as apresentações musicais e danças típicas, a gastronomia tradicional alemã, a valorização das cervejas artesanais, as feiras de artesanato e produtos coloniais, além de atividades educativas e históricas voltadas à preservação das tradições germânicas.&lt;/p&gt;
+&lt;p&gt;Inspirada na tradicional celebração alemã, a Oktoberfest de Petrópolis consolidou-se como um dos principais eventos culturais e turísticos da região serrana, reunindo milhares de moradores e visitantes todos os anos. Em sua última edição, mais de 70 mil pessoas participaram do evento, fortalecendo o comércio local e incentivando a economia criativa.&lt;/p&gt;
+&lt;p&gt;Durante a defesa da proposta, o vereador ressaltou: “A Oktoberfest é muito mais do que uma festa. Ela representa a história da imigração alemã em Petrópolis, valoriza nossos produtores, fortalece o turismo e movimenta a economia local. O reconhecimento como patrimônio imaterial garante a preservação dessa tradição e incentiva seu crescimento com organização e respeito à cultura.”&lt;/p&gt;
+&lt;p&gt;Além do aspecto festivo, a celebração simboliza o resgate das tradições trazidas pelos imigrantes alemães, que tiveram papel fundamental na formação histórica e cultural do município.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei segue agora para apreciação do Poder Executivo&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-destaca-importancia-turistica-e-gastronomica-da-oktoberfest</guid><pubDate>Fri, 03 Apr 2026 10:04:00 GMT</pubDate></item><item><title>Iniciativa fortalece identidade rural e sustentabilidade em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-fortalece-identidade-rural-e-sustentabilidade-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-fortalece-identidade-rural-e-sustentabilidade-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-fortalece-identidade-rural-e-sustentabilidade-em-petropolis/image_mini" alt="Iniciativa fortalece identidade rural e sustentabilidade em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis aprovou o Projeto de Lei, de autoria do vereador Júnior Paixão, que reconhece a Agricultura Familiar e os Empreendimentos Familiares Rurais como Patrimônio Cultural de Natureza Imaterial do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta destaca a importância histórica, cultural e econômica da produção familiar rural, adotando as definições previstas na Lei Federal nº 11.326, de 24 de julho de 2006. O texto também autoriza o registro da atividade nos livros do órgão municipal de tutela do patrimônio cultural, consolidando seu reconhecimento como bem imaterial da cidade.&lt;/p&gt;
+&lt;p&gt;A tradição da agricultura familiar em Petrópolis remonta ao período imperial, com a chegada de imigrantes alemães e portugueses oriundos dos Açores, que se estabeleceram nas áreas rurais e contribuíram para a formação econômica e cultural da região.&lt;/p&gt;
+&lt;p&gt;Durante a defesa da matéria, Júnior Paixão ressaltou a relevância do reconhecimento. “A agricultura familiar faz parte da identidade de Petrópolis. São famílias que há gerações produzem alimento, preservam nascentes e mantêm viva a cultura rural. Valorizar essa atividade é fortalecer nossa história e incentivar um modelo sustentável de desenvolvimento”, afirmou.&lt;/p&gt;
+&lt;p&gt;Presente nos cinco distritos, a agricultura familiar forma um importante cinturão verde, contribuindo para a segurança alimentar, geração de renda e preservação ambiental no município.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei segue agora para apreciação do Poder Executivo&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/iniciativa-fortalece-identidade-rural-e-sustentabilidade-em-petropolis</guid><pubDate>Fri, 03 Apr 2026 09:59:00 GMT</pubDate></item><item><title>Projeto incentiva mutirão de limpeza no município</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-incentiva-mutirao-de-limpeza-no-municipio</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-incentiva-mutirao-de-limpeza-no-municipio/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-incentiva-mutirao-de-limpeza-no-municipio/image_mini" alt="Projeto incentiva mutirão de limpeza no município" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;O município de Petrópolis poderá passar a contar com o "Dia Municipal da Limpeza da Natureza" com a aprovação do Projeto de Lei, de autoria do vereador Gil Magno, que institui a data a ser celebrada anualmente no terceiro domingo do mês de setembro e incluída no Calendário Oficial de Eventos do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como inspiração o Dia Mundial da Limpeza, movimento cívico realizado em 191 países, que mobiliza milhões de pessoas em ações voluntárias de coleta de resíduos em cidades, rios, praias, montanhas e comunidades. O objetivo é fortalecer a conscientização de que a responsabilidade pela destinação correta do lixo é compartilhada entre o Poder Público e a população.&lt;/p&gt;
+&lt;p&gt;O projeto prevê a realização de mutirões e programas de ação social voluntária, em parceria com ONGs, escolas, empresas, igrejas e comunidades. A iniciativa também destaca exemplos locais, como as ecobarreiras instaladas em rios e o projeto “Montanha Limpa”, voltado à conservação das áreas de montanhismo, com ações de coleta de lixo, manejo de trilhas e recuperação de áreas degradadas.&lt;/p&gt;
+&lt;p&gt;Para o vereador, a iniciativa reforça o compromisso coletivo com o meio ambiente. “Nosso objetivo é mobilizar a população para que todos se sintam responsáveis pelo cuidado com o meio ambiente. A limpeza é um gesto simples, mas que representa respeito à nossa cidade, aos nossos rios, às nossas montanhas e às futuras gerações. Precisamos transformar conscientização em ação”, afirmou.&lt;/p&gt;
+&lt;p&gt;A Prefeitura poderá organizar atividades abertas à participação de voluntários, universidades, academias e organizações da sociedade civil, incentivando o engajamento coletivo na preservação ambiental.&lt;/p&gt;
+&lt;p&gt;Agora, o projeto de lei segue para apreciação do Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-incentiva-mutirao-de-limpeza-no-municipio</guid><pubDate>Tue, 03 Mar 2026 16:42:00 GMT</pubDate></item><item><title>Câmara reconhece festa tradicional de Secretário</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-reconhece-festa-tradicional-de-secretario</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-reconhece-festa-tradicional-de-secretario/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-reconhece-festa-tradicional-de-secretario/image_mini" alt="Câmara reconhece festa tradicional de Secretário" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis aprovou nesta terça-feira (03) o Projeto de Lei, de autoria do vereador Júnior Paixão, que reconhece a Festa e Celebrações da Santa Padroeira Nossa Senhora Imaculada Conceição, realizada na Capela de Secretário, como Patrimônio Cultural Imaterial do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta reconhece como patrimônio imaterial as manifestações religiosas e culturais que integram a festividade, entre elas a novena, a missa solene, a procissão e a tradicional festa popular. O texto também autoriza o Poder Executivo, por meio do órgão competente, a apoiar a realização dos festejos.&lt;/p&gt;
+&lt;p&gt;Realizada anualmente no mês de junho, na Capela Nossa Senhora Imaculada Conceição, localizada em Secretário, a celebração reúne fiéis, moradores e turistas, sendo considerada uma das mais tradicionais da localidade. Além do caráter religioso, o evento movimenta o comércio e valoriza a cultura popular, com atrações folclóricas, festividades juninas e gastronomia típica.&lt;/p&gt;
+&lt;p&gt;Para o vereador Júnior Paixão, o projeto representa o fortalecimento da identidade cultural da comunidade. “Esse reconhecimento é uma forma de valorizar a fé, a história e as tradições do povo de Secretário, preservando essa celebração para as próximas gerações”, destacou o parlamentar.&lt;/p&gt;
+&lt;p&gt;O Projeto de Lei segue agora para apreciação e eventual sanção do prefeito municipal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-reconhece-festa-tradicional-de-secretario</guid><pubDate>Tue, 03 Mar 2026 16:41:00 GMT</pubDate></item><item><title>Balanço financeiro e desafios da arrecadação marcam audiência pública em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/balanco-financeiro-e-desafios-da-arrecadacao-marcam-audiencia-publica-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/balanco-financeiro-e-desafios-da-arrecadacao-marcam-audiencia-publica-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/balanco-financeiro-e-desafios-da-arrecadacao-marcam-audiencia-publica-em-petropolis/image_mini" alt="Balanço financeiro e desafios da arrecadação marcam audiência pública em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis realizou audiência pública para avaliação do cumprimento das metas fiscais do terceiro quadrimestre de 2025. A sessão, presidida pelo vereador Tiago Leite, reuniu representantes da Secretaria de Fazenda e membros do Poder Legislativo para analisar o fechamento anual das contas públicas, a aplicação dos recursos e os desafios da arrecadação municipal.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Durante a apresentação, o Secretário de Fazenda, Fábio Junior, relatou um cenário de equilíbrio financeiro, indicando que a receita total do período superou o previsto em 5,55%, totalizando R$ 1,89 bilhão. Foi destacado o bom desempenho de receitas próprias, como o IPTU e o ISS, que alcançaram, respectivamente, 106,99% e 105,57% das metas estabelecidas. Além disso, o balanço técnico indicou que o município cumpriu as metas constitucionais, destinando 33,14% dos recursos para a Saúde e 31,97% para a Educação, índices que superam o mínimo exigido por lei.&lt;/p&gt;
+&lt;p&gt;Um dos temas discutidos foi a existência de um superávit orçamentário registrado no relatório. Os vereadores buscaram entender o motivo de haver um saldo positivo expressivo no papel enquanto a cidade ainda lida com desafios na manutenção de serviços básicos. Foi apontada uma baixa execução orçamentária dos investimentos previstos, com os vereadores ressaltando que o superávit arrecadado não se transformou, na mesma proporção, em melhorias concretas na ponta, como iluminação pública e manutenção de vias.&lt;/p&gt;
+&lt;p&gt;A questão do endividamento público também foi abordada durante a audiência, especialmente em relação aos precatórios, que atualmente somam mais de R$ 464 milhões. Os parlamentares discutiram o ritmo dos pagamentos e a utilização de receitas extraordinárias para o equilíbrio das contas. Também foi apontada a baixa performance na recuperação da dívida ativa, que alcançou 52,46% da meta prevista, reforçando a necessidade de aprimorar os mecanismos de cobrança de grandes devedores e dar maior celeridade à atuação da procuradoria fiscal.&lt;/p&gt;
+&lt;p&gt;A transparência na aplicação dos recursos também incluiu questionamentos sobre os gastos com terceirizados e o impacto na folha de pagamento. Houve pedido de esclarecimento sobre os repasses ao SEHAC (Serviço Social Autônomo Hospital Alcides Carneiro) e a fiscalização dos contratos de limpeza urbana. A equipe da Fazenda justificou que os repasses ao SEHAC seguem metas de produção médica e que os pagamentos à Comdep são baseados na medição dos serviços.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/balanco-financeiro-e-desafios-da-arrecadacao-marcam-audiencia-publica-em-petropolis</guid><pubDate>Tue, 03 Mar 2026 11:15:00 GMT</pubDate></item><item><title>AGORA É LEI: Município institui formação obrigatória em Humanização na Saúde</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-institui-formacao-obrigatoria-em-humanizacao-na-saude</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-institui-formacao-obrigatoria-em-humanizacao-na-saude/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-institui-formacao-obrigatoria-em-humanizacao-na-saude/image_mini" alt="AGORA É LEI: Município institui formação obrigatória em Humanização na Saúde" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A qualificação do atendimento em saúde no município ganha um novo reforço com a sanção da Lei nº 9.194, de autoria do vereador Tiago Leite. A nova legislação estabelece a obrigatoriedade de formação específica em Humanização na Saúde para todos os profissionais que atuam ou venham a atuar na rede pública ou privada.&lt;/p&gt;
+&lt;p&gt;Novos profissionais somente poderão ser contratados mediante comprovação de curso, com carga horária mínima de 30 horas, realizado em instituição reconhecida e em conformidade com a Política Nacional de Humanização (PNH) do Ministério da Saúde. Também passa a ser obrigatória reciclagem semestral, com carga mínima de 8 horas.&lt;/p&gt;
+&lt;p&gt;Os profissionais que já se encontram em exercício terão prazo de seis meses, a contar da publicação da lei, para apresentar o certificado exigido. A ausência de certificação poderá resultar em impedimento de admissão, não renovação contratual ou desligamento da função, conforme o regime jurídico aplicável.&lt;/p&gt;
+&lt;p&gt;Tiago Leite destaca a importância da nova legislação. “Humanizar o atendimento é garantir respeito, acolhimento e responsabilidade. Esta lei assegura formação adequada aos profissionais e estabelece critérios claros para coibir qualquer forma de violência contra o paciente”, afirmou o vereador.&lt;/p&gt;
+&lt;p&gt;A nova lei possui abrangência ampla, alcançando profissionais da assistência direta ao paciente, apoio diagnóstico, gestão, administração e trabalhadores de apoio e serviços gerais que atuem em unidades de saúde. A exigência se aplica independentemente do vínculo empregatício, incluindo servidores efetivos, comissionados, contratados, terceirizados e voluntários.&lt;/p&gt;
+&lt;p&gt;A Lei também trata da responsabilização em casos de violência médica contra pacientes. Havendo denúncia, será obrigatória a abertura de sindicância administrativa no caso de servidores públicos e, comprovada a conduta, poderá haver exoneração, além das medidas cabíveis e comunicação ao respectivo conselho profissional.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-municipio-institui-formacao-obrigatoria-em-humanizacao-na-saude</guid><pubDate>Fri, 27 Feb 2026 12:20:00 GMT</pubDate></item><item><title>Indicação Legislativa sugere criação de oficinas de Libras e Braille na rede pública municipal</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-legislativa-sugere-criacao-de-oficinas-de-libras-e-braille-na-rede-publica-municipa</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-legislativa-sugere-criacao-de-oficinas-de-libras-e-braille-na-rede-publica-municipa/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-legislativa-sugere-criacao-de-oficinas-de-libras-e-braille-na-rede-publica-municipa/image_mini" alt="Indicação Legislativa sugere criação de oficinas de Libras e Braille na rede pública municipal" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou nesta quinta-feira (26), a Indicação Legislativa n° 6.399/25 de autoria do presidente da Casa, vereador Júnior Coruja, que propõe a criação de oficinas de Libras (Língua Brasileira de Sinais) e Braille nas instituições públicas de ensino fundamental e médio do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A medida tem como objetivo promover a inclusão social e educacional de estudantes com deficiência auditiva e visual, além de estimular a empatia, o respeito e a convivência com a diversidade dentro do ambiente escolar.&lt;/p&gt;
+&lt;p&gt;Júnior Coruja destaca que a Indicação Legislativa está alinhada à Constituição Federal, que assegura a educação como direito de todos, bem como à legislação que reconhece a Libras como meio legal de comunicação e expressão das pessoas surdas e que garante o acesso ao sistema Braille para pessoas com deficiência visual.&lt;/p&gt;
+&lt;p&gt;“Nosso objetivo é fortalecer a inclusão dentro das escolas e garantir que todos os estudantes tenham acesso à comunicação e ao aprendizado em igualdade de condições. A acessibilidade é um direito e precisa fazer parte do cotidiano da educação”, afirmou o presidente.&lt;/p&gt;
+&lt;p&gt;As oficinas deverão ser ofertadas de forma extracurricular e poderão ser realizadas por meio de parcerias com universidades, organizações da sociedade civil, entidades especializadas ou profissionais habilitados. As escolas deverão disponibilizar, sempre que possível, espaços adequados, materiais pedagógicos adaptados e profissionais capacitados para a realização das atividades.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-legislativa-sugere-criacao-de-oficinas-de-libras-e-braille-na-rede-publica-municipa</guid><pubDate>Thu, 26 Feb 2026 17:55:00 GMT</pubDate></item><item><title>Câmara de Petrópolis realiza audiência pública para apresentação do relatório quadrimestral da Defesa Civil</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-relatorio-quadrimestral-da-defesa-civil</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-relatorio-quadrimestral-da-defesa-civil/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-relatorio-quadrimestral-da-defesa-civil/image_mini" alt="Câmara de Petrópolis realiza audiência pública para apresentação do relatório quadrimestral da Defesa Civil" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis realizou na última terça-feira (24) audiência pública para a apresentação do Relatório Quadrimestral da Secretaria Municipal de Proteção e Defesa Civil, referente ao período de setembro a dezembro de 2025. A reunião teve como objetivo prestar contas das ações desenvolvidas no município de Petrópolis, reforçando a transparência das atividades voltadas à prevenção e gestão de riscos de desastres.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A audiência foi presidida pelo vereador Léo França e contou com a presença do secretário municipal de Proteção e Defesa Civil, Guilherme Moraes, além dos vereadores Thiago Damaceno, Domingos Protetor, Octavio Sampaio e das vereadoras Júlia Casamasso e Professora Lívia, que acompanharam a apresentação das ações desenvolvidas pela secretaria no período.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A Defesa Civil apresentou avanços estruturais e tecnológicos, com destaque para a instalação do novo radar meteorológico Banda-X no Morin, atualmente em fase de testes, que ampliará a capacidade de monitoramento climático em Petrópolis e municípios vizinhos.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Também foi ressaltado o uso do sistema Defesa Civil Alerta via tecnologia Cell Broadcast, que permite o envio de mensagens emergenciais diretamente aos celulares da população, além do avanço na implantação da Barreira SABO e na elaboração do novo Plano Municipal de Redução de Riscos, com estudos geológicos e hidrológicos em todos os distritos.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Na área educacional e comunitária, o programa Escola Resiliente capacitou cerca de 3.600 alunos do ensino fundamental em prevenção de desastres. As ações incluíram simulados de evacuação, atividades práticas e integração com secretarias municipais.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A apresentação destacou ainda a realização de capacitações de agentes públicos e lideranças comunitárias, atualização de protocolos de sirenes e ampliação de pontos de apoio em emergências.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Por sua vez, os vereadores criticaram a falta de detalhes sobre a forte chuva de 17 de dezembro. Eles questionaram por que o relatório da prefeitura ignorou a morte de uma pessoa e pediram explicações sobre a demora nas obras de bairros como Siméria e Ingá.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A operação dos pontos de apoio também foi motivo de cobrança. Os vereadores afirmaram que não é certo deixar a chave e a responsabilidade desses locais apenas com diretores de escolas e professores. Eles pediram a contratação de equipes específicas para essa função e também questionaram a redução no número de carros da Defesa Civil, o que pode atrasar o atendimento à população.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Os parlamentares cobraram por que o Comitê de Emergência, que deveria reunir forças como os Bombeiros e a Polícia, ainda não foi colocado em prática de forma efetiva, mesmo com o verão chegando ao fim. Além disso, pediram a reativação imediata das câmeras de monitoramento da cidade, que estão desativadas, prejudicando o acompanhamento das áreas de risco em tempo real.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A audiência foi aberta ao público e integra o calendário de prestação de contas periódicas do município, reforçando o compromisso institucional com o planejamento, a prevenção e a transparência na gestão de riscos.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-relatorio-quadrimestral-da-defesa-civil</guid><pubDate>Thu, 26 Feb 2026 16:40:00 GMT</pubDate></item><item><title>Projeto de Lei cria Selo Municipal de Inovação Trabalhista em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis/image_mini" alt="Projeto de Lei cria Selo Municipal de Inovação Trabalhista em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;O Projeto de Lei, de autoria do vereador Thiago Damaceno, que propõe a criação do Selo Municipal de Inovação Trabalhista em Petrópolis foi aprovado, hoje, na Câmara Municipal. O objetivo é incentivar empresas a adotarem práticas voltadas à qualidade de vida dos trabalhadores.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com o texto, o selo será concedido a empresas públicas e privadas que implementarem modelos de jornada reduzida, como as escalas 5x2 e 4x3, promovendo equilíbrio entre vida profissional e pessoal e contribuindo para ambientes de trabalho mais saudáveis e produtivos.&lt;/p&gt;
+&lt;p&gt;A proposta também prevê que as empresas certificadas tenham prioridade em contratações com a Prefeitura de Petrópolis. O vereador destaca que a iniciativa busca fortalecer a parceria entre o setor público e privado, estimular a inovação nas relações de trabalho e incentivar políticas que promovam bem-estar e produtividade.&lt;/p&gt;
+&lt;p&gt;O projeto segue para avaliação do Poder Executivo Municipal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis</guid><pubDate>Thu, 26 Feb 2026 13:52:00 GMT</pubDate></item><item><title>Projeto de Lei propõe reconhecimento da CaminhaDown como Patrimônio Cultural Imaterial em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-reconhecimento-da-caminhadown-como-patrimonio-cultural-imaterial-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-reconhecimento-da-caminhadown-como-patrimonio-cultural-imaterial-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-reconhecimento-da-caminhadown-como-patrimonio-cultural-imaterial-em-petropolis/image_mini" alt="Projeto de Lei propõe reconhecimento da CaminhaDown como Patrimônio Cultural Imaterial em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A CaminhaDown foi aprovada como Patrimônio Cultural de Natureza Imaterial de Petrópolis na Câmara Municipal. A proposta do vereador Gil Magno reconhece a importância social, cultural e inclusiva do evento, realizado anualmente em alusão ao Dia Mundial da Síndrome de Down, celebrado em 21 de março.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Criada em 2019 por familiares de pessoas com Síndrome de Down, a CaminhaDown se consolidou como uma mobilização de conscientização, inclusão e valorização da diversidade, reunindo sociedade civil, instituições e o poder público. O evento conta com apoio da Prefeitura e de entidades como a APAE, além de projetos sociais parceiros.&lt;/p&gt;
+&lt;p&gt;O texto prevê que o Poder Executivo realize os registros necessários para o reconhecimento oficial como patrimônio imaterial e apoie iniciativas que fortaleçam a divulgação e a continuidade da CaminhaDown, além de garantir sua inclusão no calendário oficial de eventos do município.&lt;/p&gt;
+&lt;p&gt;Agora, a proposta segue para avaliação do poder executivo municipal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-reconhecimento-da-caminhadown-como-patrimonio-cultural-imaterial-em-petropolis</guid><pubDate>Wed, 25 Feb 2026 18:38:00 GMT</pubDate></item><item><title>Projeto de Lei propõe dieta especial para pacientes celíacos em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-dieta-especial-para-pacientes-celiacos-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-dieta-especial-para-pacientes-celiacos-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-dieta-especial-para-pacientes-celiacos-em-petropolis/image_mini" alt="Projeto de Lei propõe dieta especial para pacientes celíacos em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um Projeto de Lei de autoria da vereadora Gilda Beatriz propõe a obrigatoriedade do fornecimento de dieta especial para pessoas com doença celíaca em hospitais, clínicas e unidades de saúde de Petrópolis. A proposta foi aprovada na Câmara na sessão dessa quarta-feira (25) com o objetivo garantir segurança alimentar aos pacientes que necessitam de internação.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O texto determina que as unidades de saúde ofereçam alimentação totalmente livre de glúten, evitando contaminação cruzada durante o preparo. Caso não haja estrutura adequada para produção separada dos alimentos, o projeto permite que a dieta seja fornecida por empresas terceirizadas especializadas.&lt;/p&gt;
+&lt;p&gt;Para Gilda Beatriz, a iniciativa busca fortalecer a segurança alimentar hospitalar e garantir que pacientes celíacos tenham acesso a uma dieta adequada durante o período de internação.&lt;/p&gt;
+&lt;p&gt;A proposta também estabelece cuidados específicos no manuseio e aquecimento dos alimentos, incluindo o uso de utensílios exclusivos ou descartáveis, além do descarte imediato das refeições não consumidas, reforçando a proteção à saúde dos pacientes.&lt;/p&gt;
+&lt;p&gt;A doença celíaca é uma condição autoimune cujo único tratamento é a alimentação rigorosamente sem glúten. Dados da Organização Mundial da Saúde indicam que cerca de 1% da população mundial possui a condição.&lt;/p&gt;
+&lt;p&gt;O projeto segue para avaliação da prefeitura municipal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-propoe-dieta-especial-para-pacientes-celiacos-em-petropolis</guid><pubDate>Wed, 25 Feb 2026 18:37:00 GMT</pubDate></item><item><title>Câmara de Petrópolis realiza audiência pública para apresentação do 3º Relatório Quadrimestral da Saúde</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-3o-relatorio-quadrimestral-da-saude</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-3o-relatorio-quadrimestral-da-saude/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-3o-relatorio-quadrimestral-da-saude/image_mini" alt="Câmara de Petrópolis realiza audiência pública para apresentação do 3º Relatório Quadrimestral da Saúde" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis realizou nesta terça-feira audiência pública para a apresentação do 3º Relatório Detalhado do Quadrimestre Anterior de 2025, referente ao período de setembro a dezembro. A prestação de contas é feita pela Secretaria Municipal de Saúde, com o objetivo garantir transparência na aplicação dos recursos e demonstrar a oferta e produção de serviços na rede pública. A audiência foi presidida pelo vereador Tiago Leite.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A audiência contou com a presença do secretário de Saúde, Dr. Aloisio Barbosa; do Diretor Médico do SEHAC, Luiz Arnaldo Magdalena; da Superintendente de Atenção à Saúde, Fabiola Heck; da Superintendente Financeira do SMS, Michele Lago Firma; do Diretor Administrativo Financeiro do SEHAC, João José; da Diretora Financeira, Michele Ghenre; do Superintendente de Planejamento e Apoio à Gestão da Secretaria de Saúde, Carlos Silva; da Superintendente de Regulação, Controle e Avaliação, Ana Deak; do Coordenador Médico do SAMU, Dr. Roberth Nascimento Leite; do Dr. Anderson Morais Garcia; do presidente da Comissão de Saúde da OAB, Antonio Muniz Aragão; além dos vereadores Léo França, Thiago Damaceno, Domingos Protetor, Octavio Sampaio, Gil Magno, Júnior Coruja e das vereadoras Júlia Casamasso e Professora Lívia.&lt;/p&gt;
+&lt;p&gt;Durante a apresentação, a Secretaria destacou que o município aplicou 19% da receita própria em saúde no período, percentual superior ao mínimo constitucional de 15%, conforme determina a Lei Complementar nº 141/2012. No terceiro quadrimestre, a saúde contou com R$ 176,8 milhões em receitas provenientes de recursos próprios, estaduais e federais, além de emendas parlamentares que reforçaram o custeio e os investimentos.&lt;/p&gt;
+&lt;p&gt;Entre os principais números apresentados, a Atenção Primária registrou 67.650 procedimentos no quadrimestre, totalizando 239.193 no ano, além de mais de 534 mil visitas domiciliares realizadas pelos Agentes Comunitários de Saúde em 2025. A saúde da mulher contabilizou 5.956 mamografias de rastreio e 14.080 exames preventivos. A rede de saúde mental superou 31 mil atendimentos, enquanto os Centros de Especialidades Odontológicas somaram 25.558 atendimentos.&lt;/p&gt;
+&lt;p&gt;Já a Vigilância em Saúde apresentou que mais de 210 mil imóveis foram visitados no combate às arboviroses e mais de 15 mil animais vacinados contra a raiva.&lt;/p&gt;
+&lt;p&gt;Os vereadores presentes ressaltaram a importância da audiência pública como instrumento de controle social e fiscalização, destacando a necessidade de transparência na aplicação dos recursos e na execução das políticas públicas de saúde. Durante o encontro, os parlamentares fizeram questionamentos técnicos, apresentaram demandas encaminhadas pela população, formularam perguntas à equipe da Secretaria de Saúde e enviaram um questionário formal com solicitações de informações complementares, que serão respondidas posteriormente pelo Executivo Municipal.&lt;/p&gt;
+&lt;p&gt;A audiência foi aberta ao público e reforça o compromisso da Câmara Municipal com a transparência, o planejamento e o fortalecimento da rede pública de saúde em Petrópolis.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-de-petropolis-realiza-audiencia-publica-para-apresentacao-do-3o-relatorio-quadrimestral-da-saude</guid><pubDate>Wed, 25 Feb 2026 09:42:00 GMT</pubDate></item><item><title>Agora é Lei: Festa Junina do Seminário Diocesano Nossa Senhora do Amor Divino vira Patrimônio Cultural Imaterial de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-festa-junina-do-seminario-diocesano-nossa-senhora-do-amor-divino-vira-patrimonio-cultural-imaterial-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-festa-junina-do-seminario-diocesano-nossa-senhora-do-amor-divino-vira-patrimonio-cultural-imaterial-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-festa-junina-do-seminario-diocesano-nossa-senhora-do-amor-divino-vira-patrimonio-cultural-imaterial-de-petropolis/image_mini" alt="Agora é Lei: Festa Junina do Seminário Diocesano Nossa Senhora do Amor Divino vira Patrimônio Cultural Imaterial de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Foi sancionada a Lei nº 9.190, que declara como Patrimônio Cultural Imaterial de Petrópolis a Festa Junina do Seminário Diocesano Nossa Senhora do Amor Divino, realizada anualmente no bairro de Corrêas. A proposta, apresentada na Câmara Municipal de Petrópolis pelo vereador Marquinhos Almeida, reconhece a relevância histórica, religiosa e cultural do evento para o município.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Com o reconhecimento oficial, passam a integrar o patrimônio imaterial às manifestações artístico culturais que compõem a celebração, como a missa solene de abertura, as apresentações teatrais e musicais, a tradicional quadrilha e toda a programação festiva.&lt;/span&gt;&lt;br&gt;&lt;span&gt;A medida reforça a importância da preservação das tradições populares e da identidade cultural de Petrópolis.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Aberta ao público e com entrada gratuita, a festa é organizada por seminaristas, equipes vocacionais e membros das paróquias da Diocese de Petrópolis. O evento promove a integração entre fiéis das oito cidades que formam a Diocese, além de contribuir para a manutenção do seminário e fortalecer os laços comunitários na Região Serrana.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A lei também prevê que o Poder Executivo regulamente a norma, por meio do Instituto Municipal de Cultura e de outros órgãos competentes, podendo editar normas complementares para assegurar a realização e valorização dos festejos.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O autor da iniciativa destacou que o reconhecimento representa um avanço na valorização da cultura local, preservando a fé, as tradições e a história que fazem parte da identidade petropolitana.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-festa-junina-do-seminario-diocesano-nossa-senhora-do-amor-divino-vira-patrimonio-cultural-imaterial-de-petropolis</guid><pubDate>Tue, 24 Feb 2026 16:11:00 GMT</pubDate></item></channel></rss>
