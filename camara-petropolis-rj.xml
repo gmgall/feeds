@@ -1,13 +1,138 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 18 Mar 2026 12:57:14 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Notícias — Câmara Municipal de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Banco de notícias </description><language>pt-BR</language><lastBuildDate>Wed, 18 Mar 2026 18:53:07 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>AGORA É LEI: Circuito de Lazer da Barão do Rio Branco terá atendimento médico emergencial</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-lazer-da-barao-do-rio-branco-tera-atendimento-medico-emergencial</link><description>&lt;div id="content-core"&gt;
+                                 
+    
 
-&lt;/pre&gt;</description></item></channel></rss>
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-lazer-da-barao-do-rio-branco-tera-atendimento-medico-emergencial/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-lazer-da-barao-do-rio-branco-tera-atendimento-medico-emergencial/image_mini" alt="AGORA É LEI: Circuito de Lazer da Barão do Rio Branco terá atendimento médico emergencial" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal de Petrópolis promulgou a Lei nº 9.205 que estabelece a instalação de um ponto de atendimento médico emergencial no Circuito de Esporte e Lazer da Avenida Barão do Rio Branco, aos fins de semana e feriados. A medida garante mais segurança aos frequentadores que utilizam o espaço para a prática de atividades físicas, como caminhada, corrida e ciclismo, especialmente nos períodos de maior movimento. A nova lei tem autoria do vereador Dudu.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O atendimento deverá contar com profissional de saúde habilitado, equipamentos de primeiros socorros, desfibrilador externo automático (DEA), sistema de comunicação de emergência e identificação visível para fácil acesso da população. Também está prevista a aferição de pressão arterial como ação preventiva. O funcionamento será concentrado, principalmente, entre 6h e 13h, podendo ser ajustado conforme a demanda e orientação da Secretaria Municipal de Saúde.&lt;/p&gt;
+&lt;p&gt;A iniciativa reforça a importância da prevenção e do atendimento rápido em casos de emergência, contribuindo para salvar vidas e incentivar a prática de atividades físicas com mais segurança. “Estamos falando de um espaço muito utilizado pela população. Garantir um ponto de atendimento emergencial é cuidar da vida das pessoas e dar mais tranquilidade para quem pratica atividades físicas no local”, destacou o vereador Dudu.&lt;/p&gt;
+&lt;p&gt;A lei permite que a implantação do serviço ocorra por meio de recursos do município, convênios com órgãos públicos, como Defesa Civil e Corpo de Bombeiros, além de parcerias com entidades e empresas privadas.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-lazer-da-barao-do-rio-branco-tera-atendimento-medico-emergencial</guid><pubDate>Wed, 18 Mar 2026 15:28:00 GMT</pubDate></item><item><title>AGORA É LEI: Petrópolis terá fiscalização do descarte irregular de lixo com apoio de câmeras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-tera-fiscalizacao-do-descarte-irregular-de-lixo-com-apoio-de-cameras</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-tera-fiscalizacao-do-descarte-irregular-de-lixo-com-apoio-de-cameras/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-tera-fiscalizacao-do-descarte-irregular-de-lixo-com-apoio-de-cameras/image_mini" alt="AGORA É LEI: Petrópolis terá fiscalização do descarte irregular de lixo com apoio de câmeras" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Lei 9.203/25, que permite o uso de câmeras de monitoramento como ferramenta de controle e combate às irregularidades, foi promulgada recentemente pela Câmara Municipal de Petrópolis. A lei, de autoria do vereador Júnior Paixão, autoriza o Poder Executivo a criar mecanismos mais eficazes para coibir o descarte inadequado de resíduos, tanto na área urbana quanto na rural.&lt;/p&gt;
+&lt;p&gt;Entre as medidas previstas está a utilização de câmeras de vigilância, cujas imagens poderão ser usadas como suporte para identificar infrações e responsabilizar os infratores. Além do monitoramento eletrônico, a fiscalização também poderá ser realizada de forma presencial, garantindo maior alcance das ações e reforçando o cuidado com a limpeza pública.&lt;/p&gt;
+&lt;p&gt;A lei também abre a possibilidade de criação de canais de denúncia, permitindo que a população contribua com a identificação de casos de descarte irregular. Nesses casos, a aplicação de penalidades dependerá de verificação por parte da fiscalização municipal.&lt;/p&gt;
+&lt;p&gt;A iniciativa busca fortalecer a limpeza urbana, prevenir problemas ambientais e melhorar a qualidade de vida da população, especialmente após períodos de dificuldade na coleta de lixo no município. “Precisamos unir tecnologia e participação da população para manter a cidade limpa e organizada. Essa lei é um passo importante para avançarmos nesse objetivo”, destacou o vereador Júnior Paixão.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-tera-fiscalizacao-do-descarte-irregular-de-lixo-com-apoio-de-cameras</guid><pubDate>Wed, 18 Mar 2026 15:22:00 GMT</pubDate></item><item><title>AGORA É LEI: Eventos em Petrópolis deverão contar com Técnico em Segurança do Trabalho</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-eventos-em-petropolis-deverao-contar-com-tecnico-em-seguranca-do-trabalho</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-eventos-em-petropolis-deverao-contar-com-tecnico-em-seguranca-do-trabalho/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-eventos-em-petropolis-deverao-contar-com-tecnico-em-seguranca-do-trabalho/image_mini" alt="AGORA É LEI: Eventos em Petrópolis deverão contar com Técnico em Segurança do Trabalho" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal de Petrópolis promulgou a Lei nº 9.202, de autoria do vereador Dudu, que torna obrigatória a presença de um Técnico em Segurança do Trabalho durante as etapas de montagem, realização e desmontagem de eventos públicos e privados que envolvam estruturas temporárias, como shows, festivais, feiras, eventos esportivos, religiosos ou sociais no município. A medida tem como objetivo garantir mais segurança para trabalhadores, equipes técnicas, artistas e público em geral.&lt;/p&gt;
+&lt;p&gt;Entre as responsabilidades do técnico estão a realização de análise de riscos, fiscalização das condições de trabalho, orientação sobre o uso correto de equipamentos de proteção e acompanhamento das montagens, especialmente em situações que envolvam eletricidade, trabalho em altura, estruturas metálicas e grande circulação de pessoas.&lt;/p&gt;
+&lt;p&gt;A legislação também determina que a comprovação da contratação desse profissional será obrigatória para a emissão do alvará do evento, reforçando o controle preventivo e a organização das atividades. O descumprimento da norma poderá acarretar advertências, multas e até a interdição do evento em casos de risco.&lt;/p&gt;
+&lt;p&gt;A iniciativa busca profissionalizar o setor de eventos e prevenir acidentes, garantindo que todas as etapas sejam realizadas com planejamento e responsabilidade. “A segurança precisa vir em primeiro lugar. Essa lei garante mais proteção para todos os envolvidos e eleva o padrão de organização dos eventos em Petrópolis”, destacou o vereador Dudu.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-eventos-em-petropolis-deverao-contar-com-tecnico-em-seguranca-do-trabalho</guid><pubDate>Wed, 18 Mar 2026 15:15:00 GMT</pubDate></item><item><title>CPI do Saneamento realiza oitiva com o Procurador-Geral do Município na Câmara Municipal</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/cpi-do-saneamento-realiza-oitiva-com-o-procurador-geral-do-municipio-na-camara-municipal-1</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/cpi-do-saneamento-realiza-oitiva-com-o-procurador-geral-do-municipio-na-camara-municipal-1/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/cpi-do-saneamento-realiza-oitiva-com-o-procurador-geral-do-municipio-na-camara-municipal-1/image_mini" alt="CPI do Saneamento realiza oitiva com o Procurador-Geral do Município na Câmara Municipal" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;A Câmara Municipal realizou, na manhã do dia 12 de março de 2026, mais uma oitiva da Comissão Parlamentar de Inquérito (CPI) que acompanha e apura questões relacionadas ao serviço de saneamento no município. A sessão foi presidida pela professora Lívia, presidente da comissão, e contou com a participação dos vereadores Domingos Protetor, Júnior Paixão e do vice-presidente da comissão, Léo França.&lt;/p&gt;
+&lt;p&gt;Na ocasião, foi ouvido o Procurador-Geral do município, Fernando Fernandes Araújo, que ocupa o cargo desde 1º de janeiro de 2025. A reunião teve como objetivo tratar de aspectos relacionados à atuação da Procuradoria nos processos administrativos ligados ao serviço de água e esgoto prestado pela concessionária Águas do Imperador.&lt;/p&gt;
+&lt;p&gt;Durante a oitiva, o procurador apresentou esclarecimentos sobre o papel da Procuradoria no âmbito da administração municipal. Segundo ele, o órgão atua como instância de consultoria jurídica do município, sendo responsável por analisar processos administrativos e emitir pareceres técnico-jurídicos quando solicitado pelas áreas competentes. A fiscalização direta do contrato de concessão, por sua vez, é realizada por órgãos responsáveis pelo acompanhamento da execução do serviço.&lt;/p&gt;
+&lt;p&gt;Também foram mencionados pareceres emitidos pela Procuradoria em processos administrativos relacionados a termos aditivos do contrato de concessão, incluindo temas como reajustes tarifários e eventuais reequilíbrios econômico-financeiros. Durante a sessão, foram abordados ainda aspectos ligados à situação da concessionária, possíveis multas administrativas e questões relacionadas à condução de negociações contratuais envolvendo o município e a empresa responsável pelo serviço de saneamento.&lt;/p&gt;
+&lt;p&gt;"Apesar dos problemas técnicos que enfrentamos para transmissão da oitiva, a mesma foi mantida em respeito às investigações que estamos conduzindo. O que pudemos perceber foi a incoerência de um representante do Governo que se nega a responder as perguntas, utilizando como recurso o Art. 5 da constituição que garante silencio contra a auto incriminação. A pergunta que fica é: do que o governo está com medo?", questiona a vereadora Professora Lívia.&lt;/p&gt;
+&lt;p&gt;A CPI segue em andamento e tem como objetivo reunir informações e analisar documentos relacionados à prestação do serviço de saneamento no município, incluindo a coleta e o tratamento de esgoto, o cumprimento de condicionantes ambientais e contratuais e a atuação dos órgãos responsáveis pelo acompanhamento do contrato. A comissão continuará realizando oitivas e avaliando documentos para aprofundar os trabalhos e apresentar suas conclusões ao final do processo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/cpi-do-saneamento-realiza-oitiva-com-o-procurador-geral-do-municipio-na-camara-municipal-1</guid><pubDate>Tue, 17 Mar 2026 17:32:00 GMT</pubDate></item><item><title>AGORA É LEI: Petrópolis passa a contar com Política Municipal das Trilhas de Caminhada</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada/image_mini" alt="AGORA É LEI: Petrópolis passa a contar com Política Municipal das Trilhas de Caminhada" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Lei nº 9.214, de autoria do vereador Gil Magno, estabelece a Política Municipal das Trilhas de Caminhada no município de Petrópolis, com o objetivo de reconhecer, organizar e incentivar o uso das trilhas ecológicas já existentes na cidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova legislação define diretrizes para o mapeamento, preservação e utilização das trilhas como espaços de lazer, esporte, educação ambiental e turismo sustentável. A política também busca aproximar a população do contato com a natureza, promovendo qualidade de vida e conscientização sobre a preservação ambiental.&lt;/p&gt;
+&lt;p&gt;Entre os objetivos da lei estão a valorização das trilhas como instrumento de educação ambiental, a proteção de áreas naturais de relevância ecológica, histórica e cultural, além do estímulo ao turismo ecológico e de aventura no município.&lt;/p&gt;
+&lt;p&gt;A iniciativa também prevê a elaboração de orientações para os usuários, incentivo à criação de novas trilhas e a participação da sociedade civil no planejamento e gestão desses espaços. Outro ponto importante é o incentivo ao turismo rural e à geração de emprego e renda por meio de atividades ligadas ao ecoturismo.&lt;/p&gt;
+&lt;p&gt;A política ainda reforça a importância da preservação ambiental durante a prática de caminhadas e atividades esportivas nas trilhas, estabelecendo que os usuários devem respeitar as normas ambientais e contribuir para a conservação da fauna, da flora e das paisagens naturais.&lt;/p&gt;
+&lt;p&gt;“Petrópolis possui um enorme potencial natural e turístico. Com essa lei, queremos valorizar nossas trilhas, incentivar o contato com a natureza e fortalecer o turismo ecológico de forma responsável, preservando o meio ambiente e promovendo qualidade de vida para a população”, destacou o vereador Gil Magno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-passa-a-contar-com-politica-municipal-das-trilhas-de-caminhada</guid><pubDate>Thu, 03 Dec 2026 11:49:00 GMT</pubDate></item><item><title>Projeto de Lei cria Selo Municipal de Inovação Trabalhista em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis/image_mini" alt="Projeto de Lei cria Selo Municipal de Inovação Trabalhista em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;O Projeto de Lei, de autoria do vereador Thiago Damaceno, que propõe a criação do Selo Municipal de Inovação Trabalhista em Petrópolis foi aprovado, hoje, na Câmara Municipal. O objetivo é incentivar empresas a adotarem práticas voltadas à qualidade de vida dos trabalhadores.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com o texto, o selo será concedido a empresas públicas e privadas que implementarem modelos de jornada reduzida, como as escalas 5x2 e 4x3, promovendo equilíbrio entre vida profissional e pessoal e contribuindo para ambientes de trabalho mais saudáveis e produtivos.&lt;/p&gt;
+&lt;p&gt;A proposta também prevê que as empresas certificadas tenham prioridade em contratações com a Prefeitura de Petrópolis. O vereador destaca que a iniciativa busca fortalecer a parceria entre o setor público e privado, estimular a inovação nas relações de trabalho e incentivar políticas que promovam bem-estar e produtividade.&lt;/p&gt;
+&lt;p&gt;O projeto segue para avaliação do Poder Executivo Municipal.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-cria-selo-municipal-de-inovacao-trabalhista-em-petropolis</guid><pubDate>Thu, 26 Feb 2026 13:52:00 GMT</pubDate></item></channel></rss>
