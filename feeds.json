@@ -6,9 +6,9 @@
     "feed": "https://gmgall.github.io/feeds/FikaMedHasse.xml"
   },
   {
-    "title": "~Triz3n posts on ctrl-c.club",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+.html -i .+/index.html --follow --with-body --title ~Triz3n posts on ctrl-c.club --body-remove-csss nav https://ctrl-c.club/~Triz3n/ -o ./feeds/Triz3n.xml",
     "link": "https://ctrl-c.club/~Triz3n/",
-    "description": "Triz3n",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/Triz3n.xml"
   },
   {
@@ -84,9 +84,9 @@
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
-    "title": "Pioneiro | As principais notícias de Caxias do Sul e região",
+    "title": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "link": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
-    "description": "No site do Pioneiro você encontra as principais notícias de Caxias do Sul e região sobre política, economia, futebol, tempo, crimes e mais.",
+    "description": "https://gauchazh.clicrbs.com.br/pioneiro/ultimas-noticias/",
     "feed": "https://gmgall.github.io/feeds/gauchazh.xml"
   },
   {
