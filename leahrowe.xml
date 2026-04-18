@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</title><link>https://vimuser.org/</link><description>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</description><language>en</language><lastBuildDate>Sat, 18 Apr 2026 01:53:10 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>1337box, an insanely optimized CSS-only, no-JS lightbox implementation</title><link>https://vimuser.org/1337box.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;&lt;a href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+<rss version="2.0"><channel><title>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</title><link>https://vimuser.org/</link><description>Free Federation, Free Society! - Leah Rowe's Sleepless Rants</description><language>en</language><lastBuildDate>Sat, 18 Apr 2026 07:01:27 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>1337box, an insanely optimized CSS-only, no-JS lightbox implementation</title><link>https://vimuser.org/1337box.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h1 id="introduction"&gt;Introduction&lt;/h1&gt;&lt;a aria-hidden="true" href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;1337box is a simple, insanely optimized Lightbox replacement in pure CSS.&lt;br&gt;
 &lt;a href="https://vimuser.org/demo.1337box_default.html"&gt;Demos are available&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;With 1337box, you can click an image on a page and a full sized zoomed in version of it appears, filling the width/height of your browser window.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="download"&gt;Download&lt;/h2&gt;&lt;a href="#download"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="download"&gt;Download&lt;/h2&gt;&lt;a aria-hidden="true" href="#download"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You can download it from a Git repository:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;git clone https://codeberg.org/1337box/1337box&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Direct links to the latest file, each with varying levels of optimization:&lt;/p&gt;
@@ -18,7 +18,7 @@
 &lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed.css&lt;/a&gt; (93 bytes)(&lt;a href="https://vimuser.org/demo.1337box_supercursed.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed_nocenter.css" class="uri"&gt;https://codeberg.org/1337box/1337box/raw/master/1337box_supercursed_nocenter.css&lt;/a&gt; (63 bytes)(&lt;a href="https://vimuser.org/demo.1337box_supercursed_nocenter.html"&gt;demo&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="h"&gt;&lt;h2 id="features"&gt;Features&lt;/h2&gt;&lt;a href="#features"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="features"&gt;Features&lt;/h2&gt;&lt;a aria-hidden="true" href="#features"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;It makes image galleries more user-friendly, on otherwise static HTML pages, and works fully, even if the user has JavaScript disabled in their browser!&lt;/p&gt;
 &lt;p&gt;Benefits over other Lightbox implementations include:&lt;/p&gt;
 &lt;ul&gt;
@@ -28,13 +28,13 @@
 &lt;li&gt;Special versions available &lt;em&gt;with&lt;/em&gt; the shadow effect, behind enlarged images. This makes it look more similar to traditional lightbox effects.&lt;/li&gt;
 &lt;li&gt;Works well on mobile browsers.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="h"&gt;&lt;h2 id="configuration"&gt;Configuration&lt;/h2&gt;&lt;a href="#configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="configuration"&gt;Configuration&lt;/h2&gt;&lt;a aria-hidden="true" href="#configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;How to understand CSS rules: &lt;code&gt;.f&lt;/code&gt; is the full image, and &lt;code&gt;.t&lt;/code&gt; is the thumbnail.&lt;/p&gt;
 &lt;p&gt;For versions with the shadow effect, establish images like so:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;img tabindex=1 src="image_thumbnail.png" /&amp;gt;&amp;lt;span class="f"&amp;gt;&amp;lt;img src="image_full.png" /&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;For versions &lt;em&gt;without&lt;/em&gt; the shadow effect, establish images like so:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;img tabindex=1 src="image_thumbnail.png" /&amp;gt;&amp;lt;img class="f" src="image_full.png" /&amp;gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="h"&gt;&lt;h2 id="how-does-each-version-differ"&gt;How does each version differ?&lt;/h2&gt;&lt;a href="#how-does-each-version-differ"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="how-does-each-version-differ"&gt;How does each version differ?&lt;/h2&gt;&lt;a aria-hidden="true" href="#how-does-each-version-differ"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The &lt;code&gt;default&lt;/code&gt; version scales images to a max width and height filling the browser window. These versions are mobile-friendly (on all versions, it is recommended to view full images in widescreen mode, if youâre viewing it on a smartphone).&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;nocursor&lt;/code&gt; version removes the cursor icon that appears (on desktop browsers) when hovering over images.&lt;/p&gt;
 &lt;p&gt;The &lt;code&gt;shadow&lt;/code&gt; version adds a shadow effect, darkening whatâs behind the image. Depending on your site, you may want to use this version (it looks very similar to normal lightbox).&lt;/p&gt;
@@ -43,17 +43,17 @@
 &lt;p&gt;The &lt;code&gt;supercursed&lt;/code&gt; versions are like the &lt;code&gt;cursed&lt;/code&gt; versions, but they do &lt;em&gt;not&lt;/em&gt; set a maximum width. Otherwise, the same rules apply.&lt;/p&gt;
 &lt;p&gt;The only versions that have the cursor icon appear over images (when hovering), on desktop browsers, are &lt;code&gt;1337box_default.css&lt;/code&gt; version and &lt;code&gt;1337box_shadow.css&lt;/code&gt;. If you like this behaviour, and want to add it on other versions, simply add this line in CSS:&lt;/p&gt;
 &lt;p&gt;img{cursor:pointer}&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="known-problems-and-workarounds"&gt;Known problems and workarounds&lt;/h2&gt;&lt;a href="#known-problems-and-workarounds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="known-problems-and-workarounds"&gt;Known problems and workarounds&lt;/h2&gt;&lt;a aria-hidden="true" href="#known-problems-and-workarounds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;If you have elements extending beyond the width of the browser screen, such that horizontal scrolling is enabled, &lt;code&gt;1337box&lt;/code&gt; will break horribly, because it will scale to &lt;em&gt;that&lt;/em&gt; extended size.&lt;/p&gt;
 &lt;p&gt;Please ensure that your pages donât horizontally scroll.&lt;/p&gt;
 &lt;p&gt;If using the &lt;code&gt;cursed&lt;/code&gt; versions, please ensure that the aspect ratio of your full sized images do not exceed the aspect ratio of the browser window.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="send-patches"&gt;Send patches&lt;/h2&gt;&lt;a href="#send-patches"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="send-patches"&gt;Send patches&lt;/h2&gt;&lt;a aria-hidden="true" href="#send-patches"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Send a pull request: &lt;a href="https://codeberg.org/1337box/1337box/pulls" class="uri"&gt;https://codeberg.org/1337box/1337box/pulls&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can also send the patch via email. My info is on the &lt;a href="https://vimuser.org/contact.html"&gt;contact page of vimuser.org&lt;/a&gt;.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="untitled-static-site-generator"&gt;Untitled Static Site Generator&lt;/h2&gt;&lt;a href="#untitled-static-site-generator"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="untitled-static-site-generator"&gt;Untitled Static Site Generator&lt;/h2&gt;&lt;a aria-hidden="true" href="#untitled-static-site-generator"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You may also consider building websites using the &lt;a href="https://untitled.vimuser.org/"&gt;untitled static site generator&lt;/a&gt;. With this, you can write pages in Markdown but it uses Pandoc to generate HTML, and you can still insert HTML into pandoc-style Markdown files.&lt;/p&gt;
 &lt;p&gt;Untitled and 1337box are both written with a simple goal: to make the web sane.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="copying"&gt;Copying&lt;/h2&gt;&lt;a href="#copying"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="copying"&gt;Copying&lt;/h2&gt;&lt;a aria-hidden="true" href="#copying"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;code&gt;1337box&lt;/code&gt; is released under the terms of the Creative Commons Zero 1.0 license. You can view that license text here:&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode" class="uri"&gt;https://creativecommons.org/publicdomain/zero/1.0/legalcode&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;A copy of that file has been included, alongside 1337box inside the Git repository, in the &lt;code&gt;COPYING&lt;/code&gt; file.&lt;/p&gt;
@@ -99,12 +99,12 @@
 &lt;p&gt;However, DuckStation appears to contain a large number of outside contributions, and it would appear that they have not been consulted about the licensing change. Therefore, DuckStation could potentially be violating the terms of the GPL.&lt;/p&gt;
 &lt;p&gt;DuckStation is currently released under the terms of the Creative Commons ShareAlike Non-Commercial No-derivative license version 4.0, or CC BY-NC-ND 4.0 for short - this is a proprietary license, because it prohibits commercial usage of the software and it prohibits any person or entity from distributing modified versions - Stanzek has also decreed that nobody shall provide builds but him, from now on.&lt;/p&gt;
 &lt;p&gt;NOTE: Stanzek is the nickname of the principle author of DuckStation, full name Connor McLaughlin. You can find out about DuckStation on the &lt;a href="https://github.com/stenzek/duckstation"&gt;GitHub site&lt;/a&gt; and on the &lt;a href="https://duckstation.org/"&gt;official site&lt;/a&gt; - but NOTE:&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="ive-archived-duckstation"&gt;Iâve archived DuckStation&lt;/h2&gt;&lt;a href="#ive-archived-duckstation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="ive-archived-duckstation"&gt;Iâve archived DuckStation&lt;/h2&gt;&lt;a aria-hidden="true" href="#ive-archived-duckstation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I have decided to provide an archived version of DuckStation, from before the licensing change, here: &lt;a href="https://codeberg.org/vimuser/duckstation" class="uri"&gt;https://codeberg.org/vimuser/duckstation&lt;/a&gt; - this version is released under GNU GPLv3, the one before the re-licensing, so this version is free software.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="email"&gt;Email&lt;/h1&gt;&lt;a href="#email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="email"&gt;Email&lt;/h1&gt;&lt;a aria-hidden="true" href="#email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I have decided to contact Stanzek, in addition to all contributors and the SFC, about this recent re-licensing, which I believe constitutes a violation of the GPL.&lt;/p&gt;
 &lt;p&gt;The following email was CCâd to Stanzek, plus all contributors to DuckStation (as shown in git shortlog) and the Software Freedom Conservancy:&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="human-readable-email"&gt;Human-readable email&lt;/h2&gt;&lt;a href="#human-readable-email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="human-readable-email"&gt;Human-readable email&lt;/h2&gt;&lt;a aria-hidden="true" href="#human-readable-email"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Hi everyone,&lt;/p&gt;
 &lt;p&gt;This is largely targeted at those who have contributed to the DuckStation project, a popular Sony PlayStation emulator released under the terms of GNU General Public License version 3.&lt;/p&gt;
 &lt;p&gt;Connor McLaughlin, also known as Stenzek, recently re-licensed DuckStation to the PolyForm Strict 1.0.0 license, in this commit:&lt;/p&gt;
@@ -135,7 +135,7 @@
 &lt;p&gt;Unless the DuckStation author changes the project back to GPL, I would suggest that you all boycott the project, and tell others to do the same; you could send all future contributions to SwanStation instead, which is part of libretro. I would suggest that all future works go to a fork (could be SwanStation), instead of DuckStation, while still permitting Stanzek to contribute; this way, any future abusive re-licensing could not realistically occur. The reason I say this, is because based on my own research, it seems that Stanzekâs bios against the GPL has existed for some time, so Iâm uncertain as to whether he could be trusted in charge of a public project.&lt;/p&gt;
 &lt;p&gt;Anyway, thatâs all I wanted to say. Iâm not involved with the development of DuckStation myself (I donât even use it, though I do enjoy the PlayStation and have a modded PS1 with Xstation, itâs neato).&lt;/p&gt;
 &lt;p&gt;Hardware preservation is important, and itâs therefore important that these emulators remain free and open source, so that people in the future can always develop them and based new works off of them.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="email-src"&gt;Email src&lt;/h2&gt;&lt;a href="#email-src"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="email-src"&gt;Email src&lt;/h2&gt;&lt;a aria-hidden="true" href="#email-src"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Recipients of the above email text are shown below, which shows the email as it was formatted (base64-encoded), when I sent it out.&lt;/p&gt;
 &lt;p&gt;The version above was provided for ease iof reading, but here is the email as sent out from my client, base64-encoded (thatâs why I posted the human-readable version above, but itâs the same text):&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Message-ID: &amp;lt;0f06bb4c-79b3-4658-8409-7165a256f57a@minifree.org&amp;gt;
@@ -820,13 +820,13 @@ img{max-width:10% !important;}
 &lt;p&gt;Itâs a never-ending ladder of hypocrisy. No class, and no respect.&lt;/p&gt;
 &lt;p&gt;You all know what Iâm talking about.&lt;/p&gt;
 &lt;p&gt;That is all.&lt;/p&gt;
-&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/hypocrites.html</guid><pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate></item><item><title>How to self-host servers in your living room on static IPs</title><link>https://vimuser.org/l2tp.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;&lt;a href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/hypocrites.html</guid><pubDate>Wed, 22 Mar 2023 00:00:00 GMT</pubDate></item><item><title>How to self-host servers in your living room on static IPs</title><link>https://vimuser.org/l2tp.html</link><description>&lt;div&gt;&lt;div class="h"&gt;&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;&lt;a aria-hidden="true" href="#introduction"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Most people assume that a router is a piece of hardware, but thatâs not true. The router is actually software, and the hardware is just what that software runs on. Almost anything can be a router, just like anything can be on a cob in that one episode of Rick and Morty. The laptop in the photo is my router, configured in exactly the way this guide describes.&lt;/p&gt;
 &lt;p&gt;&lt;img class="t" tabindex="1" src="https://av.vimuser.org/router.jpg"&gt;&lt;span class="f"&gt;&lt;img src="https://av.vimuser.org/router.jpg"&gt;&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Have you ever wanted to host a server at home or in your office, but you canât because the ISP wonât give you static IPs? Are you behind a CGNAT? This guide is for you. It will teach you how to route static IPv4 and (native) IPv6 addresses to your network, with hosts directly pingable on the internet and all ports &lt;em&gt;open&lt;/em&gt;. With this guide, you wonât need to host your software project on &lt;em&gt;github&lt;/em&gt; anymore, because you can instead install gitea/cgit with a mailing list on your &lt;em&gt;raspberry pi&lt;/em&gt; and host it in your basement or living room!&lt;/p&gt;
 &lt;p&gt;I recently moved &lt;a href="https://libreboot.org/"&gt;libreboot.org&lt;/a&gt; hosting to a much faster network than what it had before, but the new ISP doesnât assign static IPv4 or IPv6 subnets on the line, and it has all kinds of restrictions, though speed, uptime and latency are all excellent. I decided therefore to set up a tunnel connection using Andrews &amp;amp; Arnold Ltd (A&amp;amp;A) &lt;a href="https://www.aa.net.uk/broadband/l2tp-service/"&gt;L2TP tunnel service&lt;/a&gt;. This is basically similar to most VPN services, but you get a lot more freedom and flexibility e.g.Â IPv4 subnets (for example, you could host your own DNS on this).&lt;/p&gt;
 &lt;p&gt;It could also just be used for normal day to day internet tasks. A&amp;amp;A provide you with an &lt;em&gt;unfiltered&lt;/em&gt; service, unshaped and unthrottled in any way.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="brief-technical-overview"&gt;Brief technical overview&lt;/h2&gt;&lt;a href="#brief-technical-overview"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="brief-technical-overview"&gt;Brief technical overview&lt;/h2&gt;&lt;a aria-hidden="true" href="#brief-technical-overview"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Adapt this guide according to your distro. Basically all we want to do is do PPP via L2TP and enable packet forwarding in Linux, so that packets can pass between two interfaces. We then set routes. We will have these interfaces:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;WAN port (ethernet) - upstream ISP&lt;/li&gt;
@@ -836,30 +836,30 @@ img{max-width:10% !important;}
 &lt;p&gt;L2TP is a protocol used for to tunnel traffic on the internet. Itâs quite commonly used by ISPs to connect customers up to their backend, where they then provide a PPP login.&lt;/p&gt;
 &lt;p&gt;So long as you have an &lt;em&gt;ethernet port&lt;/em&gt; available to use for internet, your tunnel router can work nicely. If you need to, you &lt;em&gt;could&lt;/em&gt; set up a WiFi connection or 4G tether on another machine, sharing that over an RJ45 ethernet port for your L2TP router to connect to; for example, raspberry pi USB tethered to 4G LTE service via dongle, assigned IPs presumably on NAT+DHCP, via ethernet.&lt;/p&gt;
 &lt;p&gt;Traffic will be forced, via static route, to A&amp;amp;Aâs L2TP tunnel server. In this way, &lt;em&gt;all&lt;/em&gt; traffic will go through L2TP and nothing else. It is completely isolated from your main network. With this setup, you can host your servers anywhere, and move them very easily.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="preparation"&gt;Preparation&lt;/h1&gt;&lt;a href="#preparation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
-&lt;div class="h"&gt;&lt;h2 id="hardware"&gt;Hardware&lt;/h2&gt;&lt;a href="#hardware"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="preparation"&gt;Preparation&lt;/h1&gt;&lt;a aria-hidden="true" href="#preparation"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="hardware"&gt;Hardware&lt;/h2&gt;&lt;a aria-hidden="true" href="#hardware"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You need a computer with 2 ethernet interfaces on it (RJ45). You then need to run either Linux or BSD on that. For the purpose of this tutorial, I will tell you how to configure &lt;em&gt;Debian Linux&lt;/em&gt;, but the information here can be adapted for any other system. I really only recommend hosting this on BSD or Linux.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="interface-names"&gt;Interface names&lt;/h2&gt;&lt;a href="#interface-names"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="interface-names"&gt;Interface names&lt;/h2&gt;&lt;a aria-hidden="true" href="#interface-names"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;In my case, I had these physical interfaces:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;enp14s0&lt;/code&gt; is configured via NAT address to normal ISP router, and static route to A&amp;amp;Aâs L2TP server. Client-side L2TP shall connect through this&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;eno0&lt;/code&gt; is for routing IPs from the L2TP, to a switch. this is basically my LAN port&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Yours may differ, so adapt accordingly.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="getting-started"&gt;Getting started&lt;/h1&gt;&lt;a href="#getting-started"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="getting-started"&gt;Getting started&lt;/h1&gt;&lt;a aria-hidden="true" href="#getting-started"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;When you first install Debian on the router, you might aswell just use the net installer. Install &lt;em&gt;only&lt;/em&gt; the base system (&lt;code&gt;Standard system utilities&lt;/code&gt; selected in &lt;code&gt;tasksel&lt;/code&gt;). You might also enable SSH, if you wish.&lt;/p&gt;
 &lt;p&gt;Before you actually configure the routing, your Debian machine must &lt;em&gt;have&lt;/em&gt; internet so that you can download packages. Alternatively, you might have apt configured to fetch them from installation media. Itâs up to you, really.&lt;/p&gt;
 &lt;p&gt;You must install &lt;em&gt;these&lt;/em&gt; packages:&lt;/p&gt;
 &lt;p&gt;apt-get install ppp pppoe xl2tpd iproute2 tcpdump net-tools resolvconf&lt;/p&gt;
 &lt;p&gt;You should install these packages BEFORE doing anything else. Just connect via DHCP or something and install these. You could also grab them from Debian installation media.&lt;/p&gt;
 &lt;p&gt;If you need a decent text editor, might I suggest &lt;a href="https://www.vim.org/"&gt;Vim&lt;/a&gt;. As scandalous as it may seem, Debian doesnât install it by default!&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="network-configuration"&gt;Network configuration&lt;/h1&gt;&lt;a href="#network-configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="network-configuration"&gt;Network configuration&lt;/h1&gt;&lt;a aria-hidden="true" href="#network-configuration"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;MAKE SURE you have the packages installed, as listed above, before continuing. At this point, we dive straight in and configure everything.&lt;/p&gt;
 &lt;p&gt;For our purposes, the WAN side on the router will connect to the internet via NAT, through the main ISPs network, but we will not use DHCP. Instead, a static (NAT) IP address will be specified, but with no gateway; in so doing, no default route will be set, but we will set a static route.&lt;/p&gt;
 &lt;p&gt;The static route will only route traffic to &lt;code&gt;90.155.53.19&lt;/code&gt; which is A&amp;amp;Aâs L2TP server, via what would otherwise be a gateway IP, in my case &lt;code&gt;10.42.0.1&lt;/code&gt;, but in your case that might be &lt;code&gt;192.168.1.1&lt;/code&gt;. You must adapt accordingly.&lt;/p&gt;
 &lt;p&gt;By setting the static route this way, we can only connect to A&amp;amp;A L2TP when the tunnel connection is down. When itâs up, we still have no default route but then we add a default route, going through the PPP tunnel via L2TP. In this way, all traffic (except traffic to &lt;code&gt;90.155.53.19&lt;/code&gt; directly) will go through the L2TP tunnel, NOT your main upstream ISP (e.g.Â Virgin, Sky, TalkTalk). By doing this, we ensure that all traffic correctly goes through &lt;em&gt;A&amp;amp;A&lt;/em&gt; only.&lt;/p&gt;
 &lt;p&gt;The reason we use A&amp;amp;Aâs IP address directly, is because we donât have DNS when the L2TP tunnel is down.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcnetworkinterfaces"&gt;/etc/network/interfaces&lt;/h2&gt;&lt;a href="#etcnetworkinterfaces"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcnetworkinterfaces"&gt;/etc/network/interfaces&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcnetworkinterfaces"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;&lt;em&gt;Please read the comments&lt;/em&gt; in the example below. They are important. You must adapt the config below for your purposes:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;source /etc/network/interfaces.d/*
 
@@ -905,9 +905,9 @@ iface eno0 inet6 static
 
 # NOTE: no hardline so PPP not configured here. This is handled via xl2tpd&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;NOTE: IP address &lt;code&gt;90.155.53.19&lt;/code&gt; is what &lt;code&gt;l2tp.aa.net.uk&lt;/code&gt; resolves to, and it shall be used directly for our purposes, due to absent name resolution during initialisation of this network, when setting up L2TP. The static route that we set, on &lt;code&gt;enp14s0&lt;/code&gt;, ensures that we do have internet on the WAN side (to the main ISP, not A&amp;amp;A), assuming that the (physical) main network itself works.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="enabling-ip-forwarding"&gt;Enabling IP forwarding&lt;/h1&gt;&lt;a href="#enabling-ip-forwarding"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="enabling-ip-forwarding"&gt;Enabling IP forwarding&lt;/h1&gt;&lt;a aria-hidden="true" href="#enabling-ip-forwarding"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You must permit packet forwarding, so that traffic can flow between the two network interfaces. Edit this file:&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcsysctl.conf"&gt;/etc/sysctl.conf&lt;/h2&gt;&lt;a href="#etcsysctl.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcsysctl.conf"&gt;/etc/sysctl.conf&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcsysctl.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Uncomment this line:&lt;/p&gt;
 &lt;p&gt;#net.ipv4.ip_forward=1&lt;/p&gt;
 &lt;p&gt;And this line (NOTE: disables stateless address autoconfiguration)&lt;/p&gt;
@@ -917,19 +917,19 @@ iface eno0 inet6 static
 &lt;p&gt;Now run:&lt;/p&gt;
 &lt;p&gt;sysctl -p&lt;/p&gt;
 &lt;p&gt;The last command simply applies it &lt;em&gt;now&lt;/em&gt;, but this would also apply during every booting of your system.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="l2tp"&gt;L2TP&lt;/h1&gt;&lt;a href="#l2tp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="l2tp"&gt;L2TP&lt;/h1&gt;&lt;a aria-hidden="true" href="#l2tp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;It may seem counter-intuitive, that weâre configuring PPP as though weâre on a hardline, but this is important for the next step. A&amp;amp;A provides L2TP without authentication, but then you authenticate via PPP routed through L2TP. It is through PPP that your (public) IP addresses are assigned, when you use A&amp;amp;A. Such is also true of their hardline servers (e.g.Â VDSL/FTTP).&lt;/p&gt;
 &lt;p&gt;Debian kernels should already have the correct modules, but otherwise you must ensure that the &lt;code&gt;CONFIG_PPPOL2TP&lt;/code&gt; and &lt;code&gt;CONFIG_L2TP&lt;/code&gt; options are enabled in your kernel configuration.&lt;/p&gt;
 &lt;p&gt;It should be noted that A&amp;amp;A L2TP service is (as of this day) currently without IPSEC or other encryption such as wireguard. This is less than ideal, but you will likely be doing a lot of encrypted things online anyway (lots of websites are https-aware nowadays).&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;As a result&lt;/em&gt; of plain L2TP being used, you can get away with hosting this on very weak hardware, and still get full speed. One day, I might write guides for how to use L2TP with, say, IPSEC enabled (using something other than A&amp;amp;A for the upstream L2TP service).&lt;/p&gt;
 &lt;p&gt;You will not be able to use DNS until the L2TP is up, so we will use A&amp;amp;Aâs IP address for &lt;code&gt;l2tp.aa.net.uk&lt;/code&gt; directly, which is &lt;code&gt;90.155.53.19&lt;/code&gt;.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcxl2tpdxl2tpd.conf"&gt;/etc/xl2tpd/xl2tpd.conf&lt;/h2&gt;&lt;a href="#etcxl2tpdxl2tpd.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcxl2tpdxl2tpd.conf"&gt;/etc/xl2tpd/xl2tpd.conf&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcxl2tpdxl2tpd.conf"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Place the following contents:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;[lac aaisp]
 lns = 90.155.53.19
 require authentication = no
 pppoptfile = /etc/ppp/options.aaisp&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcpppoptions.aaisp"&gt;/etc/ppp/options.aaisp&lt;/h2&gt;&lt;a href="#etcpppoptions.aaisp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppoptions.aaisp"&gt;/etc/ppp/options.aaisp&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcpppoptions.aaisp"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Create this file, and place the following contents:&lt;/p&gt;
 &lt;p&gt;NOTE: the &lt;code&gt;name&lt;/code&gt; and &lt;code&gt;password&lt;/code&gt; entries are your A&amp;amp;A login details for L2TP.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;+ipv6
@@ -938,9 +938,9 @@ name xyz@a.X
 password Your_xyz@A.X_password
 noauth
 ifname ppp-aaisp-l2tp&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="h"&gt;&lt;h1 id="ppp-ifupdown-scripts"&gt;ppp ifupdown scripts&lt;/h1&gt;&lt;a href="#ppp-ifupdown-scripts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="ppp-ifupdown-scripts"&gt;ppp ifupdown scripts&lt;/h1&gt;&lt;a aria-hidden="true" href="#ppp-ifupdown-scripts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;PPP and L2TP are managed by &lt;code&gt;pppd&lt;/code&gt;, which executes if up/down scripts when interfaces go up or down. We shall manipulate this accordingly:&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-up.d0000-defaultroute"&gt;/etc/ppp/ipv6-up.d/0000-defaultroute&lt;/h2&gt;&lt;a href="#etcpppipv6-up.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-up.d0000-defaultroute"&gt;/etc/ppp/ipv6-up.d/0000-defaultroute&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcpppipv6-up.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;This file sets a default route on IPv6, but it can be (ab)used in general to handle L2TP/PPP going up/down. This file is for when the link goes &lt;em&gt;up&lt;/em&gt;. A default route must be set!&lt;/p&gt;
 &lt;p&gt;The file should contain this logic:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#!/bin/bash
@@ -952,7 +952,7 @@ if [ $1 = "ppp-aaisp-l2tp" ]; then
 fi&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Donât forget to make it &lt;em&gt;executable&lt;/em&gt;:&lt;/p&gt;
 &lt;p&gt;chmod 755 /etc/ppp/ipv6-up.d/0000-defaultroute&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-down.d0000-defaultroute"&gt;/etc/ppp/ipv6-down.d/0000-defaultroute&lt;/h2&gt;&lt;a href="#etcpppipv6-down.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="etcpppipv6-down.d0000-defaultroute"&gt;/etc/ppp/ipv6-down.d/0000-defaultroute&lt;/h2&gt;&lt;a aria-hidden="true" href="#etcpppipv6-down.d0000-defaultroute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The routes must be deleted, when the line goes down:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;#!/bin/bash
 /bin/logger $1 is down
@@ -963,7 +963,7 @@ if [ $1 = "ppp-aaisp-l2tp" ]; then
 fi&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Donât forget to make &lt;em&gt;this&lt;/em&gt; executable aswell:&lt;/p&gt;
 &lt;p&gt;chmod 755 /etc/ppp/ipv6-down.d/0000-defaultroute&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="xl2tpd-control-file"&gt;xl2tpd control file&lt;/h1&gt;&lt;a href="#xl2tpd-control-file"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="xl2tpd-control-file"&gt;xl2tpd control file&lt;/h1&gt;&lt;a aria-hidden="true" href="#xl2tpd-control-file"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You may notice that we have, thus far, not specified any way in which the L2TP tunnel connection is actually &lt;em&gt;started&lt;/em&gt;. This will now be explained.&lt;/p&gt;
 &lt;p&gt;Create the xl2tpd control file:&lt;/p&gt;
 &lt;p&gt;mkdir -p /var/run/xl2tpd touch /var/run/xl2tpd/l2tp-control&lt;/p&gt;
@@ -978,10 +978,10 @@ fi&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;echo âd aaispâ &amp;gt; /var/run/xl2tpd/l2tp-control&lt;/p&gt;
 &lt;p&gt;By running &lt;code&gt;ip a&lt;/code&gt;, you will see the tunnel connection listed as &lt;code&gt;ppp-aaisp-l2tp&lt;/code&gt;, but only when the PPP (over L2TP) connection is active. As you saw earlier, we went through the ifup/down scripts in Debian, that add/remove routes.&lt;/p&gt;
 &lt;p&gt;You need to decide whether you want L2TP automatically starting in your router. In some situations, it may not actually be desirable for it to autostart, like if you just want to quickly test a new network but arenât ready for it to go in production yet.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="debugging"&gt;Debugging&lt;/h2&gt;&lt;a href="#debugging"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="debugging"&gt;Debugging&lt;/h2&gt;&lt;a aria-hidden="true" href="#debugging"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You can find useful logs in &lt;code&gt;/var/log/messages&lt;/code&gt;, for &lt;code&gt;xl2tpd&lt;/code&gt;.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="auto-connect"&gt;Auto-connect&lt;/h1&gt;&lt;a href="#auto-connect"&gt;[link]&lt;/a&gt;&lt;/div&gt;
-&lt;div class="h"&gt;&lt;h2 id="re-try-every-minute"&gt;Re-try every minute&lt;/h2&gt;&lt;a href="#re-try-every-minute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="auto-connect"&gt;Auto-connect&lt;/h1&gt;&lt;a aria-hidden="true" href="#auto-connect"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="re-try-every-minute"&gt;Re-try every minute&lt;/h2&gt;&lt;a aria-hidden="true" href="#re-try-every-minute"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Due to the way xl2tpd works (control files), I concluded that the best way to handle this is with crontab. As root, do:&lt;/p&gt;
 &lt;p&gt;crontab -e&lt;/p&gt;
 &lt;p&gt;In there, insert:&lt;/p&gt;
@@ -990,7 +990,7 @@ fi&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;* * * * * echo "nameserver 217.169.20.20" &amp;gt; /etc/resolv.conf&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;This L2TP routing setup is a bit hacky, and this guide could use some refinement. The rule for &lt;code&gt;resolvconf&lt;/code&gt;, as above, simply keeps DNS working. The nameserver IP used, in the above example, is provided by A&amp;amp;A for customers.&lt;/p&gt;
 &lt;p&gt;Running the command when L2TP is up does nothing, and xl2tpd will simply exit on that run, while the tunnel remains open. When the tunnel is down, running that command will bring it back up.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="re-try-every-5-seconds"&gt;Re-try &lt;em&gt;every 5 seconds&lt;/em&gt;&lt;/h2&gt;&lt;a href="#re-try-every-5-seconds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="re-try-every-5-seconds"&gt;Re-try &lt;em&gt;every 5 seconds&lt;/em&gt;&lt;/h2&gt;&lt;a aria-hidden="true" href="#re-try-every-5-seconds"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;If your connection frequently has drop-outs of a few seconds, xl2tpd re-running every minute will give you a lot more unnecessary down time.&lt;/p&gt;
 &lt;p&gt;It may be advisable to run every 5 seconds instead. The &lt;code&gt;crontab&lt;/code&gt; file does not provide for this, allowing only &lt;em&gt;per minute&lt;/em&gt; instructions in our case.&lt;/p&gt;
 &lt;p&gt;You might simply run a script at boot time, that does it in a five-second loop. For example:&lt;/p&gt;
@@ -1002,11 +1002,11 @@ do
 	sleep 5
 done&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;A more intelligent way might be to put, in the ifdown script as above, an instruction to run the above loop, but make the loop exit when the tunnel is up. That same modified script would also run at boot time. In this way, you might save an extra second or two, but I wouldnât bother.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="how-to-use-internet-on-hosts"&gt;How to use internet (on hosts)&lt;/h1&gt;&lt;a href="#how-to-use-internet-on-hosts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
-&lt;div class="h"&gt;&lt;h2 id="physical-setup"&gt;Physical setup&lt;/h2&gt;&lt;a href="#physical-setup"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="how-to-use-internet-on-hosts"&gt;How to use internet (on hosts)&lt;/h1&gt;&lt;a aria-hidden="true" href="#how-to-use-internet-on-hosts"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="physical-setup"&gt;Physical setup&lt;/h2&gt;&lt;a aria-hidden="true" href="#physical-setup"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You can simply hook up an ethernet switch, to the 2nd interface on your router, the one that has allocated IPv4/6 subnet addresses on it as per &lt;code&gt;/etc/network/interfaces&lt;/code&gt;. Your host will then connect to that switch.&lt;/p&gt;
 &lt;p&gt;On that ethernet switch, you will then set your host(s) to use an IP address from the /28 or /29 IPv4 subnet. You may even have a bigger subnet than that, if you asked A&amp;amp;A nicely. You can also use IPv6, but without SLAAC; simply set as many static IPv6 addresses that you want, on the host.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="ip-configuration-in-your-os-for-the-host"&gt;IP configuration (in your OS, for the host)&lt;/h2&gt;&lt;a href="#ip-configuration-in-your-os-for-the-host"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="ip-configuration-in-your-os-for-the-host"&gt;IP configuration (in your OS, for the host)&lt;/h2&gt;&lt;a aria-hidden="true" href="#ip-configuration-in-your-os-for-the-host"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;With this routing setup, dual stack IPv4 and IPv6 is possible, for any host connected to it.&lt;/p&gt;
 &lt;p&gt;The internet should Just Work on the router itself. No DHCP or NAT is running, in this configuration; perhaps a guide could be written for &lt;em&gt;that&lt;/em&gt;, but for this exact setup as described on the page, you can simply specify the following as static IP address:&lt;/p&gt;
 &lt;ul&gt;
@@ -1016,7 +1016,7 @@ done&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;broadcast (IPv4): in my case, Iâm on &lt;code&gt;81.187.172.128/28&lt;/code&gt;, so the broadcast address would be &lt;code&gt;81.187.191.143&lt;/code&gt;; 128 is 10000000 in binary, and 32-28 is 4, so we mask the 4 least significant bits which becomes 10001111, which is 143. You need to do the maths, for your specific IP and subnet size.&lt;/li&gt;
 &lt;li&gt;prefix (IPv6): 64&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="h"&gt;&lt;h2 id="dns"&gt;DNS&lt;/h2&gt;&lt;a href="#dns"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="dns"&gt;DNS&lt;/h2&gt;&lt;a aria-hidden="true" href="#dns"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Again, there is no DHCP on this network; additionally, we are not running a DNS resolver (you &lt;em&gt;could&lt;/em&gt; run one, if you wish). You must specify one manually. Many resolvers exist. A&amp;amp;A provide them, for customers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;217.169.20.20&lt;/code&gt;&lt;/li&gt;
@@ -1024,39 +1024,39 @@ done&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;&lt;code&gt;2001:8b0::2020&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;2001:8b0::2021&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="h"&gt;&lt;h1 id="security"&gt;Security&lt;/h1&gt;&lt;a href="#security"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="security"&gt;Security&lt;/h1&gt;&lt;a aria-hidden="true" href="#security"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You should configure SSH to accept keys only and (optional) only listen on a local IP address (e.g.Â 10 network). This is beyond the scope of the article, but itâs quite trivial to set up.&lt;/p&gt;
 &lt;p&gt;e.g.&lt;/p&gt;
 &lt;p&gt;ListenAddress 10.0.0.42&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="testing"&gt;Testing&lt;/h1&gt;&lt;a href="#testing"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="testing"&gt;Testing&lt;/h1&gt;&lt;a aria-hidden="true" href="#testing"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The following commands may be useful later, to debug issues:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;ip route
 ip -6 route
 ping 8.8.8.8
 ping6 2001:4860:4860::8888
 tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
-&lt;div class="h"&gt;&lt;h1 id="other-configuration-to-consider"&gt;Other configuration to consider&lt;/h1&gt;&lt;a href="#other-configuration-to-consider"&gt;[link]&lt;/a&gt;&lt;/div&gt;
-&lt;div class="h"&gt;&lt;h2 id="mtu"&gt;MTU&lt;/h2&gt;&lt;a href="#mtu"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="other-configuration-to-consider"&gt;Other configuration to consider&lt;/h1&gt;&lt;a aria-hidden="true" href="#other-configuration-to-consider"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="mtu"&gt;MTU&lt;/h2&gt;&lt;a aria-hidden="true" href="#mtu"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Your main ISP (that you use to then run L2TP through) most likely doesnât support higher than 1500 MTU, if that. Your L2TP connection will add bytes in a frame, so the encapsulated PPP connection will have a lower MTU. There is no way to avoid this, unless you have a hypothetical ISP that can give you, say, 1540 MTU or something like that.&lt;/p&gt;
 &lt;p&gt;Anyway, the result is that your packets &lt;em&gt;will&lt;/em&gt; be fragmented. In your A&amp;amp;A control panel login (see: &lt;a href="https://control.aa.net.uk/" class="uri"&gt;https://control.aa.net.uk/&lt;/a&gt;), you can set MTU manually but I just recommend leaving it on auto.&lt;/p&gt;
 &lt;p&gt;If you see an MTU of, say, 1460, on your PPP connection (when SSHâd into the router and running &lt;code&gt;ip a&lt;/code&gt; or something), donât worry, itâs normal. Just let your router handle it, itâs what Linux was born to do.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="ptr-records-for-ips"&gt;PTR records for IPs&lt;/h2&gt;&lt;a href="#ptr-records-for-ips"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="ptr-records-for-ips"&gt;PTR records for IPs&lt;/h2&gt;&lt;a aria-hidden="true" href="#ptr-records-for-ips"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Sometimes called &lt;em&gt;reverse DNS&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;In an IP address, the PTR record resolves back to an arbitrary domain name which can be set. Typically, your ISP will assign one and thatâs all you get, but A&amp;amp;A lets you change it in the control panel: &lt;a href="https://control.aa.net.uk/" class="uri"&gt;https://control.aa.net.uk/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You must get your domain name added to your login, even if itâs not actually registered with A&amp;amp;A. Simply email their tech team and ask them to do it. You could also just ask them to set the PTR records.&lt;/p&gt;
 &lt;p&gt;For example, A/AAAA records in your DNS for &lt;code&gt;foo.bar.com&lt;/code&gt; might point to one of your IPs, and then youâd make that IP point back to &lt;code&gt;foo.bar.com&lt;/code&gt;. You can do this for an IPv4 and an IPv6 address that A&amp;amp;A assigns to you.&lt;/p&gt;
 &lt;p&gt;This can be very useful when running mail servers, precisely because you can make the same entry for both IPv4 and IPv6. For example, my mail server has the PTR record, on IPv4 and IPv6, of &lt;code&gt;libreland.libreboot.org&lt;/code&gt; and I specify this in my mail server plus DNS server configurations; the IP is also set in my SPF record, with A/AAAA records for that IP pointing to &lt;code&gt;libreland.libreboot.org&lt;/code&gt;, so that everything matches up. This, plus other things like setting proper DKIM record, is essential when running a mail server, because a lot of services (like GMail) will block you on suspicion of spam if these are misconfigured.&lt;/p&gt;
 &lt;p&gt;My next guide may in fact be how to set up a mail server! Also DNS and web, etc.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="firewall"&gt;Firewall&lt;/h2&gt;&lt;a href="#firewall"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="firewall"&gt;Firewall&lt;/h2&gt;&lt;a aria-hidden="true" href="#firewall"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;I will not configure a firewall on this network. I always get an IPv4 subnet from a&amp;amp;a either on hardlines or L2TP, and I run an open network. The router is always hardened to only allow local SSH connections, or SSH turned off, for security.&lt;/p&gt;
 &lt;p&gt;No NAT/DHCP either. If local hosts want to firewall themselves, they can, and they can provide that stuff. I really donât see the point in using DHCP for public IPv4 subnets.&lt;/p&gt;
 &lt;p&gt;If I want NAT/DHCP inside such a network, I usually plug in an OpenWRT router and set a static IP on the WAN port for that. I also use OpenWRT routers to in this way, when I want to set up a WiFi connection behind A&amp;amp;A.&lt;/p&gt;
 &lt;p&gt;Essentially, I like my main network to be âinvisibleâ. Just plug in and set an IP (from the public subnet) and youâre good to go. This assumes you have good physical security and/or you trust the people that have access to it.&lt;/p&gt;
 &lt;p&gt;In short, this is a &lt;em&gt;real internet connection&lt;/em&gt;. Anything you plug into this network will be &lt;em&gt;directly on the internet&lt;/em&gt;. You should consider your security model, when doing this. It is especially important to consider physical security; who do you trust, if youâre running this at your company (or even your own home)?&lt;/p&gt;
 &lt;p&gt;You should not connect anything insecure directly to this main network. For iexample, your playstation or proprietary shitware Windows PC are not to be trusted. A secure linux/BSD machine, assuming youâre competent, is absolutely fine. This setup is intended for sysadmins who really want to host lots of servers on their home network.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="traffic-shaping-qos"&gt;Traffic shaping / QoS&lt;/h2&gt;&lt;a href="#traffic-shaping-qos"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="traffic-shaping-qos"&gt;Traffic shaping / QoS&lt;/h2&gt;&lt;a aria-hidden="true" href="#traffic-shaping-qos"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;You might configure &lt;code&gt;codel&lt;/code&gt; which is nice for QoS but thatâs beyond the scope of this article.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h2 id="tmpfs-etcfstab"&gt;tmpfs (/etc/fstab)&lt;/h2&gt;&lt;a href="#tmpfs-etcfstab"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h2 id="tmpfs-etcfstab"&gt;tmpfs (/etc/fstab)&lt;/h2&gt;&lt;a aria-hidden="true" href="#tmpfs-etcfstab"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;The &lt;code&gt;/tmp&lt;/code&gt;, &lt;code&gt;/var/run&lt;/code&gt; and &lt;code&gt;/var/lock&lt;/code&gt; directories should also be tmpfs. This isnât strictly necessary, but for a high-performance machine it might be desirable, especially for something like this.&lt;/p&gt;
 &lt;p&gt;If youâre running this on &lt;em&gt;really slow hardware&lt;/em&gt;, you might consider that, but you must also take &lt;em&gt;memory usage&lt;/em&gt; into account when relying on tmpfs.&lt;/p&gt;
 &lt;/div&gt;</description><author>Leah Rowe</author><guid isPermaLink="true">https://vimuser.org/l2tp.html</guid><pubDate>Tue, 29 Nov 2022 00:00:00 GMT</pubDate></item><item><title>Iâve come out as non-binary</title><link>https://vimuser.org/nonbinary.html</link><description>&lt;div&gt;&lt;p&gt;Iâm non-binary, but I lacked the confidence to say it in 2016 when I came out as female; it felt wrong but I knew, and still know: Iâm not male.&lt;/p&gt;
@@ -1070,7 +1070,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Transgender" class="uri"&gt;https://en.wikipedia.org/wiki/Transgender&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://en.wikipedia.org/wiki/Non-binary_gender" class="uri"&gt;https://en.wikipedia.org/wiki/Non-binary_gender&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;div class="h"&gt;&lt;h1 id="we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;We can respect non-binary people, and ignore any bigot that says otherwise&lt;/h1&gt;&lt;a href="#we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;We can respect non-binary people, and ignore any bigot that says otherwise&lt;/h1&gt;&lt;a aria-hidden="true" href="#we-can-respect-non-binary-people-and-ignore-any-bigot-that-says-otherwise"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;Writing or speaking English, we once faced a conundrum when we were taught to refer to a person as male without knowing their gender. It was a ludicrous convention of writing, introduced at a time when women were considered as slaves. Later, we retroactively included women as an afterthought in our speech, making reference to &lt;em&gt;he or she&lt;/em&gt;, as though gender even matters for the majority of human endeavours; it does not!&lt;/p&gt;
 &lt;p&gt;When speaking or writing in English, we are rather fortunate. A historical quirk of our language has gifted us with the linguistic ability to respect each other equally. I refer, of course, to the gender-neutral &lt;em&gt;Singular They&lt;/em&gt; pronouns &lt;em&gt;they/them&lt;/em&gt;: &lt;a href="https://en.wikipedia.org/wiki/Singular_they" class="uri"&gt;https://en.wikipedia.org/wiki/Singular_they&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href="https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive"&gt;A historically oppressed, suppressed demographic of people&lt;/a&gt; have asserted their right to exist, &lt;em&gt;a right that I support, for I am one of them&lt;/em&gt;. My legal ID says that I am a woman, because no legal recognition exists for non-binary people in my country. In private I am simply &lt;em&gt;Leah Rowe&lt;/em&gt;. I identity with aspects of the female gender, mentally, but I donât quite fit in. I realized this, after having initially come out as a &lt;em&gt;trans woman&lt;/em&gt; several years ago. The only thing I know, with absolute certainty, is that Iâm &lt;em&gt;not a man&lt;/em&gt;.&lt;/p&gt;
@@ -1168,7 +1168,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;At face value, thatâs all there really is to it. There is a small minority of human beings who escape the Matrix and are fighting against the machines, trying to bring &lt;em&gt;freedom&lt;/em&gt; to humanity.&lt;/p&gt;
 &lt;p&gt;To the untrained eye, itâs just another action film. Neo eventually defeats the agents, and all is well, or so weâre led to believe.&lt;/p&gt;
 &lt;p&gt;Iâll just assume that youâve already watched the film. I donât want to explain the whole plot.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="neo-living-in-the-closet"&gt;Neo living in the closet&lt;/h1&gt;&lt;a href="#neo-living-in-the-closet"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-living-in-the-closet"&gt;Neo living in the closet&lt;/h1&gt;&lt;a aria-hidden="true" href="#neo-living-in-the-closet"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;In the first part of the film, we see Neo heavily repressed, living on their own, not talking to anyone. They have a steady job, and for the most part their life is stable, but they have a constant feeling that something is wrong with the world. Theyâre shown to be miserable in this part of the film.&lt;/p&gt;
@@ -1179,7 +1179,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;Itâs the question that brought you here&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The answer is out there, Neo. Itâs looking for you. And it will find you, if you want it to&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;At this point in the film, Neo is in denial about the fact that they are trans. Iâm using singular they to refer to Neo, although itâs irrelevant what gender Neo actually has.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="neo-comes-out"&gt;Neo comes out&lt;/h1&gt;&lt;a href="#neo-comes-out"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-comes-out"&gt;Neo comes out&lt;/h1&gt;&lt;a aria-hidden="true" href="#neo-comes-out"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Neo is beginning to act out.&lt;/p&gt;
@@ -1187,7 +1187,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Neo is made aware that they are under watch by agents, who are coming for them. The agents are Neoâs parents, dragging them out of school.&lt;/p&gt;
 &lt;p&gt;Neo is then depicted trying to run away. However, Neo is scared and unwilling to open their mind. When theyâre literally told to climb up to the top of the building to escape, they baulk. This isnât literal. However, coming out as trans can feel just as intimidating and impossible.&lt;/p&gt;
 &lt;p&gt;Of course, naturally Neo doesnât follow through and hands themselves over to their parents (the agents).&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-talk"&gt;The talk&lt;/h1&gt;&lt;a href="#the-talk"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-talk"&gt;The talk&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-talk"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Neoâs parents (the agents) are highly transphobic.&lt;/p&gt;
@@ -1199,7 +1199,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;At this point, Neo is defiant and acts out. However, Neo is totally dependent on the agents. The agents re-insert internalized transphobia: in the scene where Neoâs mouth is closed, that represents the feeling many transgender people have when confronting parents (or other loved ones) about their identity; they freeze up. Neo is then powerless to resist, and has the bug inserted; the bug represents internalized transphobia.&lt;/p&gt;
 &lt;p&gt;For the time being, the bug keeps Neo under control.&lt;/p&gt;
 &lt;p&gt;If left unattended, at this point Neo would become repressed again and go back further into the closet.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="neo-then-comes-out-as-transgender"&gt;Neo then comes out as transgender&lt;/h1&gt;&lt;a href="#neo-then-comes-out-as-transgender"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-then-comes-out-as-transgender"&gt;Neo then comes out as transgender&lt;/h1&gt;&lt;a aria-hidden="true" href="#neo-then-comes-out-as-transgender"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Neo wakes up in their room, and receives another call from Morpheus. Morpheus is out as trans, and is helping Neo come out. Itâs common for transgender people to not come out on their own. A lot of people donât have the confidence so they have to be pushed into it, and this is often how people come out.&lt;/p&gt;
@@ -1211,7 +1211,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 
 
 &lt;p&gt;The red pill is estrogen. The original estradiol pills given to transgender women were red. Most people donât know that.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="neo-wakes-up"&gt;Neo wakes up&lt;/h1&gt;&lt;a href="#neo-wakes-up"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="neo-wakes-up"&gt;Neo wakes up&lt;/h1&gt;&lt;a aria-hidden="true" href="#neo-wakes-up"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;One does not know what it is to live as their true self, until they do so.&lt;/p&gt;
@@ -1227,7 +1227,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;That propoganda still exists today. We are making heavy progress in a few countries, but for the most part transgender people still face many problems today when coming out, because they are in a world where transgender people are still not fully understood by the mainstream.&lt;/p&gt;
 &lt;p&gt;Neo is no longer in the Matrix. Theyâre now living as themselves for the first time, and now theyâre on the other side. Theyâre no longer shielded, and they can be attacked at any time.&lt;/p&gt;
 &lt;p&gt;Although this is improving a lot (in some countries), transgender people still face violence to this day, which we call hate crimes. Violence, discrimination and even murder, brought about by transphobia.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-agents"&gt;The Agents&lt;/h1&gt;&lt;a href="#the-agents"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-agents"&gt;The Agents&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-agents"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;When Neo and the others plug into the Matrix, theyâre no longer controlled by it. They can now be easily detected. If theyâre walking around in a busy street in the Matrix, they panic because an agent can appear and start attacking them.&lt;/p&gt;
@@ -1238,7 +1238,7 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Neo is &lt;em&gt;the one&lt;/em&gt; because they have no fear. Neo, towards the end of the film, loves their identity and removes all fear of their identity. This is why they are able to defeat the agents, because the agents are powerless when a person no longer has internalized transphobia.&lt;/p&gt;
 &lt;p&gt;There are some people who have less internalized transphobia, and are able to last for a longer time against the agents. Morpheus is one of them. However, most people are nowhere near as fearless as Neo.&lt;/p&gt;
 &lt;p&gt;Removing all internalized transphobia is very difficult, so the agents still maintain power. The reasons the agents act the way they do is because they want to enforce this level of fear and maintain it, because they know they will lose all power if transgender people became normalized in society.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-oracle"&gt;The Oracle&lt;/h1&gt;&lt;a href="#the-oracle"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-oracle"&gt;The Oracle&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-oracle"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Immediately when Neo is taken back to the Matrix by the others, they are taken to the Oracle. The Oracle is a mystical figure, whom people that escape the Matrix go to for advice and guidance, or simply to talk to.&lt;/p&gt;
@@ -1246,13 +1246,13 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;In some cultures today, being transgender is still considered a mental health question, as opposed to a sexual health problem for which medical treatment (surgery, hormones, etc) is available.&lt;/p&gt;
 &lt;p&gt;The sign above the Oracleâs kitchen that says &lt;em&gt;know thyself&lt;/em&gt; refers to the mental journey a transgender person goes through when they come out as trans. Suddenly everything is new, and a person has to figure out everything from scratch, including how to own themselves and their lives.&lt;/p&gt;
 &lt;p&gt;This is Neoâs journey throughout most of the film.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="cypher"&gt;Cypher&lt;/h1&gt;&lt;a href="#cypher"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="cypher"&gt;Cypher&lt;/h1&gt;&lt;a aria-hidden="true" href="#cypher"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Cypher is one of the minority of people who regret leaving the Matrix. Cypher is indeed trans, but for whatever reason wishes to go back into the closet and forget that they are trans. Some (not all) transgender people experience this, not because they hate themselves, but because (usually) they get abused. This is much more common in countries that are culturally hostile towards transgender people (Russia, most Arabic countries, etc).&lt;/p&gt;
 &lt;p&gt;Cypher isnât necessarily evil, but theyâre misguided by internalized transphobia on their part, which they still havenât managed to shake. Of course, they naturally see other transgender people coming out as a bad thing, and they feel bad when they see it happen because they fear that others will go through the same thing they did.&lt;/p&gt;
 &lt;p&gt;Such transgender people do exist in the real world. They are a minority, but they do exist. Such people are actively transphobic, including towards themselves, and even campaign against transgender rights. I could point to countless examples of well-known people who do this, though I wonât because I donât want to promote them.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-walk-scene"&gt;The Walk Scene&lt;/h1&gt;&lt;a href="#the-walk-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-walk-scene"&gt;The Walk Scene&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-walk-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;This is the most critical scene in the entire film, as regards transgender people and also Neoâs transition. Here is a clip of it:&lt;/p&gt;
 
 
@@ -1263,24 +1263,24 @@ tcpdump -ni eno0&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;em&gt;But when youâre inside, what do you see? Business men, teachers, lawyers, carpenters. They very minds of the people we are trying to save&lt;/em&gt; - Indeed, most people in society are brainwashed and mindlessly fill their assigned &lt;em&gt;gender roles&lt;/em&gt; and live as they are expected to. This includes most trans people.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Until we do, these people are still a part of that system, and that makes them our enemy&lt;/em&gt; - Trying to campaign for transgender rights and to raise awareness of transgender issues can, at times, feel like one is taking on the entire world.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Many of them are so dependent on the system that they will fight to protect it&lt;/em&gt; - transphobic police officers, politicians etc who try to suppress our right to exist.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-woman-in-the-red-dress"&gt;The Woman in the Red Dress&lt;/h1&gt;&lt;a href="#the-woman-in-the-red-dress"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-woman-in-the-red-dress"&gt;The Woman in the Red Dress&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-woman-in-the-red-dress"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 &lt;p&gt;In the walk scene, the woman in the red dress isnât literal. Iâve been using Singular They pronouns to refer to Neo, though in context Neo is probably a trans woman because two transgender women made the film.&lt;/p&gt;
 &lt;p&gt;The woman in the red dress is how Neo pictures herself, as she is walking. Thatâs who Neo wants to be, in their head.&lt;/p&gt;
 &lt;p&gt;Itâs common for transgender people, especially when they are first coming out, to have a mental self-image that completely differs from their actual self-image. Itâs only after a certain time (often years) transitioning (if this is something the individual feels is necessary) that this occurs less often, when a person starts to learn to accept themselves, and love themselves, especially after e.g.Â HRT, surgery, if thatâs what they want to do.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="the-spoon-scene"&gt;The Spoon Scene&lt;/h1&gt;&lt;a href="#the-spoon-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="the-spoon-scene"&gt;The Spoon Scene&lt;/h1&gt;&lt;a aria-hidden="true" href="#the-spoon-scene"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;&lt;em&gt;Do not try to bend the spoon, thatâs impossible&lt;/em&gt; - Itâs impossible to change ones chromosones after birth, and itâs impossible to change ones skeletol structure. Itâs impossible to change ones fundamental nature.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Instead, only try to realize the obviousness of the truth. There is no spoon&lt;/em&gt; &lt;em&gt;Then youâll see that it is not the spoon that bends, but only yourself&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Indeed, when one goes through transition, itâs about changing ones perception. A person transitions to make themselves more comfortable. You can change outward characteristics: you can get surgery (many different kinds), you can take hormones, you can train your voice, get laser hair removal (or grow hair, if youâre taking testosterone).&lt;/p&gt;
 &lt;p&gt;One can bend the rules so to speak, and be happy with themselves in spite of how they were born. This is what transition is all about. Bend the rules? There are certain things that can be done, even if youâve gone through the &lt;em&gt;wrong puberty&lt;/em&gt; already. The first is hormones. There are various surgeries available. You can wear different clothing, change your name, and basically anything else that you need so as to feel comfortable.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="rescuing-morpheus"&gt;Rescuing Morpheus&lt;/h1&gt;&lt;a href="#rescuing-morpheus"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="rescuing-morpheus"&gt;Rescuing Morpheus&lt;/h1&gt;&lt;a aria-hidden="true" href="#rescuing-morpheus"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;Most of this part of the film is just standard action film nonsense. Hero goes to save someone, etc etc.&lt;/p&gt;
 &lt;p&gt;However, this is the part of the film where Neo starts to believe in herself.&lt;/p&gt;
 &lt;p&gt;She goes to rescue Morpheus not to save Morpheus, but because she believes in herself.&lt;/p&gt;
-&lt;div class="h"&gt;&lt;h1 id="fighting-the-agent"&gt;Fighting the agent&lt;/h1&gt;&lt;a href="#fighting-the-agent"&gt;[link]&lt;/a&gt;&lt;/div&gt;
+&lt;div class="h"&gt;&lt;h1 id="fighting-the-agent"&gt;Fighting the agent&lt;/h1&gt;&lt;a aria-hidden="true" href="#fighting-the-agent"&gt;[link]&lt;/a&gt;&lt;/div&gt;
 
 
 &lt;p&gt;When Neo initially fights the agent, thatâs when sheâs really starting to believe in herself, but sheâs still intimidated and still hasnât shed all internalized transphobia, so the agent is still impossible to defeat.&lt;/p&gt;
