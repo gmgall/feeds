@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Mon, 04 May 2026 19:22:03 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
+<rss version="2.0"><channel><title>~gome posts on ctrl-c.club</title><link>https://ctrl-c.club/~gome/journal/</link><description>gome — journal</description><language>en</language><lastBuildDate>Tue, 05 May 2026 02:12:30 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>gome — topical index</title><link>https://ctrl-c.club/~gome/journal/topical-index.html</link><description>&lt;div&gt;
     &lt;h1&gt;Journal&lt;/h1&gt;
     &lt;div class="journal-top"&gt;
       &lt;h3&gt;Topical index&lt;/h3&gt;
@@ -310,6 +310,7 @@
         &lt;li&gt;Overwork on the game led to &lt;a href="burnout.html" class="post-link"&gt;hobby project burnout&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="loops.html" class="post-link"&gt;Too many open loops&lt;/a&gt;&lt;/li&gt;
         &lt;li&gt;&lt;a href="hamster.html" class="post-link"&gt;The ghost of hamster game haunts me&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="daydreams.html" class="post-link"&gt;Project ideas are my playground&lt;/a&gt;&lt;/li&gt;
       &lt;/ul&gt;
     &lt;/section&gt;
     &lt;section id="linguistics"&gt;
@@ -441,6 +442,8 @@
       &lt;a href="#2026"&gt;2026&lt;/a&gt;
       &lt;div class="link-sublist"&gt;
         &lt;a href="#2026-jan"&gt;January&lt;/a&gt;
+        &lt;a href="#2026-feb"&gt;February&lt;/a&gt;
+        &lt;a href="#2026-may"&gt;May&lt;/a&gt;
       &lt;/div&gt;
       &lt;a href="#end"&gt;Jump to end&lt;/a&gt;
       &lt;span class="heading"&gt;Jump to divider&lt;/span&gt;
@@ -1426,17 +1429,74 @@
       &lt;time datetime="Thu, 15 Jan 2025 19:30:00 CST"&gt;15 Jan. 2026, 7:30 PM&lt;/time&gt;
       &lt;p&gt;An evolution in gomeposting&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h3 id="2026-feb"&gt;February 2026&lt;/h3&gt;
     &lt;a class="journal-link" href="character.html"&gt;
       &lt;h3&gt;Breaking character&lt;/h3&gt;
       &lt;div class="line stop-3"&gt;&lt;/div&gt;
       &lt;time datetime="Thu, 26 Feb 2026 22:00:00 CST"&gt;26 Feb. 2026, 10:00 PM&lt;/time&gt;
       &lt;p&gt;Do something dumb&lt;/p&gt;
     &lt;/a&gt;
+    &lt;h3 id="2026-may"&gt;May 2026&lt;/h3&gt;
+    &lt;a class="journal-link" href="daydreams.html"&gt;
+      &lt;h3&gt;Project ideas are my playground&lt;/h3&gt;
+      &lt;div class="line stop-4"&gt;&lt;/div&gt;
+      &lt;time datetime="Mon, 4 May 2026 20:30:00 CST"&gt;4 May 2026, 8:30 PM&lt;/time&gt;
+      &lt;p&gt;I miss my daydreams a little&lt;/p&gt;
+    &lt;/a&gt;
   
   &lt;footer id="end"&gt;
     &lt;img src="../img/mushrooms_1.webp" alt="Toadstools"&gt;
   &lt;/footer&gt;
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — character</title><link>https://ctrl-c.club/~gome/journal/character.html</link><description>&lt;div&gt;
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/chronological-index.html</guid><pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate></item><item><title>gome — daydreams</title><link>https://ctrl-c.club/~gome/journal/daydreams.html</link><description>&lt;div&gt;
+    &lt;article&gt;
+      &lt;h1 id="title"&gt;Project ideas are my playground&lt;/h1&gt;
+      &lt;time datetime="Mon, 4 May 2026 20:30:00 CST"&gt;4 May 2026, 8:30 PM&lt;/time&gt;
+      &lt;p&gt;
+        My life has definitely been changing since I wrote that post about &lt;a href="habits-2.html"&gt;how I thought my life would start changing soon&lt;/a&gt;.
+        The regular routine of my job has been good for me.
+        I’m much happier having a place to go every weekday, getting to know the people I work with,
+        and contributing consistently to a larger-scale shared effort.
+      &lt;/p&gt;&lt;p&gt;
+        This is all good for my extroverted side, but one thing that tends to keep me happy in life is my interests,
+        especially my projects.
+        I love having some project idea to daydream about, something to invest my feelings into.
+        As I’ve &lt;a href="hamster.html"&gt;written about before&lt;/a&gt;,
+        the work of building the thing sometimes appeals to me less than the idea the project represents.
+        I don’t think that’s necessarily a bad thing;
+        I have a lot of fond memories of just being in that imaginative space that project ideas bring me to.
+      &lt;/p&gt;
+      &lt;figure&gt;
+        &lt;img src="img/torcal.webp" width="600" height="399" alt="A large maple tree against a blue sky, sitting on a rocky incline."&gt;
+        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Acer_monspessulanum_Torcal.jpg#Licensing"&gt;Jebulon&lt;/a&gt;&lt;/figcaption&gt;
+      &lt;/figure&gt;
+      &lt;p&gt;
+        I do sometimes work on these projects, to varying degrees of success.
+        A review of the &lt;a href="topical-index.html#projects"&gt;projects topic&lt;/a&gt;
+        in my index will illustrate my complicated relationship with actually finishing the projects.
+        But I think gomepage is a great example of a daydream project that came to life well.
+        I’m always proud when I think about what I’ve built here.
+        In a way, it’s actually a good external representation of the imaginative space I’m dreaming in when I get ideas for projects.*
+      &lt;/p&gt;&lt;p&gt;
+        Lately, I haven’t been making time for these kinds of daydream projects like I was able to when I didn’t have a full-time job.
+        I have enough external obligations and goals to keep me occupied.
+        With less free time, I am also trying to prioritize which projects I invest actual time and energy into (e.g., I have some musical work I need to focus on).
+        Between those things and my habitual ineffective use of time (which I am also working on),
+        I’ve kind of left this inner world of imagination untended for a spell.
+      &lt;/p&gt;&lt;p&gt;
+        It’s funny, when I get outside and start having fun and talking to people more,
+        I start getting dreaming about projects again.
+        This weekend was sunny and active, and I started thinking about gomepage and how it’s been a couple months since I added anything to it.
+        Even if I’m not going to start anything new for the time being, it’s nice to know I can come here and still scratch the creative itch.
+      &lt;/p&gt;&lt;p&gt;
+        Do you enjoy daydreaming about projects?
+        Have you had a life change that left a little less room for your imaginative side?
+        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
+      &lt;/p&gt;&lt;p class="footnote"&gt;
+        * I want to note for myself that this would be an interesting topic to expand on in the future!
+      &lt;/p&gt;
+    &lt;/article&gt;
+  
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/daydreams.html</guid></item><item><title>gome — character</title><link>https://ctrl-c.club/~gome/journal/character.html</link><description>&lt;div&gt;
     &lt;article&gt;
       &lt;h1 id="title"&gt;Breaking character&lt;/h1&gt;
       &lt;time datetime="Thu, 26 Feb 2026 22:00:00 CST"&gt;26 Feb. 2026, 10:00 PM&lt;/time&gt;
@@ -1754,48 +1814,4 @@
       &lt;/p&gt;
     &lt;/article&gt;
   
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/loops.html</guid></item><item><title>gome — habits</title><link>https://ctrl-c.club/~gome/journal/habits-2.html</link><description>&lt;div&gt;
-    &lt;article&gt;
-      &lt;h1 id="title"&gt;Becoming a creature of habit&lt;/h1&gt;
-      &lt;time datetime="Wed, 10 Dec 2025 09:00:00 CST"&gt;10 Dec. 2025, 9:00 AM&lt;/time&gt;
-      &lt;p&gt;
-        In general, I am not a creature of habit.
-        I tend to live a pretty unstructured life when there’s nothing external requiring me to maintain structure.
-      &lt;/p&gt;&lt;p&gt;
-        If I make a priority of establishing a routine for some goal, I can usually do it for a while.
-        For example, I didn’t have too much trouble getting started writing posts here again.
-        But before I got a nice message from a reader of the journal, I only had vague intentions to start again.
-        The impetus came from outside me.
-      &lt;/p&gt;&lt;p&gt;
-        Lately, I’ve been in a season of life where very little daily structure is imposed on me.
-        And it’s been hard to accomplish things!
-        I’ve been thinking for a while that more routine would be really helpful,
-        but it’s much harder when it’s not coming from external requirements.
-      &lt;/p&gt;
-      &lt;figure&gt;
-        &lt;img src="img/beaver.webp" width="512" height="381" alt="A beaver in tall grass eating leaves off a stick."&gt;
-        &lt;figcaption&gt;Photo credit: &lt;a href="https://commons.wikimedia.org/wiki/File:Bever_-_Eurasian_beaver_-_Castor_fiber_3.jpg#Licensing"&gt;Bouke ten Cate&lt;/a&gt;&lt;/figcaption&gt;
-      &lt;/figure&gt;
-      &lt;p&gt;
-        However, I’m potentially heading towards a near future where that will all change quickly,
-        and I’m pondering what it will take for me to become a creature of habit, perhaps even more than I ever have before.
-        It might be difficult for me to make the switch, now that I’ve gotten so used to a lack of structure and expectations.
-      &lt;/p&gt;&lt;p&gt;
-        On the other hand, I don’t know if the problem has ever been that I’m incapable of maintaining structure,
-        only that I haven’t been placing myself in the right conditions for structure to flourish.
-        So I think that if I get a clear picture in my head of what is required of me,
-        and what I need to require of myself to make that work, I’ll be able to make the switch.
-      &lt;/p&gt;&lt;p&gt;
-        It will certainly feel different, though.
-        The picture of myself in a regular, functional, daily routine feels like it’s from a completely different life than mine.
-        When I get there, looking back on this time might feel equally unreal and dreamlike.
-        It’s a strange feeling when you think your personality’s about to change.
-      &lt;/p&gt;&lt;p&gt;
-        Are you a creature of habit?
-        Is it by nature or by necessity?
-        Are you on the cusp of a life change?
-        Let me know your thoughts at my Ctrl-C email: &lt;code&gt;gome&lt;span&gt; ​&lt;/span&gt;@&lt;span&gt; ​&lt;/span&gt;ctrl-c.club&lt;/code&gt;.
-      &lt;/p&gt;
-    &lt;/article&gt;
-  
-&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/habits-2.html</guid></item></channel></rss>
+&lt;/div&gt;</description><guid isPermaLink="true">https://ctrl-c.club/~gome/journal/loops.html</guid></item></channel></rss>
