@@ -1,13 +1,715 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Failed to generate feed.</description><lastBuildDate>Wed, 06 May 2026 19:28:20 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>newslinkrss error: can only concatenate str (not "NoneType") to str</title><link>data:/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml</link><description>An error occurred when generating this feed.&lt;br/&gt; &lt;br/&gt;&lt;strong&gt;Command line:&lt;/strong&gt; &lt;code&gt;/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p .+/institucional/noticias/.+ -i .+/institucional/noticias/agregador --follow --with-body --body-csss div[id="content-core"] --date-from-csss span[class="documentPublished"] --csss-date-regex .*([0-9]{2}/[0-9]{2}/[0-9]{4} [0-9]{2}h[0-9]{2}).* --title-regex (.+) — Câmara Municipal de Petrópolis https://www.petropolis.rj.leg.br/institucional/noticias -o ./feeds/camara-petropolis-rj.xml&lt;/code&gt;&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Exception:&lt;/strong&gt; can only concatenate str (not "NoneType") to str&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;Stack trace:&lt;/strong&gt; &lt;pre&gt;Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 1838, in main
-    make_feed(args)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 924, in make_feed
-    req = get_start_page(args, session, base_attrs, link_grabber, curr_url)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss", line 818, in get_start_page
-    base_attrs.feed(page_content)
-  File "/opt/hostedtoolcache/Python/3.10.12/x64/lib/python3.10/html/parser.py", line 109, in feed
-    self.rawdata = self.rawdata + data
-TypeError: can only concatenate str (not "NoneType") to str
+<rss version="2.0"><channel><title>Notícias — Câmara Municipal de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias</link><description>Banco de notícias </description><language>pt-BR</language><lastBuildDate>Thu, 07 May 2026 02:24:14 GMT</lastBuildDate><generator>PyRSS2Gen-1.1.0</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Indicação propõe implantação de Unidade de Saúde da Família no Lajinha, em Itaipava</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-implantacao-de-unidade-de-saude-da-familia-no-lajinha-em-itaipava-1</link><description>&lt;div id="content-core"&gt;
+                                 
+    
 
-&lt;/pre&gt;</description></item></channel></rss>
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-implantacao-de-unidade-de-saude-da-familia-no-lajinha-em-itaipava-1/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-implantacao-de-unidade-de-saude-da-familia-no-lajinha-em-itaipava-1/image_mini" alt="Indicação propõe implantação de Unidade de Saúde da Família no Lajinha, em Itaipava" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma Indicação Legislativa de autoria do vereador Gil Magno solicita ao Poder Executivo a elaboração de um projeto de lei para viabilizar, com máxima urgência, a implantação de uma unidade do Programa Saúde da Família (PSF) na comunidade do Lajinha, localizada no distrito de Itaipava.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta prevê a utilização do imóvel público onde funcionava anteriormente a Escola Municipal Celina Schechner, na Estrada das Arcas, como sede da nova unidade de saúde. A medida busca atender a uma demanda antiga dos moradores da região, que enfrentam dificuldades no acesso aos serviços básicos.&lt;/p&gt;
+&lt;p&gt;Atualmente, a população precisa se deslocar até o centro de Itaipava para receber atendimento, o que representa um desafio significativo, especialmente para idosos, gestantes, pessoas com comorbidades e moradores com mobilidade reduzida.&lt;/p&gt;
+&lt;p&gt;Com a implantação do PSF no Lajinha, a expectativa é garantir mais proximidade, agilidade e continuidade no atendimento à população, fortalecendo a atenção básica em saúde.&lt;/p&gt;
+&lt;p&gt;Além de ampliar o acesso, a iniciativa também se apresenta como uma solução viável e econômica, ao aproveitar um imóvel público desativado, promovendo o uso eficiente dos recursos municipais.&lt;/p&gt;
+&lt;p&gt;“A saúde precisa estar perto das pessoas. Essa é uma demanda antiga da comunidade do Lajinha, e estamos trabalhando para garantir mais dignidade e acesso ao atendimento básico, especialmente para quem mais precisa”, destaca o vereador Gil Magno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-implantacao-de-unidade-de-saude-da-familia-no-lajinha-em-itaipava-1</guid><pubDate>Fri, 05 Jun 2026 18:15:00 GMT</pubDate></item><item><title>Proposta cria censo para mapear pessoas com autismo em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/proposta-cria-censo-para-mapear-pessoas-com-autismo-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-cria-censo-para-mapear-pessoas-com-autismo-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-cria-censo-para-mapear-pessoas-com-autismo-em-petropolis/image_mini" alt="Proposta cria censo para mapear pessoas com autismo em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um Projeto de Lei de autoria do vereador Gil Magno propõe a criação do Censo Qualificado das Pessoas com Autismo no município de Petrópolis, com o objetivo de identificar, mapear e reunir informações detalhadas sobre pessoas diagnosticadas com Transtorno do Espectro Autista e suas famílias.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa busca levantar dados socioeconômicos, educacionais e de saúde, permitindo uma compreensão mais precisa da realidade dessa população. Entre as finalidades do censo estão o mapeamento da quantidade de pessoas com TEA no município, a identificação do acesso a serviços essenciais, como saúde, educação, assistência social e transporte, além da avaliação das condições de vida das famílias.&lt;/p&gt;
+&lt;p&gt;O projeto prevê que o levantamento seja realizado a cada dois anos, sob coordenação de secretarias municipais, em parceria com entidades representativas da comunidade autista. Também estabelece que todas as informações coletadas deverão respeitar a Lei Geral de Proteção de Dados, garantindo a privacidade e a segurança dos dados pessoais.&lt;/p&gt;
+&lt;p&gt;De acordo com a proposta, o censo deverá reunir informações como dados pessoais, diagnóstico clínico e nível de suporte necessário, acesso a terapias e atendimentos médicos, situação educacional, necessidades de mobilidade e acessibilidade, além de dados sobre renda e acesso a benefícios sociais.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante é a capacitação dos profissionais responsáveis pela coleta de dados, assegurando uma abordagem adequada e sensível às famílias. O texto também prevê transparência, com a divulgação de relatórios públicos consolidados, e a elaboração de um plano de ação municipal com base nos dados levantados.&lt;/p&gt;
+&lt;p&gt;O financiamento poderá ocorrer por meio de recursos municipais, convênios com outras esferas de governo e parcerias com instituições públicas e privadas. A proposta tem como objetivo fortalecer a formulação de políticas públicas mais eficientes, inclusivas e direcionadas, garantindo maior visibilidade e assegurando direitos às pessoas com autismo.&lt;/p&gt;
+&lt;p&gt;“Sem dados concretos, não conseguimos planejar políticas públicas eficazes. Esse censo é essencial para dar visibilidade à comunidade autista, entender suas necessidades e garantir que os direitos sejam efetivamente assegurados”, destaca o vereador.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/proposta-cria-censo-para-mapear-pessoas-com-autismo-em-petropolis</guid><pubDate>Fri, 05 Jun 2026 18:04:00 GMT</pubDate></item><item><title>Câmara aprova projeto que cria vagas exclusivas para motoboys em áreas comerciais de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-vagas-exclusivas-para-motoboys-em-areas-comerciais-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-vagas-exclusivas-para-motoboys-em-areas-comerciais-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-vagas-exclusivas-para-motoboys-em-areas-comerciais-de-petropolis/image_mini" alt="Câmara aprova projeto que cria vagas exclusivas para motoboys em áreas comerciais de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um projeto de lei de autoria do vereador Thiago Damaceno, aprovado na Câmara Municipal de Petrópolis, propõe a criação de vagas exclusivas para embarque e desembarque de motoboys em áreas de serviço comercial do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo organizar o trânsito e garantir mais segurança tanto para os profissionais de entrega quanto para pedestres, diante do crescimento dessa atividade na cidade.&lt;/p&gt;
+&lt;p&gt;De acordo com a proposta, serão disponibilizadas baias específicas para utilização dos motoboys, permitindo que realizem coletas e entregas de forma mais ágil e segura, sem comprometer a fluidez das vias.&lt;/p&gt;
+&lt;p&gt;Para ter acesso às vagas, os profissionais deverão realizar credenciamento junto ao órgão municipal de trânsito, mediante apresentação de documentos como Carteira Nacional de Habilitação compatível com a atividade, Certificado de Registro e Licenciamento do Veículo, comprovante de atuação como motoboy e comprovante de residência no município.&lt;/p&gt;
+&lt;p&gt;O uso das vagas será exclusivo para motoboys regularmente cadastrados que atuem em Petrópolis, garantindo que o benefício seja direcionado aos profissionais que efetivamente exercem a atividade na cidade.&lt;/p&gt;
+&lt;p&gt;A Companhia Petropolitana de Trânsito e Transportes será responsável pela sinalização, regulamentação e fiscalização das baias, assegurando o cumprimento das normas estabelecidas na lei.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante da proposta é a limitação do tempo de permanência nas vagas, fixado em até 15 minutos, com o objetivo de garantir a rotatividade e permitir que um maior número de profissionais utilize os espaços ao longo do dia.&lt;/p&gt;
+&lt;p&gt;Além disso, caberá aos órgãos competentes regulamentar o processo de credenciamento e aplicar penalidades em casos de uso irregular das vagas.&lt;/p&gt;
+&lt;p&gt;“A proposta busca organizar o trânsito e garantir mais segurança para os motoboys e pedestres, reconhecendo a importância desses profissionais para a economia da cidade e oferecendo melhores condições para o exercício da atividade”, destacou o vereador Thiago Damaceno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-projeto-que-cria-vagas-exclusivas-para-motoboys-em-areas-comerciais-de-petropolis</guid><pubDate>Sun, 05 Apr 2026 08:13:00 GMT</pubDate></item><item><title>Projeto estabelece prazo para consulta com urologista na rede pública de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-estabelece-prazo-para-consulta-com-urologista-na-rede-publica-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-estabelece-prazo-para-consulta-com-urologista-na-rede-publica-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-estabelece-prazo-para-consulta-com-urologista-na-rede-publica-de-petropolis/image_mini" alt="Projeto estabelece prazo para consulta com urologista na rede pública de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou um projeto de lei que estabelece o prazo máximo de 30 dias para a realização de consultas com médico urologista na rede pública de saúde do município de Petrópolis, especialmente em casos de suspeita de câncer. O projeto é de autoria do vereador Gil Magno. &lt;/span&gt;&lt;span&gt;A proposta tem como objetivo garantir o diagnóstico precoce e o tratamento oportuno de pacientes com suspeita de câncer de próstata e outros tipos de câncer urológico que afetam o sistema urinário e reprodutor.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;De acordo com o projeto, o prazo passa a contar a partir do registro formal da solicitação no sistema de regulação do município, após a identificação da suspeita por um profissional da rede do Sistema Único de Saúde. &lt;span&gt;A medida se aplica a casos que envolvem suspeita de câncer de próstata, bexiga, rins, testículos, pênis e outras neoplasias relacionadas ao sistema urológico, assegurando atendimento especializado em tempo adequado.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;As unidades públicas de saúde deverão promover as adequações necessárias para garantir o cumprimento do prazo, podendo firmar parcerias com instituições públicas ou privadas em caso de insuficiência de profissionais especializados.&lt;span&gt;Outro ponto importante é que o descumprimento dos prazos deverá ser informado à Secretaria Municipal de Saúde, que ficará responsável por adotar medidas corretivas para assegurar a efetividade do atendimento.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;O projeto também reforça a aplicação das legislações federais que garantem a realização de exames em até 30 dias e o início do tratamento oncológico em até 60 dias após o diagnóstico, buscando dar mais efetividade ao acesso à consulta com especialista.&lt;/p&gt;
+&lt;p&gt;“A proposta busca garantir que o paciente com suspeita de câncer tenha acesso rápido ao urologista, contribuindo para o diagnóstico precoce e aumentando as chances de um tratamento eficaz na rede pública”, destacou o vereador Gil Magno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-estabelece-prazo-para-consulta-com-urologista-na-rede-publica-de-petropolis</guid><pubDate>Thu, 30 Apr 2026 18:33:00 GMT</pubDate></item><item><title>Agora é Lei: Petrópolis cria aplicativo “Alerta Mulher” para reforçar a segurança de mulheres nas vias públicas</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-cria-aplicativo-201calerta-mulher201d-para-reforcar-a-seguranca-de-mulheres-nas-vias-publicas</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-cria-aplicativo-201calerta-mulher201d-para-reforcar-a-seguranca-de-mulheres-nas-vias-publicas/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-cria-aplicativo-201calerta-mulher201d-para-reforcar-a-seguranca-de-mulheres-nas-vias-publicas/image_mini" alt="Agora é Lei: Petrópolis cria aplicativo “Alerta Mulher” para reforçar a segurança de mulheres nas vias públicas" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis dá um passo importante no fortalecimento das políticas públicas de proteção às mulheres. A Lei nº 9.229, de autoria do vereador Thiago Damaceno e aprovada pela Câmara Municipal, institui a criação do aplicativo “Alerta Mulher”, uma ferramenta voltada ao atendimento rápido de mulheres em situação de risco nas vias públicas do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova legislação autoriza o Poder Executivo a desenvolver e disponibilizar o aplicativo, que será integrado às Delegacias de Polícia e à Guarda Civil Municipal, permitindo que usuárias acionem ajuda de forma imediata em casos de ameaça, assédio ou perigo iminente.&lt;/p&gt;
+&lt;p&gt;Entre as principais funcionalidades está o botão do pânico, que enviará um alerta emergencial com a localização exata da usuária por meio de GPS, possibilitando uma resposta mais ágil das autoridades. O aplicativo também permitirá o registro de ocorrências, criando um canal direto para relatar situações de risco enfrentadas no cotidiano.&lt;/p&gt;
+&lt;p&gt;Outro destaque da lei é a integração com a Secretaria da Mulher e com a Guarda Municipal, ampliando a rede de proteção e garantindo monitoramento contínuo das ocorrências. A plataforma contará ainda com canal direto com centrais de segurança e uma base de dados protegida, assegurando o sigilo das informações das usuárias.&lt;/p&gt;
+&lt;p&gt;O acesso ao aplicativo será disponibilizado a todas as mulheres residentes em Petrópolis, mediante cadastro na plataforma digital. Para viabilizar a iniciativa, a lei prevê a possibilidade de parcerias com órgãos de segurança pública, empresas de tecnologia e organizações da sociedade civil voltadas à defesa dos direitos das mulheres.&lt;/p&gt;
+&lt;p&gt;A norma estabelece que o Poder Executivo terá o prazo de até 90 dias para regulamentar a lei, e que sua entrada em vigor ocorrerá 180 dias após sua publicação.&lt;/p&gt;
+&lt;p&gt;Autor da lei, o vereador Thiago Damaceno destacou a relevância da iniciativa para o município. “A segurança das mulheres é uma pauta urgente. O ‘Alerta Mulher’ é uma ferramenta que pode salvar vidas, oferecendo um meio rápido e eficaz de pedir ajuda em momentos de risco. Nosso objetivo é garantir mais liberdade, proteção e tranquilidade para as mulheres petropolitanas em seus deslocamentos diários”, afirmou.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-cria-aplicativo-201calerta-mulher201d-para-reforcar-a-seguranca-de-mulheres-nas-vias-publicas</guid><pubDate>Thu, 30 Apr 2026 13:23:00 GMT</pubDate></item><item><title>Agora é Lei: Petrópolis garante acesso de pessoas com cães de assistência a espaços públicos e privados</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-garante-acesso-de-pessoas-com-caes-de-assistencia-a-espacos-publicos-e-privados</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-garante-acesso-de-pessoas-com-caes-de-assistencia-a-espacos-publicos-e-privados/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-garante-acesso-de-pessoas-com-caes-de-assistencia-a-espacos-publicos-e-privados/image_mini" alt="Agora é Lei: Petrópolis garante acesso de pessoas com cães de assistência a espaços públicos e privados" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis dá um passo importante no fortalecimento das políticas de inclusão com a sanção da Lei nº 9.239, de autoria da vereadora Gilda Beatriz. A nova legislação assegura o direito de pessoas com deficiência, transtornos mentais ou condições de saúde específicas de ingressarem e permanecerem acompanhadas por cães de assistência em locais públicos, privados de uso coletivo e também nos meios de transporte do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova lei garante que essas pessoas possam circular acompanhadas de seus cães de assistência em todos os meios de transporte e também em locais públicos ou privados de uso coletivo em todo o município. O objetivo é promover mais autonomia, qualidade de vida e inclusão social para quem depende desse suporte no dia a dia.&lt;/p&gt;
+&lt;p&gt;O texto define como cão de assistência aquele devidamente treinado para auxiliar na superação de barreiras enfrentadas por pessoas com deficiência ou condições de saúde específicas. A legislação também reconhece oficialmente o trabalho desses animais como uma forma de tecnologia assistiva.&lt;/p&gt;
+&lt;p&gt;Entre as categorias previstas estão o cão-guia, destinado a pessoas com deficiência visual; o cão-ouvinte, para pessoas com deficiência auditiva; o cão de assistência psiquiátrica, voltado a transtornos mentais; o cão de mobilidade, para deficiência física; o cão de apoio a pessoas com transtorno do espectro autista (TEA); e o cão de alerta médico, capaz de identificar alterações no organismo e prevenir crises.&lt;/p&gt;
+&lt;p&gt;Para garantir segurança e organização, a lei estabelece critérios para o exercício desse direito, como a apresentação de laudo médico que comprove a necessidade do cão, certificação de treinamento por entidade especializada, identificação do animal e carteira de vacinação atualizada.&lt;/p&gt;
+&lt;p&gt;Também ficam definidos limites, como a proibição de ingresso de animais com sinais de agressividade, doenças transmissíveis ou falta de higiene, além de restrições em ambientes que exijam controle sanitário rigoroso ou que apresentem risco à saúde pública.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante é a previsão de penalidades em casos de discriminação. Impedir ou dificultar a entrada de pessoas acompanhadas de cães de assistência passa a ser considerado infração, sujeita à aplicação de multa, que poderá ser revertida ao Fundo Municipal de Proteção e Defesa dos Animais.&lt;/p&gt;
+&lt;p&gt;A legislação ainda prevê que o Poder Executivo regulamente critérios de certificação, fiscalização e promova campanhas de conscientização, reforçando o respeito aos direitos dessas pessoas e o papel fundamental dos cães de assistência.&lt;/p&gt;
+&lt;p&gt;Segundo a vereadora Gilda Beatriz, a iniciativa representa um avanço importante para a cidade. “Inclusão de verdade é aquela que funciona na prática. Essa lei garante que pessoas que dependem de cães de assistência possam estar em qualquer espaço com segurança e respeito. É sobre autonomia, é sobre dignidade, é sobre direito”&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-garante-acesso-de-pessoas-com-caes-de-assistencia-a-espacos-publicos-e-privados</guid><pubDate>Tue, 28 Apr 2026 16:49:00 GMT</pubDate></item><item><title>Agora é Lei: Petrópolis atualiza regras para gratuidade no transporte de pessoas com deficiência</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-atualiza-regras-para-gratuidade-no-transporte-de-pessoas-com-deficiencia</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-atualiza-regras-para-gratuidade-no-transporte-de-pessoas-com-deficiencia/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-atualiza-regras-para-gratuidade-no-transporte-de-pessoas-com-deficiencia/image_mini" alt="Agora é Lei: Petrópolis atualiza regras para gratuidade no transporte de pessoas com deficiência" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis avança na promoção da inclusão e da dignidade das pessoas com deficiência com a atualização da Lei nº 6.387, de 26 de outubro de 2006, por meio de nova legislação de autoria do vereador Junior Paixão. A medida moderniza conceitos, amplia o acesso à gratuidade no transporte público e adequa a norma municipal às diretrizes nacionais e internacionais de inclusão.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A nova lei substitui termos ultrapassados como “portadores de necessidades especiais” por “pessoa com deficiência (PcD)”, alinhando a legislação municipal à Convenção sobre os Direitos das Pessoas com Deficiência da ONU e à Lei Brasileira de Inclusão (Lei nº 13.146/2015).&lt;/p&gt;
+&lt;p&gt;Além da atualização terminológica, a legislação amplia e detalha os critérios para concessão da gratuidade, incluindo diferentes tipos de deficiência física, visual e intelectual, bem como condições específicas como fibromialgia, hemofilia e pessoas em tratamento contínuo que não pode ser interrompido sem riscos à saúde.&lt;/p&gt;
+&lt;p&gt;Outro avanço importante está na regulamentação da Carteira de Identificação da Pessoa com Deficiência, que passa a ter validade vinculada ao período de tratamento ou prazo máximo de um ano, com possibilidade de renovação. Para casos irreversíveis, fica dispensada a reapresentação de laudo médico, garantindo mais praticidade e menos burocracia aos beneficiários.&lt;/p&gt;
+&lt;p&gt;A legislação também estabelece que a gratuidade no transporte será concedida por meio de créditos no cartão, de acordo com a real necessidade de deslocamento do usuário para tratamento médico, incluindo o direito ao acompanhante quando necessário.&lt;/p&gt;
+&lt;p&gt;A Companhia Petropolitana de Trânsito e Transportes (CPTRANS) fica autorizada a regulamentar os procedimentos de cadastro e controle dos beneficiários, assegurando o cumprimento adequado da lei.&lt;/p&gt;
+&lt;p&gt;Segundo o vereador Junior Paixão, a iniciativa representa um avanço significativo na inclusão social. “Estamos atualizando uma legislação importante para garantir mais respeito, dignidade e acesso aos direitos das pessoas com deficiência. É um passo necessário para acompanhar a evolução das políticas públicas e assegurar que ninguém fique para trás.”&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-atualiza-regras-para-gratuidade-no-transporte-de-pessoas-com-deficiencia</guid><pubDate>Tue, 28 Apr 2026 13:52:00 GMT</pubDate></item><item><title>Agora é Lei: Circuito de Economia Popular Solidária é reconhecido como Patrimônio Cultural Imaterial de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-economia-popular-solidaria-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-economia-popular-solidaria-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-economia-popular-solidaria-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis/image_mini" alt="Agora é Lei: Circuito de Economia Popular Solidária é reconhecido como Patrimônio Cultural Imaterial de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis dá mais um passo importante na valorização da cultura e da economia local. A Lei nº 9.241, de autoria do vereador Thiago Damaceno, reconhece oficialmente o Circuito de Economia Popular Solidária como Patrimônio Cultural Imaterial do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Realizado de forma itinerante em diversos espaços públicos da cidade, o Circuito reúne feiras, encontros e atividades que promovem a exposição, comercialização e valorização de produtos artesanais, alimentícios e culturais. As iniciativas são conduzidas por trabalhadores e trabalhadoras da economia solidária, com base em princípios como cooperação, autogestão, solidariedade, sustentabilidade e valorização do trabalho humano.&lt;/p&gt;
+&lt;p&gt;A legislação reconhece não apenas a importância econômica do Circuito, mas também seu papel social e cultural. O espaço fortalece a identidade petropolitana ao reunir artesãos, feirantes e empreendimentos solidários que mantêm vivas práticas tradicionais, promovem a troca de saberes e incentivam o consumo consciente.&lt;/p&gt;
+&lt;p&gt;Entre os objetivos da lei estão a valorização e preservação das práticas culturais ligadas à economia popular solidária, o reconhecimento do papel histórico desses trabalhadores na formação da cidade, o fortalecimento da inclusão social e da geração de renda, além do incentivo à continuidade e à transmissão dos saberes e fazeres associados ao Circuito.&lt;/p&gt;
+&lt;p&gt;A norma também autoriza o Poder Executivo a adotar medidas de salvaguarda do bem cultural reconhecido, respeitando a legislação vigente e a disponibilidade orçamentária, garantindo assim a proteção e a continuidade dessa importante manifestação cultural.&lt;/p&gt;
+&lt;p&gt;Autor da lei, o vereador Thiago Damaceno destacou a relevância da iniciativa para o município. “O Circuito de Economia Popular Solidária representa muito mais do que uma atividade econômica. Ele é um espaço de resistência, cultura, inclusão e oportunidade. Reconhecer esse movimento como patrimônio imaterial é valorizar as pessoas, o trabalho coletivo e a identidade da nossa cidade”, afirmou.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-circuito-de-economia-popular-solidaria-e-reconhecido-como-patrimonio-cultural-imaterial-de-petropolis</guid><pubDate>Tue, 28 Apr 2026 13:27:00 GMT</pubDate></item><item><title>Agora é Lei: Petrópolis estabelece agendamento de consulta de retorno para avaliação de exames na rede pública</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-estabelece-agendamento-de-consulta-de-retorno-para-avaliacao-de-exames-na-rede-publica</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-estabelece-agendamento-de-consulta-de-retorno-para-avaliacao-de-exames-na-rede-publica/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-estabelece-agendamento-de-consulta-de-retorno-para-avaliacao-de-exames-na-rede-publica/image_mini" alt="Agora é Lei: Petrópolis estabelece agendamento de consulta de retorno para avaliação de exames na rede pública" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis passa a contar com uma medida importante para garantir a continuidade do atendimento na saúde pública. A Lei nº 9.247, de autoria do vereador Gil Magno, estabelece a obrigatoriedade do agendamento da consulta de retorno para apresentação e avaliação de exames realizados na rede municipal de saúde.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A legislação assegura ao paciente o direito ao agendamento prioritário da consulta de retorno com o profissional da própria rede que solicitou o exame. O objetivo é evitar atrasos no diagnóstico, a perda da validade dos laudos e possíveis prejuízos ao tratamento.&lt;/p&gt;
+&lt;p&gt;De acordo com a norma, o agendamento deverá ser feito, preferencialmente, no momento da solicitação dos exames ou, no máximo, imediatamente após sua realização, respeitando os prazos de validade dos resultados. A medida busca dar mais organização ao fluxo de atendimento e garantir maior eficiência no acompanhamento dos pacientes.&lt;/p&gt;
+&lt;p&gt;A lei também determina que a Secretaria Municipal de Saúde organize os serviços de forma a assegurar a continuidade do cuidado, evitando falhas que possam comprometer o diagnóstico precoce e o tratamento adequado. Além disso, o município deverá adotar mecanismos que facilitem o agendamento e melhorem a comunicação entre as unidades de saúde e os usuários.&lt;/p&gt;
+&lt;p&gt;O descumprimento da legislação poderá ser fiscalizado pelos órgãos de controle e acompanhamento do Sistema Único de Saúde (SUS) no município, e o Poder Executivo ficará responsável por regulamentar a norma para sua plena aplicação.&lt;/p&gt;
+&lt;p&gt;A iniciativa surge diante de uma realidade enfrentada por muitos pacientes, que, mesmo após aguardarem por consultas e exames, encontram dificuldades para marcar o retorno médico. Com isso, exames acabam perdendo a validade, tratamentos são interrompidos e há risco de agravamento das condições de saúde.&lt;/p&gt;
+&lt;p&gt;Autor da lei, o vereador Gil Magno destacou a importância da medida para a população. “Essa é uma lei que olha diretamente para quem mais precisa do serviço público de saúde. Não faz sentido o paciente conseguir fazer o exame e não ter garantido o retorno para avaliação. Estamos assegurando continuidade no tratamento, mais eficiência no sistema e respeito com o cidadão”, afirmou.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-estabelece-agendamento-de-consulta-de-retorno-para-avaliacao-de-exames-na-rede-publica</guid><pubDate>Tue, 28 Apr 2026 10:56:00 GMT</pubDate></item><item><title>Agora é Lei: Cadeiras de rodas nas instituições de ensino de Petrópolis passam a ser obrigatórias</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-cadeiras-de-rodas-nas-instituicoes-de-ensino-de-petropolis-passam-a-ser-obrigatorias</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-cadeiras-de-rodas-nas-instituicoes-de-ensino-de-petropolis-passam-a-ser-obrigatorias/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-cadeiras-de-rodas-nas-instituicoes-de-ensino-de-petropolis-passam-a-ser-obrigatorias/image_mini" alt="Agora é Lei: Cadeiras de rodas nas instituições de ensino de Petrópolis passam a ser obrigatórias" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis avança na promoção da inclusão e da acessibilidade no ambiente educacional com a criação da Lei nº 9.242, de autoria do vereador Tiago Leite. Agora é lei: todas as instituições de ensino públicas e privadas do município deverão disponibilizar cadeiras de rodas para uso de estudantes, visitantes e funcionários com mobilidade reduzida, garantindo mais autonomia, segurança e dignidade.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A lei determina que escolas, creches, faculdades, universidades e cursos profissionalizantes disponibilizem cadeiras de rodas para uso interno, permitindo o deslocamento de pessoas com deficiência, dificuldades de locomoção ou que estejam temporariamente impossibilitadas de caminhar.&lt;/p&gt;
+&lt;p&gt;O texto também amplia o conceito de público beneficiado, incluindo idosos, pessoas com deficiência permanente ou temporária e qualquer indivíduo que, por questões de saúde, tenha limitação para se locomover por longas distâncias. A medida busca garantir que todos tenham condições adequadas de acesso e permanência no ambiente escolar.&lt;/p&gt;
+&lt;p&gt;Além da disponibilização dos equipamentos, a legislação prevê que as cadeiras de rodas sejam posicionadas em locais estratégicos e de fácil acesso, como entradas principais, estacionamentos e áreas de circulação interna. Também será obrigatória a instalação de placas informativas indicando onde os equipamentos estão disponíveis, garantindo mais transparência e agilidade no atendimento.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante é a exigência de adequação das estruturas físicas das instituições, com a eliminação de barreiras e a criação de condições adequadas para a circulação segura das cadeiras de rodas, em conformidade com a legislação federal de acessibilidade.&lt;/p&gt;
+&lt;p&gt;A lei reforça ainda que a responsabilidade das instituições vai além da inclusão, envolvendo também questões de segurança e atendimento emergencial. Em situações de acidentes ou problemas de saúde, a disponibilidade imediata de uma cadeira de rodas pode ser fundamental para o deslocamento adequado dentro da unidade.&lt;/p&gt;
+&lt;p&gt;Segundo o vereador Tiago Leite, a iniciativa reforça o compromisso com uma cidade mais acessível e humana. “A inclusão precisa ser prática e estar presente no dia a dia das pessoas. Essa lei garante que ninguém fique sem acesso ao ambiente escolar por falta de estrutura. É uma medida simples, mas que faz toda a diferença na vida de quem precisa.”&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-cadeiras-de-rodas-nas-instituicoes-de-ensino-de-petropolis-passam-a-ser-obrigatorias</guid><pubDate>Tue, 28 Apr 2026 10:49:00 GMT</pubDate></item><item><title>Agora é Lei: Petrópolis reforça segurança de crianças nas pistas de skate com instalação de placas orientadoras</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-reforca-seguranca-de-criancas-nas-pistas-de-skate-com-instalacao-de-placas-orientadoras</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-reforca-seguranca-de-criancas-nas-pistas-de-skate-com-instalacao-de-placas-orientadoras/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-reforca-seguranca-de-criancas-nas-pistas-de-skate-com-instalacao-de-placas-orientadoras/image_mini" alt="Agora é Lei: Petrópolis reforça segurança de crianças nas pistas de skate com instalação de placas orientadoras" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Petrópolis dá mais um passo importante na promoção da segurança em espaços públicos com a criação da Lei nº 9.237, de autoria do presidente da Câmara Municipal, vereador Júnior Coruja. A nova legislação estabelece a obrigatoriedade da instalação de placas informativas e orientadoras nas pistas de skate do município, com o objetivo de prevenir acidentes, especialmente envolvendo crianças e pessoas que não estejam praticando o esporte.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A medida busca conscientizar a população sobre o uso correto das pistas, alertando para os riscos de permanecer no interior do espaço sem a devida finalidade esportiva. As placas deverão trazer informações claras e visíveis, orientando tanto praticantes quanto demais frequentadores sobre as regras de utilização e os cuidados necessários para garantir a segurança de todos.&lt;/p&gt;
+&lt;p&gt;Entre as recomendações previstas, está o uso obrigatório de equipamentos de proteção, como capacete, joelheira, cotoveleira e protetor de punho. Além disso, a legislação determina que crianças menores de 12 anos estejam sempre sob supervisão de um responsável.&lt;/p&gt;
+&lt;p&gt;As normas também proíbem a presença de animais, alimentos, bebidas e recipientes de vidro nas pistas, bem como a entrada de pessoas sem equipamentos apropriados, como skate, patins, BMX ou patinete. No caso específico das bicicletas BMX, há exigências técnicas, como o uso de pedais de nylon, punhos com bar end e pegs de nylon. Já bicicletas de passeio devem circular fora da pista.&lt;/p&gt;
+&lt;p&gt;O conteúdo, o formato e a localização das placas serão definidos pelo Poder Executivo, respeitando critérios de segurança, visibilidade e acessibilidade, garantindo que as informações sejam facilmente compreendidas por todos.&lt;/p&gt;
+&lt;p&gt;Segundo o presidente da Câmara, vereador Júnior Coruja, a iniciativa reforça a importância da prevenção e do cuidado com a vida. “Essa é uma medida simples, mas extremamente necessária. Muitas vezes, crianças e até adultos acabam entrando nas pistas sem entender o risco que isso representa. O skate é um esporte que exige espaço livre, atenção e preparo, e qualquer descuido pode resultar em acidentes graves. Nosso objetivo é justamente evitar esse tipo de situação, levando informação de forma clara para a população.”&lt;/p&gt;
+&lt;p&gt;A lei já está em vigor no município.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/agora-e-lei-petropolis-reforca-seguranca-de-criancas-nas-pistas-de-skate-com-instalacao-de-placas-orientadoras</guid><pubDate>Tue, 28 Apr 2026 10:26:00 GMT</pubDate></item><item><title>Projeto propõe criação da Frente Parlamentar em Defesa da Cultura do Samba e do Carnaval em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-criacao-da-frente-parlamentar-em-defesa-da-cultura-do-samba-e-do-carnaval-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-criacao-da-frente-parlamentar-em-defesa-da-cultura-do-samba-e-do-carnaval-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-criacao-da-frente-parlamentar-em-defesa-da-cultura-do-samba-e-do-carnaval-em-petropolis/image_mini" alt="Projeto propõe criação da Frente Parlamentar em Defesa da Cultura do Samba e do Carnaval em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou o projeto de autoria do vereador Thiago Damaceno que propõe a criação da Frente Parlamentar em Defesa da Cultura do Samba e do Carnaval em Petrópolis. A medida institui um espaço de atuação dentro do Legislativo voltado ao fortalecimento, valorização e preservação dessas expressões culturais no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“A criação da Frente Parlamentar é uma forma de valorizar a cultura do samba e do carnaval, fortalecendo a identidade cultural da nossa cidade e incentivando políticas públicas voltadas ao setor”, afirmou o vereador Thiago Damaceno.&lt;/p&gt;
+&lt;p&gt;A frente parlamentar será composta de forma voluntária por vereadores interessados na temática e terá como objetivo promover o debate e o acompanhamento de ações relacionadas ao setor. Entre as atividades previstas estão a realização de estudos, audiências públicas, seminários e reuniões com a participação de escolas de samba, especialistas e representantes da sociedade civil.&lt;/p&gt;
+&lt;p&gt;O grupo também poderá acompanhar proposições legislativas, sugerir medidas ao Poder Executivo e atuar na articulação com outras frentes parlamentares em diferentes municípios e estados. As reuniões serão públicas e abertas à população, com divulgação prévia de datas e locais, podendo ocorrer na Câmara Municipal ou em ambiente virtual.&lt;/p&gt;
+&lt;p&gt;Com a criação da frente, o Legislativo passa a contar com um instrumento específico para ampliar o diálogo sobre o samba e o carnaval, além de incentivar políticas públicas voltadas ao desenvolvimento do setor cultural.&lt;/p&gt;
+&lt;p&gt;A iniciativa reforça a importância dessas manifestações para a identidade cultural de Petrópolis e busca garantir maior participação social, transparência e integração entre o poder público e a sociedade civil.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-criacao-da-frente-parlamentar-em-defesa-da-cultura-do-samba-e-do-carnaval-em-petropolis</guid><pubDate>Mon, 20 Apr 2026 12:59:00 GMT</pubDate></item><item><title>Projeto de lei amplia mecanismos de fiscalização da lei que proíbe fogos de artifício com estampido em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-amplia-mecanismos-de-fiscalizacao-da-lei-que-proibe-fogos-de-artificio-com-estampido-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-amplia-mecanismos-de-fiscalizacao-da-lei-que-proibe-fogos-de-artificio-com-estampido-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-amplia-mecanismos-de-fiscalizacao-da-lei-que-proibe-fogos-de-artificio-com-estampido-em-petropolis/image_mini" alt="Projeto de lei amplia mecanismos de fiscalização da lei que proíbe fogos de artifício com estampido em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um Projeto de Lei de autoria da vereadora Gilda Beatriz propõe a alteração da Lei Municipal nº 7.956, de 09 de março de 2020, que trata da proibição do comércio e da soltura de fogos de artifício e artefatos pirotécnicos com efeito sonoro ruidoso no município de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo aprimorar a eficácia da norma, especialmente no que se refere à fiscalização e à aplicação de penalidades, diante das dificuldades práticas de comprovação das infrações no momento em que ocorrem.&lt;/p&gt;
+&lt;p&gt;Entre as mudanças propostas, o texto prevê a inclusão de parágrafo único no artigo 2º da legislação vigente, autorizando a utilização de diferentes meios de prova para fins de fiscalização, como registros fotográficos, vídeos, áudios, imagens de sistemas de monitoramento e denúncias formalizadas por cidadãos, desde que contenham elementos mínimos que permitam a identificação do fato, do local e do momento da infração.&lt;/p&gt;
+&lt;p&gt;A proposta busca fortalecer o poder de polícia administrativa do município, ampliando os instrumentos de atuação dos fiscais, sem prejuízo ao devido processo legal e à análise das provas pela autoridade competente.&lt;/p&gt;
+&lt;p&gt;A vereadora destaca que a medida visa garantir maior efetividade à lei já existente, reforçando a proteção de animais e de grupos mais vulneráveis aos efeitos da poluição sonora, como idosos, pessoas com deficiência, crianças e indivíduos com sensibilidade auditiva.&lt;/p&gt;
+&lt;p&gt;“Essa proposta é sobre respeito. Respeito às pessoas com deficiência, às pessoas autistas, aos animais e às famílias que sofrem com o barulho. Estamos tornando a lei mais eficaz para proteger quem mais precisa, garantindo instrumentos reais de fiscalização.”, destaca a vereadora&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-de-lei-amplia-mecanismos-de-fiscalizacao-da-lei-que-proibe-fogos-de-artificio-com-estampido-em-petropolis</guid><pubDate>Fri, 17 Apr 2026 11:52:00 GMT</pubDate></item><item><title>Projeto propõe instalação de QR Code em postes de iluminação pública para modernizar atendimento em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-instalacao-de-qr-code-em-postes-de-iluminacao-publica-para-modernizar-atendimento-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-instalacao-de-qr-code-em-postes-de-iluminacao-publica-para-modernizar-atendimento-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-instalacao-de-qr-code-em-postes-de-iluminacao-publica-para-modernizar-atendimento-em-petropolis/image_mini" alt="Projeto propõe instalação de QR Code em postes de iluminação pública para modernizar atendimento em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um Projeto de Lei de autoria do presidente da Câmara Municipal, vereador Júnior Coruja, propõe a implementação de Código QR (QR Code) nos postes da rede de iluminação pública do município de Petrópolis, com o objetivo de modernizar o acesso à informação e facilitar a comunicação de ocorrências por parte da população.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa prevê a instalação de um QR Code identificador em cada poste, permitindo ao cidadão, por meio de smartphone com internet, acessar dados como número de identificação e localização georreferenciada, além de registrar ocorrências relacionadas à iluminação pública, como lâmpadas apagadas, oscilação de energia, postes danificados ou situações de risco elétrico.&lt;/p&gt;
+&lt;p&gt;O sistema também possibilitará o acompanhamento do protocolo de atendimento e o acesso a informações sobre prazos estimados para manutenção, com integração ao canal oficial de atendimento da Prefeitura e geração automática de protocolo eletrônico.&lt;/p&gt;
+&lt;p&gt;O projeto estabelece ainda a possibilidade de implementação gradual, com prioridade para áreas com maior índice de ocorrências, regiões de grande circulação de pessoas e equipamentos públicos como escolas e hospitais. Também prevê a possibilidade de parcerias com concessionárias de energia elétrica, empresas de tecnologia e instituições públicas e privadas para viabilizar a execução da proposta.&lt;/p&gt;
+&lt;p&gt;O vereador destaca que a medida busca ampliar a eficiência da gestão pública, fortalecer a transparência e incentivar a participação cidadã, contribuindo para a melhoria da prestação dos serviços de iluminação pública no município.&lt;/p&gt;
+&lt;p&gt;_“A proposta representa uma solução moderna, de baixo custo e alto impacto social, alinhada aos princípios da eficiência e da publicidade na administração pública”_, destaca o vereador Júnior Coruja.&lt;/p&gt;
+&lt;p&gt;A proposta segue para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/projeto-propoe-instalacao-de-qr-code-em-postes-de-iluminacao-publica-para-modernizar-atendimento-em-petropolis</guid><pubDate>Thu, 16 Apr 2026 20:31:00 GMT</pubDate></item><item><title>Apresentação de Quadrimestre ao COMSAÚDE pode ampliar transparência na saúde em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/apresentacao-de-quadrimestre-ao-comsaude-pode-ampliar-transparencia-na-saude-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/apresentacao-de-quadrimestre-ao-comsaude-pode-ampliar-transparencia-na-saude-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/apresentacao-de-quadrimestre-ao-comsaude-pode-ampliar-transparencia-na-saude-em-petropolis/image_mini" alt="Apresentação de Quadrimestre ao COMSAÚDE pode ampliar transparência na saúde em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma indicação da vereadora Júlia Casamasso, aprovada pela Câmara, propõe ao Poder Executivo o envio de um projeto de lei para tornar obrigatória a apresentação do Relatório Detalhado do Quadrimestre Anterior da Saúde (RDQA) no Conselho Municipal de Saúde (COMSAÚDE).&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo ampliar a transparência na gestão da saúde pública, garantindo que conselheiros e a população tenham acesso regular às informações sobre aplicação de recursos, produção de serviços, indicadores de saúde e demais ações desenvolvidas pela Secretaria Municipal de Saúde.&lt;/p&gt;
+&lt;p&gt;É fundamental que os dados relacionados à saúde sejam apresentados de forma clara e periódica, permitindo maior acompanhamento e fiscalização das políticas públicas. A ausência de debates formais sobre esses relatórios pode dificultar o controle social e a participação efetiva da sociedade nas decisões do setor.&lt;/p&gt;
+&lt;p&gt;A proposta prevê que o relatório seja apresentado e debatido no âmbito do COMSAÚDE, fortalecendo o papel do conselho como instância deliberativa e fiscalizatória, em consonância com os princípios do Sistema Único de Saúde (SUS).&lt;/p&gt;
+&lt;p&gt;“Política pública de verdade deve ser feita com transparência real e participação popular. Quando os dados não são amplamente apresentados e debatidos, o que se abre é espaço para decisões pouco transparentes, mau uso de recursos e distanciamento entre a gestão e as reais necessidades da população. Levar o relatório quadrimestral para dentro do Conselho é fortalecer o SUS na prática, garantindo que trabalhadores, usuários e conselheiros possam de fato fiscalizar, questionar e incidir sobre os rumos da saúde em Petrópolis. Transparência não pode ser apenas discurso, precisa ser garantida na prática, com mecanismos concretos de fiscalização e participação popular.”, destacou a vereadora Júlia Casamasso.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/apresentacao-de-quadrimestre-ao-comsaude-pode-ampliar-transparencia-na-saude-em-petropolis</guid><pubDate>Thu, 16 Apr 2026 17:20:00 GMT</pubDate></item><item><title>Câmara aprova criação do Núcleo Comunitário de Proteção e Defesa Civil Florestal em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-criacao-do-nucleo-comunitario-de-protecao-e-defesa-civil-florestal-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-criacao-do-nucleo-comunitario-de-protecao-e-defesa-civil-florestal-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-criacao-do-nucleo-comunitario-de-protecao-e-defesa-civil-florestal-em-petropolis/image_mini" alt="Câmara aprova criação do Núcleo Comunitário de Proteção e Defesa Civil Florestal em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Um projeto de lei de autoria do vereador Octavio Sampaio, aprovado na Câmara Municipal de Petrópolis, cria o Núcleo Comunitário de Proteção e Defesa Civil Florestal (NUPDEC FLORESTAL) no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo fortalecer a organização comunitária, a prevenção, o monitoramento e a resposta a incêndios florestais, especialmente em áreas de interface urbano-rural e regiões próximas a fragmentos de Mata Atlântica, que historicamente sofrem com ocorrências de queimadas.&lt;/p&gt;
+&lt;p&gt;De acordo com a proposta, os NUPDECs Florestais funcionarão como instrumentos de educação ambiental e mobilização social, promovendo a capacitação de voluntários locais e a formação de brigadas comunitárias para atuação preventiva e de combate inicial a incêndios.&lt;/p&gt;
+&lt;p&gt;O projeto prevê que os núcleos atuem em articulação com a Secretaria Municipal de Proteção e Defesa Civil, além de órgãos ambientais e instituições parceiras, seguindo diretrizes do Sistema Nacional de Proteção e Defesa Civil (SINPDEC).&lt;/p&gt;
+&lt;p&gt;Entre as atribuições previstas estão a identificação de áreas de risco, apoio ao monitoramento de incêndios, organização de planos comunitários de ação e realização de atividades educativas em escolas e comunidades.&lt;/p&gt;
+&lt;p&gt;Os voluntários que integrarem os núcleos deverão passar por capacitação específica e atuar de forma complementar às forças oficiais, sem vínculo empregatício com o Município.&lt;/p&gt;
+&lt;p&gt;O projeto também institui a Semana Municipal de Prevenção aos Incêndios Florestais, a ser realizada anualmente no mês de junho, com ações educativas, simulações e campanhas de conscientização ambiental.&lt;/p&gt;
+&lt;p&gt;“A proposta busca aproximar a comunidade das ações de prevenção e resposta, fortalecendo a capacidade de proteção ambiental e de enfrentamento aos incêndios florestais em Petrópolis”, destacou o vereador Octavio Sampaio.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-criacao-do-nucleo-comunitario-de-protecao-e-defesa-civil-florestal-em-petropolis</guid><pubDate>Thu, 16 Apr 2026 17:14:00 GMT</pubDate></item><item><title>Proposta quer atualizar regras e aliviar tributos para famílias do Minha Casa Minha Vida em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/proposta-quer-atualizar-regras-e-aliviar-tributos-para-familias-do-minha-casa-minha-vida-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-quer-atualizar-regras-e-aliviar-tributos-para-familias-do-minha-casa-minha-vida-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/proposta-quer-atualizar-regras-e-aliviar-tributos-para-familias-do-minha-casa-minha-vida-em-petropolis/image_mini" alt="Proposta quer atualizar regras e aliviar tributos para famílias do Minha Casa Minha Vida em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma indicação legislativa apresentada pelo vereador Thiago Damaceno na Câmara Municipal solicita ao Executivo o envio de um projeto de lei que atualize a legislação municipal e estabeleça a isenção de tributos para beneficiários do programa Minha Casa Minha Vida.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo garantir justiça fiscal e segurança jurídica aos beneficiários do programa, especialmente aqueles que, à época da aquisição do imóvel, possuíam renda bruta familiar de até R$ 8 mil, conforme os critérios estabelecidos pela legislação federal.&lt;/p&gt;
+&lt;p&gt;A proposta prevê a remissão de tributos municipais, como IPTU e ITBI, além da anistia de multas e juros incidentes sobre imóveis adquiridos dentro do programa habitacional. Também autoriza o cancelamento de débitos fiscais, inscrições em dívida ativa e eventuais processos judiciais relacionados a essas cobranças.&lt;/p&gt;
+&lt;p&gt;Outro ponto importante é a atualização das normas municipais, que ainda se baseiam em critérios antigos de renda, hoje superados pela legislação federal vigente. A medida busca corrigir distorções que têm gerado cobranças indevidas, comprometendo a confiança dos contribuintes.&lt;/p&gt;
+&lt;p&gt;Além disso, a proposta considera a exclusão de benefícios temporários, como auxílio-doença, seguro-desemprego e Bolsa Família, no cálculo da renda familiar, garantindo um enquadramento mais justo dos beneficiários.&lt;/p&gt;
+&lt;p&gt;“A medida busca corrigir injustiças e garantir que famílias que conquistaram sua casa própria por meio de um programa social não sejam penalizadas com cobranças indevidas”, destacou o vereador Thiago Damaceno&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/proposta-quer-atualizar-regras-e-aliviar-tributos-para-familias-do-minha-casa-minha-vida-em-petropolis</guid><pubDate>Wed, 15 Apr 2026 19:14:00 GMT</pubDate></item><item><title>Indicação busca modernizar WhatsApp da Saúde e ampliar serviços digitais em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-busca-modernizar-whatsapp-da-saude-e-ampliar-servicos-digitais-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-busca-modernizar-whatsapp-da-saude-e-ampliar-servicos-digitais-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-busca-modernizar-whatsapp-da-saude-e-ampliar-servicos-digitais-em-petropolis/image_mini" alt="Indicação busca modernizar WhatsApp da Saúde e ampliar serviços digitais em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma indicação legislativa de autoria do vereador Gil Magno, aprovado na Câmara Municipal, solicita ao Executivo a criação de um projeto de lei voltado ao aprimoramento e à ampliação dos serviços oferecidos pelo WhatsApp da Saúde no município de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo utilizar a tecnologia para otimizar a comunicação entre as unidades de saúde e os usuários do SUS, garantindo mais agilidade, transparência e eficiência no atendimento.&lt;/p&gt;
+&lt;p&gt;Entre as melhorias sugeridas estão a inclusão de funcionalidades como protocolo de entrada na rede do SUS, informações sobre procedimentos realizados em clínicas e unidades conveniadas, além de notificações sobre ausência de comparecimento, cancelamento, suspensão e atualização de consultas e exames.&lt;/p&gt;
+&lt;p&gt;A iniciativa também prevê o envio automático de comunicados aos pacientes sobre alterações nos agendamentos, como remarcações, antecipações ou prorrogações, evitando deslocamentos desnecessários e reduzindo faltas nas unidades de saúde.&lt;/p&gt;
+&lt;p&gt;Além de facilitar o acesso à informação, a medida busca melhorar o fluxo de atendimento, diminuir a sobrecarga nas unidades e fortalecer o vínculo entre a população e o sistema público de saúde.&lt;/p&gt;
+&lt;p&gt;“A proposta visa modernizar a comunicação na saúde pública, garantindo mais praticidade ao cidadão e contribuindo para um atendimento mais eficiente e humanizado”, destacou o vereador Gil Magno.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-busca-modernizar-whatsapp-da-saude-e-ampliar-servicos-digitais-em-petropolis</guid><pubDate>Wed, 15 Apr 2026 19:08:00 GMT</pubDate></item><item><title>Indicação propõe ponto de atendimento da Riocard em Itaipava para facilitar acesso de moradores</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-ponto-de-atendimento-da-riocard-em-itaipava-para-facilitar-acesso-de-moradores</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-ponto-de-atendimento-da-riocard-em-itaipava-para-facilitar-acesso-de-moradores/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-ponto-de-atendimento-da-riocard-em-itaipava-para-facilitar-acesso-de-moradores/image_mini" alt="Indicação propõe ponto de atendimento da Riocard em Itaipava para facilitar acesso de moradores" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma indicação legislativa de autoria do vereador Júnior Paixão, aprovada na Câmara Municipal, solicita ao Executivo a criação de um ponto de atendimento presencial da Riocard em Itaipava, no município de Petrópolis.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo facilitar o acesso dos moradores da região aos serviços de recarga e atendimento do cartão de transporte, evitando a necessidade de deslocamento até o Centro da cidade.&lt;/p&gt;
+&lt;p&gt;Atualmente, o único ponto de atendimento presencial da Riocard está localizado na área central, o que dificulta o acesso para moradores de localidades como Itaipava, Pedro do Rio e Posse. Embora exista uma máquina de recarga no terminal de Itaipava, o equipamento não contempla todos os tipos de recarga, o que obriga muitos usuários a se deslocarem até a Praça da Inconfidência para resolver suas demandas.&lt;/p&gt;
+&lt;p&gt;A iniciativa busca garantir mais comodidade, acessibilidade e eficiência no atendimento à população, especialmente para quem depende diariamente do transporte público.&lt;/p&gt;
+&lt;p&gt;“Nosso objetivo é descentralizar o atendimento e facilitar a vida da população da região, que hoje enfrenta dificuldades para acessar serviços básicos da Riocard”, destacou o vereador Júnior Paixão.*&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/indicacao-propoe-ponto-de-atendimento-da-riocard-em-itaipava-para-facilitar-acesso-de-moradores</guid><pubDate>Wed, 15 Apr 2026 19:01:00 GMT</pubDate></item><item><title>Plano para recuperação de receitas pode fortalecer a gestão fiscal de Petrópolis sem aumento de impostos</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/plano-para-recuperacao-de-receitas-pode-fortalecer-a-gestao-fiscal-de-petropolis-sem-aumento-de-impostos</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/plano-para-recuperacao-de-receitas-pode-fortalecer-a-gestao-fiscal-de-petropolis-sem-aumento-de-impostos/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/plano-para-recuperacao-de-receitas-pode-fortalecer-a-gestao-fiscal-de-petropolis-sem-aumento-de-impostos/image_mini" alt="Plano para recuperação de receitas pode fortalecer a gestão fiscal de Petrópolis sem aumento de impostos" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara aprovou uma indicação do vereador Marquinhos Almeida que solicita ao Poder Executivo o envio de um projeto de lei para instituir diretrizes voltadas ao aperfeiçoamento da gestão tributária e ao saneamento da dívida ativa, sem aumento da carga tributária.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A iniciativa tem como objetivo promover equilíbrio fiscal e maior eficiência administrativa, garantindo que o município amplie sua capacidade de arrecadação por meio da cobrança adequada de débitos existentes, sem gerar novos encargos para a população. A proposta também busca atender determinações judiciais e recomendações de órgãos de controle, como o Tribunal de Contas do Estado do Rio de Janeiro.&lt;/p&gt;
+&lt;p&gt;A indicação legislativa foi elaborada a partir de uma decisão da Quarta Vara Cível, bem como de recomendação do Tribunal de Contas do Estado do Rio de Janeiro, ocorrida em audiência realizada no dia 15 de dezembro de 2025, que contou com a participação do Poder Executivo e de vereadores integrantes das comissões de Justiça e Redação e de Finanças e Orçamento. A medida atende à orientação para que o Poder Legislativo apresente proposta de recuperação fiscal capaz de auxiliar o Executivo na administração municipal.&lt;/p&gt;
+&lt;p&gt;A proposta prevê a elaboração de um plano estruturado com ações como diagnóstico técnico da arrecadação, atualização de cadastros, fortalecimento da cobrança administrativa, uso de instrumentos legais para recuperação de créditos, intensificação da fiscalização e adoção de mecanismos de conformidade tributária. Também estão previstas medidas de transparência, com divulgação de relatórios e acompanhamento das ações.&lt;/p&gt;
+&lt;p&gt;“O município precisa aprimorar a forma como arrecada, garantindo justiça fiscal sem aumentar impostos. Estamos propondo um caminho responsável, que valoriza quem paga em dia e busca recuperar créditos de quem está inadimplente, fortalecendo as finanças públicas”, destacou o vereador Marquinhos Almeida.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/plano-para-recuperacao-de-receitas-pode-fortalecer-a-gestao-fiscal-de-petropolis-sem-aumento-de-impostos</guid><pubDate>Wed, 15 Apr 2026 17:14:00 GMT</pubDate></item><item><title>Motociata “Petrópolis Pela Vida” pode entrar no calendário oficial e reforçar conscientização no trânsito</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/motociata-201cpetropolis-pela-vida201d-pode-entrar-no-calendario-oficial-e-reforcar-conscientizacao-no-transito-1</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/motociata-201cpetropolis-pela-vida201d-pode-entrar-no-calendario-oficial-e-reforcar-conscientizacao-no-transito-1/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/motociata-201cpetropolis-pela-vida201d-pode-entrar-no-calendario-oficial-e-reforcar-conscientizacao-no-transito-1/image_mini" alt="Motociata “Petrópolis Pela Vida” pode entrar no calendário oficial e reforçar conscientização no trânsito" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou um projeto de lei de autoria do vereador Gil Magno que institui a “Motociata Petrópolis Pela Vida” no calendário oficial de eventos do município, a ser realizada anualmente no mês de julho.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo promover a conscientização sobre segurança no trânsito, com foco na prevenção de acidentes envolvendo motociclistas, além de homenagear vítimas e mobilizar a sociedade em torno da valorização da vida.&lt;/p&gt;
+&lt;p&gt;A iniciativa também busca engajar motociclistas, motoristas e pedestres em ações educativas, incentivando o respeito mútuo no trânsito e fortalecendo campanhas de prevenção. Outro ponto importante é o estímulo à divulgação de dados oficiais sobre acidentes, contribuindo para a criação de políticas públicas mais eficazes.&lt;/p&gt;
+&lt;p&gt;Além disso, o projeto destaca a necessidade de investimentos em infraestrutura urbana, com atenção à manutenção e melhoria das vias públicas, visando garantir mais segurança para todos os usuários.&lt;/p&gt;
+&lt;p&gt;A motociata será realizada em consonância com o Dia Nacional do Motociclista, celebrado em 27 de julho, e com a Semana Nacional de Prevenção a Acidentes com Motociclistas, ampliando o alcance das ações de conscientização no município.&lt;/p&gt;
+&lt;p&gt;“A criação da Motociata Petrópolis Pela Vida é uma forma de unir a sociedade em torno de uma causa urgente, que é a preservação de vidas no trânsito. Precisamos conscientizar, prevenir e agir”, destacou o vereador Gil Magno.&lt;/p&gt;
+&lt;p&gt;O projeto segue agora para análise do Poder Executivo.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/motociata-201cpetropolis-pela-vida201d-pode-entrar-no-calendario-oficial-e-reforcar-conscientizacao-no-transito-1</guid><pubDate>Wed, 15 Apr 2026 11:37:00 GMT</pubDate></item><item><title>Atualização da carteira funcional de fiscais pode reforçar segurança e padronização em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/atualizacao-da-carteira-funcional-de-fiscais-pode-reforcar-seguranca-e-padronizacao-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/atualizacao-da-carteira-funcional-de-fiscais-pode-reforcar-seguranca-e-padronizacao-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/atualizacao-da-carteira-funcional-de-fiscais-pode-reforcar-seguranca-e-padronizacao-em-petropolis/image_mini" alt="Atualização da carteira funcional de fiscais pode reforçar segurança e padronização em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara aprovou nesta terça-feira (14), um projeto de lei de autoria do vereador Gil Magno que altera dispositivos da Lei nº 8.687/2023, que atualiza e padroniza a carteira de identidade funcional dos fiscais do município de Petrópolis com objetivo garantir mais segurança, confiabilidade e eficiência na identificação dos servidores que atuam na fiscalização municipal, incluindo agentes de obras, tributos, meio ambiente e vigilância sanitária.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A iniciativa busca modernizar o documento funcional, incorporando elementos mais seguros, como a utilização de QR Code, que permitirá a verificação da autenticidade da carteira diretamente no site oficial da Prefeitura. Além disso, o novo modelo passa a reunir informações completas do servidor, como dados pessoais, cargo, matrícula e demais identificações necessárias para o exercício da função.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;Outro ponto importante da proposta é a padronização do formato e das características físicas da carteira funcional, incluindo dimensões, material e layout, garantindo maior durabilidade e melhor utilização no dia a dia dos profissionais.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A medida também leva em consideração a necessidade de simplificar a identificação dos fiscais, adotando a denominação geral de “Fiscalização”, o que abrange todas as áreas de atuação e evita distinções desnecessárias entre os servidores.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;“A modernização da carteira funcional é fundamental para dar mais segurança ao servidor e também à população, que poderá identificar com mais facilidade e confiança os fiscais do município”, destacou o vereador Gil Magno.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/atualizacao-da-carteira-funcional-de-fiscais-pode-reforcar-seguranca-e-padronizacao-em-petropolis</guid><pubDate>Tue, 14 Apr 2026 17:49:00 GMT</pubDate></item><item><title>Medidas para reduzir o calor extremo em cozinhas escolares podem garantir mais saúde e qualidade no ensino em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/medidas-para-reduzir-o-calor-extremo-em-cozinhas-escolares-podem-garantir-mais-saude-e-qualidade-no-ensino-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/medidas-para-reduzir-o-calor-extremo-em-cozinhas-escolares-podem-garantir-mais-saude-e-qualidade-no-ensino-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/medidas-para-reduzir-o-calor-extremo-em-cozinhas-escolares-podem-garantir-mais-saude-e-qualidade-no-ensino-em-petropolis/image_mini" alt="Medidas para reduzir o calor extremo em cozinhas escolares podem garantir mais saúde e qualidade no ensino em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;As cozinhas das escolas municipais de Petrópolis podem passar a contar com melhores condições de trabalho por meio da adoção de medidas voltadas à redução do calor extremo nesses ambientes. A Câmara aprovou nesta terça-feira (14), uma indicação do vereador Thiago Damaceno que solicita ao Poder Executivo o envio de um projeto de lei com ações específicas para enfrentar o problema nas unidades de ensino.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;“Precisamos olhar com mais atenção para quem está nos bastidores garantindo a alimentação dos nossos alunos. Não é justo que esses profissionais trabalhem em condições tão adversas, expostos ao calor excessivo todos os dias. Cuidar dessas pessoas é também cuidar da qualidade da merenda e da saúde das nossas crianças”, destacou o vereador.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;A proposta tem como objetivo assegurar mais saúde, segurança e bem-estar aos profissionais da merenda escolar, que atuam diariamente em condições de altas temperaturas. A iniciativa também busca garantir a qualidade no preparo dos alimentos oferecidos aos alunos, já que o calor excessivo pode comprometer tanto o ambiente de trabalho quanto a segurança alimentar.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;Essa indicação prevê a implementação de medidas como a instalação de sistemas de ventilação adequados, adaptação da estrutura física para melhor circulação de ar, uso de materiais térmicos, fornecimento de Equipamentos de Proteção Individual (EPIs) e a criação de pausas para hidratação e descanso dos profissionais.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/medidas-para-reduzir-o-calor-extremo-em-cozinhas-escolares-podem-garantir-mais-saude-e-qualidade-no-ensino-em-petropolis</guid><pubDate>Tue, 14 Apr 2026 17:30:00 GMT</pubDate></item><item><title>Câmara institui comissão para fiscalizar execução de emendas no orçamento</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-institui-comissao-para-fiscalizar-execucao-de-emendas-no-orcamento</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-institui-comissao-para-fiscalizar-execucao-de-emendas-no-orcamento/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-institui-comissao-para-fiscalizar-execucao-de-emendas-no-orcamento/image_mini" alt="Câmara institui comissão para fiscalizar execução de emendas no orçamento" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara Municipal aprovou o requerimento de autoria do vereador Léo França que institui uma Comissão Especial destinada a acompanhar a execução das emendas impositivas no âmbito do Legislativo. A medida cria um grupo de trabalho com a função de fiscalizar se os recursos aprovados pelos vereadores estão sendo aplicados pela Prefeitura de Petrópolis nas áreas e instituições indicadas.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;“Precisamos garantir que aquilo que foi aprovado pela Câmara chegue, de fato, à população. Essas emendas são fundamentais e não podem ficar apenas no papel”, afirmou o vereador Léo França.&lt;/p&gt;
+&lt;p&gt;A comissão será presidida por Léo França e contará com a participação dos vereadores Gilda Beatriz e Fred Procópio. O prazo de atuação será de 180 dias, período em que o colegiado deverá acompanhar a execução dos recursos. As emendas impositivas integram o orçamento público e correspondem a indicações diretas dos parlamentares para investimentos em serviços, projetos e entidades que atendem a população.&lt;/p&gt;
+&lt;p&gt;Com a criação da comissão, a Câmara passa a contar com um instrumento específico para monitorar a execução desses recursos, verificar repasses e cobrar informações do Poder Executivo.&lt;/p&gt;
+&lt;p&gt;A iniciativa também ocorre diante de relatos de que diversas emendas ainda não foram executadas ou não tiveram seus valores repassados pela Prefeitura de Petrópolis, o que impacta diretamente instituições e serviços que dependem desses recursos para funcionar. A proposta busca ampliar a transparência e garantir o cumprimento do que foi aprovado no orçamento.&lt;/p&gt;
+&lt;p&gt;A comissão já está em vigor e passa a acompanhar, de forma direta, a execução das emendas impositivas no município.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-institui-comissao-para-fiscalizar-execucao-de-emendas-no-orcamento</guid><pubDate>Mon, 13 Apr 2026 17:30:00 GMT</pubDate></item><item><title>“Lei Vitor Cavalcanti” propõe ações de paz no trânsito em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/201clei-vitor-cavalcanti201d-propoe-acoes-de-paz-no-transito-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/201clei-vitor-cavalcanti201d-propoe-acoes-de-paz-no-transito-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/201clei-vitor-cavalcanti201d-propoe-acoes-de-paz-no-transito-em-petropolis/image_mini" alt="“Lei Vitor Cavalcanti” propõe ações de paz no trânsito em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara aprovou nesta quinta-feira (10), o projeto de lei de autoria da vereadora Professora Lívia, com coautoria do vereador Léo França, que institui a Política Municipal de Prevenção à Violência no Trânsito, chamada “Lei Vitor Cavalcanti”. A proposta cria medidas para prevenir conflitos, agressões e crimes no trânsito, buscando mais segurança nas vias da cidade.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O texto prevê campanhas educativas, capacitação de agentes públicos para mediação de conflitos, criação de canais de denúncia e produção de dados sobre ocorrências. Também inclui ações nas escolas, parcerias com autoescolas e a criação de datas e atividades voltadas à conscientização da população sobre o tema.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A proposta ainda autoriza a criação de um Observatório Municipal da Violência no Trânsito, com a função de mapear casos, organizar informações e apoiar o desenvolvimento de políticas públicas voltadas à prevenção.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O nome da lei é uma homenagem a Vitor Cavalcanti, vítima de um episódio de violência no trânsito em Petrópolis que terminou em morte após uma discussão viária, fato que chocou a cidade em fevereiro deste ano. A proposta busca manter viva a memória do caso e transformar a dor em ações concretas, reforçando a necessidade de prevenir conflitos e evitar que situações semelhantes voltem a acontecer no município.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;“A Lei Vitor Cavalcanti nasce de uma tragédia que chocou nossa cidade e que não pode ser tratada como algo comum. O que propomos é transformar essa dor em política pública concreta, com ações de conscientização e educação para a cultura da paz no trânsito. Precisamos enfrentar a violência de forma estrutural, inclusive quando ela é agravada pelo uso de armas, que potencializa conflitos e tira vidas. Falar de desarmamento é, também, falar de prevenção, de proteção e de cuidado com as pessoas. Essa lei é um passo para preservar vidas e para que nenhuma família precise lidar com uma perda tão brutal”, afirmou a vereadora Professora Lívia.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span&gt;O projeto segue para análise do Poder Executivo.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/201clei-vitor-cavalcanti201d-propoe-acoes-de-paz-no-transito-em-petropolis</guid><pubDate>Mon, 13 Apr 2026 15:45:00 GMT</pubDate></item><item><title>Responsabilização de concessionárias pode garantir melhor conservação urbana em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/responsabilizacao-de-concessionarias-pode-garantir-melhor-conservacao-urbana-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/responsabilizacao-de-concessionarias-pode-garantir-melhor-conservacao-urbana-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/responsabilizacao-de-concessionarias-pode-garantir-melhor-conservacao-urbana-em-petropolis/image_mini" alt="Responsabilização de concessionárias pode garantir melhor conservação urbana em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A infraestrutura urbana de Petrópolis pode passar a contar com medidas mais rigorosas para a recuperação de danos causados por intervenções em vias públicas. A Câmara aprovou uma indicação do vereador Gil Magno que solicita ao Poder Executivo o envio de um projeto de lei para estabelecer a responsabilidade de concessionárias e permissionárias de serviços públicos pela recomposição, reparação ou ressarcimento de prejuízos no município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo assegurar a preservação adequada das ruas, calçadas e demais espaços urbanos, garantindo que empresas responsáveis por obras realizem os reparos necessários ou arquem com os custos dos danos causados. A medida busca melhorar a segurança da população, a mobilidade urbana e a qualidade da infraestrutura da cidade.&lt;/p&gt;
+&lt;p&gt;É recorrente a realização de intervenções por empresas de serviços essenciais, como água, energia elétrica e telecomunicações, que acabam deixando vias públicas em condições inadequadas de uso. Buracos, desníveis e falhas na recomposição do pavimento são alguns dos problemas que impactam diretamente pedestres e motoristas, além de gerar prejuízos ao patrimônio público.&lt;/p&gt;
+&lt;p&gt;A proposta também prevê a definição de critérios técnicos, prazos para execução dos reparos e fiscalização por parte dos órgãos competentes, garantindo maior eficiência na aplicação das normas. Além disso, estabelece sanções administrativas em caso de descumprimento, reforçando a responsabilidade das empresas envolvidas.&lt;/p&gt;
+&lt;p&gt;Segundo a justificativa, a iniciativa contribui para uma gestão pública mais eficiente ao assegurar que os responsáveis pelos danos assumam a devida reparação, evitando que o município arque com custos indevidos e promovendo uma cidade mais organizada, segura e bem conservada para toda a população.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/responsabilizacao-de-concessionarias-pode-garantir-melhor-conservacao-urbana-em-petropolis</guid><pubDate>Mon, 13 Apr 2026 13:11:00 GMT</pubDate></item><item><title>Programa de boas práticas pode incentivar uso consciente de água e energia nas escolas de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/programa-de-boas-praticas-pode-incentivar-uso-consciente-de-agua-e-energia-nas-escolas-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/programa-de-boas-praticas-pode-incentivar-uso-consciente-de-agua-e-energia-nas-escolas-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/programa-de-boas-praticas-pode-incentivar-uso-consciente-de-agua-e-energia-nas-escolas-de-petropolis/image_mini" alt="Programa de boas práticas pode incentivar uso consciente de água e energia nas escolas de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A Câmara aprovou uma indicação do vereador Junior Paixão que pode trazer avanços importantes para a educação ambiental no município. A proposta solicita ao Poder Executivo o envio de um projeto de lei para instituir o Programa de Boas Práticas no Uso de Energia e Água nas unidades da rede municipal de ensino de Petrópolis, com foco na conscientização de alunos e na promoção do consumo responsável de recursos naturais.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo promover a conscientização de crianças e adolescentes sobre a importância de evitar o desperdício de água e energia elétrica, incentivando mudanças de hábitos no dia a dia. A medida busca contribuir para a formação de alunos mais responsáveis e atentos às questões ambientais.&lt;/p&gt;
+&lt;p&gt;De acordo com a justificativa, o programa será desenvolvido de forma educativa e atrativa, permitindo que os estudantes aprendam sobre consumo consciente e levem esse conhecimento para dentro de suas casas, influenciando também suas famílias.&lt;/p&gt;
+&lt;p&gt;A iniciativa também pode gerar impactos positivos na gestão escolar, com a redução dos custos relacionados ao consumo de água e energia nas unidades de ensino.&lt;/p&gt;
+&lt;p&gt;A proposta prevê ainda a possibilidade de parcerias com concessionárias que atuam no município, além da coordenação das ações pela Secretaria Municipal de Educação.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/programa-de-boas-praticas-pode-incentivar-uso-consciente-de-agua-e-energia-nas-escolas-de-petropolis</guid><pubDate>Fri, 04 Sep 2026 18:48:00 GMT</pubDate></item><item><title>Implantação do Programa Saúde na Escola pode ampliar ações de prevenção nas unidades de ensino de Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/implantacao-do-programa-saude-na-escola-pode-ampliar-acoes-de-prevencao-nas-unidades-de-ensino-de-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/implantacao-do-programa-saude-na-escola-pode-ampliar-acoes-de-prevencao-nas-unidades-de-ensino-de-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/implantacao-do-programa-saude-na-escola-pode-ampliar-acoes-de-prevencao-nas-unidades-de-ensino-de-petropolis/image_mini" alt="Implantação do Programa Saúde na Escola pode ampliar ações de prevenção nas unidades de ensino de Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A rede municipal de ensino de Petrópolis pode passar a contar com ações mais integradas de saúde e educação. A Câmara aprovou uma indicação do vereador Gil Magno que solicita ao Poder Executivo o envio de um projeto de lei para implantar o Programa Saúde na Escola (PSE) em todas as unidades do município.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A proposta tem como objetivo contribuir para a formação integral dos estudantes, por meio de iniciativas voltadas à promoção da saúde, prevenção de doenças e cuidados com o bem-estar. A medida busca enfrentar situações que impactam o desenvolvimento de crianças, jovens e adultos, garantindo melhores condições para o aprendizado e mais qualidade de vida.&lt;/p&gt;
+&lt;p&gt;Criado pelo Governo Federal em 2007, o Programa Saúde na Escola é uma política intersetorial que integra as áreas de saúde e educação, promovendo ações conjuntas entre equipes das unidades de saúde e as escolas. Entre as atividades previstas estão o combate ao mosquito Aedes aegypti, incentivo à prática de atividades físicas, prevenção ao uso de álcool e drogas, promoção da cultura de paz, acompanhamento da saúde bucal, atualização da caderneta de vacinação e incentivo à alimentação saudável.&lt;/p&gt;
+&lt;p&gt;O programa também prevê ações voltadas à saúde auditiva e ocular, prevenção de infecções sexualmente transmissíveis, identificação precoce de doenças e prevenção de violências e acidentes no ambiente escolar.&lt;/p&gt;
+&lt;p&gt;Segundo a justificativa, a implementação do PSE fortalece a parceria entre escolas e serviços de saúde, criando um ambiente mais saudável, acolhedor e propício ao desenvolvimento dos estudantes.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/implantacao-do-programa-saude-na-escola-pode-ampliar-acoes-de-prevencao-nas-unidades-de-ensino-de-petropolis</guid><pubDate>Tue, 04 Aug 2026 22:09:00 GMT</pubDate></item><item><title>Tratamento gratuito para animais com esporotricose pode virar política pública em Petrópolis</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/tratamento-gratuito-para-animais-com-esporotricose-pode-virar-politica-publica-em-petropolis</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/tratamento-gratuito-para-animais-com-esporotricose-pode-virar-politica-publica-em-petropolis/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/tratamento-gratuito-para-animais-com-esporotricose-pode-virar-politica-publica-em-petropolis/image_mini" alt="Tratamento gratuito para animais com esporotricose pode virar política pública em Petrópolis" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;Uma proposta aprovada na Câmara Municipal de Petrópolis sugere a oferta de tratamento gratuito para animais diagnosticados com esporotricose no município. A indicação, de autoria do vereador Marquinhos Almeida, tem como objetivo fortalecer as ações de saúde pública e proteção animal.&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;A medida prevê que o Poder Executivo elabore um projeto de lei para garantir o fornecimento gratuito de medicamentos, acompanhamento clínico e orientações técnicas aos tutores, por meio dos órgãos municipais de saúde e vigilância em zoonoses. Para ter acesso ao benefício, será necessário apresentar diagnóstico emitido por médico-veterinário e realizar cadastro junto ao município.&lt;/p&gt;
+&lt;p&gt;Além do tratamento, a proposta inclui ações de orientação sobre manejo, prevenção e biossegurança, bem como o acompanhamento contínuo dos animais até a alta clínica. O texto também permite a realização de parcerias com clínicas, universidades e organizações para ampliar a capacidade de atendimento.&lt;/p&gt;
+&lt;p&gt;A indicação destaca que a esporotricose é uma zoonose em expansão no Brasil, com potencial de transmissão para humanos, especialmente em áreas urbanas. O aumento de casos, principalmente entre felinos, acende um alerta para a necessidade de políticas públicas que atuem no controle da doença e na proteção da saúde coletiva.&lt;/p&gt;
+&lt;p&gt;Segundo a justificativa, o alto custo do tratamento muitas vezes impede a continuidade dos cuidados, o que pode levar ao abandono dos animais e à disseminação da doença. Com a iniciativa, busca-se garantir acesso universal ao tratamento, independentemente da condição financeira dos tutores.&lt;/p&gt;
+&lt;p&gt;A proposta também reforça o papel do município na prevenção de zoonoses e na promoção do bem-estar animal, alinhando-se às diretrizes constitucionais de saúde pública e proteção ambiental.&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/tratamento-gratuito-para-animais-com-esporotricose-pode-virar-politica-publica-em-petropolis</guid><pubDate>Tue, 04 Aug 2026 21:34:00 GMT</pubDate></item><item><title>Câmara aprova indicação do vereador Léo França que cria o “Prêmio Contabilista Paulo Roberto Patuléa”</title><link>https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-indicacao-do-vereador-leo-franca-que-cria-o-201cpremio-contabilista-paulo-roberto-patulea201d</link><description>&lt;div id="content-core"&gt;
+                                 
+    
+
+        &lt;div class="newsImageContainer"&gt;
+            &lt;a href="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-indicacao-do-vereador-leo-franca-que-cria-o-201cpremio-contabilista-paulo-roberto-patulea201d/image/image_view_fullscreen" id="parent-fieldname-image"&gt;
+               &lt;img src="https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-indicacao-do-vereador-leo-franca-que-cria-o-201cpremio-contabilista-paulo-roberto-patulea201d/image_mini" alt="Câmara aprova indicação do vereador Léo França que cria o “Prêmio Contabilista Paulo Roberto Patuléa”" title="" height="133" width="200" class="newsImage"&gt;
+            &lt;/a&gt;
+            
+        &lt;/div&gt;
+
+        
+
+        &lt;div id="parent-fieldname-text" class="plain"&gt;
+            &lt;p&gt;&lt;span&gt;A valorização dos profissionais da contabilidade pode ganhar um novo reconhecimento oficial em Petrópolis. A Câmara Municipal aprovou uma indicação do vereador Léo França que propõe a criação do Prêmio “Contabilista Paulo Roberto Patuléa”, a ser concedido anualmente a profissionais e entidades de destaque na área pelo Poder Legislativo municipal.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;“Patuléa foi um profissional exemplar, que dedicou sua vida ao desenvolvimento de Petrópolis. Sua atuação marcou a administração pública com responsabilidade, inovação e compromisso com o equilíbrio das contas. Este prêmio é uma forma justa de reconhecer seu legado e de inspirar as futuras gerações de contabilistas a seguirem pelo mesmo caminho de ética e excelência”, disse do vereador Léo França.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A proposta prevê que cada vereador possa indicar até dois homenageados por ano. A premiação será realizada no dia 25 de abril, data em que se celebra o Dia da Contabilidade, ou no primeiro dia útil subsequente, em solenidade organizada pela Mesa Diretora.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;O objetivo da iniciativa é reconhecer trajetórias marcadas por dedicação, ética e contribuição relevante à sociedade, incentivando o fortalecimento da contabilidade tanto no setor público quanto na iniciativa privada.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A homenagem leva o nome de Paulo Roberto Patuléa, economista e contabilista com mais de cinco décadas de atuação, cuja carreira foi marcada por importantes contribuições à administração pública do município. Entre seus feitos estão a participação na elaboração de legislações relevantes, avanços na modernização da gestão fiscal e iniciativas que contribuíram para o equilíbrio das contas públicas.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;A indicação também ressalta o legado de inovação deixado pelo profissional, incluindo a implantação de sistemas digitais, a desburocratização de serviços e medidas que colocaram o município em destaque em questões tributárias.&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span&gt;De acordo com a justificativa, a criação do prêmio representa não apenas uma homenagem à sua trajetória, mas também um estímulo ao exercício responsável e estratégico da contabilidade, reconhecendo a importância do setor para o desenvolvimento econômico sustentável.&lt;/span&gt;&lt;/p&gt;
+        &lt;/div&gt;
+    
+
+                             &lt;/div&gt;
+                             </description><guid isPermaLink="true">https://www.petropolis.rj.leg.br/institucional/noticias/camara-aprova-indicacao-do-vereador-leo-franca-que-cria-o-201cpremio-contabilista-paulo-roberto-patulea201d</guid><pubDate>Tue, 04 Aug 2026 19:26:00 GMT</pubDate></item></channel></rss>
