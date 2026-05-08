@@ -4,37 +4,37 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 19:29:51 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 02:31:47 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
-      <title>Velvet by Cervejaria Peregrinos</title>
-      <link>https://untappd.com/user/gmgall/checkin/1564360490</link>
+      <title>Carcará by Cerrado Beer</title>
+      <link>https://untappd.com/user/gmgall/checkin/1568206674</link>
       <description>&lt;div class="checkin-info pad-it"&gt;
 
-      &lt;a class="label" href="/b/velvet-cervejaria-peregrinos/6655041"&gt;&lt;img src="https://assets.untappd.com/site/brewery_logos/brewery-540887_5cf05.jpeg" alt="Velvet label"&gt;&lt;/a&gt;
+      &lt;a class="label" href="/b/carcara-cerrado-beer/3988263"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3988263_c8c63_sm.jpeg" alt="Carcará label"&gt;&lt;/a&gt;
       &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/velvet-cervejaria-peregrinos/6655041"&gt;Velvet&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/CervejariaPeregrinos"&gt;Cervejaria Peregrinos&lt;/a&gt;&lt;/span&gt;
+        &lt;p&gt;&lt;a href="/b/carcara-cerrado-beer/3988263"&gt;Carcará&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/CerradoBeer"&gt;Cerrado Beer&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
 
       
       &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1564360490"&gt;
+                  &lt;abbr id="translate_1568206674"&gt;
                       &lt;/abbr&gt;
                 &lt;/p&gt;
 
       
       &lt;div class="rating-serving"&gt;
                   &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/growler@3x.png" alt="Growler"&gt;
-            &lt;span&gt;Growler &lt;/span&gt;
+            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
+            &lt;span&gt;Draft &lt;/span&gt;
           &lt;/p&gt;
           &lt;div class="caps"&gt;
 		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
 		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
 		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-50"&gt;&lt;/div&gt;
+		&lt;div class="cap"&gt;&lt;/div&gt;
 		&lt;div class="cap"&gt;&lt;/div&gt;
 	&lt;/div&gt;      &lt;/div&gt;
 
@@ -42,16 +42,8 @@
             &lt;div class="badges-unlocked"&gt;
 
                             &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_neipa_sm.jpg" alt="Haze for Days"&gt;
-                  &lt;span&gt;Earned the Haze for Days badge!&lt;/span&gt;
-                &lt;/span&gt;
-                                &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba  (Level 49)"&gt;
-                  &lt;span&gt;Earned the Suds Samba  (Level 49) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                                &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_AmazonAndAndes_sm.jpg" alt="Amazons &amp;amp; Andes (Level 47)"&gt;
-                  &lt;span&gt;Earned the Amazons &amp;amp; Andes (Level 47) badge!&lt;/span&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 19)"&gt;
+                  &lt;span&gt;Earned the Riding Steady (Level 19) badge!&lt;/span&gt;
                 &lt;/span&gt;
                 
             &lt;/div&gt;
@@ -59,8 +51,8 @@
           
     &lt;/div&gt;</description>
       <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1564360490</guid>
-      <pubDate>Tue, 21 Apr 2026 05:17:08 GMT</pubDate>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1568206674</guid>
+      <pubDate>Fri, 08 May 2026 00:50:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
