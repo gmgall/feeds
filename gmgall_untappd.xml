@@ -4,7 +4,7 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Fri, 08 May 2026 19:09:11 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 02:24:54 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -53,61 +53,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1568206674</guid>
       <pubDate>Fri, 08 May 2026 00:50:08 GMT</pubDate>
-    </item>
-    <item>
-      <title>Green Line by Joy Project Brewing</title>
-      <link>https://untappd.com/user/gmgall/checkin/1563978318</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/green-line-joy-project-brewing/5671393"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-5671393_f3950_sm.jpeg" alt="Green Line label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/green-line-joy-project-brewing/5671393"&gt;Green Line&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/JoyProjectBrewing"&gt;Joy Project Brewing&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1563978318"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2024/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-            &lt;div class="badges-unlocked"&gt;
-
-                            &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 31)"&gt;
-                  &lt;span&gt;Earned the Middle of the Road (Level 31) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                                &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_brewery_prioneer_sm.jpg" alt="Brewery Pioneer (Level 21)"&gt;
-                  &lt;span&gt;Earned the Brewery Pioneer (Level 21) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                                &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 19)"&gt;
-                  &lt;span&gt;Earned the I Believe in IPA! (Level 19) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                
-            &lt;/div&gt;
-
-          
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1563978318</guid>
-      <pubDate>Sun, 19 Apr 2026 02:00:45 GMT</pubDate>
     </item>
   </channel>
 </rss>
