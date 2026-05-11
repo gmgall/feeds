@@ -60,9 +60,9 @@
     "feed": "https://gmgall.github.io/feeds/chickfilla.xml"
   },
   {
-    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https://www.dannyguo.com/blog/.+ --follow --with-body --body-csss article --date-from-xpath //@datetime https://www.dannyguo.com/blog -o ./feeds/danny_guo.xml",
+    "title": "Danny Guo",
     "link": "https://www.dannyguo.com/blog",
-    "description": "Failed to generate feed.",
+    "description": "Danny Guo",
     "feed": "https://gmgall.github.io/feeds/danny_guo.xml"
   },
   {
