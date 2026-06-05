@@ -78,9 +78,9 @@
     "feed": "https://gmgall.github.io/feeds/escrevescreve.xml"
   },
   {
-    "title": "NFL na ESPN - Resultados, vídeos e estatísticas",
+    "title": "Error: /opt/hostedtoolcache/Python/3.10.12/x64/bin/newslinkrss -p https://www.espn.com.br/nfl/artigo/.+ --follow --with-body --body-csss .article-body --body-remove-csss .inline.float-r.inline-track --body-remove-csss img --body-remove-csss .inline.editorial.float-r --body-remove-csss .article-social.vertical --date-from-xpath //@data-date https://www.espn.com.br/nfl -o ./feeds/espn_nfl.xml",
     "link": "https://www.espn.com.br/nfl",
-    "description": "Acesse ESPN para placares ao vivo da NFL, melhores momentos e notícias. Assista à NFL pela ESPN no Star+",
+    "description": "Failed to generate feed.",
     "feed": "https://gmgall.github.io/feeds/espn_nfl.xml"
   },
   {
