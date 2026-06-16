@@ -4,7 +4,7 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 11:00:44 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 16:40:24 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -57,53 +57,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1577098420</guid>
       <pubDate>Fri, 12 Jun 2026 01:32:34 GMT</pubDate>
-    </item>
-    <item>
-      <title>Carcará by Cerrado Beer</title>
-      <link>https://untappd.com/user/gmgall/checkin/1568206674</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/carcara-cerrado-beer/3988263"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3988263_c8c63_sm.jpeg" alt="Carcará label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/carcara-cerrado-beer/3988263"&gt;Carcará&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/CerradoBeer"&gt;Cerrado Beer&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1568206674"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2026/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-            &lt;div class="badges-unlocked"&gt;
-
-                            &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_RidingSteady_sm.jpg" alt="Riding Steady (Level 19)"&gt;
-                  &lt;span&gt;Earned the Riding Steady (Level 19) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                
-            &lt;/div&gt;
-
-          
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1568206674</guid>
-      <pubDate>Fri, 08 May 2026 00:50:08 GMT</pubDate>
     </item>
   </channel>
 </rss>
