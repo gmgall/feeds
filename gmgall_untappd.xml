@@ -4,7 +4,7 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 10:32:51 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 15:37:51 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -55,19 +55,19 @@
       <pubDate>Mon, 31 Aug 2026 00:18:56 GMT</pubDate>
     </item>
     <item>
-      <title>APA do Vicente by Cervejaria Bracitorium</title>
-      <link>https://untappd.com/user/gmgall/checkin/1598237313</link>
+      <title>American IPA com Cacau by Madstein</title>
+      <link>https://untappd.com/user/gmgall/checkin/1598233140</link>
       <description>&lt;div class="checkin-info pad-it"&gt;
 
-      &lt;a class="label" href="/b/apa-do-vicente-cervejaria-bracitorium/2356468"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-2356468_75080_sm.jpeg" alt="APA do Vicente label"&gt;&lt;/a&gt;
+      &lt;a class="label" href="/b/american-ipa-com-cacau-madstein/4404010"&gt;&lt;img src="https://assets.untappd.com/site/brewery_logos/brewery-495814_132e6.jpeg" alt="American IPA com Cacau label"&gt;&lt;/a&gt;
       &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/apa-do-vicente-cervejaria-bracitorium/2356468"&gt;APA do Vicente&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/CervejariaBracitorium"&gt;Cervejaria Bracitorium&lt;/a&gt;&lt;/span&gt;
+        &lt;p&gt;&lt;a href="/b/american-ipa-com-cacau-madstein/4404010"&gt;American IPA com Cacau&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/fernada_leda"&gt;Madstein&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
 
       
       &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1598237313"&gt;
+                  &lt;abbr id="translate_1598233140"&gt;
                       &lt;/abbr&gt;
                 &lt;/p&gt;
 
@@ -80,16 +80,38 @@
           &lt;div class="caps"&gt;
 		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
 		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
+		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
 		&lt;div class="cap cap-80"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
 		&lt;div class="cap"&gt;&lt;/div&gt;
 	&lt;/div&gt;      &lt;/div&gt;
 
         
+            &lt;div class="badges-unlocked"&gt;
+
+                            &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_middle-of-the-road_sm.jpg" alt="Middle of the Road (Level 33)"&gt;
+                  &lt;span&gt;Earned the Middle of the Road (Level 33) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_brewery_prioneer_sm.jpg" alt="Brewery Pioneer (Level 23)"&gt;
+                  &lt;span&gt;Earned the Brewery Pioneer (Level 23) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_DraftCity_sm.jpg" alt="Draft City (Level 8)"&gt;
+                  &lt;span&gt;Earned the Draft City (Level 8) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_hoptopia_sm.jpg" alt="I Believe in IPA! (Level 21)"&gt;
+                  &lt;span&gt;Earned the I Believe in IPA! (Level 21) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                
+            &lt;/div&gt;
+
+          
     &lt;/div&gt;</description>
       <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1598237313</guid>
-      <pubDate>Sun, 30 Aug 2026 23:54:42 GMT</pubDate>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1598233140</guid>
+      <pubDate>Sun, 30 Aug 2026 23:28:12 GMT</pubDate>
     </item>
     <item>
       <title>Burton English IPA by Cervejaria Grossbrau</title>
