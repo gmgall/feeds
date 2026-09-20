@@ -4,23 +4,23 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 02:52:59 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 10:26:17 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
-      <title>Inside the Mind by Cervejaria EquiliBrew</title>
-      <link>https://untappd.com/user/gmgall/checkin/1602928832</link>
+      <title>Ghost Army by Salvador Brewing Co.</title>
+      <link>https://untappd.com/user/gmgall/checkin/1602936152</link>
       <description>&lt;div class="checkin-info pad-it"&gt;
 
-      &lt;a class="label" href="/b/inside-the-mind-cervejaria-equilibrew/5267105"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-5267105_afffb_sm.jpeg" alt="Inside the Mind label"&gt;&lt;/a&gt;
+      &lt;a class="label" href="/b/ghost-army-salvador-brewing-co/6843956"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-6843956_622bc_sm.jpeg" alt="Ghost Army label"&gt;&lt;/a&gt;
       &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/inside-the-mind-cervejaria-equilibrew/5267105"&gt;Inside the Mind&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/Cervejaria_Equilibrew"&gt;Cervejaria EquiliBrew&lt;/a&gt;&lt;/span&gt;
+        &lt;p&gt;&lt;a href="/b/ghost-army-salvador-brewing-co/6843956"&gt;Ghost Army&lt;/a&gt;&lt;/p&gt;
+        &lt;span&gt;&lt;a href="/SalvadorBrewingCo"&gt;Salvador Brewing Co.&lt;/a&gt;&lt;/span&gt;
       &lt;/div&gt;
 
       
       &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1602928832"&gt;
+                  &lt;abbr id="translate_1602936152"&gt;
                       &lt;/abbr&gt;
                 &lt;/p&gt;
 
@@ -42,8 +42,12 @@
             &lt;div class="badges-unlocked"&gt;
 
                             &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_brazil_sm.jpg" alt="Suds Samba (Level 51)"&gt;
-                  &lt;span&gt;Earned the Suds Samba (Level 51) badge!&lt;/span&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_DraftCity_sm.jpg" alt="Draft City (Level 9)"&gt;
+                  &lt;span&gt;Earned the Draft City (Level 9) badge!&lt;/span&gt;
+                &lt;/span&gt;
+                                &lt;span class="badge"&gt;
+                  &lt;img src="https://assets.untappd.com/badges/bdg_2xCore_sm.jpg" alt="2X (Level 4)"&gt;
+                  &lt;span&gt;Earned the 2X (Level 4) badge!&lt;/span&gt;
                 &lt;/span&gt;
                 
             &lt;/div&gt;
@@ -51,8 +55,8 @@
           
     &lt;/div&gt;</description>
       <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1602928832</guid>
-      <pubDate>Sun, 20 Sep 2026 02:45:14 GMT</pubDate>
+      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1602936152</guid>
+      <pubDate>Sun, 20 Sep 2026 03:54:23 GMT</pubDate>
     </item>
   </channel>
 </rss>
