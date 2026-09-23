@@ -4,7 +4,7 @@
     <link>https://untappd.com/user/gmgall</link>
     <description>Guilherme Gall Check-in Activity on Untappd with beer ratings, venues and more.</description>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 15:56:21 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 20:57:59 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <docs>http://blogs.law.harvard.edu/tech/rss</docs>
     <item>
@@ -57,57 +57,6 @@
       <author>Guilherme Gall</author>
       <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1602936152</guid>
       <pubDate>Sun, 20 Sep 2026 03:54:23 GMT</pubDate>
-    </item>
-    <item>
-      <title>ENGESA Oil - Coffee Edition by Salvador Brewing Co.</title>
-      <link>https://untappd.com/user/gmgall/checkin/1602931141</link>
-      <description>&lt;div class="checkin-info pad-it"&gt;
-
-      &lt;a class="label" href="/b/engesa-oil-coffee-edition-salvador-brewing-co/3036359"&gt;&lt;img src="https://assets.untappd.com/site/beer_logos/beer-3036359_37283_sm.jpeg" alt="ENGESA Oil - Coffee Edition label"&gt;&lt;/a&gt;
-      &lt;div class="beer"&gt;
-        &lt;p&gt;&lt;a href="/b/engesa-oil-coffee-edition-salvador-brewing-co/3036359"&gt;ENGESA Oil - Coffee Edition&lt;/a&gt;&lt;/p&gt;
-        &lt;span&gt;&lt;a href="/SalvadorBrewingCo"&gt;Salvador Brewing Co.&lt;/a&gt;&lt;/span&gt;
-      &lt;/div&gt;
-
-      
-      &lt;p class="comment"&gt;
-                  &lt;abbr id="translate_1602931141"&gt;
-                      &lt;/abbr&gt;
-                &lt;/p&gt;
-
-      
-      &lt;div class="rating-serving"&gt;
-                  &lt;p class="serving"&gt;
-            &lt;img src="https://assets.untappd.com/static_app_assets/new_serving_styles_2026/draft@3x.png" alt="Draft"&gt;
-            &lt;span&gt;Draft &lt;/span&gt;
-          &lt;/p&gt;
-          &lt;div class="caps"&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap cap-100"&gt;&lt;/div&gt;
-		&lt;div class="cap"&gt;&lt;/div&gt;
-	&lt;/div&gt;      &lt;/div&gt;
-
-        
-            &lt;div class="badges-unlocked"&gt;
-
-                            &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_highABV_sm.jpg" alt="Sky's the Limit (Level 3)"&gt;
-                  &lt;span&gt;Earned the Sky's the Limit (Level 3) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                                &lt;span class="badge"&gt;
-                  &lt;img src="https://assets.untappd.com/badges/bdg_heavyWeight_sm.jpg" alt="Heavy Weight (Level 4)"&gt;
-                  &lt;span&gt;Earned the Heavy Weight (Level 4) badge!&lt;/span&gt;
-                &lt;/span&gt;
-                
-            &lt;/div&gt;
-
-          
-    &lt;/div&gt;</description>
-      <author>Guilherme Gall</author>
-      <guid isPermaLink="true">https://untappd.com/user/gmgall/checkin/1602931141</guid>
-      <pubDate>Sun, 20 Sep 2026 03:02:59 GMT</pubDate>
     </item>
   </channel>
 </rss>
